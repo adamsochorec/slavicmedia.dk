@@ -377,7 +377,8 @@ img {
   padding: 0;
   font-size: 1rem;
   color: white;
-  font-family: IBM logo,sans-serif;
+  font-family: "IBM";
+  opacity: 30%;
 }
 .second{
   margin-right: 3px;
@@ -387,7 +388,9 @@ img {
 }
 .copyright-year{
   font-family: Futura PT;
-  padding: 0 0 1rem 0.5rem;
+  font-size: 1rem;
+  padding: 0 0.2rem 0 0;
+  transform: translateY(-0.06rem);
 }
 .fa-unity, .fa-flickr, .fa-github{
   color: white;
