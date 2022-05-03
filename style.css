@@ -174,11 +174,15 @@ hr{
 img {
   background-color: white;
   border-radius: 2px;
+  max-width: 100%;
 }
-.generator-center, .calculator-center, .tfa-center{
+.generator-center, .tfa-center{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.links{
+  list-style: decimal;
 }
 
 /* PASSWORD GENERATOR START */
@@ -205,7 +209,7 @@ img {
   position: relative;
   transition: transform .4s; 
   color: black;
-  margin-left: -1rem;
+  left: -30px;
 }
 .fa-copy:hover{
   transform: scale(1.3);
@@ -213,7 +217,7 @@ img {
 .inputBox input, .inputBox #btn,.inputBox #btn:after{
   width: 21rem;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 415px){
   .inputBox input{
     font-size: 0.6rem;
   }
@@ -223,7 +227,9 @@ img {
   .inputBox input::placeholder{
     font-size: 0;
   }
-
+  .fa-copy:hover{
+    transform: none;
+  }
 }
 
   /* BUTTON HOVER START */
@@ -244,6 +250,9 @@ img {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    }
+    #btn{
+      cursor: pointer;
     }
     .inputBox #btn:after {
     --slice-0: inset(50% 50% 50% 50%);
@@ -314,7 +323,7 @@ img {
       transform: translate(0);
     }
     }
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 415px){
     .inputBox #btn,.inputBox #btn:after {
       height: 3rem;
       font-size: 0.8rem;
@@ -322,41 +331,6 @@ img {
   }
   /* BUTTON HOVER START */
 /* GENERATE PASSWORD BUTTON END */
-    
-/* 2FA START */
-    .tfa-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    }
-    .tfaCode{
-      text-align: center;
-    }
-    h1.tfa {
-      color: #0070C9;
-      font-size: 2rem;
-      display: inline;
-    }
-    @media only screen and (max-width: 647px){
-      h1.tfa {
-        font-size: 1.5rem;
-        display: inline;
-      }
-    }
-    @media only screen and (max-width: 460px){
-      h1.tfa {
-        font-size: 0.9rem;
-        display: inline;
-      }
-      .tfa-grid{
-        grid-gap: 10px;
-      }
-    }
-/* 2FA END */
-
-img{
-  max-width: 100%;
-}
 
 /* GO TO THE TOP BUTTON START */
 .gotopbtn{

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      // 2FA numbers
+
+// 1.
+(function () {
+let tfaCode = ["483 130","583 059","574 028","190 459","869 248","294 905","103 059" ],
+i = -1;
+setInterval(function(){ $('.tfaCode').fadeOut(function(){
+  $(this).html(tfaCode[(i = (i + 1) % tfaCode.length)]).fadeIn();
+  }); }, 1000)
+})();
+//2.
+(function () {
+let tfaCodee = ["483 130","583 059","574 028","190 459","869 248","294 905","103 059" ],
+i = -1;
+setInterval(function(){ $('.tfaCodee').fadeOut(function(){
+  $(this).html(tfaCodee[(i = (i + 1) % tfaCodee.length)]).fadeIn();
+  }); }, 1500)
+})();
+// 3.
+(function () {
+let tfaCodeee = ["483 130","583 059","574 028","190 459","869 248","294 905","103 059" ],
+i = -1;
+setInterval(function(){ $('.tfaCodeee').fadeOut(function(){
+  $(this).html(tfaCodeee[(i = (i + 1) % tfaCodeee.length)]).fadeIn();
+  }); }, 1000)
+})();
+// 4.
+(function () {
+let tfaCodeeee = ["483 130","583 059","574 028","190 459","869 248","294 905","103 059" ],
+i = -1;
+setInterval(function(){ $('.tfaCodeeee').fadeOut(function(){
+  $(this).html(tfaCodeeee[(i = (i + 1) % tfaCodeeee.length)]).fadeIn();
+  }); }, 1500)
+})();
+  </script>
+   <style>
+    /* 2FA START */
+.tfa-grid{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 1rem;
+}
+.tfaCode{
+  text-align: center;
+}
+h1.tfa {
+  color: #0070C9;
+  font-size: 2rem;
+  display: inline;
+}
+@media only screen and (max-width: 647px){
+  h1.tfa {
+    font-size: 1.5rem;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 460px){
+  h1.tfa {
+    font-size: 0.9rem;
+    display: inline;
+  }
+  .tfa-grid{
+    grid-gap: 10px;
+  }
+}
+/* 2FA END */
+</style>
+</head>
+<body>
+    
+    <div class="tfa-grid">
+        <div class="grid-item">
+          <h1 class="tfa"><span class="tfaCode">902 844</span></h1>
+          <h1 class="tfa"><span class="tfaCode">024 930</span></h1>
+          <h1 class="tfa"><span class="tfaCode">056 929</span></h1>
+        </div>
+        <div class="grid-item">
+          <h1 class="tfa"><span class="tfaCodee">039 032</span></h1>
+          <h1 class="tfa"><span class="tfaCodee">983 230</span></h1>
+          <h1 class="tfa"><span class="tfaCodee">663 892</span></h1>
+        </div>
+        <div class="grid-item">
+          <h1 class="tfa"><span class="tfaCodeee">780 320</span></h1>
+          <h1 class="tfa"><span class="tfaCodeee">401 024</span></h1>
+          <h1 class="tfa"><span class="tfaCodeee">896 309</span></h1>
+        </div>
+        <div class="grid-item">
+          <h1 class="tfa"><span class="tfaCodeeee">930 324</span></h1>
+          <h1 class="tfa"><span class="tfaCodeeee">609 714</span></h1>
+          <h1 class="tfa"><span class="tfaCodeeee">595 469</span></h1>
+        </div>
+    </div>
+</body>
+</html>
