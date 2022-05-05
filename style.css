@@ -333,6 +333,15 @@ img {
   /* BUTTON HOVER START */
 /* GENERATE PASSWORD BUTTON END */
 
+
+.password-calculator{
+  width: 100%;
+  height:730px;
+}
+
+
+
+
  /* 2FA START */
  .tfa-grid{
   display: grid;
