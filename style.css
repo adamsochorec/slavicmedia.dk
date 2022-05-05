@@ -36,6 +36,7 @@ header{
 }
 a {
   text-decoration: none;
+  color: #0070C9
 }
 .navbar-style{
   color: #0070C9;
@@ -44,7 +45,7 @@ a {
 .logo-e{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 .navbar-style:hover{
   color: purple;
@@ -176,7 +177,7 @@ img {
   border-radius: 2px;
   max-width: 100%;
 }
-.generator-center, .tfa-center{
+.generator-center, .password-calculators-center, .tfa-center{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -332,6 +333,36 @@ img {
   /* BUTTON HOVER START */
 /* GENERATE PASSWORD BUTTON END */
 
+ /* 2FA START */
+ .tfa-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  }
+  .tfaCode{
+    text-align: center;
+  }
+  h1.tfa {
+    color: #0070C9;
+    font-size: 2rem;
+    display: inline;
+  }
+  @media only screen and (max-width: 647px){
+    h1.tfa {
+      font-size: 1.5rem;
+      display: inline;
+    }
+  }
+  @media only screen and (max-width: 460px){
+    h1.tfa {
+      font-size: 0.9rem;
+      display: inline;
+    }
+    .tfa-grid{
+      grid-gap: 10px;
+    }
+  }
+  /* 2FA END */
 /* GO TO THE TOP BUTTON START */
 .gotopbtn{
   position: fixed;
@@ -360,37 +391,16 @@ img {
 /* GO TO THE TOP BUTTON END */
 
 /* FOOTER START*/
+.footer1-wrapper{
+  width: 9rem;
+  margin: 0 auto;
+}
 .footer-icons{
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
-}
-.wrapper-footer-icons{
-  width: 9rem;
-  margin: 0 auto;
-}
-.copyright {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0;
-  font-size: 1rem;
-  color: white;
-  font-family: "IBM";
-  opacity: 30%;
-}
-.second{
-  margin-right: 3px;
-}
-.r{
-  font-size: 0.4rem;
-}
-.copyright-year{
-  font-family: Futura PT;
-  font-size: 1rem;
-  padding: 0 0.2rem 0 0;
-  transform: translateY(-0.06rem);
+  margin-bottom: 2rem;
 }
 .fa-unity, .fa-flickr, .fa-github{
   color: white;
@@ -399,7 +409,35 @@ img {
   color: purple;
   transition: all 0.3s ease-in-out;
 }
-
+.footer2, .footer3 {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  opacity: 30%;
+  font-family: source-sans-pro,sans-serif;
+}
+.copyright{
+  font-size: 1rem;
+  padding: 0 0.3rem 0 0;
+  transform: translateY(-0.29rem);
+}
+.ecorp{
+  font-family: "IBM";
+  font-size: 0.72rem;
+  margin-right: 0.3rem;
+}
+@media only screen and (max-width: 420px){
+  .copyright{
+    font-size: 0.7rem;
+    padding: 0 0.3rem 0 0;
+    transform: translateY(-0.22rem);
+  }
+  .ecorp{
+    font-size: 0.48rem;
+    margin-right: 0.2rem;
+  }
+}
 /* FOOTER END*/
 
 
