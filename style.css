@@ -3,19 +3,19 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-@font-face {
-  font-family: "IBM";
+@font-face{
+  font-family: IBM;
   src: url(fonts/IBM.ttf) format("truetype");
-  font-weight: normal;
+  font-weight: 400;
 }
 body{
-  background-color: rgb(40, 40, 40);
+  background-color: #282828;
   overflow-x: hidden;
 }
 
 /* MENU START */
 header{
-  background-color: black;
+  background-color: #000;
   height: 4.3rem;
   z-index: 9999999999999999;
   font-family: "IBM";
@@ -24,7 +24,7 @@ header{
   justify-content: center;
   padding: 0 2.5rem;
   font-size: 1.75rem;
-  position: fixed;
+  position: rela;
   width: 100%;
   opacity: 95%;
 }
@@ -134,7 +134,6 @@ a {
       height: 3.3rem;
     }
   }
-
   /* MENU QUERRIES END */
 /* MENU END */
 main {
@@ -167,6 +166,16 @@ p, .ul-content{
   font-size: 1rem;
   font-weight: 300;
   color: white;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.tab-pane{
+  color: #fff;
+}
+.list-group-item.active {
+  background-color: #0070C9;
+  border-color: #0070C9;
 }
 main li{
   padding: 0.3rem 0;
@@ -176,7 +185,9 @@ main li{
 }
 hr{
   margin: 3rem 0; 
-  color: white;
+  border: 0.1px solid ;
+  color: grey;
+  opacity: 60%;
 }
 img {
   background-color: white;
@@ -403,16 +414,14 @@ img {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  background-color: black;
 }
 .gotopbtn:hover{
   opacity: 70%;
   transition: all 0.3s ease-in-out;
   color: white;
 }
-.fa-arrow-up:hover{
-  transform: scale(1.2);
-  transition: all 0.3s ease-in-out;
-}
+
 /* GO TO THE TOP BUTTON END */
 
 /* FOOTER START*/
@@ -427,25 +436,31 @@ img {
   padding: 0;
   margin-bottom: 2rem;
 }
-.fa-unity, .fa-flickr, .fa-github{
+.fa-unity, .fa-flickr, .fa-github, .fa-instagram{
   color: white;
 }
-.fa-unity:hover, .fa-flickr:hover, .fa-github:hover{
+.fa-unity:hover, .fa-flickr:hover, .fa-github:hover, .fa-instagram:hover{
   color: purple;
   transition: all 0.3s ease-in-out;
 }
-.footer2, .footer3 {
+.footer2, .footer2 {
   list-style: none;
   display: flex;
   justify-content: center;
   color: white;
-  opacity: 30%;
   font-family: source-sans-pro,sans-serif;
+  opacity: 30%;
+}
+.cookies-margin{
+  margin-top: 0.5rem;
+}
+h6{
+  font-size: 1rem;
 }
 .copyright{
   font-size: 1rem;
   padding: 0 0.3rem 0 0;
-  transform: translateY(-0.29rem);
+  transform: translateY(-0.34rem);
 }
 .ecorp{
   font-family: "IBM";
