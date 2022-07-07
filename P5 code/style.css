@@ -12,7 +12,6 @@ body{
   background-color: #282828;
   overflow-x: hidden;
 }
-
 /* MENU START */
 header{
   background-color: #000;
@@ -24,7 +23,7 @@ header{
   justify-content: center;
   padding: 0 2.5rem;
   font-size: 1.75rem;
-  position: rela;
+  position: absolute;
   width: 100%;
   opacity: 95%;
 }
@@ -79,6 +78,25 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: #0070C9;
 }
+/* SCROLL STATUS START */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  opacity: 50%;
+  position: fixed;
+  top: 0rem;
+  z-index: 99999999;
+}
+
+.progress-bar {
+  height: 8px;
+  background: purple;
+  width: 0%;
+  z-index: 9999999999;
+
+}
+/* SCROLl STATUS END */
 
   /* MENU QUERRIES START */
   @media only screen and (max-width: 900px){
@@ -415,6 +433,7 @@ img {
   font-size: 2rem;
   color: white;
   background-color: black;
+
 }
 .gotopbtn:hover{
   opacity: 70%;
