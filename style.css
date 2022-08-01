@@ -12,6 +12,12 @@ body{
 background-color:#282828;
 overflow-x:hidden
 }
+body .about{
+  background-image: url(/img/photos/cover.gif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed
+}
 /*MENU START*/
 header{
 background-color:#000;
@@ -507,16 +513,15 @@ margin-right:.3rem
   grid-template-columns:repeat(1, 1fr)
 }
 .double{
-  grid-template-columns:repeat(2, 1fr)
+  grid-template-columns:repeat(2, 1fr);
 }
 .triple{
-  grid-template-columns:repeat(3, 1fr)
+  grid-template-columns:repeat(3, 1fr);
+
 }
 .photos-grid-container img{
-    width:auto;
-    height:auto;
-    border-radius:0
-}
+    border-radius:0;
+  }
 .works{
     padding:1rem 0 0 0
   }
@@ -529,8 +534,8 @@ margin-right:.3rem
 
 /* CONTACT FORM START */
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
-  font:400 12px/16px -apple-system,BlinkMacSystemFont,'SegoeUI',Roboto,Oxygen,Ubuntu,Cantarell,'OpenSans','HelveticaNeue',sans-serif;
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] {
+  font:400 12px/16px apple-system,BlinkMacSystemFont,'SegoeUI',Roboto,Oxygen,Ubuntu,Cantarell,'OpenSans','HelveticaNeue',sans-serif;
 }
 
 fieldset {
@@ -541,13 +546,13 @@ fieldset {
 	width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
 	width:100%;
 	background:#373737;
 	margin:0 0 5px;
 	padding:10px;
+  border: none;
 }
-
 #contact textarea {
 	height:100px;
 	max-width:100%;
@@ -584,7 +589,10 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-#contact input{
+#contact input, textarea{
   color: #888;
 }
+
+
+
 /* CONTACT FORM END */
