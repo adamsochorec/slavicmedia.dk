@@ -16,33 +16,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header> <!-- HEADER START -->
-        <nav class="nav-bar"><!-- NAVIGATION BAR START -->
-          <a class="navbar-style" id="nav-logo" href="about.html">
-              <span class="">Adam Sochorec</span>
-          </a>
-          <ul class="nav-menu"><!-- NAVIGATION BAR LINKS START -->
-            <li class="nav-item">
-                <a class="navbar-style" href="works.html">works</a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-style" href="https://github.com/adamsochorec">web</a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-style" href="index.html">blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="navbar-style" href="about.html">about</a>
-          </li>
-        </ul><!-- NAVIGATION BAR LINKS START -->
-          <div class="hamburger"><!-- RESPONSIVE HAMBURGER MENU START -->
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-          </div><!-- RESPONSIVE HAMBURGER MENU END -->
-      </nav><!-- NAVIGATION BAR END -->
-    </header>
-  <!-- HEADER END -->
+    <!-- HEADER START -->
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headernav.html"); ?>
+    <!-- HEADER END -->
     <main>
       <div class="progress-container">
         <div class="progress-bar" id="myBar"></div>
@@ -216,30 +192,8 @@
             <hr>
       </div>
     </main>
-    <footer>
-      <div class="footer1">
-        <div class="footer1-wrapper">
-          <br><br>
-        <ul class="footer-icons">
-          <li><a href="https://www.instagram.com/accounts/login/?next=/adamsochorec/"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
-          <li><a href="https://www.flickr.com/photos/141401020@N03/"><i class="fa-brands fa-flickr fa-xl"></i></a></li>
-          <li><a href="https://github.com/adamsochorec"><i class="fa-brands fa-github fa-xl"></i></a></li>
-          <li><a href="https://sketchfab.com/adamsochorec"><i class="fa-brands fa-unity fa-xl"></i></a></li>
-        </ul>
-        </div>
-      </div>
-      <div class="footer2">
-        <h6>No cookies.</h6> 
-        
-      </div>
-      <div class="footer2">
-        <span class="copyright cookies-margin">© 2022</span>
-        <span class="ecorp cookies-margin">Adam Sochorec</span>
-      </div>
-      <a class="gotopbtn" href="#"><i class="fa-solid fa-arrow-up"></i></a>
-      <br>
-      <script src="./js/style.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </footer>
-</body>
+    <!-- FOOTER START -->
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.html"); ?>
+    <!-- FOOTER END -->
+  </body>
 </html>
