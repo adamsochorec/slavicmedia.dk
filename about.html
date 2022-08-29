@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- HEADER START -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headernav.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.html"); ?>
     <!-- HEADER END -->
     <main class="about">
       <div class="wrapper">
@@ -27,31 +27,39 @@
           Currently based in Denmark, hereby open to collaborations and projects.​​​​​</p>
         <hr>
         <div class="container">  
-          <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="7b869dd5-45a2-4a6a-bfb9-83a3435ca6ea">
-              <fieldset>
-                <input name="name" placeholder="Name" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <fieldset>
-                <input name="email" placeholder="Email" type="email" tabindex="3" required>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Subject" type="text" tabindex="2" required autofocus>
-              </fieldset>
-              <fieldset>
-                <textarea name="message" placeholder="Type your Message Here...." tabindex="4" required></textarea>
-              </fieldset>
-              <fieldset>
-                <button type="submit" id="btn">Submit</button>             
-                <input type="hidden" name="redirect" value="https://adamsochorec.com/about">                
-              </fieldset>
-          </form>
+          
         </div>
-        <hr>
+        <!-- Wrapper container -->
+      <div class="container py-4">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7b869dd5-45a2-4a6a-bfb9-83a3435ca6ea">
+        <!-- Contact form -->
+        <form id="contactForm">
+          <!-- Name input -->
+          <div class="mb-3">
+            <input name="Name" class="form-control" id="name" type="text" placeholder="Name" required />
+          </div>
+          <!-- Email address input -->
+          <div class="mb-3">
+            <input name="Email" class="form-control" id="emailAddress" type="email" placeholder="Email Address" required/>
+          </div>
+          <!-- Message input -->
+          <div class="mb-3">
+            <textarea name="message" class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+          </div>
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+            <input type="hidden" name="redirect" value="https://adamsochorec.com/success">                
+          </div>
+        </form>
       </div>
-    </main>
+    <hr>
+    </div>
+  </main>
     <!-- FOOTER START -->
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."to-the-top-btn.html"); ?>
     <!-- FOOTER END -->
 </body>
 </html>

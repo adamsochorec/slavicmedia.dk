@@ -222,6 +222,10 @@ align-items:center
 .inputBox input::placeholder{
 letter-spacing:0;font-size:.85rem
 }
+.success{
+  display: flex;
+  justify-content: center;
+}
 .inputBox input{
 position:relative;
 font-size:1rem;
@@ -265,7 +269,7 @@ width:21rem
 }
 /*BUTTON HOVER START*/
 .inputBox #btn,.inputBox #btn:after{
-height:5rem;
+height:rem;
 line-height:1.5rem;
 display:flex;
 justify-content:center;
@@ -597,3 +601,29 @@ fieldset {
   color: #888;
 }
 /* CONTACT FORM END */
+/* SUCCESS START */
+.fa-circle-check, h1.success-text{
+  color:#0070c9
+}
+.circle-check-center{
+  display:flex;
+  justify-content:center;
+}
+h1.success-text{
+  font-size:1rem;
+  font-weight:400;
+  }
+p.success-text{
+ font-size: 0.9rem;
+}
+h1,p.success-text{
+  text-align: center;
+}
+  .wrapper.narrow{
+    width:21rem;
+  }
+
+#btn{
+height:3.5rem;
+}
+/* SUCCESS START */
