@@ -616,7 +616,7 @@ h1.success-text{
 p.success-text{
  font-size: 0.9rem;
 }
-h1,p.success-text{
+h1.success-text, p.success-text{
   text-align: center;
 }
   .wrapper.narrow{
