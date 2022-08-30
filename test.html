@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
+	  <meta name="keywords" content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
+  	<meta name="author" content="E Corp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/kvo5jcu.css">  
+<script src="https://kit.fontawesome.com/04a16a1b99.js" crossorigin="anonymous"></script>  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.html"); ?>
+</head>
+<body>
+    - var max = 18
+- var imgstr = 511
+div#gallery
+  - for(var n=1; n<=max; n++)
+    div
+      img(src= 'https://picsum.photos/600/600/?image='+(imgstr + n))
+      a(href='#lightbox-'+n)= (imgstr + n)
+
+- for(var n=1; n<=max;n++)
+  div.lightbox(id="lightbox-"+n)
+    div.content
+      img(src='https://picsum.photos/1920/1080/?image='+(imgstr+n))
+      .title No. <b>#{imgstr+n}</b> from Picsum
+      a.close(href='#gallery')
+ 
+</body>
+</html>
