@@ -12,7 +12,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/kvo5jcu.css">  
 <script src="https://kit.fontawesome.com/04a16a1b99.js" crossorigin="anonymous"></script>  
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/style.css">
 
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.html"); ?>
@@ -33,29 +32,28 @@
           
         </div>
         <!-- Wrapper container -->
-      <div class="container py-4">
+      <div>
         <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="7b869dd5-45a2-4a6a-bfb9-83a3435ca6ea">
         <!-- Contact form -->
-        <form id="contactForm">
+        <form>
           <!-- Name input -->
-          <div class="mb-3">
-            <input name="Name" class="form-control" id="name" type="text" placeholder="Name" required />
+          <div>
+            <input name="Name" class="control-form" type="text" placeholder="Name" required />
           </div>
           <!-- Email address input -->
-          <div class="mb-3">
-            <input name="Email" class="form-control" id="emailAddress" type="email" placeholder="Email Address" required/>
+          <div>
+            <input name="Email" class="control-form" type="email" placeholder="Email Address" required/>
           </div>
           <!-- Message input -->
-          <div class="mb-3">
-            <textarea name="message" class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+          <div>
+            <textarea name="Message" class="control-form" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
           </div>
           <!-- Form submit button -->
           <section class="glitch-bnt-center">
             <div class="inputBox">
                 <button type="submit" id="btn">submit</a>
                 <input type="hidden" name="redirect" value="https://adamsochorec.com/success">                
-
             </div>
         </section>
         </form>
