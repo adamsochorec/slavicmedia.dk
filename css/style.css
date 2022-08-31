@@ -7,7 +7,7 @@ smooth
 }
 @font-face{
 font-family:IBM;
-src:url(fonts/IBM.ttf)format("truetype");font-weight:400
+src:url(/fonts/IBM.ttf)format("truetype");font-weight:400;
 }
 body{
 background-color:#282828;
@@ -555,6 +555,8 @@ body .about{
   background-size: cover;
   background-attachment: fixed;
 }
+
+img gif
 .about .profile-pic{
   border-radius: 1px 1px 0 0;
 }
