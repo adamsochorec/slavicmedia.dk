@@ -31,8 +31,6 @@ position:absolute;
 width:100%;
 z-index:9999999999999999;
 }
-@media only screen and (max-width:667px){
-}
 .nav-bar{
 align-items:center;
 display:flex;
@@ -78,8 +76,8 @@ display:none
 -webkit-transition:all.3s ease-in-out;
 background-color:#0070c9;
 display:block;
-height:.1875rem;
-margin:.3125rem auto;
+height:.1300rem;
+margin:.3425rem auto;
 transition:all.3s ease-in-out;
 width:1.5rem;
 }
@@ -102,7 +100,10 @@ width:1.5rem;
   }
   .nav-menu.active{
   display:flex;
-  left:0;z-index:99999;
+  align-items: flex-end;
+  padding:0 2.5rem;
+  left:0;
+  z-index:99999;
   }
   .nav-item{
   font-size:1.25rem;
@@ -120,21 +121,21 @@ width:1.5rem;
   }
   .hamburger.active
   .bar:nth-child(1){
-  transform:translateY(8px)rotate(45deg)
+  transform:translateY(7.5px)rotate(45deg)
   }
   .hamburger.active
   .bar:nth-child(3){
   transform:translateY(-8px)rotate(-45deg)
   }
 }
-@media only screen and (max-width:900px) and (orientation:landscape){
-  .nav-menu{
-  padding-top:4.3rem;
-  }
-}
 @media only screen and (max-width:420px){
   header{
   height:3.3rem;
+  }
+}
+@media only screen and (max-width:500px){
+  .logo{
+    font-size: 1rem;
   }
 }
 /*menu end*/
@@ -210,12 +211,12 @@ background-color:#fff;
 border-radius:2px;
 max-width:100%
 }
-.unhide{
-  display: none;
-}
 @media only screen and (max-width:667px){
     header{
-    padding:01rem
+    padding:0.5rem
+    }
+    .nav-menu.active{
+    padding:.5rem;
     }
     main{
       padding:7.5rem 1.25rem 0 1.25rem
@@ -239,10 +240,8 @@ max-width:100%
     .hide{
       display: none;
     }
-    .unhide{
-      display: block;
-    }
   }
+
 /*go to the top button start*/
 .gotopbtn{
   position:fixed;
