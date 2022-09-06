@@ -17,6 +17,8 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+
+
 // SCROLL STATUS
 window.onscroll = function() {myFunction()};
 
@@ -90,5 +92,15 @@ function getPassword(){
 	  $(this).html(tfaCodeeee[(i = (i + 1) % tfaCodeeee.length)]).fadeIn();
 	  }); }, 1500)
 	})();
-	
+
+
+/*
+	// SCROLL DISSABLE 
+function noscroll(){
+	window.scrollTo(0,0);
+}
+
+window.addEventListener("scroll", noscroll);
+*/
+
 
