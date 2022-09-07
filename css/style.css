@@ -48,7 +48,7 @@ height:3.5rem;
 justify-content:center;
 opacity:85%;
 padding:0 2.5rem;
-position:absolute;
+position:fixed;
 width:100%;
 z-index:9999999999999999;
 }
@@ -484,6 +484,29 @@ body .about{
 input.control-form, input.control-form:focus, textarea.control-form, textarea.control-form:focus{
   color: var(--text-color);
 }
+
+/* email link button start*/
+.emailbtn{
+  position:fixed;
+  right:20px;
+  bottom:100px;
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  opacity:80%;
+  text-align:center;
+  line-height:64px;
+  font-size:32px;
+  color:var(--white-color);
+  background-color:var(--primary-color);
+  }
+  .emailbtn:hover{
+  opacity:100%;
+  transition:var(--transition);
+  color:var(--white-color)
+  }
+  /* email link button end*/
+
 /* ABOUT END */
 
 /* SUCCESS START */
@@ -504,6 +527,13 @@ h1.success-text, p.success-text{
   width:21rem;
   }
 /* SUCCESS END */
+
+/* 404 PAGE NOT FOUND START */
+.giphy-embed{
+  border-radius: var(--border-radius);
+}
+/* 404 PAGE NOT FOUND END */
+
 
 
 /* MEDIA QUERRIES START */
