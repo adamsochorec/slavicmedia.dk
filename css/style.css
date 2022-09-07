@@ -14,7 +14,8 @@ smooth
   --content-font:-apple-system,BlinkMacSystemFont,'SegoeUI',Roboto,Oxygen,Ubuntu,Cantarell,'OpenSans','HelveticaNeue',sans-serif;
   --heading-weight:400;
   --paragraph-weight:250;
-  --font-size-1: 1rem;
+  --font-size-1:1rem;
+  --font-size-2:.8rem;
   --logo-font: IBM;
   --border-radius: 2px;
   --transition:all.3s ease-in-out;
@@ -183,10 +184,11 @@ max-width:100%;
 /*go to the top button start*/
 .gotopbtn{
   position:fixed;
-  right:2rem;
-  bottom:2rem;
+  right:20px;
+  bottom:20px;
   width:4rem;
   height:4rem;
+  z-index: 999999999999;
   border-radius:50%;
   opacity:30%;
   text-align:center;
@@ -205,7 +207,12 @@ max-width:100%;
   width:9rem;
   margin:0 auto
   }
+  .about-gotopbtn{
+  right:20px;
+  bottom:100px;
+  }
 /*go to the top button end*/
+
 
 /*glitch button start*/
 .inputBox #btn,.inputBox #btn:after{
@@ -322,7 +329,7 @@ max-width:100%;
   font-weight: var(--paragraph-weight);
   }
   h6{
-  font-size:0.8rem;
+  font-size:var(--font-size-2);
   font-weight: var(--paragraph-weight);
   }
   .copyright{
@@ -339,7 +346,7 @@ max-width:100%;
 /* GENERAL END*/
 
 /* CYBER SECURITY START */
-.glitch-bnt-center,.password-calculators-center,.tfa-center{
+.flex-center{
 display:flex;
 flex-direction:column;
 align-items:center
@@ -360,10 +367,11 @@ color:var(--black-color);
 background-color:var(--text-color);
 }
 .fa-clone{
-position:relative;
 transition: transform .4s;
 color:var(--black-color);
-left:-30px
+position: relative;
+left: 150px;
+bottom: 25px;
 }
 .fa-clone:hover{
 transform:scale(1.3)
@@ -482,10 +490,6 @@ input.control-form, input.control-form:focus, textarea.control-form, textarea.co
 .fa-circle-check, h1.success-text{
   color:var(--primary-color);
 }
-.circle-check-center{
-  display:flex;
-  justify-content:center;
-}
 h1.success-text{
   font-size: var(--font-size-1);
   font-weight:var(--heading-weight);
@@ -509,19 +513,26 @@ h1.success-text, p.success-text{
   }
   .inputBox #btn,.inputBox #btn:after{
   height:3rem;
-  font-size:.8rem
+  font-size:var(--font-size-2);
   }
   .password-calculator{
     filter:saturate(100%)
   }
   .inputBox input{
-    font-size:.6rem
+    font-size:var(--font-size-2);
     }
     .inputBox #btn,.inputBox #btn:after,.inputBox input{
-    width:15rem
+    width:18rem
     }
     .inputBox input::placeholder{
-    font-size:0
+    font-size:var(--font-size-2);
+    }
+    .fa-clone{
+      position: relative;
+      left: 125px;
+    }
+    .fa-clone:hover{
+      transform:none;
     }
 }
 
