@@ -21,6 +21,7 @@ smooth
   --transition:all.3s ease-in-out;
   --menu-padding: 0.5rem;
   --letter-spacing:0.2rem;
+  --background-color:#282828;
 }
 @font-face{
 font-family:IBM;
@@ -31,7 +32,7 @@ font-weight:var(--heading-weight);
   display: none;
 }
 body{
-background-color:#282828;
+background-color:var(--background-color);
 overflow-x:hidden
 }
 img, svg {
@@ -416,6 +417,91 @@ border-radius: var(--border-radius);
 /* CYBER SECURITY END/
 
 /* WORKS START*/
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+
+}
+
+
+
+
+
+
 .photos-grid-container{
   display:grid;
 }
@@ -456,57 +542,6 @@ body .about{
   border-top-left-radius: 0;
   border-top-right-radius:0;
 }
-.control-form{
-    display: block;
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: var(--font-size-1);
-    font-weight:var(--paragraph-weight);
-    letter-spacing: var(--letter-spacing);
-    line-height: 1.5;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    font-family:var(--content-font);
-}
-.control-form, .control-form:focus {
-  background-color: var(--black-color);
-  opacity: 90%;
-  margin-bottom: 1rem;
-  background: hsl(0 0% 100%/0.1);
-  backdrop-filter: blur(0.5rem);
-  
-}
-.control-form,.btn .btn-primary, .btn-lg{
-  border-radius: var(--border-radius);
-  border: none;
-}
-input.control-form, input.control-form:focus, textarea.control-form, textarea.control-form:focus{
-  color: var(--text-color);
-}
-
-/* email link button start*/
-.emailbtn{
-  position:fixed;
-  right:20px;
-  bottom:100px;
-  width:64px;
-  height:64px;
-  border-radius:50%;
-  opacity:80%;
-  text-align:center;
-  line-height:64px;
-  font-size:32px;
-  color:var(--white-color);
-  background-color:var(--primary-color);
-  }
-  .emailbtn:hover{
-  opacity:100%;
-  transition:var(--transition);
-  color:var(--white-color)
-  }
-  /* email link button end*/
-
 /* ABOUT END */
 
 /* SUCCESS START */
