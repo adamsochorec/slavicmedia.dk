@@ -41,7 +41,26 @@ overflow-x:hidden
 img, svg {
   vertical-align: middle;
 }
-/*menu start*/
+/* loading animation start */
+.loader-lottie{
+  width: 30%;
+}
+.loader-wrapper{
+  background: var(--black-color);
+  opacity: 70%;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99999999;
+}
+/* loading animation end */
+
+/* menu start */
 header{
 align-items:center;
 background-color:var(--black-color);
@@ -50,7 +69,6 @@ font-family:var(--logo-font);
 font-size:1.45rem;
 height:3.5rem;
 justify-content:center;
-opacity:100%;
 padding:0 2.5rem;
 position:fixed;
 width:100%;
@@ -106,8 +124,8 @@ transition:var(--transition);
 width:1.5rem;
 border-radius: 20px;
 }
-/*menu end*/
-/*scroll status start*/
+/* menu end */
+/* scroll status start */
 .progress-container{
 position:fixed;
 top:3.25rem;
@@ -120,14 +138,14 @@ height:4px;
 border-top-right-radius: var(--border-radius);
 border-bottom-right-radius: var(--border-radius);
 }
-/*scroll status end*/
+/* scroll status end*/
 main{
 align-items:center;
 display:flex;flex-direction:column;
 font-family:var(--content-font);
 padding-top:6rem;
 }
-.wrapper, hr{
+.wrapper, hr, .error-lottie{
 width:37.5rem
 }
 h1{
@@ -173,6 +191,7 @@ color:grey;
 margin:3rem 0;
 opacity:60%;
 }
+
 img{
 background:var(--white-color);
 border-radius:var(--border-radius);
@@ -384,7 +403,6 @@ border-radius: var(--border-radius);
   display:inline
   }
 /*2FA start*/
-
 /* CYBER SECURITY END/
 
 /* WORKS START*/
@@ -486,7 +504,10 @@ border-radius: var(--border-radius);
 /* ABOUT END */
 
 /* SUCCESS START */
-.fa-circle-check, h1.success-text{
+.success-lottie{
+width: 120px;
+}
+h1.success-text{
   color:var(--primary-color);
 }
 h1.success-text{
@@ -503,13 +524,6 @@ h1.success-text, p.success-text{
   width:21rem;
   }
 /* SUCCESS END */
-
-/* 404 PAGE NOT FOUND START */
-.giphy-embed{
-  border-radius: var(--border-radius);
-}
-/* 404 PAGE NOT FOUND END */
-
 
 /* MEDIA QUERRIES START */
 @media only screen and (max-width:415px){
@@ -605,7 +619,7 @@ h1.success-text, p.success-text{
   main{
     padding:7.5rem 1.25rem 0 1.25rem
   }
-  .wrapper, hr{
+  .wrapper, hr, .error-lottie{
   max-width:100%
   }
   h1{
@@ -625,6 +639,7 @@ h1.success-text, p.success-text{
   .nav-menu{
   background-color:var(--black-color);
   flex-direction:column;
+  align-items: flex-end;
   height:100%;
   justify-content:center;
   left:100%;
@@ -632,7 +647,9 @@ h1.success-text, p.success-text{
   top:0;
   transition:var(--transition);
   width:100%;
+  opacity: 50%;
   }
+
   .nav-menu.active{
   display:flex;
   align-items: flex-end;
@@ -643,6 +660,7 @@ h1.success-text, p.success-text{
   .nav-item{
   font-size:var(--font-size-1);
   margin:1rem 0;
+  opacity: 100%;
   }
   .hamburger{
   cursor:pointer;
@@ -661,11 +679,16 @@ h1.success-text, p.success-text{
   .bar:nth-child(3){
   transform:translateY(-8px)rotate(-45deg)
   }
-  .progress-container, .progress-bar{
-    display: none;
-  }
   header{
     padding:var(--menu-padding);
+  }
+  main.blur, footer.blur, aside.blur{
+    filter: blur(1rem);
+  -webkit-filter: blur(1rem);
+  }
+  .progress-bar.hide{
+    display: none;
+    z-index: 0;
   }
 }
 /* MEDIA QUERRIES END */
