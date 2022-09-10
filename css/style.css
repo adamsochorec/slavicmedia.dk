@@ -47,11 +47,11 @@ font-family:var(--logo-font);
 font-size:1.45rem;
 height:3.5rem;
 justify-content:center;
-opacity:85%;
+opacity:100%;
 padding:0 2.5rem;
 position:fixed;
 width:100%;
-z-index:9999999999999999;
+z-index:9999;
 }
 .nav-bar{
 align-items:center;
@@ -66,16 +66,18 @@ font-weight: var(--paragraph-weight);
 }
 .navbar-style{
 color:var(--primary-color);
-padding-top:6px
+padding-top:6px;
 }
 .logo-e{
 -webkit-transform:scaleX(-1);
 margin-right:.8rem;
 transform:scaleX(-1);
 }
+
 .navbar-style:hover{
 color:var(--secondary-color);
 transition:var(--transition);
+text-shadow: 3px 3px var(--primary-color)
 }
 #nav-logo{
 display:flex;
@@ -110,18 +112,16 @@ border-radius: 20px;
 /*menu end*/
 /*scroll status start*/
 .progress-container{
-background:#ccc;
-height:8px;
-opacity:50%;
 position:fixed;
-top:0;
+top:3.25rem;
 width:100%;
 z-index:99999999
 }
 .progress-bar{
 background:var(--secondary-color);
-height:8px;
-width:0%;z-index:9999999999
+height:4px;
+border-top-right-radius: var(--border-radius);
+border-bottom-right-radius: var(--border-radius);
 }
 /*scroll status end*/
 main{
@@ -181,39 +181,6 @@ background:var(--white-color);
 border-radius:var(--border-radius);
 max-width:100%;
 }
-
-/*go to the top button start*/
-.gotopbtn{
-  position:fixed;
-  right:20px;
-  bottom:20px;
-  width:4rem;
-  height:4rem;
-  z-index: 999999999999;
-  border-radius:50%;
-  opacity:30%;
-  text-align:center;
-  line-height:4rem;
-  text-decoration:none;
-  font-size:2rem;
-  color:var(--white-color);
-  background-color:var(--black-color);
-  }
-  .gotopbtn:hover{
-  opacity:70%;
-  transition:var(--transition);
-  color:#fff
-  }
-  .footer1-wrapper{
-  width:9rem;
-  margin:0 auto
-  }
-  .about-gotopbtn{
-  right:20px;
-  bottom:100px;
-  }
-/*go to the top button end*/
-
 
 /*glitch button start*/
 .inputBox #btn,.inputBox #btn:after{
@@ -308,10 +275,11 @@ max-width:100%;
   display:flex;
   justify-content:space-evenly;
   padding:0;
-  margin-bottom:2rem
+  margin-bottom:2rem;
   }
   .fa-flickr,.fa-github,.fa-instagram,.fa-unity{
   color:var(--white-color);
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .fa-flickr:hover,.fa-github:hover,.fa-instagram:hover,.fa-unity:hover{
   color:var(--secondary-color);
@@ -323,8 +291,9 @@ max-width:100%;
   justify-content:center;
   color:var(--text-color);
   font-family:var(--content-font);
-  opacity:30%
-  }
+  opacity:30%;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
   .cookies-margin{
   margin-top:.5rem;
   font-weight: var(--paragraph-weight);
@@ -332,17 +301,22 @@ max-width:100%;
   h6{
   font-size:var(--font-size-2);
   font-weight: var(--paragraph-weight);
+  text-shadow:none;
   }
   .copyright{
   font-size:0.95rem;
   padding:0 .3rem 0 0;
-  transform:translateY(-.29rem)
+  transform:translateY(-.29rem);
   }
   .ecorp{
   font-family:var(--logo-font);
   font-size:.72rem;
   margin-right:.3rem
   }
+  .footer1-wrapper{
+    width:9rem;
+    margin:0 auto
+    }
 /*footer end*/
 /* GENERAL END*/
 
@@ -603,7 +577,7 @@ h1.success-text, p.success-text{
 
 @media only screen and (max-width:420px){
   header{
-    height:3.3rem;
+    height:3.1rem;
   }
   .copyright{
   font-size:0.6rem;
@@ -613,6 +587,9 @@ h1.success-text, p.success-text{
   .ecorp{
   font-size:.48rem;
   margin-right:.2rem
+  }
+  .progress-container{
+    top:2.9rem;
   }
 }
 
@@ -647,7 +624,11 @@ h1.success-text, p.success-text{
   display:inline
   }
 }
-
+@media only screen and (min-width:647px){
+.logo{
+  font-size: var(--font-size-2);
+}
+}
 @media only screen and (max-width:667px){
   header{
   padding:var(--menu-padding);
@@ -697,7 +678,7 @@ h1.success-text, p.success-text{
   align-items: flex-end;
   padding:0 2.5rem;
   left:0;
-  z-index:99999;
+  z-index:999999;
   }
   .nav-item{
   font-size:1.25rem;
@@ -720,6 +701,9 @@ h1.success-text, p.success-text{
   .hamburger.active
   .bar:nth-child(3){
   transform:translateY(-8px)rotate(-45deg)
+  }
+  .progress-container, .progress-bar{
+    display: none;
   }
 }
 /* MEDIA QUERRIES END */
