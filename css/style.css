@@ -637,7 +637,7 @@ h1.success-text, p.success-text{
 }
 @media only screen and (max-width:900px){
   .nav-menu{
-  background-color:var(--black-color);
+  background-color:hsl(0, 0, 10%);
   flex-direction:column;
   align-items: flex-end;
   height:100%;
@@ -645,9 +645,9 @@ h1.success-text, p.success-text{
   left:100%;
   position:fixed;
   top:0;
+  opacity: 100%;
   transition:var(--transition);
   width:100%;
-  opacity: 50%;
   }
 
   .nav-menu.active{
@@ -688,7 +688,6 @@ h1.success-text, p.success-text{
   }
   .progress-bar.hide{
     display: none;
-    z-index: 0;
   }
 }
 /* MEDIA QUERRIES END */
