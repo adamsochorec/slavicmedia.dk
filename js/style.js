@@ -1,12 +1,25 @@
+/* PRELOADING ANIMATION */
+	$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow");
+	  });
+
 // HAMBURGER MENU
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const blurMain = document.querySelector("main");
+const blurFooter = document.querySelector("footer");
+const blurAside = document.querySelector("aside");
+const hideBar = document.querySelector(".progress-bar");
 
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+	blurMain.classList.toggle("blur");
+	blurFooter.classList.toggle("blur");
+	blurAside.classList.toggle("blur");
+	hideBar.classList.toggle("hide");
 }
 const navLink = document.querySelectorAll(".nav-link");
 
@@ -15,9 +28,11 @@ navLink.forEach(n => n.addEventListener("click", closeMenu));
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
+	blurMain.classList.remove("blur");
+	blurFooter.classList.remove("blur");
+	blurAside.classList.remove("blur");
+	hideBar.classList.remove("hide");
 }
-
-
 
 // SCROLL STATUS
 window.onscroll = function() {myFunction()};
@@ -92,16 +107,3 @@ function getPassword(){
 	  $(this).html(tfaCodeeee[(i = (i + 1) % tfaCodeeee.length)]).fadeIn();
 	  }); }, 1500)
 	})();
-
-
-	
-/*
-	// SCROLL DISSABLE 
-function noscroll(){
-	window.scrollTo(0,0);
-}
-
-window.addEventListener("scroll", noscroll);
-*/
-
-
