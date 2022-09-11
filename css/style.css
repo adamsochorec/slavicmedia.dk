@@ -17,7 +17,7 @@ scroll-behavior:smooth
   --font-size-2:.8rem;
   --logo-font: IBM;
   --text-color:#fff;
-  --letter-spacing:0.2rem;
+  --letter-spacing:0.1rem;
   --heading-weight:400;
   --paragraph-weight:250;
   --content-font:-apple-system,BlinkMacSystemFont,'SegoeUI',Roboto,Oxygen,Ubuntu,Cantarell,'OpenSans','HelveticaNeue',sans-serif;
@@ -43,7 +43,7 @@ img, svg {
 }
 /* loading animation start */
 .loader-lottie{
-  width: 30%;
+  width: 10%;
 }
 .loader-wrapper{
   background: var(--black-color);
@@ -505,7 +505,7 @@ border-radius: var(--border-radius);
 
 /* SUCCESS START */
 .success-lottie{
-width: 120px;
+width: 100px;
 }
 h1.success-text{
   color:var(--primary-color);
@@ -683,11 +683,14 @@ h1.success-text, p.success-text{
     padding:var(--menu-padding);
   }
   main.blur, footer.blur, aside.blur{
-    filter: blur(1rem);
-  -webkit-filter: blur(1rem);
+    filter: blur(1.5rem);
+  -webkit-filter: blur(1.5rem);
   }
   .progress-bar.hide{
     display: none;
+  }
+  .loader-lottie{
+    width: 30%;
   }
 }
 /* MEDIA QUERRIES END */
