@@ -23,7 +23,8 @@
       <!-- SCROLL STATUS END -->
       <main> 
         <article class="wrapper">
-            <h1 class="cyber-security-h1">Secure and sustainable digital identity</h1>
+            <h1 class="v1">Secure and sustainable digital identity</h1>
+          <article>
             <div class="row hide">
               <div class="col-4">
                 <div class="list-group" id="list-tab" role="tablist">
@@ -64,10 +65,10 @@
                 </div>
               </div>
             </div>
-          <br>
-          </aside>
+            <br>
             <h3>Essential steps leading to your secure and healthy online presence.</h3>
-            <article>
+          </article>
+          <article>
             <section>
               <hr id="1.1">
               <h2>1.1 Contemporary passwords</h2>
