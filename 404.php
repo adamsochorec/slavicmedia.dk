@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name="description" content="Page not found">
+      <meta name="description" content="The page you’re looking for can’t be found.">
       <meta name="keywords" content="Page not found, 404, 404 Error, Error">
       <meta name="author" content="Adam Sochorec">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>404</title>
+      <title>Page Not Found | Adam Sochorec</title>
       <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
   </head>
   <body>
@@ -23,9 +23,10 @@
                   <lottie-player class="error-lottie" src="/json/404.json" background="transparent" speed="2" loop autoplay></lottie-player>           
               </section>
               <br>
+              <h1 class="success-text">The page you’re looking for can’t be found.</h2>
               <section class="flex-center">
                   <div class="inputBox">
-                      <a href="/works"><div id="btn">go home</div></a>
+                      <a href="/works"><div id="btn">return home</div></a>
                   </div>
               </section>
           </article>
