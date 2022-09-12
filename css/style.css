@@ -72,7 +72,7 @@ justify-content:center;
 padding:0 2.5rem;
 position:fixed;
 width:100%;
-z-index:99999999;
+z-index:999999999;
 }
 .nav-bar{
 align-items:center;
@@ -554,7 +554,6 @@ h1.success-text, p.success-text{
       transform:none;
     }
 }
-
 @media only screen and (max-width:420px){
   header{
     height:3.1rem;
@@ -686,7 +685,7 @@ h1.success-text, p.success-text{
     filter: blur(1.5rem);
   -webkit-filter: blur(1.5rem);
   }
-  .progress-bar.hide{
+  .progress-bar.hide, .elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85.hide, .elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443.hide {
     display: none;
   }
   .loader-lottie{

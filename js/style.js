@@ -1,4 +1,4 @@
-/* PRELOADING ANIMATION */
+// PRELOADING ANIMATION
 	$(window).on("load",function(){
 		$(".loader-wrapper").fadeOut("slow");
 	  });
