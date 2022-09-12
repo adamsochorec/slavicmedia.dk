@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
       <meta name="keywords" content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
-      <meta name="author" content="E Corp">
+      <meta name="author" content="Adam Sochorec">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Cyber security</title>
@@ -18,7 +18,6 @@
       <!-- HEADER END -->
       <main> 
         <article class="wrapper">
-          <aside>
             <h1 class="cyber-security-h1">Secure and sustainable digital identity</h1>
             <div class="row hide">
               <div class="col-4">
@@ -209,14 +208,14 @@
         </article>
         </article>
       </main>
-      <aside>
-        <!-- Scroll status -->
-      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
-    </aside>
       <!-- FOOTER START -->
       <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-    </footer>  
+      </footer>  
       <!-- FOOTER END -->
+      <aside>
+      <!-- Scroll status -->
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+      </aside>
     </body>
 </html>

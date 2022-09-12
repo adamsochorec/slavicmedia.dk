@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
-      <meta name="keywords" content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
-      <meta name="author" content="E Corp">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="author" content="Adam Sochorec">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>About</title>
@@ -37,12 +37,12 @@
       </footer>
       <!-- FOOTER END -->
       <aside>
+      <!-- Scroll status -->
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
       <!-- Contact form -->
         <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
       <!-- Whatssapp form -->
         <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
-      <!-- Scroll status -->
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
       </aside>
   </body>
 </html>        
