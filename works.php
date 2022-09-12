@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
-      <meta name="keywords" content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
-      <meta name="author" content="E Corp">
+      <meta name="description" content="">
+      <meta name="keywords" content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art">
+      <meta name="author" content="Adam Sochorec">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Works</title>
@@ -16,10 +16,6 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
       </header>    
       <!-- HEADER END -->
-      <aside>
-        <!-- Scroll status -->
-      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
-    </aside>
       <main class="works">
             <article class="wrapper">
               <section>
@@ -43,5 +39,9 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
       </footer>
       <!-- FOOTER END -->
+      <aside>
+        <!-- Scroll status -->
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+      </aside>
   </body>
 </html>
