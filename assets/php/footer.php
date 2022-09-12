@@ -18,13 +18,10 @@
       <span class="ecorp cookies-margin">Adam Sochorec</span>
     </div>
     <br>
-    <div class="loader-wrapper">
-      <lottie-player class="loader-lottie" src="/json/loading.json" background="transparent" speed="1" loop autoplay></lottie-player>           
-    </div>
-    <script src="./js/style.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./js/lootie-player.js"></script>
     <script src="https://kit.fontawesome.com/04a16a1b99.js" crossorigin="anonymous"></script>  
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <script src="/js/elfsight.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/lootie-player.js"></script>
+    <script src="/js/elfsight.js" defer></script>
+    <script src="./js/style.js"></script>
