@@ -11,11 +11,20 @@
       <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
   </head>
   <body>
-        <!-- HEADER START -->
+      <!-- HEADER START + Scroll status -->
       <header>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
       </header>    
       <!-- HEADER END -->
+      <!-- SCROLL STATUS + CONTACT FORMS START -->
+      <aside>
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+      <!-- Contact form -->
+        <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
+      <!-- Whatssapp form -->
+        <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
+      </aside>
+      <!-- SCROLL STATUS + CONTACT FORMS END -->
       <main class="about">
         <arcticle class="wrapper">
           <section>
@@ -36,14 +45,6 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
       </footer>
       <!-- FOOTER END -->
-      <aside>
-      <!-- Scroll status -->
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
-      <!-- Contact form -->
-        <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
-      <!-- Whatssapp form -->
-        <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
-      </aside>
   </body>
 </html>        
 

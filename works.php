@@ -14,22 +14,19 @@
       <!-- HEADER START -->
       <header>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
-      </header>    
+      </header>  
       <!-- HEADER END -->
+      <!-- SCROLL STATUS START -->
+      <aside>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+      </aside>
+      <!-- SCROLL STATUS END -->
       <main class="works">
             <article class="wrapper">
               <section>
                 <img src="/img/photos/1.webp">
                 <img src="/img/photos/2.webp">
                 <img src="/img/photos/3.webp">
-                <img src="/img/photos/4.webp">
-                <img src="/img/photos/5.webp">
-                <img src="/img/photos/6.webp">
-                <img src="/img/photos/7.webp">
-                <img src="/img/photos/8.webp">
-                <img src="/img/photos/9.webp">
-                <img src="/img/photos/10.webp">
-                <img src="/img/photos/11.webp">
               </section>
               <hr>
             </article>          
@@ -39,9 +36,5 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
       </footer>
       <!-- FOOTER END -->
-      <aside>
-        <!-- Scroll status -->
-      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
-      </aside>
   </body>
 </html>
