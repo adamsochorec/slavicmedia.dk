@@ -1,8 +1,3 @@
-// PRELOADING ANIMATION
-	$(window).on("load",function(){
-		$(".loader-wrapper").fadeOut("slow");
-	  });
-
 // HAMBURGER MENU
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");

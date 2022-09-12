@@ -14,8 +14,13 @@
       <!-- HEADER START -->
       <header>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
-      </header>
+      </header>    
       <!-- HEADER END -->
+      <!-- SCROLL STATUS START -->
+      <aside>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+      </aside>
+      <!-- SCROLL STATUS END -->
       <main> 
         <article class="wrapper">
             <h1 class="cyber-security-h1">Secure and sustainable digital identity</h1>
@@ -213,9 +218,5 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
       </footer>  
       <!-- FOOTER END -->
-      <aside>
-      <!-- Scroll status -->
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
-      </aside>
     </body>
 </html>
