@@ -21,15 +21,15 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
       </aside>
       <!-- SCROLL STATUS END -->
-      <main class="works">
+      <main >
             <article class="wrapper">
-              <section>
+              <h1 class="v1">Secure and sustainable digital identity</h1>
                 <img src="/img/photos/1.webp">
                 <img src="/img/photos/2.webp">
                 <img src="/img/photos/3.webp">
               </section>
-              <hr>
-            </article>          
+              <hr>        
+            </article>  
       </main>
       <!-- FOOTER START -->
       <footer>

@@ -23,7 +23,7 @@
                   <lottie-player class="error-lottie" src="/json/404.json" background="transparent" speed="2" loop autoplay></lottie-player>           
               </section>
               <br>
-              <h1 class="success-text">The page you’re looking for can’t be found.</h2>
+              <h1 class="v2">The page you’re looking for can’t be found.</h2>
               <section class="flex-center">
                   <div class="inputBox">
                       <a href="/works"><div id="btn">return home</div></a>
