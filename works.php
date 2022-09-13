@@ -27,7 +27,6 @@
                 <img src="/img/photos/1.webp">
                 <img src="/img/photos/2.webp">
                 <img src="/img/photos/3.webp">
-              </section>
               <hr>        
             </article>  
       </main>

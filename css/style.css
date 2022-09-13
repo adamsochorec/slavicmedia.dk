@@ -38,7 +38,7 @@ body{
 background-color:var(--background-color);
 overflow-x:hidden
 }
-img, svg {
+img, svg{
   vertical-align: middle;
 }
 /* menu start */
@@ -387,7 +387,9 @@ border-radius: var(--border-radius);
 /* CYBER SECURITY END/
 
 /* WORKS START*/
-
+.sketchfab-embed-wrapper{
+  width: 600px;
+}
 /* WORKS END*/
 
 /* ABOUT START */
@@ -461,10 +463,6 @@ h1.v2, p.v2{
 .wrapper.narrow{
   width:21rem;
   }
-  path[Attributes Style] {
-    stroke: rgb(90, 12, 200);
-
-}
   
 /* SUCCESS END */
 
@@ -525,7 +523,7 @@ h1.v2, p.v2{
 }
 
 @media only screen and (min-width:500px){
-  h1.v1{
+  h1.v1, h2.v1{
   margin-bottom: 2rem;
   }
 }
