@@ -26,7 +26,7 @@
                   </div>
               </section>
           </article>
-          <hr><br>
+          <hr>
       </main>
       <!-- FOOTER START -->
       <footer>
