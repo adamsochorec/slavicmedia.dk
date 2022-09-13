@@ -66,6 +66,7 @@
                     <div class="skill-bar c "></div>
                   </div>
               <ul>
+          </section>
         </arcticle>
         <hr>
       </main>
