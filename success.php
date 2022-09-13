@@ -18,8 +18,8 @@
                   <lottie-player class="success-lottie" src="/json/success4.json" background="transparent" speed="1" autoplay></lottie-player>           
               </section>
               <br>
-              <h1 class=".v2">Form submitted successfully!</h2>
-              <p class=".v2">Thank you for filling out! The form has been submitted successfully. I will reply you soon!</p>
+              <h1 class="v2">Form submitted successfully!</h2>
+              <br>
               <section class="flex-center">
                   <div class="inputBox">
                       <a href="./about"><div id="btn">go back</div></a>

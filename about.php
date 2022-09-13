@@ -37,6 +37,35 @@
             <p>Most of my shots are taken with Canon 6D and iPhone 13 mini (3D scans as well, trought <a href="https://poly.cam/login">Polycam</a>).</p>
             <p>Hereby open to collaborations and projects!</p>
           </section>
+          <hr>
+          <section>
+            <h2>Coding skills<h2>
+              <ul class="coding">
+                <li>HTML5</li>
+                  <div class="skill-bar faded inline">
+                    <div class="skill-bar html "></div>
+                  </div>
+                  <br>
+                <li>CSS3</li>
+                  <div class="skill-bar faded inline">
+                    <div class="skill-bar css3 filled "></div>
+                  </div>
+                  <br>
+                <li>PHP</li>
+                  <div class="skill-bar faded inline">
+                    <div class="skill-bar php "></div>
+                  </div>
+                  <br>
+                <li>JavaScript</li>
+                  <div class="skill-bar faded inline">
+                    <div class="skill-bar javascript "></div>
+                  </div>
+                  <br>
+                <li>C</li>
+                  <div class="skill-bar faded inline">
+                    <div class="skill-bar c "></div>
+                  </div>
+              <ul>
         </arcticle>
         <hr>
       </main>
