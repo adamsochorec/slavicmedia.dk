@@ -24,6 +24,7 @@
               </section>
               <br>
               <h1 class="v2">The page you’re looking for can’t be found.</h2>
+              <br>
               <section class="flex-center">
                   <div class="inputBox">
                       <a href="/works"><div id="btn">return home</div></a>

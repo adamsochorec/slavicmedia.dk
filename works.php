@@ -23,7 +23,7 @@
       <!-- SCROLL STATUS END -->
       <main >
             <article class="wrapper">
-              <h1 class="v1">Secure and sustainable digital identity</h1>
+              <h1 class="v1">Works</h1>
                 <img src="/img/photos/1.webp">
                 <img src="/img/photos/2.webp">
                 <img src="/img/photos/3.webp">

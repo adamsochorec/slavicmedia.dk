@@ -95,13 +95,12 @@ margin-left:3rem
 .hamburger{
 display:none
 }
-.bar{
+span.bar{
 transition:var(--transition);
 background-color:var(--primary-color);
 display:block;
 height:.1300rem;
 margin:.3425rem auto;
-transition:var(--transition);
 width:1.5rem;
 border-radius: 20px;
 }
@@ -410,6 +409,40 @@ border-radius: var(--border-radius);
   border-top-left-radius: 0;
   border-top-right-radius:0;
 }
+ul.coding{
+  font-size: var(--font-size-1);
+  color: var(--content-font);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.skill-bar{
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  display: block;
+}
+.inline{
+  display: inline-block;
+}
+.faded{
+  background-color: var(--background-color);
+  width: 10rem;
+}
+.skill-bar.html,.skill-bar.css3{
+  width: 8rem;
+}
+.skill-bar.javascript, .skill-bar.c, .skill-bar.php{
+  width: 4rem;
+}
+.skill-bar.html,.skill-bar.css3, .skill-bar.javascript, .skill-bar.c, .skill-bar.php{
+  background-color: var(--primary-color);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+} 
+
 /* ABOUT END */
 
 /* SUCCESS START */
@@ -422,9 +455,6 @@ h1.v2{
 h1.v2{
   font-size: var(--font-size-1);
   font-weight:var(--heading-weight);
-}
-p.v2{
-  font-size: var(--font-size-1);
 }
 h1.v2, p.v2{
   text-align: center;
