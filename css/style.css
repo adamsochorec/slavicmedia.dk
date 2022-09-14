@@ -38,7 +38,7 @@ body{
 background-color:var(--background-color);
 overflow-x:hidden
 }
-img, svg {
+img, svg{
   vertical-align: middle;
 }
 /* menu start */
@@ -387,7 +387,9 @@ border-radius: var(--border-radius);
 /* CYBER SECURITY END/
 
 /* WORKS START*/
-
+.sketchfab-embed-wrapper{
+  width: 600px;
+}
 /* WORKS END*/
 
 /* ABOUT START */
@@ -422,7 +424,8 @@ ul.coding{
   margin: 0;
   padding: 0;
   border-radius: 20px;
-  display: block;
+  display: flex;
+ flex-direction: row-reverse;
 }
 .inline{
   display: inline-block;
@@ -442,7 +445,6 @@ ul.coding{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 } 
-
 /* ABOUT END */
 
 /* SUCCESS START */
@@ -462,6 +464,7 @@ h1.v2, p.v2{
 .wrapper.narrow{
   width:21rem;
   }
+  
 /* SUCCESS END */
 
 /* MEDIA QUERRIES START */
@@ -521,7 +524,7 @@ h1.v2, p.v2{
 }
 
 @media only screen and (min-width:500px){
-  h1.v1{
+  h1.v1, h2.v1{
   margin-bottom: 2rem;
   }
 }

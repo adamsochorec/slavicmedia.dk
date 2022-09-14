@@ -28,19 +28,20 @@
       <main class="about">
         <arcticle class="wrapper">
           <section>
-            <img class="profile-pic" src="./img/about.webp" alt="#">
-            <img class="partners" src="./img/partners.webp" alt="#">
-          </section>
-          <hr>
-          <section>
+            <h1 class="v1">About</h1>
             <p>Freelance self-taught photographer born in Prague, currently based in <a href="https://duckduckgo.com/?q=+Ostrobothnia&t=brave&ia=web&iaxm=maps">Ostrobothnia</a> in western Finland and <a href="https://duckduckgo.com/?q=southern+denmark&t=brave&ia=web&iaxm=maps">Southern Denmark</a>.​​​ ​ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently also working with landscapes 3D scans and web developmnent.​</p>
             <p>Most of my shots are taken with Canon 6D and iPhone 13 mini (3D scans as well, trought <a href="https://poly.cam/login">Polycam</a>).</p>
             <p>Hereby open to collaborations and projects!</p>
           </section>
           <hr>
           <section>
-            <h2>Coding skills<h2>
-              <ul class="coding">
+            <img class="profile-pic" src="./img/about.webp" alt="#">
+            <img class="partners" src="./img/partners.webp" alt="#">
+          </section>
+          <hr>
+          <section>
+            <h2 class="v1">Coding skills<h2>
+w              <ul class="coding">
                 <li>HTML5</li>
                   <div class="skill-bar faded inline">
                     <div class="skill-bar html "></div>
@@ -66,6 +67,7 @@
                     <div class="skill-bar c "></div>
                   </div>
               <ul>
+          </section>
         </arcticle>
         <hr>
       </main>
