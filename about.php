@@ -66,6 +66,7 @@ w              <ul class="coding">
                   <div class="skill-bar faded inline">
                     <div class="skill-bar c "></div>
                   </div>
+                  <br>
               <ul>
           </section>
         </arcticle>
