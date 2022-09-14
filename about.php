@@ -41,7 +41,7 @@
           <hr>
           <section>
             <h2 class="v1">Coding skills<h2>
-              <ul class="coding">
+w              <ul class="coding">
                 <li>HTML5</li>
                   <div class="skill-bar faded inline">
                     <div class="skill-bar html "></div>
