@@ -424,7 +424,8 @@ ul.coding{
   margin: 0;
   padding: 0;
   border-radius: 20px;
-  display: block;
+  display: flex;
+ flex-direction: row-reverse;
 }
 .inline{
   display: inline-block;
