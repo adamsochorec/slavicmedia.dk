@@ -15,7 +15,7 @@
           <hr class="hide">
           <article class="wrapper narrow">
               <section class="flex-center">
-                  <lottie-player class="success-lottie" src="/json/success4.json" background="transparent" speed="1" autoplay></lottie-player>           
+                  <lottie-player class="success-lottie" src="/json/success.json" background="transparent" speed="1" autoplay></lottie-player>           
               </section>
               <br>
               <h1 class="v2">Form submitted successfully!</h2>
