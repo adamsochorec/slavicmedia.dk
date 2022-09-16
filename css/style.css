@@ -179,7 +179,8 @@ hr {
   opacity: 60%;
 }
 
-.wrapper img {
+.wrapper img,
+.wrapper iframe {
   background: var(--white-color);
   border-radius: var(--border-radius);
   max-width: 100%;
@@ -414,12 +415,9 @@ h1.tfa {
 /* CYBER SECURITY END/
 
 /* WORKS START*/
-.wrapper.wide {
-  max-width: 100%;
-}
 .grid-container {
   display: grid;
-  max-width: 1300px;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: 450px;
   grid-auto-flow: dense;
@@ -454,6 +452,10 @@ h1.tfa {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+h1.v1.works-heading {
+  display: flex;
+  justify-content: center;
 }
 /* WORKS END*/
 
@@ -596,7 +598,8 @@ p.v2 {
 
 @media only screen and (min-width: 500px) {
   h1.v1,
-  h2.v1 {
+  h2.v1,
+  h1.works-heading {
     margin-bottom: 2rem;
   }
 }
@@ -610,15 +613,23 @@ p.v2 {
   }
 }
 @media (max-width: 560px) {
-  .v-stretch {
+  .v-stretch,
+  .vv-stretch {
     grid-row: span 1;
   }
-  .h-stretch {
+  .h-stretch,
+  .hh-stretch {
     grid-column: span 1;
   }
   .wide-stretch {
     grid-column: span 1;
     grid-row: span 1;
+  }
+  .grid-container {
+    grid-gap: 0;
+  }
+  .wrapper.wide img {
+    border-radius: 0;
   }
 }
 @media only screen and (max-width: 643px) {

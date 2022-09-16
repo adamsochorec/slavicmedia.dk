@@ -25,8 +25,8 @@
     <!-- SCROLL STATUS END -->
     <main>
         <article class="wrapper wide">
-            <h1 class="v1">Works</h1>
-            <div class="grid-container">
+            <h1 class="v1 works-heading">Works</h1>
+            <section class="grid-container">
                 <div class="h-stretch">
                     <img src=" /img/photos/1.webp" />
                 </div>
@@ -155,9 +155,8 @@
                         execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1">
                     </iframe> </div>
-            </div>
+            </section>
         </article>
-
         <hr>
     </main>
     <!-- FOOTER START -->
