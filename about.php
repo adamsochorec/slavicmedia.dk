@@ -49,31 +49,21 @@
             <hr>
             <section>
                 <h2 class="v1">Coding skills<h2>
-                        <div class="grid-container">
-                            <div class="grid-item">
-                                <p>HTML5</p>
-                                <div class="skill-bar faded inline">
-                                    <div class="skill-bar html"></div>
-                                </div>
-                            </div>
-                            <div class="grid-item">
-                                <p>CSS3</p>
-                                <div class="skill-bar faded inline">
-                                    <div class="skill-bar css3"></div>
-                                </div>
-                            </div>
-                            <div class="grid-item">
-                                <p>PHP</p>
-                                <div class="skill-bar faded inline">
-                                    <div class="skill-bar php"></div>
-                                </div>
-                            </div>
-                            <div class="grid-item">
-                                <p>JavaScript</p>
-                                <div class="skill-bar faded inline">
-                                    <div class="skill-bar javascript"></div>
-                                </div>
-                            </div>
+                        <p>HTML5</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar html"></div>
+                        </div>
+                        <p>CSS3</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar css3"></div>
+                        </div>
+                        <p>PHP</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar php"></div>
+                        </div>
+                        <p>JavaScript</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar javascript"></div>
                         </div>
             </section>
         </arcticle>
