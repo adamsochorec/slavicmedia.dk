@@ -28,7 +28,7 @@
     </aside>
     <!-- SCROLL STATUS + CONTACT FORMS END -->
     <main class="about">
-        <arcticle class="wrapper">
+        <arcticle class="wrapper standard">
             <section>
                 <h1 class="v1">About</h1>
                 <p>Freelance self-taught photographer born in Prague, currently based in <a

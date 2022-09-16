@@ -24,20 +24,140 @@
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
-        <article class="wrapper">
+        <article class="wrapper wide">
             <h1 class="v1">Works</h1>
+            <div class="grid-container">
+                <div class="h-stretch">
+                    <img src=" /img/photos/1.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src="/img/photos/2.webp" />
+                </div>
+                <div class="wide-stretch">
+                    <img src="/img/photos/3.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/4.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/5.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/7.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/6.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/8.webp" />
+                </div>
+                <div class="h-stretch sketchfab-embed-wrapper">
+                    <iframe
+                        title="Blåvand bunker | vzor 2"
+                        frameborder="0"
+                        allowfullscreen
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking
+                        execution-while-out-of-viewport
+                        execution-while-not-rendered
+                        web-share
+                        src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1">
+                    </iframe>
+                </div>
+                <div class="h-stretch sketchfab-embed-wrapper">
+                    <iframe title="Element | vzor 1" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                        webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/6f7724728776400b968d7e01de811d26/embed?autospin=1&dnt=1">
+                    </iframe>
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/10.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/9.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/10.webp" />
+                </div>
+                <div class="hh-stretch">
+                    <img src=" /img/photos/11.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/12.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/13.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/14.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/18.webp" />
+                </div>
+                <div class="hh-stretch">
+                    <img src=" /img/photos/17.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/15.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/16.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/22.gif" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/23.gif" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/19.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/21.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/20.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/24.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/35.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/32.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/25.webp" />
+                </div>
+                <div class="vv-stretch">
+                    <img src=" /img/photos/31.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/33.webp" />
+                </div>
+                <div class="vv-stretch">
+                    <img src=" /img/photos/28.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/30.webp" />
+                </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/33.webp" />
+                </div>
+                <div class="h-stretch sketchfab-embed-wrapper"> <iframe title="Element | vzor 9"
+                        frameborder="0" allowfullscreen
+                        mozallowfullscreen="true" webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                        execution-while-out-of-viewport execution-while-not-rendered web-share
+                        src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1">
+                    </iframe> </div>
+            </div>
         </article>
-        <div class="grid-container">
-            <div class="grid-item grid-item-1">
-                <img src=" /img/photos/1.webp">
-            </div>
-            <div class="grid-item grid-item-2">
-                <img src="/img/photos/2.webp">
-            </div>
-            <div class="grid-item grid-item-3">
-                <img src="/img/photos/3.webp">
-            </div>
-        </div>
+
         <hr>
     </main>
     <!-- FOOTER START -->

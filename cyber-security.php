@@ -25,7 +25,7 @@
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
-        <article class="wrapper">
+        <article class="wrapper standard">
             <h1 class="v1">Secure and sustainable digital identity</h1>
             <article>
                 <div class="row hide">
