@@ -22,19 +22,20 @@
         <hr class="hide">
         <article class="wrapper narrow">
             <section class="flex-center">
-                <lottie-player class="error-lottie" src="/json/404.json" background="transparent" speed="2" loop
+                <lottie-player class="error-lottie" src="/lottie/404.json" background="transparent" speed="0.7"
+                    loop
                     autoplay></lottie-player>
             </section>
             <br>
-            <h1 class="v2">The page you’re looking for can’t be found.</h2>
-                <br>
-                <section class="flex-center">
-                    <div class="inputBox">
-                        <a href="/works">
-                            <div id="btn">return home</div>
-                        </a>
-                    </div>
-                </section>
+            <h1 class="v2">The page you’re looking for can’t be found.</h1>
+            <br>
+            <section class="flex-center">
+                <div class="inputBox">
+                    <a href="works">
+                        <div id="btn">return to frontpage</div>
+                    </a>
+                </div>
+            </section>
         </article>
         <hr>
     </main>

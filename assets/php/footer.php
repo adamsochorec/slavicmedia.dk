@@ -25,6 +25,7 @@
     </script>
     <script src="https://kit.fontawesome.com/04a16a1b99.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/lootie-player.js"></script>
-    <script src="/js/elfsight.js" defer></script>
-    <script src="./js/style.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+    <script src="./js/style.js" defer></script>

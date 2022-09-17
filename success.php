@@ -17,20 +17,20 @@
         <hr class="hide">
         <article class="wrapper narrow">
             <section class="flex-center">
-                <lottie-player class="success-lottie" src="/json/success.json" background="transparent" speed="1"
-                    autoplay></lottie-player>
+                <dotlottie-player class="success-lottie" src="/lottie/success.lottie" background="transparent" speed="1"
+                    autoplay></dotlottie-player>
             </section>
             <br>
-            <h1 class="v2">Form submitted successfully!</h2>
-                <br>
-                <section class="flex-center">
-                    <div class="inputBox">
-                        <a href="./about">
-                            <div id="btn">go back</div>
-                        </a>
+            <h1 class="v2">Form submitted successfully!</h1>
+            <br>
+            <section class="flex-center">
+                <div class="inputBox">
+                    <a href="about">
+                        <div id="btn">return to about</div>
+                    </a>
 
-                    </div>
-                </section>
+                </div>
+            </section>
         </article>
         <hr>
     </main>

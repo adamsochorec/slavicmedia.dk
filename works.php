@@ -133,21 +133,17 @@
                 <div class="h-stretch">
                     <img src=" /img/photos/25.webp" />
                 </div>
-                <div class="vv-stretch">
-                    <img src=" /img/photos/31.webp" />
-                </div>
-                <div class="h-stretch">
-                    <img src=" /img/photos/33.webp" />
-                </div>
-                <div class="vv-stretch">
-                    <img src=" /img/photos/28.webp" />
-                </div>
-                <div class="h-stretch">
+                <div class="v-stretch">
                     <img src=" /img/photos/30.webp" />
                 </div>
+                </div>
                 <div class="h-stretch">
                     <img src=" /img/photos/33.webp" />
                 </div>
+                <div class="h-stretch">
+                    <img src=" /img/photos/28.webp" />
+                </div>
+
                 <div class="h-stretch sketchfab-embed-wrapper"> <iframe title="Element | vzor 9"
                         frameborder="0" allowfullscreen
                         mozallowfullscreen="true" webkitallowfullscreen="true"
@@ -155,6 +151,8 @@
                         execution-while-out-of-viewport execution-while-not-rendered web-share
                         src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1">
                     </iframe> </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/31.webp" />
             </section>
         </article>
         <hr>

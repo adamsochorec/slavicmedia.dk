@@ -31,14 +31,25 @@
         <arcticle class="wrapper standard">
             <section>
                 <h1 class="v1">About</h1>
-                <p>Freelance self-taught photographer born in Prague, currently based in <a
-                        href="https://duckduckgo.com/?q=+Ostrobothnia&t=brave&ia=web&iaxm=maps">Ostrobothnia</a> in
-                    western Finland and <a
-                        href="https://duckduckgo.com/?q=southern+denmark&t=brave&ia=web&iaxm=maps">Southern
-                        Denmark</a>.​​​ ​ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently
-                    also working with landscapes 3D scans and web developmnent.​</p>
-                <p>Most of my shots are taken with Canon 6D and iPhone 13 mini (3D scans as well, trought <a
-                        href="https://poly.cam/login">Polycam</a>).</p>
+                <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
+                        builder</a> and bush-craft enjoyer, born in
+                    Prague.
+                    Currently occupied with <a
+                        href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark and <a
+                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland.​</p>
+                <p>I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm also enjoying to
+                    work with landscapes, 3D scans and web design.​</p>
+                <p>Recent web projects:</p>
+                <ul>
+                    <li><a href="cyber-security">Cyber Security</a></li>
+                    <li><a href="http://adamsochorec.dk/zebra-design/zebra-design">Zebra Design</a></li>
+                    <li><a href="http://adamsochorec.dk/memos/memos">Memos</a></li>
+                </ul>
+                <p>Most of my shots are taken with <a
+                        href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
+                        6D</a> and <a href="https://www.apple.com/iphone-13/specs/">iPhone 13 mini</a>. 3D models are
+                    scanned on my iPhone and rendered by awesome <a
+                        href="https://poly.cam/login">Polycam</a> software.</p>
                 <p>Hereby open to collaborations and projects!</p>
             </section>
             <hr>
@@ -51,19 +62,23 @@
                 <h2 class="v1">Coding skills<h2>
                         <p>HTML5</p>
                         <div class="skill-bar faded inline">
-                            <div class="skill-bar html"></div>
+                            <div class="skill-bar level level-8"></div>
                         </div>
                         <p>CSS3</p>
                         <div class="skill-bar faded inline">
-                            <div class="skill-bar css3"></div>
+                            <div class="skill-bar level level-7"></div>
                         </div>
                         <p>PHP</p>
                         <div class="skill-bar faded inline">
-                            <div class="skill-bar php"></div>
+                            <div class="skill-bar level level-3"></div>
                         </div>
                         <p>JavaScript</p>
                         <div class="skill-bar faded inline">
-                            <div class="skill-bar javascript"></div>
+                            <div class="skill-bar level level-3"></div>
+                        </div>
+                        <p>C</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar level level-1"></div>
                         </div>
             </section>
         </arcticle>
