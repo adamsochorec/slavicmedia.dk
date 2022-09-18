@@ -21,6 +21,7 @@
     <!-- SCROLL STATUS START -->
     <aside>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
