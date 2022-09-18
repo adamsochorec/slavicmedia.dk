@@ -7,10 +7,7 @@ const blurAside = document.querySelector("aside");
 const hideBar = document.querySelector(".progress-bar");
 
 hamburger.addEventListener("click", mobileMenu);
-// DISABLE SCROLLING
-function noscroll() {
-  window.scrollTo(0, 0);
-}
+
 function mobileMenu() {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
@@ -18,7 +15,6 @@ function mobileMenu() {
   blurFooter.classList.toggle("blur");
   blurAside.classList.toggle("blur");
   hideBar.classList.toggle("hide");
-  window.addEventListener("scroll", noscroll); // DISABLE SCROLLING
 }
 const navLink = document.querySelectorAll(".nav-link");
 
@@ -33,12 +29,13 @@ function closeMenu() {
   hideBar.classList.remove("hide");
 }
 // DISABLE SCROLLING
-
+function noscroll() {
+  window.scrollTo(0, 0);
+}
 // SCROLL STATUS
 window.onscroll = function () {
   myFunction();
 };
-
 function myFunction() {
   const winScroll =
     document.body.scrollTop || document.documentElement.scrollTop;

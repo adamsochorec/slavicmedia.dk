@@ -6,8 +6,7 @@
 }
 :root {
   /* COLORS */
-  --primary-color: #007ee4;
-  --primary-color-hover: #019eff;
+  --primary-color: #007ee3;
   --secondary-color: #800080;
   --background-color: #282828;
   --white-color: #fff;
@@ -44,6 +43,11 @@ img,
 svg {
   vertical-align: middle;
 }
+#fa-chevron-right {
+  fill: var(--primary-color);
+  width: 8px;
+  padding-bottom: 2.3px;
+}
 /* menu start */
 header {
   align-items: center;
@@ -74,7 +78,7 @@ a {
   padding-top: 6px;
 }
 .navbar-style:hover {
-  color: var(--primary-color-hover);
+  opacity: 70%;
   transition: var(--transition);
 }
 #nav-logo {
@@ -124,16 +128,32 @@ span.bar {
   border-bottom-right-radius: var(--border-radius);
 }
 /* scroll status end*/
+
 /* banner start */
 .banner-container {
-  position: fixed;
+  position: relative;
   top: 44px;
   width: 100%;
-  z-index: 9;
+  z-index: 3;
   display: inline-block;
+  animation: 0.5s fade;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: forwards;
+  animation-play-state: running;
 }
 .banner-bar {
-  background-color: gray;
+  background-color: var(--white-color);
+}
+@keyframes fade {
+  0% {
+    top: -30px;
+  }
+  100% {
+    top: 44px;
+    background-color: var(--text-color);
+  }
 }
 .banner-font {
   font-size: var(--font-size-1);
@@ -145,17 +165,18 @@ span.bar {
   padding: 0 16px;
 }
 .banner-font a {
-  color: var(--text-color);
+  animation: 1s invert;
+  animation-timing-function: steps(2, end);
+  animation: 1s invert;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-direction: forwards;
+  animation-play-state: running;
 }
-.x.bar:nth-child(1) {
-  transform: translateY(5px) rotate(45deg);
-  background-color: var(--white-color);
-}
-.x.bar:nth-child(2) {
-  transform: translateY(-5px) rotate(-45deg);
-  background-color: var(--white-color);
-}
+
 /* banner end */
+
 main {
   align-items: center;
   display: flex;
@@ -370,7 +391,7 @@ h6 {
 }
 .ecorp {
   font-family: var(--logo-font);
-  font-size: 1.6px;
+  font-size: 0.1rem;
   margin-right: 0.3rem;
 }
 .footer1-wrapper {

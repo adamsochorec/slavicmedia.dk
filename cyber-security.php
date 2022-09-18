@@ -52,34 +52,84 @@
                             <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                                 aria-labelledby="list-home-list">
                                 <ol class="content-list tab-content-link">
-                                    <li><a href="#1.1">Contemporary passwords</a></li>
-                                    <li><a href="#1.2">Password generator</a></li>
-                                    <li><a href="#1.3">Password strength</a></li>
+                                    <li><a href="#1.1">Contemporary passwords <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
+                                    <li><a href="#1.2">Password generator <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
+                                    <li><a href="#1.3">Password strength <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                     <li><a href="#1.4">Problem solution <i
-                                                class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                                                class="fa-solid fa-screwdriver-wrench"></i> <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                 </ol>
                             </div>
                             <div class="tab-pane fade" id="list-profile" role="tabpanel"
                                 aria-labelledby="list-profile-list">
                                 <ol class="content-list">
-                                    <li><a href="#2.1">2FA</a></li>
-                                    <li><a href="#2.2">SIM swapping</a></li>
+                                    <li><a href="#2.1">2FA <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
+                                    <li><a href="#2.2">SIM swapping <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                     <li><a href="#2.3">Problem solution <i
-                                                class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                                                class="fa-solid fa-screwdriver-wrench"></i> <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                 </ol>
                             </div>
                             <div class="tab-pane fade" id="list-messages" role="tabpanel"
                                 aria-labelledby="list-messages-list">
                                 <ol class="content-list">
-                                    <li><a href="#3.1">Social engineering</a></li>
+                                    <li><a href="#3.1">Social engineering</a> <svg
+                                            id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 384 512">
+                                            <path
+                                                d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                        </svg></li>
                                     <li><a href="#3.2">Problem solution <i
-                                                class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                                                class="fa-solid fa-screwdriver-wrench"></i> <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                 </ol>
                             </div>
                             <div class="tab-pane fade" id="list-settings" role="tabpanel"
                                 aria-labelledby="list-settings-list">
                                 <ol class="content-list">
-                                    <li><a href="#4.1">Literature</a></li>
+                                    <li><a href="#4.1">Literature <svg
+                                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512">
+                                                <path
+                                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                            </svg></a></li>
                                 </ol>
                             </div>
                         </div>
@@ -257,18 +307,48 @@
                 <h2>4.1 Related literature</h2>
                 <br>
                 <ol class="ul-content">
-                    <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength Calculator</a>
+                    <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength Calculator <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a>
                     </li>
-                    <li><a href="https://www.omnicalculator.com/other/password-entropy">Password Entropy Calculator</a>
+                    <li><a href="https://www.omnicalculator.com/other/password-entropy">Password Entropy Calculator <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a>
                     </li>
                     <li><a href="https://open.spotify.com/episode/5Snektk5Z2nUzM7DgoEBSx?si=eKX_d1f1SY6T3j5S3mkLgA">Hacking
-                            backstage</a></li>
+                            backstage <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
                     <li><a href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
-                            about professional social engineer</a></li>
+                            about professional social engineer <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
                     <li><a href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
-                            Authenticator</a></li>
+                            Authenticator <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
                     <li><a href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
-                            control over the internet</a></li>
+                            control over the internet <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
                 </ol>
                 <hr>
             </article>

@@ -21,6 +21,7 @@
     <!-- SCROLL STATUS + CONTACT FORMS START -->
     <aside>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
         <!-- Contact form -->
         <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
         <!-- Whatssapp form -->
@@ -41,9 +42,24 @@
                     work with landscapes, 3D scans and web design.​</p>
                 <p>Recent web projects:</p>
                 <ul>
-                    <li><a href="cyber-security">Cyber Security</a></li>
-                    <li><a href="http://adamsochorec.dk/zebra-design/zebra-design">Zebra Design</a></li>
-                    <li><a href="http://adamsochorec.dk/memos/memos">Memos</a></li>
+                    <li><a href="cyber-security">Cyber Security <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
+                    <li><a href="/zebra-design/zebra-design">Zebra Design <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
+                    <li><a href="/memos/memos">Memos <svg
+                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg></a></li>
                 </ul>
                 <p>Most of my shots are taken with <a
                         href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
