@@ -12,7 +12,7 @@
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
 </head>
 
-<body>
+<body id="about">
     <!-- HEADER START + Scroll status -->
     <header>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
@@ -31,7 +31,7 @@
     <main class="about">
         <arcticle class="wrapper standard">
             <section>
-                <h1 class="v1">About</h1>
+                <h1 id="about" class="v1">About</h1>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in
                     Prague.
@@ -42,19 +42,19 @@
                     work with landscapes, 3D scans and web design.​</p>
                 <p>Recent web projects:</p>
                 <ul>
-                    <li><a href="cyber-security">Cyber Security <svg
+                    <li><a aria-describedby="cyber-security" href="cyber-security">Cyber Security <svg
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
                                     d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                             </svg></a></li>
-                    <li><a href="/zebra-design/zebra-design">Zebra Design <svg
+                    <li><a aria-describedby="zebra-desig" href="/zebra-design/zebra-design">Zebra Design <svg
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
                                     d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                             </svg></a></li>
-                    <li><a href="/memos/memos">Memos <svg
+                    <li><a aria-describedby="memos" href="/memos/memos">Memos <svg
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
@@ -70,8 +70,10 @@
             </section>
             <hr>
             <section>
-                <img class="profile-pic" src="./img/about.webp" alt="#">
-                <img class="partners" src="./img/partners.webp" alt="#">
+                <img class="profile-pic" src="./img/about.webp"
+                    alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
+                <img class="partners" src="./img/partners.webp"
+                    alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
             </section>
             <hr>
             <section>

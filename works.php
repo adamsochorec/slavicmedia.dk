@@ -12,7 +12,7 @@
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
 </head>
 
-<body>
+<body id="works">
     <!-- HEADER START -->
     <header>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
@@ -26,7 +26,7 @@
     <!-- SCROLL STATUS END -->
     <main>
         <article class="wrapper wide">
-            <h1 class="v1 works-heading">Works</h1>
+            <h1 id="works" class="v1 works-heading">Works</h1>
             <section class="grid-container">
                 <div class="h-stretch">
                     <img src=" /img/photos/1.webp" />

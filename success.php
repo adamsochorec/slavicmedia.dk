@@ -12,7 +12,7 @@
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
 </head>
 
-<body>
+<body id="success">
     <main>
         <hr class="hide">
         <article class="wrapper narrow">
@@ -21,12 +21,12 @@
                     autoplay></dotlottie-player>
             </section>
             <br>
-            <h1 class="v2">Form submitted successfully!</h1>
+            <h1 id="success" class="v2">Form submitted successfully!</h1>
             <br>
             <section class="flex-center">
                 <div class="inputBox">
-                    <a href="about">
-                        <div id="btn">return to about</div>
+                    <a aria-describedby="about" href="about">
+                        <div aria-describedby="about" id="btn">return to about</div>
                     </a>
 
                 </div>
