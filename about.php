@@ -78,23 +78,27 @@
             <hr>
             <section>
                 <h2 class="v1">Coding skills<h2>
-                        <p>HTML5</p>
-                        <div class="skill-bar faded inline">
-                            <div class="skill-bar level level-8"></div>
-                        </div>
-                        <p>CSS3</p>
+                        <p><i class="fa-brands fa-html5"></i> HTML5</p>
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-7"></div>
                         </div>
-                        <p>PHP</p>
+                        <p><i class="fa-brands fa-css3-alt"></i> CSS3</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar level level-6"></div>
+                        </div>
+                        <p><i class="fa-brands fa-php"></i> PHP</p>
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-3"></div>
                         </div>
-                        <p>JavaScript</p>
+                        <p><i class="fa-brands fa-square-js"></i> JavaScript</p>
                         <div class="skill-bar faded inline">
-                            <div class="skill-bar level level-3"></div>
+                            <div class="skill-bar level level-1"></div>
                         </div>
                         <p>C</p>
+                        <div class="skill-bar faded inline">
+                            <div class="skill-bar level level-1"></div>
+                        </div>
+                        <p><i class="fa-brands fa-python"></i> Python</p>
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-1"></div>
                         </div>
