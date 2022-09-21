@@ -26,23 +26,37 @@
     <main>
         <article class="wrapper standard expo">
             <h1 id="expo-in-kolding" class="v1">Expo in Knuds garage</h1>
-            <section class="inline left">
-                <h2 class="v1">January 2023 - February 2023</h2>
-                <h2>Knuds Garage</h2>
-                <p>Munkegade 5A</p>
-                <p>6000 Kolding</p>
-                <p>Denmark</p>
-            </section>
-            <section class="inline right">
-                <ul>
-                    <li>Mon: 12.00-02.00</li>
-                    <li>Tue: 12.00-02.00</li>
-                    <li>Wed: 12.00-02.00</li>
-                    <li>Thu: 12.00-02.00</li>
-                    <li>Fri: 12.00-02.00</li>
-                    <li>Sat: 12.00-02.00</li>
-                    <li>Sun: 14.00-22.00</li>
-            </section>
+            <br>
+            <h2 class="v1">Jan 2023 - Feb 2023</h2>
+            <hr>
+            <article class="expo-grid-container">
+                <section class="expo-grid-item-1">
+                    <fieldset>
+                        <legend>
+                            <h2>Knuds Garage</h2>
+                        </legend>
+                        <p>Munkegade 5A</p>
+                        <p>6000 Kolding</p>
+                        <p>Denmark</p>
+                    </fieldset>
+                </section>
+                <section class="expo-grid-item-2">
+                    <fieldset>
+                        <legend>
+                            <h2 class="">Opening hours</h2>
+                        </legend>
+                        <ul>
+                            <li>Mon: 12.00-02.00</li>
+                            <li>Tue: 12.00-02.00</li>
+                            <li>Wed: 12.00-02.00</li>
+                            <li>Thu: 12.00-02.00</li>
+                            <li>Fri: 12.00-02.00</li>
+                            <li>Sat: 12.00-02.00</li>
+                            <li>Sun: 14.00-22.00</li>
+                        </ul>
+                    </fieldset>
+                </section>
+            </article>
             <hr>
             <section>
                 <iframe

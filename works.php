@@ -27,7 +27,7 @@
     <main>
         <article class="wrapper wide">
             <h1 id="works" class="v1 works-heading">Works</h1>
-            <section class="grid-container">
+            <section class="works-grid-container">
                 <div class="h-stretch">
                     <img src=" /img/photos/1.webp" />
                 </div>
