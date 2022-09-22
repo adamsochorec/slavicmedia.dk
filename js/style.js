@@ -69,7 +69,12 @@ const btnCopy = document.getElementById("btnCopy");
 btnCopy.onclick = function () {
   // 1. Select the text
   password.select();
+  $("#btnCopy::before").css({
+    content: "copied!",
+  });
 
   // 2. Copying the text
   document.execCommand("Copy");
 };
+
+// Copy to clipboard

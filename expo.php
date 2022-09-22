@@ -45,15 +45,11 @@
                         <legend>
                             <h2 class="">Opening hours</h2>
                         </legend>
-                        <ul>
-                            <li>Mon: 12.00-02.00</li>
-                            <li>Tue: 12.00-02.00</li>
-                            <li>Wed: 12.00-02.00</li>
-                            <li>Thu: 12.00-02.00</li>
-                            <li>Fri: 12.00-02.00</li>
-                            <li>Sat: 12.00-02.00</li>
-                            <li>Sun: 14.00-22.00</li>
-                        </ul>
+                        <p>Mon - Sat</p>
+                        <p>12.00-02.00</p>
+                        <br>
+                        <p>Sun:</p>
+                        <p>14.00-22.00</p>
                     </fieldset>
                 </section>
             </article>
@@ -69,13 +65,8 @@
                         class="note">https://knuds-garage.business.site/</i></a>
             </section>
             <hr>
-            <section class="grid-container expo">
-                <div class="h-stretch">
-                    <img src="/img/photos/IMG_0438.jpeg" />
-                </div>
-                <div class="h-stretch">
-                    <img src="/img/photos/IMG_0494.jpeg" />
-                </div>
+            <img src="/img/photos/IMG_0438.jpeg" />
+
             </section>
         </article>
         <hr>

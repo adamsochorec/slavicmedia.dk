@@ -161,7 +161,7 @@
                     <section>
                         <div class="inputBox flex-center">
                             <input type="text" placeholder="Your 124 bits password" id="password" readonly="">
-                            <i class="fa-solid fa-clone" id="btnCopy"></i>
+                            <button class="copy-to-clippboard" id="btnCopy"></button>
                             <div id="btn" onclick="getPassword();">generate password</div>
                     </section>
                     </div>

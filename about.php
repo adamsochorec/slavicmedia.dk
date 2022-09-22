@@ -90,7 +90,7 @@
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-3"></div>
                         </div>
-                        <p><i class="fa-brands fa-square-js"></i> JavaScript</p>
+                        <p></i> JavaScript</p>
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-1"></div>
                         </div>
