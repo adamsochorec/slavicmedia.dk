@@ -65,7 +65,7 @@
                         href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
                         6D</a> and <a href="https://www.apple.com/iphone-13/specs/">iPhone 13 mini</a>. 3D models are
                     scanned on my iPhone and rendered by awesome <a
-                        href="https://poly.cam/login">Polycam</a> software.</p>
+                        href="https://poly.cam/">Polycam</a> software.</p>
                 <p>Hereby open to collaborations and projects!</p>
             </section>
             <hr>
@@ -109,6 +109,7 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
     </footer>
     <!-- FOOTER END -->
 </body>

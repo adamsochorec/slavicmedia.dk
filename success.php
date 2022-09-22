@@ -27,6 +27,7 @@
                 <div class="inputBox">
                     <a aria-describedby="about" href="about">
                         <div aria-describedby="about" id="btn">return to about</div>
+                        <div class="shadow-btn"></div>
                     </a>
 
                 </div>
@@ -37,6 +38,8 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
     </footer>
     <!-- FOOTER END -->
 </body>
