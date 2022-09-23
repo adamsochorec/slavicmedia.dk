@@ -22,10 +22,8 @@
         <hr class="hide">
         <article class="wrapper narrow">
             <section class="flex-center">
-                <lottie-player class="error-lottie" src="/lottie/404.json"
-                    background="transparent" speed="0.7"
-                    loop
-                    autoplay></lottie-player>
+                <lottie-player class="error-lottie" background="transparent" speed="0.5"
+                    autoplay src="/img/photos/404.gif"></lottie-player>
             </section>
             <br>
             <h1 id="Error" class="v2">The page you’re looking for can’t be found.</h1>
@@ -34,6 +32,7 @@
                 <div class="inputBox">
                     <a aria-describedby="works" href="works">
                         <div aria-describedby="works" id="btn">return to frontpage</div>
+                        <div class="shadow-btn"></div>
                     </a>
                 </div>
             </section>

@@ -31,6 +31,11 @@ function closeMenu() {
   hideBar.classList.remove("hide");
   noscroll.classList.remove("noscroll");
 }
+// PRELOADING ANIMATION
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
+
 // SCROLL STATUS
 window.onscroll = function () {
   myFunction();

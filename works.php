@@ -159,9 +159,7 @@
         <hr>
     </main>
     <!-- FOOTER START -->
-    <footer>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-    </footer>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
     <!-- FOOTER END -->
 </body>
 

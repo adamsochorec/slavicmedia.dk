@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Adam Sochorec</title>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
+    <link rel="icon" href="/img/favicon.png" type="image/webp">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body id="about">
@@ -20,6 +21,7 @@
     <!-- HEADER END -->
     <!-- SCROLL STATUS + CONTACT FORMS START -->
     <aside>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."preloader.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
         <!-- Contact form -->
@@ -109,7 +111,8 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="./js/script.js" defer></script>
     </footer>
     <!-- FOOTER END -->
 </body>
