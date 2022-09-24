@@ -123,16 +123,13 @@
             </article>
             <article>
                 <section>
-                    <hr>
-                    <h2>2. What is 2FA and why is essential</h2>
+                    <hr id="2.1">
+                    <h2>2.1 What is 2FA and why is essential</h2>
                     <br>
-                    <p>Two-factor authentication (2FA) is an additional security feature for logging into your
-                        online
-                        accounts. 2FA is based on entering a single-use time-dependent code sent to you by SMS,
-                        email,
+                    <p>Two-factor authentication (2FA) is an additional security feature for logging into your online
+                        accounts. 2FA is based on entering a single-use time-dependent code sent to you by SMS, email,
                         or verification app.</p>
-                    <p>2FA usually works on top of standard login procedure (username and password), so if your
-                        account
+                    <p>2FA usually works on top of standard login procedure (username and password), so if your account
                         info gets compromised, hacker still wouldn't access your account.</p>
                     <div class="flex-center">
                         <div class="tfa-grid">
@@ -159,14 +156,9 @@
                         </div>
                     </div>
                     <p><i class="note">Recovery 2FA codes</i></p>
-                    <p>After successful 2FA activation, you might be shown a couple of six to eight-digit
-                        recovery
-                        codes. In case you would lose access to your email and phone number, you still can
-                        manage
-                        your
-                        online account by those single-use codes (after you use all of them, you will receive
-                        new
-                        ones).
+                    <p>After successful 2FA activation, you might be shown a couple of six to eight-digit recovery
+                        codes. In case you would lose access to your email and phone number, you still can manage your
+                        online account by those single-use codes (after you use all of them, you will receive new ones).
                     </p>
                 </section>
                 <section>
@@ -261,7 +253,7 @@
                 <ol class="ul-content">
                     <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength
                             Calculator
-                            <svg
+                            <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
@@ -270,7 +262,7 @@
                     </li>
                     <li><a href="https://www.omnicalculator.com/other/password-entropy">Password Entropy
                             Calculator
-                            <svg
+                            <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
@@ -279,28 +271,28 @@
                     </li>
                     <li><a
                             href="https://open.spotify.com/episode/5Snektk5Z2nUzM7DgoEBSx?si=eKX_d1f1SY6T3j5S3mkLgA">Hacking
-                            backstage <svg
+                            backstage <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
                                     d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                             </svg></a></li>
                     <li><a href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
-                            about professional social engineer <svg
+                            about professional social engineer <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
                                     d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                             </svg></a></li>
                     <li><a href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
-                            Authenticator <svg
+                            Authenticator <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
                                     d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                             </svg></a></li>
                     <li><a href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
-                            control over the internet <svg
+                            control over the internet <svg class="hide"
                                 id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 384 512">
                                 <path
@@ -314,8 +306,8 @@
     </div>
     <!-- FOOTER START -->
     <footer>
-        <script src="./js/cyber-security.js" defer></script>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+        <script src="/js/cyber-security.js" defer></script>
     </footer>
     <!-- FOOTER END -->
 </body>
