@@ -39,8 +39,8 @@
     <main>
         <article class="wrapper narrow">
             <section class="flex-center">
-                <lottie-player class="error-lottie" background="transparent" speed="0.5" autoplay loop
-                    src="https://adamsochorec.dk/lottie/404.json"></lottie-player>
+                <lottie-player class="error-lottie" src="/lottie/404.json" background="transparent" speed="0.5"
+                    autoplay></lottie-player>
             </section><br>
             <h1 id="Error" class="v2">The page you’re looking for can’t be found.</h1><br>
             <section class="flex-center">
