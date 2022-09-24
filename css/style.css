@@ -127,6 +127,7 @@ span.bar {
   border-top-right-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
+
 .loader-wrapper {
   background: var(--black-color);
   opacity: 70%;
@@ -473,6 +474,24 @@ h1.tfa {
   font-size: 2rem;
   display: inline;
 }
+.header-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.skeleton {
+  background-color: grey;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
 .works-grid-container {
   display: grid;
   width: 100%;
@@ -491,7 +510,8 @@ h1.tfa {
   grid-row: span 2;
   grid-column: span 1;
 }
-.h-stretch {
+.h-stretch,
+.h-skeleton {
   grid-column: span 2;
 }
 .hh-stretch {
@@ -501,7 +521,8 @@ h1.tfa {
   grid-row: span 1;
   grid-column: span 1.5;
 }
-.wide-stretch {
+.wide-stretch,
+.wide-skeleton {
   grid-column: span 4;
   grid-row: span 1;
 }
@@ -518,7 +539,7 @@ body#about {
   background-color: var(--black-color);
 }
 .about {
-  background-image: url(/img/photos/cover.gif);
+  background-image: url(/img/photos/cover.gi);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -553,53 +574,70 @@ body#about {
   color: var(--content-font);
   padding: 0;
 }
+#coding-languages {
+  fill: var(--text-color);
+  width: 20px;
+  padding-bottom: 2.3px;
+}
 .skill-bar {
   height: 5px;
   padding: 0;
   border-radius: 20px;
   margin-bottom: 1rem;
+  position: relative;
+  top: -px;
 }
 .inline {
   display: block;
 }
 .faded {
   background-color: var(--background-color);
-  width: 10rem;
+  width: 100%;
+  height: 4px;
 }
 .skill-bar.level {
   background-color: var(--primary-color);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  animation: pulse 1s linear infinite alternate;
+}
+@keyframes pulse {
+  0% {
+    opacity: 30%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .skill-bar.level.level-10 {
-  width: 10rem;
+  width: 100%;
 }
 .skill-bar.level.level-9 {
-  width: 9rem;
+  width: 90%;
 }
 .skill-bar.level.level-8 {
-  width: 8rem;
+  width: 80%;
 }
 .skill-bar.level.level-7 {
-  width: 7rem;
+  width: 70%;
 }
 .skill-bar.level.level-6 {
-  width: 6rem;
+  width: 60%;
 }
 .skill-bar.level.level-5 {
-  width: 5rem;
+  width: 50%;
 }
 .skill-bar.level.level-4 {
-  width: 4rem;
+  width: 40%;
 }
 .skill-bar.level.level-3 {
-  width: 3rem;
+  width: 30%;
 }
 .skill-bar.level.level-2 {
-  width: 2rem;
+  width: 20%;
 }
 .skill-bar.level-1 {
-  width: 1rem;
+  width: 10%;
 }
 .success-lottie {
   width: 100px;

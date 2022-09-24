@@ -55,7 +55,7 @@
             </article>
             <hr>
             <section>
-                <iframe
+                <iframe class="skeleton"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.4536767478503!2d9.475265615916156!3d55.48961928048376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c9f7aed9ccbcd%3A0x4beb056a0a3fdde7!2sKnuds%20Garage!5e0!3m2!1sen!2scz!4v1663570078678!5m2!1sen!2scz"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
@@ -65,7 +65,7 @@
                         class="note">https://knuds-garage.business.site/</i></a>
             </section>
             <hr>
-            <img src="/img/photos/IMG_0438.jpeg" />
+            <img class="skeleton" src="/img/photos/IMG_0438.jpeg" />
 
             </section>
         </article>
