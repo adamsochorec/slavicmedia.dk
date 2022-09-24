@@ -21,7 +21,6 @@
     <!-- HEADER END -->
     <!-- SCROLL STATUS + CONTACT FORMS START -->
     <aside>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."preloader.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
         <!-- Contact form -->
@@ -111,7 +110,7 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
         <script src="./js/script.js" defer></script>
     </footer>
     <!-- FOOTER END -->
