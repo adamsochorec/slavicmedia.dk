@@ -256,6 +256,7 @@
             <article>
                 <hr>
                 <h2>4. Related literature</h2>
+
                 <br>
                 <ol class="ul-content">
                     <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength
@@ -313,10 +314,7 @@
     </div>
     <!-- FOOTER START -->
     <footer>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="./js/cyber-security.js" defer></script>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
     </footer>
     <!-- FOOTER END -->
