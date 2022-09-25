@@ -75,7 +75,7 @@
         <div class="footer2">
             <span class="copyright cookies-margin">© 2022</span>
             <span class="ecorp cookies-margin">
-                <svg id="footer-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" height="8.33px"
+                <svg id="footer-logo" xmlns="http://www.w3.org/2000/svg" height="8.33px"
                     viewBox="0 0 559.38 46.88">
                     <path class="footer-logo"
                         d="M0,46.88v-3.12H15.62v3.12H0Zm3.12-12.5v-3.12H37.5v3.12H3.12Zm0,6.25v-3.12H12.5v3.12H3.12ZM6.25,3.12V0h28.12V3.12H6.25Zm0,18.75v-3.12H15.62v3.12H6.25Zm0,6.25v-3.12h28.12v3.12H6.25Zm3.12-18.75v-3.12H31.25v3.12H9.38Zm0,6.25v-3.12h9.38v3.12H9.38Zm12.5,0v-3.12h9.38v3.12h-9.38Zm3.12,6.25v-3.12h9.38v3.12h-9.38Zm0,25v-3.12h15.63v3.12h-15.63Zm3.12-6.25v-3.12h9.38v3.12h-9.38Z" />

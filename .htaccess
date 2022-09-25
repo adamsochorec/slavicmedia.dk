@@ -22,4 +22,4 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 # Changing deafult homepage name from index to custom one
 
-DirectoryIndex works.php
+DirectoryIndex /works.php

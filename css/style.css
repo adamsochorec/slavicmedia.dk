@@ -297,6 +297,14 @@ footer {
   padding: 0;
   margin-bottom: 2rem;
 }
+.sketchfab-1 {
+  fill: var(--background-color);
+}
+.sketchfab-2 {
+  fill: var(--white-color);
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
 #logo-circle {
   fill: #007ee3;
 }
@@ -305,7 +313,8 @@ footer {
   text-shadow: var(--objects-shadow);
   width: 20px;
 }
-#footer-brands:hover {
+#footer-brands:hover,
+.sketchfab-2:hover {
   fill: var(--secondary-color);
   transition: var(--transition);
 }
@@ -505,9 +514,22 @@ body#about {
   padding: 0;
 }
 #coding-languages {
-  fill: var(--text-color);
-  width: 20px;
-  padding-bottom: 2.3px;
+  height: 30px;
+}
+#coding-languages-php {
+  height: 40px;
+}
+#coding-languages-javascript,
+#coding-languages-python,
+#coding-languages-php,
+#coding-languages {
+  transform: translateY(-4px);
+  padding-left: 8px;
+}
+#coding-languages-javascript,
+#coding-languages-python {
+  height: 24px;
+  transform: translateY(-2px);
 }
 .skill-bar {
   height: 5px;
@@ -530,6 +552,7 @@ body#about {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   animation: pulse 1s linear infinite alternate;
+  width: var(--start);
 }
 @keyframes pulse {
   0% {
@@ -569,6 +592,141 @@ body#about {
 .skill-bar.level-1 {
   width: 10%;
 }
+/* skill bar animation 
+:root {
+  --level-10: 100%;
+  --level-9: 90%;
+  --level-8: 80%;
+  --level-7: 70%;
+  --level-6: 60%;
+  --level-5: 50%;
+  --level-4: 40%;
+  --level-3: 30%;
+  --level-2: 20%;
+  --level-1: 10%;
+  --start: 0%;
+}
+
+.skill-bar.level.level-1.active {
+  animation: level-1 0.2s linear alternate;
+  width: var(--level-1);
+}
+@keyframes level-1 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-1);
+  }
+}
+.skill-bar.level.level-2.active {
+  animation: level-2 0.2s linear alternate;
+  width: var(--level-2);
+}
+@keyframes level-2 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-2);
+  }
+}
+.skill-bar.level.level-3.active {
+  animation: level-3 0.2s linear alternate;
+  width: var(--level-3);
+}
+@keyframes level-3 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-3);
+  }
+}
+.skill-bar.level.level-4.active {
+  animation: level-4 0.2s linear alternate;
+  width: var(--level-4);
+}
+@keyframes level-4 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-4);
+  }
+}
+.skill-bar.level.level-5.active {
+  animation: level-5 0.2s linear alternate;
+  width: var(--level-5);
+}
+@keyframes level-5 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-5);
+  }
+}
+.skill-bar.level.level-6.active {
+  animation: level-6 0.2s linear alternate;
+  width: var(--level-6);
+}
+@keyframes level-6 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-6);
+  }
+}
+.skill-bar.level.level-7.active {
+  animation: level-7 0.2s linear alternate;
+  width: var(--level-7);
+}
+@keyframes level-7 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-7);
+  }
+}
+.skill-bar.level.level-8.active {
+  animation: level-8 0.2s linear alternate;
+  width: var(--level-8);
+}
+@keyframes level-8 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-8);
+  }
+}
+.skill-bar.level.level-9.active {
+  animation: level-9 0.2s linear alternate;
+  width: var(--level-9);
+}
+@keyframes level-9 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-9);
+  }
+}
+.skill-bar.level.level-10.active {
+  animation: level-10 0.2s linear alternate;
+  width: var(--level-10);
+}
+@keyframes level-10 {
+  0% {
+    width: var(--start);
+  }
+  100% {
+    width: var(--level-10);
+  }
+} */
 .success-lottie {
   width: 100px;
 }

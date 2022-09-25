@@ -12,8 +12,8 @@
                 </li>
                 <li><a href="https://www.flickr.com/photos/141401020@N03/">
                         <svg id="footer-brands" height="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-                            <path fill="white" d="M151 58a42 42 0 1 0 .1 0z" />
-                            <path fill="white" d="M49 58a42 42 0 1 0 .1 0z" />
+                            <path d="M151 58a42 42 0 1 0 .1 0z" />
+                            <path d="M49 58a42 42 0 1 0 .1 0z" />
                         </svg>
                     </a>
                 </li>
@@ -27,23 +27,10 @@
                 <li><a href="https://sketchfab.com/adamsochorec">
                         <svg height="20px" id="footer-brands" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 2001 2001">
-                            <defs>
-                                <style>
-                                .cls-1 {
-                                    fill: #282828;
-                                }
-
-                                .cls-2 {
-                                    fill: white;
-                                    stroke: #000;
-                                    stroke-miterlimit: 10;
-                                }
-                                </style>
-                            </defs>
-                            <path class="cls-1"
+                            <path class="sketchfab-1"
                                 d="M1000.5,69.45C484.98,69.45,67.22,487.34,67.22,1002.74s417.76,933.29,933.28,933.29,933.36-417.89,933.36-933.29S1516.02,69.45,1000.5,69.45Z" />
-                            <g id="logo-circle">
-                                <path class="cls-2"
+                            <g>
+                                <path
                                     d="M1000.5,.5C448.18,.5,.5,448.22,.5,1000.5s447.68,1000,1000,1000,1000-447.72,1000-1000C2000.58,448.22,1552.9,.5,1000.5,.5Zm-86.88,1595.07l-431.12-248.86v-502.04l431.12,232.86v518.04Zm76.8-636.19l-510.08-270.38,510.08-294.54,510.16,294.54-510.16,270.38Zm510.48,388.29l-429.52,247.98v-516.12l429.52-232.06v500.2Z" />
                             </g>
                         </svg>

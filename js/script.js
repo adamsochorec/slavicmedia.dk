@@ -1,11 +1,11 @@
 // HAMBURGER MENU
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-let blurMain = document.querySelector("main");
+const blurMain = document.querySelector("main");
 const blurFooter = document.querySelector("footer");
 const blurAside = document.querySelector("aside");
 const hideBar = document.querySelector(".progress-bar");
-let noscroll = document.querySelector("body");
+const noscroll = document.querySelector("body");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -44,7 +44,6 @@ function myFunction() {
   const scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-
 // SKELETON LOADING ANIMATION
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then((res) => res.json())
@@ -57,3 +56,4 @@ fetch("https://jsonplaceholder.typicode.com/posts")
       grid.append(div);
     });
   });
+// SKILL BAR
