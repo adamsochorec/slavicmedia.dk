@@ -133,9 +133,7 @@
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-6"></div>
                         </div>
-                        <p>PHP
-                            <?xml version="1.0" encoding="UTF-8"?>
-                            <svg id="coding-languages-php" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                        <p>PHP<svg id="coding-languages-php" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 2500 2500">l
                                 <path class="php-2" fill-rule="evenodd" d="M0,0H2500V2500H0V0Z" />
                                 <path class="php-1" fill-rule="evenodd" fill="#6e81b6"
@@ -149,9 +147,7 @@
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-3"></div>
                         </div>
-                        <p>JavaScript
-                            <?xml version="1.0" encoding="UTF-8"?>
-                            <svg id="coding-languages-javascript" data-name="Layer 1"
+                        <p>JavaScript<svg id="coding-languages-javascript" data-name="Layer 1"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 78.56 88.92">
                                 <path d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z" style="fill: #e6a329;" />
@@ -183,9 +179,7 @@
                         <div class="skill-bar faded inline">
                             <div class="skill-bar level level-1"></div>
                         </div>
-                        <p>Python
-                            <?xml version="1.0" encoding="UTF-8"?>
-                            <svg id="coding-languages-python" data-name="Layer 1"
+                        <p>Python<svg id="coding-languages-python" data-name="Layer 1"
                                 xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 111.68 111.11">
                                 <defs>
@@ -215,7 +209,7 @@
                         </div>
             </section>
         </arcticle>
-        <hr>
+        <hr class="hide2">
     </main>
     <!-- FOOTER START -->
     <footer>

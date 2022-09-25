@@ -185,6 +185,9 @@ hr,
 .error-lottie {
   width: 37.5rem;
 }
+hr.hide2 {
+  opacity: 0%;
+}
 h1,
 h2,
 h3,
