@@ -297,6 +297,9 @@ footer {
   padding: 0;
   margin-bottom: 2rem;
 }
+#logo-circle {
+  fill: #007ee3;
+}
 #footer-brands {
   fill: var(--white-color);
   text-shadow: var(--objects-shadow);
