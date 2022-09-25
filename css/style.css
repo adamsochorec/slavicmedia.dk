@@ -297,24 +297,19 @@ footer {
   padding: 0;
   margin-bottom: 2rem;
 }
-.sketchfab-1 {
-  fill: var(--background-color);
-}
-.sketchfab-2 {
-  fill: var(--white-color);
-  stroke: #000;
-  stroke-miterlimit: 10;
-}
-#logo-circle {
-  fill: #007ee3;
-}
 #footer-brands {
   fill: var(--white-color);
   text-shadow: var(--objects-shadow);
   width: 20px;
 }
+#sketchfab-2 {
+  fill: var(--background-color);
+}
+#sketfab-1 {
+  fill: var(--white-color);
+}
 #footer-brands:hover,
-.sketchfab-2:hover {
+#sketchfab-1:hover {
   fill: var(--secondary-color);
   transition: var(--transition);
 }
@@ -521,7 +516,6 @@ body#about {
 }
 #coding-languages-javascript,
 #coding-languages-python,
-#coding-languages-php,
 #coding-languages {
   transform: translateY(-4px);
   padding-left: 8px;
@@ -530,6 +524,20 @@ body#about {
 #coding-languages-python {
   height: 24px;
   transform: translateY(-2px);
+}
+#coding-languages-javascript,
+#coding-languages-python,
+#coding-languages,
+#coding-languages-php {
+  animation: pulse-coding 1s linear infinite alternate;
+}
+@keyframes pulse-coding {
+  0% {
+    opacity: 70%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 .skill-bar {
   height: 5px;
