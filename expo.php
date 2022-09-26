@@ -29,8 +29,8 @@
             <br>
             <h2 class="v1">Jan 2023 - Feb 2023</h2>
             <hr>
-            <article class="expo-grid-container">
-                <section class="expo-grid-item-1">
+            <article class="expo grid-container">
+                <section class="expo grid-item-1">
                     <fieldset>
                         <legend>
                             <h2>Knuds Garage</h2>
@@ -40,7 +40,7 @@
                         <p>Denmark</p>
                     </fieldset>
                 </section>
-                <section class="expo-grid-item-2">
+                <section class="expo grid-item-2">
                     <fieldset>
                         <legend>
                             <h2 class="">Opening hours</h2>

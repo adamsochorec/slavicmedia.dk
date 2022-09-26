@@ -11,7 +11,7 @@
                     </a>
                 </li>
                 <li><a href="https://www.flickr.com/photos/141401020@N03/">
-                        <svg id="footer-brands" height="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                        <svg id="footer-brands" xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 0 200 200">
                             <path d="M151 58a42 42 0 1 0 .1 0z" />
                             <path d="M49 58a42 42 0 1 0 .1 0z" />
                         </svg>
