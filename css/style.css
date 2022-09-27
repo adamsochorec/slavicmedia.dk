@@ -48,6 +48,12 @@ img,
 svg {
   vertical-align: middle;
 }
+img,
+iframe {
+  animation: skeleton-loading 1s linear infinite alternate;
+  max-width: 100%;
+}
+
 #fa-chevron-right {
   fill: var(--primary-color);
   width: 8px;
@@ -62,7 +68,7 @@ header {
   display: flex;
   font-family: var(--logo-font);
   font-size: 1.45rem;
-  height: 44px;
+  height: 5%;
   justify-content: center;
   padding: 0 2.5rem;
   position: fixed;
@@ -122,7 +128,7 @@ span.bar {
 }
 .progress-container {
   position: fixed;
-  top: 41px;
+  top: 4.7%;
   width: 100%;
   z-index: 9;
 }
@@ -147,11 +153,11 @@ span.bar {
   z-index: 99999999;
 }
 .banner-container {
-  position: relative;
-  top: 44px;
+  position: absolute;
+  top: 5%;
   width: 100%;
   z-index: 3;
-  animation: 0.5s fade;
+  animation: 1.5s fade;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   animation-delay: 0;
@@ -161,10 +167,13 @@ span.bar {
 }
 @keyframes fade {
   0% {
-    top: -30px;
+    top: -5%;
+  }
+  70% {
+    top: -5%;
   }
   100% {
-    top: 44px;
+    top: 5%;
     background-color: var(--text-color);
   }
 }
@@ -184,7 +193,9 @@ main {
 hr,
 .error-lottie {
   width: 37.5rem;
+  animation: none;
 }
+
 h1,
 h2,
 h3,
@@ -232,11 +243,13 @@ hr {
   margin: 3rem 0;
   opacity: 60%;
 }
-.wrapper img,
+img,
 .wrapper iframe {
-  background: var(--white-color);
   border-radius: var(--border-radius);
   max-width: 100%;
+}
+#cyber-security img {
+  background: var(--white-color);
 }
 .inputBox #btn,
 .inputBox #btn:after {
@@ -288,7 +301,7 @@ hr {
   text-align: center;
 }
 footer {
-  background-color: var(--background-color);
+  color: var(--black-color);
 }
 .footer-icons {
   list-style: none;
@@ -309,7 +322,7 @@ footer {
   fill: var(--white-color);
 }
 #footer-brands:hover {
-  transition: var(--transition);
+  transition: all.3s ease-in-out;
   fill: var(--primary-color);
 }
 
@@ -444,8 +457,7 @@ h1.tfa {
   grid-row: span 2;
   grid-column: span 1;
 }
-.h-stretch,
-.h-skeleton {
+.h-stretch {
   grid-column: span 2;
 }
 .hh-stretch {
@@ -455,8 +467,7 @@ h1.tfa {
   grid-row: span 1;
   grid-column: span 1.5;
 }
-.wide-stretch,
-.wide-skeleton {
+.wide-stretch {
   grid-column: span 4;
   grid-row: span 1;
 }
@@ -466,6 +477,10 @@ h1.tfa {
   height: 100%;
   object-fit: cover;
 }
+h1#about.v1,
+h1#works.v1 {
+  margin-top: 10%;
+}
 h1.v1.works-heading {
   text-align: center;
 }
@@ -473,7 +488,7 @@ body#about {
   background-color: var(--black-color);
 }
 .about {
-  background-image: url(/img/photos/cover.gi);
+  background-image: url(/img/photos/cover.gif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -508,40 +523,10 @@ body#about {
   color: var(--content-font);
   padding: 0;
 }
-#coding-languages {
-  height: 30px;
-}
-#coding-languages-flag {
-  height: 20px;
+.languages {
   transform: translateY(-2px);
-}
-#coding-languages-php {
-  height: 40px;
-}
-#coding-languages-javascript,
-#coding-languages-python,
-#coding-languages,
-#coding-languages-javascript,
-#coding-languages-php,
-#coding-languages-flag {
-  padding-left: 8px;
-}
-
-#coding-languages-javascript,
-#coding-languages-python,
-#coding-languages {
-  transform: translateY(-4px);
-}
-#coding-languages-javascript,
-#coding-languages-python {
-  height: 24px;
-  transform: translateY(-2px);
-}
-#coding-languages-javascript,
-#coding-languages-python,
-#coding-languages,
-#coding-languages-php,
-#coding-languages-flag {
+  padding-left: 5px;
+  height: 25px;
   animation: pulse-coding 1s linear infinite alternate;
 }
 @keyframes pulse-coding {
@@ -770,15 +755,11 @@ p.v2 {
   padding: 0;
   padding-left: 4px;
 }
-.error-lottie {
-  background: none;
-}
 @media only screen and (min-width: 340px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
   .grid-container h2 {
     font-size: var(--font-size-1);
   }
@@ -786,18 +767,21 @@ p.v2 {
   .grid-container ul {
     font-size: var(--font-size-2);
   }
-}
-@media only screen and (min-width: 349px) {
   .grid-item-1 {
-    margin-right: 1rem;
+    margin-right: 30px;
   }
   .grid-item-2 {
-    margin-left: 1rem;
+    margin-left: 30px;
   }
+}
+@media only screen and (min-width: 355px) {
 }
 @media only screen and (max-width: 415px) {
   h2 {
     font-size: 1.2rem;
+  }
+  .languages {
+    height: 15px;
   }
   .inputBox #btn,
   .inputBox #btn:after,
@@ -904,9 +888,6 @@ p.v2 {
   }
 }
 @media only screen and (max-width: 667px) {
-  main {
-    padding: 7.5rem 1.25rem 0;
-  }
   .wrapper,
   hr,
   .error-lottie {
@@ -967,6 +948,11 @@ p.v2 {
   }
   .progress-bar.hide {
     display: none;
+  }
+}
+@media only screen and (max-width: 947px) {
+  main {
+    padding: 7.5rem 1.25rem 0;
   }
 }
 @media only screen and (max-width: 1000px) {

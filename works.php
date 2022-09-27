@@ -30,31 +30,31 @@
             <section data body class="works-grid-container">
 
                 <div class="h-stretch">
-                    <img class="skeleton" src="/img/photos/1.webp" />
+                    <img src="/img/photos/1.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src="/img/photos/2.webp" />
+                    <img src="/img/photos/2.webp" />
                 </div>
                 <div class="wide-stretch">
-                    <img class="skeleton" src="/img/photos/3.webp" />
+                    <img src="/img/photos/3.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/4.webp" />
+                    <img src=" /img/photos/4.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/5.webp" />
+                    <img src=" /img/photos/5.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/7.webp" />
+                    <img src=" /img/photos/7.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/6.webp" />
+                    <img src=" /img/photos/6.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/8.webp" />
+                    <img src=" /img/photos/8.webp" />
                 </div>
                 <div class="h-stretch sketchfab-embed-wrapper">
-                    <iframe class="skeleton"
+                    <iframe
                         title="Blåvand bunker | vzor 2"
                         frameborder="0"
                         allowfullscreen
@@ -69,7 +69,7 @@
                     </iframe>
                 </div>
                 <div class="h-stretch sketchfab-embed-wrapper">
-                    <iframe class="skeleton" title="Element | vzor 1" frameborder="0" allowfullscreen
+                    <iframe title="Element | vzor 1" frameborder="0" allowfullscreen
                         mozallowfullscreen="true"
                         webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
                         xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
@@ -77,78 +77,78 @@
                     </iframe>
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/10.webp" />
+                    <img src=" /img/photos/10.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/9.webp" />
+                    <img src=" /img/photos/9.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/10.webp" />
+                    <img src=" /img/photos/10.webp" />
                 </div>
                 <div class="hh-stretch">
-                    <img class="skeleton" src=" /img/photos/11.webp" />
+                    <img src=" /img/photos/11.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/12.webp" />
+                    <img src=" /img/photos/12.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/13.webp" />
+                    <img src=" /img/photos/13.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/14.webp" />
+                    <img src=" /img/photos/14.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/18.webp" />
+                    <img src=" /img/photos/18.webp" />
                 </div>
                 <div class="hh-stretch">
-                    <img class="skeleton" src=" /img/photos/17.webp" />
+                    <img src=" /img/photos/17.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/15.webp" />
+                    <img src=" /img/photos/15.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/16.webp" />
+                    <img src=" /img/photos/16.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/22.gif" />
+                    <img src=" /img/photos/22.gif" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/23.gif" />
+                    <img src=" /img/photos/23.gif" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/19.webp" />
+                    <img src=" /img/photos/19.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/21.webp" />
+                    <img src=" /img/photos/21.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/20.webp" />
+                    <img src=" /img/photos/20.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/24.webp" />
+                    <img src=" /img/photos/24.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/35.webp" />
+                    <img src=" /img/photos/35.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/32.webp" />
+                    <img src=" /img/photos/32.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/25.webp" />
+                    <img src=" /img/photos/25.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/30.webp" />
+                    <img src=" /img/photos/30.webp" />
                 </div>
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/33.webp" />
+                    <img src=" /img/photos/33.webp" />
                 </div>
                 <div class="h-stretch">
-                    <img class="skeleton" src=" /img/photos/28.webp" />
+                    <img src=" /img/photos/28.webp" />
                 </div>
 
                 <div class="h-stretch sketchfab-embed-wrapper">
-                    <iframe class="skeleton" title="Element | vzor 9"
+                    <iframe title="Element | vzor 9"
                         frameborder="0" allowfullscreen
                         mozallowfullscreen="true" webkitallowfullscreen="true"
                         allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
@@ -157,7 +157,7 @@
                     </iframe>
                 </div>
                 <div class="v-stretch">
-                    <img class="skeleton" src=" /img/photos/31.webp" />
+                    <img src=" /img/photos/31.webp" />
             </section>
         </article>
         <hr>

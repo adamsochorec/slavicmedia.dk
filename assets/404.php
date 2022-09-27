@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Page Not Found | Adam Sochorec</title>
-    <link rel="icon" href="https://adamsochorec.dk/img/favicon.png" type="image/webp">
-    <link rel="stylesheet" href="https://adamsochorec.dk/css/style.css">
+    <link rel="icon" href="/img/favicon.png" type="image/webp">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
@@ -19,13 +19,11 @@
         <hr class="hide">
         <article class="wrapper narrow">
             <section class="flex-center">
-                <lottie-player class="error-lottie" src="https://adamsochorec.dk/lottie/404.json"
-                    background="transparent" speed="0.5"
-                    autoplay></lottie-player>
+                <img class="error-lottie" src="/lottie/404.gif"></img>
             </section><br>
             <h1 id="Error" class="v2">The page you’re looking for can’t be found.</h1><br>
             <section class="flex-center">
-                <div class="inputBox"><a aria-describedby="works" href="https://adamsochorec.dk">
+                <div class="inputBox"><a aria-describedby="/works" href="">
                         <div aria-describedby="works" id="btn">return to frontpage</div>
                         <div class="shadow-btn"></div>
                     </a></div>
@@ -112,7 +110,7 @@
             </span>
         </div>
         <br>
-        <script src="https://adamsochorec.dk/js/script.js"></script>
+        <script src="/js/script.js"></script>
     </footer>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
