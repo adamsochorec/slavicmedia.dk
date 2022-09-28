@@ -68,7 +68,7 @@ header {
   display: flex;
   font-family: var(--logo-font);
   font-size: 1.45rem;
-  height: 5%;
+  height: 5vh;
   justify-content: center;
   padding: 0 2.5rem;
   position: fixed;
@@ -128,13 +128,13 @@ span.bar {
 }
 .progress-container {
   position: fixed;
-  top: 4.7%;
+  top: 4.6vh;
   width: 100%;
   z-index: 9;
 }
 .progress-bar {
   background: var(--secondary-color);
-  height: 3px;
+  height: 0.4vh;
   border-top-right-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
@@ -154,7 +154,7 @@ span.bar {
 }
 .banner-container {
   position: absolute;
-  top: 5%;
+  top: 5vh;
   width: 100%;
   z-index: 3;
   animation: 1.5s fade;
@@ -445,7 +445,7 @@ p.tfa {
 }
 .intro {
   height: 100vh;
-  background-image: url(/img/photos/5.webp);
+  background-image: url(/img/photos/cover-works.webp);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -490,8 +490,20 @@ h1#about.v1 {
   margin-top: 10%;
 }
 h1#works.v1 {
-  position: relative;
-  top: 50%;
+  font-family: BigBlue;
+  font-size: 6rem;
+  position: sticky;
+  text-shadow: 3px 3px var(--text-color);
+  top: 50vh;
+  animation: text-shadow-works 2s linear infinite alternate;
+}
+@keyframes text-shadow-works {
+  0% {
+    color: var(--secondary-color);
+  }
+  100% {
+    color: var(--primary-color);
+  }
 }
 h1.v1.works-heading {
   text-align: center;

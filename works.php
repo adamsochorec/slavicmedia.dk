@@ -84,7 +84,7 @@
                     <img src=" /img/photos/9.webp" />
                 </div>
                 <div class="v-stretch">
-                    <img src=" /img/photos/10.webp" />
+                    <img src=" /img/photos/37.webp" />
                 </div>
                 <div class="hh-stretch">
                     <img src=" /img/photos/11.webp" />
@@ -140,9 +140,11 @@
                 <div class="v-stretch">
                     <img src=" /img/photos/30.webp" />
                 </div>
-                </div>
                 <div class="h-stretch">
                     <img src=" /img/photos/33.webp" />
+                </div>
+                <div class="v-stretch">
+                    <img src=" /img/photos/31.webp" />
                 </div>
                 <div class="h-stretch">
                     <img src=" /img/photos/28.webp" />
@@ -157,8 +159,6 @@
                         src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1">
                     </iframe>
                 </div>
-                <div class="v-stretch">
-                    <img src=" /img/photos/31.webp" />
             </section>
         </article>
         <hr>
