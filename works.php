@@ -26,9 +26,10 @@
     <!-- SCROLL STATUS END -->
     <main>
         <article class="wrapper wide">
-            <h1 id="works" class="v1 works-heading">Works</h1>
+            <section class="intro">
+                <h1 id="works" class="v1 works-heading">Works</h1>
+            </section>
             <section data body class="works-grid-container">
-
                 <div class="h-stretch">
                     <img src="/img/photos/1.webp" />
                 </div>
