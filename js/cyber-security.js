@@ -27,8 +27,9 @@ function textChange() {
   // 2. Copying the text
   document.execCommand("Copy");
 }
-// 2FA numbers
+// JQUERY
 
+// 2FA numbers
 // 1.
 (function () {
   let tfaCode = [

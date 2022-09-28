@@ -129,27 +129,27 @@
                         or verification app.</p>
                     <p>2FA usually works on top of standard login procedure (username and password), so if your account
                         info gets compromised, hacker still wouldn't access your account.</p>
-                    <div class="flex-center">
+                    <div class="tfa-center">
                         <div class="tfa-grid">
                             <div class="grid-item">
-                                <h1 class="tfa"><span class="tfaCode">902 844</span></h1>
-                                <h1 class="tfa"><span class="tfaCode">024 930</span></h1>
-                                <h1 class="tfa"><span class="tfaCode">056 929</span></h1>
+                                <p class="tfa"><span class="tfaCode">902 844</span></p>
+                                <p class="tfa"><span class="tfaCode">024 930</span></p>
+                                <p class="tfa"><span class="tfaCode">056 929</span></p>
                             </div>
                             <div class="grid-item">
-                                <h1 class="tfa"><span class="tfaCodee">039 032</span></h1>
-                                <h1 class="tfa"><span class="tfaCodee">983 230</span></h1>
-                                <h1 class="tfa"><span class="tfaCodee">663 892</span></h1>
+                                <p class="tfa"><span class="tfaCodee">039 032</span></p>
+                                <p class="tfa"><span class="tfaCodee">983 230</span></p>
+                                <p class="tfa"><span class="tfaCodee">663 892</span></p>
                             </div>
                             <div class="grid-item">
-                                <h1 class="tfa"><span class="tfaCodeee">780 320</span></h1>
-                                <h1 class="tfa"><span class="tfaCodeee">401 024</span></h1>
-                                <h1 class="tfa"><span class="tfaCodeee">896 309</span></h1>
+                                <p class="tfa"><span class="tfaCodeee">780 320</span></p>
+                                <p class="tfa"><span class="tfaCodeee">401 024</span></p>
+                                <p class="tfa"><span class="tfaCodeee">896 309</span></p>
                             </div>
                             <div class="grid-item">
-                                <h1 class="tfa"><span class="tfaCodeeee">930 324</span></h1>
-                                <h1 class="tfa"><span class="tfaCodeeee">609 714</span></h1>
-                                <h1 class="tfa"><span class="tfaCodeeee">595 469</span></h1>
+                                <p class="tfa"><span class="tfaCodeeee">930 324</span></p>
+                                <p class="tfa"><span class="tfaCodeeee">609 714</span></p>
+                                <p class="tfa"><span class="tfaCodeeee">595 469</span></p>
                             </div>
                         </div>
                     </div>
@@ -305,7 +305,8 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <script src="/js/cyber-security.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/cyber-security.js"></script>
     </footer>
     <!-- FOOTER END -->
 </body>

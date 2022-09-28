@@ -31,6 +31,7 @@ function closeMenu() {
   hideBar.classList.remove("hide");
   noscroll.classList.remove("noscroll");
 }
+
 // SCROLL STATUS
 window.onscroll = function () {
   myFunction();
