@@ -44,7 +44,7 @@
         <h6>No cookies.</h6>
     </div>
     <div class="footer2">
-        <span class="copyright cookies-margin">© 2022</span>
+        <span class="copyright cookies-margin">© <span id="currentYear"></span></span>
         <span class="ecorp cookies-margin">Adam Sochorec</span>
     </div>
     <br>

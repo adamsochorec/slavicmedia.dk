@@ -57,4 +57,18 @@ fetch("https://jsonplaceholder.typicode.com/posts")
       grid.append(div);
     });
   });
-// SKILL BAR
+
+// CURRENT YEAR
+var today = new Date();
+var day = today.getDay();
+var daylist = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday ",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+let thisYear = today.getFullYear();
+document.getElementById("currentYear").innerHTML = thisYear;
