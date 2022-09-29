@@ -78,7 +78,7 @@
             <h6>No cookies.</h6>
         </div>
         <div class="footer2">
-            <span class="copyright cookies-margin">© 2022</span>
+            <span class="copyright cookies-margin">© <span id="currentYear"></span></span>
             <span class="ecorp cookies-margin">
                 <svg id="footer-logo" xmlns="http://www.w3.org/2000/svg" height="8.33px"
                     viewBox="0 0 559.38 46.88">
@@ -110,10 +110,7 @@
             </span>
         </div>
         <br>
-        <script src="/js/script.js"></script>
-    </footer>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+        <script src="/js/script.js" defer></script>
     </footer>
 </body>
 

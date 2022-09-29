@@ -797,8 +797,6 @@ p.v2 {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 355px) {
-}
 @media only screen and (max-width: 415px) {
   h2 {
     font-size: 1.2rem;
@@ -829,6 +827,9 @@ p.v2 {
   }
   .inputBox input::placeholder {
     font-size: var(--font-size-2);
+  }
+  .intro {
+    background-image: url(/img/photos/41.webp);
   }
 }
 @media only screen and (max-width: 420px) {
