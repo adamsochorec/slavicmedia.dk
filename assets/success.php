@@ -13,33 +13,36 @@
 </head>
 
 <body id="success">
+    <!-- HEADER START -->
+    <header>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
+    </header>
+    <!-- HEADER END -->
     <main>
         <hr class="hide">
-        <article class="wrapper narrow">
+        <article class="flex-center">
             <section class="flex-center">
-                <dotlottie-player class="success-lottie" src="/lottie/success.lottie" background="transparent" speed="1"
+                <dotlottie-player src="/lottie/success.lottie" background="transparent" speed="1"
                     autoplay></dotlottie-player>
+                <br><br>
+                <h1>Form submitted successfully!</h1>
             </section>
             <br>
-            <h1 id="success" class="v2">Form submitted successfully!</h1>
-            <br>
-            <section class="flex-center">
-                <div class="inputBox">
-                    <a aria-describedby="about" href="/about">
-                        <div aria-describedby="about" id="btn">return to about</div>
-                        <div class="shadow-btn"></div>
-                    </a>
-
-                </div>
+            <div class="btn-area">
+                <a aria-describedby="about" href="/about">
+                    <div aria-describedby="about" id="btn">return to about</div>
+                    <div class="btn-shadow"></div>
+                </a>
+            </div>
             </section>
         </article>
         <hr>
     </main>
     <!-- FOOTER START -->
     <footer>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
     </footer>
     <!-- FOOTER END -->
 </body>

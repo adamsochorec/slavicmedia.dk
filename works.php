@@ -25,18 +25,18 @@
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
-        <article class="wrapper wide">
-            <section class="intro">
-                <h1 id="works" class="v1 works-heading">Works</h1>
+        <article>
+            <section class="intro-section">
+                <h1>Works</h1>
             </section>
-            <section data body class="works-grid-container">
+            <section class="grid-container">
                 <div class="h-stretch">
                     <img src="/img/photos/1.webp" />
                 </div>
                 <div class="h-stretch">
                     <img src="/img/photos/2.webp" />
                 </div>
-                <div class="wide-stretch">
+                <div class="hhh-stretch">
                     <img src="/img/photos/3.webp" />
                 </div>
                 <div class="h-stretch">
@@ -149,7 +149,6 @@
                 <div class="h-stretch">
                     <img src=" /img/photos/28.webp" />
                 </div>
-
                 <div class="h-stretch sketchfab-embed-wrapper">
                     <iframe title="Element | vzor 9"
                         frameborder="0" allowfullscreen
@@ -164,7 +163,9 @@
         <hr>
     </main>
     <!-- FOOTER START -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+    <footer>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+    </footer>
     <!-- FOOTER END -->
 </body>
 

@@ -32,7 +32,7 @@ function textChange() {
 // 2FA numbers
 // 1.
 (function () {
-  let tfaCode = [
+  let tfaOne = [
       "483 130",
       "583 059",
       "574 028",
@@ -43,16 +43,16 @@ function textChange() {
     ],
     i = -1;
   setInterval(function () {
-    $(".tfaCode").fadeOut(function () {
+    $(".tfaOne").fadeOut(function () {
       $(this)
-        .html(tfaCode[(i = (i + 1) % tfaCode.length)])
+        .html(tfaOne[(i = (i + 1) % tfaOne.length)])
         .fadeIn();
     });
   }, 1000);
 })();
 //2.
 (function () {
-  let tfaCodee = [
+  let tfaTwo = [
       "483 130",
       "583 059",
       "574 028",
@@ -63,16 +63,16 @@ function textChange() {
     ],
     i = -1;
   setInterval(function () {
-    $(".tfaCodee").fadeOut(function () {
+    $(".tfaTwo").fadeOut(function () {
       $(this)
-        .html(tfaCodee[(i = (i + 1) % tfaCodee.length)])
+        .html(tfaTwo[(i = (i + 1) % tfaTwo.length)])
         .fadeIn();
     });
   }, 1500);
 })();
 // 3.
 (function () {
-  let tfaCodeee = [
+  let tfaThree = [
       "483 130",
       "583 059",
       "574 028",
@@ -83,16 +83,16 @@ function textChange() {
     ],
     i = -1;
   setInterval(function () {
-    $(".tfaCodeee").fadeOut(function () {
+    $(".tfaThree").fadeOut(function () {
       $(this)
-        .html(tfaCodeee[(i = (i + 1) % tfaCodeee.length)])
+        .html(tfaThree[(i = (i + 1) % tfaThree.length)])
         .fadeIn();
     });
   }, 1000);
 })();
 // 4.
 (function () {
-  let tfaCodeeee = [
+  let tfaFour = [
       "483 130",
       "583 059",
       "574 028",
@@ -103,9 +103,9 @@ function textChange() {
     ],
     i = -1;
   setInterval(function () {
-    $(".tfaCodeeee").fadeOut(function () {
+    $(".tfaFour").fadeOut(function () {
       $(this)
-        .html(tfaCodeeee[(i = (i + 1) % tfaCodeeee.length)])
+        .html(tfaFour[(i = (i + 1) % tfaFour.length)])
         .fadeIn();
     });
   }, 1500);

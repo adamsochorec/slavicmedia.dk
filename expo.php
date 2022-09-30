@@ -24,26 +24,26 @@
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
-        <article class="wrapper standard expo">
-            <h1 id="expo-in-kolding" class="v1">Expo in Knuds garage</h1>
+        <article>
+            <h1>Expo in Knuds garage</h1>
             <br>
-            <h2 class="v1">Jan 2023 - Feb 2023</h2>
+            <h2>Jan 2023 - Feb 2023</h2>
             <hr>
             <article class="expo grid-container">
-                <section class="expo grid-item-1">
+                <section class="expo grid-item">
                     <fieldset>
                         <legend>
-                            <h2>Knuds Garage</h2>
+                            <h3>Knuds Garage</h3>
                         </legend>
                         <p>Munkegade 5A</p>
                         <p>6000 Kolding</p>
                         <p>Denmark</p>
                     </fieldset>
                 </section>
-                <section class="expo grid-item-2">
+                <section class="expo grid-item">
                     <fieldset>
                         <legend>
-                            <h2 class="">Opening hours</h2>
+                            <h3 class="">Opening hours</h3>
                         </legend>
                         <p>Mon - Sat</p>
                         <p>12.00-02.00</p>

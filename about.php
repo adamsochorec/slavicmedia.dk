@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Adam Sochorec</title>
     <link rel="icon" href="/img/favicon.png" type="image/webp">
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -30,12 +29,10 @@
         <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
     </aside>
     <!-- SCROLL STATUS + CONTACT FORMS END -->
-    <main class="about">
-        <arcticle class="wrapper standard">
+    <main>
+        <article>
             <section>
-
-
-                <h1 id="about" class="v1">About</h1>
+                <h1>About</h1>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in
                     Prague.
@@ -45,27 +42,35 @@
                 <p>I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm also enjoying to
                     work with landscapes, 3D scans and web design.​</p>
                 <p>Recent web projects:</p>
-                <ul>
-                    <li><a aria-describedby="cyber-security" href="web-projects/cyber-security">Cyber Security <svg
-                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 384 512">
-                                <path
-                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                            </svg></a></li>
-                    <li><a aria-describedby="/web-projects/zebra-design/zebra-design.php"
-                            href="/web-projects/zebra-design/zebra-design">Zebra Design <svg
-                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 384 512">
-                                <path
-                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                            </svg></a></li>
-                    <li><a aria-describedby="/web-projects/memos/memos" href="/web-projects/memos/memos">Memos <svg
-                                id="fa-chevron-right" width="8px" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 384 512">
-                                <path
-                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                            </svg></a></li>
-                </ul>
+                <ol>
+                    <ul>
+                        <li><a aria-describedby="cyber-security" href="web-projects/cyber-security">Cyber Security <svg
+                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512">
+                                    <path
+                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li><a aria-describedby="/web-projects/zebra-design/zebra-design.php"
+                                href="/web-projects/zebra-design/zebra-design">Zebra Design <svg
+                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512">
+                                    <path
+                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li><a aria-describedby="/web-projects/memos/memos" href="/web-projects/memos/memos">Memos <svg
+                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 384 512">
+                                    <path
+                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </ol>
                 <p>Most of my shots are taken with <a
                         href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
                         6D</a> and <a href="https://www.apple.com/iphone-13/specs/">iPhone 13 mini</a>. 3D models
@@ -76,56 +81,56 @@
             </section>
             <hr>
             <section>
-                <img class=" profile-pic skeleton" src="/img/about.webp"
+                <img class="profile-pic" src="/img/about.webp"
                     alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
-                <img class="partners skeleton" src="./img/partners.webp"
+                <img class="partners" src="./img/partners.webp"
                     alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
             </section>
             <hr>
-            <h2 class="v1">Language competences</h2>
+            <h2>Language competences</h2>
             <br>
             <section class="grid-container">
-                <div class="grid-item-1">
-                    <p>Czech<img class="languages flags" src="/img/svg/czech-republic-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-10"></div>
+                <div class="grid-item">
+                    <p>Czech<img class="languages" src="/img/svg/czech-republic-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-10"></div>
                     </div>
-                    <p>Slovak<img class="languages flags" src="/img/svg/slovakia-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-9"></div>
+                    <p>Slovak<img class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-9"></div>
                     </div>
-                    <p>English<img class="languages flags" src="/img/svg/united-kingdom-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-8"></div>
+                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-8"></div>
                     </div>
-                    <p>Polish<img class="languages flags" src="/img/svg/poland-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-5"></div>
+                    <p>Polish<img class="languages" src="/img/svg/poland-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-5"></div>
                     </div>
-                    <p>Danish<img class="languages flags" src="/img/svg/denmark-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-4"></div>
+                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-4"></div>
                     </div>
-                    <p>Swedish<img class="languages flags" src="/img/svg/sweden-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-3"></div>
+                    <p>Swedish<img class="languages" src="/img/svg/sweden-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-3"></div>
                     </div>
-                    <p>Finnish<img class="languages flags" src="/img/svg/finland-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <p>Finnish<img class="languages" src="/img/svg/finland-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
-                    <p>German<img class="languages flags" src="/img/svg/germany-flag-round.svg">
+                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg">
                     </p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
-                    <p>Chinese <img class="languages flags" src="/img/svg/china-flag-round.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
                 </div>
-                <div class="grid-item-2">
-                    <p>HTML <svg class="languages coding" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                <div class="grid-item">
+                    <p>HTML <svg class="languages" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                             <title>HTML5 Logo Badge</title>
                             <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512" />
                             <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37" />
@@ -134,10 +139,10 @@
                             <path fill="#FFF"
                                 d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z" />
                         </svg></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-7"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-7"></div>
                     </div>
-                    <p>CSS <svg xmlns="http://www.w3.org/2000/svg" class="languages coding"
+                    <p>CSS <svg xmlns="http://www.w3.org/2000/svg" class="languages"
                             viewBox="0 0 512 512">
                             <path fill="#264de4"
                                 d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z" />
@@ -147,14 +152,14 @@
                             <path fill="#fff"
                                 d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z" />
                         </svg></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-6"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-6"></div>
                     </div>
-                    <p>PHP <img class="languages coding" src="/img/svg/php.svg"></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-3"></div>
+                    <p>PHP <img class="languages" src="/img/svg/php.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-3"></div>
                     </div>
-                    <p>JavaScript <svg class="languages coding" data-name="Layer 1"
+                    <p>JavaScript <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 78.56 88.92">
                             <path d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z"
@@ -168,10 +173,10 @@
                                 style="fill: #ebebeb;" />
                         </svg>
                     </p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
-                    <p>C<svg class="languages coding" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <p>C<svg class="languages" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             viewBox="0 0 48 48">
                             <g>
                                 <path style=" fill-rule:evenodd;fill:#283593;"
@@ -184,10 +189,10 @@
                                     d="M 42.484375 13.203125 C 43 13.6875 42.992188 14.414063 42.992188 14.988281 C 42.992188 18.785156 42.960938 29.578125 43 33.371094 C 43.003906 33.769531 42.871094 34.1875 42.675781 34.5 L 23.59375 24 Z " />
                             </g>
                         </svg></p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
-                    <p>Python <svg class="languages coding" data-name="Layer 1"
+                    <p>Python <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 111.68 111.11">
                             <defs>
@@ -214,18 +219,18 @@
                                 style="fill: url(#linear-gradient-2);" />
                         </svg>
                     </p>
-                    <div class="skill-bar faded inline">
-                        <div class="skill-bar level level-1"></div>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-1"></div>
                     </div>
                 </div>
             </section>
-        </arcticle>
+        </article>
         <hr>
     </main>
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <script src="./js/script.js" defer></script>
         <script>
         window.addEventListener('scroll', () => {

@@ -120,3 +120,14 @@
             </div>
         </div>
     </div>
+
+    <style>
+    .tab-pane {
+        color: var(--text-color);
+    }
+
+    .list-group-item.active {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+    </style>

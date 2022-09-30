@@ -1,7 +1,7 @@
   <nav class="nav-bar">
       <!-- NAVIGATION BAR START -->
-      <a aria-describedby="works" class="navbar-style" id="nav-logo" href="/works">
-          <span class="logo">adam sochorec</span>
+      <a aria-describedby="works" href="/works">
+          <span>adam sochorec</span>
       </a>
       <ul class="nav-menu">
           <!-- NAVIGATION BAR LINKS START -->

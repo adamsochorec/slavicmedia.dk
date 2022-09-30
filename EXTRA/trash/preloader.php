@@ -14,6 +14,20 @@
 .loader-lottie {
     transform: scale(50%);
 }
+
+.loader-wrapper {
+    background: var(--black-color);
+    opacity: 70%;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999999;
+}
 </style>
 
 
