@@ -5,22 +5,29 @@
   scroll-behavior: smooth;
 }
 :root {
+  /* COLORS */
   --primary-color: #007ee3;
   --secondary-color: purple;
   --secondary-color-hover: #680068;
   --background-color: #282828;
   --white-color: #fff;
   --black-color: #000;
-  --font-size-1: 1rem;
-  --font-size-2: 0.8rem;
-  --font-size-3: 1.2rem;
+
+  /* FONTS */
+  --fontsize-1: 0.8rem;
+  --fontsize-2: 1rem;
+  --fontsize-3: 1.2rem;
+  --fontsize-4: 1.4rem;
+  --fontsize-5: 1.6rem;
   --logo-font: IBM;
+  --alt-logo-font: BigBlue;
   --text-color: #fff;
   --letter-spacing: 0.1rem;
   --heading-weight: 400;
   --paragraph-weight: 250;
   --content-font: -apple-system, BlinkMacSystemFont, SegoeUI, Roboto, Oxygen,
     Ubuntu, Cantarell, OpenSans, HelveticaNeue, sans-serif;
+
   --border-radius: 2px;
   --border-radius-2: 15px;
   --transition: all.3s ease-in-out;
@@ -89,7 +96,7 @@ main li,
 main ul,
 p {
   flex-direction: column;
-  font-size: var(--font-size-1);
+  font-size: var(--fontsize-2);
   font-weight: var(--paragraph-weight);
   color: var(--text-color);
   line-height: 1.5;
@@ -152,7 +159,7 @@ header {
   background-color: var(--black-color);
   display: flex;
   font-family: var(--logo-font);
-  font-size: 1.45rem;
+  font-size: var(--fontsize-3);
   height: 5vh;
   justify-content: center;
   padding: 0 2.5rem;
@@ -175,7 +182,7 @@ header {
   transition: var(--transition);
 }
 .nav-bar a span {
-  font-size: var(--font-size-2);
+  font-size: var(--fontsize-1);
   display: flex;
   flex-direction: row;
   z-index: 99;
@@ -187,7 +194,7 @@ header {
 }
 .nav-item {
   display: flex;
-  font-size: var(--font-size-2);
+  font-size: var(--fontsize-1);
   justify-content: center;
   list-style: none;
   margin-left: 3rem;
@@ -215,7 +222,7 @@ span.bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: var(--font-size-1);
+  font-size: var(--fontsize-2);
   background: var(--secondary-color);
   color: var(--text-color);
   letter-spacing: var(--letter-spacing);
@@ -318,7 +325,7 @@ footer svg:hover {
   text-shadow: var(--objects-shadow);
 }
 footer .footer2 p {
-  font-size: var(--font-size-2);
+  font-size: var(--fontsize-1);
   font-weight: var(--paragraph-weight);
   text-shadow: none;
 }
@@ -346,14 +353,20 @@ footer .footer2 span:nth-child(2) {
   background-size: cover;
   background-attachment: fixed;
 }
-#works h1 {
+#works .intro-sticky-subsection {
   text-align: center;
-  font-family: BigBlue;
-  font-size: 6rem;
   position: sticky;
-  text-shadow: 3px 3px var(--text-color);
   top: 50vh;
+}
+#works h1 {
+  font-size: 6rem;
+  text-shadow: 3px 3px var(--text-color);
   animation: text-shadow-works 2s linear infinite alternate;
+}
+#works h1,
+#works h2 {
+  margin: 0;
+  font-family: var(--alt-logo-font);
 }
 @keyframes text-shadow-works {
   0% {
@@ -646,7 +659,7 @@ footer .footer2 span:nth-child(2) {
 }
 #success h1,
 #error h1 {
-  font-size: var(--font-size-1);
+  font-size: var(--fontsize-2);
   font-weight: var(--paragraph-weight);
 }
 /* ASSETS END */
@@ -654,7 +667,7 @@ footer .footer2 span:nth-child(2) {
 /* CYBER-SECURITY START */
 .btn-area input {
   position: relative;
-  font-size: var(--font-size-1);
+  font-size: var(--fontsize-2);
   height: 2.2rem;
   border: none;
   margin: 0.3rem 0 0;
@@ -747,7 +760,7 @@ footer .footer2 span:nth-child(2) {
   }
 }
 .banner-container h3 {
-  font-size: var(--font-size-1);
+  font-size: var(--fontsize-2);
   text-align: center;
   padding: 0.94118em 16px;
 }
@@ -772,7 +785,7 @@ footer .footer2 span:nth-child(2) {
 }
 @media only screen and (max-width: 415px) {
   h2 {
-    font-size: var(--font-size-3);
+    font-size: var(--fontsize-3);
   }
   .btn-shadow {
     top: -43px;
@@ -793,17 +806,17 @@ footer .footer2 span:nth-child(2) {
   .btn-area #btn:after,
   .btn-shadow {
     height: 3rem;
-    font-size: var(--font-size-2);
+    font-size: var(--fontsize-1);
   }
   #cyber-security .password-calculator {
     filter: saturate(100%);
   }
   #cyber-security .btn-area input {
-    font-size: var(--font-size-2);
+    font-size: var(--fontsize-1);
   }
 
   #cyber-security .btn-area input::placeholder {
-    font-size: var(--font-size-2);
+    font-size: var(--fontsize-1);
   }
 }
 @media only screen and (max-width: 460px) {
@@ -858,7 +871,7 @@ footer .footer2 span:nth-child(2) {
     font-size: 1.3rem;
   }
   #cyber-security .grid-container p {
-    font-size: var(--font-size-3);
+    font-size: var(--fontsize-3);
     display: inline;
   }
 }
@@ -884,7 +897,7 @@ footer .footer2 span:nth-child(2) {
     z-index: 9;
   }
   .nav-item {
-    font-size: var(--font-size-1);
+    font-size: var(--fontsize-2);
     margin: 1rem 0;
     opacity: 100%;
   }

@@ -27,7 +27,10 @@
     <main>
         <article>
             <section class="intro-section">
-                <h1>Works</h1>
+                <section class="intro-sticky-subsection">
+                    <h1>Works</h1>
+                    <h2 class="change-text"></h2>
+                </section>
             </section>
             <section class="grid-container">
                 <div class="h-stretch">
@@ -165,6 +168,7 @@
     <!-- FOOTER START -->
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+
     </footer>
     <!-- FOOTER END -->
 </body>
