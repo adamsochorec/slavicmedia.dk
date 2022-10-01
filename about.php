@@ -9,19 +9,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Adam Sochorec</title>
-    <link rel="icon" href="/img/favicon.png" type="image/webp">
-    <link rel="stylesheet" href="./css/style.css">
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-head.php"); ?>
 </head>
 
 <body id="about">
     <!-- HEADER START + Scroll status -->
     <header>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
     </header>
     <!-- HEADER END -->
     <!-- SCROLL STATUS + CONTACT FORMS START -->
     <aside>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-progress-bar.php"); ?>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
         <!-- Contact form -->
         <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
@@ -32,52 +31,50 @@
     <main>
         <article>
             <section>
-                <h1>About</h1>
+                <h1>About</h1><br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in
                     Prague.
                     Currently occupied with <a
                         href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark and <a
-                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland.​</p>
-                <p>I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm also enjoying to
-                    work with landscapes, 3D scans and web design.​</p>
-                <p>Recent web projects:</p>
-                <ol>
-                    <ul>
-                        <li><a aria-describedby="cyber-security" href="web-projects/cyber-security">Cyber Security <svg
-                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a aria-describedby="/web-projects/zebra-design/zebra-design.php"
-                                href="/web-projects/zebra-design/zebra-design">Zebra Design <svg
-                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a aria-describedby="/web-projects/memos/memos" href="/web-projects/memos/memos">Memos <svg
-                                    id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </ol>
+                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland.​<br>I'm focusing on portrait,
+                    fashion, beauty, and experimental themes. Recently I'm also enjoying to
+                    work with landscapes, 3D scans and web design.​<br><br>Recent web projects:<br></p>
+                <ul>
+                    <li><a aria-describedby="cyber-security" href="web-projects/cyber-security">Cyber Security <svg
+                                id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a aria-describedby="/web-projects/zebra-design/zebra-design.php"
+                            href="/web-projects/zebra-design/zebra-design">Zebra Design <svg
+                                id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a aria-describedby="/web-projects/memos/memos" href="/web-projects/memos/memos">Memos <svg
+                                id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
                 <p>Most of my shots are taken with <a
                         href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
                         6D</a> and <a href="https://www.apple.com/iphone-13/specs/">iPhone 13 mini</a>. 3D models
                     are
                     scanned on my iPhone and rendered by awesome <a
-                        href="https://poly.cam/">Polycam</a> software.</p>
-                <p>Hereby open to collaborations and projects!</p>
+                        href="https://poly.cam/">Polycam</a> software.<br><br>Hereby open to collaborations and
+                    projects!
+                </p>
             </section>
             <hr>
             <section>
@@ -88,7 +85,7 @@
             </section>
             <hr>
             <h2>Language competences</h2>
-            <br>
+            <br><br>
             <section class="grid-container">
                 <div class="grid-item">
                     <p>Czech<img class="languages" src="/img/svg/czech-republic-flag-round.svg"></p>
@@ -229,32 +226,8 @@
     </main>
     <!-- FOOTER START -->
     <footer>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <script src="./js/script.js" defer></script>
-        <script>
-        window.addEventListener('scroll', () => {
-            const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-            const scrolled = window.scrollY;
-            const skillBarOne = document.querySelector(".level-1");
-            const skillBarTwo = document.querySelector(".level-2");
-            const skillBarThree = document.querySelector(".level-3");
-            const skillBarFour = document.querySelector(".level-4");
-            const skillBarFive = document.querySelector(".level-5");
-            const skillBarSeven = document.querySelector(".level-7");
-            const skillBarEight = document.querySelector(".level-8");
-
-
-            if (Math.ceil(scrolled) === scrollable) {
-                skillBarOne.classList.toggle("active");
-                skillBarTwo.classList.toggle("active");
-                skillBarThree.classList.toggle("active");
-                skillBarFour.classList.toggle("active");
-                skillBarSeven.classList.toggle("active");
-                skillBarEight.classList.toggle("active");
-            }
-        });
-        </script>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
+        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
     </footer>
     <!-- FOOTER END -->
 </body>

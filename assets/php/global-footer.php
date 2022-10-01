@@ -1,4 +1,4 @@
-    <section class="footer1">
+    <section class="social-icons">
         <ul>
             <li><a href="https://www.instagram.com/accounts/login/?next=/adamsochorec/">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -36,11 +36,13 @@
             </li>
         </ul>
     </section>
-    <section class="footer2">
+    <br>
+    <section class="footer-ps">
         <p>No cookies.</p>
     </section>
-    <section class="footer2">
+    <br>
+    <section class="footer-ps">
         <span>© <span id="currentYear"></span></span>
         <span>Adam Sochorec</span>
     </section>
-    <script src="/js/script.js" defer></script>
+    <script src="/js/global-script.js" defer></script>

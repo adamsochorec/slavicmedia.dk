@@ -9,18 +9,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expo 2023 | Adam Sochorec</title>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."head-links.php"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-head.php"); ?>
 </head>
 
 <body id="expo-in-kolding">
     <!-- HEADER START -->
     <header>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."header-nav.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
     </header>
     <!-- HEADER END -->
     <!-- SCROLL STATUS START -->
     <aside>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."scroll-status.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-progress-bar.php"); ?>
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
@@ -35,21 +35,15 @@
                         <legend>
                             <h3>Knuds Garage</h3>
                         </legend>
-                        <p>Munkegade 5A</p>
-                        <p>6000 Kolding</p>
-                        <p>Denmark</p>
+                        <p>Munkegade 5A<br>6000 Kolding<br>Denmark</p>
                     </fieldset>
                 </section>
                 <section class="expo grid-item">
                     <fieldset>
                         <legend>
-                            <h3 class="">Opening hours</h3>
+                            <h3>Opening hours</h3>
                         </legend>
-                        <p>Mon - Sat</p>
-                        <p>12.00-02.00</p>
-                        <br>
-                        <p>Sun:</p>
-                        <p>14.00-22.00</p>
+                        <p>Mon - Sat<br>12.00-02.00<br>Sun:<br>14.00-22.00</p>
                     </fieldset>
                 </section>
             </article>
@@ -66,14 +60,13 @@
             </section>
             <hr>
             <img src="/img/photos/IMG_0438.jpeg" />
-
             </section>
         </article>
         <hr>
     </main>
     <!-- FOOTER START -->
     <footer>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.php"); ?>
+        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
     </footer>
     <!-- FOOTER END -->
 </body>
