@@ -17,7 +17,6 @@
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
     </header>
     <main>
-
         <hr class="hide">
         <article class="flex-center">
             <section class="flex-center">

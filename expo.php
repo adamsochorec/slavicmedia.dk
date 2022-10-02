@@ -25,7 +25,7 @@
     <!-- SCROLL STATUS END -->
     <main>
         <article>
-            <h1>Expo in Knuds garage</h1>
+            <h1 class="page-start-margin">Expo in Knuds garage</h1>
             <br>
             <h2>Jan 2023 - Feb 2023</h2>
             <hr>

@@ -71,7 +71,6 @@ main {
   display: flex;
   flex-direction: column;
   font-family: var(--content-font);
-  padding-top: 6rem;
 }
 h1,
 h2,
@@ -84,7 +83,6 @@ h6 {
 }
 h1 {
   font-size: 2.5rem;
-  margin-top: 10%;
 }
 h2 {
   font-size: 1.5rem;
@@ -149,15 +147,17 @@ hr {
 #about article,
 #cyber-security article,
 #expo-in-kolding article,
-hr,
-#error img {
+hr {
   width: 37.5rem;
-  animation: none;
   max-width: 100%;
 }
 #error article,
 #success article {
   width: 21rem;
+  max-width: 100%;
+}
+h1.page-start-margin {
+  margin-top: 8rem;
 }
 .note {
   font-size: 0.7rem;
@@ -357,9 +357,6 @@ footer .footer-ps span:nth-child(2) {
 /* GLOBAL END */
 
 /* WORKS START */
-#works main {
-  padding-top: 0;
-}
 #works .intro-section {
   height: 100vh;
   background-image: url(/img/photos/cover-works.webp);
@@ -781,6 +778,11 @@ footer .footer-ps span:nth-child(2) {
 /* ASSETS START */
 #success dotlottie-player {
   width: 6.25rem;
+  margin-top: 17vh;
+}
+#error img {
+  animation: none;
+  margin-top: 13vh;
 }
 #success h1,
 #error h1 {
@@ -993,6 +995,12 @@ footer .footer-ps span:nth-child(2) {
     font-size: var(--fontsize-3);
     display: inline;
   }
+  h1.page-start-margin {
+    margin-top: 4rem;
+  }
+  #about h1.page-start-margin {
+    margin-top: 6rem;
+  }
 }
 @media only screen and (max-width: 900px) {
   .nav-menu {
@@ -1045,14 +1053,14 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (max-width: 947px) {
-  main {
+  #about article,
+  #cyber-security article,
+  #expo-in-kolding article {
     padding: 3rem 1.25rem;
   }
-  #works hr {
-    padding: 0 7.5rem;
-  }
-  #works main {
-    padding: 0;
+  #error article,
+  #success article {
+    padding: 3rem 1.25rem;
   }
 }
 /* MEDIA QUERRIES END */

@@ -25,7 +25,7 @@
     </aside>
     <main>
         <article>
-            <h1>Secure and sustainable digital identity</h1>
+            <h1 class="page-start-margin">Secure and sustainable digital identity</h1>
             <br>
             <h3>Essential steps leading to your secure and healthy online presence.</h3>
             <hr>

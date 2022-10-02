@@ -31,7 +31,7 @@
     <main>
         <article>
             <section>
-                <h1>About</h1><br>
+                <h1 class="page-start-margin">About</h1><br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in
                     Prague.
