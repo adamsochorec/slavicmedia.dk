@@ -86,44 +86,44 @@
             <hr>
             <h2>Language competences</h2>
             <br><br>
-            <section class="grid-container">
+            <section id="skills-section" class="grid-container">
                 <div class="grid-item">
                     <p>Czech<img class="languages" src="/img/svg/czech-republic-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-10"></div>
+                        <div class="skill-bar level-10" data-progress="100"></div>
                     </div>
                     <p>Slovak<img class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-9"></div>
+                        <div class="skill-bar level-9" data-progress="90"></div>
                     </div>
                     <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-8"></div>
+                        <div class="skill-bar level-8" data-progress="80"></div>
                     </div>
                     <p>Polish<img class="languages" src="/img/svg/poland-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-5"></div>
+                        <div class="skill-bar level-5" data-progress="50"></div>
                     </div>
                     <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-4"></div>
+                        <div class="skill-bar level-4" data-progress="40"></div>
                     </div>
                     <p>Swedish<img class="languages" src="/img/svg/sweden-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-3"></div>
+                        <div class="skill-bar level-3" data-progress="30"></div>
                     </div>
                     <p>Finnish<img class="languages" src="/img/svg/finland-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                     <p>German<img class="languages" src="/img/svg/germany-flag-round.svg">
                     </p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                     <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -137,7 +137,7 @@
                                 d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z" />
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-7"></div>
+                        <div class="skill-bar level-7" data-progress="70"></div>
                     </div>
                     <p>CSS <svg xmlns="http://www.w3.org/2000/svg" class="languages"
                             viewBox="0 0 512 512">
@@ -150,11 +150,11 @@
                                 d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z" />
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-6"></div>
+                        <div class="skill-bar level-6" data-progress="60"></div>
                     </div>
                     <p>PHP <img class="languages" src="/img/svg/php.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-3"></div>
+                        <div class="skill-bar level-3" data-progress="30"></div>
                     </div>
                     <p>JavaScript <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@
                         </svg>
                     </p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                     <p>C<svg class="languages" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             viewBox="0 0 48 48">
@@ -187,7 +187,7 @@
                             </g>
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                     <p>Python <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@
                         </svg>
                     </p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1"></div>
+                        <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
                 </div>
             </section>
@@ -228,6 +228,7 @@
     <footer>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
         <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+        <script src="/js/about.js"></script>
     </footer>
     <!-- FOOTER END -->
 </body>

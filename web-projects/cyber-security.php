@@ -219,7 +219,7 @@
                     <ol>
                         <li>Keep informations you publish about yourself under control, set required sensitive
                             informations visibility as private</li>
-                        <li>Before fiilling out any informations about you, ask yourself if is it fundamental
+                        <li>Before filling out any informations about you, ask yourself if is it fundamental
                             for
                             app/service functionality</li>
                         <li>Stick to the random non-organic passwords</li>
