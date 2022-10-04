@@ -25,7 +25,7 @@
                 <h1>The page you’re looking for can’t be found.</h1>
             </section>
             <br>
-            <div class="btn-area"><a aria-describedby="/works" href="">
+            <div class="btn-area"><a aria-describedby="/works" href="http://adamsochorec.com/works">
                     <div aria-describedby="works" id="btn">return to frontpage</div>
                     <div class="btn-shadow"></div>
                 </a></div>

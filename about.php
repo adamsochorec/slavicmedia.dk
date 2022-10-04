@@ -31,7 +31,7 @@
     <main>
         <article>
             <section>
-                <h1 class="page-start-margin">About</h1><br>
+                <h1 class="page-start-margin" id="currentYear">About</h1><br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in
                     Prague.
@@ -226,9 +226,9 @@
     </main>
     <!-- FOOTER START -->
     <footer>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="/js/about.js" defer></script>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
-        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
-        <script src="/js/about.js"></script>
     </footer>
     <!-- FOOTER END -->
 </body>

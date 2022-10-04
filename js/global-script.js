@@ -57,7 +57,3 @@ fetch("https://jsonplaceholder.typicode.com/posts")
       grid.append(div);
     });
   });
-
-// CURRENT YEAR
-let thisYear = today.getFullYear();
-document.getElementById("currentYear").innerPHP = thisYear;
