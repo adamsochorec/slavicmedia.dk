@@ -78,10 +78,18 @@
             </section>
             <hr>
             <section>
-                <img class="profile-pic" src="/img/about.webp"
-                    alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
-                <img class="partners" src="./img/partners.webp"
-                    alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
+                <picture>
+                    <source srcset="/img/avif/about.avif" type="image/avif">
+                    <source srcset="/img/webp/about.webp" type="image/webp">
+                    <img src="/img/jpg/about.jpg"
+                        alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
+                </picture>
+                <picture>
+                    <source srcset="/img/avif/partners.avif" type="image/avif">
+                    <source srcset="/img/webp/partners.webp" type="image/webp">
+                    <img src="/img/jpg/partners.jpg"
+                        alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
+                </picture>
             </section>
             <hr>
             <h2>Language competences</h2>
@@ -92,36 +100,28 @@
                     <div class="skill-bar faded">
                         <div class="skill-bar level-10" data-progress="100"></div>
                     </div>
-                    <p>Slovak<img class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
-                    <div class="skill-bar faded">
-                        <div class="skill-bar level-9" data-progress="90"></div>
-                    </div>
-                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg"></p>
+                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg">Slovak<img
+                            class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
                     <div class="skill-bar faded">
                         <div class="skill-bar level-8" data-progress="80"></div>
+                    </div>
+                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg">Norweigan<img
+                            class="languages" src="/img/svg/norway-flag-round.svg"></p>
+                    <div class="skill-bar faded">
+                        <div class="skill-bar level-5" data-progress="50"></div>
                     </div>
                     <p>Polish<img class="languages" src="/img/svg/poland-flag-round.svg"></p>
                     <div class="skill-bar faded">
                         <div class="skill-bar level-5" data-progress="50"></div>
                     </div>
-                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"></p>
-                    <div class="skill-bar faded">
-                        <div class="skill-bar level-4" data-progress="40"></div>
-                    </div>
-                    <p>Swedish<img class="languages" src="/img/svg/sweden-flag-round.svg"></p>
-                    <div class="skill-bar faded">
-                        <div class="skill-bar level-3" data-progress="30"></div>
-                    </div>
-                    <p>Finnish<img class="languages" src="/img/svg/finland-flag-round.svg"></p>
-                    <div class="skill-bar faded">
-                        <div class="skill-bar level-1" data-progress="10"></div>
-                    </div>
-                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg">
+                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg">Swedish<img
+                            class="languages" src="/img/svg/sweden-flag-round.svg">
                     </p>
                     <div class="skill-bar faded">
                         <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
-                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg"></p>
+                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg">Finnish<img
+                            class="languages" src="/img/svg/finland-flag-round.svg"></p>
                     <div class="skill-bar faded">
                         <div class="skill-bar level-1" data-progress="10"></div>
                     </div>
@@ -226,7 +226,7 @@
     </main>
     <!-- FOOTER START -->
     <footer>
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
         <script src="/js/about.js" defer></script>
         <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
     </footer>

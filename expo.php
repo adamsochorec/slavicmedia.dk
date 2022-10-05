@@ -59,7 +59,12 @@
                         class="note">https://knuds-garage.business.site/</i></a>
             </section>
             <hr>
-            <img src="/img/photos/IMG_0438.jpeg" />
+            <picture>
+                <source srcset="/img/avif/IMG_0438.avif" type="image/avif">
+                <source srcset="/img/webp/IMG_0438.webp" type="image/webp">
+                <img src="/img/jpg/IMG_0438.jpg"
+                    alt="#">
+            </picture>
             </section>
         </article>
         <hr>

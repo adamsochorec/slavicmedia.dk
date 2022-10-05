@@ -20,7 +20,9 @@
         <hr class="hide">
         <article class="flex-center">
             <section class="flex-center">
-                <img src="/lottie/404.gif" alt="Trippy page not found animation"></img>
+                <picture>
+                    <img src="/img/gif/404.gif" alt="Trippy page not found animation">
+                </picture>
                 <br>
                 <h1>The page you’re looking for can’t be found.</h1>
             </section>

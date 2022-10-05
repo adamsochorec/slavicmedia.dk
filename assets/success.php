@@ -22,7 +22,7 @@
         <hr class="hide">
         <article class="flex-center">
             <section class="flex-center">
-                <dotlottie-player src="/lottie/success.lottie" background="transparent" speed="1"
+                <dotlottie-player src="/img/lottie/success.lottie" background="transparent" speed="1"
                     autoplay></dotlottie-player>
                 <br><br>
                 <h1>Form submitted successfully!</h1>

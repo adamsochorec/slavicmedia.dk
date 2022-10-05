@@ -41,10 +41,6 @@
   src: url(Bigblue.ttf) format("truetype");
   font-weight: var(--heading-weight);
 }
-.skeleton {
-  background-color: grey;
-  animation: skeleton-loading 1s linear infinite alternate;
-}
 @keyframes skeleton-loading {
   0% {
     background-color: #444343;
@@ -123,7 +119,7 @@ svg {
   vertical-align: middle;
 }
 img,
-iframe {
+iframe, source {
   animation: skeleton-loading 1s linear infinite alternate;
   max-width: 100%;
   border-radius: var(--border-radius);
@@ -172,7 +168,7 @@ header {
   display: flex;
   font-family: var(--logo-font);
   font-size: var(--fontsize-3);
-  height: 2.2rem;
+  height: 5vh;
   justify-content: center;
   padding: 0 2.5rem;
   position: fixed;
@@ -285,13 +281,13 @@ span.bar {
 /* progress container start */
 .progress-container {
   position: fixed;
-  top: 2rem;
+  top: 4.7vh;
   width: 100%;
   z-index: 9;
 }
 .progress-bar {
   background: var(--secondary-color);
-  height: 0.2rem;
+  height: 0.3vh;
   border-top-right-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
@@ -301,26 +297,6 @@ span.bar {
 footer {
   padding: 35px 0 20px 0;
   text-align: center;
-}
-#sketchfab-2 {
-  fill: transparent;
-}
-#sketfab-1 {
-  fill: var(--white-color);
-}
-.social-icons svg {
-  fill: var(--white-color);
-  width: 1.5rem;
-}
-.social-icons svg:hover{
-  transition: var(--transition);
-  fill: var(--primary-color);
-}
-.social-icons a{
-  margin-right: 0.5rem;
-}
-.social-icons a:nth-child(4){
-  margin-right: 0;
 }
 .footer-ps {
   list-style: none;
@@ -345,15 +321,37 @@ footer .footer-ps span:nth-child(2) {
 }
 /* footer end */
 
+/* social icons start */
+#sketchfab-2 {
+  fill: transparent;
+}
+#sketfab-1 {
+  fill: var(--white-color);
+}
+.social-icons svg {
+  fill: var(--white-color);
+  width: 1.5rem;
+}
+.social-icons svg:hover{
+  transition: var(--transition);
+  fill: var(--primary-color);
+}
+.social-icons a{
+  margin-right: 0.5rem;
+}
+.social-icons a:nth-child(4){
+  margin-right: 0;
+}
+/* social icons end */
+
 /* GLOBAL END */
 
 /* WORKS START */
 #works .intro-section {
   height: 100vh;
-  background-image: url(/img/photos/cover-works2.webp);
+  background-image: url(/img/jpg/25.jpg);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 #works .intro-sticky-subsection {
   margin: 0px 0px 20px 30px;
@@ -408,10 +406,9 @@ footer .footer-ps span:nth-child(2) {
   background-color: var(--black-color);
 }
 #about main {
-  background-image: url(/img/photos/cover.gif);
+  background-image: url(/img/gif/about.gif);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 #about img.profile-pic {
   border-radius: 0 var(--border-radius);
@@ -598,7 +595,7 @@ footer .footer-ps span:nth-child(2) {
 /* expo banner start */
 .banner-container {
   position: absolute;
-  top: 2.2rem;
+  top: 4.9vh;
   width: 100%;
   z-index: 3;
   animation: 1.5s fade;
@@ -611,13 +608,13 @@ footer .footer-ps span:nth-child(2) {
 }
 @keyframes fade {
   0% {
-    top: -5%;
+    top: -2vh;
   }
   70% {
-    top: -5%;
+    top: -2vh;
   }
   100% {
-    top: 5%;
+    top: 4.9vh;
     background-color: var(--text-color);
   }
 }
@@ -632,7 +629,7 @@ footer .footer-ps span:nth-child(2) {
 /* EXPO END */
 
 /* MEDIA QUERRIES START */
-@media only screen and (min-width: 340px) {
+@media only screen and (min-width: 320px) {
   #about .grid-container,
   #expo-in-kolding .grid-container {
     display: grid;
