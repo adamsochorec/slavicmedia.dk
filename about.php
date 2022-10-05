@@ -98,28 +98,32 @@
                 <div class="grid-item">
                     <p>Czech<img class="languages" src="/img/svg/czech-republic-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-10" data-progress="100"></div>
+                        <div class="skill-bar" data-progress="100"></div>
                     </div>
-                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg">Slovak<img
+                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg"><br
+                            class="hideLanguages">Slovak<img
                             class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-8" data-progress="80"></div>
+                        <div class="skill-bar" data-progress="80"></div>
                     </div>
-                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"> Norweigan <img
+                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"><br class="hideLanguages">
+                        Norweigan <img
                             class="languages" src="/img/svg/norway-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-5" data-progress="50"></div>
+                        <div class="skill-bar" data-progress="45"></div>
                     </div>
-                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg">Swedish<img
+                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg"><br
+                            class="hideLanguages"> Swedish<img
                             class="languages" src="/img/svg/sweden-flag-round.svg">
                     </p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1" data-progress="10"></div>
+                        <div class="skill-bar" data-progress="20"></div>
                     </div>
-                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg">Finnish<img
+                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg"><br
+                            class="hideLanguages">Finnish<img
                             class="languages" src="/img/svg/finland-flag-round.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1" data-progress="10"></div>
+                        <div class="skill-bar" data-progress="10"></div>
                     </div>
                 </div>
                 <div class="grid-item">
@@ -133,7 +137,7 @@
                                 d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z" />
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-7" data-progress="70"></div>
+                        <div class="skill-bar" data-progress="70"></div>
                     </div>
                     <p>CSS <svg xmlns="http://www.w3.org/2000/svg" class="languages"
                             viewBox="0 0 512 512">
@@ -146,11 +150,11 @@
                                 d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z" />
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-6" data-progress="60"></div>
+                        <div class="skill-bar" data-progress="60"></div>
                     </div>
                     <p>PHP <img class="languages" src="/img/svg/php.svg"></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-3" data-progress="30"></div>
+                        <div class="skill-bar" data-progress="30"></div>
                     </div>
                     <p>JavaScript <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +171,7 @@
                         </svg>
                     </p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1" data-progress="20"></div>
+                        <div class="skill-bar" data-progress="20"></div>
                     </div>
                     <p>C <svg class="languages" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             viewBox="0 0 48 48">
@@ -181,7 +185,7 @@
                                 <path style=" fill-rule:evenodd;fill:#3949AB;"
                                     d="M 42.484375 13.203125 C 43 13.6875 42.992188 14.414063 42.992188 14.988281 C 42.992188 18.785156 42.960938 29.578125 43 33.371094 C 43.003906 33.769531 42.871094 34.1875 42.675781 34.5 L 23.59375 24 Z " />
                             </g>
-                        </svg> Python <svg class="languages" data-name="Layer 1"
+                        </svg><br class="hideLanguages"> Python <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 111.68 111.11">
                             <defs>
@@ -208,7 +212,7 @@
                                 style="fill: url(#linear-gradient-2);" />
                         </svg></p>
                     <div class="skill-bar faded">
-                        <div class="skill-bar level-1" data-progress="10"></div>
+                        <div class="skill-bar" data-progress="10"></div>
                     </div>
                 </div>
             </section>
