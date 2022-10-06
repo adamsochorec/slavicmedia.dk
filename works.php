@@ -39,56 +39,48 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/1.avif" type="image/avif">
-                        <source srcset="/img/webp/1.webp" type="image/webp">
                         <img src="/img/webp/1.webp" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/2.avif" type="image/avif">
-                        <source srcset="/img/webp/2.webp" type="image/webp">
                         <img src="/img/webp/2.webp" alt="#">
                     </picture>
                 </div>
                 <div class="hhh-stretch">
                     <picture>
                         <source srcset="/img/avif/3.avif" type="image/avif">
-                        <source srcset="/img/webp/3.webp" type="image/webp">
                         <img src="/img/jpg/3.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/4.avif" type="image/avif">
-                        <source srcset="/img/webp/4.webp" type="image/webp">
                         <img src="/img/jpg/4.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/5.avif" type="image/avif">
-                        <source srcset="/img/webp/5.webp" type="image/webp">
                         <img src="/img/webp/4.webp" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/7.avif" type="image/avif">
-                        <source srcset="/img/webp/7.webp" type="image/webp">
                         <img src="/img/jpg/7.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/6.avif" type="image/avif">
-                        <source srcset="/img/webp/6.webp" type="image/webp">
                         <img src="/img/jpg/6.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/8.avif" type="image/avif">
-                        <source srcset="/img/webp/8.webp" type="image/webp">
                         <img src="/img/jpg/8.jpg" alt="#">
                     </picture>
                 </div>
@@ -119,77 +111,66 @@
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/10.avif" type="image/avif">
-                        <source srcset="/img/webp/10.webp" type="image/webp">
                         <img src="/img/jpg/10.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/9.avif" type="image/avif">
-                        <source srcset="/img/webp/9.webp" type="image/webp">
                         <img src="/img/jpg/9.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/37.avif" type="image/avif">
-                        <source srcset="/img/webp/37.webp" type="image/webp">
                         <img src="/img/jpg/37.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="hh-stretch">
                     <picture>
                         <source srcset="/img/avif/11.avif" type="image/avif">
-                        <source srcset="/img/webp/11.webp" type="image/webp">
                         <img src="/img/jpg/11.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/12.avif" type="image/avif">
-                        <source srcset="/img/webp/12.webp" type="image/webp">
                         <img src="/img/webp/12.webp" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/13.avif" type="image/avif">
-                        <source srcset="/img/webp/13.webp" type="image/webp">
                         <img src="/img/webp/13.webp" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/14.avif" type="image/avif">
-                        <source srcset="/img/webp/14.webp" type="image/webp">
                         <img src="/img/webp/14.webp" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/18.avif" type="image/avif">
-                        <source srcset="/img/webp/18.webp" type="image/webp">
                         <img src="/img/webp/18.webp" alt="#">
                     </picture>
                 </div>
                 <div class="hh-stretch">
                     <picture>
                         <source srcset="/img/avif/17.avif" type="image/avif">
-                        <source srcset="/img/webp/17.webp" type="image/webp">
                         <img src="/img/jpg/17.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/15.avif" type="image/avif">
-                        <source srcset="/img/webp/15.webp" type="image/webp">
                         <img src="/img/webp/15.webp" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/16.avif" type="image/avif">
-                        <source srcset="/img/webp/16.webp" type="image/webp">
                         <img src="/img/webp/16.webp" alt="#">
                     </picture>
                 </div>
@@ -206,77 +187,66 @@
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/19.avif" type="image/avif">
-                        <source srcset="/img/webp/19.webp" type="image/webp">
                         <img src="/img/jpg/19.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/21.avif" type="image/avif">
-                        <source srcset="/img/webp/21.webp" type="image/webp">
                         <img src="/img/jpg/21.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/20.avif" type="image/avif">
-                        <source srcset="/img/webp/20.webp" type="image/webp">
                         <img src="/img/jpg/20.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/24.avif" type="image/avif">
-                        <source srcset="/img/webp/24.webp" type="image/webp">
                         <img src="/img/jpg/24.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/35.avif" type="image/avif">
-                        <source srcset="/img/webp/35.webp" type="image/webp">
                         <img src="/img/jpg/24.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/32.avif" type="image/avif">
-                        <source srcset="/img/webp/32.webp" type="image/webp">
                         <img src="/img/jpg/32.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/25.avif" type="image/avif">
-                        <source srcset="/img/webp/25.webp" type="image/webp">
                         <img src="/img/jpg/25.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/30.avif" type="image/avif">
-                        <source srcset="/img/webp/30.webp" type="image/webp">
                         <img src="/img/webp/30.webp" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/33.avif" type="image/avif">
-                        <source srcset="/img/webp/33.webp" type="image/webp">
                         <img src="/img/webp/33.webp" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/31.avif" type="image/avif">
-                        <source srcset="/img/webp/31.webp" type="image/webp">
                         <img src="/img/jpg/31.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/28.avif" type="image/avif">
-                        <source srcset="/img/webp/28.webp" type="image/webp">
                         <img src="/img/jpg/28.jpg" alt="#">
                     </picture>
                 </div>

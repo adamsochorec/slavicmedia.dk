@@ -80,13 +80,11 @@
             <section>
                 <picture>
                     <source srcset="/img/avif/about.avif" type="image/avif">
-                    <source srcset="/img/webp/about.webp" type="image/webp">
                     <img src="/img/jpg/about.jpg"
                         alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
                 </picture>
                 <picture>
                     <source srcset="/img/avif/partners.avif" type="image/avif">
-                    <source srcset="/img/webp/partners.webp" type="image/webp">
                     <img src="/img/jpg/partners.jpg"
                         alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
                 </picture>

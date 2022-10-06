@@ -545,6 +545,7 @@ footer .footer-ps span:nth-child(2) {
 #expo-in-kolding .grid-container {
   display: grid;
   grid-template-rows: 50% 50%;
+  padding: 0;
 }
 #expo-in-kolding .grid-item p {
   padding-left: 4px;
@@ -588,11 +589,11 @@ footer .footer-ps span:nth-child(2) {
 /* EXPO END */
 
 /* MEDIA QUERRIES START */
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 300px) {
   #about .grid-container,
   #expo-in-kolding .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
   }
   #about .grid-item:nth-child(1),
   #expo-in-kolding .grid-item:nth-child(1) {
@@ -602,6 +603,16 @@ footer .footer-ps span:nth-child(2) {
   #expo-in-kolding .grid-item:nth-child(2) {
     margin-left: 10px;
   }
+}
+@media only screen and (max-width: 375px) {
+#expo-in-kolding .grid-container fieldset {
+  height: 11rem;
+}
+}
+@media only screen and (min-width: 376px) {
+#expo-in-kolding .grid-container fieldset {
+  height: 8.5rem;
+}
 }
 @media only screen and (max-width: 415px) {
   h2 {
@@ -645,9 +656,6 @@ footer .footer-ps span:nth-child(2) {
   }
   #about .grid-item:nth-child(2) {
     margin-left: 3rem;
-  }
-  #expo-in-kolding .grid-container fieldset {
-    height: 10rem;
   }
 }
 @media only screen and (max-width: 500px) {

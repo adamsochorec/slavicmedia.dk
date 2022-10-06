@@ -150,8 +150,7 @@
                     <br>
                     <picture>
                         <source srcset="/img/avif/simswap.avif" type="image/avif">
-                        <source srcset="/img/webp/simswap.webp" type="image/webp">
-                        <img src="/img/jpg/simswap.jpg"
+                        <img src="/img/jpg/simswap.png"
                             alt="Diagram describing how SIM swap works: 1. Attackers collects data on victim (trough social media, phising, etc.) 2. Thief calls phone service provider, impersonates victim 3. Thief tricks carrier into switiching victim's mobile number to SIM card on thie's phone 4. Now, thief gets incoming calls and texts meant for the victim - including account access codes.">
                     </picture>
                     <p><i class="note">Source: <a
