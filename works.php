@@ -39,13 +39,13 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/1.avif" type="image/avif">
-                        <img src="/img/webp/1.webp" alt="#">
+                        <img src="/img/jpg/1.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/2.avif" type="image/avif">
-                        <img src="/img/webp/2.webp" alt="#">
+                        <img src="/img/jpg/2.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="hhh-stretch">
@@ -63,7 +63,7 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/5.avif" type="image/avif">
-                        <img src="/img/webp/4.webp" alt="#">
+                        <img src="/img/jpg/4.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
@@ -135,25 +135,25 @@
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/12.avif" type="image/avif">
-                        <img src="/img/webp/12.webp" alt="#">
+                        <img src="/img/jpg/12.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/13.avif" type="image/avif">
-                        <img src="/img/webp/13.webp" alt="#">
+                        <img src="/img/jpg/13.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/14.avif" type="image/avif">
-                        <img src="/img/webp/14.webp" alt="#">
+                        <img src="/img/jpg/14.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/18.avif" type="image/avif">
-                        <img src="/img/webp/18.webp" alt="#">
+                        <img src="/img/jpg/18.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="hh-stretch">
@@ -165,13 +165,13 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/15.avif" type="image/avif">
-                        <img src="/img/webp/15.webp" alt="#">
+                        <img src="/img/jpg/15.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/16.avif" type="image/avif">
-                        <img src="/img/webp/16.webp" alt="#">
+                        <img src="/img/jpg/16.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
@@ -229,13 +229,13 @@
                 <div class="v-stretch">
                     <picture>
                         <source srcset="/img/avif/30.avif" type="image/avif">
-                        <img src="/img/webp/30.webp" alt="#">
+                        <img src="/img/jpg/30.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/33.avif" type="image/avif">
-                        <img src="/img/webp/33.webp" alt="#">
+                        <img src="/img/jpg/33.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
