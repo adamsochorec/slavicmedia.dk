@@ -118,6 +118,10 @@ a {
   color: var(--primary-color);
   font-weight: var(--paragraph-weight);
   text-decoration: none;
+  -webkit-transition: var(--transition-2);
+}
+a:hover {
+  text-decoration: underline;
 }
 img,
 svg {
@@ -198,11 +202,12 @@ header {
 .nav-bar a {
   color: var(--primary-color);
   padding-top: 6px;
-  transition: all.2s ease-in-out;
+  -webkit-transition: all.2s ease-in-out;
 }
 .nav-bar a:hover {
   color: var(--secondary-color);
-  transition: var(--transition-1);
+  -webkit-transition: var(--transition-1);
+  text-decoration: none;
 }
 .nav-bar a span {
   font-size: var(--fontsize-1);
@@ -210,7 +215,6 @@ header {
   flex-direction: row;
   z-index: 99;
 }
-
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -227,7 +231,7 @@ header {
   display: none;
 }
 span.bar {
-  transition: var(--transition-2);
+  -webkit-transition: var(--transition-2);
   background-color: var(--primary-color);
   display: block;
   height: 0.09rem;
@@ -262,11 +266,11 @@ span.bar {
 #btn {
   cursor: pointer;
   border-radius: var(--border-radius-2);
-  transition: var(--transition-1);
+  -webkit-transition: var(--transition-1);
 }
 #btn:hover {
   background: var(--secondary-color-hover);
-  transition: var(--transition-1);
+  -webkit-transition: var(--transition-1);
 }
 #btn:active {
   transform: translateY(5px);
@@ -349,13 +353,16 @@ footer .footer-ps span:nth-child(2) {
 .social-icons svg {
   fill: var(--white-color);
   width: 1.2rem;
+  -webkit-transition: var(--transition-1);
 }
 .social-icons svg:hover {
-  transition: var(--transition-2);
+  -webkit-transition: var(--transition-1);
   fill: var(--primary-color);
+  transform: scale(1.3);
 }
 .social-icons a {
   margin-right: 0.5rem;
+  text-decoration: none;
 }
 .social-icons a:nth-child(4) {
   margin-right: 0;
@@ -548,7 +555,7 @@ footer .footer-ps span:nth-child(2) {
 }
 .password-calculator:hover {
   filter: saturate(100%);
-  transition: var(--transition-2);
+  -webkit-transition: var(--transition-2);
 }
 #cyber-security .grid-container {
   display: grid;
@@ -731,16 +738,14 @@ footer .footer-ps span:nth-child(2) {
     margin-top: 6rem;
   }
   .nav-menu {
-    background-color: hsl(0, 0, 10%);
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
     align-items: flex-end;
     height: 100%;
     justify-content: center;
     left: 100%;
     position: fixed;
-    top: 0;
-    opacity: 100%;
-    transition: var(--transition-2);
+    top: var(--banner-top-position-mobile);
     width: 100%;
   }
   .nav-menu.active {
@@ -759,12 +764,19 @@ footer .footer-ps span:nth-child(2) {
     cursor: pointer;
     display: block;
     z-index: 9;
+    padding: 0 4px;
+    transition: var(--transition-1);
+  }
+  .hamburger:hover {
+    -webkit-transition: var(--transition-1);
+    background: var(--background-color);
+    border-radius: 3px;
   }
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(5px) rotate(45deg);
   }
   .hamburger.active .bar:nth-child(2) {
-    transform: translateY(-5px) rotate(-45deg);
+    transform: translateY(-4px) rotate(-45deg);
   }
   header {
     padding: var(--menu-padding);
