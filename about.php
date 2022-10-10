@@ -83,6 +83,7 @@
                     <img src="/img/jpg/about.jpg"
                         alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
                 </picture>
+                <br><br>
                 <picture>
                     <source srcset="/img/avif/partners.avif" type="image/avif">
                     <img src="/img/jpg/partners.png"
