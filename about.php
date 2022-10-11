@@ -9,19 +9,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Adam Sochorec</title>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-head.php"); ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
 </head>
 
 <body id="about">
     <!-- HEADER START + Scroll status -->
     <header>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-nav-bar.php';
+        ?>
     </header>
     <!-- HEADER END -->
     <!-- SCROLL STATUS + CONTACT FORMS START -->
     <aside>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-progress-bar.php"); ?>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-progress-bar.php';
+        ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'banner.php';
+        ?>
         <!-- Contact form -->
         <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
         <!-- Whatssapp form -->
@@ -33,11 +45,11 @@
             <section>
                 <h1 class="page-start-margin" id="currentYear">About</h1><br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
-                        builder</a> and bush-craft enjoyer, born in
-                    Prague.
+                        builder</a> and bush-craft enjoyer, born in Czech Prague 🇨🇿.
                     Currently occupied with <a
-                        href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark and <a
-                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland.​<br>I'm focusing on portrait,
+                        href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
+                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland 🇫🇮.​<br>I'm focusing on
+                    portrait,
                     fashion, beauty, and experimental themes. Recently I'm also enjoying to
                     work with landscapes, 3D scans and web design.​<br><br>Recent web projects:<br></p>
                 <ul>
@@ -95,32 +107,25 @@
             <br><br>
             <section id="skills-section" class="grid-container">
                 <div class="grid-item">
-                    <p>Czech<img class="languages" src="/img/svg/czech-republic-flag-round.svg"></p>
+                    <p>Czech 🇨🇿</p>
                     <div class="skill-bar faded">
                         <div class="skill-bar" data-progress="100"></div>
                     </div>
-                    <p>English<img class="languages" src="/img/svg/united-kingdom-flag-round.svg"><br
-                            class="hideLanguages">Slovak<img
-                            class="languages" src="/img/svg/slovakia-flag-round.svg"></p>
+                    <p>English 🇬🇧 <br
+                            class="hideLanguages">Slovak 🇸🇰</p>
                     <div class="skill-bar faded">
                         <div class="skill-bar" data-progress="80"></div>
                     </div>
-                    <p>Danish<img class="languages" src="/img/svg/denmark-flag-round.svg"><br class="hideLanguages">
-                        Norweigan <img
-                            class="languages" src="/img/svg/norway-flag-round.svg"></p>
+                    <p>Danish 🇩🇰<br class="hideLanguages">
+                        Norweigan 🇳🇴</p>
                     <div class="skill-bar faded">
                         <div class="skill-bar" data-progress="45"></div>
                     </div>
-                    <p>German<img class="languages" src="/img/svg/germany-flag-round.svg"><br
-                            class="hideLanguages"> Swedish<img
-                            class="languages" src="/img/svg/sweden-flag-round.svg">
-                    </p>
+                    <p>German 🇩🇪 Swedish 🇸🇪</p>
                     <div class="skill-bar faded">
                         <div class="skill-bar" data-progress="20"></div>
                     </div>
-                    <p>Chinese <img class="languages" src="/img/svg/china-flag-round.svg"><br
-                            class="hideLanguages">Finnish<img
-                            class="languages" src="/img/svg/finland-flag-round.svg"></p>
+                    <p>Chinese 🇨🇳 Finnish 🇫🇮</p>
                     <div class="skill-bar faded">
                         <div class="skill-bar" data-progress="10"></div>
                     </div>
@@ -222,7 +227,10 @@
     <footer>
         <script src="https://apps.elfsight.com/p/platform.j" defer></script>
         <script src="/js/about.js" defer></script>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-footer.php';
+        ?>
     </footer>
     <!-- FOOTER END -->
 </body>

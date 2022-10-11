@@ -10,18 +10,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber security | Adam Sochorec</title>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-head.php"); ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
 </head>
 
 <body id="cyber-security">
     <!-- HEADER START -->
     <header>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-nav-bar.php';
+        ?>
     </header>
     <!-- HEADER END -->
     <aside class="table-of-contents">
         <!-- SCROLL STATUS -->
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-progress-bar.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-progress-bar.php';
+        ?>
     </aside>
     <main>
         <article>
@@ -295,7 +304,10 @@
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="/js/cyber-security.js" defer></script>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-footer.php';
+        ?>
     </footer>
     <!-- FOOTER END -->
 </body>
