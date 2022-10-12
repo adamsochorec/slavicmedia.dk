@@ -26,7 +26,7 @@
     <!-- HEADER END -->
     <main>
         <hr class="hide">
-        <article class="flex-center">
+        <article class="wrapper-narrow flex-center">
             <section class="flex-center">
                 <dotlottie-player src="/img/lottie/success.lottie" background="transparent" speed="1"
                     autoplay></dotlottie-player>

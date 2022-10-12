@@ -156,15 +156,12 @@ hr {
   margin: 2rem 0;
   opacity: 60%;
 }
-#about article,
-#cyber-security article,
-#expo-in-kolding article,
+article.wrapper-standard,
 hr {
   width: 37.5rem;
   max-width: 100%;
 }
-#error article,
-#success article {
+article.wrapper-narrow {
   width: 21rem;
   max-width: 100%;
 }
@@ -243,7 +240,6 @@ span.bar {
 /* nav menu end */
 
 /* btn start */
-
 .btn-area #btn,
 .btn-area #btn:after {
   height: 56px;
@@ -262,6 +258,9 @@ span.bar {
   touch-action: manipulation;
   font-weight: var(--heading-weight);
   border: solid 1.5px var(--primary-color);
+}
+.btn-area a {
+  text-decoration: none;
 }
 #btn {
   cursor: pointer;
@@ -314,6 +313,110 @@ span.bar {
   height: 2px;
 }
 /* progress container end */
+
+/* table of contents start */
+/*
+.table-of-contents {
+  position: fixed;
+  flex-basis: 260px;
+}
+.table-of-contents p {
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  color: var(--text-color);
+}
+
+.table-of-contents ul {
+  position: fixed;
+  /* Chrome (asshole) */
+/*
+  position: sticky;
+  /* Firefox */
+/*
+  margin-top: 2em;
+  top: 4em;
+}
+/*
+h1:first-child {
+  margin-top: 0;
+}
+
+.post-content {
+  flex-basis: 600px;
+  max-width: 100%;
+}
+
+/* TOC part */
+/*
+.table-of-contents {
+  top: 100px;
+  left: 2%;
+}
+.table-of-contents svg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  bottom: auto;
+  display: none;
+  stroke: var(--primary-color);
+  transform: translateY(-50%);
+}
+
+.toc-reading svg {
+  display: block;
+}
+
+.table-of-contents ul {
+  width: 200px;
+  counter-reset: articles;
+  padding: 0;
+}
+
+.table-of-contents li {
+  display: block;
+  counter-increment: articles;
+}
+
+.table-of-contents li + li {
+  margin-top: 2em;
+}
+
+.table-of-contents a {
+  display: block;
+  padding: 0 1.1em 0 3.2em;
+  position: relative;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+a.toc-reading,
+a.toc-already-read.toc-reading {
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+a.toc-already-read {
+  opacity: 0.4;
+}
+
+.table-of-contents a:before {
+  content: counter(articles, decimal);
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  top: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 34px;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #d9d9d9 inset;
+  color: var(--text-color);
+}
+/* table of contents end */
 
 /* footer start */
 footer {
@@ -808,13 +911,10 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (max-width: 947px) {
-  #about article,
-  #cyber-security article,
-  #expo-in-kolding article {
+  article.wrapper-standard {
     padding: 3rem 1.25rem;
   }
-  #error article,
-  #success article {
+  article.wrapper-narrow {
     padding: 3rem 1.25rem;
   }
 }

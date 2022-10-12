@@ -24,7 +24,7 @@
     </header>
     <main>
         <hr class="hide">
-        <article class="flex-center">
+        <article class="wrapper-narrow flex-center">
             <section class="flex-center">
                 <picture>
                     <img src="/img/gif/404.gif" alt="Trippy page not found animation">

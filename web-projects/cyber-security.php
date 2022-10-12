@@ -33,7 +33,7 @@
         ?>
     </aside>
     <main>
-        <article>
+        <article class="wrapper-standard post-content">
             <h1 class="page-start-margin">Secure and sustainable digital identity</h1>
             <br>
             <h3>Essential steps leading to your secure and healthy online presence.</h3>
@@ -48,15 +48,18 @@
                     code,
                     house number, etc.) usually on social sites.<br>By using complex not the organic password for
                     all of
-                    your online accounts, you can drastically reduce the risk of having your birthday on Facebook or tag
+                    your online accounts, you can drastically reduce the risk of having your birthday on Facebook or
+                    tag
                     the location of your hometown in an Instagram post.<br><br>Another step forward to secure your
                     online
-                    and offline identity, is using a unique password for each account you own. That creates a powerful
+                    and offline identity, is using a unique password for each account you own. That creates a
+                    powerful
                     cascade of barriers that possible hackers might cross pretty easily with a single or similar
                     password.<br>To be able to manipulate a number of absolutely random characters from the keyboard
                     you
                     need a
-                    reliable password manager. Does not matter how powerful and unique your passwords are when you keep
+                    reliable password manager. Does not matter how powerful and unique your passwords are when you
+                    keep
                     them in Excel spreadsheets on your work laptop...</p>
                 <hr>
                 <h3>1.2 Generate yourself a powerful and unique password</h3>
@@ -71,7 +74,8 @@
                 <section>
                     <h3>1.3 Check the strength of your password.</h3>
                     <br>
-                    <p>Contemporary password hacking is more about social engineering and working with the most commonly
+                    <p>Contemporary password hacking is more about social engineering and working with the most
+                        commonly
                         used words/phrases in dictionaries, than processing-heavy combinatorics.<br><br>
                     <p>Try out the password strenght calculator bellow, do not share your actual passwords!</p>
                     <br>
@@ -120,8 +124,10 @@
                         online
                         accounts. 2FA is based on entering a single-use time-dependent code sent to you by SMS,
                         email,
-                        or verification app.<br><br>2FA usually works on top of standard login procedure (username and
-                        password), so if your account info gets compromised, hacker still wouldn't access your account.
+                        or verification app.<br><br>2FA usually works on top of standard login procedure (username
+                        and
+                        password), so if your account info gets compromised, hacker still wouldn't access your
+                        account.
                     </p><br>
                     <div class="grid-container">
                         <div>
@@ -145,10 +151,12 @@
                             <p><span class="tfaFour">595 469</span></p>
                         </div>
                     </div>
-                    <p><i class="note">Recovery 2FA codes</i><br><br>After successful 2FA activation, you might be shown
+                    <p><i class="note">Recovery 2FA codes</i><br><br>After successful 2FA activation, you might be
+                        shown
                         a
                         couple of six to eight-digit recovery
-                        codes. In case you would lose access to your email and phone number, you still can manage your
+                        codes. In case you would lose access to your email and phone number, you still can manage
+                        your
                         online account by those single-use codes (after you use all of them, you will receive new
                         ones).
                     </p>
@@ -279,7 +287,8 @@
                             </a>
                         </li>
                         <li><a href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
-                                Authenticator <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
+                                Authenticator <svg class="hide" id="chevron-right"
+                                    xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
                                     <path
                                         d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
@@ -303,6 +312,7 @@
     <!-- FOOTER START -->
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="/js/cyber-security.js" defer></script>
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

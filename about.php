@@ -41,11 +41,11 @@
     </aside>
     <!-- SCROLL STATUS + CONTACT FORMS END -->
     <main>
-        <article>
+        <article class="wrapper-standard">
             <section>
                 <h1 class="page-start-margin" id="currentYear">About</h1><br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
-                        builder</a> and bush-craft enjoyer, born in Czech Prague 🇨🇿.
+                        builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
                         href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
                         href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland 🇫🇮.​<br>I'm focusing on
