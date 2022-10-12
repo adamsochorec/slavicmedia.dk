@@ -18,11 +18,15 @@
     ?>
     <main>
         <article class="wrapper-standard">
-            <h1>Articles map</h1>
+            <h1>Articles</h1>
             <section class="grid-container">
                 <a href="/blog/house-hunting">
-                    <div class="grid-item grid-item-1">
+                    <div class="grid-item">
                         <h3></h3>
+                        <picture class="grid-item-1">
+                            <source srcset="/blog/img/house-hunting/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/house-hunting/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
                 <a href="/blog/västerbotten">

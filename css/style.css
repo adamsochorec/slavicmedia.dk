@@ -35,6 +35,8 @@
   --menu-padding: 0 1rem;
   --banner-top-position: 45px;
   --banner-top-position-mobile: 40px;
+  --border-1: 3px solid var(--navy-color);
+  --smaller: 0.75;
 }
 @font-face {
   font-family: IBM;
@@ -129,15 +131,15 @@ svg {
 }
 img,
 iframe,
-source {
+source,
+#articles-map .grid-container .grid-item {
   animation: skeleton-loading 1s linear infinite alternate;
   max-width: 100%;
   border-radius: var(--border-radius);
   -webkit-transition: var(--transition-2);
 }
-img:hover,
 iframe:hover,
-source:hover {
+#articles-map .grid-container .grid-item:hover {
   -webkit-transition: var(--transition-2);
   transform: translate(4px, -4px);
   box-shadow: -8px 8px 0 var(--navy-color);
@@ -693,6 +695,27 @@ footer .footer-ps span:nth-child(2) {
   line-height: 1.5rem;
 }
 
+/* timer start */
+#expo-in-kolding #countdown {
+  text-align: center;
+  align-items: center;
+}
+#expo-in-kolding #countdown li {
+  display: inline-block;
+  font-size: 1rem;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 0 1em;
+}
+#expo-in-kolding #countdown ul {
+  padding: 0;
+}
+#expo-in-kolding #countdown li span {
+  display: block;
+  font-size: 4.5rem;
+}
+/* timer end */
+
 /* expo banner start */
 .banner-container {
   position: absolute;
@@ -733,13 +756,13 @@ footer .footer-ps span:nth-child(2) {
   grid-gap: 1rem;
 }
 #articles-map .grid-item {
-  width: 100%;
-  height: 8rem;
+  height: 100%;
   text-align: center;
   align-content: center;
   background-position: center;
   background-size: cover;
   border-radius: var(--border-radius-2);
+  border: var(--border-1);
 }
 #articles-map a:hover {
   text-decoration: none;
@@ -747,9 +770,11 @@ footer .footer-ps span:nth-child(2) {
 #articles-map h3 {
   position: relative;
   top: 40%;
+  z-index: 999;
 }
 #articles-map .grid-container .grid-item-1 {
-  background-image: url(/blog/img/house-hunting/jpg/1.jpg);
+  backdrop-filter: blur(1rem);
+  z-index: -9;
 }
 #articles-map .grid-container .grid-item-1 h3:before,
 #house-hunting h1:nth-child(1):before {
@@ -981,6 +1006,12 @@ footer .footer-ps span:nth-child(2) {
   }
   .progress-bar.hide {
     display: none;
+  }
+  #expo-in-kolding #countdown li {
+    font-size: 0.5rem;
+  }
+  #expo-in-kolding #countdown li span {
+    font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 947px) {

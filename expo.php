@@ -18,9 +18,8 @@
     ?>
     <main>
         <article class="wrapper-standard">
-            <h1>Expo in Knuds garage</h1>
+            <h1 id="headline">Expo in Knuds garage</h1>
             <section>
-                <h2>Jan 2023 - Feb 2023</h2>
                 <br>
                 <p>
                     I have the great pleasure to invite you to the first official exposition of my works!<br>
@@ -29,6 +28,14 @@
                     my on
                     large scale prints framed in historical frames series, on which I was working on last spring.
                 </p>
+                <hr>
+                <div id="countdown">
+                    <ul>
+                        <li><span id="days"></span>days</li>
+                        <li><span id="hours"></span>Hours</li>
+                        <li><span id="minutes"></span>Minutes</li>
+                    </ul>
+                </div>
                 <hr>
             </section>
             <section class="expo grid-container">
