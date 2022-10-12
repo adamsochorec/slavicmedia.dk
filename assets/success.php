@@ -2,12 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="description" content="Form Submission Success!">
     <meta name="keywords" content="success, form submission">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Success | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -16,14 +12,10 @@
 </head>
 
 <body id="success">
-    <!-- HEADER START -->
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
-    <!-- HEADER END -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <main>
         <hr class="hide">
         <article class="wrapper-narrow flex-center">
@@ -44,16 +36,14 @@
         </article>
         <hr>
     </main>
-    <!-- FOOTER START -->
-    <footer>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
-        <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js" defer></script>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
-    </footer>
-    <!-- FOOTER END -->
+    <!-- LOTTIE PLAYER SCRIPTS START -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js" defer></script>
+    <!-- LOTTIE PLAYER SCRIPTS START -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
 </body>
 
 </html>

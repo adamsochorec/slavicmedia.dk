@@ -2,12 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -16,20 +12,11 @@
 </head>
 
 <body id="about">
-    <!-- HEADER START + Scroll status -->
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
-    <!-- HEADER END -->
-    <!-- SCROLL STATUS + CONTACT FORMS START -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <aside>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-progress-bar.php';
-        ?>
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'banner.php';
@@ -39,11 +26,10 @@
         <!-- Whatssapp form -->
         <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
     </aside>
-    <!-- SCROLL STATUS + CONTACT FORMS END -->
     <main>
         <article class="wrapper-standard">
             <section>
-                <h1 class="page-start-margin" id="currentYear">About</h1><br>
+                <h1 id="currentYear">About</h1>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
@@ -223,16 +209,14 @@
         </article>
         <hr>
     </main>
-    <!-- FOOTER START -->
-    <footer>
-        <script src="https://apps.elfsight.com/p/platform.j" defer></script>
-        <script src="/js/about.js" defer></script>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
-    </footer>
-    <!-- FOOTER END -->
+    <!-- ELFSIGHT + LOCAL SCRIPT START -->
+    <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+    <script src="/js/about.js" defer></script>
+    <!-- ELFSIGHT + LOCAL SCRIPT END -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
 </body>
 
 </html>

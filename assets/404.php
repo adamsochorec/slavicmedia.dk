@@ -2,12 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="description" content="The page you’re looking for can’t be found.">
     <meta name="keywords" content="Page not found, 404, 404 Error, Error">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Page Not Found | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -16,12 +12,10 @@
 </head>
 
 <body id="error">
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <main>
         <hr class="hide">
         <article class="wrapper-narrow flex-center">
@@ -40,14 +34,10 @@
         </article>
         <hr>
     </main>
-    <!-- FOOTER START -->
-    <footer>
-        <?php
+    <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'global-footer.php';
         ?>
-    </footer>
-    <!-- FOOTER END -->
 </body>
 
 </html>

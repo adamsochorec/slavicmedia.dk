@@ -9,19 +9,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works | Adam Sochorec</title>
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-head.php"); ?>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-head.php';
+    ?>
 </head>
 
 <body id="works">
     <!-- HEADER START -->
     <header>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-nav-bar.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-nav-bar.php';
+        ?>
     </header>
     <!-- HEADER END -->
     <!-- SCROLL STATUS START -->
     <aside>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-progress-bar.php"); ?>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."banner.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-progress-bar.php';
+        ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'banner.php';
+        ?>
     </aside>
     <!-- SCROLL STATUS END -->
     <main>
@@ -29,10 +41,12 @@
             <section class="intro-section">
                 <section class="intro-sticky-subsection">
                     <h1>Works</h1>
-                    <br>
                     <h2 class="change-text">Photo | Web Design | 3D</h2>
                     <br>
-                    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-social-icons.php"); ?>
+                    <?php
+                    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                    include $IPATH . 'global-social-icons.php';
+                    ?>
                 </section>
             </section>
             <section class="grid-container">
@@ -266,7 +280,10 @@
     <!-- FOOTER START -->
     <footer>
         <script src="/js/works.j"></script>
-        <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."global-footer.php"); ?>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-footer.php';
+        ?>
     </footer>
     <!-- FOOTER END -->
 </body>

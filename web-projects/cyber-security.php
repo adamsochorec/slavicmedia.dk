@@ -2,13 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
     <meta name="keywords"
         content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber security | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -17,25 +13,13 @@
 </head>
 
 <body id="cyber-security">
-    <!-- HEADER START -->
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
-    <!-- HEADER END -->
-    <aside class="table-of-contents">
-        <!-- SCROLL STATUS -->
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-progress-bar.php';
-        ?>
-    </aside>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <main>
         <article class="wrapper-standard post-content">
-            <h1 class="page-start-margin">Secure and sustainable digital identity</h1>
-            <br>
+            <h1>Secure and sustainable digital identity</h1>
             <h3>Essential steps leading to your secure and healthy online presence.</h3>
             <hr>
             <section>
@@ -309,17 +293,14 @@
                 </section>
         </article>
     </main>
-    <!-- FOOTER START -->
-    <footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-        <script src="/js/cyber-security.js" defer></script>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
-    </footer>
-    <!-- FOOTER END -->
+    <!-- JQUERY + LOCAL SCRIPT START -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/cyber-security.js" defer></script>
+    <!-- JQUERY + LOCAL SCRIPT END -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
 </body>
 
 </html>

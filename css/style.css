@@ -165,8 +165,9 @@ article.wrapper-narrow {
   width: 21rem;
   max-width: 100%;
 }
-h1.page-start-margin {
+h1:nth-child(1) {
   margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 .note {
   font-size: 0.7rem;
@@ -311,6 +312,11 @@ span.bar {
 .progress-bar {
   background: var(--secondary-color);
   height: 2px;
+}
+#error .progress-container,
+#success .progress-container,
+#articles-map .progress-container {
+  display: none;
 }
 /* progress container end */
 
@@ -720,6 +726,72 @@ footer .footer-ps span:nth-child(2) {
 /* expo banner end */
 /* EXPO END */
 
+/* BLOG START*/
+#articles-map .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+#articles-map .grid-item {
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  align-content: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: var(--border-radius-2);
+}
+#articles-map a:hover {
+  text-decoration: none;
+}
+#articles-map h3 {
+  position: relative;
+  top: 40%;
+}
+#articles-map .grid-container .grid-item-1 {
+  background-image: url(/blog/img/house-hunting/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-1 h3:before,
+#house-hunting h1:nth-child(1):before {
+  content: 'House Hunting';
+}
+#articles-map .grid-container .grid-item-2 {
+  background-image: url(/blog/img/västerbotten/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-2 h3:before,
+#vasterbotten h1:nth-child(1):before {
+  content: 'Västerbötten';
+}
+#articles-map .grid-container .grid-item-3 {
+  background-image: url(/blog/img/flensburg-skagen/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-3 h3:before,
+#flensburg-skagen h1:nth-child(1):before {
+  content: 'Flensburg - Skagen';
+}
+#articles-map .grid-container .grid-item-4 {
+  background-image: url(/blog/img/blåvand/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-4 h3:before,
+#blåvand h1:nth-child(1):before {
+  content: 'Blåvand';
+}
+#articles-map .grid-container .grid-item-5 {
+  background-image: url(/blog/img/kvarken-archipelago/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-5 h3:before,
+#kvarken-archipelago h1:nth-child(1):before {
+  content: 'Kvarken Archipelago';
+}
+#articles-map .grid-container .grid-item-6 {
+  background-image: url(/blog/img/lakeland/jpg/1.jpg);
+}
+#articles-map .grid-container .grid-item-6 h3:before,
+#lakeland h1:nth-child(1):before {
+  content: 'Lakeland';
+}
+/* BLOG END*/
+
 /* MEDIA QUERRIES START */
 @media only screen and (min-width: 300px) {
   #about .grid-container,
@@ -834,10 +906,11 @@ footer .footer-ps span:nth-child(2) {
     font-size: var(--fontsize-3);
     display: inline;
   }
-  h1.page-start-margin {
+  h1:nth-child(1) {
     margin-top: 4rem;
+    margin-bottom: 1.5rem;
   }
-  #about h1.page-start-margin {
+  #about h1:nth-child(1) {
     margin-top: 6rem;
   }
   .nav-menu {

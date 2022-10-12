@@ -2,12 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expo 2023 | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -16,26 +12,13 @@
 </head>
 
 <body id="expo-in-kolding">
-    <!-- HEADER START -->
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
-    <!-- HEADER END -->
-    <!-- SCROLL STATUS START -->
-    <aside>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-progress-bar.php';
-        ?>
-    </aside>
-    <!-- SCROLL STATUS END -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <main>
         <article class="wrapper-standard">
-            <h1 class="page-start-margin">Expo in Knuds garage</h1>
-            <br>
+            <h1>Expo in Knuds garage</h1>
             <section>
                 <h2>Jan 2023 - Feb 2023</h2>
                 <br>
@@ -81,17 +64,13 @@
                     alt="#">
             </picture>
             </section>
+            <hr>
         </article>
-        <hr>
     </main>
-    <!-- FOOTER START -->
-    <footer>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
-    </footer>
-    <!-- FOOTER END -->
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
 </body>
 
 </html>
