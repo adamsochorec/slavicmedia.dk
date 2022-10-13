@@ -30,28 +30,48 @@
                     </div>
                 </a>
                 <a href="/blog/västerbotten">
-                    <div class="grid-item grid-item-2">
-                        <h3></h3>
+                    <div class="grid-item">
+                        <h3 class="grid-item-2"></h3>
+                        <picture>
+                            <source srcset="/blog/img/västerbotten/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/västerbotten/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
                 <a href="/blog/flensburg-skagen">
-                    <div class="grid-item grid-item-3">
-                        <h3></h3>
+                    <div class="grid-item">
+                        <h3 class="grid-item-3"></h3>
+                        <picture>
+                            <source srcset="/blog/img/flensburg-skagen/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/flensburg-skagen/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
                 <a href="/blog/blåvand">
-                    <div class="grid-item grid-item-4">
-                        <h3></h3>
+                    <div class="grid-item">
+                        <h3 class="grid-item-4"></h3>
+                        <picture>
+                            <source srcset="/blog/img/blåvand/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/blåvand/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
                 <a href="/blog/kvarken-archipelago">
-                    <div class="grid-item grid-item-5">
-                        <h3></h3>
+                    <div class="grid-item">
+                        <h3 class="grid-item-5"></h3>
+                        <picture>
+                            <source srcset="/blog/img/kvarken-archipelago/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/kvarken-archipelago/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
                 <a href="/blog/lakeland">
-                    <div class="grid-item grid-item-6">
-                        <h3></h3>
+                    <div class="grid-item">
+                        <h3 class="grid-item-6"></h3>
+                        <picture>
+                            <source srcset="/blog/img/lakeland/avif/1.avif" type="image/avif">
+                            <img src="/blog/img/lakeland/jpg/1.jpg" alt="#">
+                        </picture>
                     </div>
                 </a>
             </section>
