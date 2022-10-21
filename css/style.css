@@ -65,7 +65,6 @@ body {
 }
 body.noscroll {
   overflow: hidden;
-  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   display: none;
