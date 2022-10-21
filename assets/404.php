@@ -28,16 +28,16 @@
             </section>
             <br>
             <div class="btn-area"><a aria-describedby="/works" href="http://adamsochorec.com/works">
-                    <div aria-describedby="works" id="btn">return to frontpage</div>
+                    <div aria-describedby="works" id="btn">return to the frontpage</div>
                     <div class="btn-shadow"></div>
                 </a></div>
         </article>
         <hr>
     </main>
     <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
 </body>
 
 </html>

@@ -22,7 +22,4 @@
               <span class="bar"></span>
           </div><!-- RESPONSIVE HAMBURGER MENU END -->
       </nav><!-- NAVIGATION BAR END -->
-      <div class="progress-container">
-          <div class="progress-bar" id="myBar"></div>
-      </div>
   </header>

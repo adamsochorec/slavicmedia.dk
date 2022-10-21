@@ -28,10 +28,6 @@
     <aside>
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-progress-bar.php';
-        ?>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'banner.php';
         ?>
     </aside>
@@ -41,8 +37,6 @@
             <section class="intro-section">
                 <section class="intro-sticky-subsection">
                     <h1>Works</h1>
-                    <h2 class="change-text">Photo | Web Design | 3D</h2>
-                    <br>
                     <?php
                     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
                     include $IPATH . 'global-social-icons.php';
@@ -77,7 +71,7 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/5.avif" type="image/avif">
-                        <img src="/img/jpg/4.jpg" alt="#">
+                        <img src="/img/jpg/5.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="v-stretch">
@@ -225,7 +219,7 @@
                 <div class="h-stretch">
                     <picture>
                         <source srcset="/img/avif/35.avif" type="image/avif">
-                        <img src="/img/jpg/24.jpg" alt="#">
+                        <img src="/img/jpg/35.jpg" alt="#">
                     </picture>
                 </div>
                 <div class="h-stretch">
