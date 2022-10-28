@@ -17,7 +17,6 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-        <hr class="hide">
         <article class="wrapper-narrow flex-center">
             <section class="flex-center">
                 <picture>

@@ -19,6 +19,11 @@
     <main id="västerbotten">
         <article class="wrapper-standard">
             <section>
+                <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
+                            class="pathname-current"> /
+                        </span><span
+                            class="pathname"><a href="/blog/articles-map.php">Blog</a></span><span
+                            class="pathname-current"> / Västerbotten</span></i></div><br>
                 <h1></h1>
                 <picture>
                     <source srcset="/blog/img/västerbotten/avif/1.avif" type="image/avif">

@@ -17,9 +17,31 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-        <article class="wrapper-standard">
-            <h1 id="headline">Expo in Knuds garage</h1>
+        <article class="intro-section-standard">
+            <section class="intro-subsection">
+                <div id="countdown">
+                    <ul>
+                        <li><span id="days"></span>days</li>
+                        <li><span id="hours"></span>Hours</li>
+                        <li><span id="minutes"></span>Minutes</li>
+                    </ul>
+                </div>
+                <section class="read-more">
+                    <section class="flex-center">
+                        <a href="#link">
+                            <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
+                                background="transparent" loop speed="1"
+                                autoplay></lottie-player>
+                        </a>
+                    </section>
+                </section>
+            </section>
+        </article>
+        <article id="link" class="wrapper-standard">
+            <div class="pathname-container"><i><span class="pathname"><a href="">adamsochorec</a></span><span
+                        class="pathname-current"> / Expo 2023</span></i></div><br>
             <section>
+                <h1>Works expo in Knud's</h1>
                 <br>
                 <p>
                     I have the great pleasure to invite you to the first official exposition of my works!<br>
@@ -28,14 +50,6 @@
                     my on
                     large scale prints framed in historical frames series, on which I was working on last spring.
                 </p>
-                <hr>
-                <div id="countdown">
-                    <ul>
-                        <li><span id="days"></span>days</li>
-                        <li><span id="hours"></span>Hours</li>
-                        <li><span id="minutes"></span>Minutes</li>
-                    </ul>
-                </div>
                 <hr>
             </section>
             <section class="expo grid-container">
@@ -65,15 +79,9 @@
                 </a>
             </div>
             <hr>
-            <picture>
-                <source srcset="/img/avif/IMG_0438.avif" type="image/avif">
-                <img src="/img/jpg/IMG_0438.jpg"
-                    alt="#">
-            </picture>
-            </section>
-            <hr>
         </article>
     </main>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

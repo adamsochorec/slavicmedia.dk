@@ -29,7 +29,10 @@
     <main>
         <article class="wrapper-standard">
             <section>
+                <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
+                            class="pathname-current"> / About</span></i></div><br>
                 <h1 id="currentYear">About</h1>
+                <br>
                 <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
@@ -210,7 +213,7 @@
         <hr>
     </main>
     <!-- ELFSIGHT + LOCAL SCRIPT START -->
-    <script src="https://apps.elfsight.com/p/platform.j" defer></script>
+    <script src="https://apps.elfsight.com/p/platform.s" defer></script>
     <script src="/js/about.js" defer></script>
     <!-- ELFSIGHT + LOCAL SCRIPT END -->
     <?php

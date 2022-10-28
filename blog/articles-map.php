@@ -18,6 +18,8 @@
     ?>
     <main>
         <article class="wrapper-standard">
+            <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
+                        class="pathname-current"> / Blog</span></i></div><br>
             <h1>Articles</h1>
             <section class="grid-container">
                 <a href="/blog/house-hunting">

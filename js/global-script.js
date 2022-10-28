@@ -1,7 +1,7 @@
 // HAMBURGER MENU
 const hamburger = document.querySelector('.hamburger')
 const navMenu = document.querySelector('.nav-menu')
-const blurMain = document.querySelector('main')
+let blurMain = document.querySelector('main')
 const blurFooter = document.querySelector('footer')
 const blurAside = document.querySelector('aside')
 const hideBar = document.querySelector('.progress-bar')
@@ -18,7 +18,7 @@ function mobileMenu() {
   hideBar.classList.toggle('hide')
   noscroll.classList.toggle('noscroll')
 }
-const navLink = document.querySelectorAll('.nav-item')
+const navLink = document.querySelectorAll('.nav-link')
 
 navLink.forEach((n) => n.addEventListener('click', closeMenu))
 
@@ -31,7 +31,6 @@ function closeMenu() {
   hideBar.classList.remove('hide')
   noscroll.classList.remove('noscroll')
 }
-
 // SCROLL STATUS
 window.onscroll = function () {
   myFunction()

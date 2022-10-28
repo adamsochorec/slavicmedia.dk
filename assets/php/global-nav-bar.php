@@ -9,9 +9,7 @@
               <li class="nav-item">
                   <a aria-describedby="works" class="navbar-style" href="/works">works</a>
               </li>
-              <li class="nav-item">
-                  <a aria-describedby="articles-map" class="navbar-style" href="/blog/articles-map">blog</a>
-              </li>
+
               <li class="nav-item">
                   <a aria-describedby="about" class="navbar-style" href="/about">about</a>
               </li>
