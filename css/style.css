@@ -1008,8 +1008,9 @@ footer .footer-ps span:nth-child(2) {
 }
 @media only screen and (max-width: 540px) {
   #about .languages {
-    height: 18px;
+    height: 18px:
   }
+  
 }
 @media only screen and (min-width: 667px) {
   header {
