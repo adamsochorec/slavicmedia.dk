@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="Form Submission Success!">
-    <meta name="keywords" content="success, form submission">
     <title>Success | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

@@ -37,7 +37,9 @@
   --menu-padding: 0 1rem;
   --banner-top-position: 45px;
   --banner-top-position-mobile: 40px;
-  --border-1: 3px solid var(--navy-color);
+  --shadow-transition: translate(4px, -4px);
+  --box-shadow-1: -8px 8px 0 var(--primary-color);
+  --border-1: 3px solid var(--primary-color);
   --smaller: 0.75;
 }
 @font-face {
@@ -144,8 +146,8 @@ source,
 iframe:hover,
 #articles-map .grid-container .grid-item:hover {
   -webkit-transition: var(--transition-2);
-  transform: translate(4px, -4px);
-  box-shadow: -8px 8px 0 var(--navy-color);
+  transform: var(--shadow-transition);
+  box-shadow: var(--box-shadow-1);
 }
 #chevron-right {
   width: 0.5rem;
@@ -365,17 +367,22 @@ span.bar {
   top: -35px;
   border-radius: var(--border-radius-2);
 }
-.btn-area input::placeholder {
+#cyber-security.btn-area input::placeholder {
   text-align: center;
+}
+#cyber-security .btn-area input {
+  width: 100%;
+  height: 60px;
+  border-radius: var(--border-radius-1);
+}
+#cyber-security .btn-area input {
+  font-size: 2rem;
+  padding: 0;
 }
 .btn-area #btn,
 .btn-area #btn:after,
-.btn-area input,
 .btn-shadow {
   width: 320px;
-}
-.btn-area input {
-  border-radius: var(--border-radius);
 }
 /* btn end */
 
@@ -777,10 +784,27 @@ footer .footer-ps span:nth-child(2) {
   padding: 0;
 }
 #expo-in-kolding .grid-item p {
-  padding-left: 4px;
   line-height: 2em;
 }
-
+#expo-in-kolding .panel {
+  animation: gradient-background 1s linear infinite alternate;
+  background: linear-gradient(
+    -45deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  border: var(--border-1);
+  padding: 1rem;
+  transition: var(--transition-2);
+}
+#expo-in-kolding .panel:hover {
+  -webkit-transition: var(--transition-2);
+  transform: var(--shadow-transition);
+  box-shadow: var(--box-shadow-1);
+}
 /* timer start */
 #expo-in-kolding #countdown {
   text-align: center;
@@ -909,25 +933,12 @@ footer .footer-ps span:nth-child(2) {
     margin-left: 10px;
   }
 }
-@media only screen and (max-width: 300px) {
-  #expo-in-kolding .grid-container fieldset {
-    height: 13rem;
-  }
-}
 @media only screen and (max-width: 375px) {
-  #expo-in-kolding .grid-container fieldset {
-    height: 12rem;
-  }
   #expo-in-kolding #countdown li {
     font-size: 0.8rem;
   }
   #expo-in-kolding #countdown li span {
     font-size: 2.3rem;
-  }
-}
-@media only screen and (min-width: 376px) {
-  #expo-in-kolding .grid-container fieldset {
-    height: 10.5em;
   }
 }
 @media only screen and (max-width: 415px) {
@@ -939,25 +950,11 @@ footer .footer-ps span:nth-child(2) {
   }
   .btn-area #btn,
   .btn-area #btn:after,
-  .btn-area input,
-  .btn-shadow {
-    width: 288px;
-  }
-
-  .btn-area #btn,
-  .btn-area #btn:after,
   .btn-shadow {
     height: 3rem;
-    font-size: var(--fontsize-1);
   }
   #cyber-security .password-calculator {
     filter: saturate(100%);
-  }
-  #cyber-security .btn-area input {
-    font-size: var(--fontsize-1);
-  }
-  #cyber-security .btn-area input::placeholder {
-    font-size: var(--fontsize-1);
   }
 }
 @media only screen and (max-width: 460px) {
@@ -1110,6 +1107,20 @@ footer .footer-ps span:nth-child(2) {
   }
   .progress-bar.hide {
     display: none;
+  }
+  #cyber-security .btn-area input {
+    height: 40px;
+  }
+  .btn-area #btn,
+  .btn-area #btn:after,
+  .btn-shadow {
+    width: 100%;
+  }
+  #cyber-security .btn-area input,
+  #cyber-security .btn-area input::placeholder,
+  .btn-area #btn,
+  .btn-area #btn:after {
+    font-size: var(--fontsize-2);
   }
 }
 @media only screen and (max-width: 947px) {

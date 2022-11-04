@@ -4,7 +4,7 @@
 <head>
     <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
     <meta name="keywords"
-        content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers ">
+        content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers, Rostislav Sochorec, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová">
     <title>Cyber security | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -21,16 +21,16 @@
         <article id="passwordGenerator" class="intro-section-standard">
             <section class="intro-subsection">
                 <h2>Get an ultimate password</h2>
-                <br><br>
+                <br>
                 <section class="btn-area flex-center">
-                    <input type="text" placeholder="Your 124 bits password" id="password" readonly="">
+                    <input type="text" placeholder="with 124 bit strength" id="password" readonly="">
                     <br>
                     <div id="btn" onclick="getPassword();"></div>
                     <div class="btn-shadow"></div>
                 </section>
                 <section class="read-more">
                     <a href="#link">
-                        <h4>Read more about Cyber-Security</h4>
+                        <h4>Learn more about Cyber-Security</h4>
                         <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
@@ -168,7 +168,6 @@
                     <h3>2.2 What is a SIM swapping</h3>
                     <br>
                     <picture>
-                        <source srcset="/img/avif/simswap.avif" type="image/avif">
                         <img src="/img/jpg/simswap.png"
                             alt="Diagram describing how SIM swap works: 1. Attackers collects data on victim (trough social media, phising, etc.) 2. Thief calls phone service provider, impersonates victim 3. Thief tricks carrier into switiching victim's mobile number to SIM card on thie's phone 4. Now, thief gets incoming calls and texts meant for the victim - including account access codes.">
                     </picture>

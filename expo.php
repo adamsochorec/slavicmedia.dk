@@ -2,8 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="">
-    <meta name="keywords" content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art">
+    <meta name="description"
+        content="I have the great pleasure to invite you to the first official exposition of my works!
+The expo is going to be in inner spaces of the Knud's Garage in Kolding.
+You can take a look on my on large scale prints framed in historical frames series, on which I was working on last spring.">
+    <meta name="keywords"
+        content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, exposition, expo, exhibition, knud's garage, kolding, denmark, danmark, syddanmark, kommune, Munkegade, Adam Sochorec, @adamsochorec, Rostislav Sochorec, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová">
     <title>Expo 2023 | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -19,22 +23,25 @@
     <main>
         <article class="intro-section-standard">
             <section class="intro-subsection">
-                <div id="countdown">
+                <section class="flex-center" id="countdown">
                     <ul>
                         <li><span id="days"></span>days</li>
                         <li><span id="hours"></span>Hours</li>
                         <li><span id="minutes"></span>Minutes</li>
                     </ul>
-                </div>
+                </section>
+                <br><br>
                 <section class="read-more">
-                    <section class="flex-center">
-                        <a href="#link">
+                    <a href="#link">
+                        <h4>Learn more</h4>
+                        <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
-                                autoplay></lottie-player>
-                        </a>
-                    </section>
+                                autoplay>
+                            </lottie-player>
+                    </a>
                 </section>
+            </section>
             </section>
         </article>
         <article id="link" class="wrapper-standard">
@@ -48,26 +55,24 @@
                     The expo is going to be in inner spaces of the <a href="https://knuds-garage.business.site/">
                         Knud's Garage</a> in Kolding.<br>You can take a look on
                     my on
-                    large scale prints framed in historical frames series, on which I was working on last spring.
+                    large scale prints framed in historical frames series, on which I was working during the last
+                    spring.
                 </p>
                 <hr>
             </section>
             <section class="expo grid-container">
                 <section class="expo grid-item">
-                    <fieldset>
-                        <legend>
-                            <h3>Knuds Garage</h3>
-                        </legend>
-                        <p>Munkegade 5A<br>6000 Kolding<br>Denmark 🇩🇰</p>
-                    </fieldset>
+                    <div class="panel">
+                        <h3>Where</h3>
+                        <p>Knuds Garage</p>
+                        <p>Munkegade 5A<br>Kolding<br>6000<br>Denmark 🇩🇰</p>
+                    </div>
                 </section>
                 <section class="expo grid-item">
-                    <fieldset>
-                        <legend>
-                            <h3>Opening hours</h3>
-                        </legend>
-                        <p>Mon - Sat<br>12.00-02.00<br>Sun:<br>14.00-22.00</p>
-                    </fieldset>
+                    <div class="panel">
+                        <h3>When</h3>
+                        <p>Janurary - February 2023<br>Mon - Sat<br>12.00-02.00<br>Sun:<br>14.00-22.00</p>
+                    </div>
                 </section>
                 <br><br>
             </section>

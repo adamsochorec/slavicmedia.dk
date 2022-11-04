@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description"
+        content="Self-taught photographer, Lego builder and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently occupied with Erhversakademi Kolding in Denmark 🇩🇰 and Vaasan Yliopsto in Finland 🇫🇮.​
+I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm also enjoying to work with landscapes, 3D scans and web design.​">
+    <meta name="keywords"
+        content="Adam Sochorec, freelance, photographer, art, fine art, portrait, about, page, contact, biography, content creator, content creation, IBA, erhversakademi, Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, responsive design, Instagram, Sketchfab, Flickr, @adamsochorec, Denmark, Kolding, Czechia, Czech Republic, Prague, Česká Republika, Česko, Praha, Fine Art, Fotografie, Umění, Studio photography, Rostislav Sochorec, lego, star wars, flickr, instagram, sketchfab, css, html, javascript, php, python, c, canon camera, iphone 13 mini, Polycam, beauty photography, experimental, elfsigth, website, web, landscape, landscape photography, prints, Rostislav Sochorec, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová">
     <title>About | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -33,7 +36,7 @@
                             class="pathname-current"> / About</span></i></div><br>
                 <h1 id="currentYear">About</h1>
                 <br>
-                <p>Freelance self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
+                <p>Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
                         href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
@@ -80,13 +83,11 @@
             <hr>
             <section>
                 <picture>
-                    <source srcset="/img/avif/about.avif" type="image/avif">
                     <img src="/img/jpg/about.jpg"
                         alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
                 </picture>
                 <br><br>
                 <picture>
-                    <source srcset="/img/avif/partners.avif" type="image/avif">
                     <img src="/img/jpg/partners.png"
                         alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
                 </picture>

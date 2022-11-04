@@ -2,12 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art">
-    <meta name="author" content="Adam Sochorec">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo | 3D | Webdesign">
+    <meta name="keywords"
+        content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Adam Sochorec, Rostislav Sochorec, Responsive design, Homepage, Landing page, Instagram, Sketchfab, Flickr, @adamsochorec, Denmark, Kolding, Czechia, Czech Republic, Prague, Česká Republika, Česko, Praha, Fine Art, Fotografie, Umění, Studio photography, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová">
     <title>Works | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -46,50 +43,42 @@
             <section class="grid-container">
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/1.avif" type="image/avif">
-                        <img src="/img/jpg/1.jpg" alt="#">
+                        <img src="/img/jpg/1.jpg" alt="1">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/2.avif" type="image/avif">
-                        <img src="/img/jpg/2.jpg" alt="#">
+                        <img src="/img/jpg/2.jpg" alt="2">
                     </picture>
                 </div>
                 <div class="hhh-stretch">
                     <picture>
-                        <source srcset="/img/avif/3.avif" type="image/avif">
-                        <img src="/img/jpg/3.jpg" alt="#">
+                        <img src="/img/jpg/3.jpg" alt="3">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/4.avif" type="image/avif">
-                        <img src="/img/jpg/4.jpg" alt="#">
+                        <img src="/img/jpg/4.jpg" alt="4">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/5.avif" type="image/avif">
-                        <img src="/img/jpg/5.jpg" alt="#">
+                        <img src="/img/jpg/5.jpg" alt="5">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/7.avif" type="image/avif">
-                        <img src="/img/jpg/7.jpg" alt="#">
+                        <img src="/img/jpg/7.jpg" alt="7">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/6.avif" type="image/avif">
-                        <img src="/img/jpg/6.jpg" alt="#">
+                        <img src="/img/jpg/6.jpg" alt="6">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/8.avif" type="image/avif">
-                        <img src="/img/jpg/8.jpg" alt="#">
+                        <img src="/img/jpg/8.jpg" alt="8">
                     </picture>
                 </div>
                 <div class="h-stretch sketchfab-embed-wrapper">
@@ -118,144 +107,122 @@
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/10.avif" type="image/avif">
-                        <img src="/img/jpg/10.jpg" alt="#">
+                        <img src="/img/jpg/10.jpg" alt="10">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/9.avif" type="image/avif">
-                        <img src="/img/jpg/9.jpg" alt="#">
+                        <img src="/img/jpg/9.jpg" alt="9">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/37.avif" type="image/avif">
-                        <img src="/img/jpg/37.jpg" alt="#">
+                        <img src="/img/jpg/37.jpg" alt="37">
                     </picture>
                 </div>
                 <div class="hh-stretch">
                     <picture>
-                        <source srcset="/img/avif/11.avif" type="image/avif">
-                        <img src="/img/jpg/11.jpg" alt="#">
+                        <img src="/img/jpg/11.jpg" alt="11">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/12.avif" type="image/avif">
-                        <img src="/img/jpg/12.jpg" alt="#">
+                        <img src="/img/jpg/12.jpg" alt="12">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/13.avif" type="image/avif">
-                        <img src="/img/jpg/13.jpg" alt="#">
+                        <img src="/img/jpg/13.jpg" alt="13">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/14.avif" type="image/avif">
-                        <img src="/img/jpg/14.jpg" alt="#">
+                        <img src="/img/jpg/14.jpg" alt="14">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/18.avif" type="image/avif">
-                        <img src="/img/jpg/18.jpg" alt="#">
+                        <img src="/img/jpg/18.jpg" alt="18">
                     </picture>
                 </div>
                 <div class="hh-stretch">
                     <picture>
-                        <source srcset="/img/avif/17.avif" type="image/avif">
-                        <img src="/img/jpg/17.jpg" alt="#">
+                        <img src="/img/jpg/17.jpg" alt="17">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/15.avif" type="image/avif">
-                        <img src="/img/jpg/15.jpg" alt="#">
+                        <img src="/img/jpg/15.jpg" alt="15">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/16.avif" type="image/avif">
-                        <img src="/img/jpg/16.jpg" alt="#">
+                        <img src="/img/jpg/16.jpg" alt="16">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <img src="/img/gif/22.gif" alt="#">
+                        <img src="/img/gif/22.gif" alt="22">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <img src="/img/gif/23.gif" alt="#">
+                        <img src="/img/gif/23.gif" alt="23">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/19.avif" type="image/avif">
-                        <img src="/img/jpg/19.jpg" alt="#">
+                        <img src="/img/jpg/19.jpg" alt="19">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/21.avif" type="image/avif">
-                        <img src="/img/jpg/21.jpg" alt="#">
+                        <img src="/img/jpg/21.jpg" alt="21">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/20.avif" type="image/avif">
-                        <img src="/img/jpg/20.jpg" alt="#">
+                        <img src="/img/jpg/20.jpg" alt="20">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/24.avif" type="image/avif">
-                        <img src="/img/jpg/24.jpg" alt="#">
+                        <img src="/img/jpg/24.jpg" alt="24">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/35.avif" type="image/avif">
-                        <img src="/img/jpg/35.jpg" alt="#">
+                        <img src="/img/jpg/35.jpg" alt="35">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/32.avif" type="image/avif">
-                        <img src="/img/jpg/32.jpg" alt="#">
+                        <img src="/img/jpg/32.jpg" alt="32">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/25.avif" type="image/avif">
-                        <img src="/img/jpg/25.jpg" alt="#">
+                        <img src="/img/jpg/25.jpg" alt="25">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/30.avif" type="image/avif">
-                        <img src="/img/jpg/30.jpg" alt="#">
+                        <img src="/img/jpg/30.jpg" alt="30">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/33.avif" type="image/avif">
-                        <img src="/img/jpg/33.jpg" alt="#">
+                        <img src="/img/jpg/33.jpg" alt="33">
                     </picture>
                 </div>
                 <div class="v-stretch">
                     <picture>
-                        <source srcset="/img/avif/31.avif" type="image/avif">
-                        <img src="/img/jpg/31.jpg" alt="#">
+                        <img src="/img/jpg/31.jpg" alt="31">
                     </picture>
                 </div>
                 <div class="h-stretch">
                     <picture>
-                        <source srcset="/img/avif/28.avif" type="image/avif">
-                        <img src="/img/jpg/28.jpg" alt="#">
+                        <img src="/img/jpg/28.jpg" alt="28">
                     </picture>
                 </div>
                 <div class="h-stretch sketchfab-embed-wrapper">

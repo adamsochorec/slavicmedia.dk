@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="The page you’re looking for can’t be found.">
-    <meta name="keywords" content="Page not found, 404, 404 Error, Error">
     <title>Page Not Found | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
