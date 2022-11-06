@@ -5,14 +5,14 @@
     <meta name="description" content="Essential steps leading to your secure and healthy online presence.">
     <meta name="keywords"
         content="cyber security, e corp, Secure and sustainable digital identity, adam sochorec, Contemporary passwords, Generate yourself a powerful and unique password, Check the strength of your password, What is 2FA and why is essential, What is a SIM swapping, Social engineering vulnerability, passwoord managers, Rostislav Sochorec, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová">
-    <title>Cyber security | Adam Sochorec</title>
+    <title>Cybersecurity | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
 </head>
 
-<body id="cyber-security">
+<body id="cybersecurity">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -23,14 +23,14 @@
                 <h2>Get an ultimate password</h2>
                 <br>
                 <section class="btn-area flex-center">
-                    <input type="text" placeholder="with 124 bit strength" id="password" readonly="">
+                    <input type="text" placeholder="of 124 bit strength" id="password" readonly="">
                     <br>
                     <div id="btn" onclick="getPassword();"></div>
                     <div class="btn-shadow"></div>
                 </section>
                 <section class="read-more">
-                    <a href="#link">
-                        <h4>Learn more about Cyber-Security</h4>
+                    <a href="#scrolllink">
+                        <h6>Learn more about Cybersecurity</h6>
                         <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
@@ -40,16 +40,16 @@
             </section>
             </section>
         </article>
-        <article id="link" class="wrapper-standard">
+        <article id="scrolllink" class="wrapper-standard">
             <div class="pathname-container"><i><span class="pathname"><a
                             href="/works">adamsochorec</a></span><span
-                        class="pathname-current"> / Web-Projects / Cyber-Security</span></i></div><br>
-            <h1>Secure and sustainable digital identity</h1>
+                        class="pathname-current"> / Web-Projects / Cybersecurity</span></i></div><br>
+            <h1>Cybersecurity hygiene</h1>
             <br>
-            <h3>Essential steps leading to your secure and healthy online presence.</h3>
+            <h2>Essential steps leading to your secure and healthy online presence.</h2>
             <hr>
             <section>
-                <h2>1. Contemporary passwords</h2>
+                <h3>1. Contemporary passwords</h3>
                 <br>
                 <p>The most effective way how today to hack someone's identity is to "social engineer". That
                     means
@@ -73,7 +73,7 @@
                     them in Excel spreadsheets on your work laptop...</p>
                 <hr>
                 <section>
-                    <h3>1.2 Check the strength of your password.</h3>
+                    <h4>1.2 Check the strength of your password.</h4>
                     <br>
                     <p>Contemporary password hacking is more about social engineering and working with the most
                         commonly
@@ -93,11 +93,11 @@
                 </section>
                 <hr>
                 <section>
-                    <h3>1.3 Problem solution <svg id="screwdriver-wrench" xmlns="http://www.w3.org/2000/svg"
+                    <h4>1.3 Problem solution <svg id="screwdriver-wrench" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
                             <path
                                 d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM104 432c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z" />
-                        </svg></h3>
+                        </svg></h4>
                     <br>
                     <ol>
                         <li>Set-up a trusted and encrypted password manager:</li>
@@ -120,7 +120,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h2>2.1 What is 2FA and why is essential</h2>
+                    <h3>2.1 What is 2FA and why is essential</h3>
                     <br>
                     <p>Two-factor authentication (2FA) is an additional security feature for logging into your
                         online
@@ -165,7 +165,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h3>2.2 What is a SIM swapping</h3>
+                    <h4>2.2 What is a SIM swapping</h4>
                     <br>
                     <picture>
                         <img src="/img/jpg/simswap.png"
@@ -204,7 +204,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h2>3. Social engineering vulnerability</h2>
+                    <h3>3. Social engineering vulnerability</h3>
                     <br>
                     <p>Watch out for your online traces. Set your personal information (such as birthday, year of
                         graduation, etc.) as private or
@@ -231,11 +231,11 @@
                 </section>
                 <hr>
                 <section>
-                    <h3>3.2 Problem solution <svg id="screwdriver-wrench" xmlns="http://www.w3.org/2000/svg"
+                    <h4>3.2 Problem solution <svg id="screwdriver-wrench" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 512 512">
                             <path
                                 d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM104 432c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z" />
-                        </svg></h3>
+                        </svg></h4>
                     <br>
                     <ol>
                         <li>Keep informations you publish about yourself under control, set required sensitive
@@ -249,7 +249,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h2>4. Related literature</h2>
+                    <h3>4. Related literature</h3>
                     <br>
                     <ol>
                         <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength
@@ -312,7 +312,7 @@
     </main>
     <!-- JQUERY + LOCAL SCRIPT START -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/js/cyber-security.js" defer></script>
+    <script src="/js/cybersecurity.js" defer></script>
     <!-- JQUERY + LOCAL SCRIPT END -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <?php

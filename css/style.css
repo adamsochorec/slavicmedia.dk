@@ -15,12 +15,15 @@
   --navy-color: #141c3a;
   --header-color: rgba(0, 0, 0, 0.5);
 
-  /* FONTS */
-  --fontsize-1: 0.8rem;
-  --fontsize-2: 1rem;
-  --fontsize-3: 1.2rem;
-  --fontsize-4: 1.4rem;
-  --fontsize-5: 1.6rem;
+  /* FONTS */ 
+  --fontsize-h1: clamp(1.9rem, 1rem + 10vw, 3rem);
+  --fontsize-h2: clamp(1.6rem, 1rem + 7vw, 2rem);
+  --fontsize-h3: 1.8rem;
+  --fontsize-h4: 1.3rem;
+  --fontsize-h5: 1.3rem
+  --fontsize-h6: 1.2rem
+  --fontsize-p: 1rem;
+
   --logo-font: IBM;
   --alt-logo-font: BigBlue;
   --text-color: #fff;
@@ -81,6 +84,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 h6 {
   font-weight: var(--heading-weight);
   color: var(--text-color);
@@ -88,20 +92,29 @@ h6 {
 }
 h1,
 .intro-section-standard h2 {
-  font-size: clamp(1.9rem, 1rem + 10vw, 3rem);
+  font-size: var(--fontsize-h1);
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: var(--fontsize-h2);
 }
 h3 {
-  font-size: 1.25rem;
+  font-size: var(--fontsize-h3);
+}
+h4 {
+  font-size: var(--fontsize-h4);
+}
+h5{
+  font-size: var(--fontsize-h5);
+}
+h6{
+  font-size: var(--fontsize-h6);
 }
 ol,
 main li,
 main ul,
 p {
   flex-direction: column;
-  font-size: var(--fontsize-2);
+  font-size: var(--fontsize-p);
   font-weight: var(--paragraph-weight);
   color: var(--text-color);
   line-height: 1.5;
@@ -263,7 +276,6 @@ header {
   align-items: center;
   display: flex;
   font-family: var(--logo-font);
-  font-size: var(--fontsize-3);
   height: var(--banner-top-position);
   justify-content: center;
   padding: 0 2.5rem;
@@ -289,7 +301,7 @@ header {
   text-decoration: none;
 }
 .nav-bar a span {
-  font-size: var(--fontsize-1);
+  font-size: var(--fontsize-h5);
   display: flex;
   flex-direction: row;
   z-index: 99;
@@ -301,7 +313,7 @@ header {
 }
 .nav-item {
   display: flex;
-  font-size: var(--fontsize-1);
+  font-size: 0.7rem;
   justify-content: center;
   list-style: none;
   margin-left: 3rem;
@@ -328,7 +340,7 @@ span.bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: var(--fontsize-2);
+  font-size: var(--fontsize-h6);
   background: var(--secondary-color);
   color: var(--text-color);
   letter-spacing: var(--letter-spacing);
@@ -367,15 +379,15 @@ span.bar {
   top: -35px;
   border-radius: var(--border-radius-2);
 }
-#cyber-security.btn-area input::placeholder {
+#cybersecurity.btn-area input::placeholder {
   text-align: center;
 }
-#cyber-security .btn-area input {
+#cybersecurity .btn-area input {
   width: 100%;
   height: 60px;
   border-radius: var(--border-radius-1);
 }
-#cyber-security .btn-area input {
+#cybersecurity .btn-area input {
   font-size: 2rem;
   padding: 0;
 }
@@ -710,16 +722,15 @@ footer .footer-ps span:nth-child(2) {
 }
 #success h1,
 #error h1 {
-  font-size: var(--fontsize-2);
+  font-size: var(--fontsize-h6);
   font-weight: var(--paragraph-weight);
 }
 /* ASSETS END */
 
-/* CYBER-SECURITY START */
-
+/* CYBERSECURITY START */
 .btn-area input {
   position: relative;
-  font-size: var(--fontsize-2);
+  font-size: var(--fontsize-h6);
   height: 2.2rem;
   border: none;
   margin: 0.3rem 0 0;
@@ -732,13 +743,13 @@ footer .footer-ps span:nth-child(2) {
   background-color: var(--text-color);
   text-align: center;
 }
-#cyber-security img {
+#cybersecurity img {
   background: var(--white-color);
 }
-#cyber-security #btn:before {
+#cybersecurity #btn:before {
   content: 'generate & copy';
 }
-#cyber-security #btn.clicked:before {
+#cybersecurity #btn.clicked:before {
   content: 'copied!';
 }
 #screwdriver-wrench {
@@ -758,7 +769,7 @@ footer .footer-ps span:nth-child(2) {
   filter: saturate(100%);
   -webkit-transition: var(--transition-2);
 }
-#cyber-security .grid-container {
+#cybersecurity .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -766,13 +777,13 @@ footer .footer-ps span:nth-child(2) {
 .tfaCode {
   text-align: center;
 }
-#cyber-security .grid-container p {
+#cybersecurity .grid-container p {
   color: var(--primary-color);
   font-size: 2rem;
   display: inline;
   font-weight: var(--heading-weight);
 }
-/* CYBER-SECURITY END */
+/* cybersecurity END */
 
 /* EXPO START */
 #expo-in-kolding h2 {
@@ -787,18 +798,13 @@ footer .footer-ps span:nth-child(2) {
   line-height: 2em;
 }
 #expo-in-kolding .panel {
-  animation: gradient-background 1s linear infinite alternate;
-  background: linear-gradient(
-    -45deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
-  background-size: 400% 400%;
-  -webkit-animation: gradient 15s ease infinite;
-  animation: gradient 15s ease infinite;
-  border: var(--border-1);
+  background-color: white;
+  border: 2.5px solid var(--primary-color);
   padding: 1rem;
   transition: var(--transition-2);
+}
+#expo-in-kolding .panel p, #expo-in-kolding .panel h3{
+  color: var(--background-color)
 }
 #expo-in-kolding .panel:hover {
   -webkit-transition: var(--transition-2);
@@ -851,7 +857,7 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 .banner-container h3 {
-  font-size: var(--fontsize-2);
+  font-size: var(--fontsize-h6);
   font-weight: var(--paragraph-weight);
   text-align: center;
   padding: 16px;
@@ -942,9 +948,6 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 @media only screen and (max-width: 415px) {
-  h2 {
-    font-size: var(--fontsize-3);
-  }
   .btn-shadow {
     top: -43px;
   }
@@ -953,14 +956,8 @@ footer .footer-ps span:nth-child(2) {
   .btn-shadow {
     height: 3rem;
   }
-  #cyber-security .password-calculator {
+  #cybersecurity .password-calculator {
     filter: saturate(100%);
-  }
-}
-@media only screen and (max-width: 460px) {
-  #cyber-security .grid-container p {
-    font-size: 0.9rem;
-    display: inline;
   }
 }
 @media only screen and (min-width: 500px) {
@@ -1024,13 +1021,25 @@ footer .footer-ps span:nth-child(2) {
 @media only screen and (max-width: 667px) {
   h1,
   .intro-section-standard h2 {
-    font-size: 1.9rem;
+    font-size: calc(var(--fontsize-h1)*0.7);
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: calc(var(--fontsize-h2)*0.7);
   }
-  #cyber-security .grid-container p {
-    font-size: var(--fontsize-3);
+  h3{
+    font-size: calc(var(--fontsize-h3)*0.7);
+  }
+  h4{
+    font-size: calc(var(--fontsize-h4)*0.7);
+  }
+  h5{
+    font-size: calc(var(--fontsize-h5)*0.7);
+  }
+  h6{
+    font-size: calc(var(--fontsize-h6)*0.7);
+  }
+  #cybersecurity .grid-container p {
+    font-size: var(--fontsize-h4);
     display: inline;
   }
   h1:nth-child(1) {
@@ -1058,7 +1067,7 @@ footer .footer-ps span:nth-child(2) {
     z-index: 9;
   }
   .nav-item {
-    font-size: var(--fontsize-2);
+    font-size: var(--fontsize-p);
     margin: 1rem 0;
     opacity: 100%;
   }
@@ -1108,7 +1117,7 @@ footer .footer-ps span:nth-child(2) {
   .progress-bar.hide {
     display: none;
   }
-  #cyber-security .btn-area input {
+  #cybersecurity .btn-area input {
     height: 40px;
   }
   .btn-area #btn,
@@ -1116,11 +1125,11 @@ footer .footer-ps span:nth-child(2) {
   .btn-shadow {
     width: 100%;
   }
-  #cyber-security .btn-area input,
-  #cyber-security .btn-area input::placeholder,
+  #cybersecurity .btn-area input,
+  #cybersecurity .btn-area input::placeholder,
   .btn-area #btn,
   .btn-area #btn:after {
-    font-size: var(--fontsize-2);
+    font-size: var(--fontsize-h5);
   }
 }
 @media only screen and (max-width: 947px) {

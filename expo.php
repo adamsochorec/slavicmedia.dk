@@ -32,8 +32,8 @@ You can take a look on my on large scale prints framed in historical frames seri
                 </section>
                 <br><br>
                 <section class="read-more">
-                    <a href="#link">
-                        <h4>Learn more</h4>
+                    <a href="#scrolllink">
+                        <h6>About the event</h6>
                         <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
@@ -44,7 +44,7 @@ You can take a look on my on large scale prints framed in historical frames seri
             </section>
             </section>
         </article>
-        <article id="link" class="wrapper-standard">
+        <article id="scrolllink" class="wrapper-standard">
             <div class="pathname-container"><i><span class="pathname"><a href="">adamsochorec</a></span><span
                         class="pathname-current"> / Expo 2023</span></i></div><br>
             <section>
