@@ -15,21 +15,22 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-        <hr class="hide">
         <article class="wrapper-narrow flex-center">
             <section class="flex-center">
                 <dotlottie-player src="/img/lottie/success.lottie" background="transparent" speed="1"
                     autoplay></dotlottie-player>
-                <br><br>
-                <h1>Form submitted successfully!</h1>
+                <br>
+                <h1>Form submitted<br>successfully!</h1>
             </section>
             <br>
-            <div class="btn-area">
-                <a aria-describedby="about" href="/about">
-                    <div aria-describedby="about" id="btn">return to about</div>
-                    <div class="btn-shadow"></div>
-                </a>
-            </div>
+            <h2><a aria-describedby="/about" href="http://adamsochorec.com/about">Return to About <svg
+                        id="chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512">
+                        <path
+                            d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+                    </svg>
+                </a></h2>
             </section>
         </article>
         <hr>

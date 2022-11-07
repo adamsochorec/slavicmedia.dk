@@ -30,7 +30,7 @@
                 </section>
                 <section class="read-more">
                     <a href="#scrolllink">
-                        <h6>Learn more about Cybersecurity</h6>
+                        <h5>Learn more about Cybersecurity</h5>
                         <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
@@ -120,7 +120,7 @@
                 </section>
                 <hr>
                 <section>
-                    <h3>2.1 What is 2FA and why is essential</h3>
+                    <h3>2. What is 2FA and why is essential</h3>
                     <br>
                     <p>Two-factor authentication (2FA) is an additional security feature for logging into your
                         online
@@ -129,37 +129,11 @@
                         or verification app.<br><br>2FA usually works on top of standard login procedure (username
                         and
                         password), so if your account info gets compromised, hacker still wouldn't access your
-                        account.
-                    </p><br>
-                    <div class="grid-container">
-                        <div>
-                            <p><span class="tfaOne">902 844</span></p>
-                            <p><span class="tfaOne">024 930</span></p>
-                            <p><span class="tfaOne">056 929</span></p>
-                        </div>
-                        <div>
-                            <p><span class="tfaTwo">039 032</span></p>
-                            <p><span class="tfaTwo">983 230</span></p>
-                            <p><span class="tfaTwo">663 892</span></p>
-                        </div>
-                        <div>
-                            <p><span class="tfaThree">780 320</span></p>
-                            <p><span class="tfaThree">401 024</span></p>
-                            <p><span class="tfaThree">896 309</span></p>
-                        </div>
-                        <div>
-                            <p><span class="tfaFour">930 324</span></p>
-                            <p><span class="tfaFour">609 714</span></p>
-                            <p><span class="tfaFour">595 469</span></p>
-                        </div>
-                    </div>
-                    <p><i class="note">Recovery 2FA codes</i><br><br>After successful 2FA activation, you might be
-                        shown
-                        a
-                        couple of six to eight-digit recovery
-                        codes. In case you would lose access to your email and phone number, you still can manage
-                        your
-                        online account by those single-use codes (after you use all of them, you will receive new
+                        account.<br><br>After successful 2FA activation, you might be shown a couple of six to
+                        eight-digit
+                        recovery codes. In case you would lose access to your email and phone number, you still can
+                        manage your online account by those single-use codes (after you use all of them, you will
+                        receive new
                         ones).
                     </p>
                 </section>
@@ -310,11 +284,8 @@
                 </section>
         </article>
     </main>
-    <!-- JQUERY + LOCAL SCRIPT START -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/js/cybersecurity.js" defer></script>
     <!-- JQUERY + LOCAL SCRIPT END -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

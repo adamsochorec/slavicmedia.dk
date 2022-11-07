@@ -33,7 +33,7 @@ You can take a look on my on large scale prints framed in historical frames seri
                 <br><br>
                 <section class="read-more">
                     <a href="#scrolllink">
-                        <h6>About the event</h6>
+                        <h5>About the event</h5>
                         <section class="flex-center">
                             <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                                 background="transparent" loop speed="1"
@@ -64,8 +64,9 @@ You can take a look on my on large scale prints framed in historical frames seri
                 <section class="expo grid-item">
                     <div class="panel">
                         <h3>Where</h3>
-                        <p>Knuds Garage</p>
-                        <p>Munkegade 5A<br>Kolding<br>6000<br>Denmark 🇩🇰</p>
+                        <p>Knud's Garage</p>
+                        <p>Munkegade 5A<br>Kolding<br>6000<br>Denmark 🇩🇰<br class="hide2"><br class="hide2"></p>
+
                     </div>
                 </section>
                 <section class="expo grid-item">
@@ -79,14 +80,13 @@ You can take a look on my on large scale prints framed in historical frames seri
             <div class="btn-area flex-center">
                 <a aria-describedby="about"
                     href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en">
-                    <div aria-describedby="about" id="btn">get the directions</div>
+                    <div aria-describedby="about" id="btn">Get the directions</div>
                     <div class="btn-shadow"></div>
                 </a>
             </div>
             <hr>
         </article>
     </main>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

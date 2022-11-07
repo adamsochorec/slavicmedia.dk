@@ -188,7 +188,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
     </main>
     <!-- ELFSIGHT + LOCAL SCRIPT START -->
     <script src="https://apps.elfsight.com/p/platform.s" defer></script>
-    <script src="/js/about.js" defer></script>
     <!-- ELFSIGHT + LOCAL SCRIPT END -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

@@ -34,6 +34,7 @@
             <section class="intro-section">
                 <section class="intro-sticky-subsection">
                     <h1>Works</h1>
+                    <h2>Photo | 3D | Web design</h2><br>
                     <?php
                     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
                     include $IPATH . 'global-social-icons.php';
@@ -240,7 +241,6 @@
     </main>
     <!-- FOOTER START -->
     <footer>
-        <script src="/js/works.j"></script>
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'global-footer.php';
