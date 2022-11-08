@@ -45,12 +45,12 @@ You can take a look on my on large scale prints framed in historical frames seri
             </section>
         </article>
         <article id="scrolllink" class="wrapper-standard">
-            <div class="pathname-container"><i><span class="pathname"><a href="">adamsochorec</a></span><span
+            <div class="pathname-container reveal"><i><span class="pathname"><a href="">adamsochorec</a></span><span
                         class="pathname-current"> / Expo 2023</span></i></div><br>
             <section>
-                <h1>Works expo in Knud's</h1>
+                <h1 class="reveal">Works expo in Knud's</h1>
                 <br>
-                <p>
+                <p class="reveal">
                     I have the great pleasure to invite you to the first official exposition of my works!<br>
                     The expo is going to be in inner spaces of the <a href="https://knuds-garage.business.site/">
                         Knud's Garage</a> in Kolding.<br>You can take a look on
@@ -60,7 +60,7 @@ You can take a look on my on large scale prints framed in historical frames seri
                 </p>
                 <hr>
             </section>
-            <section class="expo grid-container">
+            <section class="expo grid-container reveal">
                 <section class="expo grid-item">
                     <div class="panel">
                         <h3>Where</h3>
@@ -81,7 +81,7 @@ You can take a look on my on large scale prints framed in historical frames seri
                 </section>
                 <br><br>
             </section>
-            <div class="btn-area flex-center">
+            <div class="btn-area flex-center reveal">
                 <a aria-describedby="about"
                     href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en">
                     <div aria-describedby="about" id="btn">Get the directions</div>

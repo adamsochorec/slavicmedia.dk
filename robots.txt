@@ -1,1 +1,1 @@
-https://www.google.com/ping?sitemap=https://adamsochorec.com/sitemap.xml
+https://www.google.com/ping?sitemap=https://adamsochorec.com/assets/sitemap.xml

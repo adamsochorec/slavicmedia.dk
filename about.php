@@ -52,45 +52,46 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <hr>
             <section>
                 <picture>
-                    <img src="/img/jpg/about.jpg"
+                    <img class="reveal" src="/img/jpg/about.jpg"
                         alt="Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.">
                 </picture>
                 <br><br>
                 <picture>
-                    <img src="/img/jpg/partners.png"
+                    <img class="reveal" src="/img/jpg/partners.png"
                         alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confuctius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae.">
                 </picture>
             </section>
             <hr>
-            <h2>Language competences</h2>
+            <h2 class="reveal">Language competences</h2>
             <br><br>
             <section id="skills-section" class="grid-container">
                 <div class="grid-item">
-                    <p>Czech 🇨🇿</p>
-                    <div class="skill-bar faded">
+                    <p class="reveal">Czech 🇨🇿</p>
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="100"></div>
                     </div>
-                    <p>English 🇬🇧 <br
+                    <p class="reveal">English 🇬🇧 <br
                             class="hideLanguages">Slovak 🇸🇰</p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="80"></div>
                     </div>
-                    <p>Danish 🇩🇰<br class="hideLanguages">
+                    <p class="reveal">Danish 🇩🇰<br class="hideLanguages">
                         Norweigan 🇳🇴</p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="45"></div>
                     </div>
-                    <p>German 🇩🇪 Swedish 🇸🇪</p>
-                    <div class="skill-bar faded">
+                    <p class="reveal">German 🇩🇪 Swedish 🇸🇪</p>
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="20"></div>
                     </div>
-                    <p>Chinese 🇨🇳 Finnish 🇫🇮</p>
-                    <div class="skill-bar faded">
+                    <p class="reveal">Chinese 🇨🇳 Finnish 🇫🇮</p>
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="10"></div>
                     </div>
                 </div>
-                <div class="grid-item">
-                    <p>HTML <svg class="languages" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <div class="grid-item reveal">
+                    <p class="reveal">HTML5 <svg class="languages" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
                             <title>HTML5 Logo Badge</title>
                             <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512" />
                             <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37" />
@@ -99,10 +100,10 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                             <path fill="#FFF"
                                 d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z" />
                         </svg></p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="70"></div>
                     </div>
-                    <p>CSS <svg xmlns="http://www.w3.org/2000/svg" class="languages"
+                    <p class="reveal">CSS3 <svg xmlns="http://www.w3.org/2000/svg" class="languages"
                             viewBox="0 0 512 512">
                             <path fill="#264de4"
                                 d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z" />
@@ -112,14 +113,14 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                             <path fill="#fff"
                                 d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z" />
                         </svg></p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="60"></div>
                     </div>
-                    <p>PHP <img class="languages" src="/img/svg/php.svg"></p>
-                    <div class="skill-bar faded">
+                    <p class="reveal">PHP <img class="languages" src="/img/svg/php.svg"></p>
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="30"></div>
                     </div>
-                    <p>JavaScript <svg class="languages" data-name="Layer 1"
+                    <p class="reveal">JavaScript <svg class="languages" data-name="Layer 1"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 78.56 88.92">
                             <path d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z"
@@ -133,10 +134,10 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                                 style="fill: #ebebeb;" />
                         </svg>
                     </p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="20"></div>
                     </div>
-                    <p>C <svg class="languages" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <p class="reveal">C <svg class="languages" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                             viewBox="0 0 48 48">
                             <g>
                                 <path style=" fill-rule:evenodd;fill:#283593;"
@@ -174,14 +175,22 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                                 d="M56.25,111.11c28.35,0,26.58-12.3,26.58-12.3l-.03-12.74h-27.06v-3.82h37.8s18.14,2.06,18.14-26.55-15.84-27.59-15.84-27.59h-9.45v13.28s.51,15.84-15.58,15.84h-26.84s-15.08-.24-15.08,14.57v24.5s-2.28,14.82,27.34,14.82Zm14.92-8.57c-2.69,0-4.86-2.18-4.86-4.87,0-2.69,2.18-4.86,4.87-4.86s4.86,2.18,4.86,4.87c0,1.29-.51,2.52-1.42,3.44-.91,.91-2.15,1.43-3.44,1.43Z"
                                 style="fill: url(#linear-gradient-2);" />
                         </svg></p>
-                    <div class="skill-bar faded">
+                    <div class="skill-bar faded reveal">
                         <div class="skill-bar" data-progress="10"></div>
                     </div>
                 </div>
             </section>
+            <hr>
+            <section>
+                <h2 class="reveal">Contact</h2>
+                <br><br>
+                <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85 reveal"></div>
+            </section>
         </article>
         <hr>
     </main>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="/js/about.js" defer></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

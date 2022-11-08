@@ -200,6 +200,17 @@ article.wrapper-narrow {
   flex-direction: column;
   align-items: center;
 }
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
 /* intro section standard start*/
 .intro-section-standard {
   width: 100%;
@@ -399,7 +410,7 @@ footer {
   text-shadow: var(--objects-shadow);
 }
 footer .footer-ps p {
-  font-size: var(--fontsize-p);
+  font-size: calc(var(--fontsize-p) * 0.8);
   font-weight: var(--paragraph-weight);
   text-shadow: none;
 }
@@ -1007,6 +1018,12 @@ footer .footer-ps span:nth-child(2) {
   #cybersecurity .btn-area input {
     height: 40px;
   }
+  #cybersecurity .btn-area input,
+  #cybersecurity .btn-area #btn,
+  #cybersecurity .btn-area #btn:after,
+  #cybersecurity .btn-shadow {
+    width: 80%;
+  }
   .btn-area #btn,
   .btn-area #btn:after,
   .btn-shadow {
@@ -1015,7 +1032,7 @@ footer .footer-ps span:nth-child(2) {
   }
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder {
-    font-size: var(--fontsize-h5);
+    font-size: var(--fontsize-h6);
   }
   #success h1,
   #error h1 {

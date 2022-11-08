@@ -31,7 +31,24 @@ function closeMenu() {
   hideBar.classList.remove('hide')
   noscroll.classList.remove('noscroll')
 }
+// REVERAL CONTENT
+window.addEventListener('scroll', reveal)
 
+function reveal() {
+  var reveals = document.querySelectorAll('.reveal')
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowheight = window.innerHeight
+    var revealtop = reveals[i].getBoundingClientRect().top
+    var revealpoint = 20
+
+    if (revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add('active')
+    } else {
+      reveals[i].classList.remove('active')
+    }
+  }
+}
 // TIMER
 ;(function () {
   const second = 1000,
@@ -78,34 +95,3 @@ function closeMenu() {
       //seconds
     }, 0)
 })()
-
-// ABOUT SKILL BAR
-const skillSection = document.getElementById('skills-section')
-
-const skillBars = document.querySelectorAll('.skill-bar')
-
-function showProgress() {
-  skillBars.forEach((skillBars) => {
-    const value = skillBars.dataset.progress
-    skillBars.style.opacity = 1
-    skillBars.style.width = `${value}%`
-  })
-}
-/*
-function hideProgress() {
-  skillBars.forEach((p) => {
-    p.style.opacity = 0;
-    p.style.width = 0;
-  });
-}
-*/
-window.addEventListener('scroll', () => {
-  const sectionPos = skillSection.getBoundingClientRect().top
-  const screenPos = window.innerHeight / 2
-
-  if (sectionPos > screenPos) {
-    showProgress()
-  } else {
-    console.log('Idk')
-  }
-})
