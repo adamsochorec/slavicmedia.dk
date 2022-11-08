@@ -15,6 +15,9 @@
               <li class="nav-item">
                   <a aria-describedby="about" class="navbar-style" href="/about">about</a>
               </li>
+              <li class="nav-item">
+                  <a aria-describedby="about" class="navbar-style" href="/contact">contact</a>
+              </li>
           </ul><!-- NAVIGATION BAR LINKS START -->
           <div class="hamburger">
               <!-- RESPONSIVE HAMBURGER MENU START -->

@@ -24,10 +24,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'banner.php';
         ?>
-        <!-- Contact form -->
-        <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85"></div>
-        <!-- Whatssapp form -->
-        <div class="elfsight-app-bd2f2fd4-215c-47f6-aabb-cb55a4191443"></div>
     </aside>
     <main>
         <article class="wrapper-standard">
@@ -186,9 +182,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
         </article>
         <hr>
     </main>
-    <!-- ELFSIGHT + LOCAL SCRIPT START -->
-    <script src="https://apps.elfsight.com/p/platform.s" defer></script>
-    <!-- ELFSIGHT + LOCAL SCRIPT END -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

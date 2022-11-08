@@ -64,15 +64,19 @@ You can take a look on my on large scale prints framed in historical frames seri
                 <section class="expo grid-item">
                     <div class="panel">
                         <h3>Where</h3>
-                        <p>Knud's Garage</p>
-                        <p>Munkegade 5A<br>Kolding<br>6000<br>Denmark 🇩🇰<br class="hide2"><br class="hide2"></p>
+                        <p>
+                            <b>Knud's Garage</b><br>Munkegade 5A<br>Kolding 6000<br>Denmark 🇩🇰
+                        </p>
 
                     </div>
                 </section>
                 <section class="expo grid-item">
                     <div class="panel">
                         <h3>When</h3>
-                        <p>Janurary - February 2023<br>Mon - Sat<br>12.00-02.00<br>Sun:<br>14.00-22.00</p>
+                        <p>
+                            <b>Jan - Feb 2023</b><br><br>Mon -
+                            Sat&ensp;&emsp;12.00-02.00<br>Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
+                        </p>
                     </div>
                 </section>
                 <br><br>
