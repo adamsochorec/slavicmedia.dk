@@ -43,7 +43,7 @@
         <article id="scrolllink" class="wrapper-standard">
             <div class="pathname-container"><i><span class="pathname"><a
                             href="/works">adamsochorec</a></span><span
-                        class="pathname-current"> / Web-Projects / Cybersecurity</span></i></div><br>
+                        class="pathname-current"> / Cybersecurity</span></i></div><br>
             <h1>Cybersecurity hygiene</h1>
             <br>
             <h2>Essential steps leading to your secure and healthy online presence.</h2>
