@@ -2,7 +2,8 @@
       <nav class="nav-bar">
           <!-- NAVIGATION BAR START -->
           <a aria-describedby="works" href="/works">
-              <span>adam sochorec</span>
+              <span>adam</span>
+              <span>sochorec</span>
           </a>
           <ul class="nav-menu">
               <!-- NAVIGATION BAR LINKS START -->
