@@ -1,6 +1,5 @@
 // ABOUT SKILL BAR
 const skillSection = document.getElementById('skills-section')
-
 const skillBars = document.querySelectorAll('.skill-bar')
 
 function showProgress() {
@@ -10,14 +9,6 @@ function showProgress() {
     skillBars.style.width = `${value}%`
   })
 }
-/*
-function hideProgress() {
-  skillBars.forEach((p) => {
-    p.style.opacity = 0;
-    p.style.width = 0;
-  });
-}
-*/
 window.addEventListener('scroll', () => {
   const sectionPos = skillSection.getBoundingClientRect().top
   const screenPos = window.innerHeight / 2

@@ -141,10 +141,14 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://adamsochorec.com/contact</loc>
+    <loc>https://adamsochorec.com/cybersecurity</loc>
     <lastmod>2022-11-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/simswap.png</image:loc>
+        <image:title>Diagram describing how SIM swap works: 1. Attackers collects data on victim (trough social media, phising, etc.) 2. Thief calls phone service provider, impersonates victim 3. Thief tricks carrier into switiching victim's mobile number to SIM card on thie's phone 4. Now, thief gets incoming calls and texts meant for the victim - including account access codes.</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/about</loc>
@@ -162,16 +166,6 @@
       <image:image>
         <image:loc>https://adamsochorec.com/img/svg/php.svg</image:loc>
         <image:title></image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/cybersecurity</loc>
-    <lastmod>2022-11-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/simswap.png</image:loc>
-        <image:title>Diagram describing how SIM swap works: 1. Attackers collects data on victim (trough social media, phising, etc.) 2. Thief calls phone service provider, impersonates victim 3. Thief tricks carrier into switiching victim's mobile number to SIM card on thie's phone 4. Now, thief gets incoming calls and texts meant for the victim - including account access codes.</image:title>
       </image:image>
   </url>
   <url>

@@ -1,11 +1,9 @@
 // HAMBURGER MENU
-const hamburger = document.querySelector('.hamburger')
-const navMenu = document.querySelector('.nav-menu')
+const hamburger = document.querySelector('.hamburger'),
+  navMenu = document.querySelector('.nav-menu'),
+  blurFooter = document.querySelector('footer'),
+  blurAside = document.querySelector('aside')
 let blurMain = document.querySelector('main')
-const blurFooter = document.querySelector('footer')
-const blurAside = document.querySelector('aside')
-const hideBar = document.querySelector('.progress-bar')
-const noscroll = document.querySelector('body')
 
 hamburger.addEventListener('click', mobileMenu)
 
@@ -15,8 +13,6 @@ function mobileMenu() {
   blurMain.classList.toggle('blur')
   blurFooter.classList.toggle('blur')
   blurAside.classList.toggle('blur')
-  hideBar.classList.toggle('hide')
-  noscroll.classList.toggle('noscroll')
 }
 const navLink = document.querySelectorAll('.nav-link')
 
@@ -28,8 +24,6 @@ function closeMenu() {
   blurMain.classList.remove('blur')
   blurFooter.classList.remove('blur')
   blurAside.classList.remove('blur')
-  hideBar.classList.remove('hide')
-  noscroll.classList.remove('noscroll')
 }
 // REVERAL CONTENT
 window.addEventListener('scroll', reveal)
