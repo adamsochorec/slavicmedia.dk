@@ -64,7 +64,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <hr>
             <h2 class="reveal">Language competences</h2>
             <br><br>
-            <section id="skills-section" class="grid-container">
+            <section id="skills-section" class="grid-container skills-section">
                 <div class="grid-item">
                     <p class="reveal">Czech 🇨🇿</p>
                     <div class="skill-bar faded reveal">
@@ -181,11 +181,53 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                 </div>
             </section>
             <hr>
-            <section>
-                <h2 class="reveal">Contact</h2>
-                <br><br>
-                <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85 reveal"></div>
+            <h2 class="reveal">Contact</h2>
+            <br><br>
+            <section class="grid-container contact-form">
+                <form class="grid-item">
+                    <label for="firstName">
+                        <p>First Name *</p>
+                    </label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Franz" required="true" /><br><br>
+                </form>
+                <form class="grid-item">
+                    <label for="lastName">
+                        <p>Last Name *</p>
+                    </label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Kafka" required="true" /><br><br>
+                </form>
+                <form class="grid-item">
+                    <label for="email">
+                        <p>Email *</p>
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="example@domain.dk"
+                        required="true" /> <br><br>
+
+                </form>
+                <form class="grid-item">
+                    <label for="phone">
+                        <p>Phone</p>
+                    </label>
+                    <input type="" id="phone" name="phone" placeholder="+45 55 55 55 55" required="" />
+                </form>
             </section>
+            <br>
+            <form>
+                <label for="message">
+                    <p>Message *</p><br>
+                </label>
+                <textarea name="message" rows="10" cols="50" placeholder="Your questions or comments"></textarea>
+            </form>
+            <label for="attachments">Aattachments</label><br>
+            <p>Allowed file types: jpg, jpeg, png, gif, txt, pdf, doc, docx, xls, xlsx, odt, ppt, pptx, pps, ppsx,
+                html,
+                and less than 25MB.</p>
+            <br>
+            <button class="submit" type="submit">Send</button>
+            <br><br><br>
+
+            <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85 reveal"></div>
+
         </article>
         <hr>
     </main>
