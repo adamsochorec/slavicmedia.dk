@@ -183,51 +183,70 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <hr>
             <h2 class="reveal">Contact</h2>
             <br><br>
-            <section class="grid-container contact-form">
-                <form class="grid-item">
-                    <label for="firstName">
-                        <p>First Name *</p>
-                    </label>
-                    <input type="text" id="firstName" name="firstName" placeholder="Franz" required="true" /><br><br>
-                </form>
-                <form class="grid-item">
-                    <label for="lastName">
-                        <p>Last Name *</p>
-                    </label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Kafka" required="true" /><br><br>
-                </form>
-                <form class="grid-item">
-                    <label for="email">
-                        <p>Email *</p>
-                    </label>
-                    <input type="email" id="email" name="email" placeholder="example@domain.dk"
-                        required="true" /> <br><br>
+            <section class="reveal">
+                <section class="grid-container contact-form">
+                    <form class="grid-item">
+                        <label for="firstName">
+                            <p>First Name</p>
+                        </label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Franz" /><br><br>
+                    </form>
+                    <form class="grid-item">
+                        <label for="lastName">
+                            <p>Last Name</p>
+                        </label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Kafka" /><br><br>
+                    </form>
+                    <form class="grid-item">
+                        <label for="email">
+                            <p>Email *</p>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="example@domain.dk"
+                            required /><br><br>
 
-                </form>
-                <form class="grid-item">
-                    <label for="phone">
-                        <p>Phone</p>
+                    </form>
+                    <form class="grid-item">
+                        <label for="phone">
+                            <p>Phone</p>
+                        </label>
+                        <input type="text" id="phone" name="phone" placeholder="+45 55 55 55 55" />
+                    </form>
+                </section>
+                <br>
+                <form>
+                    <label for="message">
+                        <p>Message *</p><br>
                     </label>
-                    <input type="" id="phone" name="phone" placeholder="+45 55 55 55 55" required="" />
-                </form>
-            </section>
-            <br>
-            <form>
-                <label for="message">
-                    <p>Message *</p><br>
+                    <textarea name="message" rows="10" required placeholder="Your questions or comments"></textarea>
+                </form><br>
+                <label for="attachments">
+                    <p>Aattachments</p>
                 </label>
-                <textarea name="message" rows="10" cols="50" placeholder="Your questions or comments"></textarea>
-            </form>
-            <label for="attachments">Aattachments</label><br>
-            <p>Allowed file types: jpg, jpeg, png, gif, txt, pdf, doc, docx, xls, xlsx, odt, ppt, pptx, pps, ppsx,
-                html,
-                and less than 25MB.</p>
-            <br>
-            <button class="submit" type="submit">Send</button>
-            <br><br><br>
-
+                <p class="allowed-attachments">Allowed file types: jpg, jpeg, png, gif, heic, tif, dmg, txt, pdf, pages,
+                    doc, docx, numbers, xls, xlsx, odt, keynote, ppt, pptx, pps, ppsx,
+                    html,
+                    and less than 25MB.</p>
+                <div class="image-upload">
+                    <input title type="file" name="Attachments" multiple aria-required="false" id="logo"
+                        onchange="fileValue(this)">
+                    <label for="logo" class="upload-field" id="file-label">
+                        <div class="file-thumbnail">
+                            <p id="filename">
+                                <span class="fake-link">Chose file</span> or drop here
+                            </p>
+                        </div>
+                    </label>
+                </div>
+                <br>
+                <div class="btn-area flex-center">
+                    <button type="submit">
+                        <div aria-describedby="about" id="btn">Submit contact form</div>
+                        <div class="btn-shadow"></div>
+                    </button>
+                </div>
+                <br><br><br>
+            </section>
             <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85 reveal"></div>
-
         </article>
         <hr>
     </main>

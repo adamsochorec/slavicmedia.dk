@@ -31,7 +31,7 @@
     <!-- SCROLL STATUS END -->
     <main>
         <article>
-            <section class="intro-section">
+            <section class="intro-section flex-center">
                 <section class="intro-sticky-subsection">
                     <h1>Works</h1>
                     <h2>Photo | 3D | Web design</h2><br>
@@ -39,8 +39,14 @@
                     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
                     include $IPATH . 'global-social-icons.php';
                     ?>
+                    <a href="#sdn91DWNCSK">
+                        <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
+                            background="transparent" loop speed="1"
+                            autoplay></lottie-player>
+                    </a>
                 </section>
             </section>
+            <br id="sdn91DWNCSK">
             <section class="grid-container reveal">
                 <div class="h-stretch">
                     <picture>
