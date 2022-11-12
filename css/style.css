@@ -534,7 +534,7 @@ footer .footer-ps span:nth-child(2) {
   background-color: var(--black-color);
 }
 #about main {
-  background-image: url(/img/gif/about.gi);
+  background-image: url(/img/gif/about.gif);
   background-position: center;
   background-size: cover;
 }
@@ -586,13 +586,6 @@ footer .footer-ps span:nth-child(2) {
   }
 }
 /* language competences end */
-#contact-form main {
-  background-color: var(--black-color);
-}
-.grid {
-  display: grid;
-  grid-template-rows: 50% 50%;
-}
 /* contact form start */
 #about .contact-form.grid-container {
   justify-content: space between;
@@ -607,8 +600,7 @@ footer .footer-ps span:nth-child(2) {
 }
 #about .contact-form input,
 #about textarea,
-#about .attachments,
-#about .submit {
+#about .attachments {
   padding: 0.8rem;
   width: 100%;
   border: none;
@@ -617,12 +609,13 @@ footer .footer-ps span:nth-child(2) {
 #about .contact-form input,
 #about textarea,
 #about .attachments,
-#about .submit,
 #about ::placeholder,
 #about .allowed-attachments {
   line-height: 20px;
   font-family: var(--content-font);
   color: var(--text-color);
+  font-size: calc(var(--fontsize-p) * 0.9);
+  font-weight: var(--paragraph-weight);
 }
 #about ::placeholder,
 #about .allowed-attachments {
@@ -633,12 +626,11 @@ footer .footer-ps span:nth-child(2) {
   border: none;
   background: var(--lightGray-color);
 }
-#about .submit {
-  background-color: var(--primary-color);
-}
-
-#about .image-upload input {
+#about .file-upload input {
   opacity: 0;
+}
+#about label p {
+  font-weight: var(--heading-weight);
 }
 #about .allowed-attachments,
 #about .upload-field p {
@@ -656,7 +648,6 @@ footer .footer-ps span:nth-child(2) {
   background-color: var(--lightGray-color);
   transition: var(--transition-1);
 }
-
 .btn-area button {
   background-color: transparent;
   border: none;

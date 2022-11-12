@@ -39,14 +39,9 @@
                     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
                     include $IPATH . 'global-social-icons.php';
                     ?>
-                    <a href="#sdn91DWNCSK">
-                        <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
-                            background="transparent" loop speed="1"
-                            autoplay></lottie-player>
-                    </a>
                 </section>
             </section>
-            <br id="sdn91DWNCSK">
+            <br>
             <section class="grid-container reveal">
                 <div class="h-stretch">
                     <picture>

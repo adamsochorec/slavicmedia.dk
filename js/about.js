@@ -22,8 +22,8 @@ window.addEventListener('scroll', () => {
 
 // UPLOAD FORM
 function fileValue(value) {
-  var path = value.value
-  var extenstion = path.split('.').pop()
+  const path = value.value,
+    extenstion = path.split('.').pop()
   if (
     extenstion == 'jpg' ||
     extenstion == 'svg' ||
@@ -36,21 +36,16 @@ function fileValue(value) {
     extenstion == 'docx' ||
     extenstion == 'xls' ||
     extenstion == 'xlsx' ||
-    extenstion == 'odt' ||
     extenstion == 'ppt' ||
     extenstion == 'pptx' ||
     extenstion == 'pps' ||
     extenstion == 'heic' ||
-    extenstion == 'tif' ||
-    extenstion == 'dmg' ||
+    extenstion == 'tiff' ||
     extenstion == 'pages' ||
     extenstion == 'numbers' ||
     extenstion == 'keynone'
   ) {
-    document.getElementById('image-preview').src = window.URL.createObjectURL(
-      value.files[0],
-    )
-    var filename = path
+    const filename = path
       .replace(/^.*[\\\/]/, '')
       .split('.')
       .slice(0, -1)

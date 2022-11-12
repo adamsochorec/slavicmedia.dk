@@ -25,7 +25,7 @@
                 <h1>Form submitted<br>successfully!</h1>
             </section>
             <br>
-            <h2><a aria-describedby="/contact" href="/contact">Return to Contact page <svg
+            <h2><a aria-describedby="/contact" href="/contact">Return to About page <svg
                         id="chevron-right"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 384 512">
