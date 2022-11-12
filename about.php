@@ -183,11 +183,16 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <hr>
             <h2 class="reveal">Contact</h2>
             <br><br>
-            <form action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f" method="POST" class="reveal"
+            <form action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f" method="POST"
                 enctype="multipart/form-data">
                 <!-- Email invisibilty -->
-                <section class="grid-container contact-form">
+                <section class="grid-container contact-form reveal">
                     <section class="grid-item">
+                        <label for="email">
+                            <p>Email *</p>
+                        </label>
+                        <input type="email" id="email" name="Email" placeholder="example@domain.dk"
+                            required /><br><br>
                         <label for="subject">
                             <p>Subject *</p>
                         </label>
@@ -195,73 +200,36 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                             placeholder="Hi"><br><br>
                     </section>
                     <section class="grid-item">
-                        <label for="Name">
-                            <p>Name</p>
+                        <label for="firstName">
+                            <p>First Name</p>
                         </label>
-                        <input type="text" id="Name" name="Name" placeholder="Franz" /><br><br>
-                    </section>
-                    <section class="grid-item">
-                        <label for="email">
-                            <p>Email *</p>
+                        <input type="text" id="firstName" name="First Name" placeholder="Franz" /><br><br>
+                        <label for="surname">
+                            <p>Surname</p>
                         </label>
-                        <input type="email" id="email" name="Email" placeholder="example@domain.dk"
-                            required /><br><br>
-
-                    </section>
-                    <section class="grid-item">
-                        <label for="phone">
-                            <p>Phone</p>
-                        </label>
-                        <input type="text" id="phone" name="Phone" placeholder="+45 55 55 55 55" />
+                        <input type="text" id="surname" name="surname" placeholder="Kafka" /><br><br>
                     </section>
                 </section>
                 <br>
-                <section>
+                <section class="reveal">
                     <label for="message">
                         <p>Message *</p><br>
                     </label>
                     <textarea name="Message" rows="10" required placeholder="Your questions or comments"></textarea>
-                </section><br>
-                <section>
-                    <label for="attachments">
-                        <p>Aattachments</p>
-                    </label>
-                    <p class="allowed-attachments">Allowed file types: jpg, jpeg, png, gif, heic, tiff, txt, pdf,
-                        pages,
-                        doc, docx, numbers, xls, xlsx, keynote, ppt, pptx,
-                        html,
-                        and less than 25MB.</p>
-                    <div class="file-upload">
-                        <input title type="file" name="Attachments" multiple aria-required="false" id="logo"
-                            onchange="fileValue(this)"
-                            accept="image/*, audio/*, video/*,.pdf,.pages,.numbers,.keynote,.doc,.docx,.xls,.xlsx,.ppt,pptx,.html">
-                        <label for="logo" class="upload-field" id="file-label">
-                            <div class="file-thumbnail">
-                                <p id="filename">
-                                    <span class="fake-link">Chose file</span> or drop here
-                                </p>
-                            </div>
-                        </label>
+                    <br><br>
+                    <div class="btn-area flex-center">
+                        <button type="submit">
+                            <div aria-describedby="about" id="btn">Submit contact form</div>
+                            <div class="btn-shadow"></div>
+                        </button>
                     </div>
-                </section>
-                <br>
-                <div class="btn-area flex-center">
-                    <button type="submit">
-                        <div aria-describedby="about" id="btn">Submit contact form</div>
-                        <div class="btn-shadow"></div>
-                    </button>
-                </div>
-                <br><br><br>
-                <input type="hidden" name="_captcha" value="false"><!-- Spam captcha deactivation -->
-                <input type="hidden" name="_autoresponse" value="your custom message"><!-- Instant response -->
-                <input type="hidden" name="_next" value="https://adamsochorec.com/success">
-                <!-- Redirect to the success page -->
+                    <br><br><br>
+                    <input type="hidden" name="_captcha" value="false"><!-- Spam captcha deactivation -->
+                    <input type="hidden" name="_next" value="https://adamsochorec.com/success">
+                    <!-- Redirect to the success page -->
             </form>
-            <div class="elfsight-app-2263270f-65e1-4d0c-89b1-604dc6f12d85 reveal"></div>
         </article>
-        <hr>
     </main>
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script src="/js/about.js" defer></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

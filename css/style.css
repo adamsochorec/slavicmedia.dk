@@ -260,8 +260,8 @@ article.wrapper-narrow {
 .intro-section-standard h2,
 .intro-section-standard a,
 .intro-section-standard h5 {
-  text-align: center;
   color: var(--white-color);
+  text-align: center;
 }
 .intro-section-standard h5 {
   font-size: calc(var(--font-size-h5) * 0.8);
@@ -601,21 +601,21 @@ footer .footer-ps span:nth-child(2) {
 #about .contact-form input,
 #about textarea,
 #about .attachments {
-  padding: 0.8rem;
-  width: 100%;
   border: none;
   border-radius: var(--border-radius-2);
+  padding: 0.8rem;
+  width: 100%;
 }
 #about .contact-form input,
 #about textarea,
 #about .attachments,
 #about ::placeholder,
 #about .allowed-attachments {
-  line-height: 20px;
-  font-family: var(--content-font);
   color: var(--text-color);
+  font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
+  line-height: 20px;
 }
 #about ::placeholder,
 #about .allowed-attachments {
@@ -623,30 +623,12 @@ footer .footer-ps span:nth-child(2) {
 }
 #about .contact-form input,
 #about textarea {
-  border: none;
   background: var(--lightGray-color);
+  border: none;
 }
-#about .file-upload input {
-  opacity: 0;
-}
+
 #about label p {
   font-weight: var(--heading-weight);
-}
-#about .allowed-attachments,
-#about .upload-field p {
-  font-size: calc(var(--fontsize-p) * 0.8);
-}
-#about .upload-field p {
-  cursor: pointer;
-  border: 1px dashed var(--lightGray-color);
-  border-radius: var(--border-radius-2);
-  text-align: center;
-  padding: 2rem;
-  transition: var(--transition-1);
-}
-.upload-field p:hover {
-  background-color: var(--lightGray-color);
-  transition: var(--transition-1);
 }
 .btn-area button {
   background-color: transparent;
