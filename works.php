@@ -14,12 +14,10 @@
 
 <body id="works">
     <!-- HEADER START -->
-    <header>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-nav-bar.php';
-        ?>
-    </header>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-nav-bar.php';
+    ?>
     <!-- HEADER END -->
     <!-- SCROLL STATUS START -->
     <aside>
@@ -32,18 +30,30 @@
     <main>
         <article>
             <section class="intro-section flex-center">
+                <div class="header-support"></div>
+
                 <section class="intro-sticky-subsection">
-                    <h1>Works</h1>
-                    <h2>Photo | 3D | Web design</h2><br>
-                    <?php
-                    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-                    include $IPATH . 'global-social-icons.php';
-                    ?>
+                    <section>
+                        <h1>Works</h1>
+                        <h2>Photo | 3D | Web design</h2><br>
+                        <?php
+                        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+                        include $IPATH . 'global-social-icons.php';
+                        ?>
+                    </section>
+                    <section class="read-more">
+                        <a class="flex-center" href="#scrolllink">
+                            <h5>Scroll to explore</h5>
+                            <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
+                                background="transparent" loop speed="1"
+                                autoplay></lottie-player>
+                        </a>
+                    </section>
                 </section>
             </section>
-            <br>
-            <section class="grid-container reveal">
-                <div class="h-stretch">
+            <br id="scrolllink">
+            <section class="grid-container">
+                <div class="h-stretch reveal">
                     <picture>
                         <img src="/img/jpg/1.jpg" alt="1">
                     </picture>
@@ -241,12 +251,10 @@
         <hr>
     </main>
     <!-- FOOTER START -->
-    <footer>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'global-footer.php';
-        ?>
-    </footer>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-footer.php';
+    ?>
     <!-- FOOTER END -->
 </body>
 

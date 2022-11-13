@@ -1,18 +1,16 @@
 // HAMBURGER MENU
 const hamburger = document.querySelector('.hamburger'),
   navMenu = document.querySelector('.nav-menu'),
-  blurFooter = document.querySelector('footer'),
-  blurAside = document.querySelector('aside')
-let blurMain = document.querySelector('main')
+  blurAll = document.querySelector('.blur'),
+  scrollStop = document.querySelector('body')
 
 hamburger.addEventListener('click', mobileMenu)
 
 function mobileMenu() {
   hamburger.classList.toggle('active')
   navMenu.classList.toggle('active')
-  blurMain.classList.toggle('blur')
-  blurFooter.classList.toggle('blur')
-  blurAside.classList.toggle('blur')
+  blurAll.classList.toggle('active')
+  scrollStop.classList.toggle('active')
 }
 const navLink = document.querySelectorAll('.nav-link')
 
@@ -21,9 +19,8 @@ navLink.forEach((n) => n.addEventListener('click', closeMenu))
 function closeMenu() {
   hamburger.classList.remove('active')
   navMenu.classList.remove('active')
-  blurMain.classList.remove('blur')
-  blurFooter.classList.remove('blur')
-  blurAside.classList.remove('blur')
+  blurAll.classList.remove('active')
+  scrollStop.classList.remove('active')
 }
 // REVERAL CONTENT
 window.addEventListener('scroll', reveal)
@@ -43,6 +40,18 @@ function reveal() {
     }
   }
 }
+// ABOUT SKILL BAR
+const skillBars = document.querySelectorAll('.skill-bar')
+
+function showProgress() {
+  skillBars.forEach((skillBars) => {
+    const value = skillBars.dataset.progress
+    skillBars.style.opacity = 1
+    skillBars.style.width = `${value}%`
+  })
+}
+showProgress()
+
 // TIMER
 ;(function () {
   const second = 1000,

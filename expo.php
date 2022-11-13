@@ -21,7 +21,7 @@ You can take a look on my on large scale prints framed in historical frames seri
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-        <article class="intro-section-standard">
+        <article class="intro-section">
             <section class="intro-subsection">
                 <section class="flex-center" id="countdown">
                     <ul>
@@ -32,16 +32,14 @@ You can take a look on my on large scale prints framed in historical frames seri
                 </section>
                 <br><br>
                 <section class="read-more">
-                    <a href="#scrolllink">
-                        <h5>About the event</h5>
-                        <section class="flex-center">
-                            <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
-                                background="transparent" loop speed="1"
-                                autoplay>
-                            </lottie-player>
+                    <a class="flex-center" href="#scrolllink">
+                        <h5>Scroll to learn more about the event</h5>
+                        <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
+                            background="transparent" loop speed="1"
+                            autoplay>
+                        </lottie-player>
                     </a>
                 </section>
-            </section>
             </section>
         </article>
         <article id="scrolllink" class="wrapper-standard">

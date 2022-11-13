@@ -1,3 +1,5 @@
+https://codepen.io/Jbx7/pen/zYoPBdw?editors=0100
+
 <section>
     <label for="attachments">
         <p>Aattachments</p>
@@ -43,6 +45,24 @@
 .upload-field p:hover {
     background-color: var(--lightGray-color);
     transition: var(--transition-1);
+}
+
+#about .allowed-attachments {
+    opacity: 50%;
+}
+#about .attachments,
+#about .allowed-attachments {
+    color: var(--text-color);
+    font-family: var(--content-font);
+    font-size: calc(var(--fontsize-p) * 0.9);
+    font-weight: var(--paragraph-weight);
+    line-height: 20px;
+}
+#about .attachments {
+  border: none;
+  border-radius: var(--border-radius-2);
+  padding: 0.8rem;
+  width: 100%;
 }
 </style>
 <script>

@@ -18,7 +18,7 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-        <article id="passwordGenerator" class="intro-section-standard">
+        <article id="passwordGenerator" class="intro-section">
             <section class="intro-subsection">
                 <h2>Get an ultimate password</h2>
                 <br>
@@ -29,15 +29,13 @@
                     <div class="btn-shadow"></div>
                 </section>
                 <section class="read-more">
-                    <a href="#scrolllink">
-                        <h5>Learn more about Cybersecurity</h5>
-                        <section class="flex-center">
-                            <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
-                                background="transparent" loop speed="1"
-                                autoplay></lottie-player>
+                    <a class="flex-center" href="#scrolllink">
+                        <h5>Scroll to learn more about Cybersecurity</h5>
+                        <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
+                            background="transparent" loop speed="1"
+                            autoplay></lottie-player>
                     </a>
                 </section>
-            </section>
             </section>
         </article>
         <article id="scrolllink" class="wrapper-standard">
