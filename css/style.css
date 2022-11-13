@@ -611,7 +611,7 @@ footer .footer-ps span:nth-child(2) {
   padding: 0.8rem;
   width: 100%;
 }
-#about .contact-form-section.contact-form input,
+#about .contact-form-section input,
 #about .contact-form-section textarea,
 #about .contact-form-section ::placeholder {
   color: var(--text-color);
