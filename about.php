@@ -203,7 +203,9 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <section class="contact-form-section">
                 <h2 class="reveal">Contact</h2>
                 <br><br>
-                <form action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f" method="POST"
+                <form id="contactForm" onclick="loading()"
+                    action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
+                    method="POST" novalidate
                     enctype="multipart/form-data">
                     <!-- Email invisibilty -->
                     <section class="grid-container contact-form reveal">
@@ -249,10 +251,11 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                         </div>
                         <br><br>
                         <div class="btn-area flex-center">
-                            <button type="submit">
-                                <div aria-describedby="about" id="btn">Submit contact form</div>
-                                <div class="btn-shadow"></div>
+                            <button id="btn" class="submit-btn" type="submit">
+                                Sumbit contact form
                             </button>
+                            <div class="btn-shadow"></div>
+
                         </div>
                         <br><br><br>
                         <input type="hidden" name="_captcha" value="false"><!-- Spam captcha deactivation -->

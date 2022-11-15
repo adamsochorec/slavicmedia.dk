@@ -22,6 +22,7 @@ function closeMenu() {
   blurAll.classList.remove('active')
   scrollStop.classList.remove('active')
 }
+
 // REVERAL CONTENT
 window.addEventListener('scroll', reveal)
 
@@ -40,20 +41,39 @@ function reveal() {
     }
   }
 }
-// ABOUT SKILL BAR
-const skillBars = document.querySelectorAll('.skill-bar')
 
-function showProgress() {
-  skillBars.forEach((skillBars) => {
-    const value = skillBars.dataset.progress
-    skillBars.style.opacity = 1
-    skillBars.style.width = `${value}%`
-  })
+// RANDOM PASSWORD GENERATOR
+function getPassword() {
+  let chars =
+    '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ......-----'
+  const passwordLength = 19
+  let password = ''
+
+  for (let i = 0; i < passwordLength; i++) {
+    let randomNumber = Math.floor(Math.random() * chars.length)
+    password += chars.substring(randomNumber, randomNumber + 1)
+  }
+  document.getElementById('password').value = password
 }
-showProgress()
+let btn = document.getElementById('btn')
+btn.addEventListener('click', getPassword, textChange)
+// SUPER BUTTON
+const superBtn = document.getElementById('btn')
+const password = document.getElementById('password')
+
+superBtn.addEventListener('click', textChange)
+
+function textChange() {
+  superBtn.classList.toggle('clicked')
+  // 1. Select the text
+  password.select()
+
+  // 2. Copying the text
+  document.execCommand('Copy')
+}
 
 // TIMER
-;(function () {
+;(function countdown() {
   const second = 1000,
     minute = second * 60,
     hour = minute * 60,
@@ -73,7 +93,7 @@ showProgress()
   //end
 
   const countDown = new Date(birthday).getTime(),
-    x = setInterval(function () {
+    x = setInterval(function countdown() {
       const now = new Date().getTime(),
         distance = countDown - now
 
@@ -98,3 +118,32 @@ showProgress()
       //seconds
     }, 0)
 })()
+
+// ABOUT SKILL BAR
+const skillBars = document.querySelectorAll('.skill-bar')
+
+function showProgress() {
+  skillBars.forEach((skillBars) => {
+    const value = skillBars.dataset.progress
+    skillBars.style.opacity = 1
+    skillBars.style.width = `${value}%`
+  })
+}
+showProgress()
+// ABOUT CONTACT FORM LOADER
+const contactForm = document.querySelector('form')
+
+// define the event handler function
+function onFormSubmission(event) {
+  const fields = Array.from(event.target.elements)
+  const allValid = fields.every((field) => field.reportValidity())
+  const submit_btn = document.querySelector('.submit-btn')
+
+  if (!allValid) {
+    event.preventDefault() // stop form submission
+    return
+  }
+  submit_btn.innerHTML = "<div class='loader'></div>"
+}
+// add an event listener that fires on submission
+contactForm.addEventListener('submit', onFormSubmission)

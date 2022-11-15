@@ -298,8 +298,6 @@
                 </section>
         </article>
     </main>
-    <script src="/js/cybersecurity.js" defer></script>
-    <!-- JQUERY + LOCAL SCRIPT END -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
