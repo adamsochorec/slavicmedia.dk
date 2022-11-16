@@ -14,6 +14,9 @@
                 <a aria-describedby="about" class="navbar-style" href="/cybersecurity">cybersecurity</a>
             </li>
             <li class="nav-item">
+                <a aria-describedby="blog" class="navbar-style" href="/blog/blog">blog</a>
+            </li>
+            <li class="nav-item">
                 <a aria-describedby="about" class="navbar-style" href="/about">about</a>
             </li>
         </ul><!-- NAVIGATION BAR LINKS START -->

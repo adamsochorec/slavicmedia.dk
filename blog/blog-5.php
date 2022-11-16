@@ -11,23 +11,23 @@
     ?>
 </head>
 
-<body>
+<body id="blog-5">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <main id="">
+    <main>
         <article class="wrapper-standard">
             <section>
-                <h1></h1>
-                <picture>
-                    <source srcset="/img/avif/.avif" type="image/avif">
-                    <img src="/img/jpg/."
-                        alt="#">
-                </picture>
-                <section>
-                </section>
-                <hr>
+                <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
+                            class="pathname-current"> /
+                        </span><span
+                            class="pathname"><a href="/blog/articles-map.php">Blog</a> / </span><span
+                            class="pathname-current last"></span></i></div><br>
+                <h1></h1><br>
+                <img src="/blog/img/blog-5/jpg/1.jpg">
+            </section>
+            <hr>
         </article>
     </main>
     <?php
