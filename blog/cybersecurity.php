@@ -30,7 +30,7 @@
                 </section>
                 <section class="read-more">
                     <a class="flex-center" href="#scrolllink">
-                        <h5>Scroll to learn more about Cybersecurity</h5>
+                        <h5>Scroll to learn more about cybersecurity</h5>
                         <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                             background="transparent" loop speed="1"
                             autoplay></lottie-player>
@@ -39,9 +39,11 @@
             </section>
         </article>
         <article id="scrolllink" class="wrapper-standard">
-            <div class="pathname-container reveal"><i><span class="pathname"><a
-                            href="/works">adamsochorec</a></span><span
-                        class="pathname-current"> / Cybersecurity</span></i></div><br>
+            <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
+                        class="pathname-current"> /
+                    </span><span
+                        class="pathname"><a href="/bllog">Blog</a> / </span><span
+                        class="pathname-current last">Cybersecurity</span></i></div><br>
             <h1 class="reveal">Cybersecurity hygiene</h1>
             <br>
             <h2 class="reveal">Essential steps leading to your secure and healthy online presence.</h2>

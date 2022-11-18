@@ -22,7 +22,7 @@
                 <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
                             class="pathname-current"> /
                         </span><span
-                            class="pathname"><a href="/blog/articles-map.php">Blog</a> / </span><span
+                            class="pathname"><a href="/bllog">Blog</a> / </span><span
                             class="pathname-current last"></span></i></div><br>
                 <h1></h1><br>
                 <img src="/blog/img/blog-2/jpg/1.jpg">

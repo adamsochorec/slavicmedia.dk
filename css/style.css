@@ -85,6 +85,7 @@ h6 {
 h1,
 .intro-section h2 {
   font-size: var(--fontsize-h1);
+  text-shadow: ;
 }
 h2 {
   font-size: var(--fontsize-h2);
@@ -209,7 +210,8 @@ article.wrapper-narrow {
   width: 100%;
 }
 #cybersecurity .intro-section,
-#expo-in-kolding .intro-section {
+#expo-in-kolding .intro-section,
+#blog .grid-item-7 {
   animation: gradient-background 1s linear infinite alternate;
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
@@ -219,7 +221,9 @@ article.wrapper-narrow {
     rgb(var(--secondary-color))
   );
   background-size: 400% 400%;
+  transition: all 0.5s ease;
 }
+
 @-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -494,6 +498,24 @@ footer .footer-ps span:nth-child(2) {
   margin-right: 0;
 }
 /* social icons end */
+/* reveal animation start
+.reveal2 {
+  position: relative;
+  transform: translateY(150px);
+  animation: recveal2 1s linear alternate;
+}
+@keyframes reveal2 {
+  0% {
+    transform: translateY(0px);
+
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(150px);
+  }
+} 
+reveal animation end */
 
 /* GLOBAL END */
 
@@ -834,12 +856,12 @@ footer .footer-ps span:nth-child(2) {
 /* EXPO END */
 
 /* BLOG START*/
-#articles-map .grid-container {
+#blog .grid-container {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-#articles-map .grid-item {
+#blog .grid-item {
   align-content: center;
   background-position: center;
   background-size: cover;
@@ -847,69 +869,75 @@ footer .footer-ps span:nth-child(2) {
   height: 100%;
   text-align: center;
   aspect-ratio: 5/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
-#articles-map a:hover {
+#blog a:hover {
   text-decoration: none;
 }
-#articles-map h3 {
+#blog h3 {
   z-index: 999;
 }
-#articles-map .grid-item:before {
-  position: relative;
-  top: 40%;
+#blog .grid-item:before {
   color: var(--white-color);
+  font-weight: var(--heading-weight);
 }
-
-#articles-map .grid-item-1:before,
+#blog .grid-item-1:before,
 #blog-1 h1:before,
 #blog-1 .pathname-current.last:before {
   content: 'House Hunting';
 }
-#articles-map .grid-item-1 {
+#blog .grid-item-1 {
   background-image: url(/blog/img/blog-1/jpg/1.jpg);
 }
-#articles-map .grid-item-2:before,
+#blog .grid-item-2:before,
 #blog-2 h1:before,
 #blog-2 .pathname-current.last:before {
   content: 'Vasterbotten';
 }
-#articles-map .grid-item-2 {
+#blog .grid-item-2 {
   background-image: url(/blog/img/blog-2/jpg/1.jpg);
 }
-#articles-map .grid-item-3:before,
+#blog .grid-item-3:before,
 #blog-3 h1:before,
 #blog-3 .pathname-current.last:before {
   content: 'Flensburg - Skagen';
 }
-#articles-map .grid-item-3 {
+#blog .grid-item-3 {
   background-image: url(/blog/img/blog-3/jpg/1.jpg);
 }
-#articles-map .grid-item-4:before,
+#blog .grid-item-4:before,
 #blog-4 h1:before,
 #blog-4 .pathname-current.last:before {
   content: 'Blåvand';
 }
-#articles-map .grid-item-4 {
+#blog .grid-item-4 {
   background-image: url(/blog/img/blog-4/jpg/1.jpg);
 }
-#articles-map .grid-item-5:before,
+#blog .grid-item-5:before,
 #blog-5 h1:before,
 #blog-5 .pathname-current.last:before {
   content: 'Kvarken Archipelago';
 }
-#articles-map .grid-item-5 {
+#blog .grid-item-5 {
   background-image: url(/blog/img/blog-5/jpg/1.jpg);
 }
-#articles-map .grid-item-6:before,
+#blog .grid-item-6:before,
 #blog-6 h1:before,
 #blog-6 .pathname-current.last:before {
   content: 'Lakeland';
 }
-#articles-map .grid-item-6 {
+#blog .grid-item-6 {
   background-image: url(/blog/img/blog-6/jpg/1.jpg);
 }
-#articles-map .grid-item-7 {
-  background-image: url(/blog/img/blog-6/jpg/1.jpg);
+#blog .grid-item-7 {
+  aspect-ratio: 10/2;
+  background-size: 100% 100%;
 }
 /* BLOG END*/
 
@@ -984,7 +1012,7 @@ footer .footer-ps span:nth-child(2) {
     grid-row: span 1;
   }
   .h-stretch,
-  .hh-stretch {
+  #works .hh-stretch {
     grid-column: span 1;
   }
   .hhh-stretch {

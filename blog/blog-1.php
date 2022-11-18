@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="blog-1">
 
 <head>
     <meta name="description" content="">
@@ -11,7 +11,7 @@
     ?>
 </head>
 
-<body id="blog-1">
+<body>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -22,7 +22,7 @@
                 <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
                             class="pathname-current"> /
                         </span><span
-                            class="pathname"><a href="/blog/articles-map.php">Blog</a> / </span><span
+                            class="pathname"><a href="/bllog">Blog</a> / </span><span
                             class="pathname-current last"></span></i></div><br>
                 <h1></h1><br>
                 <img src="/blog/img/blog-1/jpg/1.jpg">

@@ -11,10 +11,7 @@
                 <a aria-describedby="works" class="navbar-style" href="/works">works</a>
             </li>
             <li class="nav-item">
-                <a aria-describedby="about" class="navbar-style" href="/cybersecurity">cybersecurity</a>
-            </li>
-            <li class="nav-item">
-                <a aria-describedby="blog" class="navbar-style" href="/blog/blog">blog</a>
+                <a aria-describedby="blog" class="navbar-style" href="/bllog">blog</a>
             </li>
             <li class="nav-item">
                 <a aria-describedby="about" class="navbar-style" href="/about">about</a>
