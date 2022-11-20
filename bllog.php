@@ -23,8 +23,8 @@
             <h1>Articles</h1><br>
             <section class="grid-container">
                 <a class="hh-stretch" href="/blog/cybersecurity">
-                        <div class="grid-item grid-item-7">
-                            <h3>Cybersecruity</h3>
+                    <div class="grid-item grid-item-7">
+                        <h3>Cybersecruity</h3>
                     </div>
                 </a>
                 <a href="/blog/blog-1">

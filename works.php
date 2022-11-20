@@ -92,6 +92,16 @@
                         <img src="/img/jpg/8.jpg" alt="8">
                     </picture>
                 </div>
+                <div class="h-stretch reveal">
+                    <picture>
+                        <img src="/img/jpg/49.jpg" alt="49">
+                    </picture>
+                </div>
+                <div class="h-stretch reveal">
+                    <picture>
+                        <img src="/img/jpg/48.jpg" alt="48">
+                    </picture>
+                </div>
                 <div class="h-stretch sketchfab-embed-wrapper reveal">
                     <iframe
                         title="Blåvand bunker | vzor 2"
@@ -194,6 +204,16 @@
                 <div class="v-stretch reveal">
                     <picture>
                         <img src="/img/jpg/20.jpg" alt="20">
+                    </picture>
+                </div>
+                <div class="h-stretch reveal">
+                    <picture>
+                        <img src="/img/jpg/46.jpg" alt="46">
+                    </picture>
+                </div>
+                <div class="h-stretch reveal">
+                    <picture>
+                        <img src="/img/jpg/45.jpg" alt="45">
                     </picture>
                 </div>
                 <div class="h-stretch reveal">

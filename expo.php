@@ -50,7 +50,7 @@ You can take a look on my on large scale prints framed in historical frames seri
                 <br>
                 <p class="reveal">
                     I have the great pleasure to invite you to the first official exposition of my works!<br>
-                    The expo is going to be in inner spaces of the <a href="https://knuds-garage.business.site/">
+                    The expo is going to be in inner spaces of the <a href="https://knuds-garage.business.site/" target="_blank" rel="noopener noreferrer">
                         Knud's Garage</a> in Kolding.<br>You can take a look on
                     my on
                     large scale prints framed in historical frames series, on which I was working during the last
@@ -82,7 +82,7 @@ You can take a look on my on large scale prints framed in historical frames seri
                 </section>
                 <div class="btn-area flex-center">
                     <a aria-describedby="about"
-                        href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en">
+                        href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en" target="_blank" rel="noopener noreferrer">
                         <div aria-describedby="about" id="btn">Get the directions</div>
                         <div class="btn-shadow"></div>
                     </a>

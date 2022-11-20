@@ -32,20 +32,20 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                             class="pathname-current"> / About</span></i></div><br>
                 <h1 id="currentYear">About</h1>
                 <br>
-                <p>Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/">Lego
+                <p>Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/" target="_blank" rel="noopener noreferrer">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
-                        href="https://www.iba.dk/fuldtidsuddannelser">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
-                        href="https://www.uwasa.fi/fi">Vaasan Yliopsto</a> in Finland 🇫🇮.​<br>I'm focusing on
+                        href="https://www.iba.dk/fuldtidsuddannelser" target="_blank" rel="noopener noreferrer">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
+                        href="https://www.uwasa.fi/fi" target="_blank" rel="noopener noreferrer">Vaasan Yliopsto</a> in Finland 🇫🇮.​<br>I'm focusing on
                     portrait,
                     fashion, beauty, and experimental themes. Recently I'm also enjoying to
                     work with landscapes, 3D scans and web design.​<br><br>
                 <p>Most of my shots are taken with <a
-                        href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html">Canon
-                        6D</a> and <a href="https://www.apple.com/iphone-13/specs/">iPhone 13 mini</a>. 3D models
+                        href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html" target="_blank" rel="noopener noreferrer">Canon
+                        6D</a> and <a href="https://www.apple.com/iphone-13/specs/" target="_blank" rel="noopener noreferrer">iPhone 13 mini</a>. 3D models
                     are
                     scanned on my iPhone and rendered by awesome <a
-                        href="https://poly.cam/">Polycam</a> software.<br><br>Hereby open to collaborations and
+                        href="https://poly.cam/" target="_blank" rel="noopener noreferrer">Polycam</a> software.<br><br>Hereby open to collaborations and
                     projects!
                 </p>
             </section>
