@@ -27,39 +27,42 @@
                         <h3>Cybersecruity</h3>
                     </div>
                 </a>
-                <a href="/blog/blog-1">
+                <a class="blog-1 blog"href="/blog/blog-1">
                     <div class="grid-item grid-item-1">
-                        <h3></h3>
+                        <img src="/blog/img/blog-1/jpg/1.jpg" alt="#">
                     </div>
+                    <h6></h6>
                 </a>
-                <a href="/blog/blog-2">
+                <a class="blog-2 blog" href="/blog/blog-2">
                     <div class="grid-item grid-item-2">
-                        <h3></h3>
-
+                        <img src="/blog/img/blog-2/jpg/1.jpg" alt="#">
                     </div>
+                    <h6></h6>
                 </a>
-                <a href="/blog/blog-3">
+                <a class="blog-3 blog" href="/blog/blog-3">
                     <div class="grid-item grid-item-3">
-                        <h3></h3>
-
+                        <img src="/blog/img/blog-3/jpg/1.jpg" alt="#">
                     </div>
+                    <h6></h6>
                 </a>
-                <a href="/blog/blog-4">
+                <a class="blog-4 blog" href="/blog/blog-4">
                     <div class="grid-item grid-item-4">
-                        <h3></h3>
+                        <img src="/blog/img/blog-4/jpg/1.jpg" alt="#">
                     </div>
+                    <h6></h6>
                 </a>
-                <a href="/blog/blog-5">
+                <a class="blog-5 blog" href="/blog/blog-5">
                     <div class="grid-item grid-item-5">
-                        <h3></h3>
-
+                        <img src="/blog/img/blog-5/jpg/1.jpg" alt="#">
                     </div>
+                    <h6></h6>
                 </a>
-                <a href="/blog/blog-6">
+                <a class="blog-6 blog" href="/blog/blog-6">
                     <div class="grid-item grid-item-6">
-                        <h3></h3>
+                        <img src="/blog/img/blog-6/jpg/1.jpg" alt="#">
                     </div>
-                </a>
+                    <h6></h6>
+                </a>        
             </section>
         </article>
     </main>

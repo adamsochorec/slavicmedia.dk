@@ -525,12 +525,14 @@ reveal animation end */
   background-size: cover;
 }
 #works h1 {
-  font-size: var(--fontsize-xl-h1);
+  font-size: var(--fontsize-h2);
   margin-bottom: 0;
+  text-align: center;
 }
 #works h2 {
   font-size: calc(var(--fontsize-xl-h1) * 0.26);
   text-align: center;
+  opacity: 0%;
 }
 #works .social-icons {
   text-align: center;
@@ -861,82 +863,75 @@ reveal animation end */
   grid-template-columns: repeat(3, 1fr);
 }
 #blog .grid-item {
-  align-content: center;
-  background-position: center;
-  background-size: cover;
   border-radius: var(--border-radius-2);
-  height: 100%;
-  text-align: center;
-  aspect-ratio: 5/4;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  justify-content: center;
 }
 #blog a:hover {
   text-decoration: none;
 }
-#blog h3 {
-  z-index: 999;
+#blog .grid-item img,
+#blog .blog:hover .grid-item img,
+#blog .grid-item-7:hover h3,
+#blog .grid-item-7:hover,
+#blog .grid-item-7:hover h3,
+#blog .grid-item-7 h3 {
+  transition: var(--transition-2);
 }
-#blog .grid-item:before {
+#blog .grid-item img {
+  aspect-ratio: 5/4;
+  height: 100%;
+}
+#blog .blog:hover .grid-item img {
+  transform: scale(1.2);
+}
+#blog .grid-item-7:hover h3 {
+  transform: skew(5deg, 10deg);
+}
+#blog a h6 {
   color: var(--white-color);
   font-weight: var(--heading-weight);
+  position: relative;
+  bottom: 50%;
+  text-align: center;
 }
-#blog .grid-item-1:before,
+#blog .blog-1 h6:before,
 #blog-1 h1:before,
 #blog-1 .pathname-current.last:before {
   content: 'House Hunting';
 }
-#blog .grid-item-1 {
-  background-image: url(/blog/img/blog-1/jpg/1.jpg);
-}
-#blog .grid-item-2:before,
+#blog .blog-2 h6:before,
 #blog-2 h1:before,
 #blog-2 .pathname-current.last:before {
   content: 'Vasterbotten';
 }
-#blog .grid-item-2 {
-  background-image: url(/blog/img/blog-2/jpg/1.jpg);
-}
-#blog .grid-item-3:before,
+#blog .blog-3 h6:before,
 #blog-3 h1:before,
 #blog-3 .pathname-current.last:before {
   content: 'Flensburg - Skagen';
 }
-#blog .grid-item-3 {
-  background-image: url(/blog/img/blog-3/jpg/1.jpg);
-}
-#blog .grid-item-4:before,
+#blog .blog-4 h6:before,
 #blog-4 h1:before,
 #blog-4 .pathname-current.last:before {
   content: 'Blåvand';
 }
-#blog .grid-item-4 {
-  background-image: url(/blog/img/blog-4/jpg/1.jpg);
-}
-#blog .grid-item-5:before,
+#blog .blog-5 h6:before,
 #blog-5 h1:before,
 #blog-5 .pathname-current.last:before {
   content: 'Kvarken Archipelago';
 }
-#blog .grid-item-5 {
-  background-image: url(/blog/img/blog-5/jpg/1.jpg);
-}
-#blog .grid-item-6:before,
+#blog .blog-6 h6:before,
 #blog-6 h1:before,
 #blog-6 .pathname-current.last:before {
   content: 'Lakeland';
 }
-#blog .grid-item-6 {
-  background-image: url(/blog/img/blog-6/jpg/1.jpg);
-}
 #blog .grid-item-7 {
   aspect-ratio: 10/2;
-  background-size: 100% 100%;
+}
+#blog .grid-item-7:hover {
+  background-size: 200% 200%;
 }
 /* BLOG END*/
 

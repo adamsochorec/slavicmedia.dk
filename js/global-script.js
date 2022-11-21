@@ -145,5 +145,3 @@ function onFormSubmission(event) {
 }
 // add an event listener that fires on submission
 contactForm.addEventListener('submit', onFormSubmission)
-
-// MATRIX

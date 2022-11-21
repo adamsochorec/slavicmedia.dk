@@ -34,12 +34,8 @@
 
                 <section class="intro-sticky-subsection">
                     <section>
-                        <h1>Works</h1>
-                        <h2>Photo | 3D | Web design</h2><br>
-                        <?php
-                        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-                        include $IPATH . 'global-social-icons.php';
-                        ?>
+                        <h1 class="change-text">Photography</h1>
+                        <h2>Photography | 3D | Web design</h2>
                     </section>
                     <section class="read-more">
                         <a class="flex-center" href="#scrolllink">
@@ -269,6 +265,7 @@
         </article>
         <hr>
     </main>
+    <script src="/js/works.js" defer></script>
     <!-- FOOTER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
