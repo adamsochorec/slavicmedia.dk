@@ -86,7 +86,7 @@
                     <p class="reveal">Try out the password strenght calculator bellow, do not share your actual
                         passwords!</p>
                     <br>
-                    <div class="flex-center reveal">
+                    <div class="blur flex-center reveal">
                         <iframe id="passwordCheck" src="https://www.security.org/how-secure-is-my-password/"
                             class="password-calculator"
                             scrolling="no" allowfullscreen>

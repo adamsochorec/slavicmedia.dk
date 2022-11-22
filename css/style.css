@@ -10,7 +10,7 @@
   --secondary-color: 128, 0, 128;
   --background-color: 40, 40, 40;
   --white-color: #fff;
-  --black-color: #000;
+  --black-color: 0, 0, 0;
 
   /* FONTS */
   --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
@@ -311,7 +311,7 @@ header .blur {
   background-color: var(--header-color);
 }
 .header-support {
-  background-color: var(--black-color);
+  background-color: rgb(ar(--black-color));
   z-index: 1;
 }
 .nav-bar {
@@ -580,7 +580,7 @@ reveal animation end */
 
 /* ABOUT START */
 #about body {
-  background-color: var(--black-color);
+  background-color: rgb(var(--black-color));
 }
 #about main {
   background-image: url(/img/gif/about.gif);
@@ -805,18 +805,29 @@ reveal animation end */
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-#blog .grid-item {
-  border-radius: var(--border-radius-2);
-  overflow: hidden;
+#blog .grid-item,
+#blog .grid-container .blur{
   display: flex;
   justify-content: center;
   align-items: center;
-  aspect-ratio: 5/4;
   height: 100%;
+  aspect-ratio: 5/4;
+}
+#blog .grid-item {
+  border-radius: var(--border-radius-2);
+  overflow: hidden;
   position: relative;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#blog .grid-container .blur{
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background-color: rgba(var(--black-color), 0.15);
+}
+#blog .grid-container a{
 }
 #blog a:hover {
   text-decoration: none;
@@ -848,11 +859,10 @@ reveal animation end */
 }
 #blog .grid-item:focus::after,
 #blog .grid-item:hover::after {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 #blog .grid-item-1{
   background-image: url(/blog/img/blog-1/jpg/1.jpg);
-  
 }
 #blog .grid-item-1 span:before,
 #blog-1 h1:before,
@@ -865,7 +875,7 @@ reveal animation end */
 #blog .grid-item-2 span:before,
 #blog-2 h1:before,
 #blog-2 .pathname-current.last:before {
-  content: 'Vasterbotten';
+  content: 'Västerbotten';
 }
 #blog .grid-item-3{
   background-image: url(/blog/img/blog-3/jpg/1.jpg);
@@ -902,19 +912,27 @@ reveal animation end */
 #blog .grid-item-7 span:before, 
 #cybersecurity h1:before,
 #cybersecurity .pathname-current.last:before{
-content:'Cybersecruity hygiene';
+content:'Cybersecurity hygiene';
 }
-#blog .grid-item-7 {
+#blog .grid-item-7, 
+#blog .grid-item-7 .blur {
   aspect-ratio: 10/2;
 }
 #blog .grid-item-7:hover {
   background-size: 200% 200%;
 }
 #blog .grid-item-7 span{
+transform: translate3d(0px, 0px, -250px);
   font-size: var(--fontsize-h3);
 }
+
 #blog .grid-item-7:hover span {
-  transform: skew(5deg, 10deg);
+  transform:
+  perspective(750px)
+  translate3d(0px, 0px, -250px)
+  rotateX(50deg)
+  scale(0.9, 0.9);
+transition: 0.4s ease-in-out transform;
 }
 
 /* cybersecurity start */
@@ -1043,7 +1061,7 @@ content:'Cybersecruity hygiene';
     display: flex;
     flex-direction:column;
   }
-  #blog .grid-item {
+  #blog .grid-item, #blog .grid-container .blur {
     aspect-ratio: 10/2;
   }
   #blog .grid-item span{
