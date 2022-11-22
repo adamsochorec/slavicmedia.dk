@@ -706,63 +706,6 @@ reveal animation end */
 }
 /* ASSETS END */
 
-/* CYBERSECURITY START */
-#cybersecurity .btn-area input {
-  background: 0;
-  background-color: var(--white-color);
-  border: none;
-  border-radius: var(--border-radius-1);
-  box-sizing: border-box;
-  font-size: var(--fontsize-h2);
-  height: 60px;
-  letter-spacing: var(--letter-spacing);
-  margin: 0.3rem 0 0;
-  outline: 0;
-  padding: 0.6rem;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-#cybersecurity #btn:before {
-  content: 'Generate & Copy';
-}
-#cybersecurity #btn.clicked:before {
-  content: 'Copied!';
-}
-#screwdriver-wrench {
-  fill: var(--text-color);
-  height: 23px;
-  vertical-align: middle;
-}
-#cybersecurity .password-calculator {
-  background-color: rgb(var(--primary-color));
-  border: 0;
-  border-radius: var(--border-radius-1);
-  filter: saturate(0);
-  height: 730px;
-  width: 100%;
-}
-#cybersecurity .password-calculator:hover {
-  filter: saturate(100%);
-  -webkit-transition: var(--transition-2);
-}
-#cybersecurity .grid-container {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
-}
-#cybersecurity .tfaCode {
-  text-align: center;
-}
-#cybersecurity .grid-container p {
-  color: rgb(var(--primary-color));
-  display: inline;
-  font-size: 2rem;
-  font-weight: var(--heading-weight);
-}
-/* cybersecurity END */
-
 /* EXPO START */
 #expo-in-kolding h2 {
   margin-bottom: 0;
@@ -866,66 +809,100 @@ reveal animation end */
   border-radius: var(--border-radius-2);
   overflow: hidden;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  aspect-ratio: 5/4;
+  height: 100%;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #blog a:hover {
   text-decoration: none;
 }
-#blog .grid-item img,
-#blog .blog:hover .grid-item img,
-#blog .grid-item-7:hover h3,
-#blog .grid-item-7:hover,
-#blog .grid-item-7:hover h3,
-#blog .grid-item-7 h3 {
-  transition: var(--transition-2);
-}
-#blog .grid-item img {
-  aspect-ratio: 5/4;
-  height: 100%;
-}
-#blog .blog:hover .grid-item img {
-  transform: scale(1.2);
-}
-#blog .grid-item-7:hover h3 {
-  transform: skew(5deg, 10deg);
-}
-#blog a h6 {
+#blog .grid-container span {
   color: var(--white-color);
   font-weight: var(--heading-weight);
+  font-size: var(--fontsize-p);
   position: relative;
-  bottom: 50%;
-  text-align: center;
+  z-index: 1;
 }
-#blog .blog-1 h6:before,
+#blog .grid-item::after, 
+#blog .grid-item-7, 
+#blog .grid-item-7:hover,
+#blog .grid-item-7 span,
+#blog .grid-item-7:hover span{
+  transition: var(--transition-2);
+}
+#blog .grid-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  background-size: cover;
+  transform-origin: center;
+}
+#blog .grid-item:focus::after,
+#blog .grid-item:hover::after {
+  transform: scale(1.05);
+}
+#blog .grid-item-1{
+  background-image: url(/blog/img/blog-1/jpg/1.jpg);
+  
+}
+#blog .grid-item-1 span:before,
 #blog-1 h1:before,
 #blog-1 .pathname-current.last:before {
   content: 'House Hunting';
 }
-#blog .blog-2 h6:before,
+#blog .grid-item-2{
+  background-image: url(/blog/img/blog-2/jpg/1.jpg);
+}
+#blog .grid-item-2 span:before,
 #blog-2 h1:before,
 #blog-2 .pathname-current.last:before {
   content: 'Vasterbotten';
 }
-#blog .blog-3 h6:before,
+#blog .grid-item-3{
+  background-image: url(/blog/img/blog-3/jpg/1.jpg);
+}
+#blog .grid-item-3 span:before,
 #blog-3 h1:before,
 #blog-3 .pathname-current.last:before {
   content: 'Flensburg - Skagen';
 }
-#blog .blog-4 h6:before,
+#blog .grid-item-4{
+  background-image: url(/blog/img/blog-4/jpg/1.jpg);
+}
+#blog .grid-item-4 span:before,
 #blog-4 h1:before,
 #blog-4 .pathname-current.last:before {
   content: 'Blåvand';
 }
-#blog .blog-5 h6:before,
+#blog .grid-item-5{
+  background-image: url(/blog/img/blog-5/jpg/1.jpg);
+}
+#blog .grid-item-5 span:before,
 #blog-5 h1:before,
 #blog-5 .pathname-current.last:before {
   content: 'Kvarken Archipelago';
 }
-#blog .blog-6 h6:before,
+#blog .grid-item-6{
+  background-image: url(/blog/img/blog-6/jpg/1.jpg);
+}
+#blog .grid-item-6 span:before,
 #blog-6 h1:before,
 #blog-6 .pathname-current.last:before {
   content: 'Lakeland';
+}
+#blog .grid-item-7 span:before, 
+#cybersecurity h1:before,
+#cybersecurity .pathname-current.last:before{
+content:'Cybersecruity hygiene';
 }
 #blog .grid-item-7 {
   aspect-ratio: 10/2;
@@ -933,6 +910,69 @@ reveal animation end */
 #blog .grid-item-7:hover {
   background-size: 200% 200%;
 }
+#blog .grid-item-7 span{
+  font-size: var(--fontsize-h3);
+}
+#blog .grid-item-7:hover span {
+  transform: skew(5deg, 10deg);
+}
+
+/* cybersecurity start */
+#cybersecurity .btn-area input {
+  background: 0;
+  background-color: var(--white-color);
+  border: none;
+  border-radius: var(--border-radius-1);
+  box-sizing: border-box;
+  font-size: var(--fontsize-h2);
+  height: 60px;
+  letter-spacing: var(--letter-spacing);
+  margin: 0.3rem 0 0;
+  outline: 0;
+  padding: 0.6rem;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+#cybersecurity #btn:before {
+  content: 'Generate & Copy';
+}
+#cybersecurity #btn.clicked:before {
+  content: 'Copied!';
+}
+#screwdriver-wrench {
+  fill: var(--text-color);
+  height: 23px;
+  vertical-align: middle;
+}
+#cybersecurity .password-calculator {
+  background-color: rgb(var(--primary-color));
+  border: 0;
+  border-radius: var(--border-radius-1);
+  filter: saturate(0);
+  height: 730px;
+  width: 100%;
+}
+#cybersecurity .password-calculator:hover {
+  filter: saturate(100%);
+  -webkit-transition: var(--transition-2);
+}
+#cybersecurity .grid-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+#cybersecurity .tfaCode {
+  text-align: center;
+}
+#cybersecurity .grid-container p {
+  color: rgb(var(--primary-color));
+  display: inline;
+  font-size: 2rem;
+  font-weight: var(--heading-weight);
+}
+/* cybersecurity end */
 /* BLOG END*/
 
 /* MEDIA QUERRIES START */
@@ -998,6 +1038,16 @@ reveal animation end */
   #about .contact-form-section .contact-form .grid-item:nth-child(3),
   #about .contact-form-section .contact-form .grid-item:nth-child(4) {
     margin: 0rem;
+  }
+  #blog .grid-container {
+    display: flex;
+    flex-direction:column;
+  }
+  #blog .grid-item {
+    aspect-ratio: 10/2;
+  }
+  #blog .grid-item span{
+    font-size: var(--fontsize-h5);
   }
 }
 @media (max-width: 560px) {

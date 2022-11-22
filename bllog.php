@@ -24,45 +24,51 @@
             <section class="grid-container">
                 <a class="hh-stretch" href="/blog/cybersecurity">
                     <div class="grid-item grid-item-7">
-                        <h3>Cybersecruity</h3>
+                        <span></span>
                     </div>
                 </a>
-                <a class="blog-1 blog"href="/blog/blog-1">
+               <section>
+                <a href="/blog/blog-1">
                     <div class="grid-item grid-item-1">
-                        <img src="/blog/img/blog-1/jpg/1.jpg" alt="#">
+                    <span></span>                  
                     </div>
-                    <h6></h6>
                 </a>
-                <a class="blog-2 blog" href="/blog/blog-2">
+               </section>
+               <section>
+                <a href="/blog/blog-2">
                     <div class="grid-item grid-item-2">
-                        <img src="/blog/img/blog-2/jpg/1.jpg" alt="#">
+                        <span></span>                  
                     </div>
-                    <h6></h6>
                 </a>
-                <a class="blog-3 blog" href="/blog/blog-3">
-                    <div class="grid-item grid-item-3">
-                        <img src="/blog/img/blog-3/jpg/1.jpg" alt="#">
-                    </div>
-                    <h6></h6>
-                </a>
-                <a class="blog-4 blog" href="/blog/blog-4">
-                    <div class="grid-item grid-item-4">
-                        <img src="/blog/img/blog-4/jpg/1.jpg" alt="#">
-                    </div>
-                    <h6></h6>
-                </a>
-                <a class="blog-5 blog" href="/blog/blog-5">
-                    <div class="grid-item grid-item-5">
-                        <img src="/blog/img/blog-5/jpg/1.jpg" alt="#">
-                    </div>
-                    <h6></h6>
-                </a>
-                <a class="blog-6 blog" href="/blog/blog-6">
-                    <div class="grid-item grid-item-6">
-                        <img src="/blog/img/blog-6/jpg/1.jpg" alt="#">
-                    </div>
-                    <h6></h6>
-                </a>        
+               </section>
+                <section>
+                    <a href="/blog/blog-3">
+                        <div class="grid-item grid-item-3">
+                            <span></span>                  
+                        </div>
+                    </a>
+                </section>
+                <section>
+                    <a href="/blog/blog-4">
+                        <div class="grid-item grid-item-4">
+                            <span></span>                  
+                        </div>
+                    </a>
+                </section>
+                <section>
+                    <a href="/blog/blog-5">
+                        <div class="grid-item grid-item-5">
+                            <span></span>                  
+                        </div>
+                    </a>
+                </section>
+                <section>
+                    <a href="/blog/blog-6">
+                        <div class="grid-item grid-item-6">
+                            <span></span>                  
+                        </div>
+                    </a>
+                </section> 
             </section>
         </article>
     </main>

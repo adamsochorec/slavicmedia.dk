@@ -43,8 +43,8 @@
                         class="pathname-current"> /
                     </span><span
                         class="pathname"><a href="/bllog">Blog</a> / </span><span
-                        class="pathname-current last">Cybersecurity</span></i></div><br>
-            <h1 class="reveal">Cybersecurity hygiene</h1>
+                        class="pathname-current last"></span></i></div><br>
+            <h1 class="reveal"></h1>
             <br>
             <h2 class="reveal">Essential steps leading to your secure and healthy online presence.</h2>
             <hr>

@@ -255,7 +255,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                                 Sumbit contact form
                             </button>
                             <div class="btn-shadow"></div>
-
                         </div>
                         <br><br><br>
                         <input type="hidden" name="_captcha" value="false"><!-- Spam captcha deactivation -->
