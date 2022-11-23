@@ -30,7 +30,7 @@
                 </section>
                 <section class="read-more">
                     <a class="flex-center" href="#scrolllink">
-                        <h5>Scroll to learn more about cybersecurity</h5>
+                        <h5>Learn more about cybersecurity</h5>
                         <lottie-player id="scrollLottie" src="/img/lottie/scroll-down.json"
                             background="transparent" loop speed="1"
                             autoplay></lottie-player>

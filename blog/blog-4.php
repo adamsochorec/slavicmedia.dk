@@ -28,6 +28,24 @@
                 <img src="/blog/img/blog-4/jpg/1.jpg">
             </section>
             <hr>
+            <section>
+                <div class="sketchfab-embed-wrapper">
+                    <iframe
+                        title="Blåvand bunker | vzor 2"
+                        frameborder="0"
+                        allowfullscreen
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        xr-spatial-tracking
+                        execution-while-out-of-viewport
+                        execution-while-not-rendered
+                        web-share
+                        src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1">
+                    </iframe>
+                </div>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Blåvand bunker | vzor 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/37e4150677634273954aa6e69434ec15/embed?autospin=1&dnt=1"> </iframe> </div>
+            </section>
         </article>
     </main>
     <?php
