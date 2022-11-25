@@ -32,7 +32,7 @@
       <article>
         <section class="intro-section flex-center">
           <div class="header-support"></div>
-          <section class="intro-sticky-subsection">
+          <section class="intro-subsection">
             <section>
               <h1>Works</h1>
               <h2>Photo | 3D | Web design</h2>
@@ -55,6 +55,7 @@
               </a>
             </section>
           </section>
+          <div class="blur"></div>
         </section>
         <br id="scrolllink" />
         <section class="grid-container">

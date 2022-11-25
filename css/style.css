@@ -203,9 +203,21 @@ article.wrapper-narrow {
   align-content: center;
   align-items: center;
   display: flex;
-  height: 100vh;
   justify-content: center;
+}
+.intro-subsection {
+  z-index: 1;
+}
+.intro-section,
+.intro-section .blur {
+  height: 100vh;
   width: 100%;
+}
+.intro-section .blur {
+  z-index: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 #cybersecurity .intro-section,
 #blog .grid-item-7 {
@@ -506,7 +518,7 @@ footer .footer-ps span:nth-child(2) {
 
 /* WORKS START */
 #works .intro-section {
-  background-image: url(/img/jpg/25.jpg);
+  background-image: url(/img/jpg/5.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -569,10 +581,8 @@ nav li:last-child a::before,
 #success h2 a span:before {
   content: "About";
 }
-#about body {
-  background-color: rgb(var(--black-color));
-}
-#about main {
+
+#about .intro-section {
   background-image: url(/img/gif/about.gif);
   background-position: center;
   background-size: cover;
@@ -705,17 +715,6 @@ nav li:last-child a::before,
   background-image: url(/img/jpg/expo-in-kolding-2.jpg);
   background-position: center;
   background-size: cover;
-}
-#expo-in-kolding .intro-subsection {
-  z-index: 1;
-}
-#expo-in-kolding .intro-section .blur {
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 0;
 }
 #expo-in-kolding h2 {
   margin-bottom: 0;

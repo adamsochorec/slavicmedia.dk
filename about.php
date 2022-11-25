@@ -26,17 +26,38 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
         ?>
     </aside>
     <main>
+        <article class="intro-section">
+            <section class="intro-subsection">
+              <section class="flex-center">
+              </section>
+              <br /><br />
+              <section class="read-more">
+                <a class="flex-center" href="#scrolllink">
+                  <h5>Learn more about me</h5>
+                  <lottie-player
+                    id="scrollLottie"
+                    src="/img/lottie/scroll-down.json"
+                    background="transparent"
+                    loop
+                    speed="1"
+                    autoplay
+                  >
+                  </lottie-player>
+                </a>
+              </section>
+            </section>
+          </article>
         <article class="wrapper-standard">
             <section>
-                <div class="pathname-container">
+                <div class="pathname-container reveal">
                     <i
                       ><span class="pathname"><a href="/works"></a> / </span>
                       <span class="pathname-current"></span
                     ></i>
                   </div><br>
-                <h1></h1>
+                <h1 class="reveal"></h1>
                 <br>
-                <p>Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/" target="_blank" rel="noopener noreferrer">Lego
+                <p class="reveal">Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/" target="_blank" rel="noopener noreferrer">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.
                     Currently occupied with <a
                         href="https://www.iba.dk/fuldtidsuddannelser" target="_blank" rel="noopener noreferrer">Erhversakademi Kolding</a> in Denmark 🇩🇰 and <a
@@ -44,7 +65,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                     portrait,
                     fashion, beauty, and experimental themes. Recently I'm also enjoying to
                     work with landscapes, 3D scans and web design.​<br><br>
-                <p>Most of my shots are taken with <a
+                <p class="reveal">Most of my shots are taken with <a
                         href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html" target="_blank" rel="noopener noreferrer">Canon
                         6D</a> and <a href="https://www.apple.com/iphone-13/specs/" target="_blank" rel="noopener noreferrer">iPhone 13 mini</a>. 3D models
                     are
