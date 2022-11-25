@@ -19,9 +19,9 @@
       <article class="wrapper-standard">
         <div class="pathname-container">
           <i
-            ><span class="pathname"><a href="/works">adamsochorec</a></span
-            ><span class="pathname-current"> / Blog</span></i
-          >
+            ><span class="pathname"><a href="/works"></a> / </span>
+            <span class="pathname-current blog"></span
+          ></i>
         </div>
         <br />
         <h1>Articles</h1>

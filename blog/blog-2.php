@@ -20,10 +20,9 @@
         <section>
           <div class="pathname-container">
             <i
-              ><span class="pathname"><a href="/works">adamsochorec</a></span
-              ><span class="pathname-current"> / </span
-              ><span class="pathname"><a href="/bllog">Blog</a> / </span
-              ><span class="pathname-current last"></span
+              ><span class="pathname"><a href="/works"></a> / </span>
+              <span class="pathname blog"><a href="/bllog"></a> / </span>
+              <span class="pathname-current blog"></span
             ></i>
           </div>
           <br />

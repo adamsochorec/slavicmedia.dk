@@ -28,9 +28,13 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
     <main>
         <article class="wrapper-standard">
             <section>
-                <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
-                            class="pathname-current"> / About</span></i></div><br>
-                <h1 id="currentYear">About</h1>
+                <div class="pathname-container">
+                    <i
+                      ><span class="pathname"><a href="/works"></a> / </span>
+                      <span class="pathname-current"></span
+                    ></i>
+                  </div><br>
+                <h1></h1>
                 <br>
                 <p>Self-taught photographer, <a href="https://www.flickr.com/photos/141401020@N03/" target="_blank" rel="noopener noreferrer">Lego
                         builder</a> and bush-craft enjoyer, born in Prague, Czechia 🇨🇿.

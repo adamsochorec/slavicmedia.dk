@@ -113,10 +113,6 @@ p,
   font-weight: var(--paragraph-weight);
   line-height: 1.5;
 }
-.pathname-current,
-.pathname {
-  font-size: calc(var(--fontsize-p) * 0.8);
-}
 main ul {
   list-style-type: circle;
 }
@@ -137,6 +133,7 @@ a,
   color: rgb(var(--primary-color));
   font-weight: var(--paragraph-weight);
   text-decoration: none;
+  cursor: pointer;
   -webkit-transition: var(--transition-2);
 }
 a:hover {
@@ -281,6 +278,13 @@ article.wrapper-narrow {
 }
 .pathname a {
   text-decoration: underline;
+}
+.pathname:nth-child(1) a::before {
+  content: "adamsochorec";
+}
+.pathname-current,
+.pathname {
+  font-size: calc(var(--fontsize-p) * 0.8);
 }
 /* pathname end*/
 
@@ -495,28 +499,9 @@ footer .footer-ps span:nth-child(2) {
   margin-right: 0.5rem;
   text-decoration: none;
 }
-.social-icons a:nth-child(4) {
+.social-icons a:nth-child(5) {
   margin-right: 0;
 }
-/* social icons end */
-/* reveal animation start
-.reveal2 {
-  position: relative;
-  transform: translateY(150px);
-  animation: recveal2 1s linear alternate;
-}
-@keyframes reveal2 {
-  0% {
-    transform: translateY(0px);
-
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-    transform: translateY(150px);
-  }
-} 
-reveal animation end */
 
 /* GLOBAL END */
 
@@ -527,13 +512,11 @@ reveal animation end */
   background-size: cover;
 }
 #works h1 {
-  font-size: var(--fontsize-h2);
+  font-size: var(--fontsize-xl-h1);
   margin-bottom: 0;
-  text-align: center;
 }
 #works h2 {
   font-size: calc(var(--fontsize-xl-h1) * 0.26);
-  opacity: 0%;
   text-align: center;
 }
 #works .social-icons {
@@ -581,6 +564,11 @@ reveal animation end */
 /* WORKS END */
 
 /* ABOUT START */
+#about h1:before,
+#about .pathname-current::before,
+nav li:last-child a::before {
+  content: "About";
+}
 #about body {
   background-color: rgb(var(--black-color));
 }
@@ -802,6 +790,11 @@ reveal animation end */
 /* EXPO END */
 
 /* BLOG START*/
+.pathname.blog:nth-child(2) a::before,
+.pathname-current.blog::before,
+nav li:nth-child(2) a::before {
+  content: "Blog";
+}
 #blog .grid-container {
   display: grid;
   grid-gap: 1rem;
@@ -864,7 +857,7 @@ reveal animation end */
 }
 #blog .grid-item-1 span:before,
 #blog-1 h1:before,
-#blog-1 .pathname-current.last:before {
+#blog-1 .pathname-current:before {
   content: "House Hunting";
 }
 #blog .grid-item-2 {
@@ -872,7 +865,7 @@ reveal animation end */
 }
 #blog .grid-item-2 span:before,
 #blog-2 h1:before,
-#blog-2 .pathname-current.last:before {
+#blog-2 .pathname-current:before {
   content: "Västerbotten";
 }
 #blog .grid-item-3 {
@@ -880,7 +873,7 @@ reveal animation end */
 }
 #blog .grid-item-3 span:before,
 #blog-3 h1:before,
-#blog-3 .pathname-current.last:before {
+#blog-3 .pathname-current:before {
   content: "Flensburg - Skagen";
 }
 #blog .grid-item-4 {
@@ -888,7 +881,7 @@ reveal animation end */
 }
 #blog .grid-item-4 span:before,
 #blog-4 h1:before,
-#blog-4 .pathname-current.last:before {
+#blog-4 .pathname-current:before {
   content: "Blåvand";
 }
 #blog .grid-item-5 {
@@ -896,7 +889,7 @@ reveal animation end */
 }
 #blog .grid-item-5 span:before,
 #blog-5 h1:before,
-#blog-5 .pathname-current.last:before {
+#blog-5 .pathname-current:before {
   content: "Kvarken Archipelago";
 }
 #blog .grid-item-6 {
@@ -904,12 +897,12 @@ reveal animation end */
 }
 #blog .grid-item-6 span:before,
 #blog-6 h1:before,
-#blog-6 .pathname-current.last:before {
+#blog-6 .pathname-current:before {
   content: "Lakeland";
 }
 #blog .grid-item-7 span:before,
 #cybersecurity h1:before,
-#cybersecurity .pathname-current.last:before {
+#cybersecurity .pathname-current:before {
   content: "Cybersecurity hygiene";
 }
 #blog .grid-item-7 {

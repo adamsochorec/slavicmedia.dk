@@ -34,8 +34,13 @@
           <div class="header-support"></div>
           <section class="intro-sticky-subsection">
             <section>
-              <h1 class="change-text">Photography</h1>
-              <h2>Photography | 3D | Web design</h2>
+              <h1>Works</h1>
+              <h2>Photo | 3D | Web design</h2>
+              <br />
+              <?php
+         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+         include $IPATH . 'global-social-icons.php';
+         ?>
             </section>
             <section class="read-more">
               <a class="flex-center" href="#scrolllink">
@@ -91,16 +96,6 @@
           <div class="v-stretch reveal">
             <picture>
               <img src="/img/jpg/8.jpg" alt="8" />
-            </picture>
-          </div>
-          <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/49.jpg" alt="49" />
-            </picture>
-          </div>
-          <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/48.jpg" alt="48" />
             </picture>
           </div>
           <div class="h-stretch sketchfab-embed-wrapper reveal">
