@@ -39,11 +39,13 @@
             </section>
         </article>
         <article id="scrolllink" class="wrapper-standard">
-            <div class="pathname-container"><i><span class="pathname"><a href="/works">adamsochorec</a></span><span
-                        class="pathname-current"> /
-                    </span><span
-                        class="pathname"><a href="/bllog">Blog</a> / </span><span
-                        class="pathname-current last"></span></i></div><br>
+            <div class="pathname-container">
+                <i
+                  ><span class="pathname"><a href="/works"></a> / </span>
+                  <span class="pathname blog"><a href="/bllog"></a> / </span>
+                  <span class="pathname-current blog"></span
+                ></i>
+              </div><br>
             <h1 class="reveal"></h1>
             <br>
             <h2 class="reveal">Essential steps leading to your secure and healthy online presence.</h2>
@@ -242,7 +244,7 @@
                     <h3 class="reveal">4. Related literature</h3>
                     <br>
                     <ol class="reveal">
-                        <li><a href="https://www.security.org/how-secure-is-my-password/">Password Strength
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.security.org/how-secure-is-my-password/">Password Strength
                                 Calculator
                                 <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
@@ -250,7 +252,7 @@
                                         d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                                 </svg></a>
                         </li>
-                        <li><a href="https://www.omnicalculator.com/other/password-entropy">Password Entropy
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.omnicalculator.com/other/password-entropy">Password Entropy
                                 Calculator
                                 <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
@@ -259,7 +261,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li><a
+                        <li><a target="_blank" rel="noopener noreferrer"
                                 href="https://open.spotify.com/episode/5Snektk5Z2nUzM7DgoEBSx?si=eKX_d1f1SY6T3j5S3mkLgA">Hacking
                                 backstage <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
@@ -268,7 +270,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li><a href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
                                 about professional social engineer <svg class="hide" id="chevron-right"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
@@ -277,7 +279,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li><a href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
                                 Authenticator <svg class="hide" id="chevron-right"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">
@@ -286,7 +288,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li><a href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
+                        <li><a target="_blank" rel="noopener noreferrer"  href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
                                 control over the internet <svg class="hide" id="chevron-right"
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 384 512">

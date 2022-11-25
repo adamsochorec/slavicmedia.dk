@@ -32,7 +32,7 @@ function reveal() {
   for (var i = 0; i < reveals.length; i++) {
     const windowheight = window.innerHeight;
     const revealtop = reveals[i].getBoundingClientRect().top;
-    const revealpoint = 20;
+    const revealpoint = 0;
 
     if (revealtop < windowheight - revealpoint) {
       reveals[i].classList.add("active");
@@ -51,13 +51,13 @@ function reveal() {
     dd = String(today.getDate()).padStart(2, "0"),
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
-    nextYear = yyyy,
-    dayMonth = "22/011/",
-    birthday = dayMonth + yyyy;
+    nextYear = yyyy + 1,
+    monthDay = "01/07/",
+    birthday = monthDay + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;
   if (today > birthday) {
-    birthday = dayMonth + nextYear;
+    birthday = monthDay + nextYear;
   }
   //end
 

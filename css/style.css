@@ -208,7 +208,6 @@ article.wrapper-narrow {
   width: 100%;
 }
 #cybersecurity .intro-section,
-#expo-in-kolding .intro-section,
 #blog .grid-item-7 {
   animation: gradient-background 1s linear infinite alternate;
   -webkit-animation: gradient 15s ease infinite;
@@ -566,7 +565,8 @@ footer .footer-ps span:nth-child(2) {
 /* ABOUT START */
 #about h1:before,
 #about .pathname-current::before,
-nav li:last-child a::before {
+nav li:last-child a::before,
+#success h2 a span:before {
   content: "About";
 }
 #about body {
@@ -583,9 +583,9 @@ nav li:last-child a::before {
 }
 #about .languages {
   animation: opacity-pulse-70 1s linear infinite alternate;
-  height: 25px;
+  height: 20px;
+  vertical-align: text-top;
   padding-left: 5px;
-  transform: translateY(-2px);
 }
 @keyframes opacity-pulse-70 {
   0% {
@@ -697,6 +697,26 @@ nav li:last-child a::before {
 /* ASSETS END */
 
 /* EXPO START */
+#expo-in-kolding h1:before,
+#expo-in-kolding .pathname-current::before {
+  content: "Expo in Kolding";
+}
+#expo-in-kolding .intro-section {
+  background-image: url(/img/jpg/expo-in-kolding-2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#expo-in-kolding .intro-subsection {
+  z-index: 1;
+}
+#expo-in-kolding .intro-section .blur {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
 #expo-in-kolding h2 {
   margin-bottom: 0;
 }

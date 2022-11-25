@@ -11,7 +11,7 @@ You can take a look on my on large scale prints framed in historical frames seri
       name="keywords"
       content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, exposition, expo, exhibition, knud's garage, kolding, denmark, danmark, syddanmark, kommune, Munkegade, Adam Sochorec, @adamsochorec, Rostislav Sochorec, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová"
     />
-    <title>Expo 2023 | Adam Sochorec</title>
+    <title>Expo in Kolding | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -49,17 +49,18 @@ You can take a look on my on large scale prints framed in historical frames seri
             </a>
           </section>
         </section>
+        <div class="blur"></div>
       </article>
       <article id="scrolllink" class="wrapper-standard">
-        <div class="pathname-container reveal">
+        <div class="pathname-container">
           <i
-            ><span class="pathname"><a href="">adamsochorec</a></span
-            ><span class="pathname-current"> / Expo 2023</span></i
-          >
+            ><span class="pathname"><a href="/works"></a> / </span>
+            <span class="pathname-current"></span
+          ></i>
         </div>
         <br />
         <section>
-          <h1 class="reveal">Works expo in Knud's</h1>
+          <h1 class="reveal"></h1>
           <br />
           <p class="reveal">
             I have the great pleasure to invite you to the first official
