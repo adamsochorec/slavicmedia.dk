@@ -132,10 +132,10 @@ main ul:nth-child(even) {
   padding-top: 0;
 }
 a {
-  text-decoration: none;
-  font-weight: var(--paragraph-weight);
   cursor: pointer;
+  font-weight: var(--paragraph-weight);
   overflow: hidden;
+  text-decoration: none;
 }
 .wrapper-narrow h2 a {
   color: rgb(var(--primary-color));
@@ -147,15 +147,15 @@ p a,
 i a,
 .wrapper-standard li a,
 .fake-link {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
-  text-decoration: none;
   box-shadow: inset 0 -2px 0 rgba(var(--primary-color), 0.5),
     0 2px 0 rgba(var(--primary-color), 0.5);
-  transition: box-shadow 0.5s;
   color: inherit;
+  color: inherit;
+  cursor: pointer;
   overflow: hidden;
+  text-decoration: none;
+  text-decoration: none;
+  transition: box-shadow 0.5s;
 }
 p a:hover,
 i a:hover,
@@ -240,10 +240,10 @@ article.wrapper-narrow {
   width: 100%;
 }
 .intro-section .blur {
-  z-index: 0;
   left: 0;
   position: absolute;
   top: 0;
+  z-index: 0;
 }
 #cybersecurity .intro-section,
 #blog .grid-item-7 {
@@ -468,9 +468,9 @@ span.bar {
 .loader {
   animation: submit-loader 1s ease infinite;
   border: 2px solid rgba(var(--white-color), 0.8);
+  border-bottom-color: rgb(var(--primary-color));
   border-radius: 50%;
   border-top-color: rgb(var(--primary-color));
-  border-bottom-color: rgb(var(--primary-color));
   height: 25px;
   pointer-events: none;
   width: 25px;
@@ -619,8 +619,8 @@ nav li:last-child a::before,
 #about .languages {
   animation: opacity-pulse-70 1s linear infinite alternate;
   height: 20px;
-  vertical-align: text-top;
   padding-left: 5px;
+  vertical-align: text-top;
 }
 @keyframes opacity-pulse-70 {
   0% {

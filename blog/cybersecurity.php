@@ -109,23 +109,23 @@
                         </svg></h4>
                     <br>
                     <ol class="reveal">
-                       <li><p>Set-up a trusted and encrypted password manager:       </p>                     </p>
+                       <li>Set-up a trusted and encrypted password manager:                           </p>
                         </li>
                         <ul>
-                            <li><p><a href="https://www.apple.com/legal/privacy/data/en/icloud-keychain/">iCloud
-                                keychain</a> - Apple users</p></li>
-                            <li><p><a href="https://www.lastpass.com/how-lastpass-works">LastPass</a> and <a
+                            <li><a href="https://www.apple.com/legal/privacy/data/en/icloud-keychain/">iCloud
+                                keychain</a> - Apple users</li>
+                            <li><a href="https://www.lastpass.com/how-lastpass-works">LastPass</a> and <a
                                 href="https://www.keepersecurity.com/en_GB/">Keeper</a> - any kind of
-                            devices</p>
+                            devices
                             </li>
                         </ul>
-                        <li><p>Generate powerful and unique passwords through your password manager or <a
+                        <li>Generate powerful and unique passwords through your password manager or <a
                             href="#passwordGenerator">password
-                            generator</a></p>
+                            generator</a>
                         </li>
-                        <li><p>Store them in your password manager</p></li>
-                        <li><p>Remember master password to your manager or get a <a
-                            href="https://www.tomsguide.com/news/usb-security-key">hardware key</a></p></li>
+                        <li>Store them in your password manager</li>
+                        <li><>Remember master password to your manager or get a <a
+                            href="https://www.tomsguide.com/news/usb-security-key">hardware key</a></li>
                             </ol>
                 </section>
                 <hr>
