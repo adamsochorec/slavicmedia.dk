@@ -33,7 +33,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
               <br /><br />
               <section class="read-more">
                 <a class="flex-center" href="#scrolllink">
-                  <h5>Learn more about me</h5>
                   <lottie-player
                     id="scrollLottie"
                     src="/img/lottie/scroll-down.json"
@@ -297,42 +296,35 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                             <label for="email">
                                 <p>Email *</p>
                             </label>
-                            <div class="blur">
                                 <input type="email" id="email" name="Email" placeholder="example@domain.dk"
                                     required />
-                            </div><br><br>
+                           <br><br>
                             <label for="subject">
                                 <p>Subject *</p>
                             </label>
-                            <div class="blur">
                                 <input type="text" id="subject" name="_subject" required
                                     placeholder="Hi">
-                            </div><br><br>
+                            <br><br>
                         </section>
                         <section class="grid-item">
                             <label for="firstName">
                                 <p>First Name</p>
                             </label>
-                            <div class="blur">
                                 <input type="text" id="firstName" name="First Name" placeholder="Franz" />
-                            </div><br><br>
+                            <br><br>
                             <label for="surname">
                                 <p>Surname</p>
                             </label>
-                            <div class="blur">
                                 <input type="text" id="surname" name="surname" placeholder="Kafka" />
-                            </div><br><br>
+                           <br><br>
                         </section>
                     </section>
-                    <br>
                     <section class="reveal">
                         <label for="message">
                             <p>Message *</p><br>
                         </label>
-                        <div class="blur">
                             <textarea name="Message" rows="7" required
                                 placeholder="Your questions or comments"></textarea>
-                        </div>
                         <br><br>
                         <div class="btn-area flex-center">
                             <button id="btn" class="submit-btn" type="submit">

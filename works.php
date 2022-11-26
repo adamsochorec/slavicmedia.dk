@@ -30,7 +30,7 @@
     <!-- SCROLL STATUS END -->
     <main>
       <article>
-        <section class="intro-section flex-center">
+        <article class="intro-section flex-center">
           <div class="header-support"></div>
           <section class="intro-subsection">
             <section>
@@ -56,7 +56,7 @@
             </section>
           </section>
           <div class="blur"></div>
-        </section>
+        </article>
         <br id="scrolllink" />
         <section class="grid-container">
           <div class="h-stretch reveal">

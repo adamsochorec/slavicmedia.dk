@@ -109,23 +109,24 @@
                         </svg></h4>
                     <br>
                     <ol class="reveal">
-                        <li>Set-up a trusted and encrypted password manager:</li>
+                       <li><p>Set-up a trusted and encrypted password manager:       </p>                     </p>
+                        </li>
                         <ul>
-                            <li><a href="https://www.apple.com/legal/privacy/data/en/icloud-keychain/">iCloud
-                                    keychain</a> - Apple users</li>
-                            <li><a href="https://www.lastpass.com/how-lastpass-works">LastPass</a> and <a
-                                    href="https://www.keepersecurity.com/en_GB/">Keeper</a> - any kind of
-                                devices
+                            <li><p><a href="https://www.apple.com/legal/privacy/data/en/icloud-keychain/">iCloud
+                                keychain</a> - Apple users</p></li>
+                            <li><p><a href="https://www.lastpass.com/how-lastpass-works">LastPass</a> and <a
+                                href="https://www.keepersecurity.com/en_GB/">Keeper</a> - any kind of
+                            devices</p>
                             </li>
                         </ul>
-                        <li>Generate powerful and unique passwords through your password manager or <a
-                                href="#passwordGenerator">password
-                                generator</a>
+                        <li><p>Generate powerful and unique passwords through your password manager or <a
+                            href="#passwordGenerator">password
+                            generator</a></p>
                         </li>
-                        <li>Store them in your password manager</li>
-                        <li>Remember master password to your manager or get a <a
-                                href="https://www.tomsguide.com/news/usb-security-key">hardware key</a></li>
-                    </ol>
+                        <li><p>Store them in your password manager</p></li>
+                        <li><p>Remember master password to your manager or get a <a
+                            href="https://www.tomsguide.com/news/usb-security-key">hardware key</a></p></li>
+                            </ol>
                 </section>
                 <hr>
                 <section>
@@ -244,59 +245,36 @@
                     <h3 class="reveal">4. Related literature</h3>
                     <br>
                     <ol class="reveal">
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
+                            about professional social engineer 
+                        </a>
+                    </li>
+                    <li><a target="_blank" rel="noopener noreferrer"  href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
+                        control over the internet 
+                    </a>
+                </li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
+                    Authenticator 
+                </a>
+            </li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.security.org/how-secure-is-my-password/">Password Strength
                                 Calculator
-                                <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg></a>
+                               </a>
                         </li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.omnicalculator.com/other/password-entropy">Password Entropy
                                 Calculator
-                                <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
+                                
                             </a>
                         </li>
+                       
                         <li><a target="_blank" rel="noopener noreferrer"
                                 href="https://open.spotify.com/episode/5Snektk5Z2nUzM7DgoEBSx?si=eKX_d1f1SY6T3j5S3mkLgA">Hacking
-                                backstage <svg class="hide" id="chevron-right" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
+                                backstage 
                             </a>
                         </li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/episode/2hJsSOoQkgnlQLEFrdBVFp?si=06ff9cdeb3da4cbc">Story
-                                about professional social engineer <svg class="hide" id="chevron-right"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://authy.com/blog/authy-vs-google-authenticator/">Authy vs. Google
-                                Authenticator <svg class="hide" id="chevron-right"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a target="_blank" rel="noopener noreferrer"  href="https://open.spotify.com/episode/4q0cNkAHQQMBTu4NmeNW7E?si=a4c35c68a1d34724">Google's
-                                control over the internet <svg class="hide" id="chevron-right"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 384 512">
-                                    <path
-                                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-                                </svg>
-                            </a>
-                        </li>
+                        
+                        
+                        
                     </ol>
                     <hr>
                 </section>
