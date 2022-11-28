@@ -15,6 +15,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <main>
       <article class="wrapper-standard">
         <section>
