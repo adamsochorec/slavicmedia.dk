@@ -34,7 +34,7 @@
           <div class="header-support"></div>
           <section class="intro-subsection">
             <section>
-              <h1>Works</h1>
+              <h1></h1>
               <h2>Photo | 3D | Web design</h2>
               <br />
               <?php

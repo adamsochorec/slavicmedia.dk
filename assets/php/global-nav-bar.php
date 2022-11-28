@@ -8,10 +8,18 @@
     <ul class="nav-menu">
       <!-- NAVIGATION BAR LINKS START -->
       <li class="nav-item">
-        <a aria-describedby="works" class="navbar-style" href="/works">works</a>
+        <a
+          aria-describedby="works"
+          class="navbar-style works"
+          href="/works"
+        ></a>
       </li>
       <li class="nav-item">
-        <a aria-describedby="blog" class="navbar-style" href="/bllog"></a>
+        <a
+          aria-describedby="web-projects"
+          class="navbar-style web"
+          href="/web-projects"
+        ></a>
       </li>
       <li class="nav-item">
         <a
