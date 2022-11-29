@@ -93,7 +93,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                     <section class="reveal">
                         <p>Czech 🇨🇿</p>
                         <div class="skill-bar faded">
-                            <div class="skill-bar" data-progress="100"></div>
+                            <div class="skill-bar" data-progress="95"></div>
                         </div>
                     </section>
                     <section class="reveal">

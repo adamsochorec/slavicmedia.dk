@@ -18,7 +18,7 @@
         <a
           aria-describedby="web-projects"
           class="navbar-style web"
-          href="/web-projects"
+          href="/websites"
         ></a>
       </li>
       <li class="nav-item">

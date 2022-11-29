@@ -29,7 +29,7 @@
         <h1>Articles</h1>
         <br />
         <section class="grid-container">
-          <a class="hh-stretch" href="/articles/cybersecurity">
+          <a class="hh-stretch" href="/projects/cybersecurity">
             <div class="grid-item cybersecurity">
               <div class="blur">
                 <span></span>
@@ -37,7 +37,7 @@
             </div>
           </a>
           <section>
-            <a href="/articles/house-HUNTING">
+            <a href="/articles/house-hunting">
               <div class="grid-item grid-item-1">
                 <div class="blur">
                   <span></span>

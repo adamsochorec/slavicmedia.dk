@@ -545,6 +545,7 @@ footer .footer-ps span:nth-child(2) {
 #works h1:before,
 nav li a.works::before {
   content: "Works";
+  cursor: text;
 }
 #works .intro-section {
   background-image: url(/img/jpg/5.jpg);
@@ -573,6 +574,11 @@ nav li a.works::before {
   grid-template-rows: repeat(10, 400px);
   margin: 0 auto;
   padding: 10px;
+}
+#works #chevron-right {
+  fill: var(--text-color);
+  vertical-align: middle;
+  padding-top: 4px;
 }
 .v-stretch {
   /* aspect-ratio: 4/5; */
@@ -609,6 +615,7 @@ nav li a.works::before {
 nav li a.about::before,
 #success h2 a span:before {
   content: "About";
+  cursor: text;
 }
 
 #about .intro-section {
@@ -645,7 +652,7 @@ nav li a.about::before,
   top: -1px;
 }
 #about .skill-bar.faded {
-  background-color: rgb(var(--background-color));
+  background-color: rgb(var(--white-color));
   height: 3px;
   margin-bottom: 1rem;
   width: 100%;
@@ -739,6 +746,7 @@ nav li a.about::before,
 #expo-in-kolding h1:before,
 #expo-in-kolding .pathname-current::before {
   content: "Expo in Kolding";
+  cursor: text;
 }
 #expo-in-kolding .intro-section {
   background-image: url(/img/jpg/expo-in-kolding-2.jpg);
@@ -915,6 +923,7 @@ nav li a.about::before,
 #västerbotten h1:before,
 #västerbotten .pathname-current:before {
   content: "Västerbotten";
+  cursor: text;
 }
 #blog .grid-item-3 {
   background-image: url(/articles/img/flensburg-skagen/jpg/1.jpg);
@@ -923,6 +932,7 @@ nav li a.about::before,
 #flensburg-skagen h1:before,
 #flensburg-skagen .pathname-current:before {
   content: "Flensburg - Skagen";
+  cursor: text;
 }
 #blog .grid-item-4 {
   background-image: url(/articles/img/blåvand/jpg/1.jpg);
@@ -931,6 +941,7 @@ nav li a.about::before,
 #blåvand h1:before,
 #blåvand .pathname-current:before {
   content: "Blåvand";
+  cursor: text;
 }
 #blog .grid-item-5 {
   background-image: url(/articles/img/kvarken-archipelago/jpg/1.jpg);
@@ -939,6 +950,7 @@ nav li a.about::before,
 #kvarken-archipelago h1:before,
 #kvarken-archipelago .pathname-current:before {
   content: "Kvarken Archipelago";
+  cursor: text;
 }
 #blog .grid-item-6 {
   background-image: url(/articles/img/lakeland/jpg/1.jpg);
@@ -947,9 +959,10 @@ nav li a.about::before,
 #lakeland h1:before,
 #lakeland .pathname-current:before {
   content: "Lakeland";
+  cursor: text;
 }
-#blog .cybersecurity,
-#blog .cybersecurity .blur,
+#gallery .cybersecurity,
+#gallery .cybersecurity .blur,
 #web-projects .grid-item,
 #web-projects .grid-item .blur {
   aspect-ratio: 10/2;
@@ -962,13 +975,15 @@ nav li a.about::before,
 .pathname.web:nth-child(2) a::before,
 .pathname-current.web::before,
 nav li a.web::before,
-#web-projects h1:before {
-  content: "Web";
+#web-projects h1:before,
+#works .intro-subsection span::before {
+  content: "Websites";
 }
 .cybersecurity span:before,
 #cybersecurity h1:before,
 #cybersecurity .pathname-current:before {
   content: "Cybersecurity hygiene";
+  cursor: text;
 }
 #gallery .cybersecurity {
   background-size: 400% 400%;
@@ -983,10 +998,15 @@ nav li a.web::before,
   background-image: url(/projects/zebra-design/img/zebraGif.gif);
 }
 #web-projects .grid-item-2 {
-  background-image: url(/projects/memos/img/TOP/_MG_0206.jpg);
+  background-image: url(/projects/memos/img/_MG_0188.jpg);
+}
+#blog .grid-item span:before {
+  cursor: pointer;
 }
 /* WEB PROJECTS END */
-
+title {
+  display: none;
+}
 /* cybersecurity start */
 #cybersecurity .btn-area input {
   background: 0;
@@ -1041,6 +1061,40 @@ nav li a.web::before,
   display: inline;
   font-size: 2rem;
   font-weight: var(--heading-weight);
+}
+.img-fill {
+  background-color: white;
+}
+.st0,
+.st2,
+.st31,
+.st32,
+.st33,
+.st34,
+.st35,
+.st36,
+.st37 {
+  fill: rgb(var(--background-color));
+}
+.st1,
+.st40 {
+  fill: rgb(var(--primary-color));
+}
+.st3,
+.st4 {
+  fill: rgb(var(--secondary-color));
+}
+.st20,
+.st24,
+.st25,
+.st26,
+.st27,
+.st28,
+.st29,
+.st30,
+.st38,
+.st39 {
+  fill: rgb(var(--white-color));
 }
 /* cybersecurity end */
 /* BLOG END*/
