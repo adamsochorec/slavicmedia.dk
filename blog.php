@@ -30,7 +30,7 @@
         <br />
         <section class="grid-container">
           <a class="hh-stretch" href="/projects/cybersecurity">
-            <div class="grid-item cybersecurity">
+            <div class="grid-item large cybersecurity">
               <div class="blur">
                 <span></span>
               </div>
@@ -38,7 +38,7 @@
           </a>
           <section>
             <a href="/articles/house-hunting">
-              <div class="grid-item grid-item-1">
+              <div class="grid-item" id="house-hunting">
                 <div class="blur">
                   <span></span>
                 </div>
@@ -46,35 +46,8 @@
             </a>
           </section>
           <section>
-            <a href="/articles/västerbotten">
-              <div class="grid-item grid-item-2">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-          </section>
-          <section>
-            <a href="/articles/flensburg-skagen">
-              <div class="grid-item grid-item-3">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-          </section>
-          <section>
-            <a href="/articles/blåvand">
-              <div class="grid-item grid-item-4">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-          </section>
-          <section>
-            <a href="/articles/kvarken-archipelago">
-              <div class="grid-item grid-item-5">
+            <a href="/articles/pohjamaa">
+              <div class="grid-item" id="pohjamaa">
                 <div class="blur">
                   <span></span>
                 </div>
@@ -83,13 +56,47 @@
           </section>
           <section>
             <a href="/articles/lakeland">
-              <div class="grid-item grid-item-6">
+              <div class="grid-item" id="lakeland">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
           </section>
+          <section>
+            <a href="/articles/västerbotten">
+              <div class="grid-item" id="västerbotten">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+          </section>
+          <section>
+            <a href="/articles/flensburg-skagen">
+              <div class="grid-item" id="flensburg-skagen">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+          </section>
+          <section>
+            <a href="/articles/blåvand">
+              <div class="grid-item" id="blåvand">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+          </section>
+          <a class="hh-stretch" href="/articles/åland">
+            <div class="grid-item large" id="åland">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
         </section>
       </article>
     </main>

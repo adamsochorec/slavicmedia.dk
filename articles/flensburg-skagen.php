@@ -31,6 +31,15 @@
           <h1></h1>
           <br />
           <img src="/articles/img/flensburg-skagen/jpg/1.jpg" />
+          <p>
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            aspernatur aut odio numquam eius fuga deleniti molestiae unde,
+            veniam sapiente? Aliquid unde laborum a eum explicabo nesciunt
+            totam, sunt doloremque. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Asperiores a reiciendis dolore in deserunt.
+            Quisquam in enim hic dolores recusandae quo quis, similique labore
+            dignissimos amet fugit itaque, minus corrupti!
+          </p>
         </section>
         <hr />
 
@@ -40,6 +49,12 @@
             data-embed-type="activity"
             data-embed-id="7581051625"
           ></div>
+          <p>
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            aspernatur aut odio numquam eius fuga deleniti molestiae unde,
+            veniam sapiente? Aliquid unde laborum a eum explicabo nesciunt
+            totam, sunt doloremque.
+          </p>
         </section>
         <hr />
       </article>

@@ -31,6 +31,15 @@
           <h1></h1>
           <br />
           <img src="/articles/img/västerbotten/jpg/1.jpg" />
+          <p>
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae hic odit in amet harum quos voluptatum tempore, molestiae
+            explicabo nihil itaque. Repellat aliquid quos quo eligendi? Tempore
+            animi assumenda ex. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Officia vitae voluptas quae modi? Officiis
+            possimus accusantium, dolor officia quod, minus inventore quibusdam
+            quos, autem incidunt debitis laborum tempora ab architecto.
+          </p>
         </section>
         <hr />
       </article>

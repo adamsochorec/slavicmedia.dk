@@ -18,8 +18,11 @@
         <a
           aria-describedby="web-projects"
           class="navbar-style web"
-          href="/websites"
+          href="/web-dev"
         ></a>
+      </li>
+      <li class="nav-item">
+        <a aria-describedby="blog" class="navbar-style blog" href="/blog"></a>
       </li>
       <li class="nav-item">
         <a

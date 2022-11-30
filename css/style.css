@@ -847,8 +847,8 @@ nav li a.about::before,
 
 /* BLOG START*/
 .pathname.blog:nth-child(2) a::before,
-.pathname-current.blog::before
-/* ,nav li:nth-child(2) a::before */ {
+.pathname-current.blog::before,
+nav li a.blog::before {
   content: "Blog";
 }
 #gallery .grid-container {
@@ -908,66 +908,75 @@ nav li a.about::before,
 #gallery .grid-item:hover::after {
   transform: scale(1.1);
 }
-#blog .grid-item-1 {
+#blog #house-hunting {
   background-image: url(/articles/img/house-hunting//jpg/1.jpg);
 }
-#blog .grid-item-1 span:before,
+#blog #house-hunting span:before,
 #house-hunting h1:before,
 #house-hunting .pathname-current:before {
-  content: "House Hunting";
+  content: "House Hunting 🇫🇮";
 }
-#blog .grid-item-2 {
+#blog #västerbotten {
   background-image: url(/articles/img/västerbotten/jpg/1.jpg);
 }
-#blog .grid-item-2 span:before,
+#blog #västerbotten span:before,
 #västerbotten h1:before,
 #västerbotten .pathname-current:before {
-  content: "Västerbotten";
+  content: "Västerbotten 🇸🇪";
   cursor: text;
 }
-#blog .grid-item-3 {
+#blog #flensburg-skagen {
   background-image: url(/articles/img/flensburg-skagen/jpg/1.jpg);
 }
-#blog .grid-item-3 span:before,
+#blog #flensburg-skagen span:before,
 #flensburg-skagen h1:before,
 #flensburg-skagen .pathname-current:before {
-  content: "Flensburg - Skagen";
+  content: "Flensburg - Skagen 🇩🇰";
   cursor: text;
 }
-#blog .grid-item-4 {
+#blog #blåvand {
   background-image: url(/articles/img/blåvand/jpg/1.jpg);
 }
-#blog .grid-item-4 span:before,
+#blog #blåvand span:before,
 #blåvand h1:before,
 #blåvand .pathname-current:before {
-  content: "Blåvand";
+  content: "Blåvand 🇩🇰";
   cursor: text;
 }
-#blog .grid-item-5 {
-  background-image: url(/articles/img/kvarken-archipelago/jpg/1.jpg);
+#blog #pohjamaa {
+  background-image: url(/articles/img/pohjamaa/jpg/1.jpg);
 }
-#blog .grid-item-5 span:before,
-#kvarken-archipelago h1:before,
-#kvarken-archipelago .pathname-current:before {
-  content: "Kvarken Archipelago";
+#blog #pohjamaa span:before,
+#pohjamaa h1:before,
+#pohjamaa .pathname-current:before {
+  content: "Pohjamaa 🇫🇮";
   cursor: text;
 }
-#blog .grid-item-6 {
+#blog #lakeland {
   background-image: url(/articles/img/lakeland/jpg/1.jpg);
 }
-#blog .grid-item-6 span:before,
+#blog #lakeland span:before,
 #lakeland h1:before,
 #lakeland .pathname-current:before {
-  content: "Lakeland";
+  content: "Lakeland 🇫🇮";
   cursor: text;
 }
-#gallery .cybersecurity,
-#gallery .cybersecurity .blur,
+#blog #åland {
+  background-image: url(/articles/img/åland/1.jpg);
+}
+#blog #åland span:before,
+#åland h1:before,
+#åland .pathname-current:before {
+  content: "Åland 🇦🇽";
+  cursor: text;
+}
+#gallery .large,
+#gallery .large .blur,
 #web-projects .grid-item,
 #web-projects .grid-item .blur {
   aspect-ratio: 10/2;
 }
-#blog .cybersecurity span,
+#blog .large span,
 #web-projects .grid-item span {
   font-size: var(--fontsize-h3);
 }
@@ -977,7 +986,7 @@ nav li a.about::before,
 nav li a.web::before,
 #web-projects h1:before,
 #works .intro-subsection span::before {
-  content: "Websites";
+  content: "Web dev";
 }
 .cybersecurity span:before,
 #cybersecurity h1:before,
@@ -994,19 +1003,17 @@ nav li a.web::before,
 #gallery .cybersecurity:after {
   content: none;
 }
-#web-projects .grid-item-1 {
+#web-projects #zebra-design {
   background-image: url(/projects/zebra-design/img/zebraGif.gif);
 }
-#web-projects .grid-item-2 {
+#web-projects #memos {
   background-image: url(/projects/memos/img/_MG_0188.jpg);
 }
 #blog .grid-item span:before {
   cursor: pointer;
 }
 /* WEB PROJECTS END */
-title {
-  display: none;
-}
+
 /* cybersecurity start */
 #cybersecurity .btn-area input {
   background: 0;

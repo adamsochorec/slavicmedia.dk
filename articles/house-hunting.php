@@ -30,7 +30,46 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/house-hunting/jpg/1.jpg" />
+          <img src="/articles/img/house-hunting/jpg/1.jpg" alt="#" />
+          <p>
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            saepe praesentium vel reiciendis esse dolor, laboriosam corporis,
+            doloribus, quasi facere ullam. Totam voluptatem expedita quas
+            laboriosam eum ab rem enim! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Molestias, animi, laboriosam tempora incidunt
+            voluptatibus est, et atque iste blanditiis labore omnis. Sint vel
+            dolore voluptates dolorum ea cum tenetur veniam?
+          </p>
+          <br />
+          <img src="/articles/img/house-hunting/jpg/2.jpg" alt="#" />
+          <p>
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            saepe praesentium vel reiciendis esse dolor, laboriosam corporis,
+            doloribus, quasi facere ullam. Totam voluptatem expedita quas
+            laboriosam eum ab rem enim!
+          </p>
+          <br />
+          <img src="/articles/img/house-hunting/jpg/3.jpg" alt="#" />
+          <p>
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            saepe praesentium vel reiciendis esse dolor, laboriosam corporis,
+            doloribus, quasi facere ullam. Totam voluptatem expedita quas
+            laboriosam eum ab rem enim! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eaque et non ad accusantium commodi modi, id
+            excepturi ut consequatur explicabo assumenda delectus quis quisquam
+            deleniti, minus architecto inventore necessitatibus impedit!
+          </p>
+          <br />
+          <img src="/articles/img/house-hunting/jpg/4.jpg" alt="#" />
+          <p>
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quasi, sunt explicabo eligendi dolorum iusto pariatur odit modi
+            voluptatem reiciendis sequi tenetur sed blanditiis saepe, minus quo
+            laudantium velit odio tempora?
+          </p>
         </section>
         <hr />
       </article>

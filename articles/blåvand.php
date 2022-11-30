@@ -31,8 +31,29 @@
           <h1></h1>
           <br />
           <img src="/articles/img/blåvand/jpg/1.jpg" />
+          <p>
+            <br />
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+            cum esse dolor, quae eveniet dolores optio quia eos sapiente
+            architecto aut? Harum aspernatur ipsam sed! Error sunt sint ipsa
+            reiciendis. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Hic eligendi accusantium non porro nostrum perspiciatis, amet
+            earum, suscipit iure nulla commodi error quas sit dolorem quia
+            exercitationem eius soluta corrupti.
+          </p>
+          <br />
+
+          <img src="/articles/img/blåvand/jpg/3.jpg" alt="#" />
         </section>
         <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          quam, necessitatibus qui laborum sapiente vel excepturi officiis
+          facilis eos quas harum unde eligendi, similique in velit, officia
+          deserunt aspernatur? Animi!
+        </p>
+        <br />
         <section>
           <div class="sketchfab-embed-wrapper">
             <iframe
@@ -67,6 +88,26 @@
             </iframe>
           </div>
         </section>
+        <p>
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+          consequuntur dolorem voluptatum. Magni pariatur ut nisi incidunt vel
+          tenetur esse provident, voluptatem praesentium mollitia labore
+          nesciunt error, perferendis, dolore alias!
+        </p>
+        <hr />
+        <img src="/articles/img/blåvand/jpg/2.jpg" alt="#" />
+        <p>
+          <br />
+
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          necessitatibus perspiciatis maiores odio corporis voluptate blanditiis
+          expedita iure, doloribus iusto earum illum asperiores. Aliquam laborum
+          consequatur hic, fugiat earum est.
+        </p>
+        <br />
+        <img src="/articles/img/blåvand/jpg/4.jpg" alt="#" />
+        <hr />
       </article>
     </main>
     <?php

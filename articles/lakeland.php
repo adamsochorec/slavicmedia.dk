@@ -31,6 +31,15 @@
           <h1></h1>
           <br />
           <img src="/articles/img/lakeland/jpg/1.jpg" />
+          <p>
+            <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Labore modi ut impedit placeat eum optio, distinctio, obcaecati
+            aliquid laudantium facilis pariatur omnis ex, sit vero alias est
+            culpa ipsam explicabo. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Aliquam dicta necessitatibus tempora ipsum,
+            molestias fuga voluptatum nesciunt quos, aperiam quaerat iure
+            doloribus saepe debitis magni temporibus dolorem ullam facilis esse!
+          </p>
         </section>
         <hr />
       </article>
