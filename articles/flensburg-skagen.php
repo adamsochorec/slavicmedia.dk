@@ -8,6 +8,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
 
   <body id="flensburg-skagen">
@@ -15,8 +17,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
     <main>
       <article class="wrapper-standard">
         <section>
@@ -43,13 +43,13 @@
         </section>
         <hr />
 
-        <section>
+        <section class="reveal">
           <div
             class="strava-embed-placeholder reveal"
             data-embed-type="activity"
             data-embed-id="7581051625"
           ></div>
-          <p>
+          <p class="reveal">
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             aspernatur aut odio numquam eius fuga deleniti molestiae unde,
             veniam sapiente? Aliquid unde laborum a eum explicabo nesciunt
@@ -60,7 +60,6 @@
       </article>
     </main>
     <script src="https://strava-embeds.com/embed.js"></script>
-
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

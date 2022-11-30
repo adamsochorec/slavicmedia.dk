@@ -8,8 +8,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
   <body id="web-projects">
@@ -18,7 +16,7 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article id="gallery" class="wrapper-standard">
+      <article class="wrapper-standard">
         <div class="pathname-container">
           <i
             ><span class="pathname"><a href="/works"></a> / </span>
@@ -28,9 +26,9 @@
         <br />
         <h1></h1>
         <br />
-        <section class="grid-container">
+        <section class="grid-container gallery">
             <a class="hh-stretch" href="/projects/cybersecurity">
-                <div class="grid-item cybersecurity">
+                <div class="grid-item" id="cybersecurity">
                   <div class="blur">
                     <span></span>
                   </div>

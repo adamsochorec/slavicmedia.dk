@@ -42,8 +42,12 @@
             dolore voluptates dolorum ea cum tenetur veniam?
           </p>
           <br />
-          <img src="/articles/img/house-hunting/jpg/2.jpg" alt="#" />
-          <p>
+          <img
+            src="/articles/img/house-hunting/jpg/2.jpg"
+            alt="#"
+            class="reveal"
+          />
+          <p class="reveal">
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
             saepe praesentium vel reiciendis esse dolor, laboriosam corporis,
@@ -51,8 +55,12 @@
             laboriosam eum ab rem enim!
           </p>
           <br />
-          <img src="/articles/img/house-hunting/jpg/3.jpg" alt="#" />
-          <p>
+          <img
+            src="/articles/img/house-hunting/jpg/3.jpg"
+            alt="#"
+            class="reveal"
+          />
+          <p class="reveal">
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
             saepe praesentium vel reiciendis esse dolor, laboriosam corporis,
@@ -63,8 +71,12 @@
             deleniti, minus architecto inventore necessitatibus impedit!
           </p>
           <br />
-          <img src="/articles/img/house-hunting/jpg/4.jpg" alt="#" />
-          <p>
+          <img
+            src="/articles/img/house-hunting/jpg/4.jpg"
+            alt="#"
+            class="reveal"
+          />
+          <p class="reveal">
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quasi, sunt explicabo eligendi dolorum iusto pariatur odit modi
             voluptatem reiciendis sequi tenetur sed blanditiis saepe, minus quo

@@ -44,10 +44,10 @@
           </p>
           <br />
 
-          <img src="/articles/img/blåvand/jpg/3.jpg" alt="#" />
+          <img src="/articles/img/blåvand/jpg/3.jpg" alt="#" class="reveal" />
         </section>
         <hr />
-        <p>
+        <p class="reveal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           quam, necessitatibus qui laborum sapiente vel excepturi officiis
           facilis eos quas harum unde eligendi, similique in velit, officia
@@ -55,7 +55,7 @@
         </p>
         <br />
         <section>
-          <div class="sketchfab-embed-wrapper">
+          <div class="sketchfab-embed-wrapper reveal">
             <iframe
               title="Blåvand bunker | vzor 2"
               frameborder="0"
@@ -71,7 +71,7 @@
             >
             </iframe>
           </div>
-          <div class="sketchfab-embed-wrapper">
+          <div class="sketchfab-embed-wrapper reveal">
             <iframe
               title="Blåvand bunker | vzor 1"
               frameborder="0"
@@ -88,7 +88,7 @@
             </iframe>
           </div>
         </section>
-        <p>
+        <p class="reveal">
           <br />
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
           consequuntur dolorem voluptatum. Magni pariatur ut nisi incidunt vel
@@ -96,8 +96,8 @@
           nesciunt error, perferendis, dolore alias!
         </p>
         <hr />
-        <img src="/articles/img/blåvand/jpg/2.jpg" alt="#" />
-        <p>
+        <img src="/articles/img/blåvand/jpg/2.jpg" alt="#" class="reveal" />
+        <p class="reveal">
           <br />
 
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
@@ -106,7 +106,7 @@
           consequatur hic, fugiat earum est.
         </p>
         <br />
-        <img src="/articles/img/blåvand/jpg/4.jpg" alt="#" />
+        <img src="/articles/img/blåvand/jpg/4.jpg" alt="#" class="reveal" />
         <hr />
       </article>
     </main>

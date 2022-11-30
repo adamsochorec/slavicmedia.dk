@@ -4,12 +4,12 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>Lakeland | Adam Sochorec</title>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
 
   <body id="lakeland">

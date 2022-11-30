@@ -39,17 +39,17 @@
             ratione cumque et? Soluta, aperiam?
           </p>
           <br />
-          <img src="/articles/img/pohjamaa/jpg/3.jpg" alt="#" />
+          <img src="/articles/img/pohjamaa/jpg/3.jpg" alt="#" class="reveal" />
           <hr />
-          <p>
+          <p class="reveal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
             itaque facilis nihil recusandae quaerat architecto fuga praesentium,
             voluptatum deleniti! Sed architecto fuga eos maiores dolor tempora
             laboriosam voluptas non ex?
           </p>
           <br />
-          <img src="/articles/img/pohjamaa/jpg/2.jpg" alt="#" />
-          <p>
+          <img src="/articles/img/pohjamaa/jpg/2.jpg" alt="#" class="reveal" />
+          <p class="reveal">
             <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum
             dolor consequuntur odit, quam asperiores perspiciatis voluptas quos
