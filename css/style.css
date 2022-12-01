@@ -845,12 +845,7 @@ nav li a.about::before,
 /* expo banner end */
 /* EXPO END */
 
-/* BLOG START*/
-.pathname.blog:nth-child(2) a::before,
-.pathname-current.blog::before,
-nav li a.blog::before {
-  content: "Blog";
-}
+/* GALLERY START*/
 .grid-container.gallery {
   display: grid;
   grid-gap: 1rem;
@@ -908,8 +903,26 @@ nav li a.blog::before {
 .gallery .grid-item:hover::after {
   transform: scale(1.1);
 }
+.gallery .hh-stretch .grid-item,
+.gallery .hh-stretch .grid-item .blur {
+  aspect-ratio: 10/2;
+}
+.gallery .hh-stretch .grid-item span {
+  font-size: var(--fontsize-h3);
+}
+#blog .grid-item span:before {
+  cursor: pointer;
+}
+/* GALLERY END*/
+
+/* BLOG START*/
+.pathname.blog:nth-child(2) a::before,
+.pathname-current.blog::before,
+nav li a.blog::before {
+  content: "Blog";
+}
 #blog #house-hunting {
-  background-image: url(/articles/img/house-hunting//jpg/1.jpg);
+  background-image: url(/blog/img/house-hunting//jpg/1.jpg);
 }
 #blog #house-hunting span:before,
 #house-hunting h1:before,
@@ -917,7 +930,7 @@ nav li a.blog::before {
   content: "House Hunting 🇫🇮";
 }
 #blog #västerbotten {
-  background-image: url(/articles/img/västerbotten/jpg/1.jpg);
+  background-image: url(/blog/img/västerbotten/jpg/1.jpg);
 }
 #blog #västerbotten span:before,
 #västerbotten h1:before,
@@ -926,7 +939,7 @@ nav li a.blog::before {
   cursor: text;
 }
 #blog #flensburg-skagen {
-  background-image: url(/articles/img/flensburg-skagen/jpg/1.jpg);
+  background-image: url(/blog/img/flensburg-skagen/jpg/1.jpg);
 }
 #blog #flensburg-skagen span:before,
 #flensburg-skagen h1:before,
@@ -935,7 +948,7 @@ nav li a.blog::before {
   cursor: text;
 }
 #blog #blåvand {
-  background-image: url(/articles/img/blåvand/jpg/1.jpg);
+  background-image: url(/blog/img/blåvand/jpg/1.jpg);
 }
 #blog #blåvand span:before,
 #blåvand h1:before,
@@ -944,7 +957,7 @@ nav li a.blog::before {
   cursor: text;
 }
 #blog #pohjamaa {
-  background-image: url(/articles/img/pohjamaa/jpg/1.jpg);
+  background-image: url(/blog/img/pohjamaa/jpg/1.jpg);
 }
 #blog #pohjamaa span:before,
 #pohjamaa h1:before,
@@ -953,7 +966,7 @@ nav li a.blog::before {
   cursor: text;
 }
 #blog #lakeland {
-  background-image: url(/articles/img/lakeland/jpg/1.jpg);
+  background-image: url(/blog/img/lakeland/jpg/1.jpg);
 }
 #blog #lakeland span:before,
 #lakeland h1:before,
@@ -962,7 +975,7 @@ nav li a.blog::before {
   cursor: text;
 }
 #blog #åland {
-  background-image: url(/articles/img/åland/1.jpg);
+  background-image: url(/blog/img/åland/1.jpg);
 }
 #blog #åland span:before,
 #åland h1:before,
@@ -970,21 +983,13 @@ nav li a.blog::before {
   content: "Åland 🇦🇽";
   cursor: text;
 }
-.gallery .large,
-.gallery .large .blur,
-#web-projects .grid-item,
-#web-projects .grid-item .blur {
-  aspect-ratio: 10/2;
-}
-#blog .large span,
-#web-projects .grid-item span {
-  font-size: var(--fontsize-h3);
-}
+/* BLOG END*/
+
 /* WEB PROJECTS START */
 .pathname.web:nth-child(2) a::before,
 .pathname-current.web::before,
 nav li a.web::before,
-#web-projects h1:before,
+#web-dev h1:before,
 #works .intro-subsection span::before {
   content: "Web dev";
 }
@@ -1003,14 +1008,11 @@ nav li a.web::before,
 .gallery #cybersecurity:after {
   content: none;
 }
-#web-projects #zebra-design {
-  background-image: url(/projects/zebra-design/img/zebraGif.gif);
+#web-dev #zebra-design {
+  background-image: url(/web-dev/zebra-design/img/zebraGif.gif);
 }
-#web-projects #memos {
-  background-image: url(/projects/memos/img/_MG_0188.jpg);
-}
-#blog .grid-item span:before {
-  cursor: pointer;
+#web-dev #memos {
+  background-image: url(/web-dev/memos/img/_MG_0188.jpg);
 }
 /* WEB PROJECTS END */
 
@@ -1104,7 +1106,6 @@ nav li a.web::before,
   fill: rgb(var(--white-color));
 }
 /* cybersecurity end */
-/* BLOG END*/
 
 /* MEDIA QUERRIES START */
 @media only screen and (min-width: 300px) {
@@ -1182,7 +1183,10 @@ nav li a.web::before,
   .grid-container.gallery .blur {
     aspect-ratio: 10/2;
   }
-  .gallery .grid-item span {
+
+  .gallery .grid-item span,
+  .gallery .hh-stretch .grid-item span,
+  #web-dev .gallery .grid-item span {
     font-size: var(--fontsize-h5);
   }
 }
@@ -1348,11 +1352,10 @@ nav li a.web::before,
   #cybersecurity .btn-area input {
     height: 40px;
   }
-  #cybersecurity .btn-area input,
   #cybersecurity .btn-area #btn,
   #cybersecurity .btn-area #btn:after,
   #cybersecurity .btn-shadow {
-    width: 80%;
+    width: 100%;
   }
   .btn-area #btn,
   .btn-area #btn:after,

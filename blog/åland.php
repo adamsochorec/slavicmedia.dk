@@ -3,16 +3,16 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Lakeland | Adam Sochorec</title>
+    <title>Åland 🇦🇽| Adam Sochorec</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
-  <body id="lakeland">
+  <body id="åland">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/lakeland/jpg/1.jpg" />
+          <img src="/blog/img/åland/1.jpg" />
           <p>
             <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Labore modi ut impedit placeat eum optio, distinctio, obcaecati

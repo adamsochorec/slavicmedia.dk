@@ -3,16 +3,16 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Åland | Adam Sochorec</title>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
+    <title>Västerbotten 🇸🇪| Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
 
-  <body id="åland">
+  <body id="västerbotten">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -30,15 +30,15 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/åland/1.jpg" />
+          <img src="/blog/img/västerbotten/jpg/1.jpg" />
           <p>
-            <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Labore modi ut impedit placeat eum optio, distinctio, obcaecati
-            aliquid laudantium facilis pariatur omnis ex, sit vero alias est
-            culpa ipsam explicabo. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Aliquam dicta necessitatibus tempora ipsum,
-            molestias fuga voluptatum nesciunt quos, aperiam quaerat iure
-            doloribus saepe debitis magni temporibus dolorem ullam facilis esse!
+            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae hic odit in amet harum quos voluptatum tempore, molestiae
+            explicabo nihil itaque. Repellat aliquid quos quo eligendi? Tempore
+            animi assumenda ex. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Officia vitae voluptas quae modi? Officiis
+            possimus accusantium, dolor officia quod, minus inventore quibusdam
+            quos, autem incidunt debitis laborum tempora ab architecto.
           </p>
         </section>
         <hr />

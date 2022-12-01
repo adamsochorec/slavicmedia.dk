@@ -3,7 +3,7 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>| Adam Sochorec</title>
+    <title>Pohjamaa 🇫🇮| Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/pohjamaa/jpg/1.jpg" alt="#" />
+          <img src="/blog/img/pohjamaa/jpg/1.jpg" alt="#" />
           <p>
             <br />
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
@@ -39,7 +39,7 @@
             ratione cumque et? Soluta, aperiam?
           </p>
           <br />
-          <img src="/articles/img/pohjamaa/jpg/3.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/pohjamaa/jpg/3.jpg" alt="#" class="reveal" />
           <hr />
           <p class="reveal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -48,7 +48,7 @@
             laboriosam voluptas non ex?
           </p>
           <br />
-          <img src="/articles/img/pohjamaa/jpg/2.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/pohjamaa/jpg/2.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum

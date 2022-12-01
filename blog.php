@@ -26,18 +26,18 @@
           ></i>
         </div>
         <br />
-        <h1>Articles</h1>
+        <h1>Blog</h1>
         <br />
         <section class="grid-container gallery">
-          <a class="hh-stretch" href="/projects/cybersecurity">
-            <div class="grid-item large" id="cybersecurity">
+          <a class="hh-stretch" href="/web-dev/cybersecurity">
+            <div class="grid-item" id="cybersecurity">
               <div class="blur">
                 <span></span>
               </div>
             </div>
           </a>
           <section>
-            <a href="/articles/house-hunting">
+            <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
                 <div class="blur">
                   <span></span>
@@ -46,7 +46,7 @@
             </a>
           </section>
           <section>
-            <a href="/articles/pohjamaa">
+            <a href="/blog/pohjamaa">
               <div class="grid-item" id="pohjamaa">
                 <div class="blur">
                   <span></span>
@@ -55,7 +55,7 @@
             </a>
           </section>
           <section>
-            <a href="/articles/lakeland">
+            <a href="/blog/lakeland">
               <div class="grid-item" id="lakeland">
                 <div class="blur">
                   <span></span>
@@ -64,7 +64,7 @@
             </a>
           </section>
           <section>
-            <a href="/articles/västerbotten">
+            <a href="/blog/västerbotten">
               <div class="grid-item" id="västerbotten">
                 <div class="blur">
                   <span></span>
@@ -73,7 +73,7 @@
             </a>
           </section>
           <section>
-            <a href="/articles/flensburg-skagen">
+            <a href="/blog/flensburg-skagen">
               <div class="grid-item reveal" id="flensburg-skagen">
                 <div class="blur">
                   <span></span>
@@ -82,7 +82,7 @@
             </a>
           </section>
           <section>
-            <a href="/articles/blåvand">
+            <a href="/blog/blåvand">
               <div class="grid-item reveal" id="blåvand">
                 <div class="blur">
                   <span></span>
@@ -90,8 +90,8 @@
               </div>
             </a>
           </section>
-          <a class="hh-stretch" href="/articles/åland">
-            <div class="grid-item large reveal" id="åland">
+          <a class="hh-stretch" href="/blog/åland">
+            <div class="grid-item reveal" id="åland">
               <div class="blur">
                 <span></span>
               </div>

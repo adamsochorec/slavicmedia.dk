@@ -3,7 +3,7 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Flensburg - Skagen | Adam Sochorec</title>
+    <title>Flensburg - Skagen 🇩🇰| Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/flensburg-skagen/jpg/1.jpg" />
+          <img src="/blog/img/flensburg-skagen/jpg/1.jpg" />
           <p>
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             aspernatur aut odio numquam eius fuga deleniti molestiae unde,

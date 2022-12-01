@@ -3,14 +3,14 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Web-projects | Adam Sochorec</title>
+    <title>Web-Dev | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
   </head>
 
-  <body id="web-projects">
+  <body id="web-dev">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -27,21 +27,21 @@
         <h1></h1>
         <br />
         <section class="grid-container gallery">
-            <a class="hh-stretch" href="/projects/cybersecurity">
+            <a class="hh-stretch" href="/web-dev/cybersecurity">
                 <div class="grid-item" id="cybersecurity">
                   <div class="blur">
                     <span></span>
                   </div>
                 </div>
               </a>
-          <a class="hh-stretch" target="_blank" rel="noopener noreferrer" href="/projects/zebra-design/zebra-design">
+          <a class="hh-stretch" target="_blank" rel="noopener noreferrer" href="/web-dev/zebra-design/zebra-design">
             <div class="grid-item" id="zebra-design">
               <div class="blur">
                 <span>Zebra-design</span>
               </div>
             </div>
           </a>
-                <a class="hh-stretch" target="_blank" rel="noopener noreferrer" href="/projects/memos/memos">
+                <a class="hh-stretch" target="_blank" rel="noopener noreferrer" href="/web-dev/memos/memos">
                   <div class="grid-item" id="memos">
                     <div class="blur">
                       <span>Memos</span>

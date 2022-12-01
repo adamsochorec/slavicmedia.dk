@@ -3,7 +3,7 @@
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Blåvand | Adam Sochorec</title>
+    <title>Blåvand 🇩🇰| Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/blåvand/jpg/1.jpg" />
+          <img src="/blog/img/blåvand/jpg/1.jpg" />
           <p>
             <br />
 
@@ -44,7 +44,7 @@
           </p>
           <br />
 
-          <img src="/articles/img/blåvand/jpg/3.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/blåvand/jpg/3.jpg" alt="#" class="reveal" />
         </section>
         <hr />
         <p class="reveal">
@@ -96,7 +96,7 @@
           nesciunt error, perferendis, dolore alias!
         </p>
         <hr />
-        <img src="/articles/img/blåvand/jpg/2.jpg" alt="#" class="reveal" />
+        <img src="/blog/img/blåvand/jpg/2.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br />
 
@@ -106,7 +106,7 @@
           consequatur hic, fugiat earum est.
         </p>
         <br />
-        <img src="/articles/img/blåvand/jpg/4.jpg" alt="#" class="reveal" />
+        <img src="/blog/img/blåvand/jpg/4.jpg" alt="#" class="reveal" />
         <hr />
       </article>
     </main>

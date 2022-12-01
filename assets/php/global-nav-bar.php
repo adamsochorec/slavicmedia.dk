@@ -16,13 +16,17 @@
       </li>
       <li class="nav-item">
         <a
-          aria-describedby="web-projects"
+          aria-describedby="web-dev"
           class="navbar-style web"
-          href="/web-dev"
+          href="/web-dev.php"
         ></a>
       </li>
       <li class="nav-item">
-        <a aria-describedby="blog" class="navbar-style blog" href="/blog"></a>
+        <a
+          aria-describedby="blog"
+          class="navbar-style blog"
+          href="/blog.php"
+        ></a>
       </li>
       <li class="nav-item">
         <a

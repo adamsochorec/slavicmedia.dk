@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/articles/img/house-hunting/jpg/1.jpg" alt="#" />
+          <img src="/blog/img/house-hunting/jpg/1.jpg" alt="#" />
           <p>
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -42,11 +42,7 @@
             dolore voluptates dolorum ea cum tenetur veniam?
           </p>
           <br />
-          <img
-            src="/articles/img/house-hunting/jpg/2.jpg"
-            alt="#"
-            class="reveal"
-          />
+          <img src="/blog/img/house-hunting/jpg/2.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -55,11 +51,7 @@
             laboriosam eum ab rem enim!
           </p>
           <br />
-          <img
-            src="/articles/img/house-hunting/jpg/3.jpg"
-            alt="#"
-            class="reveal"
-          />
+          <img src="/blog/img/house-hunting/jpg/3.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br />
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -71,11 +63,7 @@
             deleniti, minus architecto inventore necessitatibus impedit!
           </p>
           <br />
-          <img
-            src="/articles/img/house-hunting/jpg/4.jpg"
-            alt="#"
-            class="reveal"
-          />
+          <img src="/blog/img/house-hunting/jpg/4.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quasi, sunt explicabo eligendi dolorum iusto pariatur odit modi
