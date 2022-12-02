@@ -230,6 +230,7 @@ article.wrapper-narrow {
   align-items: center;
   display: flex;
   justify-content: center;
+  background-attachment: fixed;
 }
 .intro-subsection {
   z-index: 1;
@@ -622,6 +623,7 @@ nav li a.about::before,
   background-image: url(/img/gif/about.gif);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 /* language competences start */
 #about .grid-container p {

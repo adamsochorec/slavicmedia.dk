@@ -23,7 +23,7 @@
           <div class="pathname-container">
             <i
               ><span class="pathname"><a href="/works"></a> / </span>
-              <span class="pathname blog"><a href="/blog"></a> / </span>
+              <span class="pathname blog"><a href="/blog.php"></a> / </span>
               <span class="pathname-current blog"></span
             ></i>
           </div>
