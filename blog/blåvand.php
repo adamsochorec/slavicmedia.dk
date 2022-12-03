@@ -30,7 +30,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/blåvand/jpg/1.jpg" />
+          <img src="/blog/img/blåvand/jpg/1.jpg" alt="#" />
           <p>
             <br />
 

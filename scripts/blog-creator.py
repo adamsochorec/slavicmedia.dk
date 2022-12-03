@@ -1,9 +1,19 @@
-<!DOCTYPE html>
+import sys
+import os
+
+newArticle="new-article.php"
+articlePath="Blog/"
+completeName=articlePath+newArticle
+name1=os.path.abspath(completeName)
+myfile = open(name1, 'w')
+
+
+script='''<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Västerbotten 🇸🇪| Adam Sochorec</title>
+    <title>??? | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -12,7 +22,7 @@
     <meta name="googlebot" content="noindex" />
   </head>
 
-  <body id="västerbotten">
+  <body id="???">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -30,7 +40,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/västerbotten/jpg/1.jpg" alt="#" />
+          <img src="/blog/img/???/jpg/1.jpg" alt="#"/>
           <p>
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Recusandae hic odit in amet harum quos voluptatum tempore, molestiae
@@ -50,3 +60,7 @@
     ?>
   </body>
 </html>
+
+'''
+myfile.write(script)
+myfile.close()

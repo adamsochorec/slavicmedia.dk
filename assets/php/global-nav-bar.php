@@ -22,11 +22,7 @@
         ></a>
       </li>
       <li class="nav-item">
-        <a
-          aria-describedby="blog"
-          class="navbar-style blog"
-          href="/blog.php"
-        ></a>
+        <a aria-describedby="blog" class="navbar-style blog" href="/blog"></a>
       </li>
       <li class="nav-item">
         <a

@@ -36,60 +36,48 @@
               </div>
             </div>
           </a>
-          <section>
-            <a href="/blog/house-hunting">
-              <div class="grid-item" id="house-hunting">
-                <div class="blur">
-                  <span></span>
-                </div>
+          <a href="/blog/house-hunting">
+            <div class="grid-item" id="house-hunting">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
-          <section>
-            <a href="/blog/pohjamaa">
-              <div class="grid-item" id="pohjamaa">
-                <div class="blur">
-                  <span></span>
-                </div>
+            </div>
+          </a>
+          <a href="/blog/pohjamaa">
+            <div class="grid-item" id="pohjamaa">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
-          <section>
-            <a href="/blog/lakeland">
-              <div class="grid-item" id="lakeland">
-                <div class="blur">
-                  <span></span>
-                </div>
+            </div>
+          </a>
+          <a href="/blog/lakeland">
+            <div class="grid-item" id="lakeland">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
-          <section>
-            <a href="/blog/västerbotten">
-              <div class="grid-item" id="västerbotten">
-                <div class="blur">
-                  <span></span>
-                </div>
+            </div>
+          </a>
+          <a href="/blog/västerbotten">
+            <div class="grid-item" id="västerbotten">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
-          <section>
-            <a href="/blog/flensburg-skagen">
-              <div class="grid-item reveal" id="flensburg-skagen">
-                <div class="blur">
-                  <span></span>
-                </div>
+            </div>
+          </a>
+          <a href="/blog/flensburg-skagen">
+            <div class="grid-item reveal" id="flensburg-skagen">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
-          <section>
-            <a href="/blog/blåvand">
-              <div class="grid-item reveal" id="blåvand">
-                <div class="blur">
-                  <span></span>
-                </div>
+            </div>
+          </a>
+          <a href="/blog/blåvand">
+            <div class="grid-item reveal" id="blåvand">
+              <div class="blur">
+                <span></span>
               </div>
-            </a>
-          </section>
+            </div>
+          </a>
           <a class="hh-stretch" href="/blog/åland">
             <div class="grid-item reveal" id="åland">
               <div class="blur">

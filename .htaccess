@@ -19,7 +19,11 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 # Here we actually show the page that has the .php extension
 
 RewriteRule ^(.*)$ $1.php [NC,L]
+#RewriteRule ^blog blog.php [NC,L]
+#RewriteRule ^web-dev web-dev.php [NC,L]
 
 # Changing deafult homepage name from index to custom one
 
 DirectoryIndex /works.php
+
+

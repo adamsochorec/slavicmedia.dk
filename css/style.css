@@ -43,12 +43,12 @@
 @font-face {
   font-family: IBM;
   font-weight: var(--heading-weight);
-  src: url(./IBM.ttf) format("truetype");
+  src: url(/assets/IBM.ttf) format("truetype");
 }
 @font-face {
   font-family: BigBlue;
   font-weight: var(--heading-weight);
-  src: url(Bigblue.ttf) format("truetype");
+  src: url(/assets/Bigblue.ttf) format("truetype");
 }
 @keyframes skeleton-loading {
   0% {
@@ -991,8 +991,7 @@ nav li a.blog::before {
 .pathname.web:nth-child(2) a::before,
 .pathname-current.web::before,
 nav li a.web::before,
-#web-dev h1:before,
-#works .intro-subsection span::before {
+#web-dev h1:before {
   content: "Web dev";
 }
 .gallery #cybersecurity span:before,
