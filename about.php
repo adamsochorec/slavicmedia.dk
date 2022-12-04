@@ -71,7 +71,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                     scanned on my iPhone and rendered by awesome <a
                         href="https://poly.cam/" target="_blank" rel="noopener noreferrer">Polycam</a> software.<br><br>Hereby open to collaborations and
                     projects!
-                </p>
+
             </section>
             <hr>
             <section>
@@ -283,6 +283,28 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                     </section>
             </section>
             <hr>
+            <section>
+                <h2 class="reveal">@adamsochorec</h2><br>
+                <section class="grid-container">
+                    <ul>
+                        <li class="reveal"><a href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/">The Brothers Brick</a></li>
+                        <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm">Shanghai Lixin University</a></li>
+                        <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm">Shanghai Lixin University</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83">Divadlo Disk</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CS_WpX9Kj4O/?igshid=YmMyMTA2M2Y=">Divaldo Disk</a></li>
+
+                    </ul>
+                    <ul>
+                        <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y=">Divadlo Na Vinohradech</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CNNNkt_rNUn/?igshid=YmMyMTA2M2Y=">Barae</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album">Artivist Lab</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet">Respekt</a></li>
+    <li class="reveal"><a target="_blank" rel="noopener noreferrer" href="https://www.hatefree.cz/clanky/tamara-moyzes-2">HateFree</a></li>
+    
+                    </ul>
+                </section>
+                <hr>
+            </section>
             <section class="contact-form-section">
                 <h2 class="reveal">Contact</h2>
                 <br><br>
@@ -341,6 +363,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             </section>
         </article>
     </main>
+    <script src="/scripts/about.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

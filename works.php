@@ -6,7 +6,7 @@
       name="keywords"
       content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Adam Sochorec, Rostislav Sochorec, Responsive design, Homepage, Landing page, Instagram, Sketchfab, Flickr, @adamsochorec, Denmark, Kolding, Czechia, Czech Republic, Prague, Česká Republika, Česko, Praha, Fine Art, Fotografie, Umění, Studio photography, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová"
     />
-    <title>Works | Adam Sochorec</title>
+    <title>Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';

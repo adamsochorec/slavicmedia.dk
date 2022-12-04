@@ -16,6 +16,6 @@
     <span>Adam Sochorec</span>
   </section>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <script src="/scripts/global-javascript.js" defer></script>
+  <script src="/scripts/global-script.js" defer></script>
 </footer>
 <!-- FOOTER END -->

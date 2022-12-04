@@ -124,7 +124,7 @@
                             generator</a>
                         </li>
                         <li>Store them in your password manager</li>
-                        <li><>Remember master password to your manager or get a <a  target="_blank" rel="noopener noreferrer"
+                        <li>Remember master password to your manager or get a <a  target="_blank" rel="noopener noreferrer"
                             href="https://www.tomsguide.com/news/usb-security-key">hardware key</a></li>
                             </ol>
                 </section>
@@ -1439,6 +1439,7 @@
                 </section>
         </article>
     </main>
+	<script src="/scripts/cybersecurity.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

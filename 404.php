@@ -26,7 +26,7 @@
         </section>
         <br />
         <h2>
-          <a aria-describedby="/works" href="http://adamsochorec.com/works"
+          <a aria-describedby="/works" href="http://adamsochorec.com"
             >Return to the homepage
             <svg
               id="chevron-right"

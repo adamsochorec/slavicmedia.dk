@@ -1,18 +1,14 @@
 <header>
   <nav class="nav-bar">
     <!-- NAVIGATION BAR START -->
-    <a aria-describedby="works" href="/works">
+    <a aria-describedby="works" href="/">
       <span>adam</span>
       <span>sochorec</span>
     </a>
     <ul class="nav-menu">
       <!-- NAVIGATION BAR LINKS START -->
       <li class="nav-item">
-        <a
-          aria-describedby="works"
-          class="navbar-style works"
-          href="/works"
-        ></a>
+        <a aria-describedby="works" class="navbar-style works" href="/"></a>
       </li>
       <li class="nav-item">
         <a

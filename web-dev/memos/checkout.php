@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>checkout1</title>
+    <title>Checkout | Memos</title>
     <link rel="stylesheet" href="./css/checkout1.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link
@@ -23,10 +23,7 @@
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="memos" class="nav-link">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a href="productpage" class="nav-link">VEJLE WATCH</a>
+            <a href="memos" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
             <a href="aboutus" class="nav-link">ABOUT</a>
