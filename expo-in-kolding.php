@@ -54,7 +54,7 @@ You can take a look on my on large scale prints framed in historical frames seri
       <article id="scrolllink" class="wrapper-standard">
         <div class="pathname-container reveal">
           <i
-            ><span class="pathname"><a href="/works"></a> / </span>
+            ><span class="pathname"><a href="/"></a> / </span>
             <span class="pathname-current"></span
           ></i>
         </div>

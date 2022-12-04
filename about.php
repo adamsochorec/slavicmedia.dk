@@ -50,7 +50,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
             <section>
                 <div class="pathname-container reveal">
                     <i
-                      ><span class="pathname"><a href="/works"></a> / </span>
+                      ><span class="pathname"><a href="/"></a> / </span>
                       <span class="pathname-current"></span
                     ></i>
                   </div><br>

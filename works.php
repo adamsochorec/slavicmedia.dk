@@ -57,8 +57,7 @@
           </section>
           <div class="blur"></div>
         </article>
-        <br id="scrolllink" />
-        <section class="grid-container">
+        <section id="scrolllink" class="grid-container">
           <div class="h-stretch reveal">
             <picture>
               <img src="/img/jpg/1.jpg" alt="1" />

@@ -315,7 +315,7 @@ article.wrapper-narrow {
 /* intro section standard end*/
 /* pathname start*/
 .pathname-container {
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 
 .pathname:nth-child(1) a::before {
@@ -1281,9 +1281,6 @@ nav li a.web::before,
   h1:nth-child(1) {
     margin-top: 1rem;
   }
-  #about h1:nth-child(1) {
-    margin-top: 6rem;
-  }
   :root {
     --banner-top-position: 40px;
   }
@@ -1373,8 +1370,7 @@ nav li a.web::before,
 }
 @media only screen and (max-width: 947px) {
   article.wrapper-standard,
-  article.wrapper-narrow,
-  .intro-section {
+  article.wrapper-narrow {
     padding: 0 1.25rem 1rem 1.25rem;
   }
 }

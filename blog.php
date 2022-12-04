@@ -21,7 +21,7 @@
       <article class="wrapper-standard">
         <div class="pathname-container">
           <i
-            ><span class="pathname"><a href="/works"></a> / </span>
+            ><span class="pathname"><a href="/"></a> / </span>
             <span class="pathname-current blog"></span
           ></i>
         </div>

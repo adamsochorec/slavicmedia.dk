@@ -41,7 +41,7 @@
         <article id="scrolllink" class="wrapper-standard">
             <div class="pathname-container">
                 <i
-                  ><span class="pathname"><a href="/works"></a> / </span>
+                  ><span class="pathname"><a href="/"></a> / </span>
                   <span class="pathname web"><a href="/web-dev"></a> / </span>
                   <span class="pathname-current web"></span
                 ></i>
