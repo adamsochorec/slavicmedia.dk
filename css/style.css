@@ -545,33 +545,36 @@ footer .footer-ps span:nth-child(2) {
 
 /* GLOBAL END */
 
-/* WORKS START */
-#works h1:before,
-nav li a.works::before {
-  content: "Works";
+/* photo START */
+div #photo {
+  display: none;
+}
+#photo h1:before,
+nav li a.photo::before {
+  content: "Photo";
   cursor: text;
 }
-#works .intro-section {
+#photo .intro-section {
   background-image: url(/img/jpg/5.jpg);
   background-position: center;
   background-size: cover;
 }
-#works h1 {
+#photo h1 {
   font-size: var(--fontsize-xl-h1);
   margin-bottom: 0;
 }
-#works h2 {
+#photo h2 {
   font-size: calc(var(--fontsize-xl-h1) * 0.26);
   text-align: center;
 }
-#works .social-icons {
+#photo .social-icons {
   text-align: center;
 }
-#works h1,
-#works h2 {
+#photo h1,
+#photo h2 {
   font-family: var(--alt-logo-font);
 }
-#works .grid-container {
+#photo .grid-container {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
@@ -579,7 +582,7 @@ nav li a.works::before {
   margin: 0 auto;
   padding: 10px;
 }
-#works #chevron-right {
+#photo #chevron-right {
   fill: var(--text-color);
   padding-top: 4px;
   vertical-align: middle;
@@ -605,24 +608,23 @@ nav li a.works::before {
   grid-column: span 4;
   grid-row: span 1;
 }
-#works .grid-container div img,
-#works .grid-container div iframe {
+#photo .grid-container div img,
+#photo .grid-container div iframe {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
-/* WORKS END */
+/* photo END */
 
 /* ABOUT START */
 #about h1:before,
 #about .pathname-current::before,
-nav li a.about::before,
-#success h2 a span:before {
+nav li a.about::before {
   content: "About";
   cursor: text;
 }
 #about .intro-section {
-  background-image: url(/img/gif/about.gif);
+  background-image: url(/img/gif/about2.gif);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -1199,21 +1201,21 @@ nav li a.web::before,
     grid-row: span 1;
   }
   .h-stretch,
-  #works .hh-stretch {
+  #photo .hh-stretch {
     grid-column: span 1;
   }
   .hhh-stretch {
     grid-column: span 2;
     grid-row: span 1;
   }
-  #works .grid-container {
+  #photo .grid-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 150px);
   }
   .pathname-container {
     margin-top: 4rem;
   }
-  #works .pathname-container,
+  #photo .pathname-container,
   #about .pathname-container {
     margin-top: 8rem;
   }

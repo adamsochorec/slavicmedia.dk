@@ -42,7 +42,7 @@
             <div class="pathname-container">
                 <i
                   ><span class="pathname"><a href="/"></a> / </span>
-                  <span class="pathname web"><a href="/web-dev"></a> / </span>
+                  <span class="pathname web"><a href="/#web-dev"></a> / </span>
                   <span class="pathname-current web"></span
                 ></i>
               </div><br>

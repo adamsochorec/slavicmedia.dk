@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://adamsochorec.com/</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -143,173 +143,31 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/blog.php</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://adamsochorec.com/web-dev.php</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://adamsochorec.com/works</loc>
-    <lastmod>2022-12-02</lastmod>
+    <loc>https://adamsochorec.com/blog.php</loc>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/1.jpg</image:loc>
-        <image:title>1</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/2.jpg</image:loc>
-        <image:title>2</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/3.jpg</image:loc>
-        <image:title>3</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/4.jpg</image:loc>
-        <image:title>4</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/5.jpg</image:loc>
-        <image:title>5</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/7.jpg</image:loc>
-        <image:title>7</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/6.jpg</image:loc>
-        <image:title>6</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/8.jpg</image:loc>
-        <image:title>8</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/10.jpg</image:loc>
-        <image:title>10</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/9.jpg</image:loc>
-        <image:title>9</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/37.jpg</image:loc>
-        <image:title>37</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/11.jpg</image:loc>
-        <image:title>11</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/12.jpg</image:loc>
-        <image:title>12</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/13.jpg</image:loc>
-        <image:title>13</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/14.jpg</image:loc>
-        <image:title>14</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/18.jpg</image:loc>
-        <image:title>18</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/17.jpg</image:loc>
-        <image:title>17</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/15.jpg</image:loc>
-        <image:title>15</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/16.jpg</image:loc>
-        <image:title>16</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/gif/22.gif</image:loc>
-        <image:title>22</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/gif/23.gif</image:loc>
-        <image:title>23</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/19.jpg</image:loc>
-        <image:title>19</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/21.jpg</image:loc>
-        <image:title>21</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/20.jpg</image:loc>
-        <image:title>20</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/46.jpg</image:loc>
-        <image:title>46</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/45.jpg</image:loc>
-        <image:title>45</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/24.jpg</image:loc>
-        <image:title>24</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/35.jpg</image:loc>
-        <image:title>35</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/32.jpg</image:loc>
-        <image:title>32</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/25.jpg</image:loc>
-        <image:title>25</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/30.jpg</image:loc>
-        <image:title>30</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/33.jpg</image:loc>
-        <image:title>33</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/31.jpg</image:loc>
-        <image:title>31</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/28.jpg</image:loc>
-        <image:title>28</image:title>
-      </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/expo-in-kolding</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://adamsochorec.com/about</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/about.jpg</image:loc>
-        <image:title>Profile picture of Adam, diving underwater wearing diving goggles. There is a plenty of oxygen bubbles comming out from his nose and mouth.</image:title>
+        <image:title>Portrait of Adam Sochorec in a blue shirt</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/partners.png</image:loc>
@@ -317,26 +175,46 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/blog/pohjamaa</loc>
-    <lastmod>2022-12-02</lastmod>
+    <loc>https://adamsochorec.com/blog/bl%C3%A5vand</loc>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/1.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/1.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/3.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/3.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/2.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/2.jpg</image:loc>
+        <image:title>#</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/4.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
   </url>
   <url>
+    <loc>https://adamsochorec.com/blog/%C3%A5land</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/blog/img/%C3%A5land/1.jpg</image:loc>
+        <image:title>#</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/cybersecurity</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://adamsochorec.com/web-dev/zebra-design/zebra-design</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -397,46 +275,26 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/blog/bl%C3%A5vand</loc>
-    <lastmod>2022-12-02</lastmod>
+    <loc>https://adamsochorec.com/blog/pohjamaa</loc>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/1.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/3.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/1.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/2.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/3.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/bl%C3%A5vand/jpg/4.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/blog/img/pohjamaa/jpg/2.jpg</image:loc>
         <image:title>#</image:title>
       </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/blog/%C3%A5land</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/blog/img/%C3%A5land/1.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/cybersecurity</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adamsochorec.com/web-dev/memos/memos</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -450,27 +308,27 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/flensburg-skagen</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/blog/img/flensburg-skagen/jpg/1.jpg</image:loc>
-        <image:title></image:title>
+        <image:title>#</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/v%C3%A4sterbotten</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/blog/img/v%C3%A4sterbotten/jpg/1.jpg</image:loc>
-        <image:title></image:title>
+        <image:title>#</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/house-hunting</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -492,19 +350,133 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/lakeland</loc>
-    <lastmod>2022-12-02</lastmod>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/blog/img/lakeland/jpg/1.jpg</image:loc>
-        <image:title></image:title>
+        <image:title>#</image:title>
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/web-dev/</loc>
-    <lastmod>2022-12-02</lastmod>
+    <loc>https://adamsochorec.com/web-dev/zebra-design/about</loc>
+    <lastmod>2022-12-04</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
+        <image:title>Logo</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Adam.jpg</image:loc>
+        <image:title>Image of Adam</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Niels.jpg</image:loc>
+        <image:title>Image of Niels</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Bartlomiej.jpg</image:loc>
+        <image:title>Image of Bartlomiej</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Daniel.jpg</image:loc>
+        <image:title>Image of Daniel</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Nikolay.jpg</image:loc>
+        <image:title>Image of Nikolay</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/memos/aboutus</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/zebra-design/services</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
+        <image:title>Logo</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/graphicDesign.png</image:loc>
+        <image:title>Illustration of Graphic Design</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logoDesign.png</image:loc>
+        <image:title>Illustration of Logo Design</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/webpages.png</image:loc>
+        <image:title>Illustration of Webpages</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/socialMedia.png</image:loc>
+        <image:title>Illustration of Social Media</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/webshops.png</image:loc>
+        <image:title>Illustration of Webshops</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/seo.png</image:loc>
+        <image:title>Illustration of SEO</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/memos/checkout</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/memos/privacy</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/zebra-design/termsAndConditions</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
+        <image:title>Logo</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/zebra-design/privacyPolicy</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
+        <image:title>Logo</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/memos/terms</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/memos/checkout2</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://adamsochorec.com/web-dev/</loc>
+    <lastmod>2022-12-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/1.jpg</image:loc>
         <image:title>1</image:title>
@@ -641,113 +613,5 @@
         <image:loc>https://adamsochorec.com/img/jpg/28.jpg</image:loc>
         <image:title>28</image:title>
       </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/zebra-design/about</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
-        <image:title>Logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Adam.jpg</image:loc>
-        <image:title>Image of Adam</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Niels.jpg</image:loc>
-        <image:title>Image of Niels</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Bartlomiej.jpg</image:loc>
-        <image:title>Image of Bartlomiej</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Daniel.jpg</image:loc>
-        <image:title>Image of Daniel</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/Nikolay.jpg</image:loc>
-        <image:title>Image of Nikolay</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/memos/productpage</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/memos/aboutus</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/zebra-design/services</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
-        <image:title>Logo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/graphicDesign.png</image:loc>
-        <image:title>Illustration of Graphic Design</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logoDesign.png</image:loc>
-        <image:title>Illustration of Logo Design</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/webpages.png</image:loc>
-        <image:title>Illustration of Webpages</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/socialMedia.png</image:loc>
-        <image:title>Illustration of Social Media</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/webshops.png</image:loc>
-        <image:title>Illustration of Webshops</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/seo.png</image:loc>
-        <image:title>Illustration of SEO</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/memos/privacy</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/zebra-design/termsAndConditions</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
-        <image:title>Logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/zebra-design/privacyPolicy</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://adamsochorec.com/web-dev/zebra-design/img/logo.png</image:loc>
-        <image:title>Logo</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://adamsochorec.com/web-dev/memos/terms</loc>
-    <lastmod>2022-12-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
