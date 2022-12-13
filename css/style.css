@@ -190,12 +190,12 @@ hr {
   margin: 2rem 0;
   opacity: 60%;
 }
-article.wrapper-standard,
+.wrapper-standard,
 hr {
-  max-width: 100%;
   width: 37.5rem;
+  max-width: 100%;
 }
-article.wrapper-narrow {
+.wrapper-narrow {
   max-width: 100%;
   width: 21rem;
 }
@@ -549,22 +549,23 @@ footer .footer-ps span:nth-child(2) {
 div #photo {
   display: none;
 }
-#photo h1:before,
+#photo h2:before,
 nav li a.photo::before {
   content: "Photo";
   cursor: text;
 }
-#photo .intro-section {
+#photo {
   background-image: url(/img/jpg/5.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 #photo h1 {
   font-size: var(--fontsize-xl-h1);
   margin-bottom: 0;
 }
 #photo h2 {
-  font-size: calc(var(--fontsize-xl-h1) * 0.26);
+  font-size: var(--fontsize-h2);
   text-align: center;
 }
 #photo .social-icons {
@@ -996,7 +997,7 @@ nav li a.blog::before {
 .pathname-current.web::before,
 nav li a.web::before,
 #web-dev h1:before {
-  content: "Web dev";
+  content: "Web-dev";
 }
 .gallery #cybersecurity span:before,
 #cybersecurity h1:before,
@@ -1371,8 +1372,8 @@ nav li a.web::before,
   }
 }
 @media only screen and (max-width: 947px) {
-  article.wrapper-standard,
-  article.wrapper-narrow {
+  section.wrapper-standard,
+  section.wrapper-narrow {
     padding: 0 1.25rem 1rem 1.25rem;
   }
 }
