@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Photo | 3D | Webdesign" />
+    <meta name="description" content="Self-taught photographer, Lego builder and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently occupied with Erhversakademi Kolding in Denmark 🇩🇰 and Vaasan Yliopsto in Finland 🇫🇮.​
+    I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm also enjoying to work with landscapes, 3D scans and web design." />
     <meta
       name="keywords"
-      content="Portfolio, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Adam Sochorec, Rostislav Sochorec, Responsive design, Homepage, Landing page, Instagram, Sketchfab, Flickr, @adamsochorec, Denmark, Kolding, Czechia, Czech Republic, Prague, Česká Republika, Česko, Praha, Fine Art, Fotografie, Umění, Studio photography, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová"
+      content="Portfolio, syddanmark, visuals, web dev, about, homepage, web development, web-dev, web-development, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Adam Sochorec, Rostislav Sochorec, Responsive design, Homepage, Landing page, Instagram, Sketchfab, Flickr, @adamsochorec, Denmark, Danmark, Kolding, Czechia, Czech Republic, Prague, Česká Republika, Česko, Praha, Fine Art, Fotografie, Umění, Studio photography, Gabriela Sochorcová, Sofie Sochorcová, Petra Sochorcová, Magdalena Sochorcová, freelance, photographer, contact, biography, content creator, content creation, IBA, erhversakademi, Studio photography, lego, star wars, css, html, javascript, php, python, c, canon camera, iphone 13 mini, Polycam, beauty photography, experimental, website, web, landscape, landscape photography, prints, adamsochorec, adam sochorec, Adam s"
     />
     <title>Adam Sochorec</title>
     <?php
@@ -12,7 +13,6 @@
     include $IPATH . 'global-head.php';
     ?>
   </head>
-
   <body id="homepage">
     <!-- HEADER START -->
     <?php
@@ -280,12 +280,12 @@
         </div>
         <div class="h-stretch reveal">
           <picture>
-            <img src="/img/jpg/46.jpg" alt="46" />
+            <img src="/img/jpg/house-hunting-1.jpg" alt="46" />
           </picture>
         </div>
         <div class="h-stretch reveal">
           <picture>
-            <img src="/img/jpg/45.jpg" alt="45" />
+            <img src="/img/jpg/house-hunting-2.jpg" alt="45" />
           </picture>
         </div>
         <div class="h-stretch reveal">
@@ -295,12 +295,12 @@
         </div>
         <div class="h-stretch reveal">
           <picture>
-            <img src="/img/jpg/35.jpg" alt="35" />
+            <img src="/img/jpg/pohjamaa-3.jpg" alt="35" />
           </picture>
         </div>
         <div class="h-stretch reveal">
           <picture>
-            <img src="/img/jpg/32.jpg" alt="32" />
+            <img src="/img/jpg/pohjamaa-1.jpg" alt="32" />
           </picture>
         </div>
         <div class="h-stretch reveal">

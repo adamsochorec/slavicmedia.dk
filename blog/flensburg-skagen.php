@@ -36,7 +36,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/flensburg-skagen-1.jpg" alt="#" />
+          <img src="/img/jpg/flensburg-skagen-1.jpg" alt="#" />
           <p>
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             aspernatur aut odio numquam eius fuga deleniti molestiae unde,

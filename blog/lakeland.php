@@ -36,7 +36,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/lakeland-1.jpg" alt="#" />
+          <img src="/img/jpg/lakeland-1.jpg" alt="#" />
           <p>
             <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Labore modi ut impedit placeat eum optio, distinctio, obcaecati
