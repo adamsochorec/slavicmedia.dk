@@ -25,8 +25,7 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
         include $IPATH . 'banner.php';
         ?>
     </aside>
-    <main>
-        <article id="about">
+    <main id="about">
         <article class="intro-section">
             <section class="intro-subsection">
               <section class="flex-center">
@@ -363,7 +362,6 @@ I'm focusing on portrait, fashion, beauty, and experimental themes. Recently I'm
                 </form>
             </section>
         </article>
-    </article>
     </main>
     <script src="/scripts/about.js"></script>
     <?php

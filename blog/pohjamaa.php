@@ -36,7 +36,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/pohjamaa/jpg/1.jpg" alt="#" />
+          <img src="/blog/img/pohjamaa-1.jpg" alt="#" />
           <p>
             <br />
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi,
@@ -45,7 +45,7 @@
             ratione cumque et? Soluta, aperiam?
           </p>
           <br />
-          <img src="/blog/img/pohjamaa/jpg/3.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/pohjamaa-3.jpg" alt="#" class="reveal" />
           <hr />
           <p class="reveal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -54,7 +54,7 @@
             laboriosam voluptas non ex?
           </p>
           <br />
-          <img src="/blog/img/pohjamaa/jpg/2.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/pohjamaa-2.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum

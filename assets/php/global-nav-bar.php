@@ -11,7 +11,7 @@
         <a
           aria-describedby="photo"
           class="navbar-style photo"
-          href="/#photo_"
+          href="/#visuals"
         ></a>
       </li>
       <li class="nav-item">

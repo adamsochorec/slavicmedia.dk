@@ -36,7 +36,7 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/västerbotten/jpg/1.jpg" alt="#" />
+          <img src="/blog/img/västerbotten-1.jpg" alt="#" />
           <p>
             <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Recusandae hic odit in amet harum quos voluptatum tempore, molestiae

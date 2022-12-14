@@ -17,8 +17,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <main>
-      <article id="web-dev">
+    <main id="web-dev">
       <article class="wrapper-standard">
         <div class="pathname-container">
           <i
@@ -54,7 +53,6 @@
                 <section>
         </section>
       </article>
-    </article>
     </main>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

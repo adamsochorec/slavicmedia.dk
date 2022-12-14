@@ -37,14 +37,18 @@
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/blåvand/jpg/1.jpg" alt="#" />
-          <p>
+          <img src="/blog/img/blåvand-1.jpg">
+          <p class="reveal">
             <br />
             It was the 12th of April when I woke up in the morning, grabbed my
             prepared backpack with lunch, and headed to Kolding train station. I
             took a train to the ??? where I changed to the bus heading to the
             west coast of Jutland peninsula, to the city Blåvand (blue water...).
-            <br />
+          </p>
+          <br>
+          <iframe class="reveal" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                   <p class="reveal">
+            <br>
             My original plan was to scout the local lighthouse, located
             approximately 35 minutes by walk from the bus station, out of the
             city. At that time was in Blåvand ??? held festivals and tiny main
@@ -59,9 +63,9 @@
           </p>
           <br />
         
-          <img src="/blog/img/blåvand/jpg/2.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/blåvand-2.jpg" alt="#" class="reveal" />
           <hr class="reveal">
-          <img src="/blog/img/blåvand/jpg/6.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/blåvand-6.jpg" alt="#" class="reveal" />
         </section>
         <br />
         <p class="reveal">
@@ -79,7 +83,7 @@
           sand.
           </p>
           <br>
-          <img src="/blog/img/blåvand/jpg/3.jpg" alt="#" class="reveal" />
+          <img src="/blog/img/blåvand-3.jpg" alt="#" class="reveal" />
           <p class="reveal">
             <br>
             Their exterior is usually covered by graffiti and some of them
@@ -140,7 +144,7 @@
           scanned content etc.)
         </p>
         <br>
-        <img src="/blog/img/blåvand/jpg/7.jpg" alt="#" class="reveal" />
+        <img src="/blog/img/blåvand-7.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br>
           I arrive at a sharp corner of the shore, where the lighthouse was built. In
@@ -149,14 +153,15 @@
           the surrounding landscape looks like a planet Scarif, everywhere I look I see dunes covered by grass of blending color, crossed by narrow paths. 
         </p>
         <br />
-        <img src="/blog/img/blåvand/jpg/5.jpg" alt="#" class="reveal" />
+        <img src="/blog/img/blåvand-5.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br>
           Back in the souvenir shop, I observe a significant amount of amber necklaces and jewellery being offered. The older lady behind the cashier's desk explains to me that with a bit of luck I can find some of those down on the beach.<br><br>
-          As I observe later when wandering along the west shore, the Danish Royal miliary likes to train in local stratified terrain and the surrounding of Blåvand is not an exception. The beach and sand fields towards the north-east accommodate several watchtowers (you can observe those on the left bottom corner of the panorama photo) and other facilities serving military purposes, such as antennas, small repositories, yellow signs announcing military areas as well as several other various models of bunkers.<br><br>Blåvand lighthouse is reachable by car, with the possibility to park nearby the sight. I would also recommend to visit nearby <a href="https://en.wikipedia.org/wiki/Tirpitz_Museum_%28Denmark%29" target="_blank" rel="no opener no-referrer">Bjerg Ingel's Tripiz bunker museum</a>.
+          As I observe later when wandering along the west shore, the Danish Royal miliary likes to train in local stratified terrain and the surrounding of Blåvand is not an exception. The beach and sand fields towards the north-east accommodate several watchtowers (you can observe those on the left bottom corner of the panorama photo) and other facilities serving military purposes, such as antennas, small repositories, yellow signs announcing military areas as well as several other various models of bunkers.<br><br>Blåvand lighthouse is reachable by car, with the possibility to park nearby the sight. I would also recommend to visit nearby Bjarke Ingels's <a href="https://en.wikipedia.org/wiki/Tirpitz_Museum_%28Denmark%29" target="_blank" rel="no opener no-referrer">Tripiz museum</a>.
         </p>
         <br />
       </article>
+      <hr>
     </main>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
