@@ -29,7 +29,8 @@
   --paragraph-weight: 250;
   --content-font: -apple-system, BlinkMacSystemFont, SegoeUI, Roboto, Oxygen,
     Ubuntu, Cantarell, OpenSans, HelveticaNeue, sans-serif;
-
+  --text-shadow-1: rgb(var(--primary-color)) 3px 3px;
+  --text-transform-1: perspective(25rem) rotateX(40deg);
   --border-1: 3px solid rgb(var(--primary-color));
   --border-radius-1: 2px;
   --border-radius-2: 10px;
@@ -70,11 +71,15 @@ body {
 ::selection {
   background: rgba(var(--secondary-color), 0.5);
 }
+#homepage article,
 main {
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: var(--content-font);
+}
+#homepage main {
+  display: block;
 }
 h1,
 h2,
@@ -109,6 +114,7 @@ h6 {
 #homepage h1,
 #homepage h2 {
   font-size: var(--fontsize-h1);
+  text-shadow: var(--text-shadow-1);
 }
 ol,
 main li,
@@ -504,7 +510,6 @@ footer {
   font-family: var(--content-font);
   list-style: none;
   opacity: 30%;
-  text-shadow: var(--objects-shadow);
 }
 footer .footer-ps p {
   font-size: calc(var(--fontsize-p) * 0.8);
@@ -771,6 +776,8 @@ nav li a.about::before {
 #kolding-expo #countdown {
   align-items: center;
   text-align: center;
+  text-shadow: var(--text-shadow-1);
+  transform: var(--text-transform-1);
 }
 #kolding-expo #countdown li {
   display: inline-block;
@@ -903,7 +910,6 @@ nav li a.about::before {
 /* BLOG START*/
 .pathname.blog:nth-child(2) a::before,
 #blog h2:before,
-.pathname-current.blog::before,
 nav li a.blog::before {
   content: "Blog";
 }
@@ -912,7 +918,7 @@ nav li a.blog::before {
 }
 #blog #house-hunting span:before,
 #house-hunting h1:before,
-#house-hunting .pathname-urrent:before {
+#house-hunting .pathname-current:before {
   content: "House Hunting 🇫🇮";
 }
 #blog #västerbotten {
@@ -1213,16 +1219,6 @@ nav li a.web::before,
     height: 18px;
   }
 }
-@media only screen and (min-width: 667px) {
-  header {
-    transition: var(--transition-1);
-  }
-  header:hover {
-    background-color: rgba(0, 0, 0, 0.781);
-    transition: var(--transition-1);
-  }
-}
-
 @media only screen and (max-width: 667px) {
   .nav-bar a span:nth-child(1) {
     font-size: calc(var(--logo-adam) * var(--logo-querries));

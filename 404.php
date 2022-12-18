@@ -27,7 +27,7 @@
         <br />
         <h2>
           <a aria-describedby="/" href="http://adamsochorec.com"
-            >Return to homepage
+            >Return to the homepage
             <svg
               id="chevron-right"
               xmlns="http://www.w3.org/2000/svg"

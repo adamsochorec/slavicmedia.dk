@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link rel="icon" href="img/Memos-logo-copy.png" type="image/png" />
     <title>About | Memos</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
 
   <body>

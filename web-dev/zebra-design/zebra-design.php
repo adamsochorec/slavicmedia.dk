@@ -21,6 +21,8 @@
     />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <title>Zebra Design</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
 
   <body>

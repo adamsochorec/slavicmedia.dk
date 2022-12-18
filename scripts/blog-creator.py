@@ -58,6 +58,28 @@ script='''<!DOCTYPE html>
           </p>
         </section>
         <hr />
+        <section>
+          <h2 class="reveal">Related literature</h2>
+          <br />
+          <ol>
+            <li class="reveal">
+              <a target="_blank" rel="noopener noreferrer" href=""> </a>
+            </li>
+            <li class="reveal">
+              <a target="_blank" rel="noopener noreferrer" href=""> </a>
+            </li>
+            <li class="reveal">
+              <a target="_blank" rel="noopener noreferrer" href=""> </a>
+            </li>
+            <li class="reveal">
+              <a target="_blank" rel="noopener noreferrer" href=""> </a>
+            </li>
+            <li class="reveal">
+              <a target="_blank" rel="noopener noreferrer" href=""> </a>
+            </li>
+          </ol>
+          <hr />
+        </section>
       </article>
     </main>
     <?php
