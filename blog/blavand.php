@@ -38,7 +38,7 @@
         <h1></h1>
         <br />
         <img
-          src="/img/jpg/blåvand-1.jpg"
+          src="/img/jpg/blavand-1.jpg"
           alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base in the sandy beach. The North Sea and another bunker can be seen in the background.s"
         />
         <p class="reveal">
@@ -78,11 +78,12 @@
         </p>
         <br />
 
-        <img src="/img/jpg/blåvand-2.jpg" alt="#" class="reveal" />
+        <img src="/img/jpg/blavand-2.jpg" alt="#" class="reveal" />
         <hr class="reveal" />
-        <img src="/img/jpg/blåvand-6.jpg" alt="#" class="reveal" />
+        <img src="/img/jpg/blavand-6.jpg" alt="#" class="reveal" />
         <br />
         <p class="reveal">
+          <br />
           Navigation states about 20 minutes of the route are remaining, after
           approaching the sea shore is time to turn a bit northern, to get along
           the 400km long west coast, which on the south meets the German border,
@@ -98,7 +99,7 @@
           bunkers simply sink into the sand.
         </p>
         <br />
-        <img src="/img/jpg/blåvand-3.jpg" alt="#" class="reveal" />
+        <img src="/img/jpg/blavand-3.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br />
           Their exterior is usually covered by graffiti and some of them have
@@ -163,7 +164,7 @@
           sharing scanned content etc.)
         </p>
         <br />
-        <img src="/img/jpg/blåvand-7.jpg" alt="#" class="reveal" />
+        <img src="/img/jpg/blavand-7.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br />
           I arrive at a sharp corner of the shore, where the lighthouse was
@@ -174,7 +175,7 @@
           crossed by narrow paths.
         </p>
         <br />
-        <img src="/img/jpg/blåvand-5.jpg" alt="#" class="reveal" />
+        <img src="/img/jpg/blavand-5.jpg" alt="#" class="reveal" />
         <p class="reveal">
           <br />
           Back in the souvenir shop, I observe a significant amount of amber

@@ -251,11 +251,11 @@ h2:before,
 #visuals {
   align-items: center;
   background-attachment: fixed;
-  display: flex;
-  justify-content: center;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 .intro-subsection {
   z-index: 1;
@@ -938,7 +938,7 @@ nav li a.blog::before {
   content: "Flensburg - Skagen 🇩🇰";
 }
 #blog #blåvand {
-  background-image: url(/img/jpg/blåvand-1.jpg);
+  background-image: url(/img/jpg/blavand-1.jpg)
 }
 #blog #blåvand span:before,
 #blåvand h1:before,
@@ -962,7 +962,7 @@ nav li a.blog::before {
   content: "Lakeland 🇫🇮";
 }
 #blog #åland {
-  background-image: url(/img/jpg/åland-1.jpg);
+  background-image: url(/img/jpg/aland-1.jpg);
 }
 #blog #åland span:before,
 #åland h1:before,

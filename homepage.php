@@ -106,7 +106,6 @@
               </a>
             </div>
           </section>
-          <hr />
         </section>
       </article>
       <!-- KOLDING EXPO END -->
@@ -417,14 +416,14 @@
                 </div>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/blåvand">
+            <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item reveal" id="blåvand">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/åland">
+            <a class="hh-stretch" href="/blog/aland">
               <div class="grid-item reveal" id="åland">
                 <div class="blur">
                   <span></span>

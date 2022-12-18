@@ -44,11 +44,18 @@
           <br />
           Inspiration for the concept of <i>House Hunting</i> I originally
           borrowed from inspiring photographer and artist
-          <a target="_blank" rel="noopener noreferrer" href="">Todd Hido</a>.
-          However, our motives and their final hand to a large extent vary. My
-          the goal was to merge urbex, my fascination of adorable Scandinavian
-          architecture, the concept of
-          <a target="_blank" rel="noopener noreferrer" href=""
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://www.toddhido.com/"
+            >Todd Hido</a
+          >. However, our motives and their final hand to a large extent vary.
+          My the goal was to merge urbex, my fascination of adorable
+          Scandinavian architecture, the concept of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/CHEAPOLDHOUSES/"
             >Cheap Old Houses</a
           >
           the project as well as Hido's narrative way of calling things from the
@@ -117,7 +124,12 @@
           <br />
           When a property owner's permission to take a look inside the building
           was authorized, me and my friend & race photographer
-          <a target="_blank" rel="noopener noreferrer" href="">Samuli</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/samuliframes/"
+            >Samuli</a
+          >
           have agreed upon a plan of catching an early Autumn sunrise.
         </p>
         <hr />
@@ -126,17 +138,26 @@
           <br />
           <ol>
             <li class="reveal">
-              <a target="_blank" rel="noopener noreferrer" href=""
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="http://www.toddhido.com/"
                 >Todd Hido's works</a
               >
             </li>
             <li class="reveal">
-              <a target="_blank" rel="noopener noreferrer" href=""
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/CHEAPOLDHOUSES/"
                 >Cheap Old Houses project</a
               >
             </li>
             <li class="reveal">
-              <a target="_blank" rel="noopener noreferrer" href=""
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/samuliframes/"
                 >Samuli's works</a
               >
             </li>
