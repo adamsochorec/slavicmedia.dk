@@ -251,11 +251,10 @@ h2:before,
 #visuals {
   align-items: center;
   background-attachment: fixed;
-  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 .intro-subsection {
   z-index: 1;
@@ -560,7 +559,7 @@ nav li a.photo::before {
   content: "Visuals";
 }
 #visuals .intro-section {
-  background-image: url(/img/jpg/5.jpg);
+  background-image: url(/img/jpg/2208722.jpg);
 }
 #visuals .social-icons {
   text-align: center;
@@ -741,7 +740,7 @@ nav li a.about::before {
   content: "Kolding Expo";
 }
 #kolding-expo .intro-section {
-  background-image: url(/img/jpg/kolding-expo.jpg);
+  background-image: url(/img/jpg/IMG_0922.jpg);
 }
 #kolding-expo h2 {
   margin-bottom: 0;
@@ -914,7 +913,7 @@ nav li a.blog::before {
   content: "Blog";
 }
 #blog #house-hunting {
-  background-image: url(/img/jpg/house-hunting-1.jpg);
+  background-image: url(/img/jpg/2209552.jpg);
 }
 #blog #house-hunting span:before,
 #house-hunting h1:before,
@@ -922,7 +921,7 @@ nav li a.blog::before {
   content: "House Hunting 🇫🇮";
 }
 #blog #västerbotten {
-  background-image: url(/img/jpg/västerbotten-1.jpg);
+  background-image: url(/img/jpg/2209543.jpg);
 }
 #blog #västerbotten span:before,
 #västerbotten h1:before,
@@ -930,7 +929,7 @@ nav li a.blog::before {
   content: "Västerbotten 🇸🇪";
 }
 #blog #flensburg-skagen {
-  background-image: url(/img/jpg/flensburg-skagen-1.jpg);
+  background-image: url(/img/jpg/2209582.jpg);
 }
 #blog #flensburg-skagen span:before,
 #flensburg-skagen h1:before,
@@ -938,7 +937,7 @@ nav li a.blog::before {
   content: "Flensburg - Skagen 🇩🇰";
 }
 #blog #blåvand {
-  background-image: url(/img/jpg/blavand-1.jpg)
+  background-image: url(/img/jpg/IMG_1801.jpg);
 }
 #blog #blåvand span:before,
 #blåvand h1:before,
@@ -946,7 +945,7 @@ nav li a.blog::before {
   content: "Blåvand 🇩🇰";
 }
 #blog #pohjamaa {
-  background-image: url(/img/jpg/pohjamaa-1.jpg);
+  background-image: url(/img/jpg2209505.jpg);
 }
 #blog #pohjamaa span:before,
 #pohjamaa h1:before,
@@ -954,7 +953,7 @@ nav li a.blog::before {
   content: "Pohjamaa 🇫🇮";
 }
 #blog #lakeland {
-  background-image: url(/img/jpg/lakeland-1.jpg);
+  background-image: url(/img/jpg/IMG_2274.jpg);
 }
 #blog #lakeland span:before,
 #lakeland h1:before,
@@ -962,7 +961,7 @@ nav li a.blog::before {
   content: "Lakeland 🇫🇮";
 }
 #blog #åland {
-  background-image: url(/img/jpg/aland-1.jpg);
+  background-image: url(/img/jpg/2209582.jpg);
 }
 #blog #åland span:before,
 #åland h1:before,

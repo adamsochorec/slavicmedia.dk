@@ -67,7 +67,7 @@ function scrollStatus() {
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    monthDay = "01/07/",
+    monthDay = "01/06/",
     birthday = monthDay + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;

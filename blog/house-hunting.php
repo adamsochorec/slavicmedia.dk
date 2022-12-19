@@ -37,7 +37,7 @@
         <h1></h1>
         <br />
         <img
-          src="/img/jpg/house-hunting-1.jpg"
+          src="/img/jpg/2209552.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
         />
         <p>
@@ -64,7 +64,7 @@
 
         <br />
         <img
-          src="/img/jpg/house-hunting-2.jpg"
+          src="/img/jpg/2209553.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           class="reveal"
         />
@@ -79,7 +79,7 @@
         </p>
         <br />
         <img
-          src="/img/jpg/house-hunting-3.jpg"
+          src="/img/jpg/2209554.jpg"
           alt="Photo of an empty room in the abandoned building, lit by the morning sun."
           class="reveal"
         />
@@ -95,7 +95,7 @@
         </p>
         <br />
         <img
-          src="/img/jpg/house-hunting-4.jpg"
+          src="/img/jpg/2209557.jpg"
           alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
           class="reveal"
         />
@@ -109,7 +109,7 @@
           sank.<br /><br />Notherless there is a chance to have faith into local
           authorities:<br />
           <b
-            ><i>
+            ><i class="reveal">
               ...based on the age and possible historical value the The
               Ostrobothnian museum will likely be consulted before a demolition
               a permit is issued.</i
@@ -117,9 +117,9 @@
           >
         </p>
         <br />
-        <img src="/img/jpg/house-hunting-5.jpg" alt="Interior shot of a corner,
-        with several bleached spots on the wall's plaster. Most likely there
-        have been hanging framed photos and paintings.” class="reveal" />
+        <img class="reveal" src="/img/jpg/2209562.jpg" alt="Interior shot of a
+        corner, with several bleached spots on the wall's plaster. Most likely
+        there have been hanging framed photos and paintings.” class="reveal" />
         <p class="reveal">
           <br />
           When a property owner's permission to take a look inside the building

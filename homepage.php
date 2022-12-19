@@ -133,42 +133,42 @@
         <section id="photo_" class="grid-container">
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/1.jpg" alt="1" />
+              <img src="/img/jpg/2208998.jpg" alt="2208998" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/2.jpg" alt="2" />
+              <img src="/img/jpg/2208997.jpg" alt="2208997" />
             </picture>
           </div>
           <div class="hhh-stretch reveal">
             <picture>
-              <img src="/img/jpg/3.jpg" alt="3" />
+              <img src="/img/jpg/2208724.jpg" alt="2208724" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/4.jpg" alt="4" />
+              <img src="/img/jpg/2108021.jpg" alt="2108021" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/5.jpg" alt="5" />
+              <img src="/img/jpg/2208722.jpg" alt="2208722" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/7.jpg" alt="7" />
+              <img src="/img/jpg/2107239.jpg" alt="2107239" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/6.jpg" alt="6" />
+              <img src="/img/jpg/2107768.jpg" alt="2107768" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/8.jpg" alt="8" />
+              <img src="/img/jpg/2108073.jpg" alt="2108073" />
             </picture>
           </div>
           <div class="h-stretch sketchfab-embed-wrapper reveal">
@@ -209,57 +209,57 @@
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/10.jpg" alt="10" />
+              <img src="/img/jpg/2005652.jpg" alt="2005652" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/9.jpg" alt="9" />
+              <img src="/img/jpg/2107409.jpg" alt="2107409" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/37.jpg" alt="37" />
+              <img src="/img/jpg/2108366.jpg" alt="2108366" />
             </picture>
           </div>
           <div class="hh-stretch reveal">
             <picture>
-              <img src="/img/jpg/11.jpg" alt="11" />
+              <img src="/img/jpg/2106977.jpg" alt="2106977" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/12.jpg" alt="12" />
+              <img src="/img/jpg/2108100.jpg" alt="2108100" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/13.jpg" alt="13" />
+              <img src="/img/jpg/2108255.jpg" alt="2108255" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/14.jpg" alt="14" />
+              <img src="/img/jpg/2108035.jpg" alt="2108035" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/18.jpg" alt="18" />
+              <img src="/img/jpg/2108089.jpg" alt="2108089" />
             </picture>
           </div>
           <div class="hh-stretch reveal">
             <picture>
-              <img src="/img/jpg/17.jpg" alt="17" />
+              <img src="/img/jpg/2107074.jpg" alt="2107074" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/15.jpg" alt="15" />
+              <img src="/img/jpg/2106964.jpg" alt="2106964" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/16.jpg" alt="16" />
+              <img src="/img/jpg/2107012.jpg" alt="2107012" />
             </picture>
           </div>
           <div class="h-stretch reveal">
@@ -274,70 +274,50 @@
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/19.jpg" alt="19" />
+              <img src="/img/jpg/2108109.jpg" alt="2108109" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/21.jpg" alt="21" />
+              <img src="/img/jpg/2005937.2.jpg" alt="2005937.2" />
             </picture>
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/20.jpg" alt="20" />
+              <img src="/img/jpg/2108491.jpg" alt="2108491" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/house-hunting-1.jpg" alt="46" />
+              <img src="/img/jpg/2209552.jpg" alt="2209552" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/house-hunting-2.jpg" alt="45" />
+              <img src="/img/jpg/2209553.jpg" alt="2209553" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/24.jpg" alt="24" />
+              <img src="/img/jpg/2208816.jpg" alt="2209503" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/pohjamaa-3.jpg" alt="35" />
+              <img src="/img/jpg/2209509.jpg" alt="2209509" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/pohjamaa-1.jpg" alt="32" />
+              <img src="/img/jpg/2209505.jpg" alt="2209505" />
             </picture>
           </div>
           <div class="h-stretch reveal">
             <picture>
-              <img src="/img/jpg/25.jpg" alt="25" />
+              <img src="/img/jpg/2208818.jpg" alt="2208818" />
             </picture>
           </div>
-          <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/30.jpg" alt="30" />
-            </picture>
-          </div>
-          <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/pohjamaa-2.jpg" alt="33" />
-            </picture>
-          </div>
-          <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/31.jpg" alt="31" />
-            </picture>
-          </div>
-          <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/28.jpg" alt="28" />
-            </picture>
-          </div>
-          <div class="h-stretch sketchfab-embed-wrapper reveal">
+          <div class="hhh-stretch sketchfab-embed-wrapper reveal">
             <iframe
               title="Element | vzor 9"
               frameborder="0"
@@ -354,11 +334,10 @@
             </iframe>
           </div>
         </section>
+        <hr id="web-dev" />
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-      <br id="web-dev" />
-      <br />
       <article id="web-dev">
         <section class="wrapper-standard">
           <br />
@@ -398,11 +377,11 @@
             </a>
           </section>
         </section>
+        <hr id="blog" />
       </article>
+
       <!-- WEB DEV END -->
       <!-- BLOG START -->
-      <br id="blog" />
-      <br />
       <article id="blog">
         <section class="wrapper-standard">
           <br />
@@ -432,8 +411,9 @@
             </a>
           </section>
         </section>
+        <hr />
+
         <br id="about" />
-        <br />
       </article>
       <!-- BLOG END -->
       <!-- ABOUT START -->
@@ -514,7 +494,7 @@
             <picture>
               <img
                 class="reveal"
-                src="/img/jpg/about.jpg"
+                src="/img/jpg/2208841.jpg"
                 alt="Portrait of Adam Sochorec in a blue shirt"
               />
             </picture>
@@ -522,7 +502,7 @@
             <picture>
               <img
                 class="reveal"
-                src="/img/jpg/partners.png"
+                src="/img/jpg/2209885.jpg"
                 alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
               />
             </picture>

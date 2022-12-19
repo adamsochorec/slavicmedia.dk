@@ -41,7 +41,7 @@
           <h1></h1>
           <br />
           <img
-            src="/img/jpg/aland-1.jpg"
+            src="/img/jpg/2209582.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colored forest in a half"
           />
           <p>
@@ -110,7 +110,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-2.jpg"
+            src="/img/jpg/2209566.jpg"
             class="reveal"
             alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
           />
@@ -135,7 +135,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-3.jpg"
+            src="/img/jpg/2209571.jpg"
             class="reveal"
             alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
           />
@@ -160,7 +160,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-4.jpg"
+            src="/img/jpg/2209575.jpg"
             class="reveal"
             alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
           />
@@ -182,9 +182,13 @@
             strategy for our upcoming day.
           </p>
           <br />
-          <img src="/img/jpg/aland-5.jpg" class="reveal" alt="Outside view at
+          <img
+            src="/img/jpg/2209579.jpg"
+            class="reveal"
+            alt="Outside view at
           our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
-          keeping an eye on a campfire.” />
+          keeping an eye on a campfire."
+          />
           <p class="reveal">
             <br />Before leaving the cave, I and Marcel scouted our surrounding
             countryside, we were quite surprised when we discovered
@@ -193,12 +197,12 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-6.jpg"
+            src="/img/jpg/2209585.jpg"
             class="reveal"
             alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
           />
           <p class="reveal">
-            <br />, Later on, that day we were again on our feet, walking on the
+            <br />Later on, that day we were again on our feet, walking on the
             red roads, that are just everywhere you go on Ålands, passing rural
             house settlements and farms seeking good souls with thumbs up once
             again.<br />This time our carriers consisted of two fresh-looking
@@ -212,7 +216,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-7.jpg"
+            src="/img/jpg/2209583.jpg"
             class="reveal"
             alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
           />
@@ -238,7 +242,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-8.jpg"
+            src="/img/jpg/2209588.jpg"
             class="reveal"
             alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
           />
@@ -255,7 +259,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-9.jpg"
+            src="/img/jpg/2209600.jpg"
             class="reveal"
             alt="Photo of an empty road through the Autumn coloured forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
           />
@@ -296,7 +300,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-11.jpg"
+            src="/img/jpg/2209605.jpg"
             class="reveal"
             alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
           />

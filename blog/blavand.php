@@ -38,7 +38,7 @@
         <h1></h1>
         <br />
         <img
-          src="/img/jpg/blavand-1.jpg"
+          src="/img/jpg/IMG_1801.jpg"
           alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base in the sandy beach. The North Sea and another bunker can be seen in the background.s"
         />
         <p class="reveal">
@@ -78,9 +78,17 @@
         </p>
         <br />
 
-        <img src="/img/jpg/blavand-2.jpg" alt="#" class="reveal" />
+        <img
+          src="/img/jpg/IMG_1754.jpg"
+          alt="Photo of a rusty grass growing trough sandy beach with the North sea in the background "
+          class="reveal"
+        />
         <hr class="reveal" />
-        <img src="/img/jpg/blavand-6.jpg" alt="#" class="reveal" />
+        <img
+          src="/img/jpg/IMG_1787.jpg"
+          alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
+          class="reveal"
+        />
         <br />
         <p class="reveal">
           <br />
@@ -99,7 +107,11 @@
           bunkers simply sink into the sand.
         </p>
         <br />
-        <img src="/img/jpg/blavand-3.jpg" alt="#" class="reveal" />
+        <img
+          src="/img/jpg/IMG_1749.jpg"
+          alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
+          class="reveal"
+        />
         <p class="reveal">
           <br />
           Their exterior is usually covered by graffiti and some of them have
@@ -164,7 +176,11 @@
           sharing scanned content etc.)
         </p>
         <br />
-        <img src="/img/jpg/blavand-7.jpg" alt="#" class="reveal" />
+        <img
+          src="/img/jpg/IMG_1800.jpg"
+          alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
+          class="reveal"
+        />
         <p class="reveal">
           <br />
           I arrive at a sharp corner of the shore, where the lighthouse was
@@ -175,7 +191,11 @@
           crossed by narrow paths.
         </p>
         <br />
-        <img src="/img/jpg/blavand-5.jpg" alt="#" class="reveal" />
+        <img
+          src="/img/jpg/IMG_1762.jpg"
+          alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
+          class="reveal"
+        />
         <p class="reveal">
           <br />
           Back in the souvenir shop, I observe a significant amount of amber
