@@ -277,7 +277,7 @@
           </p>
           <br />
           <img
-            src="/img/jpg/aland-10.jpg"
+            src="/img/jpg/2209595.jpg"
             class="reveal"
             alt="Photo of two
           really old Jewish gravestones on the former cemetery in the middle of
