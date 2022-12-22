@@ -27,7 +27,6 @@
       <!-- KOLDING EXPO START -->
       <article id="kolding-expo">
         <div class="blur h-background"></div>
-
         <section class="intro-section">
           <section class="intro-subsection">
             <section class="" id="countdown">
@@ -51,8 +50,11 @@
               >
               </lottie-player>
             </section>
+
           </section>
+
         </section>
+
         <section class="wrapper-standard">
           <section>
             <br />
