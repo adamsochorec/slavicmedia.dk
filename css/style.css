@@ -178,6 +178,14 @@ img,
 svg {
   vertical-align: middle;
 }
+#about iframe,
+#about img,
+.blog-item iframe,
+.blog-item img {
+  transform: scale(1.1);
+  margin: 3rem 0;
+}
+
 img,
 iframe,
 source,
@@ -228,6 +236,9 @@ hr {
   opacity: 1;
   transform: translateY(0px);
 }
+p.reveal.active {
+  z-index: -1;
+}
 h1:before,
 h2:before,
 .pathname-current:before {
@@ -238,7 +249,7 @@ h2:before,
   position: fixed;
   top: var(--nav-bar-top-position);
   width: 100%;
-  z-index: 99999999;
+  z-index: 9;
 }
 .progress-bar {
   background: rgb(var(--secondary-color));
@@ -614,6 +625,9 @@ nav li a.about::before {
 }
 #about .intro-section {
   background-image: url(/img/gif/about.gif);
+}
+#about .partner-logos {
+  margin: 0;
 }
 /* language competences start */
 #about .grid-container p {
@@ -992,10 +1006,10 @@ nav li a.web::before,
   content: none;
 }
 #web-dev #zebra-design {
-  background-image: url(/web-dev/zebra-design/img/zebraGif.gif);
+  background-image: url(/web-dev/zebra-design/img/zebraGif_icon.jpg);
 }
 #web-dev #memos {
-  background-image: url(/web-dev/memos/img/_MG_0188.jpg);
+  background-image: url(/web-dev/memos/img/_MG_0188_icon.jpg);
 }
 /* WEB PROJECTS END */
 
@@ -1123,8 +1137,8 @@ nav li a.web::before,
   #cybersecurity .password-calculator {
     filter: saturate(100%);
   }
-  #success h1,
-  #error h1 {
+  #error h1,
+  #success h1 {
     font-size: var(--fontsize-h5);
   }
   #error h2,
@@ -1141,28 +1155,18 @@ nav li a.web::before,
   }
   .gallery .reveal {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
   }
-  img, img:hover, iframe, iframe:hover{
+  #about img,
+  #about img:hover,
+  .blog-item img,
+  .blog-item img:hover,
+  .blog-item iframe,
+  .blog-item iframe:hover {
     z-index: 9;
     transition: var(--transition-1);
-
   }
-  #åland img:hover,   #blåvand img:hover,  #house-hunting img:hover, #about img:hover, #åland iframe:hover,   #blåvand iframe:hover,  #house-hunting iframe:hover{
-    transform: scale(1.3);
-  }
-  #about .partner-logos:hover, #about .partner-logos{
-    z-index: 1;
-  }
-  #house-hunting img:hover body{
-    background-color: black;
-    color: black;
-    background: black;
-
-  }
-
 }
-
 @media only screen and (max-width: 500px) {
   .hide {
     display: none;
@@ -1185,10 +1189,9 @@ nav li a.web::before,
   .grid-container.gallery .blur {
     aspect-ratio: 10/2;
   }
-
+  #web-dev .gallery .grid-item span,
   .gallery .grid-item span,
-  .gallery .hh-stretch .grid-item span,
-  #web-dev .gallery .grid-item span {
+  .gallery .hh-stretch .grid-item span {
     font-size: var(--fontsize-h5);
   }
 }
@@ -1197,8 +1200,8 @@ nav li a.web::before,
   .vv-stretch {
     grid-row: span 1;
   }
-  .h-stretch,
-  #visuals .hh-stretch {
+  #visuals .hh-stretch,
+  .h-stretch {
     grid-column: span 1;
   }
   .hhh-stretch {
@@ -1212,8 +1215,8 @@ nav li a.web::before,
   .pathname-container {
     margin-top: 4rem;
   }
-  #visuals .pathname-container,
-  #about .pathname-container {
+  #about .pathname-container,
+  #visuals .pathname-container {
     margin-top: 8rem;
   }
 }
@@ -1244,8 +1247,8 @@ nav li a.web::before,
   .nav-bar a span:nth-child(2) {
     font-size: calc(var(--logo-sochorec) * var(--logo-querries));
   }
-  h1,
-  .intro-section h2 {
+  .intro-section h2,
+  h1 {
     font-size: calc(var(--fontsize-h1) * 0.7);
   }
   h2 {
@@ -1282,6 +1285,7 @@ nav li a.web::before,
     position: fixed;
     top: var(--nav-bar-top-position);
     width: 100%;
+    transition: var(--transition-2);
   }
   :root {
     --menu-padding: 0 1rem;
@@ -1292,6 +1296,7 @@ nav li a.web::before,
     left: 0;
     padding: var(--menu-padding);
     z-index: 99999999;
+    transition: var(--transition-2);
   }
   .nav-item {
     font-size: var(--fontsize-p);
@@ -1323,10 +1328,7 @@ nav li a.web::before,
   header .blur.active {
     height: 100vh;
   }
-  body.active {
-    overflow-y: hidden;
-  }
-  .banner-container {
+  body.active .banner-container {
     top: var(--nav-bar-top-position);
   }
   @keyframes fade {
@@ -1358,9 +1360,26 @@ nav li a.web::before,
   }
 }
 @media only screen and (max-width: 947px) {
-  .wrapper-standard,
-  .wrapper-narrow {
+  .wrapper-narrow,
+  .wrapper-standard {
     padding: 0 1.25rem 1rem 1.25rem;
+  }
+  #about img,
+  .blog-item img,
+  .blog-item iframe {
+    transform: scale(1.1);
+    margin: 2rem 0;
+  }
+}
+@media only screen and (min-width: 947px) {
+  #about img:hover,
+  .blog-item img:hover,
+  .blog-item iframe:hover {
+    transform: scale(1.5);
+  }
+  #about .partner-logos,
+  #about .partner-logos:hover {
+    z-index: 1;
   }
 }
 /* MEDIA QUERRIES END */

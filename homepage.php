@@ -50,9 +50,7 @@
               >
               </lottie-player>
             </section>
-
           </section>
-
         </section>
 
         <section class="wrapper-standard">
@@ -491,7 +489,6 @@
               software.<br /><br />Hereby open to collaborations and projects!
             </p>
           </section>
-          <hr />
           <section>
             <picture>
               <img
@@ -500,7 +497,6 @@
                 alt="Portrait of Adam Sochorec in a blue shirt"
               />
             </picture>
-            <br /><br />
             <picture>
               <img
                 class="reveal partner-logos"

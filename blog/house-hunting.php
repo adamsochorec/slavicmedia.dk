@@ -13,7 +13,7 @@
     ?>
   </head>
 
-  <body id="house-hunting">
+  <body id="house-hunting" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -35,13 +35,11 @@
         </div>
         <br />
         <h1></h1>
-        <br />
         <img
           src="/img/jpg/2209552.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
         />
         <p>
-          <br />
           Inspiration for the concept of <i>House Hunting</i> I originally
           borrowed from inspiring photographer and artist
           <a
@@ -62,14 +60,11 @@
           past by capturing their current state or left marks.
         </p>
 
-        <br />
         <img
           src="/img/jpg/2209553.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-          class="reveal"
         />
         <p class="reveal">
-          <br />
           In a past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
           Even though the exterior atmosphere was slightly more matching to the
@@ -77,30 +72,24 @@
           captured trough long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
-        <br />
         <img
           src="/img/jpg/2209554.jpg"
           alt="Photo of an empty room in the abandoned building, lit by the morning sun."
-          class="reveal"
         />
         <p class="reveal">
-          <br />During one of my walks in the neighbourhood of Palosaari, I
-          couldn't unnoticed the beautiful pale green colour of low-key
-          old-fashioned family house. After closer inspection, I noticed broken
-          windows and entrance stairs, so I was quite sure the building is
-          uninhabited. The building immediately triggered my photographer's
-          instinct. I saw an opportunity to play around and implement some new
-          elements into something I've been already working with. Tempting, I
-          thought.
+          During one of my walks in the neighbourhood of Palosaari, I couldn't
+          unnoticed the beautiful pale green colour of low-key old-fashioned
+          family house. After closer inspection, I noticed broken windows and
+          entrance stairs, so I was quite sure the building is uninhabited. The
+          building immediately triggered my photographer's instinct. I saw an
+          opportunity to play around and implement some new elements into
+          something I've been already working with. Tempting, I thought.
         </p>
-        <br />
         <img
           src="/img/jpg/2209557.jpg"
           alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
-          class="reveal"
         />
         <p class="reveal">
-          <br />
           Beforehand I established communication with a department of city
           planning, to gain some insight into the property. We figured out that
           the building is marked as a demolition project, so my initial the idea
@@ -117,11 +106,13 @@
           >
         </p>
         <br />
-        <img class="reveal" src="/img/jpg/2209562.jpg" alt="Interior shot of a
+        <img
+          src="/img/jpg/2209562.jpg"
+          alt="Interior shot of a
         corner, with several bleached spots on the wall's plaster. Most likely
-        there have been hanging framed photos and paintings.” class="reveal" />
+        there have been hanging framed photos and paintings."
+        />
         <p class="reveal">
-          <br />
           When a property owner's permission to take a look inside the building
           was authorized, me and my friend & race photographer
           <a
