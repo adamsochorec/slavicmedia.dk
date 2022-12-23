@@ -343,7 +343,7 @@
           <br />
           <h2></h2>
           <br />
-          <section class="grid-container gallery">
+          <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/web-dev/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
                 <div class="blur">
@@ -387,7 +387,7 @@
           <br />
           <h2></h2>
           <br />
-          <section class="grid-container gallery">
+          <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/house-hunting">
               <div class="grid-item reveal" id="house-hunting">
                 <div class="blur">
@@ -489,7 +489,8 @@
               software.<br /><br />Hereby open to collaborations and projects!
             </p>
           </section>
-          <section>
+          <br />
+          <section class="reveal">
             <picture>
               <img
                 class="reveal"
@@ -497,6 +498,8 @@
                 alt="Portrait of Adam Sochorec in a blue shirt"
               />
             </picture>
+          </section>
+          <section class="reveal">
             <picture>
               <img
                 class="reveal partner-logos"

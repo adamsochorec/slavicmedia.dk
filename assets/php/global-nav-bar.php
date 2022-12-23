@@ -41,5 +41,5 @@
     <!-- RESPONSIVE HAMBURGER MENU END -->
   </nav>
   <!-- NAVIGATION BAR END -->
-  <div class="blur"></div>
+  <div class="blur master-blur"></div>
 </header>

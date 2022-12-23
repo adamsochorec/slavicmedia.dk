@@ -1372,14 +1372,13 @@ nav li a.web::before,
   }
 }
 @media only screen and (min-width: 947px) {
-  #about img:hover,
   .blog-item img:hover,
   .blog-item iframe:hover {
     transform: scale(1.5);
   }
-  #about .partner-logos,
-  #about .partner-logos:hover {
-    z-index: 1;
-  }
+}
+.blur.master-blur.hovered {
+  height: 100vh;
+  z-index: -99;
 }
 /* MEDIA QUERRIES END */

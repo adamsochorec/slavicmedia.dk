@@ -23,6 +23,23 @@ function closeMenu() {
   scrollStop.classList.remove("active");
 }
 
+// IMAGE LIGHTBOX
+/*
+const hoveredArea = document.querySelector("img");
+const blurArea = document.querySelector(".master-blur");
+
+hoveredArea.addEventListener("mouseover", lightbox);
+
+function lightbox() {
+  blurArea.classList.toggle("hovered");
+}
+
+hoveredArea.addEventListener("mouseout", noLightbox);
+
+function noLightbox() {
+  blurArea.classList.remove("hovered");
+}
+*/
 // REVERAL CONTENT
 window.addEventListener("scroll", reveal);
 

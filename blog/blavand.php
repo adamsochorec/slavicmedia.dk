@@ -46,18 +46,23 @@
           took a train to Oksbøl, not far away from my final destination - the
           the westernmost point of Denmark, the city Blåvand (blue water).
         </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
-          width="800"
-          height="600"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          ><p class="alt-alt">
-            Satellite view of the westernmost protrusion of continental Denmark.
-          </p></iframe
-        >
+
+        <section class="reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            ><p class="alt-alt">
+              Satellite view of the westernmost protrusion of continental
+              Denmark.
+            </p></iframe
+          >
+        </section>
+
         <p class="reveal">
           My original plan was to scout the local lighthouse, located
           approximately 35 minutes by walk from the bus station, out of the
@@ -71,10 +76,13 @@
           recreation colony turns into alone standing houses, in the middle of
           dunes usually built a few meters from the sea.
         </p>
-        <img
-          src="/img/jpg/IMG_1787.jpg"
-          alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/IMG_1787.jpg"
+            alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
+          />
+        </section>
+
         <p class="reveal">
           Navigation states about 20 minutes of the route are remaining, after
           approaching the sea shore is time to turn a bit northern, to get along
@@ -90,10 +98,12 @@
           too much of a deal, even for Hitler's engineers. The majority of the
           bunkers simply sink into the sand.
         </p>
-        <img
-          src="/img/jpg/IMG_1749.jpg"
-          alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/IMG_1749.jpg"
+            alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
+          />
+        </section>
         <p class="reveal">
           Their exterior is usually covered by graffiti and some of them have
           additional Grotesk metal construction, shaping them like a horse or
@@ -105,7 +115,7 @@
           by human creativity and the attitude of youths. It is hard to imagine
           something more embarrassing could happen to those constructions.
         </p>
-        <section>
+        <section class="reveal">
           <div class="sketchfab-embed-wrapper">
             <iframe
               title="Blåvand bunker | vzor 2"
@@ -136,10 +146,12 @@
           are also several ways how to scan for free (creating user profiles,
           sharing scanned content etc.)
         </p>
-        <img
-          src="/img/jpg/IMG_1800.jpg"
-          alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/IMG_1800.jpg"
+            alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
+          />
+        </section>
         <p class="reveal">
           I arrive at a sharp corner of the shore, where the lighthouse was
           built. In a tiny house, that probably used to serve the lighthouse's
@@ -148,10 +160,13 @@
           everywhere I look I see dunes covered by grass of blending colours,
           crossed by narrow paths.
         </p>
-        <img
-          src="/img/jpg/IMG_1762.jpg"
-          alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/IMG_1762.jpg"
+            alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
+          />
+        </section>
+
         <p class="reveal">
           Back in the souvenir shop, I observe a significant amount of amber
           necklaces and jewellery being offered. The older lady behind the

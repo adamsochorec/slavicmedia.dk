@@ -39,7 +39,8 @@
           src="/img/jpg/2209552.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
         />
-        <p>
+
+        <p class="reveal">
           Inspiration for the concept of <i>House Hunting</i> I originally
           borrowed from inspiring photographer and artist
           <a
@@ -59,11 +60,13 @@
           the project as well as Hido's narrative way of calling things from the
           past by capturing their current state or left marks.
         </p>
+        <section class="reveal">
+          <img
+            src="/img/jpg/2209553.jpg"
+            alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+          />
+        </section>
 
-        <img
-          src="/img/jpg/2209553.jpg"
-          alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-        />
         <p class="reveal">
           In a past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
@@ -72,10 +75,13 @@
           captured trough long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
-        <img
-          src="/img/jpg/2209554.jpg"
-          alt="Photo of an empty room in the abandoned building, lit by the morning sun."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/2209554.jpg"
+            alt="Photo of an empty room in the abandoned building, lit by the morning sun."
+          />
+        </section>
+
         <p class="reveal">
           During one of my walks in the neighbourhood of Palosaari, I couldn't
           unnoticed the beautiful pale green colour of low-key old-fashioned
@@ -85,10 +91,13 @@
           opportunity to play around and implement some new elements into
           something I've been already working with. Tempting, I thought.
         </p>
-        <img
-          src="/img/jpg/2209557.jpg"
-          alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
-        />
+        <section class="reveal">
+          <img
+            src="/img/jpg/2209557.jpg"
+            alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
+          />
+        </section>
+
         <p class="reveal">
           Beforehand I established communication with a department of city
           planning, to gain some insight into the property. We figured out that
@@ -106,12 +115,15 @@
           >
         </p>
         <br />
-        <img
-          src="/img/jpg/2209562.jpg"
-          alt="Interior shot of a
+        <section class="reveal">
+          <img
+            src="/img/jpg/2209562.jpg"
+            alt="Interior shot of a
         corner, with several bleached spots on the wall's plaster. Most likely
         there have been hanging framed photos and paintings."
-        />
+          />
+        </section>
+
         <p class="reveal">
           When a property owner's permission to take a look inside the building
           was authorized, me and my friend & race photographer
