@@ -208,6 +208,7 @@ hr {
   color: grey;
   margin: 2rem 0;
   opacity: 60%;
+  z-index: 3;
 }
 .wrapper-standard,
 hr {
@@ -570,7 +571,7 @@ nav li a.photo::before {
   content: "Visuals";
 }
 #visuals .intro-section {
-  background-image: url(/img/jpg/2208722.jpg);
+  background-image: url(/img/jpg/2207910.jpg);
 }
 #visuals .social-icons {
   text-align: center;
@@ -927,7 +928,7 @@ nav li a.blog::before {
   content: "Blog";
 }
 #blog #house-hunting {
-  background-image: url(/img/jpg/2209552_icon.jpg);
+  background-image: url(/img/jpg/2208845_icon.jpg);
 }
 #blog #house-hunting span:before,
 #house-hunting h1:before,
@@ -935,7 +936,7 @@ nav li a.blog::before {
   content: "House Hunting 🇫🇮";
 }
 #blog #västerbotten {
-  background-image: url(/img/jpg/2209543_icon.jpg);
+  background-image: url(/img/jpg/_icon.jpg);
 }
 #blog #västerbotten span:before,
 #västerbotten h1:before,
@@ -943,7 +944,7 @@ nav li a.blog::before {
   content: "Västerbotten 🇸🇪";
 }
 #blog #flensburg-skagen {
-  background-image: url(/img/jpg/2209582_icon.jpg);
+  background-image: url(/img/jpg/_icon.jpg);
 }
 #blog #flensburg-skagen span:before,
 #flensburg-skagen h1:before,
@@ -951,7 +952,7 @@ nav li a.blog::before {
   content: "Flensburg - Skagen 🇩🇰";
 }
 #blog #blåvand {
-  background-image: url(/img/jpg/IMG_1801_icon.jpg);
+  background-image: url(/img/jpg/_icon.jpg);
 }
 #blog #blåvand span:before,
 #blåvand h1:before,
@@ -959,7 +960,7 @@ nav li a.blog::before {
   content: "Blåvand 🇩🇰";
 }
 #blog #pohjamaa {
-  background-image: url(/img/jpg/2209505_icon.jpg);
+  background-image: url(/img/jpg/_icon.jpg);
 }
 #blog #pohjamaa span:before,
 #pohjamaa h1:before,
@@ -1375,6 +1376,7 @@ nav li a.web::before,
   .blog-item img:hover,
   .blog-item iframe:hover {
     transform: scale(1.5);
+    z-index:99;
   }
 }
 .blur.master-blur.hovered {

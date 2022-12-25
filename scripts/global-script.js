@@ -72,7 +72,11 @@ function scrollStatus() {
   const scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-
+/*
+if (scrolled = 0) {
+  document.querySelector(".progress-bar").style.width = 0;
+}
+*/
 // TIMER
 (function countdown() {
   const second = 1000,

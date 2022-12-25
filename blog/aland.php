@@ -40,7 +40,7 @@
           <br />
           <h1></h1>
           <img
-            src="/img/jpg/2209582.jpg"
+            src="/img/jpg/2208875.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colored forest in a half"
           />
           <p class="reveal">
@@ -108,7 +108,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209566.jpg"
+              src="/img/jpg/2208859.jpg"
               alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
             />
           </section>
@@ -134,7 +134,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209571.jpg"
+              src="/img/jpg/2208864.jpg"
               alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
             />
           </section>
@@ -160,7 +160,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209575.jpg"
+              src="/img/jpg/2208868.jpg"
               alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
             />
           </section>
@@ -183,7 +183,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209579.jpg"
+              src="/img/jpg/2208872.jpg"
               alt="Outside view at
           our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
           keeping an eye on a campfire."
@@ -198,7 +198,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209585.jpg"
+              src="/img/jpg/2208878.jpg"
               alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
             />
           </section>
@@ -218,7 +218,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209583.jpg"
+              src="/img/jpg/2208876.jpg"
               alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
             />
           </section>
@@ -245,7 +245,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209588.jpg"
+              src="/img/jpg/2208881.jpg"
               alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
             />
           </section>
@@ -263,7 +263,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209600.jpg"
+              src="/img/jpg/2208893.jpg"
               alt="Photo of an empty road through the Autumn coloured forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
             />
           </section>
@@ -305,7 +305,7 @@
           </p>
           <section class="reveal">
             <img
-              src="/img/jpg/2209605.jpg"
+              src="/img/jpg/2208898.jpg"
               alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
             />
           </section>
