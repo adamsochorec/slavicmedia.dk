@@ -37,7 +37,7 @@
         <br />
         <h1></h1>
         <img
-          src="/img/jpg/IMG_1801.jpg"
+          src="/img/jpg/2208133.jpg"
           alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base in the sandy beach. The North Sea and another bunker can be seen in the background.s"
         />
         <p class="reveal">
@@ -78,7 +78,7 @@
         </p>
         <section class="reveal">
           <img
-            src="/img/jpg/IMG_1787.jpg"
+            src="/img/jpg/2208129.jpg"
             alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </section>
@@ -100,7 +100,7 @@
         </p>
         <section class="reveal">
           <img
-            src="/img/jpg/IMG_1749.jpg"
+            src="/img/jpg/2208118.jpg"
             alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
           />
         </section>
@@ -148,7 +148,7 @@
         </p>
         <section class="reveal">
           <img
-            src="/img/jpg/IMG_1800.jpg"
+            src="/img/jpg/2208141.jpg"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
         </section>
@@ -162,7 +162,7 @@
         </p>
         <section class="reveal">
           <img
-            src="/img/jpg/IMG_1762.jpg"
+            src="/img/jpg/2208127.jpg"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
           />
         </section>

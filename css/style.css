@@ -182,8 +182,8 @@ svg {
 #about img,
 .blog-item iframe,
 .blog-item img {
-  transform: scale(1.1);
   margin: 3rem 0;
+  transform: scale(1.1);
 }
 
 img,
@@ -935,30 +935,23 @@ nav li a.blog::before {
 #house-hunting .pathname-current:before {
   content: "House Hunting 🇫🇮";
 }
-#blog #västerbotten {
-  background-image: url(/img/jpg/_icon.jpg);
-}
-#blog #västerbotten span:before,
-#västerbotten h1:before,
-#västerbotten .pathname-current:before {
-  content: "Västerbotten 🇸🇪";
-}
-#blog #flensburg-skagen {
-  background-image: url(/img/jpg/_icon.jpg);
-}
-#blog #flensburg-skagen span:before,
-#flensburg-skagen h1:before,
-#flensburg-skagen .pathname-current:before {
-  content: "Flensburg - Skagen 🇩🇰";
-}
 #blog #blåvand {
-  background-image: url(/img/jpg/_icon.jpg);
+  background-image: url(/img/jpg/2208133_icon.jpg);
 }
 #blog #blåvand span:before,
 #blåvand h1:before,
 #blåvand .pathname-current:before {
   content: "Blåvand 🇩🇰";
 }
+#blog #åland {
+  background-image: url(/img/jpg/2208875_icon.jpg);
+}
+#blog #åland span:before,
+#åland h1:before,
+#åland .pathname-current:before {
+  content: "Åland 🇦🇽";
+}
+
 #blog #pohjamaa {
   background-image: url(/img/jpg/_icon.jpg);
 }
@@ -975,13 +968,22 @@ nav li a.blog::before {
 #lakeland .pathname-current:before {
   content: "Lakeland 🇫🇮";
 }
-#blog #åland {
-  background-image: url(/img/jpg/2209582_icon.jpg);
+
+#blog #västerbotten {
+  background-image: url(/img/jpg/_icon.jpg);
 }
-#blog #åland span:before,
-#åland h1:before,
-#åland .pathname-current:before {
-  content: "Åland 🇦🇽";
+#blog #västerbotten span:before,
+#västerbotten h1:before,
+#västerbotten .pathname-current:before {
+  content: "Västerbotten 🇸🇪";
+}
+#blog #flensburg-skagen {
+  background-image: url(/img/jpg/_icon.jpg);
+}
+#blog #flensburg-skagen span:before,
+#flensburg-skagen h1:before,
+#flensburg-skagen .pathname-current:before {
+  content: "Flensburg - Skagen 🇩🇰";
 }
 /* BLOG END*/
 
@@ -1164,8 +1166,8 @@ nav li a.web::before,
   .blog-item img:hover,
   .blog-item iframe,
   .blog-item iframe:hover {
-    z-index: 9;
     transition: var(--transition-1);
+    z-index: 9;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1285,8 +1287,8 @@ nav li a.web::before,
     left: 100%;
     position: fixed;
     top: var(--nav-bar-top-position);
-    width: 100%;
     transition: var(--transition-2);
+    width: 100%;
   }
   :root {
     --menu-padding: 0 1rem;
@@ -1296,8 +1298,8 @@ nav li a.web::before,
     display: flex;
     left: 0;
     padding: var(--menu-padding);
-    z-index: 99999999;
     transition: var(--transition-2);
+    z-index: 99999999;
   }
   .nav-item {
     font-size: var(--fontsize-p);
@@ -1368,15 +1370,15 @@ nav li a.web::before,
   #about img,
   .blog-item img,
   .blog-item iframe {
-    transform: scale(1.1);
     margin: 2rem 0;
+    transform: scale(1.1);
   }
 }
 @media only screen and (min-width: 947px) {
   .blog-item img:hover,
   .blog-item iframe:hover {
     transform: scale(1.5);
-    z-index:99;
+    z-index: 99;
   }
 }
 .blur.master-blur.hovered {
