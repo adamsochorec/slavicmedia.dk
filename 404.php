@@ -39,8 +39,9 @@
             </svg>
           </a>
         </h2>
+        <hr />
+
       </article>
-      <hr />
     </main>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

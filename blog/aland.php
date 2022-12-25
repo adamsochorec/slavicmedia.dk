@@ -333,7 +333,7 @@
             Stockholm, me and Andreas back to Turku to Finland.
           </p>
         </section>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h2 class="reveal">Related literature</h2>
           <br />
@@ -364,7 +364,7 @@
               >
             </li>
           </ol>
-          <hr />
+          <hr class="reveal"/>
         </section>
       </article>
     </main>

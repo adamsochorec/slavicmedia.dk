@@ -66,7 +66,7 @@
         <h2 class="reveal">
           Essential steps leading to your secure and healthy online presence.
         </h2>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h3 class="reveal">1. Contemporary passwords</h3>
           <br />
@@ -97,7 +97,7 @@
             and unique your passwords are when you keep them in Excel
             spreadsheets on your work laptop...
           </p>
-          <hr />
+          <hr class="reveal"/>
           <section>
             <h4 class="reveal">1.2. Check the strength of your password.</h4>
             <br />
@@ -130,7 +130,7 @@
             <br />
           </section>
         </section>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h4 class="reveal">
             1.3. Problem solution
@@ -196,7 +196,7 @@
             </li>
           </ol>
         </section>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h3 class="reveal">2. What is 2FA and why is essential</h3>
           <br />
@@ -221,7 +221,7 @@
             receive new ones).
           </p>
         </section>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h4 class="reveal">2.2. What is a SIM swapping</h4>
           <br />
@@ -2672,7 +2672,7 @@ C502.2,625.2,499,621.9,499,618.3z"
             third party apps for secure two-factor authentication.
           </p>
         </section>
-        <hr />
+        <hr class="reveal" />
         <section>
           <h4 class="reveal">
             2.3. Problem solution
@@ -2734,7 +2734,7 @@ C502.2,625.2,499,621.9,499,618.3z"
             </ul>
           </ol>
         </section>
-        <hr />
+        <hr class="reveal" />
         <section>
           <h3 class="reveal">3. Social engineering vulnerability</h3>
           <br />
@@ -2762,7 +2762,7 @@ C502.2,625.2,499,621.9,499,618.3z"
           </p>
         </section>
 
-        <hr />
+        <hr class="reveal" />
         <section>
           <h4 class="reveal">
             3.2. Problem solution
@@ -2791,7 +2791,7 @@ C502.2,625.2,499,621.9,499,618.3z"
           </ol>
         </section>
 
-        <hr />
+        <hr class="reveal" />
         <section>
           <h3 class="reveal">4. Related literature</h3>
           <br />
@@ -2846,7 +2846,7 @@ C502.2,625.2,499,621.9,499,618.3z"
               </a>
             </li>
           </ol>
-          <hr />
+          <hr class="reveal" />
         </section>
       </article>
     </main>

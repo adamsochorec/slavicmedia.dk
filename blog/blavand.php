@@ -189,7 +189,7 @@
             >Tirpitz museum</a
           >.
         </p>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h2 class="reveal">Related literature</h2>
           <br />
@@ -235,7 +235,7 @@
               </a>
             </li>
           </ol>
-          <hr />
+          <hr class="reveal"/>
         </section>
       </article>
     </main>

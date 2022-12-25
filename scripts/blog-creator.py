@@ -57,7 +57,7 @@ script='''<!DOCTYPE html>
             quos, autem incidunt debitis laborum tempora ab architecto.
           </p>
         </section>
-        <hr />
+        <hr class="reveal" />
         <section>
           <h2 class="reveal">Related literature</h2>
           <br />
@@ -78,7 +78,7 @@ script='''<!DOCTYPE html>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
           </ol>
-          <hr />
+          <hr class="reveal" />
         </section>
       </article>
     </main>

@@ -91,6 +91,8 @@ h6 {
   font-family: var(--content-font);
   font-weight: var(--heading-weight);
   position: relative;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
 h1,
 .intro-section h2 {
@@ -115,6 +117,7 @@ h6 {
 #homepage h2 {
   font-size: var(--fontsize-h1);
   text-shadow: var(--text-shadow-1);
+
 }
 ol,
 main li,
@@ -265,8 +268,8 @@ h2:before,
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  object-fit: cover;
-
+  resize: both;
+  overflow: scroll;
   display: flex;
   justify-content: center;
 }
@@ -373,8 +376,9 @@ header {
   padding: 0 2.5rem;
   position: fixed;
   z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-header .blur {
+  header .blur {
   left: 0;
   position: absolute;
   top: 0;
@@ -470,6 +474,7 @@ span.bar {
   background: rgb(var(--primary-color));
   top: -25px;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .btn-area a {
   text-decoration: none;
@@ -1228,6 +1233,9 @@ nav li a.web::before,
   #visuals .pathname-container {
     margin-top: 8rem;
   }
+  .intro-section{
+  background-attachment:scroll;
+}
 }
 @media only screen and (min-width: 538px) {
   .hideLanguages {
@@ -1385,10 +1393,10 @@ nav li a.web::before,
   .blog-item iframe:hover {
     transform: scale(1.5);
     z-index: 99;
-  }
-}
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  }
 .blur.master-blur.hovered {
   height: 100vh;
   z-index: -99;
+}
 }
 /* MEDIA QUERRIES END */

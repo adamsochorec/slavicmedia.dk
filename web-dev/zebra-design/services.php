@@ -29,7 +29,7 @@
     <header>
       <nav>
         <a href="zebra-design" class="desktopLogo"
-          ><img src="img/logo.png" alt="Logo"
+          ><img src="./img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -45,7 +45,7 @@
             <li><a href="about">ABOUT</a></li>
           </ul>
           <a href="zebra-design" id="logoHyperlink" class="mobileLogo"
-            ><img src="img/logo.png" alt="Logo"
+            ><img src="./img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -62,7 +62,7 @@
       <div class="servicesGrid">
         <div>
           <img
-            src="img/graphicDesign.png"
+            src="./img/graphicDesign.png"
             alt="Illustration of Graphic Design"
           />
           <h2>GRAPHIC DESIGN</h2>
@@ -74,7 +74,7 @@
           </p>
         </div>
         <div>
-          <img src="img/logoDesign.png" alt="Illustration of Logo Design" />
+          <img src="./img/logoDesign.png" alt="Illustration of Logo Design" />
           <h2>LOGO DESIGN</h2>
           <p>
             Let your brand finally shine in full glory. Let us overcome your
@@ -83,7 +83,7 @@
           </p>
         </div>
         <div>
-          <img src="img/webpages.png" alt="Illustration of Webpages" />
+          <img src="./img/webpages.png" alt="Illustration of Webpages" />
           <h2>WEBPAGES</h2>
           <p>
             This site is the first of your business that guests encounter, which
@@ -93,7 +93,7 @@
           </p>
         </div>
         <div>
-          <img src="img/socialMedia.png" alt="Illustration of Social Media" />
+          <img src="./img/socialMedia.png" alt="Illustration of Social Media" />
           <h2>SOCIAL MEDIA</h2>
           <p>
             Social media marketing (SMM) is a type of digital marketing that
@@ -103,7 +103,7 @@
           </p>
         </div>
         <div>
-          <img src="img/webshops.png" alt="Illustration of Webshops" />
+          <img src="./img/webshops.png" alt="Illustration of Webshops" />
           <h2>WEBSHOPS</h2>
           <p>
             We develop webshops in a CMS system, where you can edit content and
@@ -113,7 +113,7 @@
           </p>
         </div>
         <div>
-          <img src="img/seo.png" alt="Illustration of SEO" />
+          <img src="./img/seo.png" alt="Illustration of SEO" />
           <h2>SEO</h2>
           <p>
             Search engine optimization regulations always evolve; we stay on top

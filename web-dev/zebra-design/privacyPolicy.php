@@ -29,7 +29,7 @@
     <header>
       <nav>
         <a href="zebra-design" class="desktopLogo"
-          ><img src="img/logo.png" alt="Logo"
+          ><img src="./img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -45,7 +45,7 @@
             <li><a href="about">ABOUT</a></li>
           </ul>
           <a href="zebra-design" id="logoHyperlink" class="mobileLogo"
-            ><img src="img/logo.png" alt="Logo"
+            ><img src="./img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>

@@ -41,8 +41,9 @@
             </svg>
           </a>
         </h2>
+        <hr />
+
       </article>
-      <hr />
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script

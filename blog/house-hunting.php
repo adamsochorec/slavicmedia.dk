@@ -135,7 +135,7 @@
           >
           have agreed upon a plan of catching an early Autumn sunrise.
         </p>
-        <hr />
+        <hr class="reveal"/>
         <section>
           <h2 class="reveal">Related literature</h2>
           <br />
@@ -166,7 +166,7 @@
             </li>
           </ol>
         </section>
-        <hr />
+        <hr class="reveal"/>
       </article>
     </main>
     <?php

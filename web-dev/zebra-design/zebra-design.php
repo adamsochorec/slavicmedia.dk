@@ -29,7 +29,7 @@
     <header>
       <nav>
         <a href="zebra-design" class="desktopLogo"
-          ><img src="img/logo.png" alt="Logo"
+          ><img src="./img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -45,7 +45,7 @@
             <li><a href="about">ABOUT</a></li>
           </ul>
           <a href="zebra-design" id="logoHyperlink" class="mobileLogo"
-            ><img src="img/logo.png" alt="Logo"
+            ><img src="./img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -54,7 +54,7 @@
       <section class="wrapper">
         <img
           class="zebra-designAnimation"
-          src="img/zebraGif.gif"
+          src="./img/zebraGif.gif"
           alt="Animation of a Zebra"
         />
         <div class="zebra-designGrid">
@@ -62,21 +62,21 @@
             <div class="slideshowContainer">
               <div class="slide1 fade">
                 <img
-                  src="img/website covers/mobile/P1_1_.png"
+                  src="./img/website covers/mobile/P1_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 1"
                 />
               </div>
               <div class="slide1 fade">
                 <img
-                  src="img/website covers/mobile/P1_2_.png"
+                  src="./img/website covers/mobile/P1_2_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 2"
                 />
               </div>
               <div class="slide1 fade">
                 <img
-                  src="img/website covers/mobile/P1_3_.png"
+                  src="./img/website covers/mobile/P1_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 3"
                 />
@@ -117,35 +117,35 @@
             <div class="slideshowContainer">
               <div class="slide2 fade">
                 <img
-                  src="img/website covers/mobile/P2_1_.png"
+                  src="./img/website covers/mobile/P2_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 1"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="img/website covers/mobile/P2_2_.png"
+                  src="./img/website covers/mobile/P2_2_.jpg"
                   style="width: 100%"
-                  alt="Image of Project 2, version 2"
+                )  alt="Image of Project 2, version 2"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="img/website covers/mobile/P2_3_.png"
+                  src="./img/website covers/mobile/P2_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 3"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="img/website covers/mobile/P2_4_.png"
+                  src="./img/website covers/mobile/P2_4_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 4"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="img/website covers/mobile/P2_5_.png"
+                  src="./img/website covers/mobile/P2_5_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 5"
                 />
@@ -188,28 +188,28 @@
             <div class="slideshowContainer">
               <div class="slide3 fade">
                 <img
-                  src="img/website covers/mobile/P3_1_.png"
+                  src="./img/website covers/mobile/P3_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 1"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="img/website covers/mobile/P3_2_.png"
+                  src="./img/website covers/mobile/P3_2_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 2"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="img/website covers/mobile/P3_3_.png"
+                  src="./img/website covers/mobile/P3_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 3"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="img/website covers/mobile/P3_4_.png"
+                  src="./img/website covers/mobile/P3_4_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 4"
                 />

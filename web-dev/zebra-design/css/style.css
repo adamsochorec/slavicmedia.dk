@@ -17,7 +17,7 @@ nav div{display:flex;justify-content:center;text-align:center}
 .icon{display:none}
 .wrapper,hr{max-width:100%;width:37.5rem}
 main{align-items:center;display:flex;flex-direction:column}
-footer{background-image:url(img/footer.png);background-size:contain;color:#fff;margin-top:100px;text-align:center;transition:all .3s}
+footer{background-image:url(../img/footer.png);background-size:contain;color:#fff;margin-top:100px;text-align:center;transition:all .3s}
 footer ul{list-style-type:none}
 footer a{color:#fff;text-decoration:none;transition:all .3s}
 footer a:hover{color:gray;text-decoration:underline;transition:all .3s ease-in-out}
@@ -148,7 +148,7 @@ nav{padding:0}
 .indexGrid{grid-template-columns:repeat(1,45%)}
 .indexGridInfo h2{text-align:center}
 h1{font-size:40px}
-footer{background-image:url(img/footer_mobile.png)}
+footer{background-image:url(../img/footer_mobile.png)}
 .footerGrid{grid-template-columns:repeat(1,1fr);padding-top:150px}
 .footerGrid1{display:flex;flex-direction:column;text-align:center}
 .footerGrid3{text-align:center}

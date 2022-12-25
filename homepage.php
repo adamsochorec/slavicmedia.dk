@@ -71,7 +71,7 @@
               framed in historical frames series, on which I was working during
               the last spring.
             </p>
-            <hr />
+            <hr class="reveal"/>
           </section>
           <section>
             <section class="expo grid-container reveal">
@@ -95,18 +95,18 @@
               </section>
               <br /><br />
             </section>
-            <div class="btn-area flex-center reveal">
-              <a
+            <a
                 href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div aria-describedby="about" id="btn">Get the directions</div>
-                <div class="btn-shadow"></div>
-              </a>
-            </div>
-          </section>
+            <section class="btn-area flex-center reveal">
+              
+              <div id="btn">Get the directions</div>
+              <div class="btn-shadow"></div>
         </section>
+        </a>
+        <br>
       </article>
       <!-- KOLDING EXPO END -->
       <!-- VISUALS START -->
@@ -333,14 +333,14 @@
             >
             </iframe>
           </div>
+          <div id="web-dev"></div>
         </section>
-        <hr id="web-dev" />
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
       <article id="web-dev">
         <section class="wrapper-standard">
-          <br />
+          <hr class="reveal"/>
           <h2></h2>
           <br />
           <section class="grid-container gallery reveal">
@@ -376,15 +376,16 @@
               </div>
             </a>
           </section>
+          <div id="blog"></div>
         </section>
-        <hr id="blog" />
       </article>
 
       <!-- WEB DEV END -->
       <!-- BLOG START -->
       <article id="blog">
         <section class="wrapper-standard">
-          <br />
+          <hr class="reveal"/>
+
           <h2></h2>
           <br />
           <section class="grid-container gallery reveal">
@@ -410,8 +411,8 @@
               </div>
             </a>
           </section>
+          <hr class="reveal"/>
         </section>
-        <hr />
 
         <br id="about" />
       </article>
@@ -508,7 +509,7 @@
               />
             </picture>
           </section>
-          <hr />
+          <hr class="reveal" />
           <h3 class="reveal">Language competences</h3>
           <br /><br />
           <section class="grid-container skills-section">
@@ -927,7 +928,7 @@
               </section>
             </div>
           </section>
-          <hr />
+          <hr class="reveal"/>
           <section>
             <h3 class="reveal">@adamsochorec</h3>
             <br />
@@ -1015,7 +1016,7 @@
                 </li>
               </ul>
             </section>
-            <hr />
+            <hr class="reveal"/>
           </section>
           <section class="contact-form-section">
             <h3 class="reveal">Contact</h3>
@@ -1110,7 +1111,7 @@
               </section>
             </form>
           </section>
-          <hr />
+          <hr class="reveal"/>
         </section>
       </article>
       <!-- ABOUT END -->

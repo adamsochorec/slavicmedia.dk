@@ -29,7 +29,7 @@
     <header>
       <nav>
         <a href="zebra-design" class="desktopLogo"
-          ><img src="img/logo.png" alt="Logo"
+          ><img src="./img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -45,7 +45,7 @@
             <li><a href="about">ABOUT</a></li>
           </ul>
           <a href="zebra-design" id="logoHyperlink" class="mobileLogo"
-            ><img src="img/logo.png" alt="Logo"
+            ><img src="./img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -63,7 +63,7 @@
       <p class="aboutTitle">TEAM ZEBRA</p>
       <div class="aboutCards">
         <div class="aboutCardsGrid">
-          <img src="img/Adam.jpg" alt="Image of Adam" />
+          <img src="./img/Adam.jpg" alt="Image of Adam" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">ADAM <br />SOCHOREC</p>
             <ul>
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img src="img/Niels.jpg" alt="Image of Niels" />
+          <img src="./img/Niels.jpg" alt="Image of Niels" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">NIELS <br />CERS</p>
             <ul>
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img src="img/Bartlomiej.jpg" alt="Image of Bartlomiej" />
+          <img src="./img/Bartlomiej.jpg" alt="Image of Bartlomiej" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">BARTLOMIEJ <br />CHMIELEWSKI</p>
             <ul>
@@ -144,7 +144,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img src="img/Daniel.jpg" alt="Image of Daniel" />
+          <img src="./img/Daniel.jpg" alt="Image of Daniel" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">DANIEL <br />THAEKKER</p>
             <ul>
@@ -171,7 +171,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img src="img/Nikolay.jpg" alt="Image of Nikolay" />
+          <img src="./img/Nikolay.jpg" alt="Image of Nikolay" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">NIKOLAY <br />KOLEV</p>
             <ul>
