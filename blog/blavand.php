@@ -44,7 +44,7 @@
           It was the 12th of April when I woke up in the morning, grabbed my
           prepared backpack with lunch, and headed to Kolding train station. I
           took a train to Oksbøl, not far away from my final destination - the
-          the westernmost point of Denmark, the city Blåvand (blue water).
+          westernmost point of Denmark, the city Blåvand (blue water).
         </p>
 
         <section>
@@ -66,7 +66,7 @@
         <p>
           My original plan was to scout the local lighthouse, located
           approximately 35 minutes by walk from the bus station, out of the
-          city. At that time in Blåvand held festival and a tiny main road
+          city. At that time Blåvand held a festival and a tiny main road
           cutting the city was jammed with cars, mostly from Denmark and
           Germany.<br />
           I bought a bakery with shrimp salad at a local fisherman's shop and
@@ -74,12 +74,12 @@
           will enter an area with dozens of summerhouses with gardens, separated
           by beautiful pines. As soon as you approach the seashore, the vast
           recreation colony turns into alone standing houses, in the middle of
-          dunes usually built a few meters from the sea.
+          dunes are usually built a few meters from the sea.
         </p>
         <section>
           <img
             src="/img/jpg/22041517878128.jpg"
-            alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
+            alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </section>
 
@@ -101,7 +101,7 @@
         <section>
           <img
             src="/img/jpg/22041517498117.jpg"
-            alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
+            alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
           />
         </section>
         <p>
@@ -142,7 +142,7 @@
           a flat surface in a life-size. So far I have had quite a good
           experience with <b>Polycam</b>, scanning and processing options are
           not the most advanced ones, in many ways, it is just a black box. On
-          the other hand, it is quite user-friendly and convenient to use. There
+          On the other hand, it is quite user-friendly and convenient to use. There
           are also several ways how to scan for free (creating user profiles,
           sharing scanned content etc.)
         </p>
@@ -163,7 +163,7 @@
         <section>
           <img
             src="/img/jpg/22041517628126.jpg"
-            alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
+            alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
           />
         </section>
 

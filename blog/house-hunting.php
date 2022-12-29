@@ -18,12 +18,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <aside>
-      <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-      include $IPATH . 'scroll-status.php';
-      ?>
-    </aside>
     <main>
       <article class="wrapper-standard">
         <div class="pathname-container">
@@ -49,7 +43,7 @@
             href="http://www.toddhido.com/"
             >Todd Hido</a
           >. However, our motives and their final hand to a large extent vary.
-          My the goal was to merge urbex, my fascination of adorable
+          My goal was to merge urbex, my fascination with adorable
           Scandinavian architecture, the concept of
           <a
             target="_blank"
@@ -69,7 +63,7 @@
           from Hiddo's works to lonely constructions in Czechia and Denmark.
           Even though the exterior atmosphere was slightly more matching to the
           one that Hido works with - lonely lights, night, and fog often
-          captured trough long exposure on a medium format camera, I felt that
+          captured through long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
         <img
@@ -92,17 +86,17 @@
         />
 
         <p>
-          Beforehand I established communication with a department of city
+          Beforehand I established communication with a department of the city
           planning, to gain some insight into the property. We figured out that
           the building is marked as a demolition project, so my initial the idea
           to take photos that could be used by
           <b>Cheap Old Houses</b> initiative to sell and save this building
-          sank.<br /><br />Notherless there is a chance to have faith into local
+          sank.<br /><br />Notherless there is a chance to have faith in local
           authorities:<br />
           <b
             ><i>
-              ...based on the age and possible historical value the The
-              Ostrobothnian museum will likely be consulted before a demolition
+              ...based on the age and possible historical value The
+              The ostrobothnian museum will likely be consulted before a demolition
               a permit is issued.</i
             ></b
           >

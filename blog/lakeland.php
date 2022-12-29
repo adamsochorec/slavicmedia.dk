@@ -17,12 +17,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <aside>
-      <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'scroll-status.php';
-        ?>
-    </aside>
     <main>
       <article class="wrapper-standard">
         <section>
