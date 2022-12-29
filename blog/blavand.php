@@ -37,17 +37,17 @@
         <br />
         <h1></h1>
         <img
-          src="/img/jpg/2208133.jpg"
+          src="/img/jpg/22041518018133.jpg"
           alt="Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base in the sandy beach. The North Sea and another bunker can be seen in the background.s"
         />
-        <p class="reveal">
+        <p>
           It was the 12th of April when I woke up in the morning, grabbed my
           prepared backpack with lunch, and headed to Kolding train station. I
           took a train to Oksbøl, not far away from my final destination - the
           the westernmost point of Denmark, the city Blåvand (blue water).
         </p>
 
-        <section class="reveal">
+        <section>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
             width="800"
@@ -63,7 +63,7 @@
           >
         </section>
 
-        <p class="reveal">
+        <p>
           My original plan was to scout the local lighthouse, located
           approximately 35 minutes by walk from the bus station, out of the
           city. At that time in Blåvand held festival and a tiny main road
@@ -76,14 +76,14 @@
           recreation colony turns into alone standing houses, in the middle of
           dunes usually built a few meters from the sea.
         </p>
-        <section class="reveal">
+        <section>
           <img
-            src="/img/jpg/2208129.jpg"
+            src="/img/jpg/22041517878128.jpg"
             alt="Photo of sand dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
           />
         </section>
 
-        <p class="reveal">
+        <p>
           Navigation states about 20 minutes of the route are remaining, after
           approaching the sea shore is time to turn a bit northern, to get along
           the 400km long west coast, which on the south meets the German border,
@@ -98,13 +98,13 @@
           too much of a deal, even for Hitler's engineers. The majority of the
           bunkers simply sink into the sand.
         </p>
-        <section class="reveal">
+        <section>
           <img
-            src="/img/jpg/2208118.jpg"
+            src="/img/jpg/22041517498117.jpg"
             alt="WWII bunker sinking into the sand beach with metal decorations of horse tail and neck, kids are playing around."
           />
         </section>
-        <p class="reveal">
+        <p>
           Their exterior is usually covered by graffiti and some of them have
           additional Grotesk metal construction, shaping them like a horse or
           giraffe. As I pass several bunkers, occupied by screaming children,
@@ -115,7 +115,7 @@
           by human creativity and the attitude of youths. It is hard to imagine
           something more embarrassing could happen to those constructions.
         </p>
-        <section class="reveal">
+        <section>
           <div class="sketchfab-embed-wrapper">
             <iframe
               title="Blåvand bunker | vzor 2"
@@ -135,7 +135,7 @@
             </iframe>
           </div>
         </section>
-        <p class="reveal">
+        <p>
           As I pass more and more bunkers, each with a slightly different design
           and level of sickness, I got a funny idea to scan them. Better then
           any photo is a 3D model with detailed textures, that AR can project on
@@ -146,13 +146,13 @@
           are also several ways how to scan for free (creating user profiles,
           sharing scanned content etc.)
         </p>
-        <section class="reveal">
+        <section>
           <img
-            src="/img/jpg/2208141.jpg"
+            src="/img/jpg/22041518008132.jpg"
             alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
           />
         </section>
-        <p class="reveal">
+        <p>
           I arrive at a sharp corner of the shore, where the lighthouse was
           built. In a tiny house, that probably used to serve the lighthouse's
           crew, I purchased a ticket to the top of the tower. The view feels
@@ -160,14 +160,14 @@
           everywhere I look I see dunes covered by grass of blending colours,
           crossed by narrow paths.
         </p>
-        <section class="reveal">
+        <section>
           <img
-            src="/img/jpg/2208127.jpg"
+            src="/img/jpg/22041517628126.jpg"
             alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly sand dunes covered by rusty heath."
           />
         </section>
 
-        <p class="reveal">
+        <p>
           Back in the souvenir shop, I observe a significant amount of amber
           necklaces and jewellery being offered. The older lady behind the
           cashier's desk explains to me that with a bit of luck I can find some
@@ -189,12 +189,12 @@
             >Tirpitz museum</a
           >.
         </p>
-        <hr class="reveal"/>
+        <hr />
         <section>
-          <h2 class="reveal">Related literature</h2>
+          <h2>Related literature</h2>
           <br />
           <ol>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -202,7 +202,7 @@
                 >Jutland during WWII
               </a>
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -210,7 +210,7 @@
                 >Blåvand's lighthouse
               </a>
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -218,7 +218,7 @@
                 >Tirpitz Museum by BIG
               </a>
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -226,7 +226,7 @@
                 >The Atlantic Wall
               </a>
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -235,7 +235,10 @@
               </a>
             </li>
           </ol>
-          <hr class="reveal"/>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-totop.php';
+          ?>
         </section>
       </article>
     </main>

@@ -40,10 +40,10 @@
           <br />
           <h1></h1>
           <img
-            src="/img/jpg/2208875.jpg"
+            src="/img/jpg/22101685388877.jpg"
             alt="Dusty red gravel road cutting surrounding autumn colored forest in a half"
           />
-          <p class="reveal">
+          <p>
             An expedition to Åland Islands was on my mind since my first days in
             Finland. Its time came in mid-October 2022, during Autumn break. My
             friend from Swedish Dalarna and I have decided to take a ferry from
@@ -56,7 +56,7 @@
             rain in the early morning forced us to move to the port earlier than
             we planned but at least we were protected against the rain.
           </p>
-          <section class="reveal">
+          <section>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1105816.4265879395!2d19.032158409127504!3d60.257090448176235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2s%C3%85land%20Islands!5e1!3m2!1sen!2sfi!4v1671017038552!5m2!1sen!2sfi"
               width="600"
@@ -72,7 +72,7 @@
             >
           </section>
 
-          <p class="reveal">
+          <p>
             As soon as the onboarding started, new issues a raised. A security a
             guard spotted my belt carrying a leatherman multitool and a larger
             the outdoor knife I carry while in the wilderness. His English was
@@ -106,9 +106,9 @@
             camp has been built nearby the city Godby (a good town) on the bank
             of the lake Långsjön, the habitat of a crayfish.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208859.jpg"
+              src="/img/jpg/22101484358861.jpg"
               alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
             />
           </section>
@@ -132,14 +132,14 @@
             to communicate our route intentions despite the frequent lack of
             English among the locals.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208864.jpg"
+              src="/img/jpg/22101584778866.jpg"
               alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             For clarification, Åland Islands are autonomously demilitarised
             territories under Finnish jurisdiction. They have their government,
             flag, and historical heritage and unlike male Finns, are free of
@@ -147,9 +147,7 @@
             mainland (Swedish and Finnish), Åland Islands are entirely Swedish
             speaking.<br /><br />
             After we said
-            <i class="reveal"
-              >"Tack så mycket och har det bra! (Big thanks and take care)"</i
-            >
+            <i>"Tack så mycket och har det bra! (Big thanks and take care)"</i>
             to our last ferryman, we started descending from a rocky hill
             towards the nearby seashore. Vegetation closer to the sea was
             slightly different from inland. Forests covering the surrounding red
@@ -158,14 +156,14 @@
             Another common vegetation in clusters covering bare rocks was moss
             and blubbery ferns.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208868.jpg"
+              src="/img/jpg/22101585138870.jpg"
               alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Along with the sunset and moderate rain, we overcame several
             remaining kilometres of dusty road to collect the least wet wood,
             made a fire, and hid in the cave.<br />Our evening was about drying
@@ -181,29 +179,29 @@
             of earlier collected roses and fresh spruce needles, we discussed
             strategy for our upcoming day.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208872.jpg"
+              src="/img/jpg/22101685278874.jpg"
               alt="Outside view at
           our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
           keeping an eye on a campfire."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Before leaving the cave, I and Marcel scouted our surrounding
             countryside, we were quite surprised when we discovered
             fancy-looking and well-equipped pairs of cottages just a few hundred
             meters above the cave, essentially in the middle of nowhere.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208878.jpg"
+              src="/img/jpg/22101685668880.jpg"
               alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Later on, that day we were again on our feet, walking on the red
             roads, that are just everywhere you go on Ålands, passing rural
             house settlements and farms seeking good souls with thumbs up once
@@ -216,14 +214,14 @@
             time, resupplied with groceries recharged our lithium, chilled in
             the lobby and reviewed our strategy.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208876.jpg"
+              src="/img/jpg/22101685428878.jpg"
               alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             It was just the second day of our expedition and we already reached
             our final destination, we decided to conquer the east of the
             archipelago territory as a plan for our remaining two days.<br />
@@ -243,14 +241,14 @@
             wanderers feel as welcome as being back home and still being
             thousands of kilometres far away.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208881.jpg"
+              src="/img/jpg/22101785778883.jpg"
               alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             <br />The original tea break has extended into a deep discussion and
             storytelling over dinner, with stoves heating our backs, with
             Karolina, the second head of the tribe, Thomas and their daughter
@@ -261,14 +259,14 @@
             the day has begun with the sound of the family’s cock as well as
             with both homemade yoghurt and eggs.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208893.jpg"
+              src="/img/jpg/22101786368895.jpg"
               alt="Photo of an empty road through the Autumn coloured forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Karolina advised us to scout the island Prästo we were located on,
             which is among the local prominent due to accommodating several
             historical graveyards - Jewish, Muslim and Christian ones.<br />When
@@ -279,7 +277,7 @@
             roads, which were from time to time replaced by car ferries, to the
             end of the road on Vårdö.
           </p>
-          <section class="reveal">
+          <section>
             <img
               src="/img/jpg/2209595.jpg"
               alt="Photo of two
@@ -290,7 +288,7 @@
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Our afternoon was in the spirit of attempts to fish in the crystal
             clear water of an empty fishing village on the tip of Vårdö and swim
             in the October cold Archipelago sea.<br />
@@ -303,14 +301,14 @@
             that if I will provide for others, my debt to the universe will be
             repaid and someone else will have a reason to treat man generously.
           </p>
-          <section class="reveal">
+          <section>
             <img
-              src="/img/jpg/2208898.jpg"
+              src="/img/jpg/22101786668900.jpg"
               alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
             />
           </section>
 
-          <p class="reveal">
+          <p>
             Our final task was to get reach back to Mariehamn. Without any luck
             with hitchhiking, after several hours of hiking through the empty
             red roads, we reached approximately 17km distant Godby in the night
@@ -333,12 +331,12 @@
             Stockholm, me and Andreas back to Turku to Finland.
           </p>
         </section>
-        <hr class="reveal"/>
+        <hr />
         <section>
-          <h2 class="reveal">Related literature</h2>
+          <h2>Related literature</h2>
           <br />
           <ol>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -346,7 +344,7 @@
                 >Åland - Wikipedia</a
               >
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -354,7 +352,7 @@
                 >island Prästö</a
               >
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -364,7 +362,10 @@
               >
             </li>
           </ol>
-          <hr class="reveal"/>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-totop.php';
+          ?>
         </section>
       </article>
     </main>

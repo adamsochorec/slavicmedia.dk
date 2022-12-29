@@ -19,7 +19,10 @@
       <article class="wrapper-narrow flex-center">
         <section class="flex-center">
           <picture>
-            <img src="/img/gif/404.gif" alt="Trippy page not found animation" />
+            <img
+              src="/img/gif/404_kompr.gif"
+              alt="Trippy page not found animation"
+            />
           </picture>
           <br />
           <h1>The page you’re looking<br />for can’t be found.</h1>
@@ -40,7 +43,6 @@
           </a>
         </h2>
         <hr />
-
       </article>
     </main>
     <?php

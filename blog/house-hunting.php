@@ -36,11 +36,11 @@
         <br />
         <h1></h1>
         <img
-          src="/img/jpg/2208845.jpg"
+          src="/img/jpg/22100983718847.jpg"
           alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
         />
 
-        <p class="reveal">
+        <p>
           Inspiration for the concept of <i>House Hunting</i> I originally
           borrowed from inspiring photographer and artist
           <a
@@ -60,14 +60,11 @@
           the project as well as Hido's narrative way of calling things from the
           past by capturing their current state or left marks.
         </p>
-        <section class="reveal">
-          <img
-            src="/img/jpg/2208846.jpg"
-            alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-          />
-        </section>
-
-        <p class="reveal">
+        <img
+          src="/img/jpg/22100983738848.jpg"
+          alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+        />
+        <p>
           In a past, I tried several times to apply the inspiration I gained
           from Hiddo's works to lonely constructions in Czechia and Denmark.
           Even though the exterior atmosphere was slightly more matching to the
@@ -75,14 +72,12 @@
           captured trough long exposure on a medium format camera, I felt that
           this time I was the closest to Hido's world.
         </p>
-        <section class="reveal">
-          <img
-            src="/img/jpg/2208847.jpg"
-            alt="Photo of an empty room in the abandoned building, lit by the morning sun."
-          />
-        </section>
+        <img
+          src="/img/jpg/22100983878849.jpg"
+          alt="Photo of an empty room in the abandoned building, lit by the morning sun."
+        />
 
-        <p class="reveal">
+        <p>
           During one of my walks in the neighbourhood of Palosaari, I couldn't
           unnoticed the beautiful pale green colour of low-key old-fashioned
           family house. After closer inspection, I noticed broken windows and
@@ -91,14 +86,12 @@
           opportunity to play around and implement some new elements into
           something I've been already working with. Tempting, I thought.
         </p>
-        <section class="reveal">
-          <img
-            src="/img/jpg/2208850.jpg"
-            alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
-          />
-        </section>
+        <img
+          src="/img/jpg/22100983968852.jpg"
+          alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
+        />
 
-        <p class="reveal">
+        <p>
           Beforehand I established communication with a department of city
           planning, to gain some insight into the property. We figured out that
           the building is marked as a demolition project, so my initial the idea
@@ -107,7 +100,7 @@
           sank.<br /><br />Notherless there is a chance to have faith into local
           authorities:<br />
           <b
-            ><i class="reveal">
+            ><i>
               ...based on the age and possible historical value the The
               Ostrobothnian museum will likely be consulted before a demolition
               a permit is issued.</i
@@ -115,16 +108,16 @@
           >
         </p>
         <br />
-        <section class="reveal">
+        <section>
           <img
-            src="/img/jpg/2208855.jpg"
+            src="/img/jpg/22100984108857.jpg"
             alt="Interior shot of a
         corner, with several bleached spots on the wall's plaster. Most likely
         there have been hanging framed photos and paintings."
           />
         </section>
 
-        <p class="reveal">
+        <p>
           When a property owner's permission to take a look inside the building
           was authorized, me and my friend & race photographer
           <a
@@ -135,12 +128,12 @@
           >
           have agreed upon a plan of catching an early Autumn sunrise.
         </p>
-        <hr class="reveal"/>
+        <hr />
         <section>
-          <h2 class="reveal">Related literature</h2>
+          <h2>Related literature</h2>
           <br />
           <ol>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -148,7 +141,7 @@
                 >Todd Hido's works</a
               >
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -156,7 +149,7 @@
                 >Cheap Old Houses project</a
               >
             </li>
-            <li class="reveal">
+            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -166,7 +159,10 @@
             </li>
           </ol>
         </section>
-        <hr class="reveal"/>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+        include $IPATH . 'global-totop.php';
+        ?>
       </article>
     </main>
     <?php

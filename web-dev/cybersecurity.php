@@ -66,7 +66,7 @@
         <h2 class="reveal">
           Essential steps leading to your secure and healthy online presence.
         </h2>
-        <hr class="reveal"/>
+        <hr class="reveal" />
         <section>
           <h3 class="reveal">1. Contemporary passwords</h3>
           <br />
@@ -97,7 +97,7 @@
             and unique your passwords are when you keep them in Excel
             spreadsheets on your work laptop...
           </p>
-          <hr class="reveal"/>
+          <hr class="reveal" />
           <section>
             <h4 class="reveal">1.2. Check the strength of your password.</h4>
             <br />
@@ -108,29 +108,18 @@
             </p>
 
             <p class="reveal">
-              Try out the password strength calculator below, do not share your
-              actual passwords!
-            </p>
-            <br />
-            <div class="blur flex-center reveal">
-              <iframe
-                class="password-calculator"
-                id="passwordCheck"
-                clas="reveal"
-                scrolling="no"
-                src="https://www.security.org/how-secure-is-my-password/"
-                title="passwordCheck"
-                frameborder="no"
-                allow=""
-              ></iframe>
-            </div>
-            <p class="alt-alt">
-              Online calculator measuring strength of your actual password
+              Try out the
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.security.org/how-secure-is-my-password/"
+                >Password Strength Calculator</a
+              >, do not share your actual passwords!
             </p>
             <br />
           </section>
         </section>
-        <hr class="reveal"/>
+        <hr class="reveal" />
         <section>
           <h4 class="reveal">
             1.3. Problem solution
@@ -196,7 +185,7 @@
             </li>
           </ol>
         </section>
-        <hr class="reveal"/>
+        <hr class="reveal" />
         <section>
           <h3 class="reveal">2. What is 2FA and why is essential</h3>
           <br />
@@ -221,7 +210,7 @@
             receive new ones).
           </p>
         </section>
-        <hr class="reveal"/>
+        <hr class="reveal" />
         <section>
           <h4 class="reveal">2.2. What is a SIM swapping</h4>
           <br />
@@ -2654,7 +2643,7 @@ C502.2,625.2,499,621.9,499,618.3z"
               </g>
             </svg>
           </section>
-          <p>
+          <p class="reveal">
             <i class="note"
               >Source:
               <a
@@ -2846,7 +2835,10 @@ C502.2,625.2,499,621.9,499,618.3z"
               </a>
             </li>
           </ol>
-          <hr class="reveal" />
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-totop.php';
+          ?>
         </section>
       </article>
     </main>

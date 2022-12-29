@@ -22,7 +22,7 @@ script='''<!DOCTYPE html>
     <meta name="googlebot" content="noindex" />
   </head>
 
-  <body id="???">
+  <body id="???" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -37,18 +37,18 @@ script='''<!DOCTYPE html>
       <article class="wrapper-standard">
         <section>
           <div class="pathname-container">
-            <i
-              ><span class="pathname"><a href="/works"></a> / </span>
-              <span class="pathname blog"><a href="/blog.php"></a> / </span>
+             <i
+              ><span class="pathname"><a href="/"></a> / </span>
+              <span class="pathname blog"><a href="/#blog"></a> / </span>
               <span class="pathname-current blog"></span
             ></i>
           </div>
           <br />
           <h1></h1>
           <br />
-          <img src="/blog/img/???/jpg/1.jpg" alt="#"/>
+          <img src="/img/jpg/???.jpg" alt="#" />
           <p>
-            <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Recusandae hic odit in amet harum quos voluptatum tempore, molestiae
             explicabo nihil itaque. Repellat aliquid quos quo eligendi? Tempore
             animi assumenda ex. Lorem ipsum dolor sit amet consectetur
@@ -57,29 +57,31 @@ script='''<!DOCTYPE html>
             quos, autem incidunt debitis laborum tempora ab architecto.
           </p>
         </section>
-        <hr class="reveal" />
+        <hr />
         <section>
-          <h2 class="reveal">Related literature</h2>
+          <h2>Related literature</h2>
           <br />
           <ol>
-            <li class="reveal">
+            <li>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
-            <li class="reveal">
+            <li>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
-            <li class="reveal">
+            <li>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
-            <li class="reveal">
+            <li>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
-            <li class="reveal">
+            <li>
               <a target="_blank" rel="noopener noreferrer" href=""> </a>
             </li>
           </ol>
-          <hr class="reveal" />
-        </section>
+<?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-totop.php';
+          ?>        </section>
       </article>
     </main>
     <?php
