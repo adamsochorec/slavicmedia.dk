@@ -24,17 +24,17 @@
     <main>
       <article class="wrapper-standard">
         <section>
-          <div class="pathname-container">
-            <i
-              ><span class="pathname"><a href="/"></a> / </span>
-              <span class="pathname blog"><a href="/#blog"></a> / </span>
-              <span class="pathname-current blog"></span
-            ></i>
-          </div>
-          <br />
-          <h1></h1>
-          <img
-            src="/img/jpg/22101685388877.jpg"
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname blog"><a href="/#blog"></a> / </span>
+            <span class="pathname-current blog"></span
+          ></i>
+        </div>
+        <br />
+        <h1></h1>
+        <img
+          src="/img/jpg/22101685388877.jpg"
             alt="Dusty red gravel road cutting surrounding autumn coloured forest in a half"
           />
           <p>
