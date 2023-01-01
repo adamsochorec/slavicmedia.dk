@@ -58,25 +58,7 @@ function reveal() {
     }
   }
 }
-// SCROLL STATUS
-window.onscroll = function () {
-  scrollStatus();
-};
 
-function scrollStatus() {
-  const winScroll =
-    document.body.scrollTop || document.documentElement.scrollTop;
-  const height =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
-  const scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-/*
-if (scrolled = 0) {
-  document.querySelector(".progress-bar").style.width = 0;
-}
-*/
 // TIMER
 (function countdown() {
   const second = 1000,

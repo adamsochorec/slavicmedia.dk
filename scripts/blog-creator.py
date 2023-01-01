@@ -35,7 +35,6 @@ script='''<!DOCTYPE html>
       </aside>
     <main>
       <article class="wrapper-standard">
-        <section>
           <div class="pathname-container">
              <i
               ><span class="pathname"><a href="/"></a> / </span>
@@ -56,7 +55,6 @@ script='''<!DOCTYPE html>
             possimus accusantium, dolor officia quod, minus inventore quibusdam
             quos, autem incidunt debitis laborum tempora ab architecto.
           </p>
-        </section>
         <hr />
         <section>
           <h2>Related literature</h2>

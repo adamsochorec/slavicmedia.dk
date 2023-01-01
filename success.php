@@ -42,18 +42,13 @@
           </a>
         </h2>
         <hr />
-
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
-      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-      defer
-    ></script>
-    <script
-      src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
-      defer
-    ></script>
+    src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
+    defer
+  ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

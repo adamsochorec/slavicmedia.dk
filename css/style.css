@@ -70,16 +70,16 @@ body {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(var(--black-color), 0); 
+  background: rgba(var(--black-color), 0);
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(var(--white-color), 0.4); 
+  background: rgba(var(--white-color), 0.4);
   border-radius: var(--border-radius-2);
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(var(--white-color), 0.8); 
+  background: rgba(var(--white-color), 0.8);
 }
 ::selection {
   background: rgba(var(--secondary-color), 0.5);
@@ -171,15 +171,21 @@ a {
   z-index: -1;
 }
 img,
-svg {
+svg,
+iframe {
   vertical-align: middle;
 }
-#about iframe,
 #about img,
-.blog-item iframe,
-.blog-item img {
-  margin: 3rem 0;
+.blog-item img,
+.blog-item iframe {
   transform: scale(1.1);
+}
+#about img,
+.blog-item img {
+  margin: 2.5rem 0 2.5rem 0;
+}
+.blog-item iframe {
+  margin: 1.7rem 0 1.7rem 0;
 }
 img,
 iframe,
@@ -264,19 +270,6 @@ i a:hover,
 }
 /* link hover end */
 
-/* scroll status start */
-.progress-container {
-  position: fixed;
-  top: var(--nav-bar-top-position);
-  width: 100%;
-  z-index: 9;
-}
-.progress-bar {
-  background: rgb(var(--secondary-color));
-  border-bottom-right-radius: var(--border-radius-1);
-  height: 4px;
-}
-/* scroll status end*/
 /* intro section standard start*/
 .intro-section {
   align-items: center;
@@ -901,7 +894,7 @@ nav li a.blog::before {
 }
 
 #blog #lakeland {
-  background-image: url(/img/jpg/IMG_2274_kompr.jpg);
+  background-image: url(/img/jpg/22081522748781_kompr.jpg);
 }
 #blog #lakeland span:before,
 #lakeland h1:before,
@@ -910,13 +903,13 @@ nav li a.blog::before {
 }
 
 /*
-#blog #pohjamaa {
+#blog #pohjanmaa {
   background-image: url(/img/jpg/_kompr.jpg);
 }
-#blog #pohjamaa span:before,
-#pohjamaa h1:before,
-#pohjamaa .pathname-current:before {
-  content: "Pohjamaa 🇫🇮";
+#blog #pohjanmaa span:before,
+#pohjanmaa h1:before,
+#pohjanmaa .pathname-current:before {
+  content: "pohjanmaa 🇫🇮";
 }
 #blog #västerbotten {
   background-image: url(/img/jpg/_kompr.jpg);
@@ -943,7 +936,7 @@ nav li a.about::before {
   content: "About";
 }
 #about .intro-section {
-  background-image: url(/img/gif/about_kompr.gif);
+  background-image: url(/img/gif/22_kompr.gif);
 }
 #about .partner-logos {
   margin: 0;
@@ -1046,14 +1039,13 @@ nav li a.about::before {
 /* ABOUT END */
 
 /* ASSETS START */
-#success dotlottie-player,
-#success template {
-  margin-top: 17vh;
+#success dotlottie-player {
+  margin-top: 10rem;
   width: 6.25rem;
 }
-#error img {
-  animation: none;
-  margin-top: 13vh;
+#error dotlottie-player {
+  margin-bottom: -6.5rem;
+  margin-top: 3rem;
 }
 #success h1,
 #error h1 {
@@ -1295,12 +1287,6 @@ nav li a.about::before {
   .wrapper-narrow,
   .wrapper-standard {
     padding: 0 1.25rem 1rem 1.25rem;
-  }
-  .blog-item img,
-  .blog-item iframe,
-  #cybersecurity .img-fill {
-    margin: 2rem 0;
-    transform: scale(1.1);
   }
 }
 @media only screen and (min-width: 947px) {

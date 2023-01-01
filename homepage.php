@@ -129,7 +129,6 @@
             </section>
             <section></section>
           </section>
-          <div class="blur"></div>
         </section>
         <section id="photo_" class="grid-container">
           <div class="h-stretch reveal">
@@ -172,42 +171,40 @@
               <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
             </picture>
           </div>
-          <div class="h-stretch sketchfab-embed-wrapper reveal">
-            <iframe
-              title="Blåvand bunker | vzor 2"
-              frameborder="0"
-              allowfullscreen
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              allow="autoplay; fullscreen; xr-spatial-tracking"
-              xr-spatial-tracking
-              execution-while-out-of-viewport
-              execution-while-not-rendered
-              web-share
-              src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-              ><p class="alt-alt">
-                3D scan of an Atlantic Wall bunker from WWII.
-              </p>
-            </iframe>
-          </div>
-          <div class="h-stretch sketchfab-embed-wrapper reveal">
-            <iframe
-              title="Element | vzor 1"
-              frameborder="0"
-              allowfullscreen
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              allow="autoplay; fullscreen; xr-spatial-tracking"
-              xr-spatial-tracking
-              execution-while-out-of-viewport
-              execution-while-not-rendered
-              web-share
-              src="https://sketchfab.com/models/6f7724728776400b968d7e01de811d26/embed?autospin=1&dnt=1"
-              ><p class="alt-alt">
-                3D scan of an Atlantic Wall bunker from WWII.
-              </p>
-            </iframe>
-          </div>
+          <iframe
+            class="h-stretch reveal"
+            title="Blåvand bunker | vzor 2"
+            frameborder="0"
+            allowfullscreen
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking
+            execution-while-out-of-viewport
+            execution-while-not-rendered
+            web-share
+            src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
+            ><p class="alt-alt">
+              3D scan of an Atlantic Wall bunker from WWII.
+            </p>
+          </iframe>
+          <iframe
+            class="h-stretch reveal"
+            title="Element | vzor 1"
+            frameborder="0"
+            allowfullscreen
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking
+            execution-while-out-of-viewport
+            execution-while-not-rendered
+            web-share
+            src="https://sketchfab.com/models/6f7724728776400b968d7e01de811d26/embed?autospin=1&dnt=1"
+            ><p class="alt-alt">
+              3D scan of an Atlantic Wall bunker from WWII.
+            </p>
+          </iframe>
           <div class="v-stretch reveal">
             <picture>
               <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
@@ -245,7 +242,7 @@
           </div>
           <div class="v-stretch reveal">
             <picture>
-              <img src="/img/jpg/21090566586848.jpg" alt="21090566586848" />
+              <img src="/img/jpg/21090566586849.jpg" alt="21090566586849" />
             </picture>
           </div>
           <div class="hh-stretch reveal">
@@ -318,22 +315,21 @@
               <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
             </picture>
           </div>
-          <div class="hhh-stretch sketchfab-embed-wrapper reveal">
-            <iframe
-              title="Element | vzor 9"
-              frameborder="0"
-              allowfullscreen
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              allow="autoplay; fullscreen; xr-spatial-tracking"
-              xr-spatial-tracking
-              execution-while-out-of-viewport
-              execution-while-not-rendered
-              web-share
-              src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
-            >
-            </iframe>
-          </div>
+          <iframe
+            class="hhh-stretch reveal"
+            title="Element | vzor 9"
+            frameborder="0"
+            allowfullscreen
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking
+            execution-while-out-of-viewport
+            execution-while-not-rendered
+            web-share
+            src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
+          >
+          </iframe>
           <div id="web-dev"></div>
         </section>
       </article>
@@ -420,7 +416,7 @@
       <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section">
+        <section class="intro-section flex-center">
           <section class="intro-subsection">
             <h2 class="reveal"></h2>
             <section class="read-more reveal flex-center">
@@ -434,6 +430,7 @@
               >
               </lottie-player>
             </section>
+            <section></section>
           </section>
         </section>
         <section class="wrapper-standard">

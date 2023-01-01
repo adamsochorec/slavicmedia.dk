@@ -43,8 +43,8 @@
             href="http://www.toddhido.com/"
             >Todd Hido</a
           >. However, our motives and their final hand to a large extent vary.
-          My goal was to merge urbex, my fascination with adorable
-          Scandinavian architecture, the concept of
+          My goal was to merge urbex, my fascination with adorable Scandinavian
+          architecture, the concept of
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -84,7 +84,6 @@
           src="/img/jpg/22100983968852.jpg"
           alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
         />
-
         <p>
           Beforehand I established communication with a department of the city
           planning, to gain some insight into the property. We figured out that
@@ -95,21 +94,19 @@
           authorities:<br />
           <b
             ><i>
-              ...based on the age and possible historical value The
-              The ostrobothnian museum will likely be consulted before a demolition
+              ...based on the age and possible historical value The The
+              ostrobothnian museum will likely be consulted before a demolition
               a permit is issued.</i
             ></b
           >
         </p>
         <br />
-        <section>
-          <img
-            src="/img/jpg/22100984108857.jpg"
-            alt="Interior shot of a
+        <img
+          src="/img/jpg/22100984108857.jpg"
+          alt="Interior shot of a
         corner, with several bleached spots on the wall's plaster. Most likely
         there have been hanging framed photos and paintings."
-          />
-        </section>
+        />
 
         <p>
           When a property owner's permission to take a look inside the building

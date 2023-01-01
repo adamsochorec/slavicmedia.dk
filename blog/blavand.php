@@ -19,12 +19,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-    <aside>
-      <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-      include $IPATH . 'scroll-status.php';
-      ?>
-    </aside>
+
     <main>
       <article class="wrapper-standard">
         <div class="pathname-container">
@@ -46,23 +41,18 @@
           took a train to Oksbøl, not far away from my final destination - the
           westernmost point of Denmark, the city Blåvand (blue water).
         </p>
-
-        <section>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
-            width="800"
-            height="600"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            ><p class="alt-alt">
-              Satellite view of the westernmost protrusion of continental
-              Denmark.
-            </p></iframe
-          >
-        </section>
-
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205282.0472373483!2d8.004298787866816!3d55.56213433371066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ac2c001e88c2b%3A0xa00afcc1d51a170!2s6857%20Bl%C3%A5vand%2C%20Denmark!5e1!3m2!1sen!2sfi!4v1671016408046!5m2!1sen!2sfi"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          ><p class="alt-alt">
+            Satellite view of the westernmost protrusion of continental Denmark.
+          </p></iframe
+        >
         <p>
           My original plan was to scout the local lighthouse, located
           approximately 35 minutes by walk from the bus station, out of the
@@ -76,13 +66,10 @@
           recreation colony turns into alone standing houses, in the middle of
           dunes are usually built a few meters from the sea.
         </p>
-        <section>
-          <img
-            src="/img/jpg/22041517878128.jpg"
-            alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
-          />
-        </section>
-
+        <img
+          src="/img/jpg/22041517878128.jpg"
+          alt="Photo of dunes covered by heath, in the left top corner can be seen a family house built among the dunes that are as high as the house."
+        />
         <p>
           Navigation states about 20 minutes of the route are remaining, after
           approaching the sea shore is time to turn a bit northern, to get along
@@ -98,12 +85,10 @@
           too much of a deal, even for Hitler's engineers. The majority of the
           bunkers simply sink into the sand.
         </p>
-        <section>
-          <img
-            src="/img/jpg/22041517498117.jpg"
-            alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
-          />
-        </section>
+        <img
+          src="/img/jpg/22041517498117.jpg"
+          alt="WWII bunker sinking into the sand beach with metal decorations of horsetail and neck, kids are playing around."
+        />
         <p>
           Their exterior is usually covered by graffiti and some of them have
           additional Grotesk metal construction, shaping them like a horse or
@@ -115,26 +100,20 @@
           by human creativity and the attitude of youths. It is hard to imagine
           something more embarrassing could happen to those constructions.
         </p>
-        <section>
-          <div class="sketchfab-embed-wrapper">
-            <iframe
-              title="Blåvand bunker | vzor 2"
-              frameborder="0"
-              allowfullscreen
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              allow="autoplay; fullscreen; xr-spatial-tracking"
-              xr-spatial-tracking
-              execution-while-out-of-viewport
-              execution-while-not-rendered
-              web-share
-              src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-              ><p class="alt-alt">
-                3D scan of an Atlantic Wall bunker from WWII.
-              </p>
-            </iframe>
-          </div>
-        </section>
+        <iframe
+          title="Blåvand bunker | vzor 2"
+          frameborder="0"
+          allowfullscreen
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking
+          execution-while-out-of-viewport
+          execution-while-not-rendered
+          web-share
+          src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
+          ><p class="alt-alt">3D scan of an Atlantic Wall bunker from WWII.</p>
+        </iframe>
         <p>
           As I pass more and more bunkers, each with a slightly different design
           and level of sickness, I got a funny idea to scan them. Better then
@@ -142,16 +121,14 @@
           a flat surface in a life-size. So far I have had quite a good
           experience with <b>Polycam</b>, scanning and processing options are
           not the most advanced ones, in many ways, it is just a black box. On
-          On the other hand, it is quite user-friendly and convenient to use. There
-          are also several ways how to scan for free (creating user profiles,
-          sharing scanned content etc.)
+          On the other hand, it is quite user-friendly and convenient to use.
+          There are also several ways how to scan for free (creating user
+          profiles, sharing scanned content etc.)
         </p>
-        <section>
-          <img
-            src="/img/jpg/22041518008132.jpg"
-            alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
-          />
-        </section>
+        <img
+          src="/img/jpg/22041518008132.jpg"
+          alt="View upon a wide hilly heath with Blåvand lighthouse in the background."
+        />
         <p>
           I arrive at a sharp corner of the shore, where the lighthouse was
           built. In a tiny house, that probably used to serve the lighthouse's
@@ -160,13 +137,10 @@
           everywhere I look I see dunes covered by grass of blending colours,
           crossed by narrow paths.
         </p>
-        <section>
-          <img
-            src="/img/jpg/22041517628126.jpg"
-            alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
-          />
-        </section>
-
+        <img
+          src="/img/jpg/22041517628126.jpg"
+          alt="Panorama photo of landscape view from the top of Blåvand lighthouse. Both on right and left can be seen North sea and beaches, in between are mostly dunes covered by rusty heath."
+        />
         <p>
           Back in the souvenir shop, I observe a significant amount of amber
           necklaces and jewellery being offered. The older lady behind the
