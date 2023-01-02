@@ -407,6 +407,27 @@
                 </div>
               </div>
             </a>
+            <a class="hh-stretch" href="/blog/lakeland">
+              <div class="grid-item reveal" id="lakeland">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+            <a class="hh-stretch" href="/blog/västerbotten">
+              <div class="grid-item reveal" id="västerbotten">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+            <a class="hh-stretch" href="/blog/kvarken">
+              <div class="grid-item reveal" id="kvarken">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
           </section>
           <hr class="reveal" />
         </section>
@@ -1091,7 +1112,6 @@
                   </button>
                   <div class="btn-shadow"></div>
                 </div>
-                <br /><br /><br />
                 <input
                   type="hidden"
                   name="_captcha"

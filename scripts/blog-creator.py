@@ -18,8 +18,6 @@ script='''<!DOCTYPE html>
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
   <body id="???" class="blog-item">
@@ -27,12 +25,6 @@ script='''<!DOCTYPE html>
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
-     <aside>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-        include $IPATH . 'scroll-status.php';
-        ?>
-      </aside>
     <main>
       <article class="wrapper-standard">
           <div class="pathname-container">
@@ -44,7 +36,6 @@ script='''<!DOCTYPE html>
           </div>
           <br />
           <h1></h1>
-          <br />
           <img src="/img/jpg/???.jpg" alt="#" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

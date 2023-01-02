@@ -8,8 +8,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
   <body id="lakeland" class="blog-item">
@@ -28,7 +26,6 @@
         </div>
         <br />
         <h1></h1>
-        <br />
         <img src="/img/jpg/22081522748781.jpg" alt="#" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
@@ -40,9 +37,9 @@
           laborum tempora ab architecto.
         </p>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7003734.188873227!2d17.0924604692978!3d64.62348123356168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cadf4b32f6dd%3A0x146d63c75a810!2sFinland!5e0!3m2!1sen!2scz!4v1672616566080!5m2!1sen!2scz"
-          width="600"
-          height="450"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954436.7111803129!2d25.401746972249487!3d62.14582518057915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46908409f3ce7379%3A0xe5e07e57fb6df9aa!2sFinnish%20Lakeland!5e0!3m2!1sen!2scz!4v1672679226349!5m2!1sen!2scz"
+          width="800"
+          height="600"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -52,6 +49,14 @@
         <h2>Related literature</h2>
         <br />
         <ol>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://en.wikipedia.org/wiki/Freedom_to_roam#Finland"
+              >Everyman's right</a
+            >
+          </li>
           <li>
             <a
               target="_blank"

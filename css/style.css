@@ -540,7 +540,7 @@ span.bar {
   align-items: center;
   aspect-ratio: 5/4;
   display: flex;
-  height: 100%;
+  width: 100%;
   justify-content: center;
 }
 .gallery .grid-item {
@@ -901,24 +901,24 @@ nav li a.blog::before {
 #lakeland .pathname-current:before {
   content: "Lakeland 🇫🇮";
 }
-
-/*
-#blog #pohjanmaa {
-  background-image: url(/img/jpg/_kompr.jpg);
-}
-#blog #pohjanmaa span:before,
-#pohjanmaa h1:before,
-#pohjanmaa .pathname-current:before {
-  content: "pohjanmaa 🇫🇮";
-}
 #blog #västerbotten {
-  background-image: url(/img/jpg/_kompr.jpg);
+  background-image: url(/img/jpg/2209048838_kompr.jpg);
 }
 #blog #västerbotten span:before,
 #västerbotten h1:before,
 #västerbotten .pathname-current:before {
   content: "Västerbotten 🇸🇪";
 }
+
+#blog #kvarken {
+  background-image: url(/img/jpg/22082424738796_kompr.jpg);
+}
+#blog #kvarken span:before,
+#kvarken h1:before,
+#kvarken .pathname-current:before {
+  content: "Kvarken 🇫🇮";
+}
+/*
 #blog #flensburg-skagen {
   background-image: url(/img/jpg/_kompr.jpg);
 }
@@ -1086,7 +1086,9 @@ nav li a.about::before {
   }
   .btn-area #btn,
   .btn-area #btn:after,
-  .btn-shadow {
+  .btn-shadow,
+  .gallery .hh-stretch .grid-item,
+  .gallery .hh-stretch .grid-item .blur {
     height: 3rem;
   }
   #error h1,
@@ -1153,6 +1155,9 @@ nav li a.about::before {
   }
   .intro-section {
     background-attachment: scroll;
+  }
+  #success dotlottie-player {
+    margin-top: 5rem;
   }
 }
 @media only screen and (min-width: 538px) {
@@ -1267,9 +1272,13 @@ nav li a.about::before {
   #cybersecurity .btn-area input {
     height: 40px;
   }
+  .btn-area #btn,
+  .btn-shadow {
+    width: calc(100% - 1.5px);
+  }
   #cybersecurity .btn-area #btn,
-  #cybersecurity .btn-area #btn:after,
   #cybersecurity .btn-shadow,
+  #cybersecurity .btn-area #btn:after,
   #cybersecurity .btn-area input {
     width: 90%;
   }
