@@ -1,15 +1,10 @@
 <hr />
 <section class="totop">
   <a href="#" class="flex-center">
-    <lottie-player
-      id="scrollLottie"
-      src="/img/lottie/scroll-down.json"
-      background="transparent"
-      loop
-      speed="2"
-      autoplay
-    >
-    </lottie-player>
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'global-scroll.php';
+    ?>
     <h6>UP!</h6>
   </a>
 </section>

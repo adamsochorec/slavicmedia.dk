@@ -29,147 +29,112 @@
         <div class="blur h-background"></div>
         <section class="intro-section">
           <section class="intro-subsection">
-            <section class="" id="countdown">
-              <br />
-              <h1>&nbsp;in</h1>
-              <ul>
-                <li><span id="days"></span>days</li>
-                <li><span id="hours"></span>Hours</li>
-                <li><span id="minutes"></span>Minutes</li>
-              </ul>
-            </section>
-            <br /><br />
-            <section class="read-more flex-center">
-              <lottie-player
-                id="scrollLottie"
-                src="/img/lottie/scroll-down.json"
-                background="transparent"
-                loop
-                speed="2"
-                autoplay
-              >
-              </lottie-player>
-            </section>
-          </section>
-        </section>
-
-        <section class="wrapper-standard">
-          <section>
+            <h1>Kolding Expo <br />is<br />OPEN</h1>
             <br />
-            <p class="reveal">
-              I have the great pleasure to invite you to the first official
-              exposition of my works!<br />
-              The expo is going to be in the inner spaces of the
-              <a
-                href="https://knuds-garage.business.site/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Knud's Garage</a
-              >
-              in Kolding.<br />You can take a look at my large-scale prints
-              framed in historical frames series, on which I was working during
-              the last spring.
-            </p>
-            <hr class="reveal" />
-          </section>
-          <section>
-            <section class="expo grid-container reveal">
-              <section class="expo grid-item">
-                <div class="panel">
-                  <h3>Where</h3>
-                  <p>
-                    <b>Knud's Garage</b><br />Munkegade 5A<br />Kolding 6000<br />Denmark
-                    🇩🇰
-                  </p>
-                </div>
-              </section>
-              <section class="expo grid-item">
-                <div class="panel">
-                  <h3>When</h3>
-                  <p>
-                    <b>Jan - Feb 2023</b><br /><br />Mon -
-                    Sat&ensp;&emsp;12.00-02.00<br />Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
-                  </p>
-                </div>
-              </section>
-              <br /><br />
-            </section>
             <a
               href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <section class="btn-area flex-center reveal">
-                <div id="btn">Get the directions</div>
+              <section class="btn-area flex-center">
+                <div id="btn">Artworks to be seen</div>
                 <div class="btn-shadow"></div>
               </section>
             </a>
-            <br />
+            <br /><br />
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'global-scroll.php';
+            ?>
           </section>
         </section>
+
+        <br />
+        <section class="wrapper-standard">
+          <hr class="reveal" />
+
+          <p class="reveal">
+            I have the great pleasure to invite you to the first official
+            exposition of my artworks!<br />
+            The expo is going to be in the inner spaces of the
+            <a href="https://knuds-garage.business.site/"> Knud's Garage</a>
+            in Kolding.<br />You can take a look at my large-scale prints framed
+            in historical frames series, on which I was working during the last
+            spring.
+          </p>
+          <hr class="reveal" />
+          <section class="expo grid-container reveal">
+            <section class="expo grid-item">
+              <div class="panel">
+                <h3>Where</h3>
+                <p>
+                  <b>Knud's Garage</b><br />Munkegade 5A<br />Kolding 6000<br />Denmark
+                  🇩🇰
+                </p>
+              </div>
+            </section>
+            <section class="expo grid-item">
+              <div class="panel">
+                <h3>When</h3>
+                <p>
+                  <b>Jan - Feb 2023</b><br /><br />Mon -
+                  Sat&ensp;&emsp;12.00-02.00<br />Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
+                </p>
+              </div>
+            </section>
+            <br /><br />
+          </section>
+          <a
+            href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <section class="btn-area flex-center reveal">
+              <div id="btn">Get the directions</div>
+              <div class="btn-shadow"></div>
+            </section>
+          </a>
+          <hr class="reveals" />
+        </section>
       </article>
+
       <!-- KOLDING EXPO END -->
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="intro-section flex-center">
           <section class="intro-subsection">
             <h2 class="reveal"></h2>
-
-            <section class="read-more reveal flex-center">
-              <lottie-player
-                id="scrollLottie"
-                src="/img/lottie/scroll-down.json"
-                background="transparent"
-                loop
-                speed="2"
-                autoplay
-              >
-              </lottie-player>
-            </section>
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'global-scroll.php';
+            ?>
             <section></section>
           </section>
         </section>
-        <section id="photo_" class="grid-container">
+        <section class="grid-container">
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
-            </picture>
+            <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
-            </picture>
+            <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
           </div>
           <div class="hhh-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2202137912.jpg" alt="2202137912" />
-            </picture>
+            <img src="/img/jpg/2202137912.jpg" alt="2202137912" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21082261146778.jpg" alt="21082261146778" />
-            </picture>
+            <img src="/img/jpg/21082261146778.jpg" alt="21082261146778" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2202137909.jpg" alt="2202137909" />
-            </picture>
+            <img src="/img/jpg/2202137909.jpg" alt="2202137909" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21052108355967.jpg" alt="21052108355967" />
-            </picture>
+            <img src="/img/jpg/21052108355967.jpg" alt="21052108355967" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21071948976502.jpg" alt="21071948976502" />
-            </picture>
+            <img src="/img/jpg/21071948976502.jpg" alt="21071948976502" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
-            </picture>
+            <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
           </div>
           <iframe
             class="h-stretch reveal"
@@ -206,114 +171,70 @@
             </p>
           </iframe>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
-            </picture>
+            <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2105281156137.jpg" alt="2105281156137" />
-            </picture>
+            <img src="/img/jpg/2105281156137.jpg" alt="2105281156137" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
-            </picture>
+            <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
           </div>
           <div class="hh-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
-            </picture>
+            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21090567466861.jpg" alt="21090567466861" />
-            </picture>
+            <img src="/img/jpg/21090567466861.jpg" alt="21090567466861" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21100178367026.jpg" alt="21100178367026" />
-            </picture>
+            <img src="/img/jpg/21100178367026.jpg" alt="21100178367026" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21082462356794.jpg" alt="21082462356794" />
-            </picture>
+            <img src="/img/jpg/21082462356794.jpg" alt="21082462356794" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21090566586849.jpg" alt="21090566586849" />
-            </picture>
+            <img src="/img/jpg/21090566586849.jpg" alt="21090566586849" />
           </div>
           <div class="hh-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
-            </picture>
+            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21041385565587.jpg" alt="21041385565587" />
-            </picture>
+            <img src="/img/jpg/21041385565587.jpg" alt="21041385565587" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21042289925635.jpg" alt="21042289925635" />
-            </picture>
+            <img src="/img/jpg/211102002.jpg" alt="211102002" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/gif/22_kompr.gif" alt="22" />
-            </picture>
+            <img src="/img/gif/22_kompr.gif" alt="22" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/gif/23_kompr.gif" alt="23" />
-            </picture>
+            <img src="/img/gif/23_kompr.gif" alt="23" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21090567896881.jpg" alt="21090567896881" />
-            </picture>
+            <img src="/img/jpg/21090567896881.jpg" alt="21090567896881" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2012184555.jpg" alt="2012184555" />
-            </picture>
+            <img src="/img/jpg/2012184555.jpg" alt="2012184555" />
           </div>
           <div class="v-stretch reveal">
-            <picture>
-              <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
-            </picture>
+            <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
-            </picture>
+            <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
-            </picture>
+            <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
-            </picture>
+            <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
-            </picture>
+            <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
-            </picture>
+            <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
           </div>
           <div class="h-stretch reveal">
-            <picture>
-              <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
-            </picture>
+            <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
           </div>
           <iframe
             class="hhh-stretch reveal"
@@ -387,47 +308,49 @@
           <br />
           <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/house-hunting">
-              <div class="grid-item reveal" id="house-hunting">
+              <div class="grid-item" id="house-hunting">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item reveal" id="blåvand">
+              <div class="grid-item" id="blåvand">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item reveal" id="åland">
+              <div class="grid-item" id="åland">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
+            <!-- 
             <a class="hh-stretch" href="/blog/lakeland">
-              <div class="grid-item reveal" id="lakeland">
+              <div class="grid-item" id="lakeland">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/västerbotten">
-              <div class="grid-item reveal" id="västerbotten">
+              <div class="grid-item" id="västerbotten">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/kvarken">
-              <div class="grid-item reveal" id="kvarken">
+              <div class="grid-item" id="kvarken">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
+            -->
           </section>
           <hr class="reveal" />
         </section>
@@ -440,93 +363,79 @@
         <section class="intro-section flex-center">
           <section class="intro-subsection">
             <h2 class="reveal"></h2>
-            <section class="read-more reveal flex-center">
-              <lottie-player
-                id="scrollLottie"
-                src="/img/lottie/scroll-down.json"
-                background="transparent"
-                loop
-                speed="2"
-                autoplay
-              >
-              </lottie-player>
-            </section>
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'global-scroll.php';
+            ?>
             <section></section>
           </section>
         </section>
         <section class="wrapper-standard">
-          <section>
-            <br />
-            <p class="reveal">
-              Self-taught photographer,
-              <a
-                href="https://www.flickr.com/photos/141401020@N03/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Lego builder</a
-              >
-              and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently
-              occupied with
-              <a
-                href="https://www.iba.dk/fuldtidsuddannelser"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Erhversakademi Kolding</a
-              >
-              in Denmark 🇩🇰 and
-              <a
-                href="https://www.uwasa.fi/fi"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Vaasan Yliopsto</a
-              >
-              in Finland 🇫🇮.​<br />I'm focusing on portrait, fashion, beauty,
-              and experimental themes. Recently I'm also enjoying to work with
-              landscapes, 3D scans and web design.​<br /><br />
-            </p>
+          <hr class="reveal" />
+          <p class="reveal">
+            Self-taught photographer,
+            <a
+              href="https://www.flickr.com/photos/141401020@N03/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Lego builder</a
+            >
+            and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently
+            occupied with
+            <a
+              href="https://www.iba.dk/fuldtidsuddannelser"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Erhversakademi Kolding</a
+            >
+            in Denmark 🇩🇰 and
+            <a
+              href="https://www.uwasa.fi/fi"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Vaasan Yliopsto</a
+            >
+            in Finland 🇫🇮.​<br />I'm focusing on portrait, fashion, beauty, and
+            experimental themes. Recently I'm also enjoying to work with
+            landscapes, 3D scans and web design.​<br /><br />
+          </p>
 
-            <p class="reveal">
-              Most of my shots are taken with
-              <a
-                href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Canon 6D</a
-              >
-              and
-              <a
-                href="https://www.apple.com/iphone-13/specs/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >iPhone 13 mini</a
-              >. 3D models are scanned on my iPhone and rendered by awesome
-              <a
-                href="https://poly.cam/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Polycam</a
-              >
-              software.<br /><br />Hereby open to collaborations and projects!
-            </p>
-          </section>
-          <br />
+          <p class="reveal">
+            Most of my shots are taken with
+            <a
+              href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Canon 6D</a
+            >
+            and
+            <a
+              href="https://www.apple.com/iphone-13/specs/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >iPhone 13 mini</a
+            >. 3D models are scanned on my iPhone and rendered by awesome
+            <a
+              href="https://poly.cam/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Polycam</a
+            >
+            software.<br /><br />Hereby open to collaborations and projects!
+          </p>
           <section class="reveal">
-            <picture>
-              <img
-                class="reveal"
-                src="/img/jpg/IMG_2181.jpg"
-                alt="Portrait of Adam Sochorec diving underwater."
-              />
-            </picture>
+            <img
+              class="reveal"
+              src="/img/jpg/IMG_2181.jpg"
+              alt="Portrait of Adam Sochorec diving underwater."
+            />
           </section>
           <section class="reveal">
-            <picture>
-              <img
-                class="reveal partner-logos"
-                src="/img/jpg/2209885.jpg"
-                alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
-              />
-            </picture>
+            <img
+              class="reveal partner-logos"
+              src="/img/jpg/2209885.jpg"
+              alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
+            />
           </section>
           <hr class="reveal" />
           <h3 class="reveal">Language competences</h3>
@@ -541,6 +450,7 @@
               </section>
               <section class="reveal">
                 <p>English 🇬🇧 <br class="hideLanguages" />Slovak 🇸🇰</p>
+
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="80"></div>
                 </div>
@@ -670,6 +580,7 @@
                           offset="0.3"
                           style="stop-opacity: 1; stop-color: #aeb2d5"
                         />
+
                         <stop
                           id="stop3458"
                           offset="0.75"
@@ -952,6 +863,8 @@
               <ul>
                 <li class="reveal">
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
                     >The Brothers Brick</a
                   >

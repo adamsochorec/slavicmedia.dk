@@ -9,6 +9,13 @@
       <!-- NAVIGATION BAR LINKS START -->
       <li class="nav-item">
         <a
+          aria-describedby="prints"
+          class="navbar-style prints"
+          href="/prints"
+        ></a>
+      </li>
+      <li class="nav-item">
+        <a
           aria-describedby="photo"
           class="navbar-style photo"
           href="/#visuals"
