@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>
+    <meta
+      name="keywords"
+      content="adamsochorec, adam sochorec, @adamsochorec,"
+    />
     <title>Kvarken | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -44,7 +50,11 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          ><p class="alt-alt">
+            Satelite view of an Kvarken Archiepelago on, with the Bothnian bay
+            on left and the west coast of Finish Ostrobotten on the left.
+          </p></iframe
+        >
         <img src="/img/jpg/2208258808.jpg" alt="#" />
         <img src="/img/jpg/22082324138789.jpg" alt="#" />
         <img src="/img/jpg/22082424728795.jpg" alt="#" />
@@ -84,7 +94,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.tulikartta.fi/"
-                >Map of shelters across Finland</a
+                >Map of public shelters across Finland</a
               >
             </li>
             <li>

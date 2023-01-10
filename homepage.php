@@ -3,12 +3,20 @@
   <head>
     <meta
       name="description"
-      content="Self-taught photographer, Lego builder and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently occupied with Erhversakademi Kolding in Denmark 🇩🇰 and Vaasan Yliopsto in Finland 🇫🇮.​
-    I'm focusing on portraits, fashion, beauty, and experimental themes. Recently I'm also enjoying to work with landscapes, 3D scans and web design."
+      content="As a Czech-born multimedia design student
+    currently studying at Erhvesakademi Kolding in Denmark, I have a passion for
+    all things creative. Photography, in particular, has always been a big part
+    of my life. I specialize in portraits and landscapes, and I'm always looking
+    for new and exciting ways to capture the world around me. Whether I'm using
+    my Canon 6D or my iPhone 13 mini, I'm always on the lookout for new subjects
+    and techniques to try out. Recently, I've been exploring the possibilities
+    of 3D scanning and modelling, and in the past, I was an avid lego builder. When I'm not behind the camera, you can find me hiking through the
+    mountains, sleeping in the forest, or biking through the city. Thank you for
+    visiting my website, and I hope you enjoy my work!"
     />
     <meta
       name="keywords"
-      content="Portfolio, syddanmark, visuals, web dev, about, homepage, web development, web-dev, web-development, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Rostislav, design, homepage, Instagram, sketchfab, Flickr, @adamsochorec, Denmark, Danmark, Kolding, Czechia, Czech, republic, prague, česká, Republika, česko, Praha, čechy, fine, art, fotografie, umění, studio, photography, Gabriela, Sofie, Sochorcová, Petra, Magdalena, freelance, photographer, contact, biography, content, creator, content creation, IBA, erhversakademi, lego, star wars, css, html, javascript, php, python, c, canon camera, iPhone 13 mini, Polycam, beauty, experimental, website, web, landscape, landscape photography, prints, adamsochorec, adam, adam s, adamsochorec.com, nordic, Nordics, Scandinavia, severské, země, státy, skandinávie, Canon, EOS, 6D, lens, cestopis, customise, blog"
+      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
     />
     <title>Adam Sochorec</title>
     <?php
@@ -29,13 +37,25 @@
         <div class="blur h-background"></div>
         <section class="intro-section">
           <section class="intro-subsection">
-            <h1>Kolding Expo <br />is<br />OPEN</h1>
-            <br />
-            <a
-              href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <i>
+              <h1>ART EXPO?!</h1>
+              <br />
+              <h1>NOW!!</h1>
+              <br
+            /></i>
+            <h2>
+              Experience the art of photography in a whole new way at my ongoing
+              exhibition at
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://knuds-garage.business.site/"
+                >Knud's Garage</a
+              >
+              in Kolding.
+            </h2>
+            <br /><br />
+            <a href="/prints">
               <section class="btn-area flex-center">
                 <div id="btn">Artworks to be seen</div>
                 <div class="btn-shadow"></div>
@@ -52,21 +72,20 @@
         <br />
         <section class="wrapper-standard">
           <hr class="reveal" />
-
           <p class="reveal">
-            I have the great pleasure to invite you to the first official
-            exposition of my artworks!<br />
-            The expo is going to be in the inner spaces of the
-            <a href="https://knuds-garage.business.site/"> Knud's Garage</a>
-            in Kolding.<br />You can take a look at my large-scale prints framed
-            in historical frames series, on which I was working during the last
-            spring.
+            From January to February 2023, you can see my large-scale portraits
+            on display, beautifully framed in wooden, decorated historical
+            frames.<br />
+            <br />Each artwork is original and <b>available for sale</b>. Don't
+            miss this opportunity to see my selected works in person and take
+            home a one-of-a-kind piece of art.<br /><br />
+            I hope to see you at the exhibition!
           </p>
           <hr class="reveal" />
           <section class="expo grid-container reveal">
             <section class="expo grid-item">
               <div class="panel">
-                <h3>Where</h3>
+                <h4>Where</h4>
                 <p>
                   <b>Knud's Garage</b><br />Munkegade 5A<br />Kolding 6000<br />Denmark
                   🇩🇰
@@ -75,7 +94,7 @@
             </section>
             <section class="expo grid-item">
               <div class="panel">
-                <h3>When</h3>
+                <h4>When</h4>
                 <p>
                   <b>Jan - Feb 2023</b><br /><br />Mon -
                   Sat&ensp;&emsp;12.00-02.00<br />Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
@@ -329,6 +348,14 @@
               </div>
             </a>
             <!-- 
+            <a class="" href="/blog/vestkystruten">
+              <div class="grid-item" id="vestkystruten">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+           
             <a class="hh-stretch" href="/blog/lakeland">
               <div class="grid-item" id="lakeland">
                 <div class="blur">
@@ -373,56 +400,33 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="reveal">
-            Self-taught photographer,
-            <a
-              href="https://www.flickr.com/photos/141401020@N03/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Lego builder</a
-            >
-            and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently
-            occupied with
+            As a Czech-born multimedia design student currently studying at
             <a
               href="https://www.iba.dk/fuldtidsuddannelser"
               target="_blank"
               rel="noopener noreferrer"
               >Erhversakademi Kolding</a
             >
-            in Denmark 🇩🇰 and
+            in Denmark, I have a passion for all things creative. Photography,
+            in particular, has always been a big part of my life. I specialize
+            in portraits and landscapes, and I'm always looking for new and
+            exciting ways to capture the world around me. Whether I'm using my
+            Canon 6D or my iPhone 13 mini, I'm always on the lookout for new
+            subjects and techniques to try out.<br />
+            Recently, I've been exploring the possibilities of 3D scanning and
+            modelling, and in the past, I was an avid
             <a
-              href="https://www.uwasa.fi/fi"
+              href="https://www.flickr.com/photos/141401020@N03/"
               target="_blank"
               rel="noopener noreferrer"
-              >Vaasan Yliopsto</a
-            >
-            in Finland 🇫🇮.​<br />I'm focusing on portrait, fashion, beauty, and
-            experimental themes. Recently I'm also enjoying to work with
-            landscapes, 3D scans and web design.​<br /><br />
+              >Lego builder</a
+            >.<br /><br />
+            When I'm not behind the camera, you can find me hiking through the
+            mountains, sleeping in the forest, or biking through the city.
+            <br /><br />Thanks for visiting my website, and I hope you enjoy! my
+            work!
           </p>
-
-          <p class="reveal">
-            Most of my shots are taken with
-            <a
-              href="https://www.bhphotovideo.com/c/product/892349-REG/Canon_8035b002_EOS_6D_Digital_Camera.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Canon 6D</a
-            >
-            and
-            <a
-              href="https://www.apple.com/iphone-13/specs/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >iPhone 13 mini</a
-            >. 3D models are scanned on my iPhone and rendered by awesome
-            <a
-              href="https://poly.cam/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Polycam</a
-            >
-            software.<br /><br />Hereby open to collaborations and projects!
-          </p>
+          <hr class="reveal" />
           <section class="reveal">
             <img
               class="reveal"
@@ -443,32 +447,32 @@
           <section class="grid-container skills-section">
             <div class="grid-item">
               <section class="reveal">
-                <p>Czech 🇨🇿</p>
+                <p>Czech</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="95"></div>
                 </div>
               </section>
               <section class="reveal">
-                <p>English 🇬🇧 <br class="hideLanguages" />Slovak 🇸🇰</p>
+                <p>English <br class="hideLanguages" />Slovak</p>
 
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="80"></div>
                 </div>
               </section>
               <section class="reveal">
-                <p>Danish 🇩🇰</p>
+                <p>Danish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="45"></div>
                 </div>
               </section>
               <section class="reveal">
-                <p>German 🇩🇪 Swedish 🇸🇪</p>
+                <p>German Swedish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="20"></div>
                 </div>
               </section>
               <section class="reveal">
-                <p>Chinese 🇨🇳 Finnish 🇫🇮</p>
+                <p>Chinese Finnish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="10"></div>
                 </div>

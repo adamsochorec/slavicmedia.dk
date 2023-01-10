@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>
     <meta
       name="keywords"
-      content="vaasa, vaasa, wasa, suomi, finland, finsko, pohjamaa, osterbotten, photo, photography, art, todd, hido, urbex, urban, house, hunting, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, blog, city, cheap, old, houses, @cheapoldhouses, travel, traveling, cestování, adventure, dobrodružství, Finsko, nordic, nordics, scandinavia, severské, země, státy, skandinávie, Canon, EOS, 6D, lens, photography, fotografie, cestopis, cestopisy, blog, fotky, lightroom, kodak, portra, preset,"
+      content="adamsochorec, adam sochorec, @adamsochorec, Todd Hido, urban exploration, Scandinavian architecture, Cheap Old Houses, Palosaari, photography, urban decay, Ostrobothnian Museum, autumn, sunrise, interior design,frames and paintings, beauty and history"
     />
     <title>House Hunting | Adam Sochorec</title>
     <?php
@@ -35,24 +38,24 @@
         />
 
         <p>
-          Inspiration for the concept of <i>House Hunting</i> I originally
-          borrowed from inspiring photographer and artist
+          I borrowed the concept of <i>House Hunting</i> from the inspiring
+          photographer and artist
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="http://www.toddhido.com/"
             >Todd Hido</a
-          >. However, our motives and their final hand to a large extent vary.
-          My goal was to merge urbex, my fascination with adorable Scandinavian
-          architecture, the concept of
+          >. However, our motivations and final products differ significantly.
+          My goal was to combine urbex, my love of charming Scandinavian
+          architecture, the
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/CHEAPOLDHOUSES/"
             >Cheap Old Houses</a
           >
-          the project as well as Hido's narrative way of calling things from the
-          past by capturing their current state or left marks.
+          project, and Hido's narrative style of documenting the past through
+          capturing the current state or remnants of abandoned buildings.
         </p>
         <img
           src="/img/jpg/22100983738848.jpg"
@@ -72,33 +75,26 @@
         />
 
         <p>
-          During one of my walks in the neighbourhood of Palosaari, I couldn't
-          unnoticed the beautiful pale green colour of low-key old-fashioned
-          family house. After closer inspection, I noticed broken windows and
-          entrance stairs, so I was quite sure the building is uninhabited. The
-          building immediately triggered my photographer's instinct. I saw an
-          opportunity to play around and implement some new elements into
-          something I've been already working with. Tempting, I thought.
+          On one of my walks in the neighbourhood of Palosaari, in Finnish
+          Vaasa, I couldn't help but notice the beautiful pale green color of a
+          low-key, old-fashioned family house. Upon closer inspection, I saw
+          broken windows and a damaged entrance staircase, indicating that the
+          building was uninhabited. The building immediately sparked my
+          photographer's instinct and I saw an opportunity to experiment with
+          new elements in a style I had been working with.
         </p>
         <img
           src="/img/jpg/22100983968852.jpg"
           alt="Photo taken from a plan view of an old wooden narrow staircase. The staircase leads from the ground floor to the first floor."
         />
         <p>
-          Beforehand I established communication with a department of the city
-          planning, to gain some insight into the property. We figured out that
-          the building is marked as a demolition project, so my initial the idea
-          to take photos that could be used by
-          <b>Cheap Old Houses</b> initiative to sell and save this building
-          sank.<br /><br />Notherless there is a chance to have faith in local
-          authorities:<br />
-          <b
-            ><i>
-              ...based on the age and possible historical value The The
-              ostrobothnian museum will likely be consulted before a demolition
-              a permit is issued.</i
-            ></b
-          >
+          Beforehand, I had contacted the city planning department to gather
+          information about the property. We discovered that the building was
+          marked for demolition, so my initial plan of taking photos to be used
+          by the <i>Cheap Old Houses</i> initiative to save the building was
+          dashed. However, there is still hope as the The Ostrobothnian Museum
+          will likely be consulted before a demolition permit is issued due to
+          the building's age and potential historical value.
         </p>
         <br />
         <img
@@ -109,15 +105,19 @@
         />
 
         <p>
-          When a property owner's permission to take a look inside the building
-          was authorized, me and my friend & race photographer
+          With the owner's permission, my friend and fellow photographer
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/samuliframes/"
             >Samuli</a
           >
-          have agreed upon a plan of catching an early Autumn sunrise.
+          and I agreed to photograph the inside of the building at sunrise on an
+          early autumn morning.<br />
+          We were able to explore the interior of the building and photograph
+          the bleached spots on the walls, likely left by previously hanging
+          frames and paintings. Despite the building's impending demolition, we
+          were able to document its beauty and history through our photography.
         </p>
         <hr />
         <section>

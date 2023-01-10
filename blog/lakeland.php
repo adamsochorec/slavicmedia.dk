@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>
+    <meta
+      name="keywords"
+      content="adamsochorec, adam sochorec, @adamsochorec,"
+    />
     <title>Lakeland | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -44,7 +50,11 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          ><p class="alt-alt">
+            Satellite view of a Finnish Lakeland, on the south-east of the
+            country.
+          </p></iframe
+        >
         <hr />
         <h2>Related literature</h2>
         <br />

@@ -11,8 +11,11 @@ myfile = open(name1, 'w')
 script='''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+  <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>    <
+    meta name="keywords" content="" />
     <title>??? | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

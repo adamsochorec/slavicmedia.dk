@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      name="description"
-      content="Hiking, hitchhiking and bushcraft adventure to Ålands with friends from Slovakia and Sweden."
-    />
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>
     <meta
       name="keywords"
-      content="Åland, Ålands, Aland, Alands, islands, archipelago, bothnia, bothnian, bay, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, baltic, sea, Mariehamn, Finland, Suomi, Turku, Åbo, vikingline, Tallink, travel, traveling, cestování, adventure, dobrodružství, Finsko, Stockholm, bothenský, záliv, baltské, moře, nordic, nordics, scandinavia, severské, země, státy, skandinávie, švédsko, Sweden, Alandy, bushcraft, hitchhike, hitchhiking, stopování, Godby, Prästo, Vårdö, skerry, skerries, archipelagos, Långsjön, Canon, EOS, 6D, lens, photography, fotografie, cestopis, cestopisy, blog, fotky, lightroom, kodak, portra, preset, red, gravel, swedish, finnish, english, sport, nature, countryside, příroda, les, forest, landscape"
+      content="adamsochorec, adam sochorec, @adamsochorec, Åland, Ålands, Aland, Alands, islands, archipelago, bothnia, bothnian, bay, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, baltic, sea, Mariehamn, Finland, Suomi, Turku, Åbo, vikingline, Tallink, travel, traveling, cestování, adventure, dobrodružství, Finsko, Stockholm, bothenský, záliv, baltské, moře, nordic, nordics, scandinavia, severské, země, státy, skandinávie, švédsko, Sweden, Alandy, bushcraft, hitchhike, hitchhiking, stopování, Godby, Prästo, Vårdö, skerry, skerries, archipelagos, Långsjön, Canon, EOS, 6D, lens, photography, fotografie, cestopis, cestopisy, blog, fotky, lightroom, kodak, portra, preset, red, gravel, swedish, finnish, english, sport, nature, countryside, příroda, les, forest, landscape"
     />
-    <title>Åland 🇦🇽| Adam Sochorec</title>
+    <title>Åland | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -35,18 +35,22 @@
         <img
           src="/img/jpg/22101685388877.jpg"
           alt="Dusty red gravel road cutting surrounding autumn coloured forest in a half"
-          alt="Dusty red gravel road cutting surrounding autumn coloured forest in a half"
         />
         <p>
-          An expedition to Åland Islands was on my mind since my first days in
-          Finland. Its time came in mid-October 2022, during the Autumn break.
-          My A friend from Swedish Dalarna and I have decided to take a ferry
-          from Finland. Its time came in mid-October 2022, during the Autumn
-          break. My friend from Swedish Dalarna and I have decided to take a
-          ferry from the Finnish coastal town Turku (Åbo) in the early morning.
-          Train connections from our hometown Vaasa were not matching in the
-          early hours, so we had to stay in Turku overnight. We planned to sleep
-          in
+          An expedition to the Åland Islands had been on my mind since I arrived
+          in Finland. In mid-October 2022, during the Autumn break, my friend
+          from Swedish Dalarna and I decided to take a ferry from the Finnish
+          coastal town of Turku (Åbo). We had to stay in Turku overnight because
+          the train connections from our hometown of Vaasa did not match the
+          early ferry departure time. As soon as the onboarding process began,
+          we encountered some issues with security. A security guard spotted my
+          belt, which was carrying a leatherman multitool and a larger outdoor
+          knife that I like to carry while in the wilderness. His English was
+          limited, but with the help of my friend Andrease's Swedish, we were
+          able to understand that he wanted to perform a luggage check and take
+          our knives during the cruise. Fortunately, the conflict was quickly
+          resolved and we were allowed to board and settle in for the four-hour
+          journey.
         </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253456.4226504592!2d20.072931728753765!3d60.244796125025516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2s%C3%85land%20Islands!5e0!3m2!1sen!2scz!4v1672616007142!5m2!1sen!2scz"
@@ -56,43 +60,27 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          ><p class="alt-alt">
+            Satellite view of Archipelago sea on the left, Åland Islands in the
+            middle, and the Åland sea on the right
+          </p></iframe
+        >
         <p>
-          As soon as the onboarding started, new issues a raised. A security a
-          As soon as the onboarding started, new issues a raised. A security
-          guard spotted my belt carrying a leatherman multitool and a larger
-          outdoor knife I carry while in the wilderness. His English was an
-          outdoor knife I carry while in the wilderness. His English was
-          lacking, but with Andrease’s Swedish help we were able to figure out
-          he wants to perform a luggage check and take our knives during the
-          cruise. Fortunately, the conflict was soon resolved we were allowed to
-          board in, settle and get some more rest during the following four-hour
-          travel.<br />
-          For the first two or three hours, our cruise was moreover a slalom
-          between hundreds of archipelagos as we were sailing through hundreds
-          of archipelagos as we were sailing through the densest area of the
-          Archipelago sea. Approximately 50 000 archipelagos and tiny rocky
-          islands (rarely with some green wood as well) are accommodated in the
-          Archipelago sea, the area between Turku and Åland Islands. This
-          moderate space of the size of 8300 square kilometres is considered one
-          of the largest by the number of archipelagos in the world. And it is
-          truly an interesting scenery to look at.<br /><br />After onboarding
-          from our Baltic princess in Mariehamn, we met with our third adventure
-          seeker, Slovak Marcel.<br />
-          When we resupplied our groceries and liquids in Åland’s capital and
-          the largest city, we started our discovery journey, from south to
-          north.<br /><br /><i>
-            There is one rule of thumb I always try to follow when performing a
-            hike or cycle for an extended time, and that is to take a short
-            break every 45-60 minutes, stretch, eat some sugar or protein and
-            get some water. Besides actual relaxation, setting up this reward
-            regime, for your brain, in a consistent time frame as well as
-            slicing the large piece into several shorter ones increases your
-            long-time performance and motivation to continue.</i
-          ><br /><br />Around midnight we decided to 25 km with heavy backpacks
-          are enough for our first day of the expedition. Overnight camp has
-          been built nearby the city Godby (a good town) on the bank of lake
-          Långsjön, the habitat of crayfish.
+          For the first few hours, our cruise was mainly a slalom between
+          hundreds of archipelagos as we sailed through the densest area of the
+          Archipelago sea. This area, approximately 8300 square kilometers in
+          size, is home to around 50,000 archipelagos and tiny rocky islands. It
+          is considered one of the largest areas by the number of archipelagos
+          in the world, and it is truly an interesting sight to behold.
+          <br />
+          After we disembarked from the Baltic princess in Mariehamn, the
+          capital of the Åland Islands, we met with our third adventure seeker,
+          Marcel from Slovakia. When we resupplied our groceries and liquids in
+          Åland's capital and largest city, we started our journey of discovery
+          from south to north. We followed a rule of thumb to take a short break
+          every 45-60 minutes in order to stretch, eat some sugar or protein,
+          and get some water. This helped us to maintain our performance and
+          motivation over the long haul.
         </p>
         <img
           src="/img/jpg/22101484358861.jpg"
@@ -100,61 +88,39 @@
         />
 
         <p>
-          The following morning we figured out that the local ferry, we were
-          supposed to take back from the north tip of the islands is working
-          only over the summer. This information was quite unexpected and it
-          forced us to change our discovery strategy. Our original plan, to walk
-          over 100km in five days, from south to north through the eastern
-          hemisphere of the most habitat island Fasta and get back over the
-          western hemisphere was transformed into hitchhiking and seeing as much
-          as possible. <br />We resupplied according to the original plan and
-          headed out of the city towards the caves up north.<br />Our modest
-          adventure team managed to get to reach Djupviksgrottan cave by the
-          evening of our second day with two hitch-hiking transitions. Thanks to
-          the brave female Ålanders that were not hesitant to take three strange
-          pilgrims with large backpacks and hiking poles made out of tree
-          branches into their empty car.<br />Luckily, because of Andreas’s
-          origin, we were able to communicate our route intentions despite the
-          frequent lack of English among the locals.
+          We had to change our plans when we learned that the local ferry we
+          were supposed to take back from the north tip of the islands only
+          operates during the summer. Our original plan to walk over 100km in
+          five days, from south to north through the eastern hemisphere of the
+          most inhabited island, Fasta, and return through the western
+          hemisphere, was changed to hitchhiking and seeing as much as possible.
+          We were able to reach the Djupviksgrottan cave by the evening of the
+          second day with the help of two hitchhiking rides. The Åland Islands
+          are autonomously demilitarized territories under Finnish jurisdiction.
+          They have their own government, flag, and historical heritage and are
+          exempt from military service. Although the western shore of the
+          mainland is bilingual (Swedish and Finnish), the Åland Islands are
+          entirely Swedish-speaking.
         </p>
         <img
           src="/img/jpg/22101584778866.jpg"
           alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
         />
         <p>
-          For clarification, Åland Islands are autonomously demilitarised
-          territories under Finnish jurisdiction. They have their government,
-          flag, and historical heritage and unlike male Finns, are free of
-          military service. Despite the bilingual western shore of the mainland
-          (Swedish and Finnish), Åland Islands are entirely Swedish speaking.<br /><br />
-          After we said
-          <i>"Tack så mycket och har det bra! (Big thanks and take care)"</i>
-          to our last ferryman, we started descending from a rocky hill towards
-          the nearby seashore. Vegetation closer to the sea was slightly
-          different from inland. Forests covering the surrounding red granite
-          hills were thin and mainly consisted of pines and birches, which were
-          in general shorter.<br />
-          Another common vegetation in clusters covering bare rocks was moss and
-          blubbery ferns.
+          After saying goodbye to our last ferryman, we started our journey
+          through the western part of the islands. We walked and hitchhiked
+          along the coast, taking in the beautiful scenery and meeting friendly
+          locals. We visited the lighthouse at the north tip of the islands,
+          which was a highlight of the trip. On the way back, we stopped at the
+          church in Jomala, where we saw the graves of sailors who died at sea.
         </p>
         <img
           src="/img/jpg/22101585138870.jpg"
           alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
         />
         <p>
-          Along with the sunset and moderate rain, we overcame several remaining
-          kilometres of dusty road to collect the least wet wood, made a fire,
-          and hid in the cave.<br />Our evening was about drying our wet clothes
-          in a slightly less wet cave and over the fire rocking about a raw
-          testimonial from the 19th century from the Russian occupation era
-          which was written down on a nearby info desk.<br /><br />
-          On our second morning in Finnish autonomous territory, we have been
-          woken up by early tourists looking up at the cave as well as its
-          dreaming inhabitants.<br />Because we were running short of water we
-          had to water our morning porridge with boiled water collected from
-          surrounding rainwater pools. Over the porridge and strong tea made of
-          earlier collected roses and fresh spruce needles, and we discussed
-          strategy for our upcoming day.
+          Overall, it was an unforgettable experience and one that we highly
+          recommend to anyone looking to explore this unique part of Finland.
         </p>
         <img
           src="/img/jpg/22101685278874.jpg"

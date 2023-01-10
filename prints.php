@@ -4,12 +4,11 @@
     <title>Prints | Adam Sochorec</title>
     <meta
       name="description"
-      content="Self-taught photographer, Lego builder and bush-craft enjoyer, born in Prague, Czechia 🇨🇿. Currently occupied with Erhversakademi Kolding in Denmark 🇩🇰 and Vaasan Yliopsto in Finland 🇫🇮.​
-  I'm focusing on portraits, fashion, beauty, and experimental themes. Recently I'm also enjoying to work with landscapes, 3D scans and web design."
+      content="I'm introducing a limited series of medium to large prints, framed in a magnificent historical frame, which together with original prints create an unique piece of art. Artworks can be seen in a Knud's Garage in Kolding, for the entire of January and February."
     />
     <meta
       name="keywords"
-      content="Portfolio, syddanmark, visuals, web dev, about, homepage, web development, web-dev, web-development, Works, Photography, Photos, 3D, 3D scans, Animations, Art, Web Design, Rostislav, design, homepage, Instagram, sketchfab, Flickr, @adamsochorec, Denmark, Danmark, Kolding, Czechia, Czech, republic, prague, česká, Republika, česko, Praha, čechy, fine, art, fotografie, umění, studio, photography, Gabriela, Sofie, Sochorcová, Petra, Magdalena, freelance, photographer, contact, biography, content, creator, content creation, IBA, erhversakademi, lego, star wars, css, html, javascript, php, python, c, canon camera, iPhone 13 mini, Polycam, beauty, experimental, website, web, landscape, landscape photography, prints, adamsochorec, adam, adam s, adamsochorec.com, nordic, Nordics, Scandinavia, severské, země, státy, skandinávie, Canon, EOS, 6D, lens, cestopis, customise, blog"
+      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
     />
     <title>Adam Sochorec</title>
     <?php
@@ -25,38 +24,43 @@
      ?>
     <!-- HEADER END -->
     <main>
+      <div class="blur h-background"></div>
+      <section class="intro-section">
+        <section class="intro-subsection">
+          <h1></h1>
+          <?php
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+          include $IPATH . 'global-scroll.php';
+          ?>
+        </section>
+      </section>
       <article class="wrapper-standard">
-        <div class="pathname-container">
+        <div class="pathname-container reveal">
           <i
             ><span class="pathname"><a href="/"></a> / </span>
             <span class="pathname-current prints"></span
           ></i>
         </div>
         <br />
-        <h1></h1>
-        <br />
-        <p>
+        <h2 class="reveal">
           I'm introducing a limited series of medium to large prints, framed in
           a magnificent historical frame, which together with original prints
-          create an unique piece of art<br /><br />
-          Artworks can be seen in a
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://knuds-garage.business.site/"
-          >
-            Knud's Garage</a
-          >
+          create an unique piece of art. Artworks can be seen in a Knud's Garage
           in Kolding, for the entire of January and February.
-        </p>
-        <div id="21101786787138"></div>
-        <hr />
+        </h2>
+        <div id="i."></div>
+        <hr class="reveal" />
         <section>
-          <h2>#21101786787138</h2>
-          <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
+          <h3 class="reveal">I.</h3>
+          <section class="reveal">
+            <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
+          </section>
           <p class="reveal">
-            Price: 3.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper <br /><br />Model:
+            Price: 3.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?><br /><br />Model:
             <a
               href="https://www.instagram.com/mft_____________/"
               target="_blank"
@@ -65,18 +69,19 @@
             >
           </p>
         </section>
-        <div id="211102002"></div>
+        <div id="ii."></div>
         <hr class="reveal" />
         <section>
-          <h2 class="reveal">#211102002</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/211102002.jpg"
-            alt="21101786787138"
-          />
+          <h3 class="reveal">II.</h3>
+          <section class="reveal">
+            <img class="reveal" src="/img/jpg/211102002.jpg" alt="II." />
+          </section>
           <p class="reveal">
-            Price: 3.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper<br /><br />Model:
+            Price: 3.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?><br /><br />Model:
             <a
               href="https://www.instagram.com/sarahavlikova/"
               target="_blank"
@@ -85,18 +90,17 @@
             >
           </p>
         </section>
-        <div id="21071948976502"></div>
+        <div id="iii."></div>
         <hr class="reveal" />
         <section>
-          <h2 class="reveal">#21071948976502</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/21071948976502.jpg"
-            alt="21071948976502"
-          />
+          <h3 class="reveal">III.</h3>
+          <img class="reveal" src="/img/jpg/21071948976502.jpg" alt="III." />
           <p class="reveal">
-            Price: 3.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper<br /><br />Model:
+            Price: 3.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?><br /><br />Model:
             <a
               href="https://www.instagram.com/dancheeofficial/"
               target="_blank"
@@ -105,32 +109,30 @@
             >
           </p>
         </section>
-        <div id="2202137909"></div>
+        <div id="iv."></div>
         <hr class="reveal" />
         <section>
-          <h2 class="reveal">#2202137909</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/2202137909.jpg"
-            alt="21101786787138"
-          />
+          <h3 class="reveal">IV.</h3>
+          <img class="reveal" src="/img/jpg/2202137909.jpg" alt="IV." />
           <p class="reveal">
-            Price: 2.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper
+            Price: 2.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?>
           </p>
         </section>
-        <div id="21090566586849"></div>
+        <div id="v."></div>
         <hr class="reveal" />
         <section>
-          <h2 class="reveal">#21090566586849</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/21090566586849.jpg"
-            alt="21101786787138"
-          />
+          <h3 class="reveal">V.</h3>
+          <img class="reveal" src="/img/jpg/21090566586849.jpg" alt="V." />
           <p class="reveal">
-            Price: 2.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper<br /><br />Model:
+            Price: 2.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?><br /><br />Model:
             <a
               href="https://www.instagram.com/sina_u_/"
               target="_blank"
@@ -139,40 +141,38 @@
             >
           </p>
         </section>
-        <div id="22031613958005"></div>
+        <div id="vi."></div>
         <hr class="reveal" />
         <section>
-          <h2 class="reveal">#22031613958005</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/22031613958005.jpg"
-            alt="21101786787138"
-          />
+          <h3 class="reveal">VI.</h3>
+          <img class="reveal" src="/img/jpg/22031613958005.jpg" alt="VI." />
           <p class="reveal">
-            Price: 2.500 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper
+            Price: 2.500 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?>
           </p>
         </section>
-        <div id="2201310419001"></div>
+        <div id="vii."></div>
         <hr />
         <section>
-          <h2 class="reveal">#2201310419001</h2>
-          <img
-            class="reveal"
-            src="/img/jpg/2201310419001.jpg"
-            alt="21101786787138"
-          />
+          <h3 class="reveal">VII.</h3>
+          <img class="reveal" src="/img/jpg/2201310419001.jpg" alt="VII." />
           <p class="reveal">
-            Price: 2.300 DKK<br /><b>One piece in stock</b><br />Material:
-            plexiglass, wood, fine photo paper
+            Price: 2.300 DKK
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'prints-desc.php';
+            ?>
           </p>
         </section>
         <hr class="reveal" />
         <h2 class="reveal">Order prints</h2>
         <br />
-        <h3 class="reveal">
+        <h4 class="reveal">
           Delivery in <b>Kolding</b> is <b>free</b> of charge
-        </h3>
+        </h4>
         <br /><br />
         <section class="contact-form-section">
           <form
@@ -197,38 +197,34 @@
                   required
                 />
                 <br /><br />
+
                 <label for="photo_id">
                   <p>Photo ID *</p>
                 </label>
                 <select
+                  value="Select ID..."
                   type="text"
                   id="photo_id"
-                  name="Photo_ID"
+                  name="_subject"
                   required
-                  placeholder="#123456789"
                 >
-                  <option
-                    value="0"
-                    label="Select ID..."
-                    class="value_0"
-                    selected="selected"
-                  >
+                  <option value="0" class="value_0" selected="selected">
                     Select ID...
                   </option>
                   <optgroup id="country-optgroup-Europe" label="3500 DKK">
-                    <option label="#21101786787138">#21101786787138</option>
-                    <option label="#211102002">#211102002</option>
-                    <option label="#21071948976502">#21071948976502</option>
+                    <option value="Print I. Order" label="I.">I.</option>
+                    <option value="Print II. Order" label="II.">II.</option>
+                    <option value="Print III. Order" label="III.">III.</option>
                   </optgroup>
                   <optgroup id="country-optgroup-Europe" label="3000 DKK">
-                    <option label="#2202137909">#2202137909</option>
-                    <option label="#21090566586849">#21090566586849</option>
+                    <option value="Print IV. Order" label="IV.">IV.</option>
+                    <option value="Print V. Order" label="V.">V.</option>
                   </optgroup>
                   <optgroup id="country-optgroup-Europe" label="2500 DKK">
-                    <option label="#22031613958005">#22031613958005</option>
+                    <option value="Print VI. Order" label="VI.">VI.</option>
                   </optgroup>
                   <optgroup id="country-optgroup-Europe" label="2300 DKK">
-                    <option label="#2201310419001">#2201310419001</option>
+                    <option value="Print VII. Order" label="VII.">VII.</option>
                   </optgroup>
                 </select>
 
@@ -291,6 +287,7 @@
                 <label for="country">
                   <p>Country *</p>
                 </label>
+
                 <select
                   name="Country"
                   class="form-control"
@@ -305,416 +302,303 @@
                   >
                     Select a country...
                   </option>
-                  <optgroup id="country-optgroup-Europe" label="Europe">
-                    <option label="AL" label="Albania">Albania</option>
-                    <option label="AD" label="Andorra">Andorra</option>
-                    <option label="AT" label="Austria">Austria</option>
-                    <option label="BY" label="Belarus">Belarus</option>
-                    <option label="BE" label="Belgium">Belgium</option>
-                    <option label="BA" label="Bosnia and Herzegovina">
-                      Bosnia and Herzegovina
-                    </option>
-                    <option label="BG" label="Bulgaria">Bulgaria</option>
-                    <option label="HR" label="Croatia">Croatia</option>
-                    <option label="CY" label="Cyprus">Cyprus</option>
-                    <option label="CZ" label="Czech Republic">
-                      Czech Republic
-                    </option>
-                    <option label="DK" label="Denmark">Denmark</option>
-                    <option label="DD" label="East Germany">
-                      East Germany
-                    </option>
-                    <option label="EE" label="Estonia">Estonia</option>
-                    <option label="FO" label="Faroe Islands">
-                      Faroe Islands
-                    </option>
-                    <option label="FI" label="Finland">Finland</option>
-                    <option label="FR" label="France">France</option>
-                    <option label="DE" label="Germany">Germany</option>
-                    <option label="GI" label="Gibraltar">Gibraltar</option>
-                    <option label="GR" label="Greece">Greece</option>
-                    <option label="GG" label="Guernsey">Guernsey</option>
-                    <option label="HU" label="Hungary">Hungary</option>
-                    <option label="IS" label="Iceland">Iceland</option>
-                    <option label="IE" label="Ireland">Ireland</option>
-                    <option label="IM" label="Isle of Man">Isle of Man</option>
-                    <option label="IT" label="Italy">Italy</option>
-                    <option label="JE" label="Jersey">Jersey</option>
-                    <option label="LV" label="Latvia">Latvia</option>
-                    <option label="LI" label="Liechtenstein">
-                      Liechtenstein
-                    </option>
-                    <option label="LT" label="Lithuania">Lithuania</option>
-                    <option label="LU" label="Luxembourg">Luxembourg</option>
-                    <option label="MK" label="Macedonia">Macedonia</option>
-                    <option label="MT" label="Malta">Malta</option>
-                    <option label="FX" label="Metropolitan France">
-                      Metropolitan France
-                    </option>
-                    <option label="MD" label="Moldova">Moldova</option>
-                    <option label="MC" label="Monaco">Monaco</option>
-                    <option label="ME" label="Montenegro">Montenegro</option>
-                    <option label="NL" label="Netherlands">Netherlands</option>
-                    <option label="NO" label="Norway">Norway</option>
-                    <option label="PL" label="Poland">Poland</option>
-                    <option label="PT" label="Portugal">Portugal</option>
-                    <option label="RO" label="Romania">Romania</option>
-                    <option label="RU" label="Russia">Russia</option>
-                    <option label="SM" label="San Marino">San Marino</option>
-                    <option label="RS" label="Serbia">Serbia</option>
-                    <option label="CS" label="Serbia and Montenegro">
-                      Serbia and Montenegro
-                    </option>
-                    <option label="SK" label="Slovakia">Slovakia</option>
-                    <option label="SI" label="Slovenia">Slovenia</option>
-                    <option label="ES" label="Spain">Spain</option>
-                    <option label="SJ" label="Svalbard and Jan Mayen">
-                      Svalbard and Jan Mayen
-                    </option>
-                    <option label="SE" label="Sweden">Sweden</option>
-                    <option label="CH" label="Switzerland">Switzerland</option>
-                    <option label="UA" label="Ukraine">Ukraine</option>
-                    <option
-                      label="SU"
-                      label="Union of Soviet Socialist Republics"
-                    >
-                      Union of Soviet Socialist Republics
-                    </option>
-                    <option label="GB" label="United Kingdom">
-                      United Kingdom
-                    </option>
-                    <option label="VA" label="Vatican City">
-                      Vatican City
-                    </option>
-                    <option label="AX" label="Åland Islands">
-                      Åland Islands
-                    </option>
-                  </optgroup>
-                  <optgroup id="country-optgroup-Africa" label="Africa">
-                    <option label="DZ" label="Algeria">Algeria</option>
-                    <option label="AO" label="Angola">Angola</option>
-                    <option label="BJ" label="Benin">Benin</option>
-                    <option label="BW" label="Botswana">Botswana</option>
-                    <option label="BF" label="Burkina Faso">
-                      Burkina Faso
-                    </option>
-                    <option label="BI" label="Burundi">Burundi</option>
-                    <option label="CM" label="Cameroon">Cameroon</option>
-                    <option label="CV" label="Cape Verde">Cape Verde</option>
-                    <option label="CF" label="Central African Republic">
-                      Central African Republic
-                    </option>
-                    <option label="TD" label="Chad">Chad</option>
-                    <option label="KM" label="Comoros">Comoros</option>
-                    <option label="CG" label="Congo - Brazzaville">
-                      Congo - Brazzaville
-                    </option>
-                    <option label="CD" label="Congo - Kinshasa">
-                      Congo - Kinshasa
-                    </option>
-                    <option label="CI" label="Côte d’Ivoire">
-                      Côte d’Ivoire
-                    </option>
-                    <option label="DJ" label="Djibouti">Djibouti</option>
-                    <option label="EG" label="Egypt">Egypt</option>
-                    <option label="GQ" label="Equatorial Guinea">
-                      Equatorial Guinea
-                    </option>
-                    <option label="ER" label="Eritrea">Eritrea</option>
-                    <option label="ET" label="Ethiopia">Ethiopia</option>
-                    <option label="GA" label="Gabon">Gabon</option>
-                    <option label="GM" label="Gambia">Gambia</option>
-                    <option label="GH" label="Ghana">Ghana</option>
-                    <option label="GN" label="Guinea">Guinea</option>
-                    <option label="GW" label="Guinea-Bissau">
-                      Guinea-Bissau
-                    </option>
-                    <option label="KE" label="Kenya">Kenya</option>
-                    <option label="LS" label="Lesotho">Lesotho</option>
-                    <option label="LR" label="Liberia">Liberia</option>
-                    <option label="LY" label="Libya">Libya</option>
-                    <option label="MG" label="Madagascar">Madagascar</option>
-                    <option label="MW" label="Malawi">Malawi</option>
-                    <option label="ML" label="Mali">Mali</option>
-                    <option label="MR" label="Mauritania">Mauritania</option>
-                    <option label="MU" label="Mauritius">Mauritius</option>
-                    <option label="YT" label="Mayotte">Mayotte</option>
-                    <option label="MA" label="Morocco">Morocco</option>
-                    <option label="MZ" label="Mozambique">Mozambique</option>
-                    <option label="NA" label="Namibia">Namibia</option>
-                    <option label="NE" label="Niger">Niger</option>
-                    <option label="NG" label="Nigeria">Nigeria</option>
-                    <option label="RW" label="Rwanda">Rwanda</option>
-                    <option label="RE" label="Réunion">Réunion</option>
-                    <option label="SH" label="Saint Helena">
-                      Saint Helena
-                    </option>
-                    <option label="SN" label="Senegal">Senegal</option>
-                    <option label="SC" label="Seychelles">Seychelles</option>
-                    <option label="SL" label="Sierra Leone">
-                      Sierra Leone
-                    </option>
-                    <option label="SO" label="Somalia">Somalia</option>
-                    <option label="ZA" label="South Africa">
-                      South Africa
-                    </option>
-                    <option label="SD" label="Sudan">Sudan</option>
-                    <option label="SZ" label="Swaziland">Swaziland</option>
-                    <option label="ST" label="São Tomé and Príncipe">
-                      São Tomé and Príncipe
-                    </option>
-                    <option label="TZ" label="Tanzania">Tanzania</option>
-                    <option label="TG" label="Togo">Togo</option>
-                    <option label="TN" label="Tunisia">Tunisia</option>
-                    <option label="UG" label="Uganda">Uganda</option>
-                    <option label="EH" label="Western Sahara">
-                      Western Sahara
-                    </option>
-                    <option label="ZM" label="Zambia">Zambia</option>
-                    <option label="ZW" label="Zimbabwe">Zimbabwe</option>
-                  </optgroup>
-                  <optgroup id="country-optgroup-Americas" label="Americas">
-                    <option label="AI" label="Anguilla">Anguilla</option>
-                    <option label="AG" label="Antigua and Barbuda">
-                      Antigua and Barbuda
-                    </option>
-                    <option label="AR" label="Argentina">Argentina</option>
-                    <option label="AW" label="Aruba">Aruba</option>
-                    <option label="BS" label="Bahamas">Bahamas</option>
-                    <option label="BB" label="Barbados">Barbados</option>
-                    <option label="BZ" label="Belize">Belize</option>
-                    <option label="BM" label="Bermuda">Bermuda</option>
-                    <option label="BO" label="Bolivia">Bolivia</option>
-                    <option label="BR" label="Brazil">Brazil</option>
-                    <option label="VG" label="British Virgin Islands">
-                      British Virgin Islands
-                    </option>
-                    <option label="CA" label="Canada">Canada</option>
-                    <option label="KY" label="Cayman Islands">
-                      Cayman Islands
-                    </option>
-                    <option label="CL" label="Chile">Chile</option>
-                    <option label="CO" label="Colombia">Colombia</option>
-                    <option label="CR" label="Costa Rica">Costa Rica</option>
-                    <option label="CU" label="Cuba">Cuba</option>
-                    <option label="DM" label="Dominica">Dominica</option>
-                    <option label="DO" label="Dominican Republic">
-                      Dominican Republic
-                    </option>
-                    <option label="EC" label="Ecuador">Ecuador</option>
-                    <option label="SV" label="El Salvador">El Salvador</option>
-                    <option label="FK" label="Falkland Islands">
-                      Falkland Islands
-                    </option>
-                    <option label="GF" label="French Guiana">
-                      French Guiana
-                    </option>
-                    <option label="GL" label="Greenland">Greenland</option>
-                    <option label="GD" label="Grenada">Grenada</option>
-                    <option label="GP" label="Guadeloupe">Guadeloupe</option>
-                    <option label="GT" label="Guatemala">Guatemala</option>
-                    <option label="GY" label="Guyana">Guyana</option>
-                    <option label="HT" label="Haiti">Haiti</option>
-                    <option label="HN" label="Honduras">Honduras</option>
-                    <option label="JM" label="Jamaica">Jamaica</option>
-                    <option label="MQ" label="Martinique">Martinique</option>
-                    <option label="MX" label="Mexico">Mexico</option>
-                    <option label="MS" label="Montserrat">Montserrat</option>
-                    <option label="AN" label="Netherlands Antilles">
-                      Netherlands Antilles
-                    </option>
-                    <option label="NI" label="Nicaragua">Nicaragua</option>
-                    <option label="PA" label="Panama">Panama</option>
-                    <option label="PY" label="Paraguay">Paraguay</option>
-                    <option label="PE" label="Peru">Peru</option>
-                    <option label="PR" label="Puerto Rico">Puerto Rico</option>
-                    <option label="BL" label="Saint Barthélemy">
-                      Saint Barthélemy
-                    </option>
-                    <option label="KN" label="Saint Kitts and Nevis">
-                      Saint Kitts and Nevis
-                    </option>
-                    <option label="LC" label="Saint Lucia">Saint Lucia</option>
-                    <option label="MF" label="Saint Martin">
-                      Saint Martin
-                    </option>
-                    <option label="PM" label="Saint Pierre and Miquelon">
-                      Saint Pierre and Miquelon
-                    </option>
-                    <option label="VC" label="Saint Vincent and the Grenadines">
-                      Saint Vincent and the Grenadines
-                    </option>
-                    <option label="SR" label="Suriname">Suriname</option>
-                    <option label="TT" label="Trinidad and Tobago">
-                      Trinidad and Tobago
-                    </option>
-                    <option label="TC" label="Turks and Caicos Islands">
-                      Turks and Caicos Islands
-                    </option>
-                    <option label="VI" label="U.S. Virgin Islands">
-                      U.S. Virgin Islands
-                    </option>
-                    <option label="US" label="United States">
-                      United States
-                    </option>
-                    <option label="UY" label="Uruguay">Uruguay</option>
-                    <option label="VE" label="Venezuela">Venezuela</option>
-                  </optgroup>
-                  <optgroup id="country-optgroup-Asia" label="Asia">
-                    <option label="AF" label="Afghanistan">Afghanistan</option>
-                    <option label="AM" label="Armenia">Armenia</option>
-                    <option label="AZ" label="Azerbaijan">Azerbaijan</option>
-                    <option label="BH" label="Bahrain">Bahrain</option>
-                    <option label="BD" label="Bangladesh">Bangladesh</option>
-                    <option label="BT" label="Bhutan">Bhutan</option>
-                    <option label="BN" label="Brunei">Brunei</option>
-                    <option label="KH" label="Cambodia">Cambodia</option>
-                    <option label="CN" label="China">China</option>
-                    <option label="GE" label="Georgia">Georgia</option>
-                    <option label="HK" label="Hong Kong SAR China">
-                      Hong Kong SAR China
-                    </option>
-                    <option label="IN" label="India">India</option>
-                    <option label="ID" label="Indonesia">Indonesia</option>
-                    <option label="IR" label="Iran">Iran</option>
-                    <option label="IQ" label="Iraq">Iraq</option>
-                    <option label="IL" label="Israel">Israel</option>
-                    <option label="JP" label="Japan">Japan</option>
-                    <option label="JO" label="Jordan">Jordan</option>
-                    <option label="KZ" label="Kazakhstan">Kazakhstan</option>
-                    <option label="KW" label="Kuwait">Kuwait</option>
-                    <option label="KG" label="Kyrgyzstan">Kyrgyzstan</option>
-                    <option label="LA" label="Laos">Laos</option>
-                    <option label="LB" label="Lebanon">Lebanon</option>
-                    <option label="MO" label="Macau SAR China">
-                      Macau SAR China
-                    </option>
-                    <option label="MY" label="Malaysia">Malaysia</option>
-                    <option label="MV" label="Maldives">Maldives</option>
-                    <option label="MN" label="Mongolia">Mongolia</option>
-                    <option label="MM" label="Myanmar [Burma]">
-                      Myanmar [Burma]
-                    </option>
-                    <option label="NP" label="Nepal">Nepal</option>
-                    <option label="NT" label="Neutral Zone">
-                      Neutral Zone
-                    </option>
-                    <option label="KP" label="North Korea">North Korea</option>
-                    <option label="OM" label="Oman">Oman</option>
-                    <option label="PK" label="Pakistan">Pakistan</option>
-                    <option label="PS" label="Palestinian Territories">
-                      Palestinian Territories
-                    </option>
-                    <option
-                      label="YD"
-                      label="People's Democratic Republic of Yemen"
-                    >
-                      People's Democratic Republic of Yemen
-                    </option>
-                    <option label="PH" label="Philippines">Philippines</option>
-                    <option label="QA" label="Qatar">Qatar</option>
-                    <option label="SA" label="Saudi Arabia">
-                      Saudi Arabia
-                    </option>
-                    <option label="SG" label="Singapore">Singapore</option>
-                    <option label="KR" label="South Korea">South Korea</option>
-                    <option label="LK" label="Sri Lanka">Sri Lanka</option>
-                    <option label="SY" label="Syria">Syria</option>
-                    <option label="TW" label="Taiwan">Taiwan</option>
-                    <option label="TJ" label="Tajikistan">Tajikistan</option>
-                    <option label="TH" label="Thailand">Thailand</option>
-                    <option label="TL" label="Timor-Leste">Timor-Leste</option>
-                    <option label="TR" label="Turkey">Turkey</option>
-                    <option label="TM" label="Turkmenistan">
-                      Turkmenistan
-                    </option>
-                    <option label="AE" label="United Arab Emirates">
-                      United Arab Emirates
-                    </option>
-                    <option label="UZ" label="Uzbekistan">Uzbekistan</option>
-                    <option label="VN" label="Vietnam">Vietnam</option>
-                    <option label="YE" label="Yemen">Yemen</option>
-                  </optgroup>
-                  <optgroup id="country-optgroup-Oceania" label="Oceania">
-                    <option label="AS" label="American Samoa">
-                      American Samoa
-                    </option>
-                    <option label="AQ" label="Antarctica">Antarctica</option>
-                    <option label="AU" label="Australia">Australia</option>
-                    <option label="BV" label="Bouvet Island">
-                      Bouvet Island
-                    </option>
-                    <option label="IO" label="British Indian Ocean Territory">
-                      British Indian Ocean Territory
-                    </option>
-                    <option label="CX" label="Christmas Island">
-                      Christmas Island
-                    </option>
-                    <option label="CC" label="Cocos [Keeling] Islands">
-                      Cocos [Keeling] Islands
-                    </option>
-                    <option label="CK" label="Cook Islands">
-                      Cook Islands
-                    </option>
-                    <option label="FJ" label="Fiji">Fiji</option>
-                    <option label="PF" label="French Polynesia">
-                      French Polynesia
-                    </option>
-                    <option label="TF" label="French Southern Territories">
-                      French Southern Territories
-                    </option>
-                    <option label="GU" label="Guam">Guam</option>
-                    <option
-                      label="HM"
-                      label="Heard Island and McDonald Islands"
-                    >
-                      Heard Island and McDonald Islands
-                    </option>
-                    <option label="KI" label="Kiribati">Kiribati</option>
-                    <option label="MH" label="Marshall Islands">
-                      Marshall Islands
-                    </option>
-                    <option label="FM" label="Micronesia">Micronesia</option>
-                    <option label="NR" label="Nauru">Nauru</option>
-                    <option label="NC" label="New Caledonia">
-                      New Caledonia
-                    </option>
-                    <option label="NZ" label="New Zealand">New Zealand</option>
-                    <option label="NU" label="Niue">Niue</option>
-                    <option label="NF" label="Norfolk Island">
-                      Norfolk Island
-                    </option>
-                    <option label="MP" label="Northern Mariana Islands">
-                      Northern Mariana Islands
-                    </option>
-                    <option label="PW" label="Palau">Palau</option>
-                    <option label="PG" label="Papua New Guinea">
-                      Papua New Guinea
-                    </option>
-                    <option label="PN" label="Pitcairn Islands">
-                      Pitcairn Islands
-                    </option>
-                    <option label="WS" label="Samoa">Samoa</option>
-                    <option label="SB" label="Solomon Islands">
-                      Solomon Islands
-                    </option>
-                    <option
-                      label="GS"
-                      label="South Georgia and the South Sandwich Islands"
-                    >
-                      South Georgia and the South Sandwich Islands
-                    </option>
-                    <option label="TK" label="Tokelau">Tokelau</option>
-                    <option label="TO" label="Tonga">Tonga</option>
-                    <option label="TV" label="Tuvalu">Tuvalu</option>
-                    <option label="UM" label="U.S. Minor Outlying Islands">
-                      U.S. Minor Outlying Islands
-                    </option>
-                    <option label="VU" label="Vanuatu">Vanuatu</option>
-                    <option label="WF" label="Wallis and Futuna">
-                      Wallis and Futuna
-                    </option>
-                  </optgroup>
+                  <option value="Afghanistan">Afghanistan</option>
+                  <option value="Albania">Albania</option>
+                  <option value="Algeria">Algeria</option>
+                  <option value="American Samoa">American Samoa</option>
+                  <option value="Andorra">Andorra</option>
+                  <option value="Angola">Angola</option>
+                  <option value="Anguilla">Anguilla</option>
+                  <option value="Antartica">Antarctica</option>
+                  <option value="Antigua and Barbuda">
+                    Antigua and Barbuda
+                  </option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Armenia">Armenia</option>
+                  <option value="Aruba">Aruba</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Austria">Austria</option>
+                  <option value="Azerbaijan">Azerbaijan</option>
+                  <option value="Bahamas">Bahamas</option>
+                  <option value="Bahrain">Bahrain</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="Barbados">Barbados</option>
+                  <option value="Belarus">Belarus</option>
+                  <option value="Belgium">Belgium</option>
+                  <option value="Belize">Belize</option>
+                  <option value="Benin">Benin</option>
+                  <option value="Bermuda">Bermuda</option>
+                  <option value="Bhutan">Bhutan</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Bosnia and Herzegowina">
+                    Bosnia and Herzegowina
+                  </option>
+                  <option value="Botswana">Botswana</option>
+                  <option value="Bouvet Island">Bouvet Island</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="British Indian Ocean Territory">
+                    British Indian Ocean Territory
+                  </option>
+                  <option value="Brunei Darussalam">Brunei Darussalam</option>
+                  <option value="Bulgaria">Bulgaria</option>
+                  <option value="Burkina Faso">Burkina Faso</option>
+                  <option value="Burundi">Burundi</option>
+                  <option value="Cambodia">Cambodia</option>
+                  <option value="Cameroon">Cameroon</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Cape Verde">Cape Verde</option>
+                  <option value="Cayman Islands">Cayman Islands</option>
+                  <option value="Central African Republic">
+                    Central African Republic
+                  </option>
+                  <option value="Chad">Chad</option>
+                  <option value="Chile">Chile</option>
+                  <option value="China">China</option>
+                  <option value="Christmas Island">Christmas Island</option>
+                  <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Comoros">Comoros</option>
+                  <option value="Congo">Congo</option>
+                  <option value="Congo">
+                    Congo, the Democratic Republic of the
+                  </option>
+                  <option value="Cook Islands">Cook Islands</option>
+                  <option value="Costa Rica">Costa Rica</option>
+                  <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+                  <option value="Croatia">Croatia (Hrvatska)</option>
+                  <option value="Cuba">Cuba</option>
+                  <option value="Cyprus">Cyprus</option>
+                  <option value="Czech Republic">Czech Republic</option>
+                  <option value="Denmark">Denmark</option>
+                  <option value="Djibouti">Djibouti</option>
+                  <option value="Dominica">Dominica</option>
+                  <option value="Dominican Republic">Dominican Republic</option>
+                  <option value="East Timor">East Timor</option>
+                  <option value="Ecuador">Ecuador</option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="El Salvador">El Salvador</option>
+                  <option value="Equatorial Guinea">Equatorial Guinea</option>
+                  <option value="Eritrea">Eritrea</option>
+                  <option value="Estonia">Estonia</option>
+                  <option value="Ethiopia">Ethiopia</option>
+                  <option value="Falkland Islands">
+                    Falkland Islands (Malvinas)
+                  </option>
+                  <option value="Faroe Islands">Faroe Islands</option>
+                  <option value="Fiji">Fiji</option>
+                  <option value="Finland">Finland</option>
+                  <option value="France">France</option>
+                  <option value="France Metropolitan">
+                    France, Metropolitan
+                  </option>
+                  <option value="French Guiana">French Guiana</option>
+                  <option value="French Polynesia">French Polynesia</option>
+                  <option value="French Southern Territories">
+                    French Southern Territories
+                  </option>
+                  <option value="Gabon">Gabon</option>
+                  <option value="Gambia">Gambia</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Gibraltar">Gibraltar</option>
+                  <option value="Greece">Greece</option>
+                  <option value="Greenland">Greenland</option>
+                  <option value="Grenada">Grenada</option>
+                  <option value="Guadeloupe">Guadeloupe</option>
+                  <option value="Guam">Guam</option>
+                  <option value="Guatemala">Guatemala</option>
+                  <option value="Guinea">Guinea</option>
+                  <option value="Guinea-Bissau">Guinea-Bissau</option>
+                  <option value="Guyana">Guyana</option>
+                  <option value="Haiti">Haiti</option>
+                  <option value="Heard and McDonald Islands">
+                    Heard and Mc Donald Islands
+                  </option>
+                  <option value="Holy See">
+                    Holy See (Vatican City State)
+                  </option>
+                  <option value="Honduras">Honduras</option>
+                  <option value="Hong Kong">Hong Kong</option>
+                  <option value="Hungary">Hungary</option>
+                  <option value="Iceland">Iceland</option>
+                  <option value="India">India</option>
+                  <option value="Indonesia">Indonesia</option>
+                  <option value="Iran">Iran (Islamic Republic of)</option>
+                  <option value="Iraq">Iraq</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Israel">Israel</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Jamaica">Jamaica</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Jordan">Jordan</option>
+                  <option value="Kazakhstan">Kazakhstan</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="Kiribati">Kiribati</option>
+                  <option value="Democratic People's Republic of Korea">
+                    Korea, Democratic People's Republic of
+                  </option>
+                  <option value="Korea">Korea, Republic of</option>
+                  <option value="Kuwait">Kuwait</option>
+                  <option value="Kyrgyzstan">Kyrgyzstan</option>
+                  <option value="Lao">Lao People's Democratic Republic</option>
+                  <option value="Latvia">Latvia</option>
+                  <option value="Lebanon">Lebanon</option>
+                  <option value="Lesotho">Lesotho</option>
+                  <option value="Liberia">Liberia</option>
+                  <option value="Libyan Arab Jamahiriya">
+                    Libyan Arab Jamahiriya
+                  </option>
+                  <option value="Liechtenstein">Liechtenstein</option>
+                  <option value="Lithuania">Lithuania</option>
+                  <option value="Luxembourg">Luxembourg</option>
+                  <option value="Macau">Macau</option>
+                  <option value="Macedonia">
+                    Macedonia, The Former Yugoslav Republic of
+                  </option>
+                  <option value="Madagascar">Madagascar</option>
+                  <option value="Malawi">Malawi</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="Maldives">Maldives</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Malta">Malta</option>
+                  <option value="Marshall Islands">Marshall Islands</option>
+                  <option value="Martinique">Martinique</option>
+                  <option value="Mauritania">Mauritania</option>
+                  <option value="Mauritius">Mauritius</option>
+                  <option value="Mayotte">Mayotte</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Micronesia">
+                    Micronesia, Federated States of
+                  </option>
+                  <option value="Moldova">Moldova, Republic of</option>
+                  <option value="Monaco">Monaco</option>
+                  <option value="Mongolia">Mongolia</option>
+                  <option value="Montserrat">Montserrat</option>
+                  <option value="Morocco">Morocco</option>
+                  <option value="Mozambique">Mozambique</option>
+                  <option value="Myanmar">Myanmar</option>
+                  <option value="Namibia">Namibia</option>
+                  <option value="Nauru">Nauru</option>
+                  <option value="Nepal">Nepal</option>
+                  <option value="Netherlands">Netherlands</option>
+                  <option value="Netherlands Antilles">
+                    Netherlands Antilles
+                  </option>
+                  <option value="New Caledonia">New Caledonia</option>
+                  <option value="New Zealand">New Zealand</option>
+                  <option value="Nicaragua">Nicaragua</option>
+                  <option value="Niger">Niger</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Niue">Niue</option>
+                  <option value="Norfolk Island">Norfolk Island</option>
+                  <option value="Northern Mariana Islands">
+                    Northern Mariana Islands
+                  </option>
+                  <option value="Norway">Norway</option>
+                  <option value="Oman">Oman</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="Palau">Palau</option>
+                  <option value="Panama">Panama</option>
+                  <option value="Papua New Guinea">Papua New Guinea</option>
+                  <option value="Paraguay">Paraguay</option>
+                  <option value="Peru">Peru</option>
+                  <option value="Philippines">Philippines</option>
+                  <option value="Pitcairn">Pitcairn</option>
+                  <option value="Poland">Poland</option>
+                  <option value="Portugal">Portugal</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="Qatar">Qatar</option>
+                  <option value="Reunion">Reunion</option>
+                  <option value="Romania">Romania</option>
+                  <option value="Russia">Russian Federation</option>
+                  <option value="Rwanda">Rwanda</option>
+                  <option value="Saint Kitts and Nevis">
+                    Saint Kitts and Nevis
+                  </option>
+                  <option value="Saint LUCIA">Saint LUCIA</option>
+                  <option value="Saint Vincent">
+                    Saint Vincent and the Grenadines
+                  </option>
+                  <option value="Samoa">Samoa</option>
+                  <option value="San Marino">San Marino</option>
+                  <option value="Sao Tome and Principe">
+                    Sao Tome and Principe
+                  </option>
+                  <option value="Saudi Arabia">Saudi Arabia</option>
+                  <option value="Senegal">Senegal</option>
+                  <option value="Seychelles">Seychelles</option>
+                  <option value="Sierra">Sierra Leone</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Slovakia">Slovakia (Slovak Republic)</option>
+                  <option value="Slovenia">Slovenia</option>
+                  <option value="Solomon Islands">Solomon Islands</option>
+                  <option value="Somalia">Somalia</option>
+                  <option value="South Africa">South Africa</option>
+                  <option value="South Georgia">
+                    South Georgia and the South Sandwich Islands
+                  </option>
+                  <option value="Span">Spain</option>
+                  <option value="SriLanka">Sri Lanka</option>
+                  <option value="St. Helena">St. Helena</option>
+                  <option value="St. Pierre and Miguelon">
+                    St. Pierre and Miquelon
+                  </option>
+                  <option value="Sudan">Sudan</option>
+                  <option value="Suriname">Suriname</option>
+                  <option value="Svalbard">
+                    Svalbard and Jan Mayen Islands
+                  </option>
+                  <option value="Swaziland">Swaziland</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Switzerland">Switzerland</option>
+                  <option value="Syria">Syrian Arab Republic</option>
+                  <option value="Taiwan">Taiwan, Province of China</option>
+                  <option value="Tajikistan">Tajikistan</option>
+                  <option value="Tanzania">Tanzania, United Republic of</option>
+                  <option value="Thailand">Thailand</option>
+                  <option value="Togo">Togo</option>
+                  <option value="Tokelau">Tokelau</option>
+                  <option value="Tonga">Tonga</option>
+                  <option value="Trinidad and Tobago">
+                    Trinidad and Tobago
+                  </option>
+                  <option value="Tunisia">Tunisia</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Turkmenistan">Turkmenistan</option>
+                  <option value="Turks and Caicos">
+                    Turks and Caicos Islands
+                  </option>
+                  <option value="Tuvalu">Tuvalu</option>
+                  <option value="Uganda">Uganda</option>
+                  <option value="Ukraine">Ukraine</option>
+                  <option value="United Arab Emirates">
+                    United Arab Emirates
+                  </option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="United States">United States</option>
+                  <option value="United States Minor Outlying Islands">
+                    United States Minor Outlying Islands
+                  </option>
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="Vanuatu">Vanuatu</option>
+                  <option value="Venezuela">Venezuela</option>
+                  <option value="Vietnam">Viet Nam</option>
+                  <option value="Virgin Islands (British)">
+                    Virgin Islands (British)
+                  </option>
+                  <option value="Virgin Islands (U.S)">
+                    Virgin Islands (U.S.)
+                  </option>
+                  <option value="Wallis and Futana Islands">
+                    Wallis and Futuna Islands
+                  </option>
+                  <option value="Western Sahara">Western Sahara</option>
+                  <option value="Yemen">Yemen</option>
+                  <option value="Serbia">Serbia</option>
+                  <option value="Zambia">Zambia</option>
+                  <option value="Zimbabwe">Zimbabwe</option>
                 </select>
               </section>
             </section>
@@ -746,7 +630,6 @@
                 value="https://adamsochorec.com/success"
               />
               <!-- Redirect to the success page -->
-              <input type="hidden" name="_subject" value="Print order" />
               <!-- Subject definiton -->
             </section>
           </form>

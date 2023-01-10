@@ -93,8 +93,6 @@ main {
 }
 #homepage main {
   display: block;
-  overflow-y: scroll;
-  scroll-snap-type: y proximity;
 }
 h1,
 h2,
@@ -112,9 +110,11 @@ h6 {
 h1,
 .intro-section h2 {
   font-size: var(--fontsize-h1);
+  text-shadow: var(--text-shadow-1);
 }
 h2 {
   font-size: var(--fontsize-h2);
+  text-shadow: var(--text-shadow-1);
 }
 h3 {
   font-size: var(--fontsize-h3);
@@ -131,7 +131,6 @@ h6 {
 #homepage h1,
 #homepage h2 {
   font-size: var(--fontsize-h1);
-  text-shadow: var(--text-shadow-1);
 }
 ol,
 main li,
@@ -155,7 +154,6 @@ main li {
 a {
   cursor: pointer;
   font-weight: var(--paragraph-weight);
-  overflow: hidden;
   text-decoration: none;
 }
 .wrapper-narrow h2 a {
@@ -176,8 +174,7 @@ iframe {
   vertical-align: middle;
 }
 #about img,
-.blog-item img,
-#prints img {
+.blog-item img {
   margin: 2.5rem 0 2.5rem 0;
 }
 .blog-item iframe {
@@ -185,8 +182,7 @@ iframe {
 }
 img,
 iframe,
-source,
-.strava-embed-placeholder {
+source {
   animation: skeleton-loading 1s linear infinite alternate;
   border-radius: var(--border-radius-1);
   height: 100%;
@@ -208,7 +204,9 @@ hr {
   z-index: 3;
 }
 .wrapper-standard,
-hr {
+hr,
+#kolding-expo .intro-subsection,
+#prints .intro-subsection {
   max-width: 100%;
   width: 37.5rem;
 }
@@ -246,20 +244,31 @@ h2:before,
 /* link hover start */
 p a,
 i a,
-.wrapper-standard li a {
+.wrapper-standard li a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   box-shadow: inset 0 -2px 0 rgba(var(--primary-color), 0.5),
     0 2px 0 rgba(var(--primary-color), 0.5);
   color: inherit;
   color: inherit;
   cursor: pointer;
-  overflow: hidden;
   text-decoration: none;
   text-decoration: none;
   transition: box-shadow 0.5s;
 }
 p a:hover,
 i a:hover,
-.wrapper-standard li a:hover {
+.wrapper-standard li a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
   box-shadow: inset 0 -30px 0 rgba(var(--primary-color), 0.5),
     0 2px 0 rgba(var(--primary-color), 0.5);
   transition: 0.5s;
@@ -274,7 +283,6 @@ i a:hover,
   background-size: cover;
   display: flex;
   justify-content: center;
-  overflow: scroll;
   resize: both;
   scroll-snap-align: start;
 }
@@ -382,7 +390,7 @@ header {
   justify-content: center;
   padding: 0 2.5rem;
   position: fixed;
-  z-index: 99;
+  z-index: 9999;
 }
 header .blur {
   left: 0;
@@ -651,17 +659,19 @@ footer .footer-ps span:nth-child(2) {
 /* GLOBAL END */
 
 /* EXPO START */
-#kolding-expo h1 {
-  transform: var(--text-transform-1);
-  text-align: center;
+#kolding-expo h1:nth-child(3) {
+  text-align: end;
 }
 #kolding-expo .intro-section {
-  background-image: url(/img/jpg/IMG_0922.jpg);
+  background-image: url(/img/jpg/kolding-expo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
 }
 #kolding-expo h2 {
   margin-bottom: 0;
+  font-size: var(--fontsize-h4);
+  text-shadow: none;
+  text-align: unset;
 }
 #kolding-expo .grid-container {
   display: grid;
@@ -681,7 +691,7 @@ footer .footer-ps span:nth-child(2) {
   margin-bottom: 1rem;
 }
 #kolding-expo .panel p,
-#kolding-expo .panel h3 {
+#kolding-expo .panel h4 {
   color: rgb(var(--background-color));
 }
 #kolding-expo .panel:hover {
@@ -695,7 +705,24 @@ nav li a.prints::before,
 #prints h1:before {
   content: "Prints";
 }
+#prints h1 {
+  text-align: center;
+}
+#prints h2 {
+  text-shadow: none;
+  font-size: var(--fontsize-h5);
+}
 #prints h3 {
+  text-shadow: var(--text-shadow-1);
+  font-size: var(--fontsize-h1);
+}
+#prints .intro-section {
+  background-image: url(/img/jpg/prints.jpg);
+}
+#prints img {
+  margin: 1rem 0 1rem 0;
+}
+#prints h4 {
   font-size: var(--fontsize-h6);
 }
 /* prints end */
@@ -859,7 +886,7 @@ nav li a.blog::before {
 #blog #house-hunting span:before,
 #house-hunting h1:before,
 #house-hunting .pathname-current:before {
-  content: "House Hunting 🇫🇮";
+  content: "House Hunting";
 }
 #blog #blåvand {
   background-image: url(/img/jpg/22041518018133_kompr.jpg);
@@ -867,7 +894,7 @@ nav li a.blog::before {
 #blog #blåvand span:before,
 #blåvand h1:before,
 #blåvand .pathname-current:before {
-  content: "Blåvand 🇩🇰";
+  content: "Blåvand";
 }
 #blog #åland {
   background-image: url(/img/jpg/22101685388877_kompr.jpg);
@@ -875,7 +902,7 @@ nav li a.blog::before {
 #blog #åland span:before,
 #åland h1:before,
 #åland .pathname-current:before {
-  content: "Åland 🇦🇽";
+  content: "Åland";
 }
 
 #blog #lakeland {
@@ -884,7 +911,7 @@ nav li a.blog::before {
 #blog #lakeland span:before,
 #lakeland h1:before,
 #lakeland .pathname-current:before {
-  content: "Lakeland 🇫🇮";
+  content: "Lakeland";
 }
 #blog #västerbotten {
   background-image: url(/img/jpg/2209048838_kompr.jpg);
@@ -892,26 +919,28 @@ nav li a.blog::before {
 #blog #västerbotten span:before,
 #västerbotten h1:before,
 #västerbotten .pathname-current:before {
-  content: "Västerbotten 🇸🇪";
+  content: "Västerbotten";
 }
-
 #blog #kvarken {
   background-image: url(/img/jpg/22082424738796_kompr.jpg);
 }
 #blog #kvarken span:before,
 #kvarken h1:before,
 #kvarken .pathname-current:before {
-  content: "Kvarken 🇫🇮";
+  content: "Kvarken";
 }
-/*
-#blog #flensburg-skagen {
-  background-image: url(/img/jpg/_kompr.jpg);
+#blog #vestkystruten {
+  background-image: url(/img/jpg/IMG_1849_kompr.jpg);
 }
-#blog #flensburg-skagen span:before,
-#flensburg-skagen h1:before,
-#flensburg-skagen .pathname-current:before {
-  content: "Flensburg - Skagen 🇩🇰";
+#blog #vestkystruten span:before,
+#vestkystruten h1:before,
+#vestkystruten .pathname-current:before {
+  content: "Vestkystruten";
 }
+#vestkystruten iframe {
+  height: 20rem;
+}
+
 /* BLOG END*/
 
 /* ABOUT START */
@@ -1019,6 +1048,14 @@ nav li a.about::before {
 .contact-form-section button {
   background-color: transparent;
   border: none;
+}
+select {
+  appearance: none;
+  background-color: transparent;
+  background-image: url(/img/jpg/chevron-down-solid.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
 }
 /* contact form end */
 
@@ -1277,7 +1314,9 @@ nav li a.about::before {
     top: var(--nav-bar-top-position);
   }
   .wrapper-narrow,
-  .wrapper-standard {
+  .wrapper-standard,
+  #kolding-expo .intro-subsection,
+  #prints .intro-subsection {
     padding: 0 1.25rem 1rem 1.25rem;
   }
   #about img,
@@ -1286,8 +1325,20 @@ nav li a.about::before {
   #prints img {
     transform: scale(1.1);
   }
+  #prints img {
+    margin: 2.5rem 0 2.5rem 0;
+  }
 }
 @media only screen and (min-width: 947px) {
+  .blog-item img:hover,
+  .blog-item iframe:hover,
+  #prints img:hover,
+  #cybersecurity .img-fill:hover,
+  #about img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
   .blog-item img:hover,
   .blog-item iframe:hover,
   #prints img:hover,
@@ -1305,9 +1356,23 @@ nav li a.about::before {
   #cybersecurity .img-fill:hover,
   #cybersecurity .img-fill,
   #prints img,
-  #prints img:hover {
+  #prints img:hover,
+  #about img,
+  #about img:hover {
     transition: var(--transition-1);
     z-index: 999;
+  }
+  .hideIframe {
+    display: none;
+  }
+  #kolding-expo h1:nth-child(1) {
+    transform: translateX(-80px) translateY(40px);
+  }
+  #kolding-expo h1:nth-child(3) {
+    transform: translateX(80px);
+  }
+  #vestkystruten iframe:hover {
+    transform: none;
   }
 }
 /* MEDIA QUERRIES END */

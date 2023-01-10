@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'blog-desc.php';
+    ?>
+    <meta
+      name="keywords"
+      content="adamsochorec, adam sochorec, @adamsochorec,"
+    />
     <title>Västerbotten | Adam Sochorec</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -35,7 +41,10 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          ><p class="alt-alt">
+            Satellite view of an central part of the Scandinavia.
+          </p></iframe
+        >
         <p></p>
         <img src="/img/jpg/2209012611001.jpg" alt="#" />
         <p>
