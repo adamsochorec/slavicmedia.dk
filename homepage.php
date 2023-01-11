@@ -36,14 +36,14 @@
       <article id="kolding-expo">
         <div class="blur h-background"></div>
         <section class="intro-section">
-          <section class="intro-subsection">
+          <section class="intro-subsection"><br><br>
             <i>
-              <h1>ART EXPO?!</h1>
+              <h2>ART EXPO?!</h2>
               <br />
-              <h1>NOW!!</h1>
+              <h2>NOW!!</h2>
               <br
             /></i>
-            <h2>
+            <h1>
               Experience the art of photography in a whole new way at my ongoing
               exhibition at
               <a
@@ -53,15 +53,14 @@
                 >Knud's Garage</a
               >
               in Kolding.
-            </h2>
+            </h1>
             <br /><br />
             <a href="/prints">
               <section class="btn-area flex-center">
-                <div id="btn">Artworks to be seen</div>
+                <div id="btn">Checkout the artworks</div>
                 <div class="btn-shadow"></div>
               </section>
             </a>
-            <br /><br />
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';

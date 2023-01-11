@@ -4,7 +4,7 @@
     <title>Prints | Adam Sochorec</title>
     <meta
       name="description"
-      content="I'm introducing a limited series of medium to large prints, framed in a magnificent historical frame, which together with original prints create an unique piece of art. Artworks can be seen in a Knud's Garage in Kolding, for the entire of January and February."
+      content="I'm introducing a limited series of medium to large prints, framed in a magnificent historical frame, which together with original prints create an unique piece of art. Artworks can be seen in a Knud's Garage in Kolding, for the entire January and February."
     />
     <meta
       name="keywords"
@@ -42,20 +42,22 @@
           ></i>
         </div>
         <br />
-        <h2 class="reveal">
+        <p class="reveal">
           I'm introducing a limited series of medium to large prints, framed in
           a magnificent historical frame, which together with original prints
-          create an unique piece of art. Artworks can be seen in a Knud's Garage
-          in Kolding, for the entire of January and February.
-        </h2>
+          create an unique piece of art. Artworks can be seen in a <a
+          href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Knud's Garage</a>
+          in Kolding, for the entire <b>January</b> and <b>February</b>.
+        </p>
         <div id="i."></div>
         <hr class="reveal" />
-        <section>
           <h3 class="reveal">I.</h3>
-          <section class="reveal">
-            <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
-          </section>
-          <p class="reveal">
+            <img class="reveal" src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
+
+            <p class="reveal">
             Price: 3.500 DKK
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -68,7 +70,6 @@
               >Martina T.</a
             >
           </p>
-        </section>
         <div id="ii."></div>
         <hr class="reveal" />
         <section>
