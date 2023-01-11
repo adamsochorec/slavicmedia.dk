@@ -11,7 +11,8 @@
     Jutland, Vestkystruten 1, Danish national cycle route 1, wooden public
     shelters, North Sea, fjords, coastal views, beauty, YouTube, travel vlogs"
     />
-    <title>Vestkystruten | Adam Sochorec</title>
+    <title>Vestkystruten | Adam Sochorec</title>   <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';

@@ -9,7 +9,8 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec,"
     />
-    <title>Kvarken | Adam Sochorec</title>
+    <title>Kvarken | Adam Sochorec</title>   <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';

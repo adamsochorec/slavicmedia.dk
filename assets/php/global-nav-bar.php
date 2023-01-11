@@ -25,7 +25,7 @@
         <a
           aria-describedby="web-dev"
           class="navbar-style web"
-          href="/#web-dev"
+          href="/#projects"
         ></a>
       </li>
       <li class="nav-item">

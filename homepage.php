@@ -81,8 +81,8 @@
             I hope to see you at the exhibition!
           </p>
           <hr class="reveal" />
-          <section class="expo grid-container reveal">
-            <section class="expo grid-item">
+          <section class="grid-container reveal">
+            <section class="grid-item">
               <div class="panel">
                 <h4>Where</h4>
                 <p>
@@ -91,7 +91,7 @@
                 </p>
               </div>
             </section>
-            <section class="expo grid-item">
+            <section class="grid-item">
               <div class="panel">
                 <h4>When</h4>
                 <p>
@@ -269,18 +269,18 @@
             src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
           >
           </iframe>
-          <div id="web-dev"></div>
+          <div id="projects"></div>
         </section>
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-      <article id="web-dev">
+      <article id="projects">
         <section class="wrapper-standard">
           <hr class="reveal" />
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/web-dev/cybersecurity">
+            <a class="hh-stretch" href="/projects/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
                 <div class="blur">
                   <span></span>
@@ -291,7 +291,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/web-dev/zebra-design/zebra-design"
+              href="/projects/zebra-design/zebra-design"
             >
               <div class="grid-item reveal" id="zebra-design">
                 <div class="blur">
@@ -303,7 +303,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/web-dev/memos/memos"
+              href="/projects/memos/memos"
             >
               <div class="grid-item reveal" id="memos">
                 <div class="blur">

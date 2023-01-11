@@ -205,6 +205,9 @@ hr {
 .note {
   font-size: 0.7rem;
 }
+textarea{
+  resize: none;
+}
 .flex-center {
   align-items: center;
   display: flex;
@@ -631,9 +634,7 @@ footer .footer-ps span:nth-child(2) {
   background-repeat: no-repeat;
 }
 #kolding-expo .grid-container {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  padding: 0;
+  display: block;
 }
 #kolding-expo .grid-item p {
   line-height: 2em;
@@ -728,17 +729,17 @@ nav li a.photo::before {
   object-fit: cover;
   width: 100%;
 }
-#web-dev h2:before,
+#projects h2:before,
 .pathname-current.web::before,
 .pathname.web:nth-child(2) a::before,
 nav li a.web::before {
-  content: "Web dev";
+  content: "Projects";
 }
-#web-dev #zebra-design {
-  background-image: url(/web-dev/zebra-design/img/zebraGif_kompr.jpg);
+#projects #zebra-design {
+  background-image: url(/projects/zebra-design/img/zebraGif_kompr.jpg);
 }
-#web-dev #memos {
-  background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
+#projects #memos {
+  background-image: url(/projects/memos/img/_MG_0188_kompr.jpg);
 }
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
@@ -1249,6 +1250,7 @@ select {
   #prints img {
     margin: 2.5rem 0 2.5rem 0;
   }
+  
 }
 @media only screen and (min-width: 947px) {
   #about img:hover,
@@ -1286,6 +1288,9 @@ select {
   .hideIframe {
     display: none;
   }
+  .hideImage {
+    display: none;
+  }
   #kolding-expo h2:nth-child(1) {
     transform: translateX(70px) translateY(40px);
   }
@@ -1294,5 +1299,8 @@ select {
   }
   #vestkystruten iframe:hover {
     transform: none;
+  }
+  .hidePrint {
+    display: none;
   }
 }
