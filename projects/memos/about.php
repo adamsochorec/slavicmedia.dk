@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="./css/aboutus.css" />
+    <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link rel="icon" href="img/Memos-logo-copy.png" type="image/png" />
     <title>About | Memos</title>
@@ -20,15 +20,15 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="memos" class="nav-logo">
+        <a href="./homepage" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="memos" class="nav-link">VEJLE WATCH</a>
+            <a href="./homepage" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="aboutus" class="nav-link">ABOUT</a>
+            <a href="about" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -135,11 +135,13 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="aboutus">about</a>
+        <a class="nav-link2" href="about">about</a>
         <br />
         <a class="nav-link2" href="privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="terms">terms and conditions</a>
+        <a class="nav-link2" href="./terms-and-conditions"
+          >terms and conditions</a
+        >
         <br />
       </div>
       <p class="copyright">2022 © MEMOS.dk</p>

@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="memos" class="nav-logo">
+            <a href="homepage" class="nav-logo">
                 <div class="logos"></div>
             </a>
             <ul class="nav-menu">
@@ -27,7 +27,7 @@
                     <a href="memos" class="nav-link">VEJLE WATCH</a>
                   </li>
                 <li class="nav-item">
-                    <a href="aboutus" class="nav-link">ABOUT</a>
+                    <a href="about" class="nav-link">ABOUT</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -75,11 +75,11 @@
         </div>
         <div class="links">
             <br>
-            <a class="nav-link2" href="aboutus">about</a>
+            <a class="nav-link2" href="about">about</a>
             <br>
             <a class="nav-link2" href="privacy">privacy policy</a>
             <br>
-            <a class="nav-link2" href="terms">terms and conditions</a>
+            <a class="nav-link2" href="./terms-and-conditions">terms and conditions</a>
             <br>
         </div>
         <p class="copyright">2022 © MEMOS.dk</p>

@@ -26,7 +26,7 @@
                     <a href="memos" class="nav-link">VEJLE WATCH</a>
                   </li>
                 <li class="nav-item">
-                    <a href="aboutus" class="nav-link">ABOUT</a>
+                    <a href="about" class="nav-link">ABOUT</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -91,7 +91,7 @@
                             </ul>
                         </form>
                     </div> <!-- END: .modal__content -->
-                    <p class="agreement">By continuing you agree with our <a class="terms" href="terms">terms and
+                    <p class="agreement">By continuing you agree with our <a class="./terms-and-conditions" href="./terms-and-conditions">terms and
                             conditions</a>.</p>
                 </div> <!-- END: .modal__container -->
 
@@ -117,11 +117,11 @@
         </div>
         <div class="links">
             <br>
-            <a class="nav-link2" href="aboutus">about</a>
+            <a class="nav-link2" href="about">about</a>
             <br>
             <a class="nav-link2" href="privacy">privacy policy</a>
             <br>
-            <a class="nav-link2" href="terms">terms and conditions</a>
+            <a class="nav-link2" href="./terms-and-conditions">terms and conditions</a>
             <br>
         </div>
         <p class="copyright">2022 © MEMOS.dk</p>

@@ -20,18 +20,15 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="./memos" class="nav-logo">
+        <a href="./homepage" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="memos" class="nav-link">HOME</a>
+            <a href="./homepage" class="nav-link">HOME</a>
           </li>
           <li class="nav-item">
-            <a href="productpage" class="nav-link">VEJLE WATCH</a>
-          </li>
-          <li class="nav-item">
-            <a href="aboutus" class="nav-link">ABOUT</a>
+            <a href="./about.php" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -47,7 +44,8 @@
         <br />
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Memos's Website, located at <a href="memos">memos.dk</a>.
+          use of ./homepage's Website, located at
+          <a href="./homepage">memos.dk</a>.
         </p>
         <br />
         <p>
@@ -372,11 +370,13 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="aboutus">about</a>
+        <a class="nav-link2" href="about">about</a>
         <br />
         <a class="nav-link2" href="privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="terms">terms and conditions</a>
+        <a class="nav-link2" href="./terms-and-conditions"
+          >terms and conditions</a
+        >
         <br />
       </div>
       <p class="copyright">2022 © MEMOS.dk</p>
