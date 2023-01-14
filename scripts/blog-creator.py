@@ -17,6 +17,8 @@ script='''<!DOCTYPE html>
     ?>    <
     meta name="keywords" content="" />
     <title>??? | Adam Sochorec</title>
+     <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -39,8 +41,10 @@ script='''<!DOCTYPE html>
           </div>
           <br />
           <h1></h1>
-          <img src="/img/jpg/???.jpg" alt="#" />
-          <p>
+        <section class="img"><img src="/img/jpg/???.jpg" alt="#" />
+        <p><i class="note">Img description</i></p>
+        </section>
+<p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Recusandae hic odit in amet harum quos voluptatum tempore, molestiae
             explicabo nihil itaque. Repellat aliquid quos quo eligendi? Tempore

@@ -16,7 +16,7 @@
     ?>
   </head>
 
-  <body id="cybersecurity">
+  <body id="cybersecurity" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
@@ -2835,11 +2835,40 @@ C502.2,625.2,499,621.9,499,618.3z"
               </a>
             </li>
           </ol>
-          <?php
+        </section>
+        <hr class="reveal" />
+        <h2 class="reveal">Other projects</h2>
+        <br />
+        <section class="grid-container gallery reveal">
+          <a
+            class="hh-stretch"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/projects/zebra-design/zebra-design"
+          >
+            <div class="grid-item reveal" id="zebra-design">
+              <div class="blur">
+                <span>Zebra-design</span>
+              </div>
+            </div>
+          </a>
+          <a
+            class="hh-stretch"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/projects/memos/memos"
+          >
+            <div class="grid-item reveal" id="memos">
+              <div class="blur">
+                <span>Memos</span>
+              </div>
+            </div>
+          </a>
+        </section>
+        <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';
           ?>
-        </section>
       </article>
     </main>
     <script src="/scripts/cybersecurity.js"></script>

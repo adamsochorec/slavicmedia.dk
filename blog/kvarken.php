@@ -9,7 +9,8 @@
       name="keywords"
       content="adamsochorec, adam sochorec, @adamsochorec,"
     />
-    <title>Kvarken | Adam Sochorec</title>   <meta name="robots" content="noindex" />
+    <title>Kvarken | Adam Sochorec</title>
+    <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -119,6 +120,46 @@
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';
           ?>
+        </section>
+        <hr />
+        <h2>Further reading</h2>
+        <br />
+        <section class="grid-container gallery">
+          <a class="hh-stretch" href="/blog/house-hunting">
+            <div class="grid-item" id="house-hunting">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blåvand">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/västerbotten">
+            <div class="grid-item" id="västerbotten">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/vestkystruten">
+            <div class="grid-item" id="vestkystruten">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a class="hh-stretch" href="/blog/aland">
+            <div class="grid-item" id="åland">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
         </section>
       </article>
     </main>

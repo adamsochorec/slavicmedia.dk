@@ -62,7 +62,7 @@
           src="/img/jpg/21101786787138.jpg"
           alt="21101786787138"
         />
-        <br /><br class="hidePrint" />
+        <br /><br class="hide" />
         <p class="reveal">
           Price: 3.500 DKK
           <?php
@@ -135,7 +135,7 @@
             class="reveal"
             src="/img/jpg/21090566586849.jpg"
             alt="V."
-          /><br /><br class="hidePrint" />
+          /><br /><br class="hide" />
           <p class="reveal">
             Price: 2.500 DKK
             <?php
@@ -169,7 +169,7 @@
           <h3 class="reveal">VII.</h3>
           <img class="reveal" src="/img/jpg/2201310419001.jpg" alt="VII." />
           <br />
-          <br class="hidePrint" />
+          <br class="hide" />
           <p class="reveal">
             Price: 2.300 DKK
             <?php

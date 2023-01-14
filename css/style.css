@@ -163,7 +163,7 @@ svg {
   vertical-align: middle;
 }
 #about img,
-.blog-item img {
+.blog-item .img {
   margin: 2.5rem 0 2.5rem 0;
 }
 .blog-item iframe {
@@ -205,7 +205,7 @@ hr {
 .note {
   font-size: 0.7rem;
 }
-textarea{
+textarea {
   resize: none;
 }
 .flex-center {
@@ -255,8 +255,8 @@ i a:hover,
 p a:hover {
   box-shadow: inset 0 -30px 0 rgba(var(--secondary-color), 0.5),
     0 2px 0 rgba(var(--primary-color), 0.5);
-  transition: 0.5s;
   text-decoration: none;
+  transition: 0.5s;
 }
 .intro-section {
   align-items: center;
@@ -735,10 +735,10 @@ nav li a.photo::before {
 nav li a.web::before {
   content: "Projects";
 }
-#projects #zebra-design {
+.gallery #zebra-design {
   background-image: url(/projects/zebra-design/img/zebraGif_kompr.jpg);
 }
-#projects #memos {
+.gallery #memos {
   background-image: url(/projects/memos/img/_MG_0188_kompr.jpg);
 }
 #cybersecurity .pathname-current:before,
@@ -821,60 +821,60 @@ nav li a.web::before {
 nav li a.blog::before {
   content: "Blog";
 }
-#blog #house-hunting {
+.gallery #house-hunting {
   background-image: url(/img/jpg/22100983718847_kompr.jpg);
 }
-#blog #house-hunting span:before,
 #house-hunting .pathname-current:before,
-#house-hunting h1:before {
+#house-hunting h1:before,
+.gallery #house-hunting span:before {
   content: "House Hunting";
 }
-#blog #blåvand {
+.gallery #blåvand {
   background-image: url(/img/jpg/22041518018133_kompr.jpg);
 }
-#blog #blåvand span:before,
 #blåvand .pathname-current:before,
-#blåvand h1:before {
+#blåvand h1:before,
+.gallery #blåvand span:before {
   content: "Blåvand";
 }
-#blog #åland {
+.gallery #åland {
   background-image: url(/img/jpg/22101685388877_kompr.jpg);
 }
-#blog #åland span:before,
 #åland .pathname-current:before,
-#åland h1:before {
+#åland h1:before,
+.gallery #åland span:before {
   content: "Åland";
 }
-#blog #lakeland {
+.gallery #lakeland {
   background-image: url(/img/jpg/22081522748781_kompr.jpg);
 }
-#blog #lakeland span:before,
 #lakeland .pathname-current:before,
-#lakeland h1:before {
+#lakeland h1:before,
+.gallery #lakeland span:before {
   content: "Lakeland";
 }
-#blog #västerbotten {
+.gallery #västerbotten {
   background-image: url(/img/jpg/2209048838_kompr.jpg);
 }
-#blog #västerbotten span:before,
 #västerbotten .pathname-current:before,
-#västerbotten h1:before {
+#västerbotten h1:before,
+.gallery #västerbotten span:before {
   content: "Västerbotten";
 }
-#blog #kvarken {
+.gallery #kvarken {
   background-image: url(/img/jpg/22082424738796_kompr.jpg);
 }
-#blog #kvarken span:before,
 #kvarken .pathname-current:before,
-#kvarken h1:before {
+#kvarken h1:before,
+.gallery #kvarken span:before {
   content: "Kvarken";
 }
-#blog #vestkystruten {
+.gallery #vestkystruten {
   background-image: url(/img/jpg/IMG_1849_kompr.jpg);
 }
-#blog #vestkystruten span:before,
 #vestkystruten .pathname-current:before,
-#vestkystruten h1:before {
+#vestkystruten h1:before,
+.gallery #vestkystruten span:before {
   content: "Vestkystruten";
 }
 #vestkystruten iframe {
@@ -1005,8 +1005,8 @@ select {
 #error h2,
 #success h2 {
   font-size: var(--fontsize-h6);
-  text-shadow: none;
   text-decoration: none;
+  text-shadow: none;
 }
 #error .wrapper-narrow h2 a:hover,
 #success .wrapper-narrow h2 a:hover {
@@ -1250,7 +1250,6 @@ select {
   #prints img {
     margin: 2.5rem 0 2.5rem 0;
   }
-  
 }
 @media only screen and (min-width: 947px) {
   #about img:hover,
@@ -1258,17 +1257,12 @@ select {
   #prints img:hover,
   .blog-item iframe:hover,
   .blog-item img:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
-      rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px,
-      rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0 22px 70px 4px;
   }
   #cybersecurity .img-fill:hover,
   #prints img:hover,
   .blog-item iframe:hover,
   .blog-item img:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px,
-      rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px,
-      rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
     transform: scale(1.5);
     z-index: 999;
   }
@@ -1285,10 +1279,7 @@ select {
     transition: var(--transition-1);
     z-index: 999;
   }
-  .hideIframe {
-    display: none;
-  }
-  .hideImage {
+  .hide {
     display: none;
   }
   #kolding-expo h2:nth-child(1) {
@@ -1299,8 +1290,5 @@ select {
   }
   #vestkystruten iframe:hover {
     transform: none;
-  }
-  .hidePrint {
-    display: none;
   }
 }

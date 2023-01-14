@@ -7,7 +7,7 @@
     ?>
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, Åland, Ålands, Aland, Alands, islands, archipelago, bothnia, bothnian, bay, adam, sochorec, @adamsochorec, adamsochorec, adamsochorec.com, baltic, sea, Mariehamn, Finland, Suomi, Turku, Åbo, vikingline, Tallink, travel, traveling, cestování, adventure, dobrodružství, Finsko, Stockholm, bothenský, záliv, baltské, moře, nordic, nordics, scandinavia, severské, země, státy, skandinávie, švédsko, Sweden, Alandy, bushcraft, hitchhike, hitchhiking, stopování, Godby, Prästo, Vårdö, skerry, skerries, archipelagos, Långsjön, Canon, EOS, 6D, lens, photography, fotografie, cestopis, cestopisy, blog, fotky, lightroom, kodak, portra, preset, red, gravel, swedish, finnish, english, sport, nature, countryside, příroda, les, forest, landscape"
+      content="adamsochorec, adam sochorec, @adamsochorec, Åland Islands, Finland, Autumn, Turku, Vaasa, Archipelago Sea, Mariehamn, Fasta, Djupviksgrottan cave, hitchhiking, Jomala, rural settlements, camping, bushfraft, wilderness, adventure, hiking, exploration, ferry, cruise, archipelagos, natural beauty, island hopping, cultural heritage, outdoor activities, backpacking, outdoor travel, outdoor living, outdoor adventure, outdoor lifestyle, outdoor recreation, outdoor exploration, natural wonders, outdoor adventure travel, outdoor excursion, outdoor journey, outdoor trip, outdoor vacation, outdoor getaway, outdoor holiday, outdoor escapade, outdoor adventure trip, outdoor adventure vacation, outdoor adventure holiday, outdoor adventure getaway, outdoor adventure escapade, outdoor adventure journey, outdoor adventure trip"
     />
     <title>Åland | Adam Sochorec</title>
     <?php
@@ -32,25 +32,71 @@
         </div>
         <br />
         <h1></h1>
-        <img
-          src="/img/jpg/22101685388877.jpg"
-          alt="Dusty red gravel road cutting surrounding autumn coloured forest in a half"
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101685388877.jpg"
+            alt="Dusty red gravel road cutting surrounding autumn colured forest in a half"
+          />
+        </section>
         <p>
-          An expedition to the Åland Islands had been on my mind since I arrived
-          in Finland. In mid-October 2022, during the Autumn break, my friend
-          from Swedish Dalarna and I decided to take a ferry from the Finnish
-          coastal town of Turku (Åbo). We had to stay in Turku overnight because
-          the train connections from our hometown of Vaasa did not match the
-          early ferry departure time. As soon as the onboarding process began,
-          we encountered some issues with security. A security guard spotted my
-          belt, which was carrying a leatherman multitool and a larger outdoor
-          knife that I like to carry while in the wilderness. His English was
-          limited, but with the help of my friend Andrease's Swedish, we were
-          able to understand that he wanted to perform a luggage check and take
-          our knives during the cruise. Fortunately, the conflict was quickly
-          resolved and we were allowed to board and settle in for the four-hour
-          journey.
+          The
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Åland"
+            >Åland Islands</a
+          >
+          are autonomously demilitarized territories under Finnish jurisdiction.
+          They have their government,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Flag_of_%C3%85land"
+            >flag</a
+          >, and historical heritage and are exempt from
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Conscription_in_Finland#Military_service"
+            >Finnish conscription</a
+          >. Although the western shore of the mainland is bilingual (Swedish
+          and Finnish), the Åland Islands are entirely Swedish-speaking.
+          <br />
+          <br />I had been planning an expedition to the <i>land of ål</i> (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/eel"
+            >eel</a
+          >) the since my arrival in Finland. In mid-October 2022, during the
+          Autumn break, my friend
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/andreas_perjons/"
+            >Andreas</a
+          >, from Swedish
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Dalarna"
+            >Dalarna</a
+          >, and I decided to take a ferry from the Finnish coastal town of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Turku"
+            >Turku</a
+          >
+          (Åbo in Swedish). However, we had to stay overnight in Turku due to
+          train connections from our hometown of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Vaasa"
+            >Vaasa</a
+          >
+          not matching the early ferry departure time.
         </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253456.4226504592!2d20.072931728753765!3d60.244796125025516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ae468c4e1eb19%3A0xcd43f68373428eed!2s%C3%85land%20Islands!5e0!3m2!1sen!2scz!4v1672616007142!5m2!1sen!2scz"
@@ -66,227 +112,336 @@
           </p></iframe
         >
         <p>
-          For the first few hours, our cruise was mainly a slalom between
-          hundreds of archipelagos as we sailed through the densest area of the
-          Archipelago sea. This area, approximately 8300 square kilometers in
-          size, is home to around 50,000 archipelagos and tiny rocky islands. It
-          is considered one of the largest areas by the number of archipelagos
-          in the world, and it is truly an interesting sight to behold.
+          For the first few hours of our cruise, we navigated through hundreds
+          of
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/skerry"
+            >skerries</a
+          >
+          as we sailed through the densest area of the
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Archipelago_Sea"
+            >Archipelago Sea</a
+          >. This area, approximately <b>8300 square kilometers</b> in size, is
+          home to around <b>50,000 archipelagos</b> and tiny rocky islands
+          (skerries). It is considered one of the largest areas by the number of
+          archipelagos in the world and is truly an interesting sight to behold.
           <br />
-          After we disembarked from the Baltic princess in Mariehamn, the
-          capital of the Åland Islands, we met with our third adventure seeker,
-          Marcel from Slovakia. When we resupplied our groceries and liquids in
-          Åland's capital and largest city, we started our journey of discovery
+        </p>
+        <section class="img">
+          <img
+            src="/img/jpg/IMG_3017.jpg"
+            alt="Photo of skerries covered by vegetation, located in the Archipelago sea"
+          />
+        </section>
+        <p><i class="note">Skerries in the Archipelago Sea</i></p>
+        <section class="img">
+          <img
+            src="/img/jpg/IMG_3020.jpg"
+            alt="Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea"
+          />
+          <br /><br class="hide" />
+        </section>
+        <p>
+          After disembarking from the Baltic princess in
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Mariehamn"
+            >Mariehamn</a
+          >, the capital of the Åland Islands, we met our third adventure
+          seeker,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/marcelhajik/"
+            >Marcel</a
+          >
+          from Slovakia. We resupplied our groceries and liquids in Åland's
+          capital and the largest city before starting our journey of discovery
           from south to north. We followed a rule of thumb to take a short break
-          every 45-60 minutes in order to stretch, eat some sugar or protein,
-          and get some water. This helped us to maintain our performance and
-          motivation over the long haul.
+          every 45-60 minutes to stretch, eat some sugar or protein, and
+          hydrate. This helped us to maintain our performance and motivation
+          over the long haul.
         </p>
-        <img
-          src="/img/jpg/22101484358861.jpg"
-          alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
-        />
-
+        <section class="img">
+          <img
+            src="/img/jpg/IMG_3063.jpg"
+            alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
+          />
+        </section>
         <p>
-          We had to change our plans when we learned that the local ferry we
-          were supposed to take back from the north tip of the islands only
-          operates during the summer. Our original plan to walk over 100km in
-          five days, from south to north through the eastern hemisphere of the
-          most inhabited island, Fasta, and return through the western
-          hemisphere, was changed to hitchhiking and seeing as much as possible.
-          We were able to reach the Djupviksgrottan cave by the evening of the
-          second day with the help of two hitchhiking rides. The Åland Islands
-          are autonomously demilitarized territories under Finnish jurisdiction.
-          They have their own government, flag, and historical heritage and are
-          exempt from military service. Although the western shore of the
-          mainland is bilingual (Swedish and Finnish), the Åland Islands are
-          entirely Swedish-speaking.
+          The following day we woke up in our
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Bushcraft"
+            >bushcraft</a
+          >
+          camp on the banks of Lake Långsjön. Right in the morning we had to
+          change our plans when we learned that the local ferry we were supposed
+          to take back from the north tip of the islands only operates during
+          the summer.<br />Our original plan to walk over 100km in five days,
+          from south to north through the eastern hemisphere of the most
+          inhabited island,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Fasta_%C3%85land"
+            >Fasta</a
+          >, and return through the western hemisphere, was changed to
+          hitchhiking and seeing as much as possible. We were able to reach the
+          Djupviksgrottan cave by the evening of the second day with the help of
+          two hitchhiking rides.
         </p>
-        <img
-          src="/img/jpg/22101584778866.jpg"
-          alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101584778866.jpg"
+            alt="Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car."
+          />
+        </section>
         <p>
-          After saying goodbye to our last ferryman, we started our journey
+          After saying goodbye to our last ferryman, we embarked on a journey
           through the western part of the islands. We walked and hitchhiked
           along the coast, taking in the beautiful scenery and meeting friendly
-          locals. We visited the lighthouse at the north tip of the islands,
-          which was a highlight of the trip. On the way back, we stopped at the
-          church in Jomala, where we saw the graves of sailors who died at sea.
+          locals. One of the highlights of the trip was visiting the lighthouse
+          at the north tip of the islands. On the way back, we stopped at the
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/St._Olaf%27s_Church,_Jomala"
+            >church in Jomala</a
+          >, where we saw the graves of sailors who died at sea.
         </p>
-        <img
-          src="/img/jpg/22101585138870.jpg"
-          alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101685278874.jpg"
+            alt="Outside view at
+    our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
+    keeping an eye on a campfire."
+          />
+          <br /><br class="hide" />
+          <p><i class="note">The Djupviksgrottan cave</i></p>
+        </section>
         <p>
-          Overall, it was an unforgettable experience and one that we highly
-          recommend to anyone looking to explore this unique part of Finland.
+          Before leaving the cave, Marcel and I scouted the surrounding
+          countryside and were surprised to discover fancy-looking and
+          well-equipped cottages just a few hundred meters above the cave,
+          seemingly in the middle of nowhere. Later that day, we were back on
+          our feet, walking on the red roads that are common on the Åland
+          Islands, passing rural settlements and farms, and seeking rides once
+          again.
         </p>
-        <img
-          src="/img/jpg/22101685278874.jpg"
-          alt="Outside view at
-          our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
-          keeping an eye on a campfire."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101685428878.jpg"
+            alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
+          />
+        </section>
         <p>
-          Before leaving the cave, I and Marcel scouted our surrounding
-          countryside, we were quite surprised when we discovered fancy-looking
-          and well-equipped pairs of cottages just a few hundred meters above
-          the cave, essentially in the middle of nowhere.
+          This time, our carriers were two fresh-looking wanderers we had talked
+          with earlier that day in the cave (the only males who stopped for us
+          during our entire journey!) We exchanged stories and tips with
+          strangers in their cars, squeezed into the rear seats. On our way to
+          the capital in the south, our paths split in Godby. As before, we
+          resupplied with groceries, recharged our lithium batteries, chilled in
+          the lobby, and reviewed our strategy.
         </p>
-        <img
-          src="/img/jpg/22101685668880.jpg"
-          alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101685668880.jpg"
+            alt="Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun."
+          />
+        </section>
 
         <p>
-          Later on, that day we were again on our feet, walking on the red
-          roads, that are just everywhere you go on Ålands, passing rural house
-          settlements and farms seeking good souls with thumbs up once again.<br />This
-          The time our carriers consisted of two fresh-looking wanderers we
-          talked with earlier that day in the cave (the only man that stopped us
-          over our entire journey!) Once again we were exchanging stories and
-          tips with strangers in their cars, squeezed into the rear seats.<br />On
-          stranger’s way to the capital on the very south, our paths have split
-          in Godby.<br />As for the first time, resupplied with groceries
-          recharged our lithium, chilled in the lobby and reviewed our strategy.
+          It was just the second day of our expedition, and we had already
+          reached our final destination. We decided to conquer the east of the
+          archipelago territory as a plan for our remaining two days. To our
+          disappointment, as soon as we finished our planning and got ready to
+          continue, a violent storm with intense rain occurred. Despite fate's
+          unwillingness, we proceeded further into darkness, far away from the
+          city lights, still hoping for a ride.
         </p>
-        <img
-          src="/img/jpg/22101685428878.jpg"
-          alt="Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101585138870.jpg"
+            alt="Photo of Andreas and Marcel hiking through the forest in the northern part of Alands."
+          />
+        </section>
         <p>
-          It was just the second day of our expedition and we already reached
-          our final destination, we decided to conquer the east of the
-          archipelago territory as a plan for our remaining two days.<br />
-          To the pitty of our team, as soon as we finished our planning and got
-          ready to continue, a violent storm with intense rain occurred. Despite
-          fate’s unwillingness, we proceeded further into darkness, far away
-          from the city lights, thumbs up again.<br />After an hour of
-          struggling to attract passing drivers with smiles and hand waves, when
-          it seemed that Ålanders are coldhearted, and without mercy to
-          trespassing foreigners, Nissan seemed to unnoticed the presence of
-          three pilgrims, far away from the city in heavy rain, pulled over a
-          few dozen meters away. As soon as we realised what happened, we
-          sprinted along with cheering.<br />Lonely driver called Karolina
-          offered us hot tea with a promise of warming up in her nearby house.
+          After an hour of struggling to attract passing drivers with smiles and
+          hand waves, when it seemed that Ålanders were cold-hearted and without
+          mercy for trespassing foreigners, a Nissan unnoticed our presence
+          pulled over a few dozen meters away. As soon as we realized what had
+          happened, we sprinted towards the car cheering. The lonely driver,
+          Karolina, offered us hot tea and a promise of warming up in her nearby
+          house.
+        </p>
+        <section class="img">
+          <img
+            src="/img/jpg/22101785778883.jpg"
+            alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+          />
+          <br /><br class="hide" />
+          <p><i class="note">Karolina's house</i></p>
+        </section>
+        <p>
           Later that evening we met most likely her entire family including
-          cats, dogs and chickens.<br />Karolinas tribe made all of us wanderers
+          cats, dogs, and chickens. Karolina's tribe made all of us wanderers
           feel as welcome as being back home and still being thousands of
-          kilometres far away.
+          kilometers far away. The original tea break extended into a deep
+          discussion and storytelling over dinner, with stoves heating our
+          backs, with Karolina, the head of the tribe, Thomas, and their
+          daughter Frida. When Andreas, Marcel, and I agreed that our hosts were
+          truly generous to strangers, we were offered a sleepover (and bed!)
+          and the keys to their car for the following day. We humbly accepted
+          the given offerings and went to sleep like babies. Our third day began
+          with the sound of the family's rooster and with both homemade yogurt
+          and eggs.
         </p>
-        <img
-          src="/img/jpg/22101785778883.jpg"
-          alt="Shot of a garden and family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101786368895.jpg"
+            alt="Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
+          />
+        </section>
         <p>
-          The original tea break has extended into a deep discussion and
-          storytelling over dinner, with stoves heating our backs, with
-          Karolina, the second head of the tribe, Thomas and their daughter
-          Frida.<br />When Andreas, Marcel and me agreed upon our hosts being
-          truly generous to strangers, we were offered a sleepover (bed!!) and
-          keys from their car for the following day. We humbly accepted the
-          given offerings and went to sleep like babies.<br /><br />Our third
-          the day has begun with the sound of the family’s cock as well as with
-          both homemade yoghurt and eggs.
+          Karolina advised us to scout the island of Prästo, which is among the
+          locals prominent due to several
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Pr%C3%A4st%C3%B6,_%C3%85land#History"
+            >historical graveyards</a
+          >
+          - Jewish, Muslim, and Christian ones. When we wandered around this
+          truly spiritual archipelago and had a remarkable land view of our
+          surroundings from a nearby tower and cuddled with a flock of curious
+          sheep, we returned to our temporary basecamp to borrow a car and
+          wander further east, over the red roads, which were from time to time
+          replaced by car ferries, to the end of the road on
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/V%C3%A5rd%C3%B6"
+            >Vårdö</a
+          >.
         </p>
-        <img
-          src="/img/jpg/22101786368895.jpg"
-          alt="Photo of an empty road through the Autumn coloured forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/2209595.jpg"
+            alt="Photo of two
+      really old Jewish gravestones on the former cemetery in the middle of
+      Forrest, covered by moss and containing text in Hebrew. There are tiny
+      stacks of small boulders on the top of each gravestone, as a symbol of
+      respect and remembrance."
+          />
+        </section>
         <p>
-          Karolina advised us to scout the island Prästo we were located on,
-          which is among the local prominent due to accommodating several
-          historical graveyards - Jewish, Muslim and Christian ones.<br />When
-          we wandered around this truly spiritual archipelago and had a
-          remarkable land view of our surroundings from a nearby tower and
-          cuddled with a flock of curious sheep, we returned to our temporary
-          basecamp to borrow a car and wander further east, over the red roads,
-          which were from time to time replaced by car ferries, to the end of
-          the road on Vårdö.
+          Our afternoon was spent in the spirit of attempts to fish in the
+          crystal-clear water of an empty fishing village on the tip of Vårdö
+          and swim in the October-cold
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Sea_of_%C3%85land"
+            >Åland Sea</a
+          >. Although you could count the days we spent together on the fingers
+          of one hand when it came time for goodbye to our hosts in the evening,
+          it felt like leaving a good old friend after a long time of not seeing
+          each other. Despite not having an opportunity to repay the generosity
+          of the family who took us in, I couldn't help but think that they were
+          simply repaying a debt to someone else. The idea is that if I provide
+          for others, my debt to the universe will be repaid and someone else
+          will be treated with kindness.
         </p>
-        <img
-          src="/img/jpg/2209595.jpg"
-          alt="Photo of two
-          really old Jewish gravestones on the former cemetery in the middle of
-          Forrest, covered by moss and containing text in Hebrew. There are tiny
-          stacks of small boulders on the top of each gravestone, as a symbol of
-          respect and remembrance."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101786668900.jpg"
+            alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
+          />
+        </section>
         <p>
-          Our afternoon was in the spirit of attempts to fish in the crystal The
-          clear water of an empty fishing village on the tip of Vårdö and swim
-          in the October cold Archipelago sea.<br />
-          <br />Despite you could count the days we have spent together on the
-          fingers of a single hand, when came time for goodbye to our hosts in
-          the evening, it felt like leaving a good old friend after a long time
-          of not seeing each other. <br /><br />However we did not get an
-          opportunity to reward the generous family, I thought that they might
-          be repaying an old debt to someone else. This idea makes me think that
-          if I will provide for others, my debt to the universe will be repaid
-          and someone else will have a reason to treat man generously.
+          Our final task was to make it back to Mariehamn. We had no luck with
+          hitchhiking, so after several hours of hiking through the empty red
+          roads, we reached Godby, about 17km away, in the night and set up camp
+          using a tarp on the banks of Lake Långsjön, like the first night. The
+          final day was spent with the goal of reaching Mariehamn in the evening
+          and spending the last night in the forest between the city and the
+          seashore.
         </p>
-        <img
-          src="/img/jpg/22101786668900.jpg"
-          alt="Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea."
-        />
+        <section class="img">
+          <img
+            src="/img/jpg/22101484358861.jpg"
+            alt="Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding"
+          />
+        </section>
         <p>
-          Our final task was to get reach back to Mariehamn. Without any luck
-          with hitchhiking, after several hours of hiking through the empty red
-          roads, we reached approximately 17km distant Godby in the night and
-          erected a camp tarp on the bank of lake Långsjön a few days ago.<br /><br />The
-          The final day was in the spirit of reaching the final destination in
-          the evening and spending the last evening in the forest between the
-          city and the seashore.<br />Despite the feeling that we overcame all
-          snares of fate, the final one was hiding above Mariehamn. Moderate but
-          entire night-lasting rain did not give us very much sleep. Especially
-          to poor Marcel, sleeping in under the bare sky just in a sleeping bag
-          was one morning soaked as a sponge.<br />My semi-waterproof back bag
-          protected me over most of the rain but a significant amount got inside
-          as well. Andreas, who wisely built a modest tent out of his tarp, was
-          probably the driest of us in the morning. <br />Unfortunately, the
-          tarp tent did not cover his feet and the rain did not avoid even the
-          most farsighted of us because of its large open entrance.<br /><br />
-          On the final morning, we compared the level of wetness each of us had
-          and said goodbye.<br />Marcel travelled back to Denmark over
-          Stockholm, me and Andreas back to Turku to Finland.
+          Despite feeling like we had overcome all obstacles, the last one was
+          the rain that lasted throughout the night. Marcel, who slept under the
+          open sky in just a sleeping bag, was especially hard hit and was
+          soaked in the morning. My
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://gobagguide.com/bivy-bag/"
+            >bivak bag</a
+          >
+          protected me from most of the rain, but some still got in. Andreas,
+          who had wisely set up a modest tent using his tarp, was the driest of
+          us in the morning. Unfortunately, the tarp tent did not cover his feet
+          and the large open entrance allowed the rain to get in. On the final
+          morning, we compared our level of wetness and said goodbye. Marcel
+          travelled back to Denmark via
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://en.wikipedia.org/wiki/Stockholm"
+            >Stockholm</a
+          >, while Andreas and I returned to Turku, Finland.
         </p>
         <hr />
-        <section>
-          <h2>Related literature</h2>
-          <br />
-          <ol>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://en.wikipedia.org/wiki/Åland"
-                >Åland - Wikipedia</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://en.wikipedia.org/wiki/Pr%C3%A4st%C3%B6,_%C3%85land"
-                >island Prästö</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://retkipaikka.fi/djupviksgorttan-geta/"
-              >
-                Djupviksgrottan cave</a
-              >
-            </li>
-          </ol>
-          <?php
+        <h2>Further reading</h2>
+        <br />
+        <section class="grid-container gallery">
+          <a class="hh-stretch" href="/blog/vestkystruten">
+            <div class="grid-item" id="vestkystruten">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/blavand">
+            <div class="grid-item" id="blåvand">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/house-hunting">
+            <div class="grid-item" id="house-hunting">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+          <a href="/blog/västerbotten">
+            <div class="grid-item" id="västerbotten">
+              <div class="blur">
+                <span></span>
+              </div>
+            </div>
+          </a>
+        </section>
+        <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';
           ?>
-        </section>
       </article>
     </main>
     <?php

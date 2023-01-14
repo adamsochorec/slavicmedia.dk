@@ -36,7 +36,8 @@
       <article id="kolding-expo">
         <div class="blur h-background"></div>
         <section class="intro-section">
-          <section class="intro-subsection"><br><br>
+          <section class="intro-subsection">
+            <br /><br />
             <i>
               <h2>ART EXPO?!</h2>
               <br />
@@ -325,15 +326,30 @@
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/blog/house-hunting">
+            <a class="hh-stretch" href="/blog/blavand">
+              <div class="grid-item" id="blåvand">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+            <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
                 <div class="blur">
                   <span></span>
                 </div>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blåvand">
+
+            <a href="/blog/västerbotten">
+              <div class="grid-item" id="västerbotten">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+            <a href="/blog/vestkystruten">
+              <div class="grid-item" id="vestkystruten">
                 <div class="blur">
                   <span></span>
                 </div>
@@ -347,28 +363,6 @@
               </div>
             </a>
             <!-- 
-            <a class="" href="/blog/vestkystruten">
-              <div class="grid-item" id="vestkystruten">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-           
-            <a class="hh-stretch" href="/blog/lakeland">
-              <div class="grid-item" id="lakeland">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/västerbotten">
-              <div class="grid-item" id="västerbotten">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
             <a class="hh-stretch" href="/blog/kvarken">
               <div class="grid-item" id="kvarken">
                 <div class="blur">
