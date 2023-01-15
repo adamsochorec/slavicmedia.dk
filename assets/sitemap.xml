@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://adamsochorec.com/</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
@@ -135,16 +135,34 @@
       </image:image>
   </url>
   <url>
+    <loc>https://adamsochorec.com/blog/vestkystruten</loc>
+    <lastmod>2023-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/IMG_1849.jpg</image:loc>
+        <image:title>Me &amp; Marcel on the northernmost point of Denmark - Skagen</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://adamsochorec.com/blog/aland</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101685388877.jpg</image:loc>
-        <image:title>Dusty red gravel road cutting surrounding autumn coloured forest in a half</image:title>
+        <image:title>Dusty red gravel road cutting surrounding autumn colured forest in a half</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/22101484358861.jpg</image:loc>
+        <image:loc>https://adamsochorec.com/img/jpg/IMG_3017.jpg</image:loc>
+        <image:title>Photo of skerries covered by vegetation, located in the Archipelago sea</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/IMG_3020.jpg</image:loc>
+        <image:title>Photo of several boulder archipelagos with erected wind turbines, located in the Archipelago sea</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/IMG_3063.jpg</image:loc>
         <image:title>Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding</image:title>
       </image:image>
       <image:image>
@@ -152,22 +170,22 @@
         <image:title>Marcel and Andreas are captured walking along the road, hitchhiking with their left thumbs, trying to stop approaching the car.</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/22101585138870.jpg</image:loc>
-        <image:title>Photo of Andreas and Marcel hiking through the forest in the northern part of Alands.</image:title>
-      </image:image>
-      <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101685278874.jpg</image:loc>
         <image:title>Outside view at
-          our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
-          keeping an eye on a campfire.</image:title>
+    our Djupviksgrottan cave camp, Marcel is reading a book and Andreas is
+    keeping an eye on a campfire.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/22101685428878.jpg</image:loc>
+        <image:title>Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background.</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101685668880.jpg</image:loc>
         <image:title>Photo of an old blue Ford tractor with big red wheels, standing on aside of the road. The scene is listed by the morning sun.</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://adamsochorec.com/img/jpg/22101685428878.jpg</image:loc>
-        <image:title>Photo of pilgrims Marcel and Andreas walking over dusty red path up on a hill with Autumn forests in their background.</image:title>
+        <image:loc>https://adamsochorec.com/img/jpg/22101585138870.jpg</image:loc>
+        <image:title>Photo of Andreas and Marcel hiking through the forest in the northern part of Alands.</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101785778883.jpg</image:loc>
@@ -175,24 +193,28 @@
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101786368895.jpg</image:loc>
-        <image:title>Photo of an empty road through the Autumn coloured forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo.</image:title>
+        <image:title>Photo of an empty road through the Autumn colored forest, aside from the road stands a traffic sign informing about the name of our surroundings - Prästo.</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/2209595.jpg</image:loc>
         <image:title>Photo of two
-          really old Jewish gravestones on the former cemetery in the middle of
-          Forrest, covered by moss and containing text in Hebrew. There are tiny
-          stacks of small boulders on the top of each gravestone, as a symbol of
-          respect and remembrance.</image:title>
+      really old Jewish gravestones on the former cemetery in the middle of
+      Forrest, covered by moss and containing text in Hebrew. There are tiny
+      stacks of small boulders on the top of each gravestone, as a symbol of
+      respect and remembrance.</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22101786668900.jpg</image:loc>
         <image:title>Photo of me carrying posing Marcel upon my shoulders while standing in the cold Archipelago sea.</image:title>
       </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/22101484358861.jpg</image:loc>
+        <image:title>Photo of resting Andreas with dark sky in the background. Andreas’s face is highlighted by the screen of the phone he is holding</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/prints</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -225,13 +247,19 @@
       </image:image>
   </url>
   <url>
+    <loc>https://adamsochorec.com/projects/cybersecurity</loc>
+    <lastmod>2023-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://adamsochorec.com/blog/blavand</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22041518018133.jpg</image:loc>
-        <image:title>Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base in the sandy beach. The North Sea and another bunker can be seen in the background.s</image:title>
+        <image:title>Photo of a giant World War Two bunker, covered by graffiti and being lifted from its base on the sandy beach. The North Sea and another bunker can be seen in the background.s</image:title>
       </image:image>
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22041517878128.jpg</image:loc>
@@ -251,14 +279,42 @@
       </image:image>
   </url>
   <url>
-    <loc>https://adamsochorec.com/projects/cybersecurity</loc>
-    <lastmod>2023-01-11</lastmod>
+    <loc>https://adamsochorec.com/blog/v%C3%A4sterbotten</loc>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/2209048838.jpg</image:loc>
+        <image:title>Panorama shot of an mire, where we bushcrafted. Heap and weed around the lake is mustard yellow, surrounded by a wall of a forest trees.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/2209012611001.jpg</image:loc>
+        <image:title>View from the ship to the ship docks in Umeå, there is a coast guard boat in foreground, in background are two wind turbines.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/22090226268821.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/2209032665002.jpg</image:loc>
+        <image:title>Panorama photo of our camp-site on the shore of a mire</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/IMG00119.jpg</image:loc>
+        <image:title>Ilustration ilustrating various simple field shelters made with a rope and tarp.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/2209048834.jpg</image:loc>
+        <image:title>Portrait of a Joakim sitting on a tarp in the grass, hand on his hand-crafted machete, raindeer's fur around the shoulder. The mire is in the background.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://adamsochorec.com/img/jpg/2209018820.jpg</image:loc>
+        <image:title>Photo of a collection of several sizes of original Sámi knives hand crafted by Joakim, each made for a specific actitivty.</image:title>
+      </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/blog/house-hunting</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -280,13 +336,13 @@
       <image:image>
         <image:loc>https://adamsochorec.com/img/jpg/22100984108857.jpg</image:loc>
         <image:title>Interior shot of a
-        corner, with several bleached spots on the wall's plaster. Most likely
-        there have been hanging framed photos and paintings.</image:title>
+      corner, with several bleached spots on the wall's plaster. Most likely
+      there have been hanging framed photos and paintings.</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://adamsochorec.com/projects/zebra-design/zebra-design</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -348,7 +404,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/projects/zebra-design/about</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -378,7 +434,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/projects/zebra-design/privacyPolicy</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -388,7 +444,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/projects/zebra-design/services</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -422,7 +478,7 @@
   </url>
   <url>
     <loc>https://adamsochorec.com/projects/zebra-design/termsAndConditions</loc>
-    <lastmod>2023-01-11</lastmod>
+    <lastmod>2023-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>

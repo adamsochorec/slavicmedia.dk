@@ -16,8 +16,8 @@
       </li>
       <li class="nav-item">
         <a
-          aria-describedby="web-dev"
-          class="navbar-style web"
+          aria-describedby="projects"
+          class="navbar-style projects"
           href="/#projects"
         ></a>
       </li>

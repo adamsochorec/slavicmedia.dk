@@ -730,9 +730,9 @@ nav li a.photo::before {
   width: 100%;
 }
 #projects h2:before,
-.pathname-current.web::before,
-.pathname.web:nth-child(2) a::before,
-nav li a.web::before {
+.pathname-current.projects::before,
+.pathname.projects:nth-child(2) a::before,
+nav li a.projects::before {
   content: "Projects";
 }
 .gallery #zebra-design {

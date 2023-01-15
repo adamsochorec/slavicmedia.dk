@@ -76,7 +76,7 @@
           >. It was an epic journey that we'll never forget.
         </p>
         <iframe
-          src="https://www.youtube-nocookie.com/embed/"
+          src="https://www.youtube.com/embed/3go3v59pfEo"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -138,10 +138,10 @@
           truly unforgettable experience and one that we highly recommend to
           anyone looking to explore Denmark. If you're interested in learning
           more about our journey, be sure to check out
-          <a target="_blank" rel="noopener noreferrer" href=""
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3go3v59pfEo"
             >our video on YouTube</a
           >. And don't forget to give it a like and subscribe
-          <a target="_blank" rel="noopener noreferrer" href=""
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@marcelhajik"
             >Marcel's channel</a
           >
           for more travel vlogs!

@@ -942,6 +942,7 @@
                 </li>
               </ul>
             </section>
+            <div id="contact"></div>
             <hr class="reveal" />
           </section>
           <section class="contact-form-section">
