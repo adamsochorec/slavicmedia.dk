@@ -119,7 +119,7 @@
           <iframe
             class="strava-embed-placeholder"
             data-embed-type="activity"
-            data-embed-id="7581051625"
+            data-embed-id="7533311548"
           ></iframe>
           <br class="hide" />
         </section>
@@ -138,10 +138,16 @@
           truly unforgettable experience and one that we highly recommend to
           anyone looking to explore Denmark. If you're interested in learning
           more about our journey, be sure to check out
-          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3go3v59pfEo"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/watch?v=3go3v59pfEo"
             >our video on YouTube</a
           >. And don't forget to give it a like and subscribe
-          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@marcelhajik"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/@marcelhajik"
             >Marcel's channel</a
           >
           for more travel vlogs!
@@ -152,30 +158,22 @@
         <section class="grid-container gallery">
           <a class="hh-stretch" href="/blog/västerbotten">
             <div class="grid-item" id="västerbotten">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/blavand">
             <div class="grid-item" id="blåvand">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/house-hunting">
             <div class="grid-item" id="house-hunting">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/aland">
             <div class="grid-item" id="åland">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
         </section>

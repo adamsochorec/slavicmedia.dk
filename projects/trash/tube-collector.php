@@ -18,7 +18,7 @@
   <body id="tube-collector" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    include $IPATH . 'trash-nav-bar.php';
     ?>
     <main>
       <article class="wrapper-standard">

@@ -24,7 +24,7 @@
     include $IPATH . 'global-head.php';
     ?>
   </head>
-  <body id="homepage">
+  <body id="portfolio" class="homepage">
     <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -113,7 +113,7 @@
               <div class="btn-shadow"></div>
             </section>
           </a>
-          <hr class="reveals" />
+          <hr class="reveal" />
         </section>
       </article>
 
@@ -283,9 +283,7 @@
           <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/projects/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
             <a
@@ -295,9 +293,7 @@
               href="/projects/zebra-design/zebra-design"
             >
               <div class="grid-item reveal" id="zebra-design">
-                <div class="blur">
-                  <span>Zebra-design</span>
-                </div>
+                <span>Zebra-design</span>
               </div>
             </a>
             <a
@@ -307,9 +303,7 @@
               href="/projects/memos/memos"
             >
               <div class="grid-item reveal" id="memos">
-                <div class="blur">
-                  <span>Memos</span>
-                </div>
+                <span>Memos</span>
               </div>
             </a>
           </section>
@@ -328,38 +322,28 @@
           <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/blavand">
               <div class="grid-item" id="blåvand">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
             <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
 
             <a href="/blog/västerbotten">
               <div class="grid-item" id="västerbotten">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
             <a href="/blog/vestkystruten">
               <div class="grid-item" id="vestkystruten">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/aland">
               <div class="grid-item" id="åland">
-                <div class="blur">
-                  <span></span>
-                </div>
+                <span></span>
               </div>
             </a>
             <!-- 

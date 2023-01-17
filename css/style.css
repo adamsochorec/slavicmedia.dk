@@ -74,14 +74,14 @@ body {
 ::selection {
   background: rgba(var(--secondary-color), 0.5);
 }
-#homepage article,
+.homepage article,
 main {
   align-items: center;
   display: flex;
   flex-direction: column;
   font-family: var(--content-font);
 }
-#homepage main {
+.homepage main {
   display: block;
 }
 h1,
@@ -121,8 +121,8 @@ h5 {
 h6 {
   font-size: var(--fontsize-h6);
 }
-#homepage h1,
-#homepage h2 {
+.homepage h1,
+.homepage h2 {
   font-size: var(--fontsize-h1);
 }
 .pathname,
@@ -517,7 +517,6 @@ span.bar {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: var(--border-radius-2);
   overflow: hidden;
   position: relative;
 }
@@ -541,6 +540,7 @@ span.bar {
 .gallery .grid-item::after,
 .gallery .grid-item:hover {
   transition: var(--transition-2);
+  border-radius: var(--border-radius-2);
 }
 .gallery .grid-item::after {
   background: inherit;
@@ -1012,6 +1012,13 @@ select {
 #success .wrapper-narrow h2 a:hover {
   text-decoration: none;
 }
+/* TRASH PROJECT START*/
+
+#first-section .intro-section {
+  background-image: url(/img/jpg/gray.png);
+}
+/* TRASH PROJECT END*/
+
 @media only screen and (min-width: 300px) {
   .grid-container {
     display: grid;

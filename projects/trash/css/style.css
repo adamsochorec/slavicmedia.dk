@@ -1,0 +1,25 @@
+:root {
+  --primary-color: 0, 128, 0;
+  --secondary-color: 165, 42, 42;
+  --background-color: 40, 40, 40;
+  --white-color: 255, 255, 255;
+  --black-color: 0, 0, 0;
+  --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
+  --fontsize-h1: clamp(1.9rem, 1rem + 10vw, 3rem);
+  --fontsize-h2: calc(var(--fontsize-h1) * 0.8);
+  --fontsize-h3: calc(var(--fontsize-h2) * 0.95);
+  --fontsize-h4: calc(var(--fontsize-h3) * 0.8);
+  --fontsize-h5: calc(var(--fontsize-h4) * 0.8);
+  --fontsize-h6: calc(var(--fontsize-h5) * 0.8);
+  --fontsize-p: 1rem;
+  --logo-font: IBM;
+  --alt-logo-font: BigBlue;
+  --text-color: #fff;
+  --heading-weight: 400;
+  --paragraph-weight: 250;
+  --content-font: -apple-system, BlinkMacSystemFont, SegoeUI, Roboto, Oxygen,
+    Ubuntu, Cantarell, OpenSans, HelveticaNeue, sans-serif;
+}
+.dedf {
+  background-color: rgb(165, 42, 42) 2a;
+}

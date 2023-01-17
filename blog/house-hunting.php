@@ -134,30 +134,22 @@
         <section class="grid-container gallery">
           <a class="hh-stretch" href="/blog/aland">
             <div class="grid-item" id="åland">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/blavand">
             <div class="grid-item" id="blåvand">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/västerbotten">
             <div class="grid-item" id="västerbotten">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
           <a href="/blog/vestkystruten">
             <div class="grid-item" id="vestkystruten">
-              <div class="blur">
-                <span></span>
-              </div>
+              <span></span>
             </div>
           </a>
         </section>
