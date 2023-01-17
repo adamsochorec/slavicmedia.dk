@@ -119,7 +119,7 @@
           <iframe
             class="strava-embed-placeholder"
             data-embed-type="activity"
-            data-embed-id="7533311548"
+            data-embed-id="7581051625"
           ></iframe>
           <br class="hide" />
         </section>

@@ -37,7 +37,8 @@
         <div class="blur h-background"></div>
         <section class="intro-section">
           <section class="intro-subsection">
-            <br /><br />
+            <br /><br /><br />
+
             <i>
               <h2>ART EXPO?!</h2>
               <br />

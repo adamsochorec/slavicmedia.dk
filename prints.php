@@ -220,7 +220,7 @@
                   required
                 >
                   <option value="0" class="value_0" selected="selected">
-                    Select ID...
+                    Select print...
                   </option>
                   <optgroup id="price_3500_DKK" label="3500 DKK">
                     <option value="Print I. Order" label="I.">I.</option>
