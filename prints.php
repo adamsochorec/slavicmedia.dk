@@ -68,7 +68,8 @@
           <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
-            ?><br /><br />Model:
+            ?>
+          50 x 60cm<br /><br />Model:
           <a
             href="https://www.instagram.com/mft_____________/"
             target="_blank"
@@ -86,7 +87,9 @@
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
-            ?><br /><br />Model:
+            ?>
+            70 x 60cm<br /><br />
+            Model:
             <a
               href="https://www.instagram.com/sarahavlikova/"
               target="_blank"
@@ -105,7 +108,7 @@
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
-            ?><br /><br />Model:
+            ?>76 x 57cm<br /><br />Model:
             <a
               href="https://www.instagram.com/dancheeofficial/"
               target="_blank"
@@ -125,6 +128,7 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
             ?>
+            76 x 65cm
           </p>
         </section>
         <div id="v."></div>
@@ -141,7 +145,8 @@
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
-            ?><br /><br />Model:
+            ?>
+            40 x 51cm<br /><br />Model:
             <a
               href="https://www.instagram.com/sina_u_/"
               target="_blank"
@@ -161,6 +166,7 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
             ?>
+            63 x 53cm
           </p>
         </section>
         <div id="vii."></div>
@@ -176,6 +182,7 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'prints-desc.php';
             ?>
+            27 x 34cm
           </p>
         </section>
         <hr class="reveal" />
