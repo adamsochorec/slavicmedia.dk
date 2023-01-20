@@ -65,11 +65,8 @@
         <br /><br class="hide" />
         <p class="reveal">
           Price: 3.500 DKK
-          <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-          50 x 60cm<br /><br />Model:
+          <br /><b>One piece in stock</b><br />Material: plexiglass, wood, fine
+          photo paper<br />Dimensions: 50 x 60cm<br /><br />Model:
           <a
             href="https://www.instagram.com/mft_____________/"
             target="_blank"
@@ -84,11 +81,8 @@
           <img class="reveal" src="/img/jpg/211102002.jpg" alt="II." />
           <p class="reveal">
             Price: 3.500 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-            70 x 60cm<br /><br />
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions: 70 x 60cm<br /><br />
             Model:
             <a
               href="https://www.instagram.com/sarahavlikova/"
@@ -105,10 +99,8 @@
           <img class="reveal" src="/img/jpg/21071948976502.jpg" alt="III." />
           <p class="reveal">
             Price: 3.500 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>76 x 57cm<br /><br />Model:
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions:76 x 57cm<br /><br />Model:
             <a
               href="https://www.instagram.com/dancheeofficial/"
               target="_blank"
@@ -124,11 +116,8 @@
           <img class="reveal" src="/img/jpg/2202137909.jpg" alt="IV." />
           <p class="reveal">
             Price: 2.500 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-            76 x 65cm
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions: 76 x 65cm
           </p>
         </section>
         <div id="v."></div>
@@ -142,11 +131,8 @@
           /><br /><br class="hide" />
           <p class="reveal">
             Price: 2.500 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-            40 x 51cm<br /><br />Model:
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions: 40 x 51cm<br /><br />Model:
             <a
               href="https://www.instagram.com/sina_u_/"
               target="_blank"
@@ -162,11 +148,8 @@
           <img class="reveal" src="/img/jpg/22031613958005.jpg" alt="VI." />
           <p class="reveal">
             Price: 2.500 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-            63 x 53cm
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions: 63 x 53cm
           </p>
         </section>
         <div id="vii."></div>
@@ -178,11 +161,8 @@
           <br class="hide" />
           <p class="reveal">
             Price: 2.300 DKK
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'prints-desc.php';
-            ?>
-            27 x 34cm
+            <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
+            fine photo paper<br />Dimensions: 27 x 34cm
           </p>
         </section>
         <hr class="reveal" />

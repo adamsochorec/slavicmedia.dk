@@ -9,26 +9,28 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="/projects/memos/css/about.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
-    <link rel="icon" href="img/Memos-logo-copy.png" type="image/png" />
+    <link
+      rel="icon"
+      href="/projects/memos/img/Memos-logo-copy.png"
+      type="image/png"
+    />
     <title>About | Memos</title>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="./homepage" class="nav-logo">
+        <a href="/projects/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="./homepage" class="nav-link">VEJLE WATCH</a>
+            <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="about" class="nav-link">ABOUT</a>
+            <a href="/projects/memos.php" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -135,17 +137,17 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="about">about</a>
+        <a class="nav-link2" href="/projects/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="privacy">privacy policy</a>
+        <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="./terms-and-conditions"
+        <a class="nav-link2" href="/projects/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
       </div>
       <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
-    <script src="./java/menu.js"></script>
+    <script src="/projects/memos/java/menu.js"></script>
   </body>
 </html>

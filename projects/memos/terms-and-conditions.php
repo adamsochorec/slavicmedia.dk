@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terms and Conditions</title>
-    <link rel="stylesheet" href="./css/privacy.css" />
+    <link rel="stylesheet" href="/projects/memos/css/privacy.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link rel="icon" href="img/Memos-logo-copy.png" type="image/png" />
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
+    <link
+      rel="icon"
+      href="/projects/memos/img/Memos-logo-copy.png"
+      type="image/png"
+    />
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="./homepage" class="nav-logo">
+        <a href="/projects/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="./homepage" class="nav-link">HOME</a>
+            <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="./about.php" class="nav-link">ABOUT</a>
+            <a href="/projects/memos/about" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -44,8 +46,8 @@
         <br />
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of ./homepage's Website, located at
-          <a href="./homepage">memos.dk</a>.
+          use of /projects/memos/homepage's Website, located at
+          <a href="/projects/memos.php">memos.dk</a>.
         </p>
         <br />
         <p>
@@ -370,11 +372,11 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="about">about</a>
+        <a class="nav-link2" href="/projects/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="privacy">privacy policy</a>
+        <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="./terms-and-conditions"
+        <a class="nav-link2" href="/projects/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
@@ -382,5 +384,5 @@
       <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
   </body>
-  <script src="./java/menu.js"></script>
+  <script src="/projects/memos/java/menu.js"></script>
 </html>

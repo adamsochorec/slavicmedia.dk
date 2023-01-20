@@ -291,7 +291,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/projects/zebra-design/zebra-design"
+              href="/projects/zebra-design.php"
             >
               <div class="grid-item reveal" id="zebra-design">
                 <span>Zebra-design</span>
@@ -301,7 +301,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/projects/memos/memos"
+              href="/projects/memos.php"
             >
               <div class="grid-item reveal" id="memos">
                 <span>Memos</span>

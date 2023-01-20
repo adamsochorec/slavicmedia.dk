@@ -6,36 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout | Memos</title>
-    <link rel="stylesheet" href="./css/checkout2.css">
+    <link rel="stylesheet" href="/projects/memos/css/checkout2.css">
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         type="text/css">
-    <link rel="icon" href="img/Memos-logo-copy.png" type="image/png">
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
+    <link rel="icon" href="/projects/memos/img/Memos-logo-copy.png" type="image/png">
+
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="memos" class="nav-logo">
-                <div class="logos"></div>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="memos" class="nav-link">VEJLE WATCH</a>
-                  </li>
-                <li class="nav-item">
-                    <a href="about" class="nav-link">ABOUT</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+          <a href="/projects/memos.php" class="nav-logo">
+            <div class="logos"></div>
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
+            </li>
+            <li class="nav-item">
+              <a href="/projects/memos/about" class="nav-link">ABOUT</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </nav>
-    </header>
+      </header>
     <main>
         <div class="modal" id="run">
             <div class="modal__container">
@@ -91,7 +90,7 @@
                             </ul>
                         </form>
                     </div> <!-- END: .modal__content -->
-                    <p class="agreement">By continuing you agree with our <a class="./terms-and-conditions" href="./terms-and-conditions">terms and
+                    <p class="agreement">By continuing you agree with our <a class="/projects/memos/terms-and-conditions" href="/projects/memos/terms-and-conditions">terms and
                             conditions</a>.</p>
                 </div> <!-- END: .modal__container -->
 
@@ -116,17 +115,19 @@
             </a>
         </div>
         <div class="links">
-            <br>
-            <a class="nav-link2" href="about">about</a>
-            <br>
-            <a class="nav-link2" href="privacy">privacy policy</a>
-            <br>
-            <a class="nav-link2" href="./terms-and-conditions">terms and conditions</a>
-            <br>
-        </div>
+            <br />
+            <a class="nav-link2" href="/projects/memos/about">about</a>
+            <br />
+            <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
+            <br />
+            <a class="nav-link2" href="/projects/memos/terms-and-conditions"
+              >terms and conditions</a
+            >
+            <br />
+          </div>
         <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
 </body>
-<script src="./java/menu.js"></script>
+<script src="/projects/memos/java/menu.js"></script>
 
 </html>

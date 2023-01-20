@@ -13,23 +13,25 @@
     <meta name="author" content="Zebra Design" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/zebra.png" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="/projects/zebra-design/img/zebra.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/projects/zebra-design/css/style.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <title>Zebra Design | Terms and Conditions</title>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="zebra-design" class="desktopLogo"
-          ><img src="img/logo.png" alt="Logo"
+        <a href="/projects/zebra-design.php" class="desktopLogo"
+          ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -40,12 +42,15 @@
             ><i id="burgerIcon" class="fa fa-bars"></i
           ></a>
           <ul id="navLinks">
-            <li><a href="zebra-design">HOME</a></li>
-            <li><a href="services">SERVICES</a></li>
-            <li><a href="about">ABOUT</a></li>
+            <li><a href="/projects/zebra-design.php">HOME</a></li>
+            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
+            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
           </ul>
-          <a href="zebra-design" id="logoHyperlink" class="mobileLogo"
-            ><img src="img/logo.png" alt="Logo"
+          <a
+            href="/projects/zebra-design.php"
+            id="logoHyperlink"
+            class="mobileLogo"
+            ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -56,7 +61,7 @@
         <p>
           These terms and conditions outline the rules and regulations for the
           use of Zebra Design's Website, located at
-          <a href="zebra-design">zebradesign.dk</a>.
+          <a href="/projects/zebra-design.php">zebradesign.dk</a>.
         </p>
         <p>
           By accessing this website, we assume you accept these terms and
@@ -304,9 +309,9 @@
         </div>
         <div class="footerGrid2">
           <ul>
-            <li><a href="zebra-design">HOME</a></li>
-            <li><a href="services">SERVICES</a></li>
-            <li><a href="about">ABOUT</a></li>
+            <li><a href="/projects/zebra-design.php">HOME</a></li>
+            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
+            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
           </ul>
         </div>
         <div class="footerGrid3">
@@ -350,10 +355,14 @@
       </div>
       <div class="policiesCopyrightsConditions">
         <ul>
-          <li id="privacyPolicy"><a href="privacyPolicy">PRIVACY POLICY</a></li>
+          <li id="privacyPolicy">
+            <a href="/projects/zebra-design/privacyPolicy">PRIVACY POLICY</a>
+          </li>
           <li id="copyrights">© 2022 Zebra Design All Rights Reserved</li>
           <li id="termsAndConditions">
-            <a href="termsAndConditions">TERMS & CONDITIONS</a>
+            <a href="/projects/zebra-design/termsAndConditions"
+              >TERMS & CONDITIONS</a
+            >
           </li>
           <li id="copyrightsMobile">© 2022 Zebra Design All Rights Reserved</li>
         </ul>

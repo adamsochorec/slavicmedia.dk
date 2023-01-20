@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Privacy Policy</title>
-    <link rel="stylesheet" href="./css/privacy.css" />
+    <link rel="stylesheet" href="/projects/memos/css/privacy.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link rel="icon" href="img/Memos-logo-copy.png" type="image/png" />
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
+    <link
+      rel="icon"
+      href="/projects/memos/img/Memos-logo-copy.png"
+      type="image/png"
+    />
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="homepage" class="nav-logo">
+        <a href="/projects/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="homepage" class="nav-link">VEJLE WATCH</a>
+            <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="about" class="nav-link">ABOUT</a>
+            <a href="/projects/memos/about" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -46,8 +48,8 @@
           Your privacy is important to us. It is Memos&#39; policy to respect
           your privacy and comply with any applicable law and regulation
           regarding any personal information we may collect about you, including
-          across our website, <a href="./homepage">memos.dk</a>, and other sites
-          we own and operate.
+          across our website, <a href="/projects/memos/memos">memos.dk</a>, and
+          other sites we own and operate.
         </p>
         <br />
         <p>
@@ -336,11 +338,11 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="about">about</a>
+        <a class="nav-link2" href="/projects/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="privacy">privacy policy</a>
+        <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="./terms-and-conditions"
+        <a class="nav-link2" href="/projects/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
@@ -348,5 +350,5 @@
       <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
   </body>
-  <script src="./java/menu.js"></script>
+  <script src="/projects/memos/java/menu.js"></script>
 </html>
