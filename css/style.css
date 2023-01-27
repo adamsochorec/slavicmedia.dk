@@ -292,8 +292,7 @@ p a:hover {
   top: 0;
   z-index: 0;
 }
-#cybersecurity .intro-section,
-.gallery #cybersecurity {
+#cybersecurity .intro-section {
   animation: gradient-background 1s linear infinite alternate;
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
@@ -692,6 +691,14 @@ nav li a.prints::before {
 #prints h4 {
   font-size: var(--fontsize-h6);
 }
+.a-without-decoration:hover {
+  text-decoration: none;
+  box-shadow: none;
+}
+#facalendardays {
+  height: 30px;
+  z-index: 0;
+}
 #visuals h2:before,
 nav li a.photo::before {
   content: "Visuals";
@@ -755,6 +762,18 @@ nav li a.projects::before {
 #cybersecurity h1:before,
 .gallery #cybersecurity span:before {
   content: "Cybersecurity hygiene";
+}
+.gallery #cybersecurity {
+  animation: gradient-background 1s linear infinite alternate;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    rgba(var(--primary-color), 0.6),
+    rgba(var(--secondary-color), 0.6)
+  );
+  background-size: 400% 400%;
+  transition: all 0.5s ease;
 }
 .gallery #cybersecurity {
   background-size: 400% 400%;

@@ -100,7 +100,7 @@
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
-            fine photo paper<br />Dimensions:76 x 57cm<br /><br />Model:
+            fine photo paper<br />Dimensions :76 x 57cm<br /><br />Model:
             <a
               href="https://www.instagram.com/dancheeofficial/"
               target="_blank"
