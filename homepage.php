@@ -86,7 +86,19 @@
           <section class="grid-container reveal">
             <section class="grid-item">
               <div class="panel">
-                <h4>Where</h4>
+                <h4>
+                  <svg
+                    id="fa-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                    />
+                  </svg>
+                  Where
+                </h4>
                 <p>
                   <b>Knud's Garage</b><br />Munkegade 5A<br />Kolding 6000<br />Denmark
                   🇩🇰
@@ -95,7 +107,19 @@
             </section>
             <section class="grid-item">
               <div class="panel">
-                <h4>When</h4>
+                <h4>
+                  <svg
+                    id="fa-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 248H128V192H48V248zM48 296V360H128V296H48zM176 296V360H272V296H176zM320 296V360H400V296H320zM400 192H320V248H400V192zM400 408H320V464H384C392.8 464 400 456.8 400 448V408zM272 408H176V464H272V408zM128 408H48V448C48 456.8 55.16 464 64 464H128V408zM272 192H176V248H272V192z"
+                    />
+                  </svg>
+                  When
+                </h4>
                 <p>
                   <b>Jan - Feb 2023</b><br /><br />Mon -
                   Sat&ensp;&emsp;12.00-02.00<br />Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
@@ -185,10 +209,8 @@
             execution-while-out-of-viewport
             execution-while-not-rendered
             web-share
-            src="https://sketchfab.com/models/6f7724728776400b968d7e01de811d26/embed?autospin=1&dnt=1"
-            ><p class="alt-alt">
-              3D scan of an Atlantic Wall bunker from WWII.
-            </p>
+            src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
+            ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
           </iframe>
           <div class="v-stretch reveal">
             <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
@@ -238,39 +260,242 @@
           <div class="v-stretch reveal">
             <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
+          <div class="hhh-stretch reveal">
+            <section class="carousel sixteen-nine" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                  />
+                </svg>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </button>
+              <div class="status">
+                <span class="current-slide"></span>
+                <span class="total-slides"></span>
+              </div>
+              <div style="text-align: center">
+                <span class="dot1" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+              </div>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <p>Vaasa, Finland<br />December 2022</p>
+                  <img src="/img/jpg/22121695359163.jpg" alt="22121695359163" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121694769137.jpg" alt="22121694769137" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121694879142.jpg" alt="22121694879142" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121394059127.jpg" alt="22121394059127" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121694779138.jpg" alt="22121694779138" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121694799139.jpg" alt="22121694799139" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121694959146.jpg" alt="22121694959146" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121695039148.jpg" alt="22121695039148" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121695159152.jpg" alt="22121695159152" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121695259157.jpg" alt="22121694879142" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121695329162.jpg" alt="22121695329162" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22121695509167.jpg" alt="22121694879142" />
+                </li>
+              </ul>
+            </section>
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
+          <div class="hh-stretch reveal">
+            <section class="carousel sixteen-ten" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                  />
+                </svg>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </button>
+              <div class="status">
+                <span class="current-slide"></span>
+                <span class="total-slides"></span>
+              </div>
+              <div style="text-align: center">
+                <span class="dot1" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+              </div>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <p>Vaasa, Finland<br />September 2022</p>
+                  <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22100983878849.jpg" alt="22100983878849" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22100983968852.jpg" alt="22100983968852" />
+                </li>
+              </ul>
+            </section>
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/22100984108857.jpg" alt="22100984108857" />
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/22031613908001.jpg" alt="22031613908001" />
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
+          <div class="hh-stretch reveal">
+            <section class="carousel sixteen-ten" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                  />
+                </svg>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </button>
+              <div class="status">
+                <span class="current-slide"></span>
+                <span class="total-slides"></span>
+              </div>
+              <div style="text-align: center">
+                <span class="dot1" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+              </div>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <p>Kolding, Denmark<br />March 2022</p>
+                  <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22031613958005.jpg" alt="22031613958005" />
+                </li>
+              </ul>
+            </section>
           </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
+          <div class="hhh-stretch reveal">
+            <section class="carousel sixteen-ten" data-carousel>
+              <button class="carousel-button prev" data-carousel-button="prev">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+                  />
+                </svg>
+              </button>
+              <button class="carousel-button next" data-carousel-button="next">
+                <svg
+                  id="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </button>
+              <div class="status">
+                <span class="current-slide"></span>
+                <span class="total-slides"></span>
+              </div>
+              <div style="text-align: center">
+                <span class="dot1" onclick="currentSlide1(1)"></span>
+                <span class="dot1" onclick="currentSlide1(2)"></span>
+                <span class="dot1" onclick="currentSlide1(3)"></span>
+              </div>
+              <ul data-slides>
+                <li class="slide" data-active>
+                  <p>Björkoby, Finland<br />September 2022</p>
+                  <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/2208258805.jpg" alt="2208258805" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
+                </li>
+                <li class="slide">
+                  <img src="/img/jpg/22082424738796.jpg" alt="22082424738796" />
+                </li>
+              </ul>
+            </section>
           </div>
-          <iframe
-            class="hhh-stretch reveal"
-            title="Element | vzor 9"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
-          >
-          </iframe>
+
           <div id="projects"></div>
         </section>
       </article>
@@ -431,7 +656,7 @@
                 </div>
               </section>
               <section class="reveal">
-                <p>English <br class="hideLanguages" />Slovak</p>
+                <p>English, <br class="hideLanguages" />Slovak</p>
 
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="80"></div>
@@ -444,13 +669,13 @@
                 </div>
               </section>
               <section class="reveal">
-                <p>German Swedish</p>
+                <p>German, Swedish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="20"></div>
                 </div>
               </section>
               <section class="reveal">
-                <p>Chinese Finnish</p>
+                <p>Chinese, Finnish</p>
                 <div class="skill-bar faded">
                   <div class="skill-bar" data-progress="10"></div>
                 </div>
@@ -879,8 +1104,8 @@
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.instagram.com/p/CS_WpX9Kj4O/?igshid=YmMyMTA2M2Y="
-                    >Divaldo Disk</a
+                    href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
+                    >The Brothers Brick</a
                   >
                 </li>
               </ul>
