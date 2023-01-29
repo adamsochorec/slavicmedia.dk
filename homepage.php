@@ -261,239 +261,95 @@
             <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
           <div class="hhh-stretch reveal">
-            <section class="carousel sixteen-nine" data-carousel>
-              <button class="carousel-button prev" data-carousel-button="prev">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-                  />
-                </svg>
-              </button>
-              <button class="carousel-button next" data-carousel-button="next">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                  />
-                </svg>
-              </button>
-              <div class="status">
-                <span class="current-slide"></span>
-                <span class="total-slides"></span>
+            <div class="carousel">
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695359163.jpg" alt="22121695359163" />
               </div>
-              <div style="text-align: center">
-                <span class="dot1" onclick="currentSlide1(1)"></span>
-                <span class="dot1" onclick="currentSlide1(2)"></span>
-                <span class="dot1" onclick="currentSlide1(3)"></span>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121694769137.jpg" alt="22121694769137" />
               </div>
-              <ul data-slides>
-                <li class="slide" data-active>
-                  <p>Vaasa, Finland<br />December 2022</p>
-                  <img src="/img/jpg/22121695359163.jpg" alt="22121695359163" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121694769137.jpg" alt="22121694769137" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121694879142.jpg" alt="22121694879142" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121394059127.jpg" alt="22121394059127" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121694779138.jpg" alt="22121694779138" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121694799139.jpg" alt="22121694799139" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121694959146.jpg" alt="22121694959146" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121695039148.jpg" alt="22121695039148" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121695159152.jpg" alt="22121695159152" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121695259157.jpg" alt="22121694879142" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121695329162.jpg" alt="22121695329162" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22121695509167.jpg" alt="22121694879142" />
-                </li>
-              </ul>
-            </section>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121694879142.jpg" alt="22121694879142" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121394059127.jpg" alt="22121394059127" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121694799139.jpg" alt="22121694799139" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121694959146.jpg" alt="22121694959146" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695039148.jpg" alt="22121695039148" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695159152.jpg" alt="22121695159152" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695259157.jpg" alt="22121694879142" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695329162.jpg" alt="22121695329162" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121695509167.jpg" alt="22121694879142" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22121694779138.jpg" alt="22121694779138s" />
+              </div>
+            </div>
           </div>
           <div class="hh-stretch reveal">
-            <section class="carousel sixteen-ten" data-carousel>
-              <button class="carousel-button prev" data-carousel-button="prev">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-                  />
-                </svg>
-              </button>
-              <button class="carousel-button next" data-carousel-button="next">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                  />
-                </svg>
-              </button>
-              <div class="status">
-                <span class="current-slide"></span>
-                <span class="total-slides"></span>
+            <div class="carousel">
+              <div class="carousel__item">
+                <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
               </div>
-              <div style="text-align: center">
-                <span class="dot1" onclick="currentSlide1(1)"></span>
-                <span class="dot1" onclick="currentSlide1(2)"></span>
-                <span class="dot1" onclick="currentSlide1(3)"></span>
+              <div class="carousel__item">
+                <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
               </div>
-              <ul data-slides>
-                <li class="slide" data-active>
-                  <p>Vaasa, Finland<br />September 2022</p>
-                  <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22100983878849.jpg" alt="22100983878849" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22100983968852.jpg" alt="22100983968852" />
-                </li>
-              </ul>
-            </section>
+              <div class="carousel__item">
+                <img src="/img/jpg/22100983878849.jpg" alt="22100983878849" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22100983968852.jpg" alt="22100983968852" />
+              </div>
+            </div>
           </div>
           <div class="v-stretch reveal">
             <img src="/img/jpg/22100984108857.jpg" alt="22100984108857" />
+          </div>
+          <div class="hhh-stretch reveal">
+            <div class="carousel">
+              <div class="carousel__item">
+                <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/2208258805.jpg" alt="2208258805" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
+              </div>
+              <div class="carousel__item">
+                <img src="/img/jpg/22082424738796.jpg" alt="22082424738796" />
+              </div>
+            </div>
           </div>
           <div class="v-stretch reveal">
             <img src="/img/jpg/22031613908001.jpg" alt="22031613908001" />
           </div>
           <div class="hh-stretch reveal">
-            <section class="carousel sixteen-ten" data-carousel>
-              <button class="carousel-button prev" data-carousel-button="prev">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-                  />
-                </svg>
-              </button>
-              <button class="carousel-button next" data-carousel-button="next">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                  />
-                </svg>
-              </button>
-              <div class="status">
-                <span class="current-slide"></span>
-                <span class="total-slides"></span>
+            <div class="carousel">
+              <div class="carousel__item">
+                <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
               </div>
-              <div style="text-align: center">
-                <span class="dot1" onclick="currentSlide1(1)"></span>
-                <span class="dot1" onclick="currentSlide1(2)"></span>
-                <span class="dot1" onclick="currentSlide1(3)"></span>
+              <div class="carousel__item">
+                <img src="/img/jpg/22031613958005.jpg" alt="22031613958005" />
               </div>
-              <ul data-slides>
-                <li class="slide" data-active>
-                  <p>Kolding, Denmark<br />March 2022</p>
-                  <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22031613958005.jpg" alt="22031613958005" />
-                </li>
-              </ul>
-            </section>
-          </div>
-          <div class="hhh-stretch reveal">
-            <section class="carousel sixteen-ten" data-carousel>
-              <button class="carousel-button prev" data-carousel-button="prev">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-                  />
-                </svg>
-              </button>
-              <button class="carousel-button next" data-carousel-button="next">
-                <svg
-                  id="chevron"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 384 512"
-                >
-                  <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                  <path
-                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                  />
-                </svg>
-              </button>
-              <div class="status">
-                <span class="current-slide"></span>
-                <span class="total-slides"></span>
-              </div>
-              <div style="text-align: center">
-                <span class="dot1" onclick="currentSlide1(1)"></span>
-                <span class="dot1" onclick="currentSlide1(2)"></span>
-                <span class="dot1" onclick="currentSlide1(3)"></span>
-              </div>
-              <ul data-slides>
-                <li class="slide" data-active>
-                  <p>Björkoby, Finland<br />September 2022</p>
-                  <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/2208258805.jpg" alt="2208258805" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
-                </li>
-                <li class="slide">
-                  <img src="/img/jpg/22082424738796.jpg" alt="22082424738796" />
-                </li>
-              </ul>
-            </section>
+            </div>
           </div>
 
           <div id="projects"></div>
