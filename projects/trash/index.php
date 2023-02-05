@@ -25,22 +25,9 @@
     <main>
       <!-- KOLDING EXPO START -->
       <article id="first-section">
-        <div class="blur h-background"></div>
+        <div class="h-background"></div>
         <section class="intro-section">
-          <section class="intro-subsection">
-            <h1>Lorem ipsium</h1>
-            <br /><br />
-            <a href="/">
-              <section class="btn-area flex-center">
-                <div id="btn">action button</div>
-                <div class="btn-shadow"></div>
-              </section>
-            </a>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'global-scroll.php';
-            ?>
-          </section>
+          <section class="intro-subsection"></section>
         </section>
 
         <br />

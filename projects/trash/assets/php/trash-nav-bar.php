@@ -2,8 +2,8 @@
   <nav class="nav-bar">
     <!-- NAVIGATION BAR START -->
     <a aria-describedby="photo" href="/">
-      <span>green</span>
-      <span>solutions</span>
+      <span>skov</span>
+      <span>Studios</span>
     </a>
     <ul class="nav-menu">
       <!-- NAVIGATION BAR LINKS START -->

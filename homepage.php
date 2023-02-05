@@ -260,98 +260,6 @@
           <div class="v-stretch reveal">
             <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
-          <div class="hhh-stretch reveal">
-            <div class="carousel">
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695359163.jpg" alt="22121695359163" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121694769137.jpg" alt="22121694769137" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121694879142.jpg" alt="22121694879142" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121394059127.jpg" alt="22121394059127" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121694799139.jpg" alt="22121694799139" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121694959146.jpg" alt="22121694959146" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695039148.jpg" alt="22121695039148" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695159152.jpg" alt="22121695159152" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695259157.jpg" alt="22121694879142" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695329162.jpg" alt="22121695329162" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121695509167.jpg" alt="22121694879142" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22121694779138.jpg" alt="22121694779138s" />
-              </div>
-            </div>
-          </div>
-          <div class="hh-stretch reveal">
-            <div class="carousel">
-              <div class="carousel__item">
-                <img src="/img/jpg/22100983718847.jpg" alt="22100983718847" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22100983738848.jpg" alt="22100983738848" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22100983878849.jpg" alt="22100983878849" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22100983968852.jpg" alt="22100983968852" />
-              </div>
-            </div>
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/22100984108857.jpg" alt="22100984108857" />
-          </div>
-          <div class="hhh-stretch reveal">
-            <div class="carousel">
-              <div class="carousel__item">
-                <img src="/img/jpg/2208258808.jpg" alt="2208258808" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/2208258806.jpg" alt="2208258806" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/2208258805.jpg" alt="2208258805" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22082525588812.jpg" alt="22082525588812" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22082424738796.jpg" alt="22082424738796" />
-              </div>
-            </div>
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/22031613908001.jpg" alt="22031613908001" />
-          </div>
-          <div class="hh-stretch reveal">
-            <div class="carousel">
-              <div class="carousel__item">
-                <img src="/img/jpg/22031613938003.jpg" alt="22031613938003" />
-              </div>
-              <div class="carousel__item">
-                <img src="/img/jpg/22031613958005.jpg" alt="22031613958005" />
-              </div>
-            </div>
-          </div>
-
           <div id="projects"></div>
         </section>
       </article>
@@ -489,7 +397,7 @@
           <section class="reveal">
             <img
               class="reveal"
-              src="/img/jpg/IMG_2181.jpg"
+              src="/img/jpg/about.jpg"
               alt="Portrait of Adam Sochorec diving underwater."
             />
           </section>
