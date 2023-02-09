@@ -368,15 +368,14 @@ header .blur {
 }
 header {
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
   display: flex;
   font-family: var(--logo-font);
   justify-content: center;
   position: fixed;
   z-index: 9999;
 }
-header,
-.nav-menu.active {
+.nav-menu.active,
+header {
   padding: 0 2.5rem;
 }
 header .blur {
@@ -710,11 +709,9 @@ nav li a.prints::before {
 .carousel {
   position: relative;
 }
-
 .carousel__item {
   display: none;
 }
-
 .carousel__item--selected {
   display: block;
 }
@@ -741,7 +738,6 @@ nav li a.prints::before {
 .carousel img {
   object-fit: cover;
 }
-
 #visuals h2:before,
 nav li a.photo::before {
   content: "Visuals";
@@ -1087,6 +1083,14 @@ select {
 #success .wrapper-narrow h2 a:hover {
   text-decoration: none;
 }
+#items .content {
+  text-align: center;
+}
+#items dotlottie-player {
+  max-width: 30rem;
+  margin-bottom: -3.5rem;
+  margin-top: 1rem;
+}
 #first-section .intro-section {
   background-image: url(/img/jpg/gray.png);
 }
@@ -1137,7 +1141,10 @@ select {
     transform: translateY(-4px) rotate(-45deg);
   }
   header .blur.active {
-    height: 100vh;
+    background-color: rgba(var(--black-color), 1);
+  }
+  .nav-menu.active {
+    background-color: rgba(var(--background-color), 1);
   }
 }
 @media only screen and (min-width: 300px) {
@@ -1313,8 +1320,8 @@ select {
   header {
     height: var(--nav-bar-top-position);
   }
-  header,
-  .nav-menu.active {
+  .nav-menu.active,
+  header {
     padding: var(--menu-padding);
   }
   body.active .banner-container {
