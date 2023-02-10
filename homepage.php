@@ -397,7 +397,7 @@
           <section class="reveal">
             <img
               class="reveal"
-              src="/img/jpg/about.jpg"
+              src="/img/jpg/about_.jpg"
               alt="Portrait of Adam Sochorec diving underwater."
             />
           </section>
@@ -1000,7 +1000,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="false"
+                  value="true"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
