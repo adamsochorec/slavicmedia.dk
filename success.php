@@ -16,20 +16,17 @@
     <meta name="googlebot" content="noindex" />
     <main>
       <article class="wrapper-narrow flex-center">
-        <section class="flex-center">
-          <dotlottie-player
-            src="/img/lottie/success.lottie"
-            background="transparent"
-            speed="1"
-            autoplay
-          ></dotlottie-player>
-          <br />
-          <h1>Form submitted<br />successfully!</h1>
-        </section>
+        <dotlottie-player
+          src="/img/lottie/success.lottie"
+          background="transparent"
+          speed="1"
+          autoplay
+        ></dotlottie-player>
+        <br />
+        <h1>Form submitted<br />successfully!</h1>
         <br />
         <h2>
-          <a aria-describedby="/ history.back()
-
+          <a aria-describedby="/ history.back()"
             >Return to the homepage
             <svg
               id="chevron-right"
@@ -47,9 +44,9 @@
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
-    src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
-    defer
-  ></script>
+      src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
+      defer
+    ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

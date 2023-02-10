@@ -1068,28 +1068,27 @@ select {
   margin-top: 3rem;
 }
 #error h1,
-#success h1 {
+#success h1,
+#find-my h1 {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
   text-align: center;
 }
 #error h2,
-#success h2 {
+#success h2,
+#find-my h2 {
   font-size: var(--fontsize-h6);
   text-decoration: none;
   text-shadow: none;
+  text-align: center;
 }
 #error .wrapper-narrow h2 a:hover,
 #success .wrapper-narrow h2 a:hover {
   text-decoration: none;
 }
-#items .content {
-  text-align: center;
-}
-#items dotlottie-player {
-  max-width: 30rem;
+#find-my dotlottie-player {
   margin-bottom: -3.5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 #first-section .intro-section {
   background-image: url(/img/jpg/gray.png);
