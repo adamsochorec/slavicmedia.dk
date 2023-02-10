@@ -397,7 +397,7 @@
           <section class="reveal">
             <img
               class="reveal"
-              src="/img/jpg/about_.jpg"
+              src="/img/jpg/about.jpg"
               alt="Portrait of Adam Sochorec diving underwater."
             />
           </section>

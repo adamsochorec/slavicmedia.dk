@@ -33,28 +33,32 @@
         <h2>
           It looks like you have found my
           <?php
-          // Get the value of the "id" query parameter from the URL
-          $type = $_GET["id"];
-          echo $type;
+          $allowed_ids = array("bike", "drone", "SSD", "leatherman", "macbook", "mouse", "airpods");
+          $id = $_GET["id"];
+          if (!in_array($id, $allowed_ids)) {
+            header("Location: 404");
+            exit;
+          }
+          echo $id;
           ?>, please <a href="/homepage#contact">write to me</a> or give me a
           call at <a href="tel:50104776p45">+4550104776</a>! <br /><br />
           Thanks!
         </h2>
         <!-- logs - url: https://adamsochorec.com/find-my?id=xxx -->
-        <?php
-        $logFile = 'logs.txt';
-        $id = $_GET['id'];
-        $time = date('Y-m-d H:i:s');
-    
-        // Get the user's geolocation
-        $location = "";
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-            $location = $_SERVER['HTTP_CLIENT_IP'];
-        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-            $location = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        } else {
-            $location = $_SERVER['REMOTE_ADDR'];
-        }
+          <?php
+          $logFile = 'logs.txt';
+          $id = $_GET['id'];
+          $time = date('Y-m-d H:i:s');
+      
+          // Get the user's geolocation
+          $location = "";
+          if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+              $location = $_SERVER['HTTP_CLIENT_IP'];
+          } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+              $location = $_SERVER['HTTP_X_FORWARDED_FOR'];
+          } else {
+              $location = $_SERVER['REMOTE_ADDR'];
+          }
 
         // Append the log to the logs.php file
         $log = "QR code '$id' was scanned at $time from I.P. $location.\n";
