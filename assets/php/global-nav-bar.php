@@ -38,6 +38,13 @@
           href="/#about"
         ></a>
       </li>
+      <li class="nav-item">
+        <a
+          aria-describedby="contact"
+          class="navbar-style contact"
+          href="/#contact"
+        ></a>
+      </li>
     </ul>
     <!-- NAVIGATION BAR LINKS START -->
     <div class="hamburger">

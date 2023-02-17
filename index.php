@@ -920,7 +920,7 @@
             <hr class="reveal" />
           </section>
           <section class="contact-form-section">
-            <h3 class="reveal">Contact</h3>
+            <h3 class="reveal"></h3>
             <br /><br />
             <form
               id="contactForm"
@@ -967,13 +967,13 @@
                     placeholder="Franz"
                   />
                   <br /><br />
-                  <label for="surname">
-                    <p>Surname</p>
+                  <label for="lastName">
+                    <p>Last Name</p>
                   </label>
                   <input
                     type="text"
-                    id="surname"
-                    name="surname"
+                    id="lastName"
+                    name="Last Name"
                     placeholder="Kafka"
                   />
                   <br /><br />
