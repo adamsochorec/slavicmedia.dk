@@ -21,6 +21,16 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
+        <?php
+        $allowed_ids = array("bike", "drone", "SSD", "leatherman", "MacBook", "mouse", "AirPods", "keys", "wallet", "bottle", "helmet", "iPhone");
+        $id = $_GET["id"];
+        
+        if (!in_array($id, $allowed_ids)) {
+            http_response_code(404);
+            include('404.php');
+            exit;
+        }
+        ?>
         <dotlottie-player
           src="/img/lottie/track.lottie"
           background="transparent"
@@ -32,20 +42,13 @@
         <br />
         <h2>
           It looks like you have found my
-          <?php
-          $allowed_ids = array("bike", "drone", "SSD", "leatherman", "macbook", "mouse", "airpods");
-          $id = $_GET["id"];
-          if (!in_array($id, $allowed_ids)) {
-            header("Location: 404");
-            exit;
-          }
-          echo $id;
-          ?>, please <a href="/homepage#contact">write to me</a> or give me a
-          call at <a href="tel:50104776p45">+4550104776</a>! <br /><br />
+          <?php echo $id; ?>, please <a href="/#contact">write me</a> or give me
+          a call at <a href="tel:50104776p45">+4550104776</a>! <br /><br />
           Thanks!
         </h2>
+
         <!-- logs - url: https://adamsochorec.com/find-my?id=xxx -->
-          <?php
+        <?php
           $logFile = 'logs.txt';
           $id = $_GET['id'];
           $time = date('Y-m-d H:i:s');
@@ -62,8 +65,8 @@
 
         // Append the log to the logs.php file
         $log = "QR code '$id' was scanned at $time from I.P. $location.\n";
-        file_put_contents($logFile, $log, FILE_APPEND);
-    ?>
+        file_put_contents($logFile, $log . file_get_contents($logFile));
+        ?>
         <hr />
       </article>
     </main>

@@ -28,8 +28,16 @@
           autoplay
           loop
         ></dotlottie-player>
-        <h1>Find My Logs</h1>
-
+          <h1>Find My Logs</h1>
+          <ol>
+            <?php
+            $logFile = 'logs.txt';
+            $logs = file($logFile);
+            foreach ($logs as $log) {
+              echo "<li>$log</li>";
+            }
+            ?>
+          </ol>
         <hr />
       </article>
     </main>
