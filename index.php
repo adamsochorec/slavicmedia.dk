@@ -271,7 +271,7 @@
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/projects/cybersecurity">
+            <a class="hh-stretch" href="/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
                 <span></span>
               </div>

@@ -1073,6 +1073,7 @@ select {
 }
 #error h1,
 #find-my h1,
+#transfer h1,
 #success h1 {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
@@ -1080,18 +1081,27 @@ select {
 }
 #error h2,
 #find-my h2,
-#success h2 {
+#success h2,
+#transfer h2 {
   font-size: var(--fontsize-h6);
   text-decoration: none;
   font-weight: var(--paragraph-weight);
   text-shadow: none;
   text-align: center;
 }
+#transfer #btn:before {
+  content: "Download files";
+}
+#transfer #btn.clicked:before {
+  content: "Done!";
+}
 #error .wrapper-narrow h2 a:hover,
-#success .wrapper-narrow h2 a:hover {
+#success .wrapper-narrow h2 a:hover,
+#transfer .wrapper-narrow h2 a:hover {
   text-decoration: none;
 }
-#find-my dotlottie-player {
+#find-my dotlottie-player,
+#transfer dotlottie-player {
   margin-bottom: -3.5rem;
   margin-top: 3rem;
 }
