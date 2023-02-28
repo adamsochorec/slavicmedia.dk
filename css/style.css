@@ -1090,7 +1090,7 @@ select {
   text-align: center;
 }
 #transfer #btn:before {
-  content: "Download files";
+  content: "Download";
 }
 #transfer #btn.clicked:before {
   content: "Done!";

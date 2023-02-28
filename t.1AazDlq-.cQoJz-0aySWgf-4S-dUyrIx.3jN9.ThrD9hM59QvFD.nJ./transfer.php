@@ -33,7 +33,7 @@
           autoplay
           loop
         ></dotlottie-player>
-        <h1>Adam's Transfer</h1>
+        <h1>File transfer</h1>
         <br />
         <h2>It looks like that you have accessed my files.</h2>
         <br />
