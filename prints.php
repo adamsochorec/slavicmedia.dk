@@ -57,11 +57,7 @@
         <div id="i."></div>
         <hr class="reveal" />
         <h3 class="reveal">I.</h3>
-        <img
-          class="reveal"
-          src="/img/jpg/21101786787138.jpg"
-          alt="21101786787138"
-        />
+        <img class="reveal" src="/img/jpg/230308158.jpg" alt="21101786787138" />
         <br /><br class="hide" />
         <p class="reveal">
           Price: 3.500 DKK
@@ -78,7 +74,7 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">II.</h3>
-          <img class="reveal" src="/img/jpg/211102002.jpg" alt="II." />
+          <img class="reveal" src="/img/jpg/230308154.jpg" alt="II." />
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -96,7 +92,7 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">III.</h3>
-          <img class="reveal" src="/img/jpg/21071948976502.jpg" alt="III." />
+          <img class="reveal" src="/img/jpg/230308149.jpg" alt="III." />
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -113,7 +109,7 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">IV.</h3>
-          <img class="reveal" src="/img/jpg/2202137909.jpg" alt="IV." />
+          <img class="reveal" src="/img/jpg/230308139.jpg" alt="IV." />
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -124,11 +120,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">V.</h3>
-          <img
-            class="reveal"
-            src="/img/jpg/21090566586849.jpg"
-            alt="V."
-          /><br /><br class="hide" />
+          <img class="reveal" src="/img/jpg/230308162.jpg" alt="V." /><br /><br
+            class="hide"
+          />
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -145,7 +139,7 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">VI.</h3>
-          <img class="reveal" src="/img/jpg/22031613958005.jpg" alt="VI." />
+          <img class="reveal" src="/img/jpg/230308166.jpg" alt="VI." />
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -156,7 +150,7 @@
         <hr />
         <section>
           <h3 class="reveal">VII.</h3>
-          <img class="reveal" src="/img/jpg/2201310419001.jpg" alt="VII." />
+          <img class="reveal" src="/img/jpg/230308171.jpg" alt="VII." />
           <br />
           <br class="hide" />
           <p class="reveal">
@@ -623,7 +617,7 @@
               <input
                 type="hidden"
                 name="_captcha"
-                value="false"
+                value="true"
               /><!-- Spam captcha deactivation -->
               <input
                 type="hidden"

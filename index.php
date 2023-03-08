@@ -32,130 +32,29 @@
     ?>
     <!-- HEADER END -->
     <main>
-      <!-- KOLDING EXPO START -->
-      <article id="kolding-expo">
-        <div class="blur h-background"></div>
-        <section class="intro-section">
-          <section class="intro-subsection">
-            <br /><br /><br />
-
-            <i>
-              <h2>ART EXPO?!</h2>
-              <br />
-              <h2>NOW!!</h2>
-              <br
-            /></i>
-            <h1>
-              Experience the art of photography in a whole new way at my ongoing
-              exhibition at
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://knuds-garage.business.site/"
-                >Knud's Garage</a
-              >
-              in Kolding.
-            </h1>
-            <br /><br />
-            <a href="/prints">
-              <section class="btn-area flex-center">
-                <div id="btn">Checkout the artworks</div>
-                <div class="btn-shadow"></div>
-              </section>
-            </a>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'global-scroll.php';
-            ?>
-          </section>
-        </section>
-
-        <br />
-        <section class="wrapper-standard">
-          <hr class="reveal" />
-          <p class="reveal">
-            From January to February 2023, you can see my large-scale portraits
-            on display, beautifully framed in wooden, decorated historical
-            frames.<br />
-            <br />Each artwork is original and <b>available for sale</b>. Don't
-            miss this opportunity to see my selected works in person and take
-            home a one-of-a-kind piece of art.<br /><br />
-            I hope to see you at the exhibition!
-          </p>
-          <hr class="reveal" />
-          <section class="grid-container reveal">
-            <section class="grid-item">
-              <div class="panel">
-                <h4>
-                  <svg
-                    id="fa-icons"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"
-                  >
-                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
-                    />
-                  </svg>
-                  Where
-                </h4>
-                <p>
-                  <b>Knud's Garage</b><br />Munkegade 5A<br />Kolding 6000<br />Denmark
-                  🇩🇰
-                </p>
-              </div>
-            </section>
-            <section class="grid-item">
-              <div class="panel">
-                <h4>
-                  <svg
-                    id="fa-icons"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M152 64H296V24C296 10.75 306.7 0 320 0C333.3 0 344 10.75 344 24V64H384C419.3 64 448 92.65 448 128V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H104V24C104 10.75 114.7 0 128 0C141.3 0 152 10.75 152 24V64zM48 248H128V192H48V248zM48 296V360H128V296H48zM176 296V360H272V296H176zM320 296V360H400V296H320zM400 192H320V248H400V192zM400 408H320V464H384C392.8 464 400 456.8 400 448V408zM272 408H176V464H272V408zM128 408H48V448C48 456.8 55.16 464 64 464H128V408zM272 192H176V248H272V192z"
-                    />
-                  </svg>
-                  When
-                </h4>
-                <p>
-                  <b>Jan - Feb 2023</b><br /><br />Mon -
-                  Sat&ensp;&emsp;12.00-02.00<br />Sun&emsp;&emsp;&emsp;&emsp;&nbsp;14.00-22.00
-                </p>
-              </div>
-            </section>
-            <br /><br />
-          </section>
-          <a
-            href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <section class="btn-area flex-center reveal">
-              <div id="btn">Get the directions</div>
-              <div class="btn-shadow"></div>
-            </section>
-          </a>
-          <hr class="reveal" />
-        </section>
-      </article>
-
-      <!-- KOLDING EXPO END -->
+      <a aria-describedby="expo-in-kolding" href="/prints">
+        <div class="banner-container">
+          <p>Prints for sale <3</p>
+        </div>
+      </a>
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="intro-section flex-center">
-          <section class="intro-subsection">
-            <h2 class="reveal"></h2>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'global-scroll.php';
-            ?>
-            <section></section>
-          </section>
+          <section></section>
         </section>
         <section class="grid-container">
+          <!--  <div class="v-stretch">
+            <img src="/img/jpg/220959520939.jpg" alt="220959520939" />
+          </div>
+          <div class="hh-stretch">
+            <iframe
+              src="https://player.vimeo.com/video/805963845?h=0b8f0d6ff1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              title="Sams&amp;oslash;.mov"
+            ></iframe>
+          </div>-->
           <div class="h-stretch reveal">
             <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
           </div>
@@ -260,12 +159,12 @@
           <div class="v-stretch reveal">
             <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
           </div>
-          <div id="projects"></div>
+          <div id="web-dev"></div>
         </section>
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-      <article id="projects">
+      <article id="web-dev">
         <section class="wrapper-standard">
           <hr class="reveal" />
           <h2 class="reveal"></h2>
@@ -280,7 +179,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/projects/zebra-design.php"
+              href="/web-dev/zebra-design.php"
             >
               <div class="grid-item reveal" id="zebra-design">
                 <span>Zebra-design</span>
@@ -290,7 +189,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/projects/memos.php"
+              href="/web-dev/memos.php"
             >
               <div class="grid-item reveal" id="memos">
                 <span>Memos</span>
@@ -390,7 +289,7 @@
             >.<br /><br />
             When I'm not behind the camera, you can find me hiking through the
             mountains, sleeping in the forest, or biking through the city.
-            <br /><br />Thanks for visiting my website, and I hope you enjoy! my
+            <br /><br />Thanks for visiting my website, and I hope you enjoy my
             work!
           </p>
           <hr class="reveal" />

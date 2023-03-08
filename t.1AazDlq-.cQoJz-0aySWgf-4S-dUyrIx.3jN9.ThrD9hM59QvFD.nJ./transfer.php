@@ -37,7 +37,9 @@
         <br />
         <h2>It looks like that you have accessed my files.</h2>
         <br />
-        <a href="./files.zip"
+        <a
+          href="./files.zip"
+          download="https://365basyd-my.sharepoint.com/:u:/g/personal/adam7643_iba_dk/EVbo62Djy69Hn4Cyh9gB5acB-2fjfbYN3A9sQ02JnbDpQQ?e=KQKQwB"
           ><section class="btn-area flex-center">
             <div id="btn"></div>
             <div class="btn-shadow"></div>
