@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Memos</title>
-    <link rel="stylesheet" href="/projects/memos/css/homepage.css" />
+    <link rel="stylesheet" href="/memos/css/homepage.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link
       rel="stylesheet"
@@ -18,15 +18,15 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="/projects/memos.php" class="nav-logo">
+        <a href="/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
+            <a href="/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="/projects/memos/about" class="nav-link">ABOUT</a>
+            <a href="/memos/about" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -52,21 +52,19 @@
           <img
             class="back"
             alt="rear side of the Vejle watche"
-            src="/projects/memos/img/_MG_0226-2.png"
+            src="/memos/img/_MG_0226-2.png"
           />
         </div>
         <div class="descrdiv">
           <img
             class="desc"
             alt="premium materials used for manufacture of the Vejle watche"
-            src="/projects/memos/img/desc.png"
+            src="/memos/img/desc.png"
           />
         </div>
       </div>
       <div class="buy">
-        <a id="mybutton" class="shop" href="/projects/memos/checkout"
-          >PREORDER</a
-        >
+        <a id="mybutton" class="shop" href="/memos/checkout">PREORDER</a>
       </div>
     </main>
     <footer>
@@ -102,11 +100,11 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="/projects/memos/about">about</a>
+        <a class="nav-link2" href="/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
+        <a class="nav-link2" href="/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="/projects/memos/terms-and-conditions"
+        <a class="nav-link2" href="/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
@@ -114,5 +112,5 @@
       <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
   </body>
-  <script src="/projects/memos/java/menu.js"></script>
+  <script src="/memos/java/menu.js"></script>
 </html>

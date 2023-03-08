@@ -13,12 +13,8 @@
     <meta name="author" content="Zebra Design" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/projects/zebra-design/img/zebra.png" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/projects/zebra-design/css/style.css"
-    />
+    <link rel="shortcut icon" href="/zebra-design/img/zebra.png" />
+    <link rel="stylesheet" type="text/css" href="/zebra-design/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,8 +26,8 @@
   <body>
     <header>
       <nav>
-        <a href="/projects/zebra-design.php" class="desktopLogo"
-          ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
+        <a href="/zebra-design.php" class="desktopLogo"
+          ><img src="/zebra-design/img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -42,15 +38,12 @@
             ><i id="burgerIcon" class="fa fa-bars"></i
           ></a>
           <ul id="navLinks">
-            <li><a href="/projects/zebra-design.php">HOME</a></li>
-            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
-            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
+            <li><a href="/zebra-design.php">HOME</a></li>
+            <li><a href="/zebra-design/services">SERVICES</a></li>
+            <li><a href="/zebra-design/about">ABOUT</a></li>
           </ul>
-          <a
-            href="/projects/zebra-design.php"
-            id="logoHyperlink"
-            class="mobileLogo"
-            ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
+          <a href="/zebra-design.php" id="logoHyperlink" class="mobileLogo"
+            ><img src="/zebra-design/img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -68,7 +61,7 @@
       <p class="aboutTitle">TEAM ZEBRA</p>
       <div class="aboutCards">
         <div class="aboutCardsGrid">
-          <img src="/projects/zebra-design/img/Adam.jpg" alt="Image of Adam" />
+          <img src="/zebra-design/img/Adam.jpg" alt="Image of Adam" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">ADAM <br />SOCHOREC</p>
             <ul>
@@ -95,10 +88,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img
-            src="/projects/zebra-design/img/Niels.jpg"
-            alt="Image of Niels"
-          />
+          <img src="/zebra-design/img/Niels.jpg" alt="Image of Niels" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">NIELS <br />CERS</p>
             <ul>
@@ -126,7 +116,7 @@
         </div>
         <div class="aboutCardsGrid">
           <img
-            src="/projects/zebra-design/img/Bartlomiej.jpg"
+            src="/zebra-design/img/Bartlomiej.jpg"
             alt="Image of Bartlomiej"
           />
           <div class="aboutCardsInner">
@@ -155,10 +145,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img
-            src="/projects/zebra-design/img/Daniel.jpg"
-            alt="Image of Daniel"
-          />
+          <img src="/zebra-design/img/Daniel.jpg" alt="Image of Daniel" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">DANIEL <br />THAEKKER</p>
             <ul>
@@ -185,10 +172,7 @@
           </div>
         </div>
         <div class="aboutCardsGrid">
-          <img
-            src="/projects/zebra-design/img/Nikolay.jpg"
-            alt="Image of Nikolay"
-          />
+          <img src="/zebra-design/img/Nikolay.jpg" alt="Image of Nikolay" />
           <div class="aboutCardsInner">
             <p class="aboutCardsInnerTitle">NIKOLAY <br />KOLEV</p>
             <ul>
@@ -230,9 +214,9 @@
         </div>
         <div class="footerGrid2">
           <ul>
-            <li><a href="./projects/zebra-design/zebra-design">HOME</a></li>
-            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
-            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
+            <li><a href="./zebra-design/zebra-design">HOME</a></li>
+            <li><a href="/zebra-design/services">SERVICES</a></li>
+            <li><a href="/zebra-design/about">ABOUT</a></li>
           </ul>
         </div>
         <div class="footerGrid3">
@@ -277,13 +261,11 @@
       <div class="policiesCopyrightsConditions">
         <ul>
           <li id="privacyPolicy">
-            <a href="/projects/zebra-design/privacyPolicy">PRIVACY POLICY</a>
+            <a href="/zebra-design/privacyPolicy">PRIVACY POLICY</a>
           </li>
           <li id="copyrights">© 2022 Zebra Design All Rights Reserved</li>
           <li id="termsAndConditions">
-            <a href="/projects/zebra-design/termsAndConditions"
-              >TERMS & CONDITIONS</a
-            >
+            <a href="/zebra-design/termsAndConditions">TERMS & CONDITIONS</a>
           </li>
           <li id="copyrightsMobile">© 2022 Zebra Design All Rights Reserved</li>
         </ul>

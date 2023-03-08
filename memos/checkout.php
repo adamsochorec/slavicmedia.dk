@@ -5,32 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout | Memos</title>
-    <link rel="stylesheet" href="/projects/memos/css/checkout1.css" />
+    <link rel="stylesheet" href="/memos/css/checkout1.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link
-      rel="icon"
-      href="/projects/memos/img/Memos-logo-copy.png"
-      type="image/png"
-    />
+    <link rel="icon" href="/memos/img/Memos-logo-copy.png" type="image/png" />
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="/projects/memos.php" class="nav-logo">
+        <a href="/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="/projects/memos.php" class="nav-link">VEJLE WATCH</a>
+            <a href="/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="/projects/memos/about" class="nav-link">ABOUT</a>
+            <a href="/memos/about" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -193,7 +189,7 @@
             </form>
           </fieldset>
           <div class="form3">
-            <a href="/projects/memos/payment" class="next">NEXT</a>
+            <a href="/memos/payment" class="next">NEXT</a>
           </div>
         </div>
       </div>
@@ -232,11 +228,11 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="/projects/memos/about">about</a>
+        <a class="nav-link2" href="/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="/projects/memos/privacy">privacy policy</a>
+        <a class="nav-link2" href="/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="/projects/memos/terms-and-conditions"
+        <a class="nav-link2" href="/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
@@ -244,5 +240,5 @@
       <p class="copyright">2022 © MEMOS.dk</p>
     </footer>
   </body>
-  <script src="/projects/memos/java/menu.js"></script>
+  <script src="/memos/java/menu.js"></script>
 </html>

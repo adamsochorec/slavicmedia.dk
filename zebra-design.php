@@ -13,12 +13,8 @@
     <meta name="author" content="Zebra Design" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/projects/zebra-design/img/zebra.png" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/projects/zebra-design/css/style.css"
-    />
+    <link rel="shortcut icon" href="/zebra-design/img/zebra.png" />
+    <link rel="stylesheet" type="text/css" href="/zebra-design/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -32,8 +28,8 @@
   <body>
     <header>
       <nav>
-        <a href="/projects/zebra-design/zebra-design.php" class="desktopLogo"
-          ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
+        <a href="/zebra-design/zebra-design.php" class="desktopLogo"
+          ><img src="/zebra-design/img/logo.png" alt="Logo"
         /></a>
         <div>
           <a
@@ -44,15 +40,12 @@
             ><i id="burgerIcon" class="fa fa-bars"></i
           ></a>
           <ul id="navLinks">
-            <li><a href="/projects/zebra-design.php">HOME</a></li>
-            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
-            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
+            <li><a href="/zebra-design.php">HOME</a></li>
+            <li><a href="/zebra-design/services">SERVICES</a></li>
+            <li><a href="/zebra-design/about">ABOUT</a></li>
           </ul>
-          <a
-            href="/projects/zebra-design.php"
-            id="logoHyperlink"
-            class="mobileLogo"
-            ><img src="/projects/zebra-design/img/logo.png" alt="Logo"
+          <a href="/zebra-design.php" id="logoHyperlink" class="mobileLogo"
+            ><img src="/zebra-design/img/logo.png" alt="Logo"
           /></a>
         </div>
       </nav>
@@ -61,7 +54,7 @@
       <section class="wrapper">
         <img
           class="zebra-designAnimation"
-          src="/projects/zebra-design/img/zebraGif.gif"
+          src="/zebra-design/img/zebraGif.gif"
           alt="Animation of a Zebra"
         />
         <div class="zebra-designGrid">
@@ -69,21 +62,21 @@
             <div class="slideshowContainer">
               <div class="slide1 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P1_1_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P1_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 1"
                 />
               </div>
               <div class="slide1 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P1_2_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P1_2_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 2"
                 />
               </div>
               <div class="slide1 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P1_3_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P1_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 1, version 3"
                 />
@@ -124,14 +117,14 @@
             <div class="slideshowContainer">
               <div class="slide2 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P2_1_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P2_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 1"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P2_2_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P2_2_.jpg"
                   style="width: 100%"
                   )
                   alt="Image of Project 2, version 2"
@@ -139,21 +132,21 @@
               </div>
               <div class="slide2 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P2_3_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P2_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 3"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P2_4_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P2_4_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 4"
                 />
               </div>
               <div class="slide2 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P2_5_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P2_5_.jpg"
                   style="width: 100%"
                   alt="Image of Project 2, version 5"
                 />
@@ -196,28 +189,28 @@
             <div class="slideshowContainer">
               <div class="slide3 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P3_1_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P3_1_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 1"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P3_2_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P3_2_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 2"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P3_3_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P3_3_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 3"
                 />
               </div>
               <div class="slide3 fade">
                 <img
-                  src="/projects/zebra-design/img/website covers/mobile/P3_4_.jpg"
+                  src="/zebra-design/img/website covers/mobile/P3_4_.jpg"
                   style="width: 100%"
                   alt="Image of Project 3, version 4"
                 />
@@ -255,9 +248,7 @@
             </p>
           </div>
         </div>
-        <a href="/projects/zebra-design/services" class="servicesButton"
-          >OUR SERVICES</a
-        >
+        <a href="/zebra-design/services" class="servicesButton">OUR SERVICES</a>
       </section>
     </main>
     <footer>
@@ -274,9 +265,9 @@
         </div>
         <div class="footerGrid2">
           <ul>
-            <li><a href="/projects/zebra-design.php">HOME</a></li>
-            <li><a href="/projects/zebra-design/services">SERVICES</a></li>
-            <li><a href="/projects/zebra-design/about">ABOUT</a></li>
+            <li><a href="/zebra-design.php">HOME</a></li>
+            <li><a href="/zebra-design/services">SERVICES</a></li>
+            <li><a href="/zebra-design/about">ABOUT</a></li>
           </ul>
         </div>
         <div class="footerGrid3">
@@ -321,18 +312,16 @@
       <div class="policiesCopyrightsConditions">
         <ul>
           <li id="privacyPolicy">
-            <a href="/projects/zebra-design/privacyPolicy">PRIVACY POLICY</a>
+            <a href="/zebra-design/privacyPolicy">PRIVACY POLICY</a>
           </li>
           <li id="copyrights">© 2022 Zebra Design All Rights Reserved</li>
           <li id="termsAndConditions">
-            <a href="/projects/zebra-design/termsAndConditions"
-              >TERMS & CONDITIONS</a
-            >
+            <a href="/zebra-design/termsAndConditions">TERMS & CONDITIONS</a>
           </li>
           <li id="copyrightsMobile">© 2022 Zebra Design All Rights Reserved</li>
         </ul>
       </div>
     </footer>
-    <script src="/projects/zebra-design/js/javascript.js"></script>
+    <script src="/zebra-design/js/javascript.js"></script>
   </body>
 </html>

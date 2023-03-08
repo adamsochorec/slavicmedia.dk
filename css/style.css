@@ -693,7 +693,48 @@ nav li a.prints::before {
   text-decoration: none;
   box-shadow: none;
 }
+[x-cloak] {
+  display: none;
+}
+.scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+/* iOS devices */
+@supports (-webkit-overflow-scrolling: touch) {
+  .scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+}
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll-behavior-smooth {
+  scroll-behavior: smooth;
+}
+.snap {
+  scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+}
+.snap-y {
+  --scroll-snap-direction: y;
+}
+.snap-x {
+  --scroll-snap-direction: x;
+}
+.snap-mandatory {
+  --scroll-snap-constraint: mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
+}
 .carousel {
   position: relative;
 }
@@ -782,10 +823,10 @@ nav li a.web-dev::before {
   content: "Web Dev";
 }
 .gallery #zebra-design {
-  background-image: url(/web-dev/zebra-design/img/zebraGif_kompr.jpg);
+  background-image: url(/zebra-design/img/zebraGif_kompr.jpg);
 }
 .gallery #memos {
-  background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
+  background-image: url(/memos/img/_MG_0188_kompr.jpg);
 }
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
