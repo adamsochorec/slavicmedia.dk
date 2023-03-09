@@ -31,7 +31,7 @@
           <h1>Find My Logs</h1>
           <ol>
             <?php
-            $logFile = 'logs.txt';
+            $logFile = 'logs-find-my.txt';
             $logs = file($logFile);
             foreach ($logs as $log) {
               echo "<li>$log</li>";

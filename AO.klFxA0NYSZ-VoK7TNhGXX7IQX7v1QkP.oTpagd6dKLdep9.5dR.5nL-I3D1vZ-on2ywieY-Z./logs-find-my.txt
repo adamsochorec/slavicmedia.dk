@@ -1,0 +1,5 @@
+QR code 'SSD' was scanned at 2023-03-09 16:43:51 from I.P. 127.0.0.1.
+QR code 'SSD' was scanned at 2023-03-09 16:38:11 from I.P. 127.0.0.1.
+QR code 'SSD' was scanned at 2023-03-09 16:38:07 from I.P. 127.0.0.1.
+QR code 'SSD' was scanned at 2023-03-09 16:27:03 from I.P. 127.0.0.1.
+QR code 'SSD' was scanned at 2023-03-09 16:26:10 from I.P. 127.0.0.1.

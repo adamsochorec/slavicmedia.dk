@@ -15,9 +15,6 @@
         ></a>
       </li>
       <li class="nav-item">
-        <a aria-describedby="photo" class="navbar-style photo" href="/#"></a>
-      </li>
-      <li class="nav-item">
         <a
           aria-describedby="web-dev"
           class="navbar-style web-dev"

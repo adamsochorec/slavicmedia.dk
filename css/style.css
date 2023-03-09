@@ -780,10 +780,10 @@ nav li a.web-dev::before {
   content: "Web Dev";
 }
 .gallery #zebra-design {
-  background-image: url(/zebra-design/img/zebraGif_kompr.jpg);
+  background-image: url(/web-dev/zebra-design/img/zebraGif_kompr.jpg);
 }
 .gallery #memos {
-  background-image: url(/memos/img/_MG_0188_kompr.jpg);
+  background-image: url(/web-dev/memos/img/_MG_0188_kompr.jpg);
 }
 #cybersecurity .pathname-current:before,
 #cybersecurity h1:before,
@@ -1052,6 +1052,7 @@ select {
   margin-top: 10rem;
   width: 6.25rem;
 }
+
 #error dotlottie-player {
   margin-bottom: -6.5rem;
   margin-top: 3rem;
@@ -1093,7 +1094,6 @@ select {
 #first-section .intro-section {
   background-image: url(/img/jpg/gray.png);
 }
-
 @media only screen and (min-width: 300px) {
   .grid-container {
     display: grid;
