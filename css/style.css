@@ -885,20 +885,20 @@ nav li a.blog::before {
 .gallery #house-hunting span:before {
   content: "House Hunting";
 }
-.gallery #blåvand {
+.gallery #blavand {
   background-image: url(/img/jpg/22041518018133_kompr.jpg);
 }
-#blåvand .pathname-current:before,
-#blåvand h1:before,
-.gallery #blåvand span:before {
+#blavand .pathname-current:before,
+#blavand h1:before,
+.gallery #blavand span:before {
   content: "Blåvand";
 }
-.gallery #åland {
+.gallery #aland {
   background-image: url(/img/jpg/22101685388877_kompr.jpg);
 }
-#åland .pathname-current:before,
-#åland h1:before,
-.gallery #åland span:before {
+#aland .pathname-current:before,
+#aland h1:before,
+.gallery #aland span:before {
   content: "Åland";
 }
 .gallery #lakeland {

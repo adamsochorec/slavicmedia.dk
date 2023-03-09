@@ -170,7 +170,7 @@
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/cybersecurity">
+            <a class="hh-stretch" href="/web-dev/cybersecurity">
               <div class="grid-item reveal" id="cybersecurity">
                 <span></span>
               </div>
@@ -179,7 +179,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/zebra-design.php"
+              href="/web-dev/zebra-design.php"
             >
               <div class="grid-item reveal" id="zebra-design">
                 <span>Zebra-design</span>
@@ -189,7 +189,7 @@
               class="hh-stretch"
               target="_blank"
               rel="noopener noreferrer"
-              href="/memos.php"
+              href="/web-dev/memos.php"
             >
               <div class="grid-item reveal" id="memos">
                 <span>Memos</span>
@@ -210,28 +210,28 @@
           <br />
           <section class="grid-container gallery reveal">
             <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blåvand">
+              <div class="grid-item" id="blavand">
                 <span></span>
               </div>
             </a>
-            <a href="/blog/house-hunting">
+            <a class="hh-stretch" href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
                 <span></span>
               </div>
             </a>
 
-            <a href="/blog/västerbotten">
+            <a class="hh-stretch" href="/blog/västerbotten">
               <div class="grid-item" id="västerbotten">
                 <span></span>
               </div>
             </a>
-            <a href="/blog/vestkystruten">
+            <a class="hh-stretch" href="/blog/vestkystruten">
               <div class="grid-item" id="vestkystruten">
                 <span></span>
               </div>
             </a>
             <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="åland">
+              <div class="grid-item" id="aland">
                 <span></span>
               </div>
             </a>

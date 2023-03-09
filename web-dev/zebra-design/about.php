@@ -13,8 +13,12 @@
     <meta name="author" content="Zebra Design" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/zebra-design/img/zebra.png" />
-    <link rel="stylesheet" type="text/css" href="/zebra-design/css/style.css" />
+    <link rel="shortcut icon" href="/web-dev/zebra-design/img/zebra.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/web-dev/zebra-design/css/style.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -26,7 +30,7 @@
   <body>
     <header>
       <nav>
-        <a href="/zebra-design.php" class="desktopLogo"
+        <a href="/web-dev/zebra-design.php" class="desktopLogo"
           ><img src="/zebra-design/img/logo.png" alt="Logo"
         /></a>
         <div>
@@ -38,11 +42,14 @@
             ><i id="burgerIcon" class="fa fa-bars"></i
           ></a>
           <ul id="navLinks">
-            <li><a href="/zebra-design.php">HOME</a></li>
-            <li><a href="/zebra-design/services">SERVICES</a></li>
-            <li><a href="/zebra-design/about">ABOUT</a></li>
+            <li><a href="/web-dev/zebra-design.php">HOME</a></li>
+            <li><a href="/web-dev/zebra-design/services">SERVICES</a></li>
+            <li><a href="/web-dev/zebra-design/about">ABOUT</a></li>
           </ul>
-          <a href="/zebra-design.php" id="logoHyperlink" class="mobileLogo"
+          <a
+            href="/web-dev/zebra-design.php"
+            id="logoHyperlink"
+            class="mobileLogo"
             ><img src="/zebra-design/img/logo.png" alt="Logo"
           /></a>
         </div>
@@ -215,8 +222,8 @@
         <div class="footerGrid2">
           <ul>
             <li><a href="./zebra-design/zebra-design">HOME</a></li>
-            <li><a href="/zebra-design/services">SERVICES</a></li>
-            <li><a href="/zebra-design/about">ABOUT</a></li>
+            <li><a href="/web-dev/zebra-design/services">SERVICES</a></li>
+            <li><a href="/web-dev/zebra-design/about">ABOUT</a></li>
           </ul>
         </div>
         <div class="footerGrid3">
@@ -261,11 +268,13 @@
       <div class="policiesCopyrightsConditions">
         <ul>
           <li id="privacyPolicy">
-            <a href="/zebra-design/privacyPolicy">PRIVACY POLICY</a>
+            <a href="/web-dev/zebra-design/privacyPolicy">PRIVACY POLICY</a>
           </li>
           <li id="copyrights">© 2022 Zebra Design All Rights Reserved</li>
           <li id="termsAndConditions">
-            <a href="/zebra-design/termsAndConditions">TERMS & CONDITIONS</a>
+            <a href="/web-dev/zebra-design/termsAndConditions"
+              >TERMS & CONDITIONS</a
+            >
           </li>
           <li id="copyrightsMobile">© 2022 Zebra Design All Rights Reserved</li>
         </ul>

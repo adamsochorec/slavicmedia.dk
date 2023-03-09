@@ -16,7 +16,7 @@
     ?>
   </head>
 
-  <body id="blåvand" class="blog-item">
+  <body id="blavand" class="blog-item">
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';

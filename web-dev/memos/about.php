@@ -9,24 +9,24 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       type="text/css"
     />
-    <link rel="stylesheet" href="/memos/css/about.css" />
+    <link rel="stylesheet" href="/web-dev/memos/css/about.css" />
     <link rel="stylesheet" href="https://use.typekit.net/yrl1amz.css" />
-    <link rel="icon" href="/memos/img/Memos-logo-copy.png" type="image/png" />
+    <link rel="icon" href="/web-dev/memos/img/Memos-logo-copy.png" type="image/png" />
     <title>About | Memos</title>
   </head>
 
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="/memos.php" class="nav-logo">
+        <a href="/web-dev/memos.php" class="nav-logo">
           <div class="logos"></div>
         </a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="/memos.php" class="nav-link">VEJLE WATCH</a>
+            <a href="/web-dev/memos.php" class="nav-link">VEJLE WATCH</a>
           </li>
           <li class="nav-item">
-            <a href="/memos.php" class="nav-link">ABOUT</a>
+            <a href="/web-dev/memos.php" class="nav-link">ABOUT</a>
           </li>
         </ul>
         <div class="hamburger">
@@ -133,11 +133,11 @@
       </div>
       <div class="links">
         <br />
-        <a class="nav-link2" href="/memos/about">about</a>
+        <a class="nav-link2" href="/web-dev/memos/about">about</a>
         <br />
-        <a class="nav-link2" href="/memos/privacy">privacy policy</a>
+        <a class="nav-link2" href="/web-dev/memos/privacy">privacy policy</a>
         <br />
-        <a class="nav-link2" href="/memos/terms-and-conditions"
+        <a class="nav-link2" href="/web-dev/memos/terms-and-conditions"
           >terms and conditions</a
         >
         <br />
