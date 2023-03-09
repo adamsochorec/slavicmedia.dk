@@ -45,19 +45,14 @@
         <p class="reveal">
           I'm introducing a limited series of medium to large prints, framed in
           a magnificent antique frame, which together with original prints
-          create an unique piece of art. Artworks can be seen in a
-          <a
-            href="https://www.google.com/maps/dir//Knuds+Garage,+Munkegade+5A,+6000+Kolding,+Denmark/@55.4896193,9.4774543,17z/data=!4m15!1m6!3m5!1s0x0:0x4beb056a0a3fdde7!2sKnuds+Garage!8m2!3d55.4896141!4d9.4775472!4m7!1m0!1m5!1m1!1s0x464c9f7aed9ccbcd:0x4beb056a0a3fdde7!2m2!1d9.4775472!2d55.4896141?hl=en"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Knud's Garage</a
-          >
-          in Kolding, for the entire <b>January</b> and <b>February</b>.
+          create an unique piece of art.
         </p>
         <div id="i."></div>
         <hr class="reveal" />
         <h3 class="reveal">I.</h3>
-        <img class="reveal" src="/img/jpg/230308158.jpg" alt="21101786787138" />
+        <div
+          class="elfsight-app-58ff00c9-e172-4712-9631-18062a387557 reveal"
+        ></div>
         <br /><br class="hide" />
         <p class="reveal">
           Price: 3.500 DKK
@@ -74,7 +69,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">II.</h3>
-          <img class="reveal" src="/img/jpg/230308154.jpg" alt="II." />
+          <div
+            class="elfsight-app-f790118d-1fd5-434a-8ddc-3c28ac060394 reveal"
+          ></div>
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -92,7 +89,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">III.</h3>
-          <img class="reveal" src="/img/jpg/230308149.jpg" alt="III." />
+          <div
+            class="elfsight-app-71b82b06-41a1-463e-bf6e-ff4eb5f96e08 reveal"
+          ></div>
           <p class="reveal">
             Price: 3.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -109,7 +108,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">IV.</h3>
-          <img class="reveal" src="/img/jpg/230308139.jpg" alt="IV." />
+          <div
+            class="elfsight-app-9236295a-b143-4757-88cd-865e9e1c986b reveal"
+          ></div>
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -120,9 +121,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">V.</h3>
-          <img class="reveal" src="/img/jpg/230308162.jpg" alt="V." /><br /><br
-            class="hide"
-          />
+          <div
+            class="elfsight-app-dd3ef3f3-19fa-41d4-a5b5-e8b8f0504ffd reveal"
+          ></div>
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -139,7 +140,9 @@
         <hr class="reveal" />
         <section>
           <h3 class="reveal">VI.</h3>
-          <img class="reveal" src="/img/jpg/230308166.jpg" alt="VI." />
+          <div
+            class="elfsight-app-34068e2e-d8ef-4385-a651-2c3b5b497290 reveal"
+          ></div>
           <p class="reveal">
             Price: 2.500 DKK
             <br /><b>One piece in stock</b><br />Material: plexiglass, wood,
@@ -150,7 +153,9 @@
         <hr />
         <section>
           <h3 class="reveal">VII.</h3>
-          <img class="reveal" src="/img/jpg/230308171.jpg" alt="VII." />
+          <div
+            class="elfsight-app-2951f9bb-478f-4450-881a-242d32133c0b reveal"
+          ></div>
           <br />
           <br class="hide" />
           <p class="reveal">
@@ -162,9 +167,9 @@
         <hr class="reveal" />
         <h2 class="reveal">Order prints</h2>
         <br />
-        <h4 class="reveal">
+        <h5 class="reveal">
           Delivery in <b>Kolding</b> is <b>free</b> of charge
-        </h4>
+        </h5>
         <br /><br />
         <section class="contact-form-section">
           <form
@@ -637,6 +642,8 @@
     </main>
 
     <!-- FOOTER START -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
     <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
         include $IPATH . 'global-footer.php';

@@ -34,7 +34,7 @@
     <main>
       <a aria-describedby="expo-in-kolding" href="/prints">
         <div class="banner-container">
-          <p>Prints for sale <3</p>
+          <p>Prints for sale ❤️</p>
         </div>
       </a>
       <!-- VISUALS START -->

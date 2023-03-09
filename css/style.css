@@ -588,8 +588,8 @@ span.bar {
 .gallery .grid-item,
 .gallery .grid-item::after,
 .gallery .grid-item:hover {
-  transition: var(--transition-2);
   border-radius: var(--border-radius-2);
+  transition: var(--transition-2);
 }
 .gallery .grid-item::after {
   background: inherit;
@@ -669,6 +669,9 @@ footer .footer-ps span:nth-child(2) {
 nav li a.prints::before {
   content: "Prints";
 }
+#prints img {
+  animation: none;
+}
 #prints h1 {
   text-align: center;
 }
@@ -683,57 +686,11 @@ nav li a.prints::before {
   background-image: url(/img/jpg/prints.jpg);
 }
 #prints img {
-  margin: 1rem 0 1rem 0;
   border-radius: var(--border-radius-1);
+  margin: 1rem 0 1rem 0;
 }
 #prints h4 {
   font-size: var(--fontsize-h6);
-}
-.a-without-decoration:hover {
-  text-decoration: none;
-  box-shadow: none;
-}
-[x-cloak] {
-  display: none;
-}
-.scroll {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-/* iOS devices */
-@supports (-webkit-overflow-scrolling: touch) {
-  .scroll {
-    -webkit-overflow-scrolling: touch;
-  }
-}
-
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.scroll-behavior-smooth {
-  scroll-behavior: smooth;
-}
-.snap {
-  scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
-}
-.snap-y {
-  --scroll-snap-direction: y;
-}
-.snap-x {
-  --scroll-snap-direction: x;
-}
-.snap-mandatory {
-  --scroll-snap-constraint: mandatory;
-}
-.snap-start {
-  scroll-snap-align: start;
 }
 .carousel {
   position: relative;
@@ -745,21 +702,21 @@ nav li a.prints::before {
   display: block;
 }
 .carousel__nav {
-  width: 100%;
-  padding: 20px 0;
-  position: absolute;
   bottom: 0;
   left: 0;
+  padding: 20px 0;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
 .carousel__button {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10%;
-  margin: 0 5px;
   cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
 }
 .carousel__button--selected {
   background: rgba(255, 255, 255, 0.5);
@@ -1112,10 +1069,10 @@ select {
 #success h2,
 #transfer h2 {
   font-size: var(--fontsize-h6);
-  text-decoration: none;
   font-weight: var(--paragraph-weight);
-  text-shadow: none;
   text-align: center;
+  text-decoration: none;
+  text-shadow: none;
 }
 #transfer #btn:before {
   content: "Download";
