@@ -214,18 +214,18 @@
                 <span></span>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/house-hunting">
+            <a href="/blog/house-hunting">
               <div class="grid-item" id="house-hunting">
                 <span></span>
               </div>
             </a>
 
-            <a class="hh-stretch" href="/blog/västerbotten">
+            <a href="/blog/västerbotten">
               <div class="grid-item" id="västerbotten">
                 <span></span>
               </div>
             </a>
-            <a class="hh-stretch" href="/blog/vestkystruten">
+            <a href="/blog/vestkystruten">
               <div class="grid-item" id="vestkystruten">
                 <span></span>
               </div>

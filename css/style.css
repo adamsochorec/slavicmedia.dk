@@ -675,22 +675,13 @@ nav li a.prints::before {
 #prints h1 {
   text-align: center;
 }
-#prints h2 {
-  font-size: var(--fontsize-h5);
-  text-shadow: none;
-}
-#prints h3 {
-  font-size: var(--fontsize-h1);
-}
+
 #prints .intro-section {
   background-image: url(/img/jpg/prints.jpg);
 }
 #prints img {
   border-radius: var(--border-radius-1);
   margin: 1rem 0 1rem 0;
-}
-#prints h4 {
-  font-size: var(--fontsize-h6);
 }
 .carousel {
   position: relative;
@@ -1088,11 +1079,26 @@ select {
 }
 #find-my dotlottie-player,
 #transfer dotlottie-player {
-  margin-bottom: -3.5rem;
-  margin-top: 3rem;
+  margin-bottom: -3rem;
+  margin-top: -3rem;
+  z-index: -1;
 }
-#first-section .intro-section {
-  background-image: url(/img/jpg/gray.png);
+#transfer h1:before,
+.pathname.transfer:nth-child(2) a::before,
+.pathname-current.transfer::before {
+  content: "Transfer";
+}
+#find-my h1:before,
+.pathname.find-my:nth-child(2) a::before,
+.pathname-current.find-my::before {
+  content: "Find My";
+}
+#dashboard h2:before,
+.pathname-current.dashboard::before {
+  content: "Dashboard";
+}
+#dashboard .gallery .grid-item {
+  background-color: rgba(var(--primary-color), 0.4);
 }
 @media only screen and (min-width: 300px) {
   .grid-container {

@@ -21,6 +21,16 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname transfer"><a href="/IOZI6YueEZ.Yk-2GhXPV6lZtBzQc.-KKLlGzq.Z.2cXcKIxzhbwtAKqY5ly.VpCJN5Na.mM..Qv-/transfer"></a> / </span>
+            <span class="pathname-current"> Logs</span
+          ></i>
+        </div>
+        <br />
+        <h1> Logs</h1>
+
         <dotlottie-player
           src="/img/lottie/track.lottie"
           background="transparent"
@@ -28,7 +38,6 @@
           autoplay
           loop
         ></dotlottie-player>
-          <h1>File Transfer Logs</h1>
           <ol>
             <?php
             $logFile = 'logs-transfer.txt';

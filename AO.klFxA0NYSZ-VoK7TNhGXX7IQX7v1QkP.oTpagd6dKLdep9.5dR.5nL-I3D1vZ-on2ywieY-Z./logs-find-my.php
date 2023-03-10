@@ -21,15 +21,23 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
-        <dotlottie-player
-          src="/img/lottie/track.lottie"
-          background="transparent"
-          speed="1"
-          autoplay
-          loop
-        ></dotlottie-player>
-          <h1>Find My Logs</h1>
-          <ol>
+       
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname find-my"><a href="/find-my"></a> / </span>
+            <span class="pathname-current"> Logs</span
+          ></i>
+        </div>
+        <br />
+        <h1> Logs</h1> <dotlottie-player
+        src="/img/lottie/track.lottie"
+        background="transparent"
+        speed="1"
+        autoplay
+        loop
+      ></dotlottie-player>
+                  <ol>
             <?php
             $logFile = 'logs-find-my.txt';
             $logs = file($logFile);

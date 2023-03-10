@@ -31,6 +31,14 @@
             exit;
         }
         ?>
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname-current find-my"></span
+          ></i>
+        </div>
+        <br />
+        <h1></h1>
         <dotlottie-player
           src="/img/lottie/track.lottie"
           background="transparent"
@@ -38,8 +46,6 @@
           autoplay
           loop
         ></dotlottie-player>
-        <h1>Adam's Find My</h1>
-        <br />
         <h2>
           It looks like you have found my
           <?php echo $id; ?>, please <a href="/#contact">write me</a> or give me

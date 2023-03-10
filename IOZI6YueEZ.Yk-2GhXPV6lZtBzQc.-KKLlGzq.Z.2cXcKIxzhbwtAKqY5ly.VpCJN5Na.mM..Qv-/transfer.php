@@ -31,6 +31,14 @@
             exit;
         }
         ?>
+        <div class="pathname-container">
+          <i
+            ><span class="pathname"><a href="/"></a> / </span>
+            <span class="pathname-current transfer"></span
+          ></i>
+        </div>
+        <br />
+        <h1></h1>
         <dotlottie-player
           src="/img/lottie/track.lottie"
           background="transparent"
@@ -38,7 +46,6 @@
           autoplay
           loop
         ></dotlottie-player>
-        <br />
         <?php
         $file_path = $id; // replace $id with the actual value of your variable
 
@@ -53,9 +60,9 @@
         1048576); } elseif ($file_size >= 1024) { $file_size = sprintf('%.0f
         KB', $file_size / 1024); } else { $file_size = sprintf('%d bytes',
         $file_size); } } else { echo 'File not found'; } ?>
-        <h1>
+        <h2>
           <?php echo $id; ?>
-        </h1>
+        </h2>
         <br />
         <h2><?php echo $file_size ?></h2>
 

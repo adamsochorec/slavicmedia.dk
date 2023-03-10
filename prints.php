@@ -166,10 +166,6 @@
         </section>
         <hr class="reveal" />
         <h2 class="reveal">Order prints</h2>
-        <br />
-        <h5 class="reveal">
-          Delivery in <b>Kolding</b> is <b>free</b> of charge
-        </h5>
         <br /><br />
         <section class="contact-form-section">
           <form
