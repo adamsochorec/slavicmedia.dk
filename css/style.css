@@ -208,6 +208,11 @@ hr {
 }
 .wrapper-narrow {
   max-width: 100%;
+}
+.btn-area #btn,
+.btn-area #btn:after,
+.btn-shadow,
+.wrapper-narrow {
   width: 21rem;
 }
 .note {
@@ -492,7 +497,6 @@ span.bar {
   color: var(--text-color);
   display: flex;
   font-size: var(--fontsize-p);
-  font-weight: var(--heading-weight);
   justify-content: center;
   letter-spacing: var(--letter-spacing);
   line-height: 1.5rem;
@@ -504,7 +508,6 @@ span.bar {
   border-radius: var(--border-radius-3);
   padding: 15px 0;
   position: relative;
-  width: 320px;
 }
 .btn-shadow {
   background: rgb(var(--primary-color));
@@ -1040,13 +1043,10 @@ select {
   background-size: 30px;
 }
 #success dotlottie-player {
-  margin-top: 10rem;
   width: 6.25rem;
 }
-
 #error dotlottie-player {
   margin-bottom: -6.5rem;
-  margin-top: 3rem;
 }
 #error h1,
 #find-my h1,
@@ -1066,12 +1066,6 @@ select {
   text-decoration: none;
   text-shadow: none;
 }
-#transfer #btn:before {
-  content: "Download";
-}
-#transfer #btn.clicked:before {
-  content: "Done!";
-}
 #error .wrapper-narrow h2 a:hover,
 #success .wrapper-narrow h2 a:hover,
 #transfer .wrapper-narrow h2 a:hover {
@@ -1080,18 +1074,7 @@ select {
 #find-my dotlottie-player,
 #transfer dotlottie-player {
   margin-bottom: -3rem;
-  margin-top: -3rem;
   z-index: -1;
-}
-#transfer h1:before,
-.pathname.transfer:nth-child(2) a::before,
-.pathname-current.transfer::before {
-  content: "Transfer";
-}
-#find-my h1:before,
-.pathname.find-my:nth-child(2) a::before,
-.pathname-current.find-my::before {
-  content: "Find My";
 }
 #dashboard h2:before,
 .pathname-current.dashboard::before {
@@ -1324,6 +1307,11 @@ select {
   .wrapper-narrow,
   .wrapper-standard {
     padding: 0 1.25rem 1rem 1.25rem;
+  }
+  .wrapper-narrow .btn-area #btn,
+  .wrapper-narrow .btn-area #btn:after,
+  .wrapper-narrow .btn-shadow {
+    width: 18.5rem;
   }
   #about img,
   #prints img,

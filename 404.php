@@ -17,6 +17,8 @@
     ?>
     <main>
       <article class="wrapper-narrow flex-center">
+        <div class="pathname-container"></div>
+
         <dotlottie-player
           src="/img/lottie/error3.1.lottie"
           background="transparent"

@@ -891,9 +891,7 @@
                 ></textarea>
                 <br /><br />
                 <div class="btn-area flex-center">
-                  <button id="btn" class="submit-btn" type="submit">
-                    Submit contact form
-                  </button>
+                  <button id="btn" class="submit-btn" type="submit"></button>
                   <div class="btn-shadow"></div>
                 </div>
                 <input

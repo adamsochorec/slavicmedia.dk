@@ -9,9 +9,11 @@
     <p>No cookies.</p>
   </section>
   <section class="footer-ps">
-    <span
-      >©
-      <?= date('Y') ?></span
+    <b
+      ><span
+        >©
+        <?= date('Y') ?></span
+      ></b
     >
     <span>Adam Sochorec</span>
   </section>

@@ -16,6 +16,9 @@
     <meta name="googlebot" content="noindex" />
     <main>
       <article class="wrapper-narrow flex-center">
+        <div class="pathname-container"></div>
+        <div class="pathname-container"></div>
+
         <dotlottie-player
           src="/img/lottie/success.lottie"
           background="transparent"
