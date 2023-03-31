@@ -50,13 +50,7 @@
           <br /><br />
           Thanks!
         </h2>
-        <p id="demo"></p>
 
-        <br />
-        <div class="btn-area flex-center">
-          <button id="btn" onclick="getLocation()">Try It</button>
-          <div class="btn-shadow"></div>
-        </div>
         <!-- logs - url: https://adamsochorec.com/find-my?id=xxx -->
         <?php
           $logFile = 'AO.klFxA0NYSZ-VoK7TNhGXX7IQX7v1QkP.oTpagd6dKLdep9.5dR.5nL-I3D1vZ-on2ywieY-Z./logs-find-my.txt';

@@ -329,7 +329,6 @@ p a:hover {
     background-position: 0 50%;
   }
 }
-/* expo banner start */
 .banner-container {
   animation: 1s fade;
   animation-delay: 0;
@@ -368,7 +367,6 @@ p a:hover {
   background-size: 400% 400%;
   -webkit-text-fill-color: transparent;
 }
-/* expo banner end */
 .intro-section .intro-subsection {
   padding-top: var(--nav-bar-top-position);
 }
@@ -666,7 +664,6 @@ footer .footer-ps span:nth-child(2) {
   font-family: var(--logo-font);
   font-size: 8.6px;
 }
-
 #prints h1:before,
 .pathname-current.prints::before,
 nav li a.prints::before {
@@ -678,7 +675,6 @@ nav li a.prints::before {
 #prints h1 {
   text-align: center;
 }
-
 #prints .intro-section {
   background-image: url(/img/jpg/prints.jpg);
 }
@@ -761,7 +757,7 @@ nav li a.photo::before {
   width: 100%;
 }
 #visuals .intro-section {
-  background-image: url(/img/jpg/2302180007003.jpg);
+  background-image: url(/img/jpg/22082525588812.jpg);
 }
 #visuals .grid-container iframe,
 .blog-item iframe {
@@ -1050,8 +1046,8 @@ select {
 }
 #error h1,
 #find-my h1,
-#transfer h1,
-#success h1 {
+#success h1,
+#transfer h1 {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
   text-align: center;
@@ -1324,7 +1320,6 @@ select {
   }
 }
 @media only screen and (min-width: 947px) {
-  #about img:hover,
   #cybersecurity .img-fill:hover,
   #prints img:hover,
   .blog-item iframe:hover,
@@ -1338,8 +1333,6 @@ select {
     transform: scale(1.5);
     z-index: 999;
   }
-  #about img,
-  #about img:hover,
   #cybersecurity .img-fill,
   #cybersecurity .img-fill:hover,
   #prints img,
