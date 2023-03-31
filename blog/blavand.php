@@ -240,7 +240,7 @@
             </div>
           </a>
           <a href="/blog/aland">
-            <div class="grid-item" id="åland">
+            <div class="grid-item" id="aland">
               <span></span>
             </div>
           </a>

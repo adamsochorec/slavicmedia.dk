@@ -43,29 +43,16 @@
           <section></section>
         </section>
         <section class="grid-container">
-          <div class="hh-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/805963845?h=0b8f0d6ff1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              title="Sams&amp;oslash;"
-              ><p class="alt-alt">Short film from Danish island Samsø.</p>
-            </iframe>
-          </div>
-          <div class="v-stretch reveal">
+          <div class="hhh-stretch reveal">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/h1RmTjfEmWw"
+              src="https://www.youtube-nocookie.com/embed/K5v5i-meOwA"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-              ><p class="alt-alt">
-                Link to a YoutTube blog from our journey made by Marcel.
-              </p></iframe
-            >
+            ></iframe>
           </div>
           <div class="h-stretch reveal">
             <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
