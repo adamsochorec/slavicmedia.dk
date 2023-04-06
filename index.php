@@ -3,22 +3,13 @@
   <head>
     <meta
       name="description"
-      content="As a Czech-born multimedia design student
-    currently studying at Erhvesakademi Kolding in Denmark, I have a passion for
-    all things creative. Photography, in particular, has always been a big part
-    of my life. I specialize in portraits and landscapes, and I'm always looking
-    for new and exciting ways to capture the world around me. Whether I'm using
-    my Canon 6D or my iPhone 13 mini, I'm always on the lookout for new subjects
-    and techniques to try out. Recently, I've been exploring the possibilities
-    of 3D scanning and modelling, and in the past, I was an avid lego builder. When I'm not behind the camera, you can find me hiking through the
-    mountains, sleeping in the forest, or biking through the city. Thank you for
-    visiting my website, and I hope you enjoy my work!"
+      content=""
     />
     <meta
       name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
+      content=""
     />
-    <title>Adam Sochorec</title>
+    <title>Slavic Media</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -32,11 +23,6 @@
     ?>
     <!-- HEADER END -->
     <main>
-      <a aria-describedby="expo-in-kolding" href="/prints">
-        <div class="banner-container">
-          <p>Prints for sale ❤️</p>
-        </div>
-      </a>
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="intro-section flex-center">
@@ -78,38 +64,6 @@
           <div class="v-stretch reveal">
             <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
           </div>
-          <iframe
-            class="h-stretch reveal"
-            title="Blåvand bunker | vzor 2"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-            ><p class="alt-alt">
-              3D scan of an Atlantic Wall bunker from WWII.
-            </p>
-          </iframe>
-          <iframe
-            class="h-stretch reveal"
-            title="Element | vzor 1"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
-            ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
-          </iframe>
           <div class="v-stretch reveal">
             <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
           </div>
@@ -200,56 +154,6 @@
       </article>
 
       <!-- WEB DEV END -->
-      <!-- BLOG START -->
-      <article id="blog">
-        <section class="wrapper-standard">
-          <hr class="reveal" />
-
-          <h2 class="reveal"></h2>
-          <br />
-          <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blavand">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/house-hunting">
-              <div class="grid-item" id="house-hunting">
-                <span></span>
-              </div>
-            </a>
-
-            <a href="/blog/västerbotten">
-              <div class="grid-item" id="västerbotten">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/vestkystruten">
-              <div class="grid-item" id="vestkystruten">
-                <span></span>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="aland">
-                <span></span>
-              </div>
-            </a>
-            <!-- 
-            <a class="hh-stretch" href="/blog/kvarken">
-              <div class="grid-item" id="kvarken">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-            -->
-          </section>
-          <hr class="reveal" />
-        </section>
-
-        <br id="about" />
-      </article>
-      <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
         <section class="intro-section flex-center">
@@ -862,7 +766,7 @@
                     type="text"
                     id="firstName"
                     name="First Name"
-                    placeholder="Franz"
+                    placeholder="Raasmus"
                   />
                   <br /><br />
                   <label for="lastName">
@@ -872,7 +776,7 @@
                     type="text"
                     id="lastName"
                     name="Last Name"
-                    placeholder="Kafka"
+                    placeholder="Sørensen"
                   />
                   <br /><br />
                 </section>
@@ -903,7 +807,7 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://adamsochorec.com/success"
+                  value="https://slavicmedia.com/success"
                 />
                 <!-- Redirect to the success page -->
               </section>
