@@ -1,30 +1,19 @@
 <header>
+  <br />
   <nav class="nav-bar">
     <!-- NAVIGATION BAR START -->
     <a aria-describedby="photo" href="/">
-      <span>adam</span>
-      <span>sochorec</span>
+      <span>slavic</span>
+      <span>media</span>
     </a>
     <ul class="nav-menu">
       <!-- NAVIGATION BAR LINKS START -->
-      <li class="nav-item">
-        <a
-          aria-describedby="prints"
-          class="navbar-style prints"
-          href="/prints"
-        ></a>
-      </li>
       <li class="nav-item">
         <a
           aria-describedby="web-dev"
           class="navbar-style web-dev"
           href="/#web-dev"
         ></a>
-      </li>
-      <li class="nav-item">
-        <a aria-describedby="blog" class="navbar-style blog" href="/#blog"></a>
-      </li>
-
       <li class="nav-item">
         <a
           aria-describedby="about"
