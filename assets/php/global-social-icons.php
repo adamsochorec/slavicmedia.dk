@@ -1,6 +1,6 @@
 <section class="social-icons">
   <a
-    href="https://www.instagram.com/accounts/login/?next=/adamsochorec/"
+    href="https://www.instagram.com/adamsochorec/"
     target="_blank"
     rel="noopener noreferrer"
   >

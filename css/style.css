@@ -178,8 +178,7 @@ svg {
   margin: 1.7rem 0 1.7rem 0;
 }
 iframe,
-img,
-source {
+img {
   animation: skeleton-loading 1s linear infinite alternate;
   border-radius: var(--border-radius-2);
   height: 100%;
@@ -200,7 +199,6 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
-#kolding-expo .intro-subsection,
 .wrapper-standard,
 hr {
   max-width: 100%;
@@ -678,38 +676,6 @@ nav li a.prints::before {
 #prints img {
   border-radius: var(--border-radius-1);
   margin: 1rem 0 1rem 0;
-}
-.carousel {
-  position: relative;
-}
-.carousel__item {
-  display: none;
-}
-.carousel__item--selected {
-  display: block;
-}
-.carousel__nav {
-  bottom: 0;
-  left: 0;
-  padding: 20px 0;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-.carousel__button {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 10%;
-  cursor: pointer;
-  display: inline-block;
-  height: 10px;
-  margin: 0 5px;
-  width: 10px;
-}
-.carousel__button--selected {
-  background: rgba(255, 255, 255, 0.5);
-}
-.carousel img {
-  object-fit: cover;
 }
 nav li a.photo::before {
   content: "Visuals";
