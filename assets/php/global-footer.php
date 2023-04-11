@@ -1,10 +1,10 @@
 <!-- FOOTER START -->
 <footer>
-  <?php
+<!--  <?php
          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
          include $IPATH . 'global-social-icons.php';
-         ?>
-  <br />
+         ?> 
+  <br />-->
   <section class="footer-ps">
     <p>No cookies.</p>
   </section>
@@ -15,7 +15,7 @@
         <?= date('Y') ?></span
       ></b
     >
-    <span>Adam Sochorec</span>
+    <span>Slavic Media</span>
   </section>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="/scripts/global-script.js" defer></script>

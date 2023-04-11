@@ -20,7 +20,7 @@
         <div class="pathname-container"></div>
 
         <dotlottie-player
-          src="/img/lottie/error3.1.lottie"
+          src="/img/lottie/error.lottie"
           background="transparent"
           speed="0.7"
           loop
@@ -30,7 +30,7 @@
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <br />
         <h2>
-          <a aria-describedby="/" href="http://adamsochorec.com"
+          <a aria-describedby="/" href="http://slavicmedia.dk"
             >Return to the homepage
             <svg
               id="chevron-right"
