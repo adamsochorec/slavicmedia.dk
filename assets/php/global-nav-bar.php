@@ -1,4 +1,5 @@
 <header>
+  <br />
   <nav class="nav-bar">
     <!-- NAVIGATION BAR START -->
     <a aria-describedby="photo" href="/">
