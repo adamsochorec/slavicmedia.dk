@@ -15,7 +15,7 @@
         <?= date('Y') ?></span
       ></b
     >
-    <span>Adam Sochorec</span>
+    <span>Slavic Media</span>
   </section>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="/scripts/global-script.js" defer></script>

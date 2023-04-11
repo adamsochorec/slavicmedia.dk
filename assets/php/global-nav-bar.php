@@ -2,27 +2,16 @@
   <nav class="nav-bar">
     <!-- NAVIGATION BAR START -->
     <a aria-describedby="photo" href="/">
-      <span>adam</span>
-      <span>sochorec</span>
+      <img class="logo" src="/img/logo.png" />
     </a>
     <ul class="nav-menu">
       <!-- NAVIGATION BAR LINKS START -->
       <li class="nav-item">
         <a
-          aria-describedby="prints"
-          class="navbar-style prints"
-          href="/prints"
+          aria-describedby="services"
+          class="navbar-style services"
+          href="/#services"
         ></a>
-      </li>
-      <li class="nav-item">
-        <a
-          aria-describedby="web-dev"
-          class="navbar-style web-dev"
-          href="/#web-dev"
-        ></a>
-      </li>
-      <li class="nav-item">
-        <a aria-describedby="blog" class="navbar-style blog" href="/#blog"></a>
       </li>
 
       <li class="nav-item">

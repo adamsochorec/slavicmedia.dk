@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      name="description"
-      content="As a Czech-born multimedia design student
-    currently studying at Erhvesakademi Kolding in Denmark, I have a passion for
-    all things creative. Photography, in particular, has always been a big part
-    of my life. I specialize in portraits and landscapes, and I'm always looking
-    for new and exciting ways to capture the world around me. Whether I'm using
-    my Canon 6D or my iPhone 13 mini, I'm always on the lookout for new subjects
-    and techniques to try out. Recently, I've been exploring the possibilities
-    of 3D scanning and modelling, and in the past, I was an avid lego builder. When I'm not behind the camera, you can find me hiking through the
-    mountains, sleeping in the forest, or biking through the city. Thank you for
-    visiting my website, and I hope you enjoy my work!"
-    />
-    <meta
-      name="keywords"
-      content="adamsochorec, adam sochorec, @adamsochorec, web portfolio, web dev, web development, web-dev, web developer, Photography, Photos, 3D modeling, Polycam, 3D scaning, Web Designer, freelance photographer, content creator, content creation, IBA Kolding, Erhversakademi Kolding, front-end programming, travel blog, Denmark, Czechia, Finland, Prague, Vaasa, Vaasan Yliopsto, Kolding, Knud's Garage, Kolding Expo, photo prints, "
-    />
-    <title>Adam Sochorec</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Slavic Media</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -32,11 +17,6 @@
     ?>
     <!-- HEADER END -->
     <main>
-      <a aria-describedby="expo-in-kolding" href="/prints">
-        <div class="banner-container">
-          <p>Prints for sale ❤️</p>
-        </div>
-      </a>
       <!-- VISUALS START -->
       <article id="visuals">
         <section class="intro-section flex-center">
@@ -55,201 +35,146 @@
             ></iframe>
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/m-EO-ysRGzI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/a2OT23O__48"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/QbhrG6arqqU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/EkVn1LBhkCw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/9HMyfXxFpkY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/dW2Si8xgovw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21062442416378-2.jpg" alt="21062442416378-2" />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21111395827265.jpg" alt="21111395827265" />
           </div>
           <div class="hhh-stretch reveal">
-            <img src="/img/jpg/2202137912.jpg" alt="2202137912" />
+            <img src="/img/jpg/22021014637852.jpg" alt="22021014637852" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21082261146778.jpg" alt="21082261146778" />
+            <img src="/img/jpg/22021015367863.jpg" alt="22021015367863" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/2202137909.jpg" alt="2202137909" />
+            <img src="/img/jpg/22050628368157.jpg" alt="22050628368157" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21052108355967.jpg" alt="21052108355967" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/21071948976502.jpg" alt="21071948976502" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21090565126832.jpg" alt="21090565126832" />
-          </div>
-          <iframe
-            class="h-stretch reveal"
-            title="Blåvand bunker | vzor 2"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            src="https://sketchfab.com/models/dd16bb89f8844760ab31396d495fd0ce/embed?autospin=1&ui_theme=dark&dnt=1"
-            ><p class="alt-alt">
-              3D scan of an Atlantic Wall bunker from WWII.
-            </p>
-          </iframe>
-          <iframe
-            class="h-stretch reveal"
-            title="Element | vzor 1"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            src="https://sketchfab.com/models/14f04b6252fe44fab20845fe3856401f/embed?autospin=1&ui_theme=dark&dnt=1"
-            ><p class="alt-alt">3D scan of an outdoor concrete architecure.</p>
-          </iframe>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/20111503544421.jpg" alt="20111503544421" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/2105281156137.jpg" alt="2105281156137" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21101786787138.jpg" alt="21101786787138" />
+            <img src="/img/jpg/22050629048164.jpg" alt="22050629048164" />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21090567466861.jpg" alt="21090567466861" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/21100178367026.jpg" alt="21100178367026" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/21082462356794.jpg" alt="21082462356794" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21090566586849.jpg" alt="21090566586849" />
+            <img src="/img/jpg/22050630028185.jpg" alt="22050630028185" />
           </div>
           <div class="hh-stretch reveal">
-            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/21041385565587.jpg" alt="21041385565587" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/211102002.jpg" alt="211102002" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/gif/22_kompr.gif" alt="22" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/gif/23_kompr.gif" alt="23" />
+            <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21090567896881.jpg" alt="21090567896881" />
+            <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/2012184555.jpg" alt="2012184555" />
+            <img src="/img/jpg/22050633218208.jpg" alt="22050633218208" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21111395827265.jpg" alt="2107265" />
+            <img src="/img/jpg/22061140428259.jpg" alt="22061140428259" />
           </div>
-          <div id="web-dev"></div>
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/22061846808321.jpg" alt="22061846808321" />
+          </div>
+          <div id="services"></div>
         </section>
       </article>
       <!-- VISUALS END -->
       <!-- WEB DEV START -->
-      <article id="web-dev">
+      <article id="services">
         <section class="wrapper-standard">
           <hr class="reveal" />
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/web-dev/cybersecurity">
-              <div class="grid-item reveal" id="cybersecurity">
-                <span></span>
+            <div>
+              <div class="grid-item reveal">
+                <span
+                  ><b>VIDEO</b><br /><br />Full-service video production including pre-production, production, and editing</span
+                >
               </div>
-            </a>
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/zebra-design.php"
-            >
-              <div class="grid-item reveal" id="zebra-design">
-                <span>Zebra-design</span>
+            </div>
+            <div>
+              <div class="grid-item reveal">
+                <span
+                  ><b>PHOTO</b><br /><br />Photography services for events, portraits, products, corporate photography...</span
+                >
               </div>
-            </a>
-            <a
-              class="hh-stretch"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="/web-dev/memos.php"
-            >
-              <div class="grid-item reveal" id="memos">
-                <span>Memos</span>
+            </div>
+            <div>
+              <div class="grid-item reveal">
+                <span
+                  ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring your vision to life with us. 
+                  Let's discuss your visual content needs!<br
+                /></span>
               </div>
-            </a>
+            </div>
           </section>
-          <div id="blog"></div>
+          <hr class="reveal" />
         </section>
       </article>
-
       <!-- WEB DEV END -->
-      <!-- BLOG START -->
-      <article id="blog">
-        <section class="wrapper-standard">
-          <hr class="reveal" />
-
-          <h2 class="reveal"></h2>
-          <br />
-          <section class="grid-container gallery reveal">
-            <a class="hh-stretch" href="/blog/blavand">
-              <div class="grid-item" id="blavand">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/house-hunting">
-              <div class="grid-item" id="house-hunting">
-                <span></span>
-              </div>
-            </a>
-
-            <a href="/blog/västerbotten">
-              <div class="grid-item" id="västerbotten">
-                <span></span>
-              </div>
-            </a>
-            <a href="/blog/vestkystruten">
-              <div class="grid-item" id="vestkystruten">
-                <span></span>
-              </div>
-            </a>
-            <a class="hh-stretch" href="/blog/aland">
-              <div class="grid-item" id="aland">
-                <span></span>
-              </div>
-            </a>
-            <!-- 
-            <a class="hh-stretch" href="/blog/kvarken">
-              <div class="grid-item" id="kvarken">
-                <div class="blur">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-            -->
-          </section>
-          <hr class="reveal" />
-        </section>
-
-        <br id="about" />
-      </article>
-      <!-- BLOG END -->
       <!-- ABOUT START -->
       <article id="about">
         <section class="intro-section flex-center">
@@ -265,551 +190,258 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="reveal">
-            As a Czech-born multimedia design student currently studying at
-            <a
-              href="https://www.iba.dk/fuldtidsuddannelser"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Erhversakademi Kolding</a
-            >
-            in Denmark, I have a passion for all things creative. Photography,
-            in particular, has always been a big part of my life. I specialize
-            in portraits and landscapes, and I'm always looking for new and
-            exciting ways to capture the world around me. Whether I'm using my
-            Canon 6D or my iPhone 13 mini, I'm always on the lookout for new
-            subjects and techniques to try out.<br />
-            Recently, I've been exploring the possibilities of 3D scanning and
-            modelling, and in the past, I was an avid
-            <a
-              href="https://www.flickr.com/photos/141401020@N03/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Lego builder</a
-            >.<br /><br />
-            When I'm not behind the camera, you can find me hiking through the
-            mountains, sleeping in the forest, or biking through the city.
-            <br /><br />Thanks for visiting my website, and I hope you enjoy my
-            work!
+          Slavic Media is a dynamic collaboration between Adam and Marcel, 
+          combining their expertise in professional photography and videography 
+          to create innovative visual content. Our company name, Slavic Media,
+           reflects our shared cultural background as Slavic people with Czech 
+           and Slovak roots. Based in Kolding, our company specializes in producing
+            captivating visual content for businesses seeking to enhance their 
+            online presence. Our services cater to companies that may not have 
+            the resources, time, or creative expertise to produce visual content 
+            themselves. Our range of services includes video production,
+             photography, and other visual content that delivers high-quality 
+             and engaging results. At Slavic Media, our experienced team of
+             professionals works closely with clients to develop a customized 
+             visual content strategy, from the initial concept to the final product delivery.
           </p>
           <hr class="reveal" />
-          <section class="reveal">
-            <img
-              class="reveal"
-              src="/img/jpg/about.jpg"
-              alt="Portrait of Adam Sochorec diving underwater."
-            />
-          </section>
-          <section class="reveal">
-            <img
-              class="reveal partner-logos"
-              src="/img/jpg/2209885.jpg"
-              alt="Logos of past collaborators and partners: Roskilde Festival 2022, Confucius Institute IBA Kolding, Antiyber Bullying Project, OLDstars, Slovo 21, Franklin Covey Czech, Divadlo na Vinohradech, Brick Gallery and Barae."
-            />
-          </section>
-          <hr class="reveal" />
-          <h3 class="reveal">Language competences</h3>
-          <br /><br />
-          <section class="grid-container skills-section">
+
+          <section class="grid-container skills-section profile">
             <div class="grid-item">
               <section class="reveal">
-                <p>Czech</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="95"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>English, <br class="hideLanguages" />Slovak</p>
-
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="80"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>Danish</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="45"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>German, Swedish</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="20"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>Chinese, Finnish</p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="10"></div>
-                </div>
+                <img src="/img/jpg/adam.jpg" alt="" />
+                <section class="profile">
+                  <br />
+                  <h6>Adam Sochorec</h6>
+                  <br />
+                  <p><b>Co-founder</b></p>
+                  <br />
+                  <p><a href="tel:+4550104776">+45 50 10 47 76</a></p>
+                  <p>
+                    <a href="mailto:adam@slavicmedia.dk">adam@slavicmedia.dk</a>
+                  </p>
+                  <br />
+                  <section class="social-icons">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.adamsochorec.com"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        viewBox="0 0 1000 1000"
+                        enable-background="new 0 0 1000 1000"
+                        xml:space="preserve"
+                      >
+                        <g>
+                          <g>
+                            <path
+                              d="M429.7,621.3c-13,0-26.1-5-36-14.9c-93.3-93.3-93.3-245,0-338.2L581.8,79.9C627,34.8,687.1,9.9,750.9,9.9c63.9,0,123.9,24.9,169.1,70.1c93.3,93.3,93.3,245,0,338.2l-86,86c-19.9,19.9-52.2,19.9-72.1,0c-19.9-19.9-19.9-52.2,0-72.1l86-86c53.5-53.5,53.5-140.6,0-194.1c-25.9-25.9-60.4-40.2-97-40.2c-36.7,0-71.1,14.3-97,40.2L465.7,340.2c-53.5,53.5-53.5,140.6,0,194.1c19.9,19.9,19.9,52.2,0,72.1C455.7,616.3,442.7,621.3,429.7,621.3L429.7,621.3z"
+                            />
+                            <path
+                              d="M249.1,990.1c-63.9,0-123.9-24.9-169.1-70.1c-93.3-93.3-93.3-245,0-338.2l86-86c19.9-19.9,52.2-19.9,72.1,0c19.9,19.9,19.9,52.2,0,72.1l-86,86c-53.5,53.5-53.5,140.6,0,194.1c25.9,25.9,60.4,40.2,97,40.2s71.1-14.3,97-40.2l188.2-188.2c53.5-53.5,53.5-140.6,0-194.1c-19.9-19.9-19.9-52.2,0-72.1c19.9-19.9,52.2-19.9,72.1,0c93.3,93.3,93.3,245,0,338.2L418.2,920.1C373,965.2,312.9,990.1,249.1,990.1L249.1,990.1z"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/adamsochorec/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.flickr.com/photos/141401020@N03/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 200 200"
+                      >
+                        <path d="M151 58a42 42 0 1 0 .1 0z" />
+                        <path d="M49 58a42 42 0 1 0 .1 0z" />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/adam-sochorec-ba3b03224/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        viewBox="0 0 382 382"
+                        xml:space="preserve"
+                      >
+                        <path
+                          d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"
+                        />
+                      </svg>
+                    </a>
+                  </section>
+                </section>
+                <br /><br />
+                <section class="reveal">
+                  <p>Photography</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="85"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>Coding</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="60"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>Danish</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="50"></div>
+                  </div>
+                </section>
               </section>
             </div>
 
             <div class="grid-item">
               <section class="reveal">
-                <p>
-                  HTML5
-                  <svg
-                    class="languages"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <title>HTML5 Logo Badge</title>
-                    <path
-                      fill="#E34F26"
-                      d="M71,460 L30,0 481,0 440,460 255,512"
-                    />
-                    <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37" />
-                    <path
-                      fill="#EBEBEB"
-                      d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"
-                    />
-                    <path
-                      fill="#FFF"
-                      d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="70"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>
-                  CSS3
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="languages"
-                    viewBox="0 0 512 512"
-                  >
-                    <path
-                      fill="#264de4"
-                      d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"
-                    />
-                    <path
-                      fill="#2965f1"
-                      d="M405.388 431.408l35.148-393.73H256v435.146z"
-                    />
-                    <path
-                      fill="#ebebeb"
-                      d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"
-                    />
-                    <path
-                      fill="#fff"
-                      d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="60"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>
-                  PHP
-                  <svg
-                    class="languages"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:cc="http://creativecommons.org/ns#"
-                    xmlns:dc="http://purl.org/dc/elements/1.1/"
-                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                    xmlns:svg="http://www.w3.org/2000/svg"
-                    id="svg3430"
-                    version="1.1"
-                    viewBox="0 0 711.20123 383.5975"
-                  >
-                    <title id="title3510">Official PHP Logo</title>
-                    <defs id="defs3434">
-                      <clipPath
-                        clipPathUnits="userSpaceOnUse"
-                        id="clipPath3444"
-                      >
-                        <path
-                          d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162"
-                          id="path3446"
-                        />
-                      </clipPath>
-                      <radialGradient
-                        cx="0"
-                        cy="0"
-                        fx="0"
-                        fy="0"
-                        gradientTransform="matrix(363.05789,0,0,-363.05789,177.52002,256.30713)"
-                        gradientUnits="userSpaceOnUse"
-                        id="radialGradient3452"
-                        r="1"
-                        spreadMethod="pad"
-                      >
-                        <stop
-                          id="stop3454"
-                          offset="0"
-                          style="stop-opacity: 1; stop-color: #aeb2d5"
-                        />
-                        <stop
-                          id="stop3456"
-                          offset="0.3"
-                          style="stop-opacity: 1; stop-color: #aeb2d5"
-                        />
-
-                        <stop
-                          id="stop3458"
-                          offset="0.75"
-                          style="stop-opacity: 1; stop-color: #484c89"
-                        />
-                        <stop
-                          id="stop3460"
-                          offset="1"
-                          style="stop-opacity: 1; stop-color: #484c89"
-                        />
-                      </radialGradient>
-                      <clipPath
-                        clipPathUnits="userSpaceOnUse"
-                        id="clipPath3468"
-                      >
-                        <path
-                          d="M 0,324 576,324 576,0 0,0 0,324 Z"
-                          id="path3470"
-                        />
-                      </clipPath>
-                      <clipPath
-                        clipPathUnits="userSpaceOnUse"
-                        id="clipPath3480"
-                      >
-                        <path
-                          d="M 0,324 576,324 576,0 0,0 0,324 Z"
-                          id="path3482"
-                        />
-                      </clipPath>
-                    </defs>
-                    <g
-                      id="g3438"
-                      transform="matrix(1.25,0,0,-1.25,-4.4,394.29875)"
+                <img src="/img/jpg/marcel.jpg" alt="" />
+                <section class="profile">
+                  <br />
+                  <h6>Marcel Hájik</h6>
+                  <br />
+                  <p><b>Co-founder</b></p>
+                  <br />
+                  <p><a href="tel:+4552812304">+45 52 81 23 04</a></p>
+                  <p>
+                    <a href="mailto:marcel@slavicmedia.dk"
+                      >marcel@slavicmedia.dk</a
                     >
-                      <g id="g3440">
-                        <g clip-path="url(#clipPath3444)" id="g3442">
-                          <g id="g3448">
-                            <g id="g3450">
-                              <path
-                                d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162"
-                                id="path3462"
-                                style="
-                                  fill: url(#radialGradient3452);
-                                  stroke: none;
-                                "
-                              />
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                      <g id="g3464">
-                        <g clip-path="url(#clipPath3468)" id="g3466">
-                          <g id="g3472" transform="translate(288,27.3594)">
-                            <path
-                              d="M 0,0 C 146.729,0 265.68,60.281 265.68,134.641 265.68,209 146.729,269.282 0,269.282 -146.729,269.282 -265.68,209 -265.68,134.641 -265.68,60.281 -146.729,0 0,0"
-                              id="path3474"
-                              style="
-                                fill: #777bb3;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                        </g>
-                      </g>
-                      <g id="g3476">
-                        <g clip-path="url(#clipPath3480)" id="g3478">
-                          <g
-                            id="g3484"
-                            transform="translate(161.7344,145.3066)"
-                          >
-                            <path
-                              d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.341 9.532,11.862 11.573,22.353 1.903,9.806 1.178,16.653 -2.154,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.063,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 L -37.679,81.573 C -37.405,82.982 -36.17,84 -34.734,84 L 26.32,84 C 45.508,84 59.79,78.79 68.767,68.513 77.792,58.182 80.579,43.741 77.05,25.592 75.614,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.722,0 -7.06,-36.322 c -0.274,-1.41 -1.508,-2.428 -2.944,-2.428 l -31.751,0 z"
-                              id="path3486"
-                              style="
-                                fill: #000000;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                          <g
-                            id="g3488"
-                            transform="translate(159.2236,197.3071)"
-                          >
-                            <path
-                              d="m 0,0 16.808,0 c 13.421,0 18.083,-2.945 19.667,-4.7 2.628,-2.914 3.124,-9.058 1.435,-17.767 C 36.012,-32.217 32.494,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.523,-49 0,0 Z m 28.831,35 -61.055,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.873,0 5.342,2.036 5.89,4.855 l 6.588,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.399,7.48 23.354,13.984 5.752,5.292 10.49,11.232 14.08,17.657 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.104 0.697,34.402 -8.969,45.466 C 63.965,29.444 48.923,35 28.831,35 m -45.633,-90 19.313,0 c 12.801,0 22.336,2.411 28.601,7.234 6.266,4.824 10.492,12.875 12.688,24.157 2.101,10.832 1.144,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.802,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.44,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.531,-38.75 -31.75,0 28.328,145.75 61.055,0"
-                              id="path3490"
-                              style="
-                                fill: #ffffff;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                          <g id="g3492" transform="translate(311.583,116.3066)">
-                            <path
-                              d="m 0,0 c -0.896,0 -1.745,0.4 -2.314,1.092 -0.571,0.691 -0.802,1.6 -0.631,2.48 L 9.586,68.061 C 10.778,74.194 10.484,78.596 8.759,80.456 7.703,81.593 4.531,83.5 -4.848,83.5 L -27.55,83.5 -43.305,2.428 C -43.579,1.018 -44.814,0 -46.25,0 l -31.5,0 c -0.896,0 -1.745,0.4 -2.315,1.092 -0.57,0.691 -0.801,1.601 -0.63,2.48 l 28.328,145.751 c 0.274,1.409 1.509,2.427 2.945,2.427 l 31.5,0 c 0.896,0 1.745,-0.4 2.315,-1.091 0.57,-0.692 0.801,-1.601 0.63,-2.481 L -21.813,113 2.609,113 c 18.605,0 31.221,-3.28 38.569,-10.028 7.49,-6.884 9.827,-17.891 6.947,-32.719 L 34.945,2.428 C 34.671,1.018 33.437,0 32,0 L 0,0 Z"
-                              id="path3494"
-                              style="
-                                fill: #000000;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                          <g
-                            id="g3496"
-                            transform="translate(293.6611,271.0571)"
-                          >
-                            <path
-                              d="m 0,0 -31.5,0 c -2.873,0 -5.342,-2.036 -5.89,-4.855 l -28.328,-145.751 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.5,0 c 2.872,0 5.342,2.036 5.89,4.855 l 15.283,78.645 20.229,0 c 9.363,0 11.328,-2 11.407,-2.086 0.568,-0.611 1.315,-3.441 0.082,-9.781 l -12.531,-64.489 c -0.342,-1.759 0.12,-3.578 1.26,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 32,0 c 2.872,0 5.342,2.036 5.89,4.855 l 13.179,67.825 c 3.093,15.921 0.447,27.864 -7.861,35.5 -7.928,7.281 -21.208,10.82 -40.599,10.82 l -20.784,0 6.143,31.605 C 6.231,-5.386 5.77,-3.566 4.63,-2.184 3.49,-0.801 1.792,0 0,0 m 0,-6 -7.531,-38.75 28.062,0 c 17.657,0 29.836,-3.082 36.539,-9.238 6.703,-6.16 8.711,-16.141 6.032,-29.938 l -13.18,-67.824 -32,0 12.531,64.488 c 1.426,7.336 0.902,12.34 -1.574,15.008 -2.477,2.668 -7.746,4.004 -15.805,4.004 l -25.176,0 -16.226,-83.5 -31.5,0 L -31.5,-6 0,-6"
-                              id="path3498"
-                              style="
-                                fill: #ffffff;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                          <g
-                            id="g3500"
-                            transform="translate(409.5498,145.3066)"
-                          >
-                            <path
-                              d="m 0,0 c 12.065,0 21.072,2.225 26.771,6.611 5.638,4.34 9.532,11.861 11.574,22.353 1.903,9.806 1.178,16.653 -2.155,20.348 C 32.783,53.086 25.417,55 14.297,55 L -4.984,55 -15.673,0 0,0 Z m -63.062,-67.75 c -0.895,0 -1.745,0.4 -2.314,1.092 -0.57,0.691 -0.802,1.601 -0.631,2.48 L -37.679,81.573 C -37.404,82.982 -36.17,84 -34.733,84 L 26.32,84 C 45.509,84 59.79,78.79 68.768,68.513 77.793,58.183 80.579,43.742 77.051,25.592 75.613,18.198 73.144,11.331 69.709,5.183 66.27,-0.972 61.725,-6.667 56.198,-11.747 49.582,-17.939 42.094,-22.429 33.962,-25.071 25.959,-27.678 15.681,-29 3.414,-29 l -24.723,0 -7.057,-36.322 c -0.275,-1.41 -1.509,-2.428 -2.946,-2.428 l -31.75,0 z"
-                              id="path3502"
-                              style="
-                                fill: #000000;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                          <g
-                            id="g3504"
-                            transform="translate(407.0391,197.3071)"
-                          >
-                            <path
-                              d="M 0,0 16.808,0 C 30.229,0 34.891,-2.945 36.475,-4.7 39.104,-7.614 39.6,-13.758 37.91,-22.466 36.012,-32.217 32.493,-39.13 27.452,-43.012 22.29,-46.986 13.898,-49 2.511,-49 L -9.522,-49 0,0 Z m 28.831,35 -61.054,0 c -2.872,0 -5.341,-2.036 -5.889,-4.855 L -66.44,-115.606 c -0.342,-1.759 0.12,-3.578 1.259,-4.961 1.14,-1.383 2.838,-2.183 4.63,-2.183 l 31.75,0 c 2.872,0 5.342,2.036 5.89,4.855 l 6.587,33.895 22.249,0 c 12.582,0 23.174,1.372 31.479,4.077 8.541,2.775 16.401,7.481 23.356,13.986 5.752,5.291 10.488,11.23 14.078,17.655 3.591,6.427 6.171,13.594 7.668,21.302 3.715,19.105 0.697,34.403 -8.969,45.467 C 63.965,29.444 48.924,35 28.831,35 m -45.632,-90 19.312,0 c 12.801,0 22.336,2.411 28.601,7.234 6.267,4.824 10.492,12.875 12.688,24.157 2.102,10.832 1.145,18.476 -2.871,22.929 C 36.909,3.773 28.87,6 16.808,6 L -4.946,6 -16.801,-55 M 28.831,29 C 47.198,29 60.597,24.18 69.019,14.539 77.441,4.898 79.976,-8.559 76.616,-25.836 75.233,-32.953 72.894,-39.46 69.601,-45.355 66.304,-51.254 61.999,-56.648 56.679,-61.539 50.339,-67.472 43.296,-71.7 35.546,-74.218 27.796,-76.743 17.925,-78 5.925,-78 l -27.196,0 -7.53,-38.75 -31.75,0 28.328,145.75 61.054,0"
-                              id="path3506"
-                              style="
-                                fill: #ffffff;
-                                fill-opacity: 1;
-                                fill-rule: nonzero;
-                                stroke: none;
-                              "
-                            />
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="30"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>
-                  JavaScript
-                  <svg
-                    class="languages"
-                    data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 78.56 88.92"
-                  >
-                    <path
-                      d="M78.56,0H0L7.36,79.87l31.91,9.05,31.91-9.05L78.56,0Z"
-                      style="fill: #e6a329"
-                    />
-                    <path
-                      d="M39.28,6.51V82.15l25.86-7.32L71.42,6.51H39.28Z"
-                      style="fill: #f1bf22"
-                    />
-                    <path
-                      d="M59.85,16.31H20.09l-2.77,29.9,.06-.19H51.15l-1.1,12.65-10.78,3.1-10.94-3.15-.66-7.66h-9.93l1.42,15.3,20.1,5.71,20.11-5.71,2.77-30.03H26.31l.46-10.01h24.87l.37,5.73h10.01l-2.18-15.65Z"
-                      style="fill: #fff"
-                    />
-                    <path
-                      d="M39.29,16.31H20.09l-2.77,29.9,.06-.19h21.9v-9.75h-11.57l.46-10.01h11.12v-9.95Zm-11.58,34.66h-9.95l1.42,15.29,20.1,5.7v-10.18l-10.94-3.16-.63-7.66Z"
-                      style="fill: #ebebeb"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="20"></div>
-                </div>
-              </section>
-              <section class="reveal">
-                <p>
-                  C
-                  <svg
-                    class="languages"
-                    xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 48 48"
-                  >
-                    <g>
-                      <path
-                        style="fill-rule: evenodd; fill: #283593"
-                        d="M 22.902344 3.285156 C 23.582031 2.90625 24.417969 2.90625 25.097656 3.285156 C 28.449219 5.167969 38.546875 10.835938 41.902344 12.71875 C 42.582031 13.101563 43 13.804688 43 14.566406 C 43 18.332031 43 29.667969 43 33.433594 C 43 34.195313 42.582031 34.898438 41.902344 35.28125 C 38.546875 37.164063 28.453125 42.832031 25.097656 44.714844 C 24.417969 45.09375 23.582031 45.09375 22.902344 44.714844 C 19.546875 42.832031 9.453125 37.164063 6.097656 35.28125 C 5.417969 34.898438 5 34.195313 5 33.433594 C 5 29.667969 5 18.332031 5 14.566406 C 5 13.804688 5.417969 13.101563 6.097656 12.71875 C 9.449219 10.835938 19.550781 5.167969 22.902344 3.285156 Z "
-                      />
-                      <path
-                        style="fill-rule: evenodd; fill: #5c6bc0"
-                        d="M 5.304688 34.402344 C 5.039063 34.046875 5 33.710938 5 33.253906 C 5 29.511719 5 18.242188 5 14.496094 C 5 13.738281 5.417969 13.039063 6.09375 12.660156 C 9.4375 10.789063 19.5 5.152344 22.84375 3.28125 C 23.519531 2.902344 24.4375 2.910156 25.113281 3.289063 C 28.457031 5.160156 38.484375 10.746094 41.828125 12.617188 C 42.097656 12.769531 42.304688 12.953125 42.488281 13.195313 Z "
-                      />
-                      <path
-                        style="fill-rule: evenodd; fill: #ffffff"
-                        d="M 24 10 C 31.726563 10 38 16.273438 38 24 C 38 31.726563 31.726563 38 24 38 C 16.273438 38 10 31.726563 10 24 C 10 16.273438 16.273438 10 24 10 Z M 24 17 C 27.863281 17 31 20.136719 31 24 C 31 27.863281 27.863281 31 24 31 C 20.136719 31 17 27.863281 17 24 C 17 20.136719 20.136719 17 24 17 Z "
-                      />
-                      <path
-                        style="fill-rule: evenodd; fill: #3949ab"
-                        d="M 42.484375 13.203125 C 43 13.6875 42.992188 14.414063 42.992188 14.988281 C 42.992188 18.785156 42.960938 29.578125 43 33.371094 C 43.003906 33.769531 42.871094 34.1875 42.675781 34.5 L 23.59375 24 Z "
-                      />
-                    </g></svg
-                  ><br class="hideLanguages" />
-                  Python
-                  <svg
-                    class="languages"
-                    data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 0 111.68 111.11"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="linear-gradient"
-                        x1="-237.96"
-                        y1="472.37"
-                        x2="-237.3"
-                        y2="471.71"
-                        gradientTransform="translate(19719.11 39220.39) scale(82.82 -83.01)"
-                        gradientUnits="userSpaceOnUse"
+                  </p>
+                  <br />
+                  <section class="social-icons">
+                    <a
+                      href="https://www.instagram.com/marcelhajik/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
                       >
-                        <stop offset="0" stop-color="#387eb8" />
-                        <stop offset="1" stop-color="#366994" />
-                      </linearGradient>
-                      <linearGradient
-                        id="linear-gradient-2"
-                        x1="-237.9"
-                        y1="472.28"
-                        x2="-237.19"
-                        y2="471.61"
-                        gradientTransform="translate(19747.44 39248.51) scale(82.82 -83.01)"
-                        gradientUnits="userSpaceOnUse"
+                        <path
+                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                        />
+                      </svg> </a
+                    ><a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://consent.youtube.com/@marcelhajik"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        id="Layer_1"
+                        viewBox="0 0 461.001 461.001"
+                        xml:space="preserve"
                       >
-                        <stop offset="0" stop-color="#ffe052" />
-                        <stop offset="1" stop-color="#ffc331" />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      d="M55.44,0C27.09,0,28.86,12.29,28.86,12.29l.03,12.74h27.06v3.83H18.15S0,26.8,0,55.41s15.84,27.59,15.84,27.59h9.45v-13.27s-.51-15.84,15.58-15.84h26.83s15.08,.24,15.08-14.57V14.83S85.07,0,55.44,0Zm-14.92,8.57c2.69,0,4.86,2.18,4.86,4.87,0,2.69-2.18,4.86-4.87,4.86s-4.86-2.18-4.86-4.87c0-1.29,.51-2.52,1.42-3.43,.91-.91,2.15-1.43,3.44-1.42Z"
-                      style="fill: url(#linear-gradient)"
-                    />
-                    <path
-                      d="M56.25,111.11c28.35,0,26.58-12.3,26.58-12.3l-.03-12.74h-27.06v-3.82h37.8s18.14,2.06,18.14-26.55-15.84-27.59-15.84-27.59h-9.45v13.28s.51,15.84-15.58,15.84h-26.84s-15.08-.24-15.08,14.57v24.5s-2.28,14.82,27.34,14.82Zm14.92-8.57c-2.69,0-4.86-2.18-4.86-4.87,0-2.69,2.18-4.86,4.87-4.86s4.86,2.18,4.86,4.87c0,1.29-.51,2.52-1.42,3.44-.91,.91-2.15,1.43-3.44,1.43Z"
-                      style="fill: url(#linear-gradient-2)"
-                    />
-                  </svg>
-                </p>
-                <div class="skill-bar faded">
-                  <div class="skill-bar" data-progress="10"></div>
-                </div>
+                        <g>
+                          <path
+                            d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728   c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137   C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607   c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/marcel-h%C3%A1jik-03a971224"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1"
+                        viewBox="0 0 382 382"
+                        xml:space="preserve"
+                      >
+                        <path
+                          d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"
+                        />
+                      </svg>
+                    </a>
+                  </section>
+                </section>
+                <br /><br />
+                <section class="reveal">
+                  <p>Video-production</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="85"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>Editing & Post-production</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="80"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>Animations & Motion graphics</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="60"></div>
+                  </div>
+                </section>
               </section>
             </div>
           </section>
           <hr class="reveal" />
           <section>
-            <h3 class="reveal">@adamsochorec</h3>
+            <h3 class="reveal">@slavicmedia</h3>
             <br />
             <section class="grid-container">
               <ul>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.brothers-brick.com/2017/08/21/forgotten-not-gone/"
-                    >The Brothers Brick</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://gjjlc.lixin.edu.cn/jdxw/109749.htm"
-                    >Shanghai Lixin University</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://gjjlc.lixin.edu.cn/jdxw/106321.htm"
-                    >Shanghai Lixin University</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.divadlodisk.cz/repertoar/hrdina-zapadu-83"
-                    >Divadlo Disk</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.brothers-brick.com/2017/08/27/post-apocalyptic-friendships-best/"
-                    >The Brothers Brick</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
               </ul>
               <ul>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/p/CPkl9MtKWiz/?igshid=YmMyMTA2M2Y="
-                    >Divadlo Na Vinohradech</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/p/CNNNkt_rNUn/?igshid=YmMyMTA2M2Y="
-                    >Barae</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
                 <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.artivistlab.info/purano-hangos/exhibitions-photo-album"
-                    >Artivist Lab</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.respekt.cz/galerie/cool-kids-saving-hot-planet"
-                    >Respekt</a
-                  >
-                </li>
-                <li class="reveal">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.hatefree.cz/clanky/tamara-moyzes-2"
-                    >HateFree</a
+                  <a target="_blank" rel="noopener noreferrer" href=""
+                    >mention</a
                   >
                 </li>
               </ul>
@@ -823,7 +455,7 @@
             <form
               id="contactForm"
               onclick="loading()"
-              action="https://formsubmit.co/2007080c2cf8bd2ebb68506e7aa98c5f"
+              action="https://formsubmit.co/contact@slavicmedia.dk"
               method="POST"
               novalidate
               enctype="multipart/form-data"
@@ -862,7 +494,7 @@
                     type="text"
                     id="firstName"
                     name="First Name"
-                    placeholder="Franz"
+                    placeholder="Raasmus"
                   />
                   <br /><br />
                   <label for="lastName">
@@ -872,7 +504,7 @@
                     type="text"
                     id="lastName"
                     name="Last Name"
-                    placeholder="Kafka"
+                    placeholder="Sørensen"
                   />
                   <br /><br />
                 </section>
@@ -898,12 +530,12 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="true"
+                  value="false"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://adamsochorec.com/success"
+                  value="https://slavicmedia.dk/success"
                 />
                 <!-- Redirect to the success page -->
               </section>
