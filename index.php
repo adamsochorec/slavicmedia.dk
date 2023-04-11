@@ -234,6 +234,15 @@
                 <span></span>
               </div>
             </a>
+            <!-- 
+            <a class="hh-stretch" href="/blog/kvarken">
+              <div class="grid-item" id="kvarken">
+                <div class="blur">
+                  <span></span>
+                </div>
+              </div>
+            </a>
+            -->
           </section>
           <hr class="reveal" />
         </section>
@@ -889,7 +898,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="false"
+                  value="true"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
