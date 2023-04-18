@@ -25,118 +25,150 @@
         <section class="grid-container">
           <div class="hhh-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/K5v5i-meOwA"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/m-EO-ysRGzI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/a2OT23O__48"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
+            ></iframe
+            ><
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/QbhrG6arqqU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/EkVn1LBhkCw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
+              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/9HMyfXxFpkY"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-            ></iframe>
-          </div>
-          <div class="h-stretch reveal">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube-nocookie.com/embed/dW2Si8xgovw"
-              title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
             ></iframe>
           </div>
 
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21062442416378-2.jpg" alt="21062442416378-2" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/21111395827265.jpg" alt="21111395827265" />
-          </div>
-          <div class="hhh-stretch reveal">
+          <div class="h-stretch reveal">
             <img src="/img/jpg/22021014637852.jpg" alt="22021014637852" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22021015367863.jpg" alt="22021015367863" />
+            <img src="/img/jpg/22021014537850.jpg" alt="22021014537850" />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21042289065619.jpg" alt="21042289065619" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21062128426334.jpg" alt="21062128426334" />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21062128996340.jpg" alt="21062128996340" />
+          </div>
+
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21111395827265.jpg" alt="21111395827265" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21062439006354.jpg" alt="21062439006354" />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21062442416378-2.jpg" alt="21062442416378-2" />
+          </div>
+
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21041384415571.jpg" alt="21041384415571" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21042491745669.jpg" alt="21042491745669" />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/2302100155144.jpg" alt="2302100155144" />
           </div>
           <div class="h-stretch reveal">
             <img src="/img/jpg/22050628368157.jpg" alt="22050628368157" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/22050629048164.jpg" alt="22050629048164" />
+            <img src="/img/jpg/2302100259248.jpg" alt="2302100259248" />
           </div>
-          <div class="hh-stretch reveal">
-            <img src="/img/jpg/22050630028185.jpg" alt="22050630028185" />
-          </div>
-          <div class="hh-stretch reveal">
-            <img src="/img/jpg/22050630038186.jpg" alt="22050630038186" />
-          </div>
-          <div class="v-stretch reveal">
-            <img src="/img/jpg/22050630108189.jpg" alt="22050630108189" />
+
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/2302100258247.jpg" alt="2302100258247" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22050633218208.jpg" alt="22050633218208" />
+            <img src="/img/jpg/22050630468192.jpg" alt="22050630468192" />
           </div>
+
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/22062864918513.jpg" alt="22062864918513" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/22063066728553.jpg" alt="22063066728553" />
+          </div>
+
           <div class="v-stretch reveal">
+            <img src="/img/jpg/22062448928337.jpg" alt="22062448928337" />
+          </div>
+          <div class="h-stretch reveal">
             <img src="/img/jpg/22061140428259.jpg" alt="22061140428259" />
           </div>
           <div class="v-stretch reveal">
             <img src="/img/jpg/22061846808321.jpg" alt="22061846808321" />
           </div>
+
+          <div class="h-stretch reveal">
+            <img
+              src="/img/jpg/109909456_2867588020231536_6545430788383010042_o.jpg"
+              alt="109909456_2867588020231536_6545430788383010042_o"
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/jpg/116431110_2874499956207009_689238237833982380_o.jpg"
+              alt="116431110_2874499956207009_689238237833982380_o"
+            />
+          </div>
+
           <div id="services"></div>
         </section>
       </article>
@@ -151,22 +183,25 @@
             <div>
               <div class="grid-item reveal">
                 <span
-                  ><b>VIDEO</b><br /><br />Full-service video production including pre-production, production, and editing</span
+                  ><b>VIDEO</b><br /><br />Full-service video production
+                  including pre-production, production, and editing</span
                 >
               </div>
             </div>
             <div>
               <div class="grid-item reveal">
                 <span
-                  ><b>PHOTO</b><br /><br />Photography services for events, portraits, products, corporate photography...</span
+                  ><b>PHOTO</b><br /><br />Photography services for events,
+                  portraits, products, corporate photography...</span
                 >
               </div>
             </div>
             <div>
               <div class="grid-item reveal">
                 <span
-                  ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring your vision to life with us. 
-                  Let's discuss your visual content needs!<br
+                  ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring
+                  your vision to life with us. Let's discuss your visual content
+                  needs!<br
                 /></span>
               </div>
             </div>
@@ -190,19 +225,20 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="reveal">
-          Slavic Media is a dynamic collaboration between Adam and Marcel, 
-          combining their expertise in professional photography and videography 
-          to create innovative visual content. Our company name, Slavic Media,
-           reflects our shared cultural background as Slavic people with Czech 
-           and Slovak roots. Based in Kolding, our company specializes in producing
-            captivating visual content for businesses seeking to enhance their 
-            online presence. Our services cater to companies that may not have 
-            the resources, time, or creative expertise to produce visual content 
-            themselves. Our range of services includes video production,
-             photography, and other visual content that delivers high-quality 
-             and engaging results. At Slavic Media, our experienced team of
-             professionals works closely with clients to develop a customized 
-             visual content strategy, from the initial concept to the final product delivery.
+            Slavic Media is a dynamic collaboration between Adam and Marcel,
+            combining their expertise in professional photography and
+            videography to create innovative visual content. Our company name,
+            Slavic Media, reflects our shared cultural background as Slavic
+            people with Czech and Slovak roots. Based in Kolding, our company
+            specializes in producing captivating visual content for businesses
+            seeking to enhance their online presence. Our services cater to
+            companies that may not have the resources, time, or creative
+            expertise to produce visual content themselves. Our range of
+            services includes video production, photography, and other visual
+            content that delivers high-quality and engaging results. At Slavic
+            Media, our experienced team of professionals works closely with
+            clients to develop a customized visual content strategy, from the
+            initial concept to the final product delivery.
           </p>
           <hr class="reveal" />
 
@@ -550,6 +586,8 @@
       <!-- ABOUT END -->
     </main>
     <!-- FOOTER START -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
