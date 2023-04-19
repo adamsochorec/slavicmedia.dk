@@ -197,23 +197,23 @@
           <h2 class="reveal"></h2>
           <br />
           <section class="grid-container gallery reveal">
-            <div>
+            <a href="/video-services">
               <div class="grid-item reveal">
-                <span
-                  ><b>VIDEO</b><br /><br />Full-service video production
+                ><span>
+                  <b>VIDEO</b><br /><br />Full-service video production
                   including pre-production, production, and editing</span
                 >
               </div>
-            </div>
-            <div>
+            </a>
+            <a href="/photo-services">
               <div class="grid-item reveal">
-                <span
+                ><span
                   ><b>PHOTO</b><br /><br />Photography services for events,
                   portraits, products, corporate photography...</span
                 >
               </div>
-            </div>
-            <div>
+            </a>
+            <a href="/consultation-services">
               <div class="grid-item reveal">
                 <span
                   ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring
@@ -221,7 +221,7 @@
                   needs!<br
                 /></span>
               </div>
-            </div>
+            </a>
           </section>
           <hr class="reveal" />
         </section>
