@@ -30,7 +30,7 @@
   --border-radius-3: 15px;
   --transition-1: all.2s ease-in-out;
   --transition-2: all.3s ease-in-out;
-  --nav-bar-top-position: 45px;
+  --nav-bar-top-position: 55px;
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--secondary-color));
 }
@@ -397,7 +397,7 @@ p a:hover {
 }
 .logo {
   animation: none;
-  width: 100px;
+  height: 40px;
   border-radius: none;
 }
 header,
@@ -466,7 +466,7 @@ header .blur {
 }
 .nav-item {
   display: flex;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   justify-content: center;
   list-style: none;
   margin-left: 3rem;
@@ -1055,6 +1055,9 @@ select {
   :root {
     --nav-bar-top-position: 40px;
     --menu-padding: 0 1rem;
+  }
+  .logo {
+    height: 30px;
   }
   .nav-menu {
     align-items: flex-end;

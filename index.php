@@ -465,7 +465,7 @@
                 <section class="reveal">
                   <p>English</p>
                   <div class="skill-bar faded">
-                    <div class="skill-bar" data-progress="60"></div>
+                    <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
                 <section class="reveal">
@@ -487,7 +487,7 @@
                   </div>
                 </section>
                 <section class="reveal">
-                  <p>??</p>
+                  <p>Climbing</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
