@@ -177,11 +177,7 @@ img {
   height: 100%;
   width: 100%;
 }
-#chevron-right {
-  fill: rgb(var(--primary-color));
-  padding-bottom: 1px;
-  width: 0.5rem;
-}
+
 .alt-alt {
   z-index: -9;
 }
@@ -570,7 +566,7 @@ span.bar {
 #services .gallery .grid-item,
 #services .grid-container.gallery .blur {
   align-items: center;
-  aspect-ratio: 1/1;
+  aspect-ratio: 2.5/3;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -583,7 +579,6 @@ span.bar {
 #services .gallery .grid-item,
 #services .gallery .grid-item:hover {
   transition: var(--transition-2);
-  border: 4px solid rgba(var(--secondary-color), 1);
 }
 
 .gallery .grid-item {
@@ -693,10 +688,11 @@ footer .footer-ps span {
   padding: 10px;
 }
 
-#visuals #chevron-right {
+#chevron-right {
   fill: var(--text-color);
-  padding-top: 4px;
   vertical-align: middle;
+  padding-bottom: 1px;
+  width: 0.5rem;
 }
 .v-stretch {
   grid-column: span 1;
@@ -725,8 +721,7 @@ footer .footer-ps span {
 #visuals .intro-section {
   background-image: url(/img/jpg/22082525588812.png);
 }
-#visuals .grid-container iframe,
-.blog-item iframe {
+#visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
 iframe,
@@ -767,6 +762,7 @@ nav li a.about::before {
 #about .profile {
   text-align: center;
 }
+
 #about .languages {
   animation: opacity-pulse-70 1s linear infinite alternate;
   height: 20px;
@@ -947,9 +943,7 @@ select {
   .services-grid .grid-item:nth-child(odd) {
     margin: 0rem;
   }
-  .grid-container.contact-form,
-  .grid-container.gallery,
-  .grid-container.services-grid {
+  .grid-container.contact-form {
     display: flex;
     flex-direction: column;
   }
@@ -957,9 +951,9 @@ select {
   .grid-container.gallery .blur {
     aspect-ratio: 10/2;
   }
-  #services .gallery .grid-item,
-  #services .grid-container.gallery .blur {
-    aspect-ratio: 10/4;
+
+  #about .profile p a {
+    font-size: calc(var(--fontsize-p) * 0.8);
   }
 }
 @media (max-width: 560px) {
@@ -1046,6 +1040,15 @@ select {
   #cybersecurity .btn-area input,
   #cybersecurity .btn-area input::placeholder {
     font-size: var(--fontsize-h6);
+  }
+  .grid-container.services-grid,
+  .grid-container.gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  #services .gallery .grid-item,
+  #services .grid-container.gallery .blur {
+    aspect-ratio: 10/4;
   }
 }
 @media only screen and (max-width: 947px) {

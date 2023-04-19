@@ -25,7 +25,7 @@
         <section class="grid-container">
           <div class="hhh-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -33,7 +33,7 @@
           </div>
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
+              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -201,16 +201,36 @@
               <div class="grid-item reveal">
                 ><span>
                   <b>VIDEO</b><br /><br />Full-service video production
-                  including pre-production, production, and editing</span
-                >
+                  including pre-production, production, and editing<u
+                    ><br /><br />Learn more
+                    <svg
+                      id="chevron-right"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                      ></path></svg></u
+                  ><br
+                /></span>
               </div>
             </a>
             <a href="/photo-services">
               <div class="grid-item reveal">
                 ><span
                   ><b>PHOTO</b><br /><br />Photography services for events,
-                  portraits, products, corporate photography...</span
-                >
+                  portraits, products, corporate photography...<u
+                    ><br /><br /><br />Learn more
+                    <svg
+                      id="chevron-right"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                      ></path></svg></u
+                  ><br
+                /></span>
               </div>
             </a>
             <a href="/consultation-services">
@@ -218,8 +238,17 @@
                 <span
                   ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring
                   your vision to life with us. Let's discuss your visual content
-                  needs!<br
-                /></span>
+                  needs!<u
+                    ><br /><br />Learn more
+                    <svg
+                      id="chevron-right"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                      ></path></svg></u
+                ></span>
               </div>
             </a>
           </section>
@@ -254,7 +283,6 @@
             We work closely with clients to develop a customized visual content
             strategy, from concept to final delivery.
           </p>
-          <img class="partners reveal" src="/img/jpg/partners.png" />
           <hr class="reveal" />
 
           <section class="grid-container skills-section">
@@ -269,7 +297,9 @@
                   <br />
                   <p><a href="tel:+4550104776">+45 50 10 47 76</a></p>
                   <p>
-                    <a href="mailto:adam@slavicmedia.dk">adam@slavicmedia.dk</a>
+                    <a href="mailto:adamsochorec@slavicmedia.dk"
+                      >adamsochorec@slavicmedia.dk</a
+                    >
                   </p>
                   <br />
                   <section class="social-icons">
@@ -329,13 +359,26 @@
                 </section>
                 <br /><br />
                 <section class="reveal">
-                  <p>Photography</p>
+                  <p>English</p>
                   <div class="skill-bar faded">
-                    <div class="skill-bar" data-progress="85"></div>
+                    <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </section>
                 <section class="reveal">
-                  <p>Coding</p>
+                  <p>Editing & Post-production</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="80"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>Photography</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="90"></div>
+                  </div>
+                </section>
+
+                <section class="reveal">
+                  <p>Web Development</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -360,8 +403,8 @@
                   <br />
                   <p><a href="tel:+4552812304">+45 52 81 23 04</a></p>
                   <p>
-                    <a href="mailto:marcel@slavicmedia.dk"
-                      >marcel@slavicmedia.dk</a
+                    <a href="mailto:marcelhajik@slavicmedia.dk"
+                      >marcelhajik@slavicmedia.dk</a
                     >
                   </p>
                   <br />
@@ -420,9 +463,9 @@
                 </section>
                 <br /><br />
                 <section class="reveal">
-                  <p>Video-production</p>
+                  <p>English</p>
                   <div class="skill-bar faded">
-                    <div class="skill-bar" data-progress="85"></div>
+                    <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </section>
                 <section class="reveal">
@@ -432,7 +475,19 @@
                   </div>
                 </section>
                 <section class="reveal">
+                  <p>Video-production</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="85"></div>
+                  </div>
+                </section>
+                <section class="reveal">
                   <p>Animations & Motion graphics</p>
+                  <div class="skill-bar faded">
+                    <div class="skill-bar" data-progress="60"></div>
+                  </div>
+                </section>
+                <section class="reveal">
+                  <p>??</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -481,6 +536,10 @@
                 </li>
               </ul>
             </section> -->
+            <hr class="reveal" />
+
+            <img class="partners reveal" src="/img/jpg/partners.png" />
+
             <div id="contact"></div>
             <hr class="reveal" />
           </section>
@@ -558,7 +617,7 @@
                 <br /><br />
                 <div class="btn-area flex-center">
                   <button id="btn" class="submit-btn" type="submit">
-                    Submit contact form
+                    Submit form
                   </button>
                   <div class="btn-shadow"></div>
                 </div>
