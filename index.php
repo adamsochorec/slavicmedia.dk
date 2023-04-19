@@ -45,12 +45,12 @@
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
-            ></iframe
-            ><
+            ></iframe>
           </div>
+
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818681305?h=be949209a8"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -58,7 +58,7 @@
           </div>
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818681438?h=c5f83ad409"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -66,7 +66,7 @@
           </div>
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -74,7 +74,24 @@
           </div>
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818681603?h=deb5fd0c87"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <div class="h-stretch reveal">
+            <iframe
+              src="https://player.vimeo.com/video/818681227?h=482d2ef940"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
+            <iframe
+              src="https://player.vimeo.com/video/818681112?h=ebb98bb2b4"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -225,24 +242,21 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="reveal">
-            Slavic Media is a dynamic collaboration between Adam and Marcel,
-            combining their expertise in professional photography and
-            videography to create innovative visual content. Our company name,
-            Slavic Media, reflects our shared cultural background as Slavic
-            people with Czech and Slovak roots. Based in Kolding, our company
-            specializes in producing captivating visual content for businesses
-            seeking to enhance their online presence. Our services cater to
-            companies that may not have the resources, time, or creative
-            expertise to produce visual content themselves. Our range of
-            services includes video production, photography, and other visual
-            content that delivers high-quality and engaging results. At Slavic
-            Media, our experienced team of professionals works closely with
-            clients to develop a customized visual content strategy, from the
-            initial concept to the final product delivery.
+            Slavic Media is a collaboration between Adam and Marcel, visual
+            creators, specializing in creating captivating visual content for
+            businesses seeking to enhance their online presence.<br />Our shared
+            passion for travelling and self-improvement, combined with our
+            Slavic cultural background, brings a unique perspective to our
+            work.<br /><br />
+            We provide a range of services, including video production,
+            photography, and other visual content, all tailored to the specific
+            needs of each client.<br /><br />
+            We work closely with clients to develop a customized visual content
+            strategy, from concept to final delivery.
           </p>
           <hr class="reveal" />
 
-          <section class="grid-container skills-section profile">
+          <section class="grid-container skills-section">
             <div class="grid-item">
               <section class="reveal">
                 <img src="/img/jpg/adam.jpg" alt="" />
@@ -442,8 +456,9 @@
               </section>
             </div>
           </section>
-          <hr class="reveal" />
+
           <section>
+            <!--
             <h3 class="reveal">@slavicmedia</h3>
             <br />
             <section class="grid-container">
@@ -481,7 +496,7 @@
                   >
                 </li>
               </ul>
-            </section>
+            </section> -->
             <div id="contact"></div>
             <hr class="reveal" />
           </section>

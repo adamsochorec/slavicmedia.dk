@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Success | Adam Sochorec</title>
+    <title>Success | Slavic Media</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
@@ -23,7 +23,8 @@
           src="/img/lottie/success.lottie"
           background="transparent"
           speed="1"
-          autoplay        ></dotlottie-player>
+          autoplay
+        ></dotlottie-player>
         <br />
         <h1>Form submitted<br />successfully!</h1>
         <br />

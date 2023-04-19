@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Page Not Found | Adam Sochorec</title>
+    <title>Page Not Found | Slavic Media</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
