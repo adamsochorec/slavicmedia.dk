@@ -192,18 +192,24 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
+.wrapper-narrow,
 .wrapper-standard,
-hr {
+.wrapper-wide {
   max-width: 100%;
+}
+.wrapper-standard,
+.wrapper-standard hr {
   width: 37.5rem;
 }
-.wrapper-narrow {
-  max-width: 100%;
+.wrapper-wide,
+.wrapper-wide hr {
+  width: 55rem;
 }
 .btn-area #btn,
 .btn-area #btn:after,
 .btn-shadow,
-.wrapper-narrow {
+.wrapper-narrow,
+.wrapper-narrow hr {
   width: 21rem;
 }
 .note {
@@ -232,7 +238,9 @@ h2:before {
   opacity: 1;
   transform: translateY(0);
 }
+.wrapper-narrow li a,
 .wrapper-standard li a,
+.wrapper-wide li a,
 h1 a,
 h2 a,
 h3 a,
@@ -248,7 +256,9 @@ p a {
   text-decoration: none;
   transition: box-shadow 0.5s;
 }
+.wrapper-narrow li a:hover,
 .wrapper-standard li a:hover,
+.wrapper-wide li a:hover,
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
@@ -407,6 +417,7 @@ header {
   justify-content: center;
   position: fixed;
   z-index: 9999;
+  text-transform: uppercase;
 }
 .nav-menu.active,
 header {
@@ -722,11 +733,23 @@ iframe,
 .partners {
   animation: none;
 }
-#services h2:before,
+
 .pathname-current.services::before,
-.pathname.services:nth-child(2) a::before,
+.services .pathname:nth-child(2) a::before,
 nav li a.services::before {
-  content: "SERVICES";
+  content: "Services";
+}
+#video-services h1:before,
+#video-services .pathname-current:before {
+  content: "Video Services";
+}
+#photo-services h1:before,
+#photo-services .pathname-current:before {
+  content: "Photo Services";
+}
+#consultation-services h1:before,
+#consultation-services .pathname-current:before {
+  content: "Consultation Services";
 }
 
 #about .pathname-current::before,
@@ -789,12 +812,10 @@ nav li a.about::before {
 nav li a.contact::before {
   content: "REQUEST A PROPOSAL";
 }
-.contact-form-section .contact-form .grid-item:nth-child(1),
-.contact-form-section .contact-form .grid-item:nth-child(3) {
+.contact-form-section .contact-form .grid-item:nth-child(odd) {
   margin: 0 1rem 0 0;
 }
-.contact-form-section .contact-form .grid-item:nth-child(2),
-.contact-form-section .contact-form .grid-item:nth-child(4) {
+.contact-form-section .contact-form .grid-item:nth-child(even) {
   margin: 0 0 0 1rem;
 }
 .contact-form-section .contact-form input,
@@ -866,6 +887,12 @@ select {
   text-decoration: none;
   text-shadow: none;
 }
+.services .grid-item:nth-child(odd) {
+  margin: 0 1rem 0 0;
+}
+.services .grid-item:nth-child(even) {
+  margin: 0 0 0 1rem;
+}
 
 @media only screen and (min-width: 300px) {
   .grid-container {
@@ -914,14 +941,15 @@ select {
   }
 }
 @media only screen and (max-width: 500px) {
-  .contact-form-section .contact-form .grid-item:nth-child(1),
-  .contact-form-section .contact-form .grid-item:nth-child(2),
-  .contact-form-section .contact-form .grid-item:nth-child(3),
-  .contact-form-section .contact-form .grid-item:nth-child(4) {
+  .contact-form-section .contact-form .grid-item:nth-child(even),
+  .contact-form-section .contact-form .grid-item:nth-child(odd),
+  .services-grid .grid-item:nth-child(even),
+  .services-grid .grid-item:nth-child(odd) {
     margin: 0rem;
   }
   .grid-container.contact-form,
-  .grid-container.gallery {
+  .grid-container.gallery,
+  .grid-container.services-grid {
     display: flex;
     flex-direction: column;
   }
@@ -1088,6 +1116,7 @@ select {
   body.active .banner-container {
     top: var(--nav-bar-top-position);
   }
+  .wrapper-wide,
   .wrapper-narrow,
   .wrapper-standard {
     padding: 0 1.25rem 1rem 1.25rem;
