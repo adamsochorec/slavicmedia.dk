@@ -753,7 +753,9 @@ nav li a.about::before {
 #about .intro-section {
   background-image: url(/img/jpg/IMG_1849.jpg);
 }
-
+.partners {
+  animation: none;
+}
 .grid-container p {
   margin-bottom: 0.5rem;
 }

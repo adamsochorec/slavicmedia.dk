@@ -254,6 +254,7 @@
             We work closely with clients to develop a customized visual content
             strategy, from concept to final delivery.
           </p>
+          <img class="partners reveal" src="/img/jpg/partners.png" />
           <hr class="reveal" />
 
           <section class="grid-container skills-section">
