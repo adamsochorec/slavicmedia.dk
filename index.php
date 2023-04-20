@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <title>Slavic Media</title>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Slavic Media</title>
   </head>
   <body id="portfolio" class="homepage">
     <!-- HEADER START -->
