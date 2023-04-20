@@ -177,7 +177,6 @@ img {
   height: 100%;
   width: 100%;
 }
-
 .alt-alt {
   z-index: -9;
 }
@@ -397,7 +396,8 @@ p a:hover {
 }
 .logo {
   animation: none;
-  height: 40px;
+  width: 200px;
+  height: 100%;
   border-radius: none;
 }
 header,
@@ -572,7 +572,6 @@ span.bar {
   width: 100%;
   background-color: rgba(var(--primary-color), 0.8);
 }
-
 #services .gallery .grid-item:hover {
   box-shadow: var(--box-shadow-1);
 }
@@ -580,7 +579,6 @@ span.bar {
 #services .gallery .grid-item:hover {
   transition: var(--transition-2);
 }
-
 .gallery .grid-item {
   background-position: center center;
   background-repeat: no-repeat;
@@ -679,7 +677,6 @@ footer .footer-ps span {
   font-weight: var(--paragraph-weight);
   text-shadow: none;
 }
-
 #visuals .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -687,7 +684,6 @@ footer .footer-ps span {
   margin: 0 auto;
   padding: 10px;
 }
-
 #chevron-right {
   fill: var(--text-color);
   vertical-align: middle;
@@ -724,29 +720,27 @@ footer .footer-ps span {
 #visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
-iframe,
-.partners {
+.partners,
+iframe {
   animation: none;
 }
-
 .pathname-current.services::before,
 .services .pathname:nth-child(2) a::before,
 nav li a.services::before {
   content: "Services";
 }
-#video-services h1:before,
-#video-services .pathname-current:before {
+#video-services .pathname-current:before,
+#video-services h1:before {
   content: "Video Services";
 }
-#photo-services h1:before,
-#photo-services .pathname-current:before {
+#photo-services .pathname-current:before,
+#photo-services h1:before {
   content: "Photo Services";
 }
-#consultation-services h1:before,
-#consultation-services .pathname-current:before {
+#consultation-services .pathname-current:before,
+#consultation-services h1:before {
   content: "Consultation Services";
 }
-
 #about .pathname-current::before,
 #about h2:before,
 nav li a.about::before {
@@ -755,14 +749,12 @@ nav li a.about::before {
 #about .intro-section {
   background-image: url(/img/jpg/IMG_1849.jpg);
 }
-
 .grid-container p {
   margin-bottom: 0.5rem;
 }
 #about .profile {
   text-align: center;
 }
-
 #about .languages {
   animation: opacity-pulse-70 1s linear infinite alternate;
   height: 20px;
@@ -796,6 +788,14 @@ nav li a.about::before {
   background-color: rgb(var(--primary-color));
   width: 0;
 }
+#about h4 {
+  font-size: var(--fontsize-h5);
+}
+#about h5 {
+  font-size: var(--fontsize-p);
+  text-shadow: none;
+  font-weight: var(--paragraph-weight);
+}
 @keyframes opacity-pulse-30 {
   0% {
     opacity: 30%;
@@ -806,7 +806,7 @@ nav li a.about::before {
 }
 .contact-form-section h3:before,
 nav li a.contact::before {
-  content: "REQUEST A PROPOSAL";
+  content: "CONTACT";
 }
 .contact-form-section .contact-form .grid-item:nth-child(odd) {
   margin: 0 1rem 0 0;
@@ -889,7 +889,6 @@ select {
 .services .grid-item:nth-child(even) {
   margin: 0 0 0 1rem;
 }
-
 @media only screen and (min-width: 300px) {
   .grid-container {
     display: grid;
@@ -911,8 +910,8 @@ select {
   .btn-shadow {
     height: 3rem;
   }
-  .gallery .grid-item .blur,
-  .gallery .grid-item {
+  .gallery .grid-item,
+  .gallery .grid-item .blur {
     height: 5rem;
   }
   #error h1,
@@ -951,8 +950,17 @@ select {
   .grid-container.gallery .blur {
     aspect-ratio: 10/2;
   }
-
-  #about .profile p a {
+  #about p {
+    font-size: calc(var(--fontsize-p) * 0.6);
+  }
+  #about p.profile-info,
+  #about .contact-form-section p {
+    font-size: var(--fontsize-p);
+  }
+  #about h4 {
+    font-size: calc(var(--fontsize-p) * 0.9);
+  }
+  #about h5 {
     font-size: calc(var(--fontsize-p) * 0.8);
   }
 }
@@ -1041,8 +1049,8 @@ select {
   #cybersecurity .btn-area input::placeholder {
     font-size: var(--fontsize-h6);
   }
-  .grid-container.services-grid,
-  .grid-container.gallery {
+  .grid-container.gallery,
+  .grid-container.services-grid {
     display: flex;
     flex-direction: column;
   }
@@ -1057,7 +1065,8 @@ select {
     --menu-padding: 0 1rem;
   }
   .logo {
-    height: 30px;
+    width: 180px;
+    height: 100%;
   }
   .nav-menu {
     align-items: flex-end;
@@ -1122,9 +1131,9 @@ select {
   body.active .banner-container {
     top: var(--nav-bar-top-position);
   }
-  .wrapper-wide,
   .wrapper-narrow,
-  .wrapper-standard {
+  .wrapper-standard,
+  .wrapper-wide {
     padding: 0 1.25rem 1rem 1.25rem;
   }
   .wrapper-narrow .btn-area #btn,
