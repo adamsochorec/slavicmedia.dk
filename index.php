@@ -19,11 +19,20 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="intro-section flex-center">
-          <section></section>
-        </section>
+        <video class="intro-section flex-center" autoplay loop muted>
+          <source src="/img/showreel.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <section class="grid-container">
-          <div class="hhh-stretch reveal">
+          <div class="h-stretch reveal">
+            <iframe
+              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="h-stretch reveal">
             <iframe
               src="https://player.vimeo.com/video/818681828?h=edd3a72586"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -98,13 +107,6 @@
             ></iframe>
           </div>
 
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22021014637852.jpg" alt="22021014637852" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22021014537850.jpg" alt="22021014537850" />
-          </div>
-
           <div class="v-stretch reveal">
             <img src="/img/jpg/21042289065619.jpg" alt="21042289065619" />
           </div>
@@ -116,10 +118,10 @@
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
+            <img src="/img/jpg/22021014637852.jpg" alt="22021014637852" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
+            <img src="/img/jpg/22021014537850.jpg" alt="22021014537850" />
           </div>
 
           <div class="v-stretch reveal">
@@ -133,10 +135,27 @@
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21041384415571.jpg" alt="21041384415571" />
+            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
           </div>
           <div class="h-stretch reveal">
+            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
+          </div>
+
+          <div class="v-stretch reveal">
             <img src="/img/jpg/21042491745669.jpg" alt="21042491745669" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/21042593335699.jpg" alt="21042593335699.jpg" />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/jpg/21041384415571.jpg" alt="21041384415571" />
+          </div>
+
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/2302100258247.jpg" alt="2302100258247" />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/jpg/22050630468192.jpg" alt="22050630468192" />
           </div>
 
           <div class="v-stretch reveal">
@@ -147,13 +166,6 @@
           </div>
           <div class="v-stretch reveal">
             <img src="/img/jpg/2302100259248.jpg" alt="2302100259248" />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/2302100258247.jpg" alt="2302100258247" />
-          </div>
-          <div class="h-stretch reveal">
-            <img src="/img/jpg/22050630468192.jpg" alt="22050630468192" />
           </div>
 
           <div class="h-stretch reveal">

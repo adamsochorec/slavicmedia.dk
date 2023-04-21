@@ -189,11 +189,12 @@ hr {
 }
 .wrapper-narrow,
 .wrapper-standard,
-.wrapper-wide {
+.wrapper-wide,
+hr {
   max-width: 100%;
 }
 .wrapper-standard,
-.wrapper-standard hr {
+.wrapper-standard {
   width: 37.5rem;
 }
 .wrapper-wide,
@@ -677,6 +678,7 @@ footer .footer-ps span {
   font-weight: var(--paragraph-weight);
   text-shadow: none;
 }
+
 #visuals .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -714,9 +716,7 @@ footer .footer-ps span {
   object-fit: cover;
   width: 100%;
 }
-#visuals .intro-section {
-  background-image: url(/img/jpg/22082525588812.png);
-}
+
 #visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
