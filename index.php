@@ -19,7 +19,7 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <video class="intro-section flex-center" autoplay loop muted>
+        <video class="intro-section flex-center" autoplay muted loop playsinline>
           <source src="/img/showreel.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -108,92 +108,92 @@
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21042289065619.jpg" alt="21042289065619" />
+            <img src="/img/21042289065619.jpg" alt="21042289065619" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21062128426334.jpg" alt="21062128426334" />
+            <img src="/img/21062128426334.jpg" alt="21062128426334" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21062128996340.jpg" alt="21062128996340" />
+            <img src="/img/21062128996340.jpg" alt="21062128996340" />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22021014637852.jpg" alt="22021014637852" />
+            <img src="/img/22021014637852.jpg" alt="22021014637852" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22021014537850.jpg" alt="22021014537850" />
+            <img src="/img/22021014537850.jpg" alt="22021014537850" />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21111395827265.jpg" alt="21111395827265" />
+            <img src="/img/21111395827265.jpg" alt="21111395827265" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21062439006354.jpg" alt="21062439006354" />
+            <img src="/img/21062439006354.jpg" alt="21062439006354" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21062442416378-2.jpg" alt="21062442416378-2" />
+            <img src="/img/21062442416378-2.jpg" alt="21062442416378-2" />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21042593335697.jpg" alt="21042593335697" />
+            <img src="/img/21042593335697.jpg" alt="21042593335697" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21041425600.jpg" alt="21041425600" />
+            <img src="/img/21041425600.jpg" alt="21041425600" />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21042491745669.jpg" alt="21042491745669" />
+            <img src="/img/21042491745669.jpg" alt="21042491745669" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/21042593335699.jpg" alt="21042593335699.jpg" />
+            <img src="/img/21042593335699.jpg" alt="21042593335699.jpg" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/21041384415571.jpg" alt="21041384415571" />
+            <img src="/img/21041384415571.jpg" alt="21041384415571" />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/2302100258247.jpg" alt="2302100258247" />
+            <img src="/img/2302100258247.jpg" alt="2302100258247" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22050630468192.jpg" alt="22050630468192" />
+            <img src="/img/22050630468192.jpg" alt="22050630468192" />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/jpg/2302100155144.jpg" alt="2302100155144" />
+            <img src="/img/2302100155144.jpg" alt="2302100155144" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22050628368157.jpg" alt="22050628368157" />
+            <img src="/img/22050628368157.jpg" alt="22050628368157" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/2302100259248.jpg" alt="2302100259248" />
+            <img src="/img/2302100259248.jpg" alt="2302100259248" />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22062864918513.jpg" alt="22062864918513" />
+            <img src="/img/22062864918513.jpg" alt="22062864918513" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22063066728553.jpg" alt="22063066728553" />
+            <img src="/img/22063066728553.jpg" alt="22063066728553" />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/jpg/22062448928337.jpg" alt="22062448928337" />
+            <img src="/img/22062448928337.jpg" alt="22062448928337" />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/jpg/22061140428259.jpg" alt="22061140428259" />
+            <img src="/img/22061140428259.jpg" alt="22061140428259" />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/jpg/22061846808321.jpg" alt="22061846808321" />
+            <img src="/img/22061846808321.jpg" alt="22061846808321" />
           </div>
 
           <div class="h-stretch reveal">
             <img
-              src="/img/jpg/109909456_2867588020231536_6545430788383010042_o.jpg"
+              src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
               alt="109909456_2867588020231536_6545430788383010042_o"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/jpg/116431110_2874499956207009_689238237833982380_o.jpg"
+              src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
               alt="116431110_2874499956207009_689238237833982380_o"
             />
           </div>
@@ -300,7 +300,7 @@
           <section class="grid-container skills-section">
             <div class="grid-item">
               <section class="reveal">
-                <img src="/img/jpg/adam.jpg" alt="" />
+                <img src="/img/adam.jpg" alt="" />
                 <section class="profile">
                   <br />
                   <h4>Adam Sochorec</h4>
@@ -407,7 +407,7 @@
 
             <div class="grid-item">
               <section class="reveal">
-                <img src="/img/jpg/marcel.jpg" alt="" />
+                <img src="/img/marcel.jpg" alt="" />
                 <section class="profile">
                   <br />
                   <h4>Marcel Hájik</h4>
@@ -551,7 +551,7 @@
             </section> -->
             <hr class="reveal" />
 
-            <img class="partners reveal" src="/img/jpg/partners.png" />
+            <img class="partners reveal" src="/img/partners.png" />
 
             <div id="contact"></div>
             <hr class="reveal" />
