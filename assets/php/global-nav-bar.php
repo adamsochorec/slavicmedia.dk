@@ -1,42 +1,19 @@
 <header>
-  <nav class="nav-bar">
-    <!-- NAVIGATION BAR START -->
-    <a aria-describedby="photo" href="/">
-      <img class="logo" src="/img/logo.png" />
-    </a>
-    <ul class="nav-menu">
-      <!-- NAVIGATION BAR LINKS START -->
-      <li class="nav-item">
-        <a
-          aria-describedby="services"
-          class="navbar-style services"
-          href="/#services"
-        ></a>
-      </li>
-
-      <li class="nav-item">
-        <a
-          aria-describedby="about"
-          class="navbar-style about"
-          href="/#about"
-        ></a>
-      </li>
-      <li class="nav-item">
-        <a
-          aria-describedby="contact"
-          class="navbar-style contact"
-          href="/#contact"
-        ></a>
-      </li>
-    </ul>
-    <!-- NAVIGATION BAR LINKS START -->
-    <div class="hamburger">
-      <!-- RESPONSIVE HAMBURGER MENU START -->
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-    <!-- RESPONSIVE HAMBURGER MENU END -->
-  </nav>
-  <!-- NAVIGATION BAR END -->
+  <div class="container">
+    <nav id="navigation">
+      <a href="/"><img class="logo" src="/img/logo.png" /></a>
+      <a aria-label="mobile menu" class="hamburger">
+        <span></span>
+        <span></span> <span></span>
+      </a>
+      <ul class="menu-left">
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="blur master-blur"></div>
+
+  <!-- NAVIGATION BAR END -->
 </header>

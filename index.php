@@ -19,12 +19,18 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <video class="intro-section flex-center" autoplay muted loop playsinline>
+        <video
+          class="intro-section flex-center"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
           <source src="/img/showreel.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <section class="grid-container">
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681828?h=edd3a72586"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -32,15 +38,15 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
-              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
+              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818670329?h=1decec98cc"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -48,16 +54,8 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
-          </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681305?h=be949209a8"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -65,7 +63,7 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681438?h=c5f83ad409"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -73,7 +71,7 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -81,7 +79,7 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681603?h=deb5fd0c87"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -89,8 +87,16 @@
               frameborder="0"
             ></iframe>
           </div>
+          <div class="h-stretch">
+            <iframe
+              src="https://player.vimeo.com/video/820093548?h=7dd5aa0ce1"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681227?h=482d2ef940"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -98,7 +104,7 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681112?h=ebb98bb2b4"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -107,91 +113,91 @@
             ></iframe>
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21042289065619.jpg" alt="21042289065619" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/21062128426334.jpg" alt="21062128426334" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21062128996340.jpg" alt="21062128996340" />
           </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22021014637852.jpg" alt="22021014637852" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22021014537850.jpg" alt="22021014537850" />
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21111395827265.jpg" alt="21111395827265" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/21062439006354.jpg" alt="21062439006354" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21062442416378-2.jpg" alt="21062442416378-2" />
           </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/21042593335697.jpg" alt="21042593335697" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/21041425600.jpg" alt="21041425600" />
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21042491745669.jpg" alt="21042491745669" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/21042593335699.jpg" alt="21042593335699.jpg" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/21041384415571.jpg" alt="21041384415571" />
           </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/2302100258247.jpg" alt="2302100258247" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22050630468192.jpg" alt="22050630468192" />
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/2302100155144.jpg" alt="2302100155144" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22050628368157.jpg" alt="22050628368157" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/2302100259248.jpg" alt="2302100259248" />
           </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22062864918513.jpg" alt="22062864918513" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22063066728553.jpg" alt="22063066728553" />
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/22062448928337.jpg" alt="22062448928337" />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img src="/img/22061140428259.jpg" alt="22061140428259" />
           </div>
-          <div class="v-stretch reveal">
+          <div class="v-stretch">
             <img src="/img/22061846808321.jpg" alt="22061846808321" />
           </div>
 
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
               alt="109909456_2867588020231536_6545430788383010042_o"
             />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch">
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
               alt="116431110_2874499956207009_689238237833982380_o"
@@ -205,12 +211,12 @@
       <!-- WEB DEV START -->
       <article id="services">
         <section class="wrapper-standard">
-          <hr class="reveal" />
-          <h2 class="reveal"></h2>
+          <hr class="" />
+          <h2 class=""></h2>
           <br />
-          <section class="grid-container gallery reveal">
-            <a href="/video-services">
-              <div class="grid-item reveal">
+          <section class="grid-container gallery">
+            <a href="/services/video-services">
+              <div class="grid-item">
                 ><span>
                   <b>VIDEO</b><br /><br />Full-service video production
                   including pre-production, production, and editing<u
@@ -227,8 +233,8 @@
                 /></span>
               </div>
             </a>
-            <a href="/photo-services">
-              <div class="grid-item reveal">
+            <a href="/services/photo-services">
+              <div class="grid-item">
                 ><span
                   ><b>PHOTO</b><br /><br />Photography services for events,
                   portraits, products, corporate photography...<u
@@ -245,8 +251,8 @@
                 /></span>
               </div>
             </a>
-            <a href="/consultation-services">
-              <div class="grid-item reveal">
+            <a href="/services/consultation-services">
+              <div class="grid-item">
                 <span
                   ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring
                   your vision to life with us. Let's discuss your visual content
@@ -264,7 +270,7 @@
               </div>
             </a>
           </section>
-          <hr class="reveal" />
+          <hr class="" />
         </section>
       </article>
       <!-- WEB DEV END -->
@@ -272,7 +278,7 @@
       <article id="about">
         <section class="intro-section flex-center">
           <section class="intro-subsection">
-            <h2 class="reveal"></h2>
+            <h2 class=""></h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
@@ -281,25 +287,24 @@
           </section>
         </section>
         <section class="wrapper-standard">
-          <hr class="reveal" />
-          <p class="profile-info reveal">
+          <hr class="" />
+          <p class="profile-info">
             Slavic Media is a collaboration between Adam and Marcel, visual
             creators, specializing in creating captivating visual content for
             businesses seeking to enhance their online presence.<br />Our shared
             passion for travelling and self-improvement, combined with our
             Slavic cultural background, brings a unique perspective to our
-            work.<br /><br />
-            We provide a range of services, including video production,
-            photography, and other visual content, all tailored to the specific
-            needs of each client.<br /><br />
+            work.<br /><br />We provide a range of services, including video
+            production, photography, and other visual content, all tailored to
+            the specific needs of each client.<br /><br />
             We work closely with clients to develop a customized visual content
             strategy, from concept to final delivery.
           </p>
-          <hr class="reveal" />
+          <hr class="" />
 
           <section class="grid-container skills-section">
             <div class="grid-item">
-              <section class="reveal">
+              <section class="">
                 <img src="/img/adam.jpg" alt="" />
                 <section class="profile">
                   <br />
@@ -371,32 +376,32 @@
                   </section>
                 </section>
                 <br /><br />
-                <section class="reveal">
+                <section class="">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Photography</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </section>
 
-                <section class="reveal">
+                <section class="">
                   <p>Web Development</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Danish</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
@@ -406,7 +411,7 @@
             </div>
 
             <div class="grid-item">
-              <section class="reveal">
+              <section class="">
                 <img src="/img/marcel.jpg" alt="" />
                 <section class="profile">
                   <br />
@@ -475,31 +480,31 @@
                   </section>
                 </section>
                 <br /><br />
-                <section class="reveal">
+                <section class="">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Video-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Animations & Motion graphics</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </section>
-                <section class="reveal">
+                <section class="">
                   <p>Climbing</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
@@ -511,53 +516,53 @@
 
           <section>
             <!--
-            <h3 class="reveal">@slavicmedia</h3>
+            <h3 class="">@slavicmedia</h3>
             <br />
             <section class="grid-container">
               <ul>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
               </ul>
               <ul>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="reveal">
+                <li class="">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
               </ul>
             </section> -->
-            <hr class="reveal" />
+            <hr class="" />
 
-            <img class="partners reveal" src="/img/partners.png" />
+            <img class="partners" src="/img/partners.png" />
 
             <div id="contact"></div>
-            <hr class="reveal" />
+            <hr class="" />
           </section>
           <section class="contact-form-section">
-            <h3 class="reveal"></h3>
+            <h3 class=""></h3>
             <br /><br />
             <form
               id="contactForm"
@@ -568,7 +573,7 @@
               enctype="multipart/form-data"
             >
               <!-- Email invisibility -->
-              <section class="grid-container contact-form reveal">
+              <section class="grid-container contact-form">
                 <section class="grid-item">
                   <label for="email">
                     <p>Email *</p>
@@ -616,7 +621,7 @@
                   <br /><br />
                 </section>
               </section>
-              <section class="reveal">
+              <section class="">
                 <label for="message">
                   <p>Message *</p>
                   <br />
