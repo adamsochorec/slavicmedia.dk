@@ -31,7 +31,7 @@
   --transition-1: all.2s ease-in-out;
   --transition-2: all.3s ease-in-out;
   --shadow-transition: translate(4px, -4px);
-  --nav-bar-top-position: 45px;
+  --nav-bar-top-position: 50px;
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--secondary-color));
   --homepage-padding: 50px;
@@ -821,15 +821,11 @@ footer .footer-ps span {
   aspect-ratio: 16/9;
 }
 #visuals video {
-  max-width: 100%;
-}
-
-#visuals .intro-section {
-  background-image: url(/img/109909456_2867588020231536_6545430788383010042_o.jpg);
-  width: unset;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: auto;
+  margin-top: var(--nav-bar-top-position);
+  height: calc(100vh - var(--nav-bar-top-position));
+  min-height: 100%;
+  min-width: 100%;
 }
 /* VISUALS END */
 
@@ -885,7 +881,7 @@ nav li a.about::before {
   content: "ABOUT";
 }
 #about .intro-section {
-  background-image: url(/img/showreel.gif);
+  background-image: url(/img/IMG_1849.jpg);
 }
 #about .partner-logos {
   margin: 0;
@@ -1040,6 +1036,9 @@ nav li a.about::before {
   }
   #about h5 {
     font-size: calc(var(--fontsize-p) * 0.8);
+  }
+  iframe {
+    animation: none;
   }
   /*
   .gallery .grid-item span,

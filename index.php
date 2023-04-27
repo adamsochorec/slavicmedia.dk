@@ -5,8 +5,16 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="At Slavic Media, we listen, learn, and develop visual strategies to capture the essence of your brand from pre-production, production to post-production in video making & photography
+    Slavic Media is a collaboration between Adam and Marcel, visual creators, specializing in creating visual content for businesses seeking to enhance their online presence.
+    Our shared passion for travelling and self-improvement, combined with our Slavic cultural background, brings a unique perspective to our work."
+    />
+    <meta
+      name="keywords"
+      content="Video production, Photography, Kolding, Syddanmark, Visual content ,Commercials ,Events promos, Business video, Creative professionals, Customized visual content, Professional videographers, Experienced photographers, Customized video strategy, Professional photography services, Personalized visual content, High-quality video services, Creative content production, Videoproduktion, Fotografi, Videooptagelse Kolding, Fotograf Kolding, Erhvervsfoto Syddanmark"
+    />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -19,9 +27,12 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="intro-section-wrapper">
-          <section class="intro-section flex-center"></section>
+        <section class="test">
+          <video autoplay muted loop>
+            <source src="/img/showreel.mp4" type="video/mp4" />
+          </video>
         </section>
+
         <section class="grid-container">
           <div class="h-stretch">
             <iframe
@@ -285,16 +296,15 @@
         <section class="wrapper-standard">
           <hr class="" />
           <p class="profile-info">
-            Slavic Media is a collaboration between Adam and Marcel, visual
-            creators, specializing in creating captivating visual content for
-            businesses seeking to enhance their online presence.<br />Our shared
-            passion for travelling and self-improvement, combined with our
-            Slavic cultural background, brings a unique perspective to our
-            work.<br /><br />We provide a range of services, including video
-            production, photography, and other visual content, all tailored to
-            the specific needs of each client.<br /><br />
-            We work closely with clients to develop a customized visual content
-            strategy, from concept to final delivery.
+            At Slavic Media, we listen, learn, and develop visual strategies to
+            capture the essence of your brand from pre-production, production to
+            post-production in video making & photography.<br /><br />
+            Slavic Media is a collaboration between Adam (Czechia 🇨🇿) and Marcel
+            (Slovakia 🇸🇰), visual creators, specializing in creating visual
+            content for businesses seeking to enhance their online presence.
+            <br /><br />Our shared passion for travelling and self-improvement,
+            combined with our Slavic cultural background, brings a unique
+            perspective to our work.
           </p>
           <hr class="" />
 
@@ -306,7 +316,7 @@
                   <br />
                   <h4>Adam Sochorec</h4>
                   <br />
-                  <h5>Co-founder</h5>
+                  <h5>Co-founder 🇨🇿</h5>
                   <br />
                   <p><a href="tel:+4550104776">+45 50 10 47 76</a></p>
                   <p>
@@ -413,7 +423,7 @@
                   <br />
                   <h4>Marcel Hájik</h4>
                   <br />
-                  <h5>Co-founder</h5>
+                  <h5>Co-founder 🇸🇰</h5>
                   <br />
                   <p><a href="tel:+4552812304">+45 52 81 23 04</a></p>
                   <p>
