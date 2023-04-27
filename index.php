@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <title>Slavic Media</title>
   </head>
-  <body id="portfolio" class="homepage">
+  <body id="homepage">
     <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -19,16 +19,9 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <video
-          class="intro-section flex-center"
-          autoplay
-          muted
-          loop
-          playsinline
-        >
-          <source src="/img/showreel.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <section class="intro-section-wrapper">
+          <section class="intro-section flex-center"></section>
+        </section>
         <section class="grid-container">
           <div class="h-stretch">
             <iframe
@@ -89,6 +82,7 @@
           </div>
           <div class="h-stretch">
             <iframe
+              class="noanimation"
               src="https://player.vimeo.com/video/820093548?h=7dd5aa0ce1"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
@@ -276,14 +270,16 @@
       SERVICES END -->
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section flex-center">
-          <section class="intro-subsection">
-            <h2 class=""></h2>
-            <?php
+        <section class="intro-section-wrapper">
+          <section class="intro-section flex-center">
+            <section class="intro-subsection">
+              <h2 class=""></h2>
+              <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
             ?>
-            <section></section>
+              <section></section>
+            </section>
           </section>
         </section>
         <section class="wrapper-standard">
@@ -556,7 +552,7 @@
             </section> -->
             <hr class="" />
 
-            <img class="partners" src="/img/partners.png" />
+            <img class="partner-logos" src="/img/partners.png" />
 
             <div id="contact"></div>
             <hr class="" />
