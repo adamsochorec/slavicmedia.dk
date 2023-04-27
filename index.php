@@ -208,7 +208,7 @@
         </section>
       </article>
       <!-- VISUALS END -->
-      <!-- WEB DEV START -->
+      <!-- SERVICES START 
       <article id="services">
         <section class="wrapper-standard">
           <hr class="" />
@@ -273,7 +273,7 @@
           <hr class="" />
         </section>
       </article>
-      <!-- WEB DEV END -->
+      SERVICES END -->
       <!-- ABOUT START -->
       <article id="about">
         <section class="intro-section flex-center">

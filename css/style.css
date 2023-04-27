@@ -58,6 +58,7 @@
     background-color: #6a6b6c;
   }
 }
+
 body {
   background-color: rgb(var(--grey-color));
   overflow-x: hidden;
@@ -85,7 +86,6 @@ main {
   flex-direction: column;
   font-family: var(--content-font);
 }
-
 .homepage main {
   display: block;
 }
@@ -406,22 +406,21 @@ p a:hover {
 .pathname-current {
   font-size: calc(var(--fontsize-p) * 0.8);
 }
-
 .container {
-  padding: 0px var(--homepage-padding) 0px var(--homepage-padding);
+  padding: 0 var(--homepage-padding) 0 var(--homepage-padding);
 }
 header a {
   text-decoration: none;
   color: rgba(var(--primary-color), 0.8);
 }
-header a:hover,
-header a :focus {
+header a :focus,
+header a:hover {
   color: rgb(var(--secondary-color));
 }
 .menu-left a {
   display: inline-block;
   position: relative;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   transition: color 0.35s ease;
 }
 .menu-left a:before {
@@ -452,7 +451,7 @@ header a :focus {
 }
 .menu-left a:hover:after {
   width: 100%;
-  background: transparent;
+  background: 0 0;
   transition: all 0s ease;
 }
 header nav ul li a {
@@ -484,7 +483,6 @@ header img.logo {
   height: 100%;
   border-radius: none;
 }
-
 header nav .logo:after {
   content: "";
   display: table;
@@ -503,7 +501,6 @@ header nav ul li {
   transform: translateY(-120%);
   -webkit-transform: translateY(-120%);
 }
-
 ul.menu-left {
   display: block;
   max-height: 0;
@@ -523,7 +520,6 @@ ul.menu-left:before {
 ul.menu-left.collapse {
   max-height: 15em !important;
 }
-
 .hamburger {
   display: block;
   border-radius: 5px;
@@ -789,11 +785,6 @@ footer .footer-ps span {
 iframe {
   animation: none;
 }
-.pathname-current.services::before,
-.services .pathname:nth-child(2) a::before,
-nav li a.services::before {
-  content: "Services";
-}
 video {
   max-width: 100%;
 }
@@ -817,7 +808,6 @@ nav li a.about::before {
 #about .intro-section {
   background-image: url(/img/IMG_1849.jpg);
 }
-
 .grid-container p {
   margin-bottom: 0.5rem;
 }
@@ -1175,7 +1165,6 @@ select {
   body.active .banner-container {
     top: var(--nav-bar-top-position);
   }
-
   .wrapper-narrow .btn-area #btn,
   .wrapper-narrow .btn-area #btn:after,
   .wrapper-narrow .btn-shadow {
