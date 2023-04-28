@@ -46,7 +46,7 @@
             >
           </div>
         </section>
-        <section class="grid-container">
+        <section class="grid-container video-grid">
           <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681828?h=edd3a72586"
@@ -71,7 +71,6 @@
               frameborder="0"
             ></iframe>
           </div>
-
           <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681305?h=be949209a8"
@@ -130,7 +129,11 @@
               frameborder="0"
             ></iframe>
           </div>
-
+          <div class="hhh-stretch">
+            <img src="/img/21041425600-copy.jpg" alt="21041425600" />
+          </div>
+        </section>
+        <section class="grid-container photo-grid">
           <div class="v-stretch">
             <img src="/img/21042289065619.jpg" alt="21042289065619" />
           </div>
