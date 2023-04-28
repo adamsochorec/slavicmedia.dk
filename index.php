@@ -27,16 +27,26 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="grid-container">
-          <div class="hhh-stretch">
-            <iframe
-              class="noanimation"
-              src="https://player.vimeo.com/video/821852763?h=651e3d9e0a"
-              allow="autoplay; fullscreen; loop;"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
+        <section class="showcase">
+          <div class="video-container">
+            <video
+              src="https://slavicmedia.dk/img/showreel.mp4"
+              autoplay
+              muted
+              loop
+            ></video>
           </div>
+          <div class="content">
+            <h1>Shoot For The Stars</h1>
+            <a href="#about">
+              <?php
+              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+              include $IPATH . 'global-scroll.php';
+              ?></a
+            >
+          </div>
+        </section>
+        <section class="grid-container">
           <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681828?h=edd3a72586"

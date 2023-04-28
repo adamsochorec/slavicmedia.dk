@@ -820,12 +820,57 @@ footer .footer-ps span {
 #visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
+/*
 #visuals video {
   width: auto;
   height: auto;
   min-height: 100%;
   min-width: 100%;
 }
+*/
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(var(--black-color), 0, 8)
+    url("./https://traversymedia.com/downloads/cover.jpg") no-repeat center
+    center/cover;
+}
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.video-container:after {
+  content: "";
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.content {
+  z-index: 2;
+}
+
 /* VISUALS END */
 
 /* SERVICES START */
