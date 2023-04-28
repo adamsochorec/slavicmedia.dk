@@ -27,13 +27,16 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
-        <section class="test">
-          <video autoplay muted loop>
-            <source src="/img/showreel.mp4" type="video/mp4" />
-          </video>
-        </section>
-
         <section class="grid-container">
+          <div class="hhh-stretch">
+            <iframe
+              class="noanimation"
+              src="https://player.vimeo.com/video/821852763?h=651e3d9e0a"
+              allow="autoplay; fullscreen; loop;"
+              allowfullscreen
+              frameborder="0"
+            ></iframe>
+          </div>
           <div class="h-stretch">
             <iframe
               src="https://player.vimeo.com/video/818681828?h=edd3a72586"

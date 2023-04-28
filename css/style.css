@@ -809,7 +809,7 @@ footer .footer-ps span {
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  padding-top: var(--homepage-padding);
+  padding-top: var(--nav-bar-top-position);
 }
 #visuals .grid-container iframe,
 #visuals .grid-container img {
@@ -822,16 +822,14 @@ footer .footer-ps span {
 }
 #visuals video {
   width: auto;
-  margin-top: var(--nav-bar-top-position);
-  height: calc(100vh - var(--nav-bar-top-position));
+  height: auto;
   min-height: 100%;
   min-width: 100%;
 }
 /* VISUALS END */
 
 /* SERVICES START */
-#services .gallery .grid-item,
-#services .grid-container.gallery .blur {
+#services .gallery .grid-item {
   align-items: center;
   aspect-ratio: 2.5/3;
   display: flex;
@@ -996,6 +994,9 @@ nav li a.about::before {
   .noindex h2 {
     font-size: var(--fontsize-p);
   }
+  iframe {
+    animation: none;
+  }
 }
 @media only screen and (min-width: 500px) {
   #about .skills-section .grid-item:nth-child(1) {
@@ -1037,9 +1038,7 @@ nav li a.about::before {
   #about h5 {
     font-size: calc(var(--fontsize-p) * 0.8);
   }
-  iframe {
-    animation: none;
-  }
+
   /*
   .gallery .grid-item span,
   .gallery .hh-stretch .grid-item span {
@@ -1047,7 +1046,6 @@ nav li a.about::before {
   }
   */
 }
-
 @media only screen and (min-width: 538px) {
   .hideLanguages {
     display: none;
@@ -1067,7 +1065,7 @@ nav li a.about::before {
     height: 18px;
   }
 }
-@media (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .v-stretch,
   .vv-stretch {
     grid-row: span 1;
@@ -1083,7 +1081,6 @@ nav li a.about::before {
   #visuals .grid-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 150px);
-    padding-top: var(--nav-bar-top-position);
   }
   .pathname-container {
     margin-top: 4rem;
@@ -1142,7 +1139,7 @@ nav li a.about::before {
     aspect-ratio: 10/4;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header ul {
     clear: both;
   }
@@ -1150,7 +1147,7 @@ nav li a.about::before {
     padding: 0.5em 0;
   }
 }
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   header ul.menu-left {
     display: block !important;
     float: right;
@@ -1166,7 +1163,7 @@ nav li a.about::before {
 }
 @media only screen and (max-width: 947px) {
   :root {
-    --nav-bar-top-position: 40px;
+    --nav-bar-top-position: 50px;
     --homepage-padding: 20px;
     --menu-padding: 0 var(--homepage-padding);
   }
