@@ -7,6 +7,7 @@
   --primary-color: 199, 30, 30;
   --secondary-color: 17, 69, 126;
   --grey-color: 40, 40, 40;
+  --light-grey-color: 128, 128, 128 ;
   --white-color: 255, 255, 255;
   --black-color: 0, 0, 0;
   --fontsize-xl-h1: clamp(3rem, 1rem + 10vw, 7rem);
@@ -25,7 +26,7 @@
   --text-shadow-1: 5px 5px 4px rgba(0, 0, 0, 0.25);
   --text-transform-1: perspective(25rem) rotateX(40deg);
   --border-1: 3px solid rgb(var(--primary-color));
-  --border-radius-1: 2px;
+  --border-radius-1: 5px;
   --border-radius-2: 10px;
   --border-radius-3: 15px;
   --transition-1: all.2s ease-in-out;
@@ -89,7 +90,7 @@ main {
 }
 hr {
   border: 0.1px solid;
-  color: grey;
+  color: rgb(var(--light-grey-color));
   margin: 2rem 0;
   opacity: 60%;
   z-index: 3;
@@ -299,10 +300,10 @@ p a:hover {
 /* ANIMATIONS START */
 @keyframes skeleton-loading {
   0% {
-    background-color: var(--grey-color);
+    background-color: rgba(var(--light-grey-color), 0.7);
   }
   100% {
-    background-color: #6a6b6c;
+    background-color: rgba(var(--light-grey-color), 0.1);
   }
 }
 @-webkit-keyframes gradient {
@@ -362,7 +363,7 @@ svg {
 iframe,
 img {
   animation: skeleton-loading 1s linear infinite alternate;
-  border-radius: var(--border-radius-2);
+  border-radius: var(--border-radius-1);
   height: 100%;
   width: 100%;
 }
@@ -395,7 +396,7 @@ nav li a.contact::before {
 .contact-form-section select,
 .contact-form-section textarea {
   border: none;
-  border-radius: var(--border-radius-2);
+  border-radius: var(--border-radius-1);
   padding: 0.8rem;
   width: 100%;
 }
@@ -403,7 +404,7 @@ nav li a.contact::before {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  color: gray;
+  color: rgba(var(--white-color), 0.9);
   font-family: var(--content-font);
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
@@ -412,7 +413,7 @@ nav li a.contact::before {
 .contact-form-section .contact-form input,
 .contact-form-section .contact-form select,
 .contact-form-section textarea {
-  background: rgba(var(--black-color), 0.8);
+  background: rgba(var(--light-grey-color), 0.4);
   border: none;
 }
 .contact-form-section .contact-form input:focus,
@@ -827,6 +828,7 @@ footer .footer-ps span {
   aspect-ratio: 16/9;
   animation: none;
 }
+
 /* INTRO VIDEO START */
 .showcase {
   height: 100vh;
@@ -868,8 +870,9 @@ footer .footer-ps span {
   position: absolute;
 }
 .content {
+  position: absolute;
   z-index: 2;
-}
+  bottom: 10rem;}
 /* INTRO VIDEO END */
 
 /* VISUALS END */
@@ -960,7 +963,7 @@ nav li a.about::before {
   top: -1px;
 }
 #about .skill-bar.faded {
-  background-color: rgb(var(--white-color));
+  background-color: rgba(var(--light-grey-color), 1);
   height: 3px;
   margin-bottom: 1rem;
   width: 100%;
@@ -1110,6 +1113,10 @@ nav li a.about::before {
     height: 18px;
   }
 }
+@media only screen and (min-width: 560px) {
+  .hidePhoto {
+    display: none;
+  }}
 @media only screen and (max-width: 560px) {
   .v-stretch,
   .vv-stretch {
@@ -1118,6 +1125,9 @@ nav li a.about::before {
   #visuals .hh-stretch,
   .h-stretch {
     grid-column: span 1;
+  }
+  #visuals .v-stretch{
+    display: none;
   }
   .video-grid .h-stretch {
     grid-column: span 2;
@@ -1149,7 +1159,8 @@ nav li a.about::before {
     clear: both;
   }
   h1,
-  .intro-section h2 {
+  #about h2,
+   #visuals h1 {
     font-size: calc(var(--fontsize-h1) * 0.7);
   }
   h2 {
@@ -1245,3 +1256,4 @@ nav li a.about::before {
   }
 }
 /* MEDIA QERRIES END */
+/* style the autofill text */

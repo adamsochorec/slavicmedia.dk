@@ -1,6 +1,6 @@
 <section class="social-icons">
   <a
-    href="https://www.instagram.com/slavicmedia/"
+    href="https://www.instagram.com/slavicmedia.dk/"
     target="_blank"
     rel="noopener noreferrer"
   >

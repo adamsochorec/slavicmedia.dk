@@ -36,8 +36,8 @@
               loop
             ></video>
           </div>
-          <div class="content">
-            <h1>Shoot For The Stars</h1>
+          <div class="content"><br><br>
+            <h1>Shoot For The Stars 🎥</h1>
             <a href="#about">
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -130,7 +130,7 @@
             ></iframe>
           </div>
           <div class="hhh-stretch">
-            <img src="/img/21041425600-copy.jpg" alt="21041425600" />
+            <img src="/img/21062440386366.jpg" alt="21062440386366" />
           </div>
         </section>
         <section class="grid-container photo-grid">
@@ -222,6 +222,12 @@
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
               alt="116431110_2874499956207009_689238237833982380_o"
+            />
+          </div>
+           <div class="h-stretch hidePhoto">
+            <img
+              src="/img/22120791749078.jpg"
+              alt="22120791749078"
             />
           </div>
 
@@ -605,7 +611,7 @@
                     id="email"
                     name="Email"
                     placeholder="example@domain.dk"
-                    required
+                    required autocomplete="email"
                   />
                   <br /><br />
                   <label for="subject">
@@ -629,6 +635,7 @@
                     id="firstName"
                     name="First Name"
                     placeholder="Raasmus"
+                    autocomplete="given-name"
                   />
                   <br /><br />
                   <label for="lastName">
@@ -639,6 +646,7 @@
                     id="lastName"
                     name="Last Name"
                     placeholder="Sørensen"
+                    autocomplete="family-name"
                   />
                   <br /><br />
                 </section>
