@@ -1,13 +1,21 @@
-// TOGGLE HAMBURGER & COLLAPSE NAV
-const hamburger = document.querySelector(".hamburger");
-const menuLeft = document.querySelector(".menu-left");
+const hamburger = document.querySelector(".hamburger"),
+  menuLeft = document.querySelector(".menu-left"),
+  menuLeftLinks = document.querySelectorAll(".menu-left a"),
+  delta = 5,
+  navbarHeight = document.querySelector("header").offsetHeight,
+  contactForm = document.querySelector("form"),
+  skillBars = document.querySelectorAll(".skill-bar");
+
+let didScroll,
+  lastScrollTop = 0;
+
+// TOGGLE HAMBURGER & COLLAPSE NAV START
 hamburger.addEventListener("click", function () {
   this.classList.toggle("open");
   menuLeft.classList.toggle("collapse");
 });
 
 // REMOVE X & COLLAPSE NAV ON ON CLICK
-const menuLeftLinks = document.querySelectorAll(".menu-left a");
 menuLeftLinks.forEach(function (link) {
   link.addEventListener("click", function () {
     hamburger.classList.remove("open");
@@ -16,11 +24,6 @@ menuLeftLinks.forEach(function (link) {
 });
 
 // SHOW/HIDE NAV
-let didScroll;
-let lastScrollTop = 0;
-const delta = 5;
-const navbarHeight = document.querySelector("header").offsetHeight;
-
 window.addEventListener("scroll", function (event) {
   didScroll = true;
 });
@@ -56,6 +59,7 @@ function hasScrolled() {
 
   lastScrollTop = st;
 }
+// TOGGLE HAMBURGER & COLLAPSE NAV END
 
 // CONTENT REVEAL START
 function reveal() {
@@ -75,7 +79,6 @@ window.addEventListener("scroll", reveal);
 // CONTENT REVEAL END
 
 // SKILL BARS START
-const skillBars = document.querySelectorAll(".skill-bar");
 function showProgress() {
   skillBars.forEach((e) => {
     const t = e.dataset.progress;
@@ -83,12 +86,11 @@ function showProgress() {
     e.style.width = `${t}%`;
   });
 }
-// SKILL BARS END
 showProgress();
+// SKILL BARS END
 
 /// LOADER AT SUBMITING A FORM START
 showProgress();
-const contactForm = document.querySelector("form");
 function onFormSubmission(e) {
   const t = Array.from(e.target.elements).every((e) => e.reportValidity()),
     o = document.querySelector(".submit-btn");
