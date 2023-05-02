@@ -228,7 +228,7 @@
           <section class="grid-container skills-section">
             <div class="grid-item">
               <section>
-                <img src="/img/adam.jpg" alt="" class="reveal" />
+                <img src="/img/adam.jpg" alt="Portrait of Adam Sochorec" class="reveal" />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec</h4>
@@ -337,7 +337,7 @@
 
             <div class="grid-item">
               <section class="reveal">
-                <img src="/img/marcel.jpg" alt="" class="reveal" />
+                <img src="/img/marcel.jpg" alt="Portrait of Marcel Hájik" class="reveal" />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik</h4>
