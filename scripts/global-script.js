@@ -80,24 +80,7 @@ function hasScrolled() {
   lastScrollTop = st;
 }
 
-const hamburger = document.querySelector(".hamburger"),
-  navMenu = document.querySelector(".nav-menu"),
-  blurAll = document.querySelector(".blur"),
-  scrollStop = document.querySelector("body");
-function mobileMenu() {
-  hamburger.classList.toggle("active"),
-    navMenu.classList.toggle("active"),
-    blurAll.classList.toggle("active"),
-    scrollStop.classList.toggle("active");
-}
-hamburger.addEventListener("click", mobileMenu);
-const navLink = document.querySelectorAll(".nav-link");
-function closeMenu() {
-  hamburger.classList.remove("active"),
-    navMenu.classList.remove("active"),
-    blurAll.classList.remove("active"),
-    scrollStop.classList.remove("active");
-}
+// CONTENT REVEAL START
 function reveal() {
   const e = document.querySelectorAll(".reveal");
   for (var t = 0; t < e.length; t++) {
@@ -107,8 +90,9 @@ function reveal() {
       : e[t].classList.remove("active");
   }
 }
-navLink.forEach((e) => e.addEventListener("click", closeMenu)),
-  window.addEventListener("scroll", reveal);
+// CONTENT REVEAL END
+
+// SKLL BARS START
 const skillBars = document.querySelectorAll(".skill-bar");
 function showProgress() {
   skillBars.forEach((e) => {
@@ -116,6 +100,9 @@ function showProgress() {
     (e.style.opacity = 1), (e.style.width = `${t}%`);
   });
 }
+// SKLL BARS END
+
+// LOADER AT SUBMITING A FORM START
 showProgress();
 const contactForm = document.querySelector("form");
 function onFormSubmission(e) {
@@ -124,3 +111,4 @@ function onFormSubmission(e) {
   t ? (o.innerHTML = "<div class='loader'></div>") : e.preventDefault();
 }
 contactForm.addEventListener("submit", onFormSubmission);
+// LOADER AT SUBMITING A FORM END

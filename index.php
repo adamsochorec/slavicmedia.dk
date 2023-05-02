@@ -29,16 +29,14 @@
       <article id="visuals">
         <section class="showcase">
           <div class="video-container">
-            <video
-              src="https://slavicmedia.dk/img/showreel.mp4"
-              autoplay
-              muted
-              loop
-            ></video>
+            <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
-          <div class="content"><br><br>
-            <h1>Shoot For The Stars 🎥</h1>
-            <a href="#about">
+          <div class="content">
+            <a href="/#visual">
+              <div id="btn2">
+                <span>EXPLORE OUR PORTOFLIO</span>
+              </div>
+              <br />
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
@@ -46,10 +44,10 @@
             >
           </div>
         </section>
-        <section class="grid-container video-grid">
+        <section id="visual" class="grid-container video-grid">
           <div class="h-stretch">
             <iframe
-              src="https://player.vimeo.com/video/818681828?h=edd3a72586"
+              src="https://player.vimeo.com/video/818681828"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
@@ -224,11 +222,8 @@
               alt="116431110_2874499956207009_689238237833982380_o"
             />
           </div>
-           <div class="h-stretch hidePhoto">
-            <img
-              src="/img/22120791749078.jpg"
-              alt="22120791749078"
-            />
+          <div class="h-stretch hidePhoto">
+            <img src="/img/22120791749078.jpg" alt="22120791749078" />
           </div>
 
           <div id="services"></div>
@@ -611,7 +606,8 @@
                     id="email"
                     name="Email"
                     placeholder="example@domain.dk"
-                    required autocomplete="email"
+                    required
+                    autocomplete="email"
                   />
                   <br /><br />
                   <label for="subject">
@@ -693,7 +689,8 @@
     </main>
     <!-- FOOTER START -->
     <script src="https://player.vimeo.com/api/player.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/scripts/index-script.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
