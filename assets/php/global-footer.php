@@ -5,10 +5,10 @@
          include $IPATH . 'global-social-icons.php';
          ?>
   <br />
-  <section class="footer-ps">
+  <div class="footer-ps">
     <p>No cookies.</p>
-  </section>
-  <section class="footer-ps">
+  </div>
+  <div class="footer-ps">
     <b
       ><span
         >©
@@ -16,7 +16,7 @@
       ></b
     >
     <span>Slavic Media</span>
-  </section>
+  </div>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="/assets/global-script.js" defer></script>
 </footer>

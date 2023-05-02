@@ -33,7 +33,7 @@
           </div>
           <div class="content">
             <a href="/#visual">
-              <h6>EXPLORE OUR PORTOFLIO</h6>
+              <h1>EXPLORE OUR PORTOFLIO</h1>
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
@@ -41,13 +41,12 @@
             >
           </div>
         </section>
-        <section id="visual" class="grid-container video-grid">
+        <div id="visual" class="grid-container video-grid">
           <div class="h-stretch reveal">
             <iframe
               src="https://player.vimeo.com/video/818681828"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
@@ -55,7 +54,6 @@
               src="https://player.vimeo.com/video/818680534"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
@@ -63,7 +61,6 @@
               src="https://player.vimeo.com/video/818670329"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
@@ -71,7 +68,6 @@
               src="https://player.vimeo.com/video/818681305"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
           <div class="h-stretch reveal">
@@ -79,7 +75,6 @@
               src="https://player.vimeo.com/video/818681438"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
 
@@ -88,15 +83,14 @@
               src="https://player.vimeo.com/video/818681603"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              frameborder="0"
             ></iframe>
           </div>
 
           <div class="hhh-stretch reveal">
             <img src="/img/21062440386366.jpg" alt="21062440386366" />
           </div>
-        </section>
-        <section class="grid-container photo-grid">
+        </div>
+        <div class="grid-container photo-grid">
           <div class="v-stretch reveal">
             <img src="/img/21042289065619.jpg" alt="21042289065619" />
           </div>
@@ -192,24 +186,24 @@
           </div>
 
           <div id="services"></div>
-        </section>
+        </div>
       </article>
       <!-- VISUALS END -->
 
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section-wrapper reveal">
-          <section class="intro-section flex-center">
-            <section class="intro-subsection">
-              <h2 class="reveal"></h2>
+        <div class="intro-section-wrapper reveal">
+          <div class="intro-section flex-center">
+            <div class="intro-subsection">
+              <h2 class="reveal">About</h2>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
             ?>
-              <section></section>
-            </section>
-          </section>
-        </section>
+              <div></div>
+            </div>
+          </div>
+        </div>
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="profile-info reveal">
@@ -227,9 +221,13 @@
 
           <section class="grid-container skills-section">
             <div class="grid-item">
-              <section>
-                <img src="/img/adam.jpg" alt="Portrait of Adam Sochorec" class="reveal" />
-                <section class="profile">
+              <div>
+                <img
+                  src="/img/adam.jpg"
+                  alt="Portrait of Adam Sochorec"
+                  class="reveal"
+                />
+                <div class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec</h4>
                   <br />
@@ -244,7 +242,7 @@
                     >
                   </p>
                   <br />
-                  <section class="social-icons reveal">
+                  <div class="social-icons reveal">
                     <a
                       href="https://www.instagram.com/adamsochorec/"
                       target="_blank"
@@ -298,46 +296,50 @@
                         <path d="M49 58a42 42 0 1 0 .1 0z" />
                       </svg>
                     </a>
-                  </section>
-                </section>
+                  </div>
+                </div>
                 <br /><br />
-                <section class="reveal">
+                <div class="reveal">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Photography</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
-                </section>
+                </div>
 
-                <section class="reveal">
+                <div class="reveal">
                   <p>Web Development</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Danish</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
                   </div>
-                </section>
-              </section>
+                </div>
+              </div>
             </div>
 
             <div class="grid-item">
-              <section class="reveal">
-                <img src="/img/marcel.jpg" alt="Portrait of Marcel Hájik" class="reveal" />
+              <div class="reveal">
+                <img
+                  src="/img/marcel.jpg"
+                  alt="Portrait of Marcel Hájik"
+                  class="reveal"
+                />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik</h4>
@@ -353,7 +355,7 @@
                     >
                   </p>
                   <br />
-                  <section class="social-icons reveal">
+                  <div class="social-icons reveal">
                     <a
                       href="https://www.instagram.com/marcelhajik/"
                       target="_blank"
@@ -404,40 +406,40 @@
                         />
                       </svg>
                     </a>
-                  </section>
+                  </div>
                 </section>
                 <br /><br />
-                <section class="reveal">
+                <div class="reveal">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Video-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Animations & Motion graphics</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
-                </section>
-                <section class="reveal">
+                </div>
+                <div class="reveal">
                   <p>Climbing</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
-                </section>
-              </section>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -445,7 +447,7 @@
             <!--
             <h3 class="reveal">@slavicmedia</h3>
             <br />
-            <section class="grid-container">
+            <div class="grid-container">
               <ul>
                 <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
@@ -480,10 +482,14 @@
                   >
                 </li>
               </ul>
-            </section> -->
+            </div> -->
             <hr class="reveal" />
 
-            <img class="partner-logos reveal" src="/img/partners.png" />
+            <img
+              class="partner-logos reveal"
+              alt="Grid of logos we previously collaborated with"
+              src="/img/partners.png"
+            />
 
             <div id="book"></div>
             <hr class="reveal" />
@@ -499,10 +505,10 @@
               novalidate
               enctype="multipart/form-data"
             >
-              <section class="reveal">
-                <label for="challenge">
-                  <p>Current Business Challenge *</p>
-                </label>
+              <div class="reveal">
+                <p>
+                  <label for="challenge"> Current Business Challenge * </label>
+                </p>
                 <input
                   type="text"
                   id="challenge"
@@ -511,12 +517,10 @@
                   placeholder=""
                 />
                 <br /><br />
-              </section>
-              <section class="grid-container contact-form">
-                <section class="grid-item reveal">
-                  <label for="email">
-                    <p>Email *</p>
-                  </label>
+              </div>
+              <div class="grid-container contact-form">
+                <div class="grid-item reveal">
+                  <p><label for="email"> Email * </label></p>
                   <input
                     type="email"
                     id="email"
@@ -527,9 +531,7 @@
                   />
                   <br /><br />
 
-                  <label for="subject">
-                    <p>Company *</p>
-                  </label>
+                  <p><label for="company"> Company * </label></p>
                   <input
                     type="text"
                     id="company"
@@ -538,11 +540,9 @@
                     placeholder=""
                   />
                   <br /><br />
-                </section>
-                <section class="grid-item reveal">
-                  <label for="fullName">
-                    <p>Full Name *</p>
-                  </label>
+                </div>
+                <div class="grid-item reveal">
+                  <p><label for="fullName"> Full Name * </label></p>
                   <input
                     type="text"
                     id="fullName"
@@ -552,9 +552,7 @@
                     autocomplete="name"
                   />
                   <br /><br />
-                  <label for="budget">
-                    <p>Budget *</p>
-                  </label>
+                  <p><label for="budget"> Budget * </label></p>
                   <input
                     type="text"
                     required
@@ -563,17 +561,16 @@
                     placeholder=""
                   />
                   <br /><br />
-                </section>
-              </section>
+                </div>
+              </div>
 
-              <section class="reveal">
-                <label for="message">
-                  <p>Message *</p>
-                </label>
+              <div class="reveal">
+                <p><label for="message"> Message * </label></p>
                 <textarea
                   name="Message"
                   rows="7"
                   required
+                  id="message"
                   placeholder=""
                 ></textarea>
                 <br /><br />
@@ -594,7 +591,7 @@
                   value="https://slavicmedia.dk/success"
                 />
                 <!-- Redirect to the success page -->
-              </section>
+              </div>
             </form>
           </section>
           <?php

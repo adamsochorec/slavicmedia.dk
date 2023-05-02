@@ -1,4 +1,4 @@
-<section class="social-icons">
+<div class="social-icons">
   <a
     href="https://www.instagram.com/slavicmedia.dk/"
     target="_blank"
@@ -42,4 +42,4 @@
       />
     </svg>
   </a>
-</section>
+</div>

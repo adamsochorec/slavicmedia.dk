@@ -30,7 +30,7 @@
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <br />
         <h2>
-          <a aria-describedby="/" href="http://slavicmedia.dk"
+          <a href="http://slavicmedia.dk"
             >Return to the homepage
             <svg
               id="chevron-right"
