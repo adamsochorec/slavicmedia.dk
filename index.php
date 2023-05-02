@@ -33,10 +33,7 @@
           </div>
           <div class="content">
             <a href="/#visual">
-              <div id="btn2">
-                <span>EXPLORE OUR PORTOFLIO</span>
-              </div>
-              <br />
+              <h6>EXPLORE OUR PORTOFLIO</h6>
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
@@ -45,7 +42,7 @@
           </div>
         </section>
         <section id="visual" class="grid-container video-grid">
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
               src="https://player.vimeo.com/video/818681828"
               allow="autoplay; fullscreen; picture-in-picture"
@@ -53,176 +50,144 @@
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
+              src="https://player.vimeo.com/video/818680534"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818670329?h=1decec98cc"
+              src="https://player.vimeo.com/video/818670329"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818681305?h=be949209a8"
+              src="https://player.vimeo.com/video/818681305"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818681438?h=c5f83ad409"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="h-stretch">
-            <iframe
-              src="https://player.vimeo.com/video/818680534?h=89430fcfbe"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="h-stretch">
-            <iframe
-              src="https://player.vimeo.com/video/818681603?h=deb5fd0c87"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="h-stretch">
-            <iframe
-              class="noanimation"
-              src="https://player.vimeo.com/video/820093548?h=7dd5aa0ce1"
+              src="https://player.vimeo.com/video/818681438"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/818681227?h=482d2ef940"
+              src="https://player.vimeo.com/video/818681603"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
               frameborder="0"
             ></iframe>
           </div>
-          <div class="h-stretch">
-            <iframe
-              src="https://player.vimeo.com/video/818681112?h=ebb98bb2b4"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div class="hhh-stretch">
+
+          <div class="hhh-stretch reveal">
             <img src="/img/21062440386366.jpg" alt="21062440386366" />
           </div>
         </section>
         <section class="grid-container photo-grid">
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21042289065619.jpg" alt="21042289065619" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/21062128426334.jpg" alt="21062128426334" />
           </div>
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21062128996340.jpg" alt="21062128996340" />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22021014637852.jpg" alt="22021014637852" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22021014537850.jpg" alt="22021014537850" />
           </div>
 
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21111395827265.jpg" alt="21111395827265" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/21062439006354.jpg" alt="21062439006354" />
           </div>
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21062442416378-2.jpg" alt="21062442416378-2" />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/21042593335697.jpg" alt="21042593335697" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/21041425600.jpg" alt="21041425600" />
           </div>
 
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21042491745669.jpg" alt="21042491745669" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/21042593335699.jpg" alt="21042593335699.jpg" />
           </div>
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/21041384415571.jpg" alt="21041384415571" />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/2302100258247.jpg" alt="2302100258247" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22050630468192.jpg" alt="22050630468192" />
           </div>
 
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/2302100155144.jpg" alt="2302100155144" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22050628368157.jpg" alt="22050628368157" />
           </div>
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/2302100259248.jpg" alt="2302100259248" />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22062864918513.jpg" alt="22062864918513" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22063066728553.jpg" alt="22063066728553" />
           </div>
 
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/22062448928337.jpg" alt="22062448928337" />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img src="/img/22061140428259.jpg" alt="22061140428259" />
           </div>
-          <div class="v-stretch">
+          <div class="v-stretch reveal">
             <img src="/img/22061846808321.jpg" alt="22061846808321" />
           </div>
 
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
               alt="109909456_2867588020231536_6545430788383010042_o"
             />
           </div>
-          <div class="h-stretch">
+          <div class="h-stretch reveal">
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
               alt="116431110_2874499956207009_689238237833982380_o"
             />
           </div>
-          <div class="h-stretch hidePhoto">
+          <div class="h-stretch hidePhoto reveal">
             <img src="/img/22120791749078.jpg" alt="22120791749078" />
           </div>
 
@@ -230,78 +195,13 @@
         </section>
       </article>
       <!-- VISUALS END -->
-      <!-- SERVICES START 
-      <article id="services">
-        <section class="wrapper-standard">
-          <hr class="" />
-          <h2 class=""></h2>
-          <br />
-          <section class="grid-container gallery">
-            <a href="/services/video-services">
-              <div class="grid-item">
-                ><span>
-                  <b>VIDEO</b><br /><br />Full-service video production
-                  including pre-production, production, and editing<u
-                    ><br /><br />Learn more
-                    <svg
-                      id="chevron-right"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                      ></path></svg></u
-                  ><br
-                /></span>
-              </div>
-            </a>
-            <a href="/services/photo-services">
-              <div class="grid-item">
-                ><span
-                  ><b>PHOTO</b><br /><br />Photography services for events,
-                  portraits, products, corporate photography...<u
-                    ><br /><br /><br />Learn more
-                    <svg
-                      id="chevron-right"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                      ></path></svg></u
-                  ><br
-                /></span>
-              </div>
-            </a>
-            <a href="/services/consultation-services">
-              <div class="grid-item">
-                <span
-                  ><b>CONSULTATIONS</b><br /><br />Book a consultation to bring
-                  your vision to life with us. Let's discuss your visual content
-                  needs!<u
-                    ><br /><br />Learn more
-                    <svg
-                      id="chevron-right"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
-                      ></path></svg></u
-                ></span>
-              </div>
-            </a>
-          </section>
-          <hr class="" />
-        </section>
-      </article>
-      SERVICES END -->
+
       <!-- ABOUT START -->
       <article id="about">
-        <section class="intro-section-wrapper">
+        <section class="intro-section-wrapper reveal">
           <section class="intro-section flex-center">
             <section class="intro-subsection">
-              <h2 class=""></h2>
+              <h2 class="reveal"></h2>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
@@ -311,8 +211,8 @@
           </section>
         </section>
         <section class="wrapper-standard">
-          <hr class="" />
-          <p class="profile-info">
+          <hr class="reveal" />
+          <p class="profile-info reveal">
             At Slavic Media, we listen, learn, and develop visual strategies to
             capture the essence of your brand from pre-production, production to
             post-production in video making & photography.<br /><br />
@@ -323,26 +223,28 @@
             combined with our Slavic cultural background, brings a unique
             perspective to our work.
           </p>
-          <hr class="" />
+          <hr class="reveal" />
 
           <section class="grid-container skills-section">
             <div class="grid-item">
-              <section class="">
-                <img src="/img/adam.jpg" alt="" />
+              <section>
+                <img src="/img/adam.jpg" alt="" class="reveal" />
                 <section class="profile">
                   <br />
-                  <h4>Adam Sochorec</h4>
+                  <h4 class="reveal">Adam Sochorec</h4>
                   <br />
-                  <h5>Co-founder 🇨🇿</h5>
+                  <h5 class="reveal">Co-founder 🇨🇿</h5>
                   <br />
-                  <p><a href="tel:+4550104776">+45 50 10 47 76</a></p>
-                  <p>
+                  <p class="reveal">
+                    <a href="tel:+4550104776">+45 50 10 47 76</a>
+                  </p>
+                  <p class="reveal">
                     <a href="mailto:adamsochorec@slavicmedia.dk"
                       >adamsochorec@slavicmedia.dk</a
                     >
                   </p>
                   <br />
-                  <section class="social-icons">
+                  <section class="social-icons reveal">
                     <a
                       href="https://www.instagram.com/adamsochorec/"
                       target="_blank"
@@ -399,32 +301,32 @@
                   </section>
                 </section>
                 <br /><br />
-                <section class="">
+                <section class="reveal">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Photography</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </section>
 
-                <section class="">
+                <section class="reveal">
                   <p>Web Development</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Danish</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
@@ -434,22 +336,24 @@
             </div>
 
             <div class="grid-item">
-              <section class="">
-                <img src="/img/marcel.jpg" alt="" />
+              <section class="reveal">
+                <img src="/img/marcel.jpg" alt="" class="reveal" />
                 <section class="profile">
                   <br />
-                  <h4>Marcel Hájik</h4>
+                  <h4 class="reveal">Marcel Hájik</h4>
                   <br />
-                  <h5>Co-founder 🇸🇰</h5>
+                  <h5 class="reveal">Co-founder 🇸🇰</h5>
                   <br />
-                  <p><a href="tel:+4552812304">+45 52 81 23 04</a></p>
-                  <p>
+                  <p class="reveal">
+                    <a href="tel:+4552812304">+45 52 81 23 04</a>
+                  </p>
+                  <p class="reveal">
                     <a href="mailto:marcelhajik@slavicmedia.dk"
                       >marcelhajik@slavicmedia.dk</a
                     >
                   </p>
                   <br />
-                  <section class="social-icons">
+                  <section class="social-icons reveal">
                     <a
                       href="https://www.instagram.com/marcelhajik/"
                       target="_blank"
@@ -503,31 +407,31 @@
                   </section>
                 </section>
                 <br /><br />
-                <section class="">
+                <section class="reveal">
                   <p>English</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Editing & Post-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Video-production</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Animations & Motion graphics</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </section>
-                <section class="">
+                <section class="reveal">
                   <p>Climbing</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
@@ -539,53 +443,53 @@
 
           <section>
             <!--
-            <h3 class="">@slavicmedia</h3>
+            <h3 class="reveal">@slavicmedia</h3>
             <br />
             <section class="grid-container">
               <ul>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
               </ul>
               <ul>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
-                <li class="">
+                <li class="reveal">
                   <a target="_blank" rel="noopener noreferrer" href=""
                     >mention</a
                   >
                 </li>
               </ul>
             </section> -->
-            <hr class="" />
+            <hr class="reveal" />
 
-            <img class="partner-logos" src="/img/partners.png" />
+            <img class="partner-logos reveal" src="/img/partners.png" />
 
-            <div id="contact"></div>
-            <hr class="" />
+            <div id="book"></div>
+            <hr class="reveal" />
           </section>
           <section class="contact-form-section">
-            <h3 class=""></h3>
+            <h3 class="reveal">BOOK</h3>
             <br /><br />
             <form
               id="contactForm"
@@ -595,9 +499,21 @@
               novalidate
               enctype="multipart/form-data"
             >
-              <!-- Email invisibility -->
+              <section class="reveal">
+                <label for="challenge">
+                  <p>Current Business Challenge *</p>
+                </label>
+                <input
+                  type="text"
+                  id="challenge"
+                  required
+                  name="_subject"
+                  placeholder=""
+                />
+                <br /><br />
+              </section>
               <section class="grid-container contact-form">
-                <section class="grid-item">
+                <section class="grid-item reveal">
                   <label for="email">
                     <p>Email *</p>
                   </label>
@@ -605,61 +521,63 @@
                     type="email"
                     id="email"
                     name="Email"
-                    placeholder="example@domain.dk"
+                    placeholder=""
                     required
                     autocomplete="email"
                   />
                   <br /><br />
+
                   <label for="subject">
-                    <p>Subject *</p>
+                    <p>Company *</p>
                   </label>
                   <input
                     type="text"
-                    id="subject"
-                    name="_subject"
+                    id="company"
+                    name="Company"
                     required
-                    placeholder="Hi"
+                    placeholder=""
                   />
                   <br /><br />
                 </section>
-                <section class="grid-item">
-                  <label for="firstName">
-                    <p>First Name</p>
+                <section class="grid-item reveal">
+                  <label for="fullName">
+                    <p>Full Name *</p>
                   </label>
                   <input
                     type="text"
-                    id="firstName"
-                    name="First Name"
-                    placeholder="Raasmus"
-                    autocomplete="given-name"
+                    id="fullName"
+                    required
+                    name="Full Name"
+                    placeholder=""
+                    autocomplete="name"
                   />
                   <br /><br />
-                  <label for="lastName">
-                    <p>Last Name</p>
+                  <label for="budget">
+                    <p>Budget *</p>
                   </label>
                   <input
                     type="text"
-                    id="lastName"
-                    name="Last Name"
-                    placeholder="Sørensen"
-                    autocomplete="family-name"
+                    required
+                    id="budget"
+                    name="Budget"
+                    placeholder=""
                   />
                   <br /><br />
                 </section>
               </section>
-              <section class="">
+
+              <section class="reveal">
                 <label for="message">
                   <p>Message *</p>
-                  <br />
                 </label>
                 <textarea
                   name="Message"
                   rows="7"
                   required
-                  placeholder="Your questions or comments"
+                  placeholder=""
                 ></textarea>
                 <br /><br />
-                <div class="btn-area flex-center">
+                <div class="btn-area flex-center reveal">
                   <button id="btn" class="submit-btn" type="submit">
                     Submit form
                   </button>
@@ -688,9 +606,6 @@
       <!-- ABOUT END -->
     </main>
     <!-- FOOTER START -->
-    <script src="https://player.vimeo.com/api/player.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="/scripts/index-script.js"></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

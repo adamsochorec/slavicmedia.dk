@@ -9,7 +9,7 @@
       <ul class="menu-left">
         <!--   <li><a href="/#services">Services</a></li>-->
         <li><a href="/#about">About</a></li>
-        <li><a href="/#contact">Contact</a></li>
+        <li><a href="/#book">Book</a></li>
       </ul>
     </nav>
   </div>

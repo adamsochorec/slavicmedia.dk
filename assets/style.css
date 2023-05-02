@@ -55,7 +55,6 @@
 }
 
 /* GLOBAL START */
-
 body {
   background-color: rgb(var(--grey-color));
   overflow-x: hidden;
@@ -104,6 +103,9 @@ hr {
 #about .partner-logos,
 header img.logo {
   animation: none;
+}
+#homepage header {
+  background-color: rgba(var(--black-color), 0);
 }
 /* BROWSER SETTINGS START */
 
@@ -385,17 +387,14 @@ img {
 /* IMG, IFRAME, SVG END */
 
 /* CONTACT FORM START */
-.contact-form-section h3:before,
-nav li a.contact::before {
-  content: "CONTACT";
-}
+
 .contact-form-section .contact-form .grid-item:nth-child(odd) {
   margin: 0 1rem 0 0;
 }
 .contact-form-section .contact-form .grid-item:nth-child(even) {
   margin: 0 0 0 1rem;
 }
-.contact-form-section .contact-form input,
+.contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
   border: none;
@@ -413,21 +412,23 @@ nav li a.contact::before {
   font-weight: var(--paragraph-weight);
   line-height: 20px;
 }
-.contact-form-section .contact-form input,
-.contact-form-section .contact-form select,
+.contact-form-section input,
+.contact-form-section select,
 .contact-form-section textarea {
   background: rgba(var(--light-grey-color), 0.4);
   border: none;
 }
-.contact-form-section .contact-form input:focus,
-.contact-form-section .contact-form select:focus,
+.contact-form-section input:focus,
+.contact-form-section select:focus,
 .contact-form-section textarea:focus {
   border: none;
   outline: 0;
 }
-.contact-form-section .contact-form label p {
+.contact-form-section label p {
   font-weight: var(--heading-weight);
+  margin-bottom: 0.5rem;
 }
+
 .contact-form-section button {
   background-color: transparent;
   border: none;
@@ -544,7 +545,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(var(--black-color), 0.9);
+  background-color: rgba(var(--black-color), 0.8);
   padding: 0.5rem 0;
   z-index: 3;
   will-change: transform;
@@ -696,29 +697,6 @@ ul.menu-left.collapse {
 }
 /* BUTTON END */
 
-/* BUTTON 2 START */
-
-#btn2 {
-  padding: 20px 50px;
-  border: 2px solid rgb(var(--white-color));
-  border-radius: var(--border-radius-2);
-  color: rgb(var(--white-color));
-}
-#btn2:hover {
-  background-color: rgba(var(--white-color), 1);
-  color: rgb(var(--grey-color));
-  box-shadow: 1px 5px 20px rgba(var(--black-color), 0.6);
-  -webkit-transform: scale(1.06);
-}
-#btn2,
-#btn2:hover {
-  transition: var(--transition-2);
-}
-#btn2:hover #btn2 span {
-  transform: scale(1.2);
-}
-/* BUTTON 2 END */
-
 /* GALLERY GRID START */
 .grid-container.gallery {
   display: grid;
@@ -831,6 +809,7 @@ footer .footer-ps span {
 /* FOOTER END */
 
 /* VISUALS START */
+
 #visuals .grid-container {
   display: grid;
   grid-gap: 10px;
@@ -853,7 +832,6 @@ footer .footer-ps span {
 #visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
-
 /* INTRO VIDEO START */
 .showcase {
   height: 100vh;
@@ -953,6 +931,7 @@ footer .footer-ps span {
 /* SERVICES END */
 
 /* ABOUT START */
+
 #about .pathname-current::before,
 #about h2:before,
 nav li a.about::before {
