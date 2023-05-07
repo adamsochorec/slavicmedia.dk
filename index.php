@@ -237,8 +237,8 @@
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
                   </p>
                   <p class="reveal">
-                    <a href="mailto:adamsochorec@slavicmedia.dk"
-                      >adamsochorec@slavicmedia.dk</a
+                    <a href="mailto:adamc@slavicmedia.dk"
+                      >adam@slavicmedia.dk</a
                     >
                   </p>
                   <br />
@@ -334,7 +334,7 @@
             </div>
 
             <div class="grid-item">
-              <div class="reveal">
+              <div>
                 <img
                   src="/img/marcel.jpg"
                   alt="Portrait of Marcel Hájik"
@@ -351,7 +351,7 @@
                   </p>
                   <p class="reveal">
                     <a href="mailto:marcelhajik@slavicmedia.dk"
-                      >marcelhajik@slavicmedia.dk</a
+                      >marcel@slavicmedia.dk</a
                     >
                   </p>
                   <br />
