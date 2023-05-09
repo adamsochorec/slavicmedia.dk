@@ -17,7 +17,10 @@
     >
     <span>Slavic Media</span>
   </div>
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <script src="/assets/global-script.js" defer></script>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+  ></script>
+  <script type="text/javascript" src="/assets/global-script.js" defer></script>
 </footer>
 <!-- FOOTER END -->
