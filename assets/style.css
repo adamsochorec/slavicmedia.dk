@@ -993,11 +993,14 @@ footer .footer-ps span {
 /* ABOUT END */
 
 /* NO INDEX PAGES START */
-#success dotlottie-player {
-  width: 6.25rem;
+#success .lottie {
+  width: 6.5rem;
+  height: 6.5rem;
 }
-#error dotlottie-player {
-  margin-bottom: -6.5rem;
+#error .lottie {
+  width: 21rem;
+  height: 11rem;
+  margin-bottom: 4rem;
 }
 .noindex h1 {
   font-size: var(--fontsize-h4);
