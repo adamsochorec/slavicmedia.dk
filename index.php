@@ -486,7 +486,8 @@
             <hr class="reveal" />
 
             <img
-              class="partner-logos reveal"
+              class="reveal"
+              style="animation: none"
               alt="Grid of logos we previously collaborated with"
               src="/img/partners.png"
             />
