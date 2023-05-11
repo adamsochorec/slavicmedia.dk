@@ -96,10 +96,6 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
-.blur {
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-}
 
 #homepage header {
   background-color: rgba(var(--black-color), 0);
@@ -555,7 +551,6 @@ header {
 }
 header .blur {
   padding: 0.5rem 0;
-  background: rgba(var(--black-color), 0.5);
 }
 header img.logo {
   float: left;
