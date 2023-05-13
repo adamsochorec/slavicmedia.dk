@@ -11,8 +11,8 @@
         </a>
         <ul class="menu-left">
           <!--   <li><a href="/#services">Services</a></li>-->
+          <li><a href="/#bookus">Book Us</a></li>
           <li><a href="/#about">About</a></li>
-          <li><a href="/#book">Book</a></li>
         </ul>
       </nav>
     </div>

@@ -85,7 +85,6 @@
               allowfullscreen
             ></iframe>
           </div>
-
           <div class="hhh-stretch reveal">
             <img src="/img/21062440386366.jpg" alt="21062440386366" />
           </div>
@@ -184,7 +183,6 @@
           <div class="h-stretch hidePhoto reveal">
             <img src="/img/22120791749078.jpg" alt="22120791749078" />
           </div>
-
           <div id="services"></div>
         </div>
       </article>
@@ -192,6 +190,111 @@
 
       <!-- ABOUT START -->
       <article id="about">
+        <section class="wrapper-standard">
+          <div id="bookus"></div>
+          <hr class="reveal" />
+          <section class="contact-form-section">
+            <h3 class="reveal">bookus US</h3>
+            <br /><br />
+            <form
+              id="contactForm"
+              onclick="loading()"
+              action="https://formsubmit.co/contact@slavicmedia.dk"
+              method="POST"
+              novalidate
+              enctype="multipart/form-data"
+            >
+              <div class="reveal">
+                <p>
+                  <label for="challenge"> Current Business Challenge * </label>
+                </p>
+                <input
+                  type="text"
+                  id="challenge"
+                  required
+                  name="_subject"
+                  placeholder=""
+                />
+                <br /><br />
+              </div>
+              <div class="grid-container contact-form">
+                <div class="grid-item reveal">
+                  <p><label for="email"> Email * </label></p>
+                  <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    placeholder=""
+                    required
+                    autocomplete="email"
+                  />
+                  <br /><br />
+
+                  <p><label for="company"> Company * </label></p>
+                  <input
+                    type="text"
+                    id="company"
+                    name="Company"
+                    required
+                    placeholder=""
+                  />
+                  <br /><br />
+                </div>
+                <div class="grid-item reveal">
+                  <p><label for="fullName"> Full Name * </label></p>
+                  <input
+                    type="text"
+                    id="fullName"
+                    required
+                    name="Full Name"
+                    placeholder=""
+                    autocomplete="name"
+                  />
+                  <br /><br />
+                  <p><label for="budget"> Budget * </label></p>
+                  <input
+                    type="text"
+                    required
+                    id="budget"
+                    name="Budget"
+                    placeholder=""
+                  />
+                  <br /><br />
+                </div>
+              </div>
+
+              <div class="reveal">
+                <p><label for="message"> Message * </label></p>
+                <textarea
+                  name="Message"
+                  rows="7"
+                  required
+                  id="message"
+                  placeholder=""
+                ></textarea>
+                <br /><br />
+                <div class="btn-area flex-center">
+                  <button id="btn" class="submit-btn" type="submit">
+                    Submit form
+                  </button>
+                  <div class="btn-shadow"></div>
+                </div>
+                <input
+                  type="hidden"
+                  name="_captcha"
+                  value="false"
+                /><!-- Spam captcha deactivation -->
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://slavicmedia.dk/success"
+                />
+                <!-- Redirect to the success page -->
+              </div>
+            </form>
+            <hr class="reveal" />
+          </section>
+        </section>
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
@@ -332,7 +435,6 @@
                 </div>
               </div>
             </div>
-
             <div class="grid-item">
               <div>
                 <img
@@ -442,7 +544,6 @@
               </div>
             </div>
           </section>
-
           <section>
             <!--
             <h3 class="reveal">@slavicmedia</h3>
@@ -484,117 +585,14 @@
               </ul>
             </div> -->
             <hr class="reveal" />
-
             <img
               class="reveal"
               style="animation: none"
               alt="Grid of logos we previously collaborated with"
               src="/img/partners.png"
             />
-
-            <div id="book"></div>
-            <hr class="reveal" />
           </section>
-          <section class="contact-form-section">
-            <h3 class="reveal">BOOK</h3>
-            <br /><br />
-            <form
-              id="contactForm"
-              onclick="loading()"
-              action="https://formsubmit.co/contact@slavicmedia.dk"
-              method="POST"
-              novalidate
-              enctype="multipart/form-data"
-            >
-              <div class="reveal">
-                <p>
-                  <label for="challenge"> Current Business Challenge * </label>
-                </p>
-                <input
-                  type="text"
-                  id="challenge"
-                  required
-                  name="_subject"
-                  placeholder=""
-                />
-                <br /><br />
-              </div>
-              <div class="grid-container contact-form">
-                <div class="grid-item reveal">
-                  <p><label for="email"> Email * </label></p>
-                  <input
-                    type="email"
-                    id="email"
-                    name="Email"
-                    placeholder=""
-                    required
-                    autocomplete="email"
-                  />
-                  <br /><br />
 
-                  <p><label for="company"> Company * </label></p>
-                  <input
-                    type="text"
-                    id="company"
-                    name="Company"
-                    required
-                    placeholder=""
-                  />
-                  <br /><br />
-                </div>
-                <div class="grid-item reveal">
-                  <p><label for="fullName"> Full Name * </label></p>
-                  <input
-                    type="text"
-                    id="fullName"
-                    required
-                    name="Full Name"
-                    placeholder=""
-                    autocomplete="name"
-                  />
-                  <br /><br />
-                  <p><label for="budget"> Budget * </label></p>
-                  <input
-                    type="text"
-                    required
-                    id="budget"
-                    name="Budget"
-                    placeholder=""
-                  />
-                  <br /><br />
-                </div>
-              </div>
-
-              <div class="reveal">
-                <p><label for="message"> Message * </label></p>
-                <textarea
-                  name="Message"
-                  rows="7"
-                  required
-                  id="message"
-                  placeholder=""
-                ></textarea>
-                <br /><br />
-                <div class="btn-area flex-center reveal">
-                  <button id="btn" class="submit-btn" type="submit">
-                    Submit form
-                  </button>
-                  <div class="btn-shadow"></div>
-                </div>
-                <input
-                  type="hidden"
-                  name="_captcha"
-                  value="false"
-                /><!-- Spam captcha deactivation -->
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://slavicmedia.dk/success"
-                />
-                <!-- Redirect to the success page -->
-              </div>
-            </form>
-          </section>
           <?php
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
           include $IPATH . 'global-totop.php';
