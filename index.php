@@ -194,7 +194,7 @@
           <div id="bookus"></div>
           <hr class="reveal" />
           <section class="contact-form-section">
-            <h3 class="reveal">bookus US</h3>
+            <h1 class="reveal">BOOK US</h1>
             <br /><br />
             <form
               id="contactForm"
@@ -298,7 +298,7 @@
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
-              <h2 class="reveal">About</h2>
+              <h1 class="reveal">About</h1>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';
@@ -589,7 +589,7 @@
               class="reveal"
               style="animation: none"
               alt="Grid of logos we previously collaborated with"
-              src="/img/partners.png"
+              src="/img/clients.png"
             />
           </section>
 

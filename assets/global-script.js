@@ -105,11 +105,9 @@ window.addEventListener("scroll", function () {
   const blur = document.querySelector(".blur");
   if (window.pageYOffset > 740) {
     header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
-    blur.style.backdropFilter = "blur(15px)";
     /* set your desired background color here */
   } else {
     header.style.backgroundColor = "rgba(0, 0, 0, 0)";
-    blur.style.backdropFilter = "none";
     /* set your desired background color here */
   }
 });
