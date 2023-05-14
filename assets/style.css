@@ -1212,6 +1212,9 @@ footer .footer-ps span {
   header .hamburger {
     display: none;
   }
+  header .blur {
+    height: 46.65px;
+  }
 }
 @media only screen and (max-width: 947px) {
   :root {
