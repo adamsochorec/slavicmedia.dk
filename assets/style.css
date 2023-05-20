@@ -102,8 +102,7 @@ hr {
   background-color: rgba(var(--black-color), 0);
 }
 .blur {
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(30px);
 }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
@@ -934,6 +933,7 @@ footer .footer-ps span {
 
 #about .intro-section {
   background-image: url(/img/IMG_1849.jpg);
+  height: calc(100vh - 2 * var(--nav-bar-top-position));
 }
 #about .partner-logos {
   margin: 0;

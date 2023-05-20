@@ -44,11 +44,10 @@
         <div id="visual" class="grid-container video-grid">
           <div class="h-stretch reveal">
             <iframe
-            src="https://player.vimeo.com/video/818681828"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-           
+              src="https://player.vimeo.com/video/818681828"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
           <div class="h-stretch reveal">
             <iframe
@@ -58,8 +57,7 @@
             ></iframe>
           </div>
           <div class="h-stretch reveal">
-
-          <iframe
+            <iframe
               src="https://player.vimeo.com/video/828611957?h=ff018cd42c"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
@@ -191,7 +189,7 @@
       <!-- VISUALS END -->
 
       <!-- ABOUT START -->
-      <article id="about">
+      <article>
         <section class="wrapper-standard">
           <div id="bookus"></div>
           <hr class="reveal" />
@@ -297,6 +295,8 @@
             <hr class="reveal" />
           </section>
         </section>
+      </article>
+      <article id="about">
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
