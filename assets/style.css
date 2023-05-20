@@ -1028,9 +1028,6 @@ footer .footer-ps span {
   }
 }
 @media only screen and (max-width: 415px) {
-  .btn-shadow {
-    top: -43px;
-  }
   .btn-area #btn,
   .btn-area #btn:after,
   .btn-shadow {
