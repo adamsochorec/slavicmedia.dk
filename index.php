@@ -44,10 +44,11 @@
         <div id="visual" class="grid-container video-grid">
           <div class="h-stretch reveal">
             <iframe
-              src="https://player.vimeo.com/video/828611957?h=ff018cd42c"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            src="https://player.vimeo.com/video/818681828"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+           
           </div>
           <div class="h-stretch reveal">
             <iframe
@@ -57,8 +58,9 @@
             ></iframe>
           </div>
           <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818670329"
+
+          <iframe
+              src="https://player.vimeo.com/video/828611957?h=ff018cd42c"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
             ></iframe>
