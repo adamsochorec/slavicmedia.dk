@@ -115,7 +115,7 @@
             </div>
           </div>
           <div class="gallery-item reveal">
-            <img src="/img/cover-samso.png" alt="Caption" />
+            <img src="https://i.vimeocdn.com/video/1672578270-657a1a1cb87ad279816fbf6c382afbc613ed048de45c4a6b405aef92f3aeddff-d?mw=3000&mh=1687&q=70.jpg" alt="Caption" />
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Samsø</h2>
