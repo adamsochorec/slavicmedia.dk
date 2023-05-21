@@ -35,13 +35,13 @@
           <div class="video-container">
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
-          <a href="/#visual">
+        <div class="explore">  <a href="/#visual">
             <h1>EXPLORE OUR PORTOFLIO</h1>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
               ?></a
-          >
+          ></div>
         </section>
 
         <div id="visual" class="video-gallery">
