@@ -15,6 +15,10 @@
       name="keywords"
       content="Video production, Photography, Kolding, Syddanmark, Visual content ,Commercials ,Events promos, Business video, Creative professionals, Customized visual content, Professional videographers, Experienced photographers, Customized video strategy, Professional photography services, Personalized visual content, High-quality video services, Creative content production, Videoproduktion, Fotografi, Videooptagelse Kolding, Fotograf Kolding, Erhvervsfoto Syddanmark"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css"
+    />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -31,62 +35,94 @@
           <div class="video-container">
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
-          <div class="content">
-            <a href="/#visual">
-              <h1>EXPLORE OUR PORTOFLIO</h1>
-              <?php
+          <a href="/#visual">
+            <h1>EXPLORE OUR PORTOFLIO</h1>
+            <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
               ?></a
-            >
-          </div>
+          >
         </section>
-        <div id="visual" class="grid-container video-grid">
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818681828"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818680534"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/828611957?h=ff018cd42c"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818681305"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818681438"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+
+        <div id="visual" class="video-gallery">
+          <div class="gallery-item reveal">
+            <img
+              src="https://i.vimeocdn.com/video/1658067392-b56ed3c1a1b0aa1d9b05a26877abc6ffe57b3c9a5f8dacedf60fbda25d9db4fc-d?mw=3000&mh=1687&q=70.jpg"
+              alt="Caption"
+            />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Huset Fundament</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/818681828"></a>
+            </div>
           </div>
 
-          <div class="h-stretch reveal">
-            <iframe
-              src="https://player.vimeo.com/video/818681603"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+          <div class="gallery-item reveal">
+            <img
+              src="https://i.vimeocdn.com/video/1657198755-24c4e8cd57fd7cb299201dd48992bf6bfc9a22c7ba9c4a3dcb8e828b90591ace-d?mw=3000&mh=1687&q=70.jpg"
+              alt="Caption"
+            />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Bygning 5</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/818680534"></a>
+            </div>
           </div>
-          <div class="hhh-stretch reveal">
-            <img src="/img/21062440386366.jpg" alt="21062440386366" />
+
+          <div class="gallery-item reveal">
+            <img
+              src="https://i.vimeocdn.com/video/1657239656-af99b45685d121c0cc61cb4939bebd4f80562c1c576bea83b63032afcec7351b-d?mw=3000&mh=1687&q=70.jpg"
+              class="north-cascades-img"
+              alt="Caption"
+            />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Parkour Škola</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/818681305"></a>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="https://i.vimeocdn.com/video/1657240973-0deff31025e761dac1aa70f580fcfbe47041ca14ec814a918164d83d7ae788f7-d?mw=3000&mh=1687&q=70.jpg"
+              alt="Caption"
+            />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Halloween Party</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/818681227"></a>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="https://i.vimeocdn.com/video/1657194926-a5d045eb88d48e0cc56bf4770fe03f1958b3e36d94e918562e29dc09f10babd7-d?mw=3000&mh=1687&q=70.jpg"
+              alt="Caption"
+            />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Tuláčik</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/818681112"></a>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img src="/img/cover-samso.png" alt="Caption" />
+            <div class="gallery-item-caption">
+              <!--<div>-->
+              <h2>Samsø</h2>
+              <p></p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/828611957"></a>
+            </div>
           </div>
         </div>
         <div class="grid-container photo-grid">
@@ -603,6 +639,9 @@
       </article>
       <!-- ABOUT END -->
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.js"></script>
+    <script src="/assets/script.js"></script>
     <!-- FOOTER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

@@ -829,11 +829,21 @@ footer .footer-ps span {
 .showcase {
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   text-align: center;
-  color: #fff;
   padding: 0 20px;
+}
+.showcase a {
+  z-index: 9;
+  opacity: 50%;
+}
+.showcase a:hover {
+  opacity: 100%;
+}
+.showcase a,
+.showcase a:hover {
+  transition: var(--transition-2);
 }
 .video-container {
   position: absolute;
@@ -865,21 +875,117 @@ footer .footer-ps span {
   background: rgba(0, 0, 0, 0);
   position: absolute;
 }
-.content {
-  position: absolute;
-  z-index: 2;
-  bottom: 6rem;
-  opacity: 40%;
-}
-.content:hover {
-  opacity: 100%;
-}
-.content,
-.content:hover {
-  transition: var(--transition-2);
-}
 /* INTRO VIDEO END */
 
+/* VIDEO GALLERY START*/
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-gap: 10px;
+  width: 100%;
+  padding: var(--homepage-padding) var(--homepage-padding) 0
+    var(--homepage-padding);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.video-gallery .gallery-item {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #000;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.video-gallery .gallery-item img {
+  position: relative;
+  display: block;
+  width: 115%;
+  height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: 0.5;
+  /*transition: opacity .35s, transform .35s;*/
+  transition: all 350ms ease-in-out;
+  transform: translate3d(-23px, 0, 0);
+  /*backface-visibility: hidden;*/
+}
+
+.north-cascades-img {
+  -o-object-position: 50% 30%;
+  object-position: 50% 30%;
+}
+
+.video-gallery .gallery-item .gallery-item-caption {
+  padding: 32px;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.video-gallery .gallery-item .gallery-item-caption,
+.video-gallery .gallery-item .gallery-item-caption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-gallery .gallery-item h2 {
+  font-weight: 300;
+  overflow: hidden;
+  padding: 12px 0;
+}
+
+.video-gallery .gallery-item h2,
+.video-gallery .gallery-item p {
+  position: relative;
+  margin: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.video-gallery .gallery-item p {
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 12px 0;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(10%, 0, 0);
+}
+
+.video-gallery .gallery-item:hover img {
+  opacity: 0.3;
+  transform: translate3d(0, 0, 0);
+}
+
+.video-gallery .gallery-item .gallery-item-caption {
+  text-align: left;
+}
+
+.video-gallery .gallery-item h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  height: 1px;
+  background: #fff;
+  transition: transform 0.3s;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.video-gallery .gallery-item:hover h2::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.video-gallery .gallery-item:hover p {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+/* VIDEO GALLERY END */
 /* VISUALS END */
 
 /* SERVICES START */
@@ -908,26 +1014,6 @@ footer .footer-ps span {
   height: 25rem;
   width: 100%;
 }
-/* VIDEO SERVICES START */
-
-#video-services .pathname-current:before,
-#video-services h1:before {
-  content: "Video Services";
-}
-
-/* VIDEO SERVICES END */
-
-/* PHOTO SERVICES START */
-#photo-services .pathname-current:before,
-#photo-services h1:before {
-  content: "Photo Services";
-}
-#consultation-services .pathname-current:before,
-#consultation-services h1:before {
-  content: "Consultation Services";
-}
-/* CONSULTATION SERVICES END */
-/* SERVICES END */
 
 /* ABOUT START */
 
@@ -997,9 +1083,7 @@ footer .footer-ps span {
   height: 6.5rem;
 }
 #error .lottie {
-  width: 21rem;
   height: 11rem;
-  margin-bottom: 4rem;
 }
 .noindex h1 {
   font-size: var(--fontsize-h4);
@@ -1025,6 +1109,9 @@ footer .footer-ps span {
   }
   #about .skills-section .grid-item:nth-child(2) {
     margin-left: 10px;
+  }
+  #error .lottie {
+    margin-bottom: 4rem;
   }
 }
 @media only screen and (max-width: 415px) {
@@ -1062,8 +1149,7 @@ footer .footer-ps span {
   .services-grid .grid-item:nth-child(odd) {
     margin: 0rem;
   }
-  .grid-container.contact-form,
-  .grid-container.video-grid {
+  .grid-container.contact-form {
     display: flex;
     flex-direction: column;
   }
@@ -1210,7 +1296,7 @@ footer .footer-ps span {
     display: none;
   }
   header .blur {
-    height: 46.65px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 947px) {
