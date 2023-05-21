@@ -892,7 +892,6 @@ footer .footer-ps span {
   margin: 0;
   box-sizing: border-box;
 }
-
 .video-gallery .gallery-item {
   position: relative;
   width: 100%;
@@ -901,11 +900,12 @@ footer .footer-ps span {
   cursor: pointer;
   overflow: hidden;
 }
-
+.video-gallery h2{
+  font-size: var(--fontsize-h5);
+}
 .video-gallery .gallery-item img {
   position: relative;
   display: block;
-  width: 115%;
   height: 300px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -913,6 +913,7 @@ footer .footer-ps span {
   /*transition: opacity .35s, transform .35s;*/
   transition: all 350ms ease-in-out;
   transform: scale(1);
+
   /*backface-visibility: hidden;*/
 }
 
