@@ -36,7 +36,7 @@
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
         <div class="explore">  <a href="/#visual">
-            <h1>EXPLORE OUR PORTOFLIO</h1>
+            <p>EXPLORE OUR PORTOFLIO</p>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
@@ -224,7 +224,7 @@
       </article>
       <!-- VISUALS END -->
 
-      <!-- ABOUT START -->
+      <!-- BOOK US START -->
       <article>
         <section class="wrapper-standard">
           <div id="bookus"></div>
@@ -318,7 +318,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="false"
+                  value="true"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
@@ -332,11 +332,14 @@
           </section>
         </section>
       </article>
+    <!-- BOOK US END -->
+    
+    <!-- ABOUT START -->
       <article id="about">
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
-              <h1 class="reveal">About</h1>
+              <h1 class="reveal">ABOUT</h1>
               <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'global-scroll.php';

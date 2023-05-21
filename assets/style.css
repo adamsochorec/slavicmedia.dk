@@ -156,15 +156,18 @@ h6 {
   color: var(--text-color);
   font-family: var(--logo-font);
   position: relative;
-  text-shadow: var(--text-shadow-1);
 }
 
 .intro-section h2,
 h1 {
   font-size: var(--fontsize-h1);
+  letter-spacing: 5px;
+
 }
 h2 {
   font-size: var(--fontsize-h2);
+  letter-spacing: 5px;
+
 }
 h3 {
   font-size: var(--fontsize-h3);
@@ -194,6 +197,8 @@ p {
   font-size: var(--fontsize-p);
   font-weight: var(--paragraph-weight);
   line-height: 1.5;
+  letter-spacing: 1px;
+
 }
 main ul {
   list-style-type: circle;
@@ -223,6 +228,8 @@ p a {
   cursor: pointer;
   text-decoration: none;
   transition: box-shadow 0.5s;
+  letter-spacing: 1px;
+
 }
 h1 a:hover,
 h2 a:hover,
@@ -837,15 +844,16 @@ footer .footer-ps span {
   position: absolute;
   bottom: 20px;
   z-index: 9;
-}
-.showcase a {
   opacity: 50%;
 }
-.showcase a:hover {
+.showcase .explore p{
+  letter-spacing: 5px;
+}
+.showcase .explore:hover {
   opacity: 100%;
 }
-.showcase a,
-.showcase a:hover {
+.showcase .explore,
+.showcase .explore:hover {
   transition: var(--transition-2);
   -webkit-transition: var(--transition-2);
 }
@@ -942,6 +950,8 @@ footer .footer-ps span {
   font-weight: 300;
   overflow: hidden;
   padding: 12px 0;
+  letter-spacing: 5px;
+
 }
 
 .video-gallery .gallery-item h2,
@@ -1094,6 +1104,8 @@ footer .footer-ps span {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
   text-align: center;
+  letter-spacing: unset;
+
 }
 .noindex h2 {
   font-size: var(--fontsize-h6);
@@ -1101,6 +1113,7 @@ footer .footer-ps span {
   text-align: center;
   text-decoration: none;
   text-shadow: none;
+  letter-spacing: unset;
 }
 /* MEDIA QERRIES START */
 
