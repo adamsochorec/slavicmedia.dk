@@ -114,3 +114,15 @@ window.addEventListener("scroll", function () {
   }
 });
 // CHANGE HEADER RGBA AT SCROLL END
+
+// VIMEO GALLERY START 
+$(document).ready(function () {
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true
+    }
+  });
+});
+// VIMEO GALLERY END 

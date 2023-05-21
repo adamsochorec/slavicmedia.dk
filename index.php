@@ -17,7 +17,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css"
+      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
     />
     <title>Slavic Media</title>
   </head>
@@ -640,8 +640,7 @@
       <!-- ABOUT END -->
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.js"></script>
-    <script src="/assets/script.js"></script>
+    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
     <!-- FOOTER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
