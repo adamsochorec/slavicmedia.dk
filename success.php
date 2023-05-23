@@ -20,7 +20,7 @@
         <div class="pathname-container"></div>
         <div class="lottie">
           <dotlottie-player
-            src="/img/lottie/success.lottie"
+            src="/assets/lottie/success.lottie"
             background="transparent"
             speed="1"
             autoplay

@@ -20,6 +20,9 @@
   --fontsize-p: 1rem;
   --logo-font: Raleway;
   --text-color: #fff;
+  --letter-spacing-1: 0.7px;
+  --letter-spacing-2: 3px;
+  --letter-spacing-3: 5px;
   --paragraph-weight: 250;
   --content-font: SF Pro Light;
   --heading-font: SF Pro Regular;
@@ -36,7 +39,6 @@
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--secondary-color));
   --homepage-padding: 50px;
-  --letter-spacing: 0.1rem;
 }
 @font-face {
   font-family: "SF Pro Regular";
@@ -161,13 +163,11 @@ h6 {
 .intro-section h2,
 h1 {
   font-size: var(--fontsize-h1);
-  letter-spacing: 5px;
-
+  letter-spacing: var(--letter-spacing-2);
 }
 h2 {
   font-size: var(--fontsize-h2);
   letter-spacing: 5px;
-
 }
 h3 {
   font-size: var(--fontsize-h3);
@@ -197,8 +197,7 @@ p {
   font-size: var(--fontsize-p);
   font-weight: var(--paragraph-weight);
   line-height: 1.5;
-  letter-spacing: 1px;
-
+  letter-spacing: var(--letter-spacing-1);
 }
 main ul {
   list-style-type: circle;
@@ -229,7 +228,6 @@ p a {
   text-decoration: none;
   transition: box-shadow 0.5s;
   letter-spacing: 1px;
-
 }
 h1 a:hover,
 h2 a:hover,
@@ -413,6 +411,7 @@ img {
   font-size: calc(var(--fontsize-p) * 0.9);
   font-weight: var(--paragraph-weight);
   line-height: 20px;
+  letter-spacing: var(--letter-spacing-1);
 }
 .contact-form-section input,
 .contact-form-section select,
@@ -645,7 +644,7 @@ ul.menu-left.collapse {
   display: flex;
   font-size: var(--fontsize-p);
   justify-content: center;
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: var(--letter-spacing-2);
   line-height: 1.5rem;
   outline: transparent;
 }
@@ -840,13 +839,13 @@ footer .footer-ps span {
   text-align: center;
   padding: 0 20px;
 }
-.showcase .explore{
+.showcase .explore {
   position: absolute;
   bottom: 20px;
   z-index: 9;
   opacity: 50%;
 }
-.showcase .explore p{
+.showcase .explore p {
   letter-spacing: 5px;
 }
 .showcase .explore:hover {
@@ -908,7 +907,7 @@ footer .footer-ps span {
   cursor: pointer;
   overflow: hidden;
 }
-.video-gallery h2{
+.video-gallery h2 {
   font-size: var(--fontsize-h5);
 }
 .video-gallery .gallery-item img {
@@ -951,7 +950,6 @@ footer .footer-ps span {
   overflow: hidden;
   padding: 12px 0;
   letter-spacing: 5px;
-
 }
 
 .video-gallery .gallery-item h2,
@@ -1103,17 +1101,18 @@ footer .footer-ps span {
 .noindex h1 {
   font-size: var(--fontsize-h4);
   font-weight: var(--paragraph-weight);
+  text-transform: unset;
   text-align: center;
-  letter-spacing: unset;
-
+  letter-spacing: var(--letter-spacing-1);
 }
 .noindex h2 {
-  font-size: var(--fontsize-h6);
+  font-size: var(--fontsize-h5);
   font-weight: var(--paragraph-weight);
+  text-transform: unset;
+  letter-spacing: var(--letter-spacing-1);
   text-align: center;
   text-decoration: none;
   text-shadow: none;
-  letter-spacing: unset;
 }
 /* MEDIA QERRIES START */
 
@@ -1304,12 +1303,11 @@ footer .footer-ps span {
   }
   .video-gallery {
     width: 100%;
-    padding: 10px;    
-
+    padding: 10px;
   }
   .video-gallery .gallery-item {
     width: 95%;
-    margin: 0; 
+    margin: 0;
     width: 100%;
   }
 }
@@ -1342,7 +1340,8 @@ footer .footer-ps span {
   #visuals .grid-container,
   .wrapper-narrow,
   .wrapper-standard,
-  .wrapper-wide, .video-gallery {
+  .wrapper-wide,
+  .video-gallery {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
   }
