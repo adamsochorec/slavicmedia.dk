@@ -1034,6 +1034,9 @@ footer .footer-ps span {
   background-image: url(/img/IMG_1849.jpg);
   height: calc(100vh - 2 * var(--nav-bar-top-position));
 }
+#homepage h1 {
+  background-color: rgba(var(--primary-color), 0.7);
+}
 #about .partner-logos {
   margin: 0;
 }
@@ -1099,14 +1102,14 @@ footer .footer-ps span {
   height: 11rem;
 }
 .noindex h1 {
-  font-size: var(--fontsize-h4);
+  font-size: var(--fontsize-h5);
   font-weight: var(--paragraph-weight);
   text-transform: unset;
   text-align: center;
   letter-spacing: var(--letter-spacing-1);
 }
 .noindex h2 {
-  font-size: var(--fontsize-h5);
+  font-size: var(--fontsize-h6);
   font-weight: var(--paragraph-weight);
   text-transform: unset;
   letter-spacing: var(--letter-spacing-1);
