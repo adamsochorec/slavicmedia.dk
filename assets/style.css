@@ -846,7 +846,7 @@ footer .footer-ps span {
   opacity: 50%;
 }
 .showcase .explore p {
-  letter-spacing: 5px;
+  letter-spacing: var(--letter-spacing-2);
 }
 .showcase .explore:hover {
   opacity: 100%;
@@ -885,6 +885,9 @@ footer .footer-ps span {
   left: 0;
   background: rgba(0, 0, 0, 0);
   position: absolute;
+}
+.gallery-item-caption #chevron-right {
+  fill: var(--text-color);
 }
 /* INTRO VIDEO END */
 
@@ -1034,7 +1037,7 @@ footer .footer-ps span {
   background-image: url(/img/IMG_1849.jpg);
   height: calc(100vh - 2 * var(--nav-bar-top-position));
 }
-#homepage h1 {
+#homepage .intro-section h1 {
   background-color: rgba(var(--primary-color), 0.7);
 }
 #about .partner-logos {

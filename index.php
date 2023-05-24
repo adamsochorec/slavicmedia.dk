@@ -7,13 +7,11 @@
     ?>
     <meta
       name="description"
-      content="At Slavic Media, we listen, learn, and develop visual strategies to capture the essence of your brand from pre-production, production to post-production in video making & photography
-    Slavic Media is a collaboration between Adam and Marcel, visual creators, specializing in creating visual content for businesses seeking to enhance their online presence.
-    Our shared passion for travelling and self-improvement, combined with our Slavic cultural background, brings a unique perspective to our work."
+      content="Unleash the magic of Slavic Media, the dynamic duo from Czechia and Slovakia, as we masterfully weave our skills into every project. From capturing heartfelt moments to producing corporate videos in Kolding, Denmark, we've got you covered!"
     />
     <meta
       name="keywords"
-      content="Video production, Photography, Kolding, Syddanmark, Visual content ,Commercials ,Events promos, Business video, Creative professionals, Customized visual content, Professional videographers, Experienced photographers, Customized video strategy, Professional photography services, Personalized visual content, High-quality video services, Creative content production, Videoproduktion, Fotografi, Videooptagelse Kolding, Fotograf Kolding, Erhvervsfoto Syddanmark"
+      content="VEvent Videography, Wedding Videography, Commercial Photography, Portrait Photography, Kolding Photographers, Kolding Videographers, Denmark Media Services, Professional Photography, Professional Videography, Branding Services, Content Creation, Multimedia Production, Digital Marketing, Social Media Content, Creative Agency Kolding, Multimedia Design, Promotional Videos, Documentary Filmmaking, Music Videos, Sports Videography, Lifestyle Photography"
     />
     <link
       rel="stylesheet"
@@ -55,7 +53,19 @@
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Huset Fundament</h2>
-              <p></p>
+              <p>
+                Showreel of cultural offerings for volunteer-driven organisation
+                in Kolding
+                <svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  /></svg
+                ><br /><br /><a>husetfundament.dk</a>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/818681828"></a>
             </div>
@@ -69,7 +79,18 @@
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Bygning 5</h2>
-              <p></p>
+              <p>
+                Documentary of a public cultural house in Kolding
+                <svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  /></svg
+                ><br /><br /><a>bygning5.dk</a>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/818680534"></a>
             </div>
@@ -84,7 +105,18 @@
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Parkour Škola</h2>
-              <p></p>
+              <p>
+                Slovak parkour summer camp showcase in the heart of Tatras
+                <svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  /></svg
+                ><br /><br /><a>parkourskola.sk</a>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/818681305"></a>
             </div>
@@ -98,7 +130,18 @@
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Halloween Party</h2>
-              <p></p>
+              <p>
+                Event coverage reel
+                <svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  /></svg
+                ><br /><br /><a>tribemedia.dk</a>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/818681227"></a>
             </div>
@@ -111,20 +154,41 @@
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Tuláčik</h2>
-              <p></p>
+              <p>
+                Educational reel
+                <svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  /></svg
+                ><br /><br /><a>utuloktulacik.sk</a>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/818681112"></a>
             </div>
           </div>
           <div class="gallery-item reveal">
             <img
-              src="https://i.vimeocdn.com/video/1672578270-657a1a1cb87ad279816fbf6c382afbc613ed048de45c4a6b405aef92f3aeddff-d?mw=3000&mh=1687&q=70.jpg"
+              src="https://i.vimeocdn.com/video/1674112437-3e477e6644cd2f292e041b2c20e2be32a353d2d213f95c995c18ff73708e0f76-d?mw=3000&mh=1687&q=70.jpg"
               alt="Caption"
             />
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>Samsø</h2>
-              <p></p>
+              <p>
+                Short artistic film featuring drone-captured footage&nbsp;<svg
+                  id="chevron-right"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                  />
+                </svg>
+              </p>
               <!--</div>-->
               <a class="vimeo-popup" href="https://vimeo.com/828611957"></a>
             </div>
@@ -132,87 +196,153 @@
         </div>
         <div class="grid-container photo-grid">
           <div class="v-stretch reveal">
-            <img src="/img/21042289065619.jpg" alt="21042289065619" />
+            <img
+              src="/img/21042289065619.jpg"
+              alt="A portrait of a girl in a black shirt taken in a studio."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21062128426334.jpg" alt="21062128426334" />
+            <img
+              src="/img/21062128426334.jpg"
+              alt="A group of women sitting next to each other at Slovo 21 workshop."
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21062128996340.jpg" alt="21062128996340" />
+            <img
+              src="/img/21062128996340.jpg"
+              alt="A portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+            />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/22021014637852.jpg" alt="22021014637852" />
+            <img
+              src="/img/22021014637852.jpg"
+              alt="A group of laughing women sitting next to each other at IBA Kolding"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22021014537850.jpg" alt="22021014537850" />
+            <img
+              src="/img/22021014537850.jpg"
+              alt="Portrait of a woman smiling at IBA Kolding"
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/21111395827265.jpg" alt="21111395827265" />
+            <img
+              src="/img/21111395827265.jpg"
+              alt="A close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21062439006354.jpg" alt="21062439006354" />
+            <img
+              src="/img/21062439006354.jpg"
+              alt="A male and female actors standing next to each other at Divaldo Disk scene"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21062442416378.jpg" alt="21062442416378" />
+            <img
+              src="/img/21062442416378.jpg"
+              alt="A studio portrait of a woman with a hat on her head at Divadlo Disk."
+            />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/21042593335697.jpg" alt="21042593335697" />
+            <img
+              src="/img/21042593335697.jpg"
+              alt="A closeup portrait of a woman laying on a table with a pile of fries, taken at Divadlo Na Vinohradech."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/21041425600.jpg" alt="21041425600" />
+            <img
+              src="/img/21041425600.jpg"
+              alt=" still life portrait of a man in a cage holding his hands up, taken at Divadlo Na Vinohradech"
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/21042491745669.jpg" alt="21042491745669" />
+            <img
+              src="/img/21042491745669.jpg"
+              alt="A still life portrait of an elderly woman sitting at a table with a cup and saucer, taken at Divadlo Na Vinohradech"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/210516235886.jpg" alt="210516235886.jpg" />
+            <img
+              src="/img/210516235886.jpg"
+              alt="Man surrounded bottles from alcohol smoking a cigarette taken at Divadlo Na Vinohradech"
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21041384415571.jpg" alt="21041384415571" />
+            <img src="/img/21041384415571.jpg" />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/2302100258247.jpg" alt="2302100258247" />
+            <img
+              src="/img/2302100258247.jpg"
+              alt="Portrait from a concert of a rocker with his face painted with black paint at concert in Pistop in Kolding."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22050630468192.jpg" alt="22050630468192" />
+            <img
+              src="/img/22050630468192.jpg"
+              alt="A group of men standing next to each other at a rave party at Råværket in Kolding."
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/2302100155144.jpg" alt="2302100155144" />
+            <img
+              src="/img/2302100155144.jpg"
+              alt="A man standing on a stage holding a microphone at concert in Pistop in Kolding."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22050628388158.jpg" alt="22050628388158" />
+            <img
+              src="/img/22050628388158.jpg"
+              alt="A couple of DJs standing on a stage in front of a mixing board at a rave party at Råværket in Kolding."
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/2302100259248.jpg" alt="2302100259248" />
+            <img
+              src="/img/2302100259248.jpg"
+              alt="Portrait from a concert of a rocker girl waving with her hand at concert in Pistop in Kolding."
+            />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/22062864918513.jpg" alt="22062864918513" />
+            <img
+              src="/img/22062864918513.jpg"
+              alt="A woman holding a microphone in front of a crowd at Roskilde Festival"
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22063066728553.jpg" alt="22063066728553" />
+            <img
+              src="/img/22063066728553.jpg"
+              alt="Kim Kim singing at Roskilde Festival."
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/22062448928337.jpg" alt="22062448928337" />
+            <img
+              src="/img/22062448928337.jpg"
+              alt="Freshly married couple running out of a Kolding city hall with flowers."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/22061140428259.jpg" alt="22061140428259" />
+            <img
+              src="/img/22061140428259.jpg"
+              alt="A wedding couple walking down the aisle."
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/22061846808321.jpg" alt="22061846808321" />
+            <img
+              src="/img/22061846808321.jpg"
+              alt="A group of older couples kissing each other at a wedding in Kolding."
+            />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="109909456_2867588020231536_6545430788383010042_o"
+              alt="Man doing a handstand in front of a group of kids on a Parkour Škola camp "
             />
           </div>
           <div class="h-stretch reveal">
@@ -222,7 +352,11 @@
             />
           </div>
           <div class="h-stretch hidePhoto reveal">
-            <img src="/img/22120791749078.jpg" alt="22120791749078" />
+            <img
+              src="/img/22120791749078.jpg"
+              alt="Man doing a somersault in
+            front of a group of kids on a Parkour Škola camp"
+            />
           </div>
           <div id="services"></div>
         </div>
@@ -316,7 +450,7 @@
                 <br /><br />
                 <div class="btn-area flex-center">
                   <button id="btn" class="submit-btn" type="submit">
-                    Submit form
+                    SUBMIT FORM
                   </button>
                   <div class="btn-shadow"></div>
                 </div>
@@ -353,15 +487,23 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="profile-info reveal">
-            At Slavic Media, we listen, learn, and develop visual strategies to
-            capture the essence of your brand from pre-production, production to
-            post-production in video making & photography.<br /><br />
-            Slavic Media is a collaboration between Adam (Czechia 🇨🇿) and Marcel
-            (Slovakia 🇸🇰), visual creators, specializing in creating visual
-            content for businesses seeking to enhance their online presence.
-            <br /><br />Our shared passion for travelling and self-improvement,
-            combined with our Slavic cultural background, brings a unique
-            perspective to our work.
+            At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
+            and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
+            wizards.<br /><br />Operating in the heart of Denmark, in the
+            culturally vibrant town of Kolding, we've spent more time behind a
+            camera lens than in our lectures at the
+            <a
+              href="https://www.iba.dk"
+              target="_blank"
+              rel="noopener noreferrer"
+              >IBA</a
+            >. Yes, you read that right, we're students by day, but when the
+            night falls, we transform into the Batman and Robin of the media
+            world.<br /><br />From capturing your grandmother's 80th birthday to
+            producing that corporate video your boss has been nagging you about,
+            we've got you covered.<br /><br />We've mastered the art of photo
+            and video services, and we're ready to sprinkle a bit of our Slavic
+            magic on your project 😎
           </p>
           <hr class="reveal" />
 
@@ -592,7 +734,7 @@
             <img
               class="reveal"
               style="animation: none"
-              alt="Grid of logos we previously collaborated with"
+              alt="Logos of a previous clients: Divadlo Disk Damu, Franklin Covey Czechia, Parkour Škola, Brick Gallery, Roskilde Festival, Slovo 21, Huset Fundament, OldStars, Divadlo Na Vinohradech, Útolok Tuláčik, Confucius Institute IBA"
               src="/img/clients.png"
             />
           </section>
