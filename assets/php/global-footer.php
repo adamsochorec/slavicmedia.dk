@@ -6,7 +6,7 @@
          ?>
   <br />
   <div class="footer-ps">
-    <p>No cookies.</p>
+    <p><?php echo $is_danish ? 'Ingen cookies' : 'No cookies' ?>.</p>
   </div>
   <div class="footer-ps">
     <b

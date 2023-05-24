@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="dk">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -7,11 +7,11 @@
     ?>
     <meta
       name="description"
-      content="Unleash the magic of Slavic Media, the dynamic duo from Czechia and Slovakia, as we masterfully weave our skills into every project. From capturing heartfelt moments to producing corporate videos in Kolding, Denmark, we've got you covered!"
+      content="Frigør magien fra Slavic Media, det dynamiske duo fra Tjekkiet og Slovakiet, når vi mesterligt væver vores færdigheder ind i hvert projekt. Fra at indfange hjertevarme øjeblikke til produktion af virksomhedsvideoer i Kolding, Danmark, har vi styr på det!"
     />
     <meta
       name="keywords"
-      content="Event Videography, Wedding Videography, Commercial Photography, Portrait Photography, Kolding Photographers, Kolding Videographers, Denmark Media Services, Professional Photography, Professional Videography, Branding Services, Content Creation, Multimedia Production, Digital Marketing, Social Media Content, Creative Agency Kolding, Multimedia Design, Promotional Videos, Documentary Filmmaking, Music Videos, Sports Videography, Lifestyle Photography"
+      content="Eventvideografi, bryllupsvideografi, kommerciel fotografering, portrætfotografering, fotografer i Kolding, videografer i Kolding, Danmarks medietjenester, professionel fotografering, professionel videografering, brandingtjenester, indholdsproduktion, multimedieproduktion, digital markedsføring, indhold til sociale medier, kreativt bureau i Kolding, multimediedesign, promoveringsvideoer, dokumentarfilmproduktion, musikvideoer, sportsvideografi, livsstilsfotografering"
     />
     <link
       rel="stylesheet"
@@ -35,7 +35,7 @@
           </div>
           <div class="explore">
             <a href="/#visual">
-              <p>EXPLORE OUR PORTOFLIO</p>
+              <p>UDFORSK VORES PORTEFØLJE</p>
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
@@ -54,8 +54,8 @@
               <!--<div>-->
               <h2>Huset Fundament</h2>
               <p>
-                Showreel of cultural offerings for volunteer-driven organisation
-                in Kolding
+                Showreel af kulturelle tilbud til frivilligdrevet organisation i
+                Kolding
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@
               <!--<div>-->
               <h2>Bygning 5</h2>
               <p>
-                Documentary of a public cultural house in Kolding
+                Dokumentar om et offentligt kulturhus i Kolding
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,8 @@
               <!--<div>-->
               <h2>Parkour Škola</h2>
               <p>
-                Slovak parkour summer camp showcase in the heart of Tatras
+                Slovakisk parkour sommerlejr fremvisning i hjertet af
+                Tatrabjergene
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +132,7 @@
               <!--<div>-->
               <h2>Halloween Party</h2>
               <p>
-                Event coverage reel
+                Begivenhedsdækningsshowreel
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +156,7 @@
               <!--<div>-->
               <h2>Tuláčik</h2>
               <p>
-                Educational reel
+                Uddannelsesmateriale-showreel
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +180,7 @@
               <!--<div>-->
               <h2>Samsø</h2>
               <p>
-                Short artistic film featuring drone-captured footage&nbsp;<svg
+                Kort kunstnerisk film med drone-optagelser&nbsp;<svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 384 512"
@@ -198,77 +199,77 @@
           <div class="v-stretch reveal">
             <img
               src="/img/21042289065619.jpg"
-              alt="A portrait of a girl in a black shirt taken in a studio."
+              alt="Et portræt af en pige i en sort bluse taget i et studie."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21062128426334.jpg"
-              alt="A group of women sitting next to each other at Slovo 21 workshop."
+              alt="En gruppe kvinder, der sidder ved siden af hinanden på Slovo 21 workshop."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/21062128996340.jpg"
-              alt="A portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+              alt="Et portræt af en kvinde i en blå kjole, der sidder bag et bord på Slovo 21 workshop."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/22021014637852.jpg"
-              alt="A group of laughing women sitting next to each other at IBA Kolding"
+              alt="En gruppe grineende kvinder, der sidder ved siden af hinanden på IBA Kolding."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22021014537850.jpg"
-              alt="Portrait of a woman smiling at IBA Kolding"
+              alt="Portræt af en smilende kvinde ved IBA Kolding."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/21111395827265.jpg"
-              alt="A close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+              alt="Et nærbillede af en mand iført en baseballkasket, der læner sig op ad en væg i Kolding."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21062439006354.jpg"
-              alt="A male and female actors standing next to each other at Divaldo Disk scene"
+              alt="En mandlig og kvindelig skuespiller står ved siden af hinanden på Divaldo Disk scene."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/21062442416378.jpg"
-              alt="A studio portrait of a woman with a hat on her head at Divadlo Disk."
+              alt="Et studieportræt af en kvinde med en hat på hovedet ved Divadlo Disk."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/21042593335697.jpg"
-              alt="A closeup portrait of a woman laying on a table with a pile of fries, taken at Divadlo Na Vinohradech."
+              alt="Et nærbillede af en kvinde liggende på et bord med en bunke pommes frites, taget på Divadlo Na Vinohradech."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21041425600.jpg"
-              alt=" still life portrait of a man in a cage holding his hands up, taken at Divadlo Na Vinohradech"
+              alt="Stadig livsportræt af en mand i et bur, der holder sine hænder op, taget på Divadlo Na Vinohradech."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/21042491745669.jpg"
-              alt="A still life portrait of an elderly woman sitting at a table with a cup and saucer, taken at Divadlo Na Vinohradech"
+              alt="Et stadig livsportræt af en ældre kvinde, der sidder ved et bord med en kop og underkop, taget på Divadlo Na Vinohradech."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/210516235886.jpg"
-              alt="Man surrounded bottles from alcohol smoking a cigarette taken at Divadlo Na Vinohradech"
+              alt="Mand omgivet af flasker med alkohol, der ryger en cigaret, taget på Divadlo Na Vinohradech."
             />
           </div>
           <div class="v-stretch reveal">
@@ -278,83 +279,83 @@
           <div class="h-stretch reveal">
             <img
               src="/img/2302100258247.jpg"
-              alt="Portrait from a concert of a rocker with his face painted with black paint at concert in Pistop in Kolding."
+              alt="Portræt fra en koncert af en rocker med ansigtet malet med sort maling ved koncert i Pistop i Kolding."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22050630468192.jpg"
-              alt="A group of men standing next to each other at a rave party at Råværket in Kolding."
+              alt="En gruppe mænd står ved siden af hinanden til en rave-fest på Råværket i Kolding."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2302100155144.jpg"
-              alt="A man standing on a stage holding a microphone at concert in Pistop in Kolding."
+              alt="En mand står på en scene med en mikrofon ved koncert i Pistop i Kolding."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22050628388158.jpg"
-              alt="A couple of DJs standing on a stage in front of a mixing board at a rave party at Råværket in Kolding."
+              alt="Et par DJs står på en scene foran et mixerpult til en rave-fest på Råværket i Kolding."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2302100259248.jpg"
-              alt="Portrait from a concert of a rocker girl waving with her hand at concert in Pistop in Kolding."
+              alt="Portræt fra en koncert af en rocker pige, der vinker med hånden ved koncert i Pistop i Kolding."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/22062864918513.jpg"
-              alt="A woman holding a microphone in front of a crowd at Roskilde Festival"
+              alt="En kvinde holder en mikrofon foran en folkemængde ved Roskilde Festival."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22063066728553.jpg"
-              alt="Kim Kim singing at Roskilde Festival."
+              alt="Kim Kim synger ved Roskilde Festival."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/22062448928337.jpg"
-              alt="Freshly married couple running out of a Kolding city hall with flowers."
+              alt="Nygift par, der løber ud af rådhuset i Kolding med blomster."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22061140428259.jpg"
-              alt="A wedding couple walking down the aisle."
+              alt="Et bryllupspar går ned ad kirkegulvet."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/22061846808321.jpg"
-              alt="A group of older couples kissing each other at a wedding in Kolding."
+              alt="En gruppe ældre par kysser hinanden til et bryllup i Kolding."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="Man doing a handstand in front of a group of kids on a Parkour Škola camp "
+              alt="En mand laver håndstand foran en gruppe børn på en Parkour Škola-lejr."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
-              alt="Man doing a somersault in
-              front of a group of kids on a Parkour Škola camp"            />
+              alt="En mand laver en kolbøtte foran en gruppe børn på en Parkour Škola-lejr."
+            />
           </div>
           <div class="h-stretch hidePhoto reveal">
             <img
               src="/img/22120791749078.jpg"
-             alt="Boy looking down from a moutain towards a sunset."
+              alt="Dreng kigger ned fra et bjerg mod en solnedgang."
             />
           </div>
           <div id="services"></div>
@@ -368,7 +369,7 @@
           <div id="bookus"></div>
           <hr class="reveal" />
           <section class="contact-form-section">
-            <h1 class="reveal">BOOK US</h1>
+            <h1 class="reveal">BOOK OS</h1>
             <br /><br />
             <form
               id="contactForm"
@@ -380,7 +381,9 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="challenge"> Current Business Challenge * </label>
+                  <label for="challenge"
+                    >Nuværende forretningsudfordring *</label
+                  >
                 </p>
                 <input
                   type="text"
@@ -393,7 +396,7 @@
               </div>
               <div class="grid-container contact-form">
                 <div class="grid-item reveal">
-                  <p><label for="email"> Email * </label></p>
+                  <p><label for="email">Email *</label></p>
                   <input
                     type="email"
                     id="email"
@@ -404,7 +407,7 @@
                   />
                   <br /><br />
 
-                  <p><label for="company"> Company * </label></p>
+                  <p><label for="company">Virksomhed *</label></p>
                   <input
                     type="text"
                     id="company"
@@ -415,7 +418,7 @@
                   <br /><br />
                 </div>
                 <div class="grid-item reveal">
-                  <p><label for="fullName"> Full Name * </label></p>
+                  <p><label for="fullName">Fulde navn *</label></p>
                   <input
                     type="text"
                     id="fullName"
@@ -425,7 +428,7 @@
                     autocomplete="name"
                   />
                   <br /><br />
-                  <p><label for="budget"> Budget * </label></p>
+                  <p><label for="budget">Budget *</label></p>
                   <input
                     type="text"
                     required
@@ -438,7 +441,7 @@
               </div>
 
               <div class="reveal">
-                <p><label for="message"> Message * </label></p>
+                <p><label for="message">Besked *</label></p>
                 <textarea
                   name="Message"
                   rows="7"
@@ -449,7 +452,7 @@
                 <br /><br />
                 <div class="btn-area flex-center">
                   <button id="btn" class="submit-btn" type="submit">
-                    SUBMIT FORM
+                    SEND FORMULAR
                   </button>
                   <div class="btn-shadow"></div>
                 </div>
@@ -457,19 +460,20 @@
                   type="hidden"
                   name="_captcha"
                   value="true"
-                /><!-- Spam captcha deactivation -->
+                /><!-- Spam captcha deaktivering -->
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://slavicmedia.dk/success"
+                  value="https://slavicmedia.dk/succes"
                 />
-                <!-- Redirect to the success page -->
+                <!-- Omdirigering til succes-siden -->
               </div>
             </form>
             <hr class="reveal" />
           </section>
         </section>
       </article>
+
       <!-- BOOK US END -->
 
       <!-- ABOUT START -->
@@ -477,7 +481,7 @@
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
-              <h1 class="reveal">ABOUT</h1>
+              <h1 class="reveal">OM OS</h1>
 
               <div></div>
             </div>
@@ -486,23 +490,23 @@
         <section class="wrapper-standard">
           <hr class="reveal" />
           <p class="profile-info reveal">
-            At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
-            and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
-            wizards.<br /><br />Operating in the heart of Denmark, in the
-            culturally vibrant town of Kolding, we've spent more time behind a
-            camera lens than in our lectures at the
+            Hos Slavic Media er vi mere end bare to fyre fra Tjekkiet 🇨🇿 og
+            Slovakiet 🇸🇰 (ikke Tjekkoslovakiet dog) - vi er
+            multimedie-wizards.<br /><br />Vi opererer i hjertet af Danmark, i
+            den kulturelt levende by Kolding, og vi har tilbragt mere tid bag et
+            kamera end til vores forelæsninger på
             <a
               href="https://www.iba.dk"
               target="_blank"
               rel="noopener noreferrer"
               >IBA</a
-            >. Yes, you read that right, we're students by day, but when the
-            night falls, we transform into the Batman and Robin of the media
-            world.<br /><br />From capturing your grandmother's 80th birthday to
-            producing that corporate video your boss has been nagging you about,
-            we've got you covered.<br /><br />We've mastered the art of photo
-            and video services, and we're ready to sprinkle a bit of our Slavic
-            magic on your project 😎
+            >. Ja, du læste rigtigt, vi er studerende om dagen, men når natten
+            falder på, forvandler vi os til medieverdenens Batman og Robin.<br /><br />Fra
+            at fange din bedstemors 80-års fødselsdag til at producere den
+            virksomhedsvideo, som din chef har pustet dig i nakken om, så har vi
+            styr på det hele.<br /><br />Vi har mestret kunsten inden for
+            fotografering og videoproduktion, og vi er klar til at drysse lidt
+            af vores slaviske magi over dit projekt 😎
           </p>
           <hr class="reveal" />
 
@@ -511,14 +515,14 @@
               <div>
                 <img
                   src="/img/22042404443006.jpg"
-                  alt="Portrait of Marcel Hájik"
+                  alt="Portræt af Marcel Hájik"
                   class="reveal"
                 />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik</h4>
                   <br />
-                  <h5 class="reveal">Co-founder 🇸🇰</h5>
+                  <h5 class="reveal">Medstifter 🇸🇰</h5>
                   <br />
                   <p class="reveal">
                     <a href="tel:+4552812304">+45 52 81 23 04</a>
@@ -584,31 +588,31 @@
                 </section>
                 <br /><br />
                 <div class="reveal">
-                  <p>English</p>
+                  <p>Engelsk</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Editing & Post-production</p>
+                  <p>Redigering og efterproduktion</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Video-production</p>
+                  <p>Videoproduktion</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Animations & Motion graphics</p>
+                  <p>Animation og bevægelig grafik</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Climbing</p>
+                  <p>Klatring</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -619,14 +623,14 @@
               <div>
                 <img
                   src="/img/22042404538028.jpg"
-                  alt="Portrait of Adam Sochorec"
+                  alt="Portræt af Adam Sochorec"
                   class="reveal"
                 />
                 <div class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec</h4>
                   <br />
-                  <h5 class="reveal">Co-founder 🇨🇿</h5>
+                  <h5 class="reveal">Medstifter 🇨🇿</h5>
                   <br />
                   <p class="reveal">
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
@@ -701,26 +705,26 @@
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Editing & Post-production</p>
+                  <p>Redigering og efterproduktion</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Photography</p>
+                  <p>Fotografering</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </div>
 
                 <div class="reveal">
-                  <p>Web Development</p>
+                  <p>Webudvikling</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Danish</p>
+                  <p>Dansk</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
                   </div>
@@ -733,7 +737,7 @@
             <img
               class="reveal"
               style="animation: none"
-              alt="Logos of a previous clients: Divadlo Disk Damu, Franklin Covey Czechia, Parkour Škola, Brick Gallery, Roskilde Festival, Slovo 21, Huset Fundament, OldStars, Divadlo Na Vinohradech, Útolok Tuláčik, Confucius Institute IBA"
+              alt="Logoer fra tidligere kunder: Divadlo Disk Damu, Franklin Covey Czechia, Parkour Škola, Brick Gallery, Roskilde Festival, Slovo 21, Huset Fundament, OldStars, Divadlo Na Vinohradech, Útolok Tuláčik, Confucius Institute IBA."
               src="/img/clients.png"
             />
           </section>
