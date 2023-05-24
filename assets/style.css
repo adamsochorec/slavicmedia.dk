@@ -645,6 +645,8 @@ ul.menu-left.collapse {
   font-size: var(--fontsize-p);
   justify-content: center;
   letter-spacing: var(--letter-spacing-2);
+  text-transform: uppercase;
+  font-weight: var(--heading-weight);
   line-height: 1.5rem;
   outline: transparent;
 }
@@ -1138,11 +1140,6 @@ footer .footer-ps span {
   }
 }
 @media only screen and (max-width: 415px) {
-  .btn-area #btn,
-  .btn-area #btn:after,
-  .btn-shadow {
-    height: 3rem;
-  }
   .gallery .grid-item {
     height: 5rem;
   }
@@ -1289,7 +1286,7 @@ footer .footer-ps span {
   .btn-area #btn,
   .btn-area #btn:after,
   .btn-shadow {
-    font-size: calc(var(--fontsize-h5) * 0.6);
+    font-size: 11px;
   }
   .grid-container.gallery,
   .grid-container.services-grid {
