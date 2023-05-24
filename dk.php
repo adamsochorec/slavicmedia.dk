@@ -199,165 +199,169 @@
           <div class="v-stretch reveal">
             <img
               src="/img/21042289065619.jpg"
-              alt="Et portræt af en pige i en sort bluse taget i et studie."
+              alt="Et portræt af en pige i en sort bluse taget i et studie"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21062128426334.jpg"
-              alt="En gruppe kvinder, der sidder ved siden af hinanden på Slovo 21 workshop."
+              alt="En gruppe kvinder, der sidder ved siden af hinanden på Slovo 21 workshop"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/21062128996340.jpg"
-              alt="Et portræt af en kvinde i en blå kjole, der sidder bag et bord på Slovo 21 workshop."
+              alt="Et portræt af en kvinde i en blå kjole, der sidder bag et bord på Slovo 21 workshop"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/22021014637852.jpg"
-              alt="En gruppe grineende kvinder, der sidder ved siden af hinanden på IBA Kolding."
+              alt="En gruppe grineende kvinder, der sidder ved siden af hinanden på IBA Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22021014537850.jpg"
-              alt="Portræt af en smilende kvinde ved IBA Kolding."
+              alt="Portræt af en smilende kvinde ved IBA Kolding"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/21111395827265.jpg"
-              alt="Et nærbillede af en mand iført en baseballkasket, der læner sig op ad en væg i Kolding."
+              alt="Et nærbillede af en mand iført en baseballkasket, der læner sig op ad en væg i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21062439006354.jpg"
-              alt="En mandlig og kvindelig skuespiller står ved siden af hinanden på Divaldo Disk scene."
+              alt="En mandlig og kvindelig skuespiller står ved siden af hinanden på Divaldo Disk scene"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/21062442416378.jpg"
-              alt="Et studieportræt af en kvinde med en hat på hovedet ved Divadlo Disk."
+              alt="Et studieportræt af en kvinde med en hat på hovedet ved Divadlo Disk"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/21042593335697.jpg"
-              alt="Et nærbillede af en kvinde liggende på et bord med en bunke pommes frites, taget på Divadlo Na Vinohradech."
+              alt="Nærbillede portræt af Tereza Císařová, der ligger på et bord med pommes frites, fotograferet ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/21041425600.jpg"
-              alt="Stadig livsportræt af en mand i et bur, der holder sine hænder op, taget på Divadlo Na Vinohradech."
+              alt="David Steigerwald afklædt, siddende i et bur ved Divadlo Na Vinohradech, Prag"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/21042491745669.jpg"
-              alt="Et stadig livsportræt af en ældre kvinde, der sidder ved et bord med en kop og underkop, taget på Divadlo Na Vinohradech."
+              alt="Et stadig livsportræt af en ældre kvinde, der sidder ved et bord med en kop og underkop, taget ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/210516235886.jpg"
-              alt="Mand omgivet af flasker med alkohol, der ryger en cigaret, taget på Divadlo Na Vinohradech."
+              alt="Mand omgivet af flasker med alkohol, der ryger en cigaret, taget ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/21041384415571.jpg" />
+            <img
+              src="/img/21041384415571.jpg"
+              alt="Otakar Brousek ml. smilende med malet ansigt i jungle baggrund ved Divadlo Na Vinohradech"
+            />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2302100258247.jpg"
-              alt="Portræt fra en koncert af en rocker med ansigtet malet med sort maling ved koncert i Pistop i Kolding."
+              alt="Portræt fra en koncert af en rocker med ansigtet malet med sort maling ved koncert i Pistop i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22050630468192.jpg"
-              alt="En gruppe mænd står ved siden af hinanden til en rave-fest på Råværket i Kolding."
+              alt="En gruppe mænd står ved siden af hinanden til en rave-fest på Råværket i Kolding"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2302100155144.jpg"
-              alt="En mand står på en scene med en mikrofon ved koncert i Pistop i Kolding."
+              alt="En mand står på en scene med en mikrofon ved koncert i Pistop i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22050628388158.jpg"
-              alt="Et par DJs står på en scene foran et mixerpult til en rave-fest på Råværket i Kolding."
+              alt="Et par DJs står på en scene foran en mixerpult til en rave-fest på Råværket i Kolding"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2302100259248.jpg"
-              alt="Portræt fra en koncert af en rocker pige, der vinker med hånden ved koncert i Pistop i Kolding."
+              alt="Portræt fra en koncert af en rocker pige, der vinker med hånden ved koncert i Pistop i Kolding"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/22062864918513.jpg"
-              alt="En kvinde holder en mikrofon foran en folkemængde ved Roskilde Festival."
+              alt="En kvinde holder en mikrofon foran en folkemængde ved Roskilde Festival"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22063066728553.jpg"
-              alt="Kim Kim synger ved Roskilde Festival."
+              alt="Kim Kim synger ved Roskilde Festival"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/22062448928337.jpg"
-              alt="Nygift par, der løber ud af rådhuset i Kolding med blomster."
+              alt="Nygift par, der løber ud af rådhuset i Kolding med blomster"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/22061140428259.jpg"
-              alt="Et bryllupspar går ned ad kirkegulvet."
+              alt="Et bryllupspar går ned ad kirkegulvet"
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/22061846808321.jpg"
-              alt="En gruppe ældre par kysser hinanden til et bryllup i Kolding."
+              alt="En gruppe ældre par kysser hinanden til et bryllup i Kolding"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="En mand laver håndstand foran en gruppe børn på en Parkour Škola-lejr."
+              alt="En mand laver håndstand foran en gruppe børn på en Parkour Škola-lejr"
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
-              alt="En mand laver en kolbøtte foran en gruppe børn på en Parkour Škola-lejr."
+              alt="En mand laver en kolbøtte foran en gruppe børn på en Parkour Škola-lejr"
             />
           </div>
           <div class="h-stretch hidePhoto reveal">
             <img
               src="/img/22120791749078.jpg"
-              alt="Dreng kigger ned fra et bjerg mod en solnedgang."
+              alt="Dreng kigger ned fra et bjerg mod en solnedgang"
             />
           </div>
+
           <div id="services"></div>
         </div>
       </article>
