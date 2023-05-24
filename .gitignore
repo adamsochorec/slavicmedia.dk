@@ -1,3 +1,2 @@
 
-# Ignore the img directory and everything in it
-/img/
+.DS_Store
