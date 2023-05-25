@@ -50,8 +50,7 @@
               <!--<div>-->
               <h2>Huset Fundament</h2>
               <p>
-                Showreel af kulturelle tilbud til frivilligdrevet organisation i
-                Kolding
+                Showreel for kulturel frivilligdrevet organisation
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,8 +150,7 @@
               <!--<div>-->
               <h2>Tuláčik</h2>
               <p>
-                Uddannelsesmateriale-showreel
-                <svg
+                Uddannelsesfilm for nonprofit organisation                <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 384 512"
