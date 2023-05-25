@@ -13,10 +13,6 @@
       name="keywords"
       content="Eventvideografi, bryllupsvideografi, kommerciel fotografering, portrætfotografering, fotografer i Kolding, videografer i Kolding, Danmarks medietjenester, professionel fotografering, professionel videografering, brandingtjenester, indholdsproduktion, multimedieproduktion, digital markedsføring, indhold til sociale medier, kreativt bureau i Kolding, multimediedesign, promoveringsvideoer, dokumentarfilmproduktion, musikvideoer, sportsvideografi, livsstilsfotografering"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
-    />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -80,8 +76,7 @@
               <!--<div>-->
               <h2>Bygning 5</h2>
               <p>
-                Dokumentar om et offentligt kulturhus i Kolding
-                <svg
+                Interviewdokumentar af et offentligt kulturhus i Kolding                <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 384 512"
@@ -132,7 +127,7 @@
               <!--<div>-->
               <h2>Halloween Party</h2>
               <p>
-                Begivenhedsdækningsshowreel
+                Efterfesten reel
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -610,7 +605,7 @@
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Animation og bevægelig grafik</p>
+                  <p>Animation</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -703,7 +698,7 @@
                 </div>
                 <br /><br />
                 <div class="reveal">
-                  <p>English</p>
+                  <p>Engelsk</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
@@ -754,8 +749,6 @@
       </article>
       <!-- ABOUT END -->
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
     <!-- FOOTER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

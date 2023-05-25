@@ -13,10 +13,6 @@
       name="keywords"
       content="Event Videography, Wedding Videography, Commercial Photography, Portrait Photography, Kolding Photographers, Kolding Videographers, Denmark Media Services, Professional Photography, Professional Videography, Branding Services, Content Creation, Multimedia Production, Digital Marketing, Social Media Content, Creative Agency Kolding, Multimedia Design, Promotional Videos, Documentary Filmmaking, Music Videos, Sports Videography, Lifestyle Photography"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
-    />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -80,7 +76,7 @@
               <!--<div>-->
               <h2>Bygning 5</h2>
               <p>
-                Documentary of a public cultural house in Kolding
+                Interview documentary of a public cultural house in Kolding
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +127,7 @@
               <!--<div>-->
               <h2>Halloween Party</h2>
               <p>
-                Event coverage reel
+                Afterparty reel
                 <svg
                   id="chevron-right"
                   xmlns="http://www.w3.org/2000/svg"
@@ -606,7 +602,7 @@
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Animations & Motion graphics</p>
+                  <p>Animations</p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -740,6 +736,7 @@
               alt="Logos of a previous clients: Divadlo Disk Damu, Franklin Covey Czechia, Parkour Škola, Brick Gallery, Roskilde Festival, Slovo 21, Huset Fundament, OldStars, Divadlo Na Vinohradech, Útolok Tuláčik, Confucius Institute IBA"
               src="/img/clients.png"
             />
+            <hr />
           </section>
 
           <?php
@@ -750,8 +747,6 @@
       </article>
       <!-- ABOUT END -->
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
     <!-- FOOTER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

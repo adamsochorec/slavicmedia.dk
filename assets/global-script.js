@@ -28,7 +28,6 @@
       ticking = true;
     }
   });
-
   function hasScrolled() {
     const st = window.pageYOffset || document.documentElement.scrollTop;
     const header = document.querySelector("header");

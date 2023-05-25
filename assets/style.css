@@ -849,6 +849,7 @@ footer .footer-ps span {
 }
 .showcase .explore p {
   letter-spacing: var(--letter-spacing-2);
+  font-size: calc(var(--fontsize-p) * 0.8);
 }
 .showcase .explore:hover {
   opacity: 100%;
