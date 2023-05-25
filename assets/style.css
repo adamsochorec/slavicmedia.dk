@@ -39,6 +39,8 @@
   --shadow-transition: translate(4px, -4px);
   --box-shadow-1: -8px 8px 0 rgb(var(--secondary-color));
   --homepage-padding: 50px;
+  --blur-1: blur(2px);
+  --blur-2: blur(35px);
 }
 @font-face {
   font-family: "SF Pro Regular";
@@ -103,12 +105,14 @@ hr {
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
-.blur {
-  backdrop-filter: blur(30px); /* Standard syntax */
-  -webkit-backdrop-filter: blur(30px); /* Chrome, Safari, Opera */
-  -moz-backdrop-filter: blur(30px); /* Firefox */
-  -ms-backdrop-filter: blur(30px); /* Edge */
-  -o-backdrop-filter: blur(30px); /* Older versions of Opera */}
+.blur, .blur:active, .blur::after, .blur::before,.blur:hover,.blur:focus {
+    backdrop-filter: var(--blur-2); /* Standard syntax */
+    -webkit-backdrop-filter:var(--blur-2); /* Chrome, Safari, Opera */
+    -moz-backdrop-filter: var(--blur-2); /* Firefox */
+    -ms-backdrop-filter: var(--blur-2); /* Edge */
+    -o-backdrop-filter:var(--blur-2); /* Older versions of Opera */
+    background: rgba(var(--black-color), 0.5);
+  }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
   width: 7px;
@@ -645,7 +649,7 @@ ul.menu-left.collapse {
   border: solid 1.5px rgb(var(--primary-color));
   color: var(--text-color);
   display: flex;
-  font-size: var(--fontsize-p);
+  font-size: 13px;
   justify-content: center;
   letter-spacing: var(--letter-spacing-2);
   text-transform: uppercase;
