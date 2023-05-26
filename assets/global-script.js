@@ -104,19 +104,6 @@ if (document.body.id === "homepage") {
     // LOADER AT SUBMITING A FORM END
   })();
 }
-
-// VIMEO GALLERY START
-$(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: "a",
-    type: "iframe",
-    gallery: {
-      enabled: true,
-    },
-  });
-});
-// VIMEO GALLERY END
-
 // CONTENT REVEAL START
 function reveal() {
   const reveals = document.querySelectorAll(".reveal"),
@@ -133,3 +120,15 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 // CONTENT REVEAL END
+
+// VIMEO GALLERY START
+$(document).ready(function () {
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
+// VIMEO GALLERY END

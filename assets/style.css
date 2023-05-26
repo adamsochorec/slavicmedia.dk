@@ -105,14 +105,18 @@ hr {
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
-.blur, .blur:active, .blur::after, .blur::before,.blur:hover,.blur:focus {
-    backdrop-filter: var(--blur-2); /* Standard syntax */
-    -webkit-backdrop-filter:var(--blur-2); /* Chrome, Safari, Opera */
-    -moz-backdrop-filter: var(--blur-2); /* Firefox */
-    -ms-backdrop-filter: var(--blur-2); /* Edge */
-    -o-backdrop-filter:var(--blur-2); /* Older versions of Opera */
-    background: rgba(var(--black-color), 0.5);
-  }
+.blur,
+.blur:active,
+.blur::after,
+.blur::before,
+.blur:hover,
+.blur:focus {
+  backdrop-filter: var(--blur-2); /* Standard syntax */
+  -webkit-backdrop-filter: var(--blur-2); /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: var(--blur-2); /* Firefox */
+  -ms-backdrop-filter: var(--blur-2); /* Edge */
+  -o-backdrop-filter: var(--blur-2); /* Older versions of Opera */
+}
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
   width: 7px;
@@ -908,7 +912,7 @@ footer .footer-ps span {
 /* VIDEO GALLERY START*/
 .video-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   grid-gap: 10px;
   width: 100%;
   padding: var(--homepage-padding) var(--homepage-padding) 0
@@ -918,7 +922,7 @@ footer .footer-ps span {
 }
 .video-gallery .gallery-item {
   position: relative;
-  width: 100%;
+  max-width: calc(100vw - var(--homepage-padding) * 2);
   height: 300px;
   background: #000;
   cursor: pointer;
@@ -931,6 +935,7 @@ footer .footer-ps span {
   position: relative;
   display: block;
   height: 300px;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   opacity: 0.5;
@@ -1107,6 +1112,17 @@ footer .footer-ps span {
     opacity: 100%;
   }
 }
+#about .clients {
+  height: 30px;
+  width: 30px;
+}
+#about .clients:hover path {
+  fill: rgba(var(--primary-color));
+}
+#about .clients:hover path,
+#about .clients path {
+  transition: var(--transition-1);
+}
 /* ABOUT SKILL BAR END */
 /* ABOUT END */
 
@@ -1161,7 +1177,6 @@ footer .footer-ps span {
   .noindex h2 {
     font-size: var(--fontsize-p);
   }
-
 }
 @media only screen and (min-width: 500px) {
   #about .skills-section .grid-item:nth-child(1) {
@@ -1205,7 +1220,6 @@ footer .footer-ps span {
   .video-container video {
     opacity: 0;
   }
- 
 }
 @media only screen and (min-width: 538px) {
   .hideLanguages {
@@ -1220,20 +1234,11 @@ footer .footer-ps span {
     padding-left: var(--homepage-padding);
     padding-right: var(--homepage-padding);
   }
- 
 }
 @media only screen and (max-width: 540px) {
   #about .languages {
     height: 18px;
   }
-  /*
-  .video-gallery .gallery-item {
-    width: 95%;
-    margin: 0;
-    width: 100%;
-  }
-  */
- 
 }
 @media only screen and (min-width: 560px) {
   .hidePhoto {
@@ -1324,7 +1329,10 @@ footer .footer-ps span {
   header ul li {
     padding: 0.5em 0;
   }
- 
+  .video-gallery {
+    width: 100%;
+    padding: 10px;
+  }
 }
 @media only screen and (min-width: 768px) {
   header ul.menu-left {
@@ -1365,7 +1373,6 @@ footer .footer-ps span {
   .wrapper-narrow .btn-shadow {
     width: 18.5rem;
   }
- 
 }
 @media only screen and (min-width: 947px) {
   header .container {
@@ -1378,9 +1385,7 @@ footer .footer-ps span {
   }
   .hide {
     display: none;
-  } 
-  
+  }
 }
-
 
 /* MEDIA QERRIES END */
