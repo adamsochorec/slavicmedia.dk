@@ -11,5 +11,5 @@ href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popu
 <link rel="stylesheet" href="/assets/style.css" >
 <?php
   $current_url = $_SERVER['REQUEST_URI'];
-  $is_danish = strpos($current_url, '/dk') !== false;
+  $is_danish = strpos($current_url, '/dk', '/succes') !== false;
 ?>

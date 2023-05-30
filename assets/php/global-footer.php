@@ -6,8 +6,11 @@
          ?>
   <br />
   <div class="footer-ps">
-    <p><?php echo $is_danish ? 'Ingen cookies' : 'No cookies' ?>.</p>
+    <p>
+      <?php echo $is_danish ? 'Ingen cookies, kun ❤ fra Danmark' : 'No cookies, only ❤ from Denmark' ?>.
+    </p>
   </div>
+  <br />
   <div class="footer-ps">
     <b
       ><span
@@ -15,7 +18,10 @@
         <?= date('Y') ?></span
       ></b
     >
-    <span>Slavic Media</span>
+    <span
+      >Slavic Media I/S<br />
+      CVR: 44081512
+    </span>
   </div>
   <script
     type="text/javascript"
