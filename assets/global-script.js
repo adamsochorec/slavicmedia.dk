@@ -69,30 +69,31 @@ window.addEventListener("scroll", function () {
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
-  (function contactForm() {
-    const contactForm = document.querySelector("form"),
-      skillBars = document.querySelectorAll(".skill-bar");
+  const skillBars = document.querySelectorAll(".skill-bar");
 
-    function setProgress(e, progress) {
-      e.style.opacity = 1;
-      e.style.width = `${progress}%`;
-    }
-    // SKILL BARS START
-    function showProgress() {
-      skillBars.forEach((bar) => {
-        const progress = bar.dataset.progress;
-        setProgress(bar, progress);
-      });
-    }
-    showProgress();
-    // SKILL BARS END
+  function setProgress(e, progress) {
+    e.style.opacity = 1;
+    e.style.width = `${progress}%`;
+  }
+  // SKILL BARS START
+  function showProgress() {
+    skillBars.forEach((bar) => {
+      const progress = bar.dataset.progress;
+      setProgress(bar, progress);
+    });
+  }
+  showProgress();
+  // SKILL BARS END
+
+  (function contactForm() {
+    const contactForm = document.querySelector("form");
 
     /// LOADER AT SUBMITING A FORM START
     function onFormSubmission(event) {
       const isValid = Array.from(event.target.elements).every((element) =>
-        element.reportValidity()
-      );
-      const submitButton = document.querySelector(".submit-btn");
+          element.reportValidity()
+        ),
+        submitButton = document.querySelector(".submit-btn");
 
       if (isValid) {
         submitButton.innerHTML = "<div class='loader'></div>";
@@ -102,8 +103,17 @@ if (document.body.id === "homepage") {
     }
     contactForm.addEventListener("submit", onFormSubmission);
     // LOADER AT SUBMITING A FORM END
+
+    // SUBMIT AT ENTER START
+    document.addEventListener("keyup", function (event) {
+      if (event.keyCode === 13) {
+        onFormSubmission(event);
+      }
+    });
+    // SUBMIT AT ENTER END
   })();
 }
+// HOMEPAGE END
 // CONTENT REVEAL START
 function reveal() {
   const reveals = document.querySelectorAll(".reveal"),

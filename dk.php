@@ -193,147 +193,147 @@
         <div class="grid-container photo-grid">
           <div class="v-stretch reveal">
             <img
-              src="/img/21042289065619.jpg"
+              src="/img/2021-04-22-9743.jpg"
               alt="Et portræt af en pige i en sort bluse taget i et studie"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21062128426334.jpg"
+              src="/img/2021-06-21-896.jpg"
               alt="En gruppe kvinder, der sidder ved siden af hinanden på Slovo 21 workshop"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21062128996340.jpg"
+              src="/img/2021-06-21-902.jpg"
               alt="Et portræt af en kvinde i en blå kjole, der sidder bag et bord på Slovo 21 workshop"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
-              src="/img/22021014637852.jpg"
+              src="/img/2022-02-10-1691.jpg"
               alt="En gruppe grineende kvinder, der sidder ved siden af hinanden på IBA Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22021014537850.jpg"
+              src="/img/2022-02-10-1689.jpg"
               alt="Portræt af en smilende kvinde ved IBA Kolding"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
-              src="/img/21111395827265.jpg"
+              src="/img/2021-11-13-10045.jpg"
               alt="Et nærbillede af en mand iført en baseballkasket, der læner sig op ad en væg i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21062439006354.jpg"
+              src="/img/2021-06-24-916.jpg"
               alt="En mandlig og kvindelig skuespiller står ved siden af hinanden på Divaldo Disk scene"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21062442416378.jpg"
+              src="/img/2021-06-24-940.jpg"
               alt="Et studieportræt af en kvinde med en hat på hovedet ved Divadlo Disk"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
-              src="/img/21042593335697.jpg"
+              src="/img/2021-04-25-461.jpg"
               alt="Nærbillede portræt af Tereza Císařová, der ligger på et bord med pommes frites, fotograferet ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/21041425600.jpg"
+              src="/img/2021-04-14-9741.jpg"
               alt="David Steigerwald afklædt, siddende i et bur ved Divadlo Na Vinohradech, Prag"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
-              src="/img/21042491745669.jpg"
+              src="/img/2021-04-24-433.jpg"
               alt="Et stadig livsportræt af en ældre kvinde, der sidder ved et bord med en kop og underkop, taget ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/210516235886.jpg"
+              src="/img/2021-05-16-9810.jpg"
               alt="Mand omgivet af flasker med alkohol, der ryger en cigaret, taget ved Divadlo Na Vinohradech"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/21041384415571.jpg"
+              src="/img/2021-04-13-347.jpg"
               alt="Otakar Brousek ml. smilende med malet ansigt i jungle baggrund ved Divadlo Na Vinohradech"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
-              src="/img/2302100258247.jpg"
+              src="/img/2023-02-10-2671.jpg"
               alt="Portræt fra en koncert af en rocker med ansigtet malet med sort maling ved koncert i Pistop i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22050630468192.jpg"
+              src="/img/2022-05-06-1862.jpg"
               alt="En gruppe mænd står ved siden af hinanden til en rave-fest på Råværket i Kolding"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
-              src="/img/2302100155144.jpg"
+              src="/img/2023-02-10-2664.jpg"
               alt="En mand står på en scene med en mikrofon ved koncert i Pistop i Kolding"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22050628388158.jpg"
+              src="/img/2022-05-06-1829.jpg"
               alt="Et par DJs står på en scene foran en mixerpult til en rave-fest på Råværket i Kolding"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2302100259248.jpg"
+              src="/img/2023-02-10-2672.jpg"
               alt="Portræt fra en koncert af en rocker pige, der vinker med hånden ved koncert i Pistop i Kolding"
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
-              src="/img/22062864918513.jpg"
+              src="/img/2022-06-28-2158.jpg"
               alt="En kvinde holder en mikrofon foran en folkemængde ved Roskilde Festival"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22063066728553.jpg"
+              src="/img/2022-06-30-2168.jpg"
               alt="Kim Kim synger ved Roskilde Festival"
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
-              src="/img/22062448928337.jpg"
+              src="/img/2022-06-24-1986.jpg"
               alt="Nygift par, der løber ud af rådhuset i Kolding med blomster"
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/22061140428259.jpg"
+              src="/img/2022-06-11-1924.jpg"
               alt="Et bryllupspar går ned ad kirkegulvet"
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/22061846808321.jpg"
+              src="/img/2022-06-18-1970.jpg"
               alt="En gruppe ældre par kysser hinanden til et bryllup i Kolding"
             />
           </div>
@@ -442,6 +442,7 @@
               <div class="reveal">
                 <p><label for="message">Besked *</label></p>
                 <textarea
+                  minlength="10"
                   name="Message"
                   rows="7"
                   required
@@ -458,7 +459,7 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="true"
+                  value="false"
                 /><!-- Spam captcha deaktivering -->
                 <input
                   type="hidden"
@@ -513,7 +514,7 @@
             <div class="grid-item">
               <div>
                 <img
-                  src="/img/22042404443006.jpg"
+                  src="/img/2022-04-24-154.jpg"
                   alt="Portræt af Marcel Hájik"
                   class="reveal"
                 />
@@ -621,7 +622,7 @@
             <div class="grid-item">
               <div>
                 <img
-                  src="/img/22042404538028.jpg"
+                  src="/img/2022-04-24-176.jpg"
                   alt="Portræt af Adam Sochorec"
                   class="reveal"
                 />
