@@ -29,11 +29,11 @@
     }
   });
   function hasScrolled() {
-    const st = window.pageYOffset || document.documentElement.scrollTop;
-    const header = document.querySelector("header");
-    const navbarHeight = header.offsetHeight;
-    const windowHeight = window.innerHeight;
-    const delta = 5;
+    const st = window.pageYOffset || document.documentElement.scrollTop,
+      header = document.querySelector("header"),
+      navbarHeight = header.offsetHeight,
+      windowHeight = window.innerHeight,
+      delta = 5;
 
     if (Math.abs(lastScrollTop - st) <= delta) return;
 
@@ -53,15 +53,27 @@
 
 // CHANGE HEADER RGBA AT SCROLL START
 window.addEventListener("scroll", function () {
-  const header = document.querySelector("header");
-  const blur = document.querySelector(".blur");
+  const header = document.querySelector("header"),
+    blur = document.querySelector(".blur"),
+    blurValue = getComputedStyle(document.documentElement)
+      .getPropertyValue("--blur-2")
+      .trim();
+
   if (window.pageYOffset > 740) {
     header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
-    blur.style.backdropFilter = "blur(30px)";
+    blur.style.backdropFilter = blurValue;
+    blur.style.webkitBackdropFilter = blurValue;
+    blur.style.MozBackdropFilter = blurValue;
+    blur.style.MsBackdropFilter = blurValue;
+    blur.style.OBackdropFilter = blurValue;
     /* set your desired background color here */
   } else {
     header.style.backgroundColor = "rgba(0, 0, 0, 0)";
     blur.style.backdropFilter = "blur(0px)";
+    blur.style.webkitBackdropFilter = "blur(0px)";
+    blur.style.MozBackdropFilter = "blur(0px)";
+    blur.style.MsBackdropFilter = "blur(0px)";
+    blur.style.OBackdropFilter = "blur(0px)";
     /* set your desired background color here */
   }
 });
@@ -69,14 +81,14 @@ window.addEventListener("scroll", function () {
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
-  const skillBars = document.querySelectorAll(".skill-bar");
-
   function setProgress(e, progress) {
     e.style.opacity = 1;
     e.style.width = `${progress}%`;
   }
   // SKILL BARS START
   function showProgress() {
+    const skillBars = document.querySelectorAll(".skill-bar");
+
     skillBars.forEach((bar) => {
       const progress = bar.dataset.progress;
       setProgress(bar, progress);
@@ -120,8 +132,8 @@ function reveal() {
     windowHeight = window.innerHeight;
 
   reveals.forEach((reveal) => {
-    const revealtop = reveal.getBoundingClientRect().top;
-    const revealpoint = 0;
+    const revealtop = reveal.getBoundingClientRect().top,
+      revealpoint = 0;
     if (revealtop < windowHeight - revealpoint) {
       reveal.classList.add("active");
     }

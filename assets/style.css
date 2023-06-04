@@ -101,7 +101,6 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
-
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
