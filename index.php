@@ -488,9 +488,9 @@
           <p class="profile-info reveal">
             At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
             and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
-            wizards.<br /><br />Operating in the heart of Denmark, in the
-            culturally vibrant town of Kolding, we've spent more time behind a
-            camera lens than in our lectures at the
+            wizards seeking independence.<br /><br />Operating in the heart of
+            Denmark, in the culturally vibrant town of Kolding, we've spent more
+            time behind a camera lens than in our lectures at the
             <a
               href="https://www.iba.dk"
               target="_blank"
