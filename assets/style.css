@@ -101,21 +101,11 @@ hr {
   opacity: 60%;
   z-index: 3;
 }
+
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
-.blur,
-.blur:active,
-.blur::after,
-.blur::before,
-.blur:hover,
-.blur:focus {
-  backdrop-filter: var(--blur-2); /* Standard syntax */
-  -webkit-backdrop-filter: var(--blur-2); /* Chrome, Safari, Opera */
-  -moz-backdrop-filter: var(--blur-2); /* Firefox */
-  -ms-backdrop-filter: var(--blur-2); /* Edge */
-  -o-backdrop-filter: var(--blur-2); /* Older versions of Opera */
-}
+
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
   width: 7px;

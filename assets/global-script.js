@@ -52,31 +52,32 @@
 })();
 
 // CHANGE HEADER RGBA AT SCROLL START
-window.addEventListener("scroll", function () {
-  const header = document.querySelector("header"),
-    blur = document.querySelector(".blur"),
-    blurValue = getComputedStyle(document.documentElement)
-      .getPropertyValue("--blur-2")
-      .trim();
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector("header"),
+      blur = document.querySelector(".blur"),
+      blurValue = getComputedStyle(document.documentElement)
+        .getPropertyValue("--blur-2")
+        .trim();
 
-  if (window.pageYOffset > 740) {
-    header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
-    blur.style.backdropFilter = blurValue;
-    blur.style.webkitBackdropFilter = blurValue;
-    blur.style.MozBackdropFilter = blurValue;
-    blur.style.MsBackdropFilter = blurValue;
-    blur.style.OBackdropFilter = blurValue;
-    /* set your desired background color here */
-  } else {
-    header.style.backgroundColor = "rgba(0, 0, 0, 0)";
-    blur.style.backdropFilter = "blur(0px)";
-    blur.style.webkitBackdropFilter = "blur(0px)";
-    blur.style.MozBackdropFilter = "blur(0px)";
-    blur.style.MsBackdropFilter = "blur(0px)";
-    blur.style.OBackdropFilter = "blur(0px)";
-    /* set your desired background color here */
-  }
+    if (window.pageYOffset > 740) {
+      header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
+      blur.style.backdropFilter = blurValue;
+      blur.style.webkitBackdropFilter = blurValue;
+      blur.style.MozBackdropFilter = blurValue; // Unsupported
+      blur.style.MsBackdropFilter = blurValue; // Unsupported
+      blur.style.OBackdropFilter = blurValue; // Unsupported
+    } else {
+      header.style.backgroundColor = "rgba(0, 0, 0, 0)";
+      blur.style.backdropFilter = "blur(0px)";
+      blur.style.webkitBackdropFilter = "blur(0px)";
+      blur.style.MozBackdropFilter = "blur(0px)"; // Unsupported
+      blur.style.MsBackdropFilter = "blur(0px)"; // Unsupported
+      blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
+    }
+  });
 });
+
 // CHANGE HEADER RGBA AT SCROLL END
 
 // HOMEPAGE START

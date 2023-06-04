@@ -5,6 +5,10 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <?php
+    $current_url = $_SERVER['REQUEST_URI'];
+    $is_danish = strpos($current_url, '/succes') !== false;
+  ?>
     <title>Succes | Slavic Media</title>
   </head>
   <body id="success" class="noindex">
