@@ -1105,8 +1105,12 @@ footer .footer-ps span {
   height: 30px;
   width: 30px;
 }
+#about .clients path {
+  fill: rgba(var(--white-color), 1);
+}
 #about .clients:hover path {
-  fill: rgba(var(--primary-color));
+  fill: rgba(var(--primary-color), 1);
+  cursor: pointer;
 }
 #about .clients:hover path,
 #about .clients path {
