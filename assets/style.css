@@ -208,9 +208,10 @@ main li {
 }
 
 /* LINK START */
-a {
+a,
+a:hover {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 h1 a,
 h2 a,
