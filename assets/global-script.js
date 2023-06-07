@@ -82,11 +82,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // HOMEPAGE START
 if (document.body.id === "homepage") {
+  // YOUTUBE PLAYER API START
+  /*
+  var player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player("player", {
+      videoId: "Muvkn0OGDbw",
+      playerVars: {
+        autoplay: 1,
+        modestbranding: 1,
+        loop: 1,
+        controls: 0,
+        playlist: "Muvkn0OGDbw",
+      },
+    });
+  }
+  */
+  // YOUTUBE PLAYER API START
+
+  // SKILL BARS START
+
   function setProgress(e, progress) {
     e.style.opacity = 1;
     e.style.width = `${progress}%`;
   }
-  // SKILL BARS START
   function showProgress() {
     const skillBars = document.querySelectorAll(".skill-bar");
 
