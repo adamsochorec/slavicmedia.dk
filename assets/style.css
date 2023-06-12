@@ -776,17 +776,18 @@ footer {
 .totop #scrollLottie {
   rotate: 180deg;
 }
-.footer-ps {
-  color: var(--text-color);
-  font-family: var(--content-font);
-  list-style: none;
-  opacity: 30%;
+footer .footer-ps span a {
+  text-decoration: underline;
 }
 footer .footer-ps p,
+footer .footer-ps span a,
 footer .footer-ps span {
   font-size: calc(var(--fontsize-p) * 0.8);
   font-weight: var(--paragraph-weight);
   text-shadow: none;
+  color: rgba(var(--white-color), 0.2);
+  font-family: var(--content-font);
+  list-style: none;
 }
 
 /* SOCIAL ICONS START */
