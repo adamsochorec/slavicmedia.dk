@@ -1115,7 +1115,9 @@ footer .footer-ps span {
   cursor: pointer;
 }
 #about .clients:hover path,
-#about .clients path {
+#about .clients path,
+ #about .clients:hover g,
+#about .clients g {
   transition: var(--transition-1);
 }
 /* ABOUT SKILL BAR END */
