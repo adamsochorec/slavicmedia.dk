@@ -1103,12 +1103,8 @@ footer .footer-ps span {
     opacity: 100%;
   }
 }
-#about .clients {
-  height: 30px;
-  width: 30px;
-}
 #about .clients path {
-  fill: rgba(var(--white-color), 1);
+  fill: var(--text-color);
 }
 #about .clients:hover path {
   fill: rgba(var(--primary-color), 1);
@@ -1120,9 +1116,9 @@ footer .footer-ps span {
 #about .clients g {
   transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
-  -moz-backdrop-transition: var(--transition-1); /* Firefox */
-  -ms-backdrop-transition: var(--transition-1); /* Edge */
-  -o-backdrop-transition:var(--transition-1);
+  -moz-transition: var(--transition-1); /* Firefox */
+  -ms-transition: var(--transition-1); /* Edge */
+  -o-transition:var(--transition-1);
 }
 /* ABOUT SKILL BAR END */
 /* ABOUT END */
