@@ -158,17 +158,12 @@
         </div>
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
-            <img
-              src="/img/2023-03-08-3809.jpg"
-              alt="Artwork still in an art atelier in Bygning 5 in Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-10-09-2278.jpg"
-              alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-            />
-          </div>
+            <img src="/img/2018-03-04-4576.jpg" alt="Lego man driving on a Lego speeder bike on Corusant, Ace Bricks.">
+            </div>
+            <div class="h-stretch reveal">
+              <img src="/img/2017-10-24-4385.jpg" alt="Lego Mandalorian bounty hunter standing in front of a secret cabinet with weapons.">
+              </div>
+        
 
           <div class="v-stretch reveal">
             <img
@@ -336,7 +331,19 @@
               alt="Boy looking down from a moutain towards a sunset."
             />
           </div>
-
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-03-08-3809.jpg"
+              alt="Artwork still in an art atelier in Bygning 5 in Kolding."
+            />
+          </div>
+         
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2022-10-09-2277.jpg"
+              alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+            />
+          </div>
           <div id="services"></div>
         </div>
       </article>

@@ -158,19 +158,13 @@
           </div>
         </div>
         <div class="grid-container photo-grid">
+         
           <div class="h-stretch reveal">
-            <img
-              src="/img/2023-03-08-3809.jpg"
-              alt="Kunstværk stadig i et kunstatelier i Bygning 5 i Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-10-09-2278.jpg"
-              alt="Optagelse af forladt ejendom med have og gammelt familiehus bygget i typisk skandinavisk stil - pastelgrøn facade lavet af træplanker med hvide konturerede hjørner og vinduer."
-            />
-          </div>
-
+            <img src="/img/2018-03-04-4576.jpg" alt="Legomand kører på en Lego speedercykel på Coruscant, Ace Bricks.">
+            </div>
+            <div class="h-stretch reveal">
+              <img src="/img/2017-10-24-4385.jpg" alt="Lego Mandalorian dusørjæger stående foran et hemmeligt kabinet med våben.">
+              </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-22-9743.jpg"
@@ -336,7 +330,18 @@
               alt="Dreng kigger ned fra et bjerg mod en solnedgang"
             />
           </div>
-
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-03-08-3809.jpg"
+              alt="Kunstværk stadig i et kunstatelier i Bygning 5 i Kolding."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2022-10-09-2277.jpg"
+              alt="Optagelse af forladt ejendom med have og gammelt familiehus bygget i typisk skandinavisk stil - pastelgrøn facade lavet af træplanker med hvide konturerede hjørner og vinduer."
+            />
+          </div>
           <div id="services"></div>
         </div>
       </article>
