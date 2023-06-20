@@ -80,7 +80,7 @@
               <!--</div>-->
               <a
                 class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/ekrGrH4jLL0?modestbranding=1"
+                href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
               ></a>
             </div>
           </div>
@@ -486,8 +486,7 @@
               target="_blank"
               rel="noopener noreferrer"
               >IBA</a
-            >. Ja, du læste rigtigt, vi er studerende om dagen, men når natten
-            falder på, forvandler vi os til medieverdenens Batman og Robin.<br /><br />Fra
+            >.<br /><br />Fra
             at fange din bedstemors 80-års fødselsdag til at producere den
             virksomhedsvideo, som din chef har pustet dig i nakken om, så har vi
             styr på det hele.<br /><br />Vi har mestret kunsten inden for

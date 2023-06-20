@@ -48,7 +48,7 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Huset Fundament</h2>
+              <h3>Huset Fundament</h3>
               <p>
                 Showreel of cultural volunteer-driven organisation &#8250;<br /><br /><a
                   >husetfundament.dk</a
@@ -69,7 +69,7 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Repaire & Remake Festival</h2>
+              <h3>Repaire & Remake Festival</h3>
               <p>
                 Event video of a festival focused on reusing old things and
                 sustainability in general &#8250;<br /><br /><a
@@ -79,7 +79,7 @@
               <!--</div>-->
               <a
                 class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/ekrGrH4jLL0?modestbranding=1"
+                href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
               ></a>
             </div>
           </div>
@@ -92,7 +92,7 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Parkour School</h2>
+              <h3>Parkour School</h3>
               <p>
                 Slovak parkour summer camp showcase in the heart of Tatras
                 &#8250;<br /><br /><a>parkourskola.sk</a>
@@ -109,7 +109,7 @@
             <img src="/img/cover-halloweenparty.jpg" alt="Afterparty reel" />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Halloween Party</h2>
+              <h3>Halloween Party</h3>
               <p>Afterparty reel &#8250;<br /><br /><a>tribemedia.dk</a></p>
               <!--</div>-->
               <a
@@ -125,7 +125,7 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Bygning 5</h2>
+              <h3>Bygning 5</h3>
               <p>
                 Interview documentary of a public cultural house in Kolding
                 &#8250;<br /><br /><a>bygning5.dk</a>
@@ -144,7 +144,7 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Samsø</h2>
+              <h3>Samsø</h3>
               <p>
                 Short artistic film featuring drone-captured footage &#8250;
               </p>
@@ -157,108 +157,11 @@
           </div>
         </div>
         <div class="grid-container photo-grid">
-          <div class="h-stretch reveal">
-            <img src="/img/2018-03-04-4576.jpg" alt="Lego man driving on a Lego speeder bike on Corusant, Ace Bricks.">
-            </div>
-            <div class="h-stretch reveal">
-              <img src="/img/2017-10-24-4385.jpg" alt="Lego Mandalorian bounty hunter standing in front of a secret cabinet with weapons.">
-              </div>
-        
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-22-9743.jpg"
-              alt="Portrait of a girl in a black shirt taken in a studio."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-06-21-896.jpg"
-              alt="Group of women sitting together at Slovo 21 workshop."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-06-21-902.jpg"
-              alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-02-10-1691.jpg"
-              alt="Group of laughing women sitting together at IBA Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-02-10-1689.jpg"
-              alt="Portrait of a woman smiling at IBA Kolding"
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-11-13-10045.jpg"
-              alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-06-24-916.jpg"
-              alt="Male and female actors standing next to each other at Divaldo Disk scene."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-06-24-940.jpg"
-              alt="Studio portrait of a woman with a hat at Divadlo Disk."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-04-25-461.jpg"
-              alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-04-14-9741.jpg"
-              alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-24-433.jpg"
-              alt="Still life portrait of an elderly woman sitting at a table with a cup and saucer, taken at Divadlo Na Vinohradech."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-05-16-9810.jpg"
-              alt="Man surrounded by bottles smoking a cigarette at Divadlo Na Vinohradech."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-13-347.jpg"
-              alt="Otakar Brousek ml. smiling with painted face in jungle background the Divadlo Na Vinohradech."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2023-02-10-2671.jpg"
-              alt="Portrait from a concert of a rocker with black-painted face at a concert in Pistop, Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-05-06-1862.jpg"
-              alt="Group of men standing together at a rave party in Råværket, Kolding."
-            />
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
+            <h3>Event</h3>
+            <br />
           </div>
 
           <div class="v-stretch reveal">
@@ -292,57 +195,97 @@
               alt="Kim Kim singing at Roskilde Festival."
             />
           </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2022-06-24-1986.jpg"
-              alt="Freshly married couple running out of a Kolding City Hall with flowers."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-06-11-1924.jpg"
-              alt="Wedding couple walking down the aisle."
-            />
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
+            <h3>Portrait</h3>
+            <br />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2022-06-18-1970.jpg"
-              alt="Group of older couples kissing at a wedding in Kolding."
+              src="/img/2021-04-22-9743.jpg"
+              alt="Portrait of a girl in a black shirt taken in a studio."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-11-13-10045.jpg"
+              alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-06-21-902.jpg"
+              alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-06-24-940.jpg"
+              alt="Studio portrait of a woman with a hat at Divadlo Disk."
             />
           </div>
 
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
+            <h3>Theatre</h3>
+            <br />
+          </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="Man doing a handstand in front of a group of kids at Parkour Škola camp."
+              src="/img/2021-04-25-461.jpg"
+              alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
-              alt="Man doing a somersault in front of a group of kids at Parkour Škola camp."
+              src="/img/2021-04-14-9741.jpg"
+              alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-05-16-9810.jpg"
+              alt="Man surrounded by bottles smoking a cigarette at Divadlo Na Vinohradech."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2021-06-24-916.jpg"
+              alt="Male and female actors standing next to each other at Divaldo Disk scene."
             />
           </div>
 
-          <div class="h-stretch hidePhoto reveal">
+          <div class="v-stretch reveal">
             <img
-              src="/img/22120791749078.jpg"
-              alt="Boy looking down from a moutain towards a sunset."
+              src="/img/2021-04-13-347.jpg"
+              alt="Otakar Brousek ml. smiling with painted face in jungle background the Divadlo Na Vinohradech."
             />
           </div>
+
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
+            <h3>Product</h3>
+            <br />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2018-03-04-4576.jpg"
+              alt="Lego man driving on a Lego speeder bike on Corusant, Ace Bricks."
+            />
+          </div>
+
           <div class="h-stretch reveal">
             <img
               src="/img/2023-03-08-3809.jpg"
               alt="Artwork still in an art atelier in Bygning 5 in Kolding."
             />
           </div>
-         
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-10-09-2277.jpg"
-              alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
-            />
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
           </div>
           <div id="services"></div>
         </div>
@@ -353,9 +296,8 @@
       <article>
         <section class="wrapper-standard">
           <div id="bookus"></div>
-          <hr class="reveal" />
           <section class="contact-form-section">
-            <h1 class="reveal">BOOK US</h1>
+            <h2 class="reveal">Book us</h2>
             <br /><br />
             <form
               id="contactForm"
@@ -454,46 +396,53 @@
                 <!-- Redirect to the success page -->
               </div>
             </form>
-            <hr class="reveal" />
           </section>
         </section>
       </article>
       <!-- BOOK US END -->
 
       <!-- ABOUT START -->
-      <article id="about">
-        <div class="intro-section-wrapper reveal">
-          <div class="intro-section flex-center">
-            <div class="intro-subsection">
-              <h1 class="reveal">ABOUT</h1>
 
-              <div></div>
-            </div>
+      <article id="about">
+        <div class="grid-container photo-grid">
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
+          </div>
+          <div class="v-stretch reveal">
+            <h2 class="reveal">About</h2>
+            <br />
+            <p class="profile-info reveal">
+              At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
+              and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
+              wizards seeking independence.<br /><br />Operating in the heart of
+              Denmark, in the culturally vibrant town of Kolding, we've spent
+              more time behind a camera lens than in our lectures at the
+              <a
+                href="https://www.iba.dk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >IBA</a
+              >.<br /><br />From capturing your grandmother's 80th birthday to
+              producing that corporate video your boss has been nagging you
+              about, we've got you covered.<br /><br />We've mastered the art of
+              photo and video services, and we're ready to sprinkle a bit of our
+              Slavic magic on your project 😎
+            </p>
+          </div>
+          <div class="hh-stretch reveal">
+            <img
+              src="/img/IMG_1849.jpg"
+              alt="Artwork still in an art atelier in Bygning 5 in Kolding."
+            />
+          </div>
+
+          <div class="hhh-stretch reveal">
+            <br />
+            <hr />
           </div>
         </div>
         <section class="wrapper-standard">
-          <hr class="reveal" />
-          <p class="profile-info reveal">
-            At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
-            and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
-            wizards seeking independence.<br /><br />Operating in the heart of
-            Denmark, in the culturally vibrant town of Kolding, we've spent more
-            time behind a camera lens than in our lectures at the
-            <a
-              href="https://www.iba.dk"
-              target="_blank"
-              rel="noopener noreferrer"
-              >IBA</a
-            >. Yes, you read that right, we're students by day, but when the
-            night falls, we transform into the Batman and Robin of the media
-            world.<br /><br />From capturing your grandmother's 80th birthday to
-            producing that corporate video your boss has been nagging you about,
-            we've got you covered.<br /><br />We've mastered the art of photo
-            and video services, and we're ready to sprinkle a bit of our Slavic
-            magic on your project 😎
-          </p>
-          <hr class="reveal" />
-
           <section class="grid-container skills-section">
             <div class="grid-item">
               <div>
