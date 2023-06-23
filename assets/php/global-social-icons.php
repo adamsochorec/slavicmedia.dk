@@ -1,6 +1,6 @@
 <div class="social-icons">
   <a
-    href="https://www.linkedin.com/company/slavic-media-i-s/"
+    href="https://www.linkedin.com/company/slavicmedia/"
     target="_blank"
     rel="noopener noreferrer"
   >

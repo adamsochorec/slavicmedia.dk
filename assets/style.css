@@ -99,7 +99,6 @@ hr {
   border: 0.1px solid;
   color: rgba(var(--white-color), 0.8);
   margin: 2rem 0;
-  opacity: 60%;
   z-index: 3;
   box-shadow: var(--box-shadow-1);
 }
