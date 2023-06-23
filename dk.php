@@ -348,14 +348,11 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="challenge"
-                    >Nuværende forretningsudfordring *</label
-                  >
+                  <label for="challenge">Nuværende forretningsudfordring</label>
                 </p>
                 <input
                   type="text"
                   id="challenge"
-                  required
                   name="_subject"
                   placeholder=""
                 />

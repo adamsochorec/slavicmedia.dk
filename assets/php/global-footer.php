@@ -6,12 +6,8 @@
          ?>
   <br />
   <div class="footer-ps">
-    <p>
-      <?php echo $is_danish ? 'Ingen cookies, kun ❤ fra Danmark' : 'No cookies, only ❤ from Denmark' ?>.
-    </p>
-  </div>
-  <br />
-  <div class="footer-ps">
+    <p><a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a><br /></p>
+    <br />
     <b
       ><span
         >©
@@ -28,6 +24,7 @@
       >
     </span>
   </div>
+  <br />
   <script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"

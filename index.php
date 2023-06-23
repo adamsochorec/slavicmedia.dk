@@ -347,12 +347,11 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="challenge"> Current Business Challenge * </label>
+                  <label for="challenge"> Current Business Challenge</label>
                 </p>
                 <input
                   type="text"
                   id="challenge"
-                  required
                   name="_subject"
                   placeholder=""
                 />
