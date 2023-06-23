@@ -21,6 +21,11 @@
               ><?php echo $is_danish ? 'Om os' : 'About' ?></a
             >
           </li>
+          <!-- <li>
+            <a href="<?php echo $is_danish ? '/dk#web-dev' : '/#web-dev' ?>"
+              ><?php echo $is_danish ? 'Web-dev os' : 'Web-dev' ?></a
+            >
+          </li>-->
           <li>
             <a href="<?php echo $is_danish ? '/' : '/dk' ?>"
               ><?php echo $is_danish ? 'EN' : 'DK' ?></a

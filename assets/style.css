@@ -37,7 +37,8 @@
   --shadow-transition: translate(4px, -4px);
   --nav-bar-top-position: 50px;
   --shadow-transition: translate(4px, -4px);
-  --box-shadow-1: -8px 8px 0 rgb(var(--secondary-color));
+  --box-shadow-1: rgba(0, 0, 0, 0.3) 0 19px 38px,
+    rgba(0, 0, 0, 0.22) 0 15px 12px;
   --homepage-padding: 50px;
   --blur-1: blur(2px);
   --blur-2: blur(35px);
@@ -99,6 +100,7 @@ hr {
   color: rgba(var(--white-color), 0.8);
   margin: 2rem 0;
   z-index: 3;
+  box-shadow: var(--box-shadow-1);
 }
 
 #homepage header {
@@ -403,6 +405,7 @@ img {
   border-radius: var(--border-radius-1);
   padding: 0.8rem;
   width: 100%;
+  box-shadow: var(--box-shadow-1);
 }
 .contact-form-section ::placeholder,
 .contact-form-section input,
@@ -662,7 +665,7 @@ ul.menu-left.collapse {
 }
 .btn-shadow {
   background: rgb(var(--primary-color));
-  box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+  box-shadow: var(--box-shadow-1);
   top: -25px;
   z-index: 1;
 }
@@ -715,7 +718,7 @@ ul.menu-left.collapse {
 }
 .gallery .grid-item {
   align-items: center;
-  aspect-ratio: 5/4;
+  height: 100px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -724,6 +727,7 @@ ul.menu-left.collapse {
   background-size: cover;
   overflow: hidden;
   position: relative;
+  box-shadow: var(--box-shadow-1);
 }
 .gallery .grid-item,
 .gallery .grid-item::after,
@@ -745,9 +749,6 @@ ul.menu-left.collapse {
 .gallery .grid-item:focus::after,
 .gallery .grid-item:hover::after {
   transform: scale(1.1);
-}
-.gallery .hh-stretch .grid-item {
-  height: 5rem;
 }
 .gallery a:hover {
   text-decoration: none;
@@ -807,6 +808,7 @@ footer .footer-ps span {
 .social-icons a {
   margin-right: 0.5rem;
   text-decoration: none;
+  box-shadow: var(--box-shadow-1);
 }
 .social-icons a:nth-child(5) {
   margin-right: 0;
@@ -817,9 +819,6 @@ footer .footer-ps span {
 /* VISUALS START */
 #visuals h1 {
   font-size: var(--fontsize-p);
-}
-.grid-container.photo-grid h3 {
-  text-align: center;
 }
 .grid-container.photo-grid {
   display: grid;
@@ -1017,35 +1016,57 @@ footer .footer-ps span {
   transform: translate3d(0, 0, 0);
 }
 /* VIDEO GALLERY END */
+
+/* CAROUSEL START */
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+  width: 10rem;
+}
+.item:nth-child(1) {
+  background: #74c390;
+}
+.item:nth-child(2) {
+  background: #51bce8;
+}
+.item:nth-child(3) {
+  background: #e46653;
+}
+/* CAROUSEL END */
 /* VISUALS END */
 
-/* SERVICES START */
-#services .gallery .grid-item {
-  align-items: center;
-  aspect-ratio: 2.5/3;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color: rgba(var(--primary-color), 0.8);
+/* WEB DEV START*/
+.gallery #adamsochorec {
+  background-image: url(/img/adamsochorec.png);
 }
-#services .gallery .grid-item:hover {
-  box-shadow: var(--box-shadow-1);
+.gallery #husetfundament {
+  background-image: url(/img/husetfundament.png);
 }
-#services .gallery .grid-item,
-#services .gallery .grid-item:hover {
-  transition: var(--transition-2);
-}
-.services .grid-item:nth-child(odd) {
-  margin: 0 1rem 0 0;
-}
-.services .grid-item:nth-child(even) {
-  margin: 0 0 0 1rem;
-}
-.services iframe {
-  height: 25rem;
-  width: 100%;
-}
-
+/* WEB DEV START*/
 /* ABOUT START */
 
 #about .intro-section {
@@ -1108,17 +1129,17 @@ footer .footer-ps span {
     opacity: 100%;
   }
 }
-#about .clients path {
+.clients path {
   fill: var(--text-color);
 }
-#about .clients:hover path {
+.clients:hover path {
   fill: rgba(var(--primary-color), 1);
   cursor: pointer;
 }
-#about .clients:hover path,
-#about .clients path,
-#about .clients:hover g,
-#about .clients g {
+.clients:hover path,
+.clients path,
+.clients:hover g,
+.clients g {
   transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
   -moz-transition: var(--transition-1); /* Firefox */
@@ -1204,7 +1225,7 @@ footer .footer-ps span {
     flex-direction: column;
   }
   .gallery .grid-item {
-    aspect-ratio: 10/2;
+    height: 5rem;
   }
   #about p {
     font-size: calc(var(--fontsize-p) * 0.6);
