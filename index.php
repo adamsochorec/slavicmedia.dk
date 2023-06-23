@@ -71,7 +71,7 @@
               <!--<div>-->
               <h2>Repaire & Remake Festival</h2>
               <p>
-                Event video of a festival focused on reusing old things and
+                Event video of a festival focused on a reusing old things and
                 sustainability in general &#8250;<br /><br /><a
                   >nicolaikultur.dk</a
                 >
@@ -79,7 +79,7 @@
               <!--</div>-->
               <a
                 class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/ekrGrH4jLL0?modestbranding=1"
+                href="https://www.youtube-nocookie.com/embed/22Cv1WkHAts?modestbranding=1"
               ></a>
             </div>
           </div>
