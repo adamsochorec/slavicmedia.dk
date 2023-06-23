@@ -349,10 +349,14 @@
               alt="Artwork still in an art atelier in Bygning 5 in Kolding."
             />
           </div>
-          <div class="hhh-stretch reveal">
-            <br />
-            <hr />
+
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2022-10-09-2277.jpg"
+              alt="Shot of abandoned property with garden and old family house built in a typical Scandinavian style - pastel green facade made out of wooden planks with white outlined corners and windows."
+            />
           </div>
+          <div id="services"></div>
         </div>
       </article>
       <!-- VISUALS END -->

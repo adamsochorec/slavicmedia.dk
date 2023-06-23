@@ -336,18 +336,7 @@
               alt="Dreng kigger ned fra et bjerg mod en solnedgang"
             />
           </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2023-03-08-3809.jpg"
-              alt="Kunstværk stadig i et kunstatelier i Bygning 5 i Kolding."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-10-09-2277.jpg"
-              alt="Optagelse af forladt ejendom med have og gammelt familiehus bygget i typisk skandinavisk stil - pastelgrøn facade lavet af træplanker med hvide konturerede hjørner og vinduer."
-            />
-          </div>
+
           <div id="services"></div>
         </div>
       </article>
