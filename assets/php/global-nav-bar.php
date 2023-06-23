@@ -13,12 +13,12 @@
           <!--   <li><a href="<?php echo $is_danish ? '/dk#services' : '/#services' ?>">Services</a></li>-->
           <li>
             <a href="<?php echo $is_danish ? '/dk#bookus' : '/#bookus' ?>"
-              ><?php echo $is_danish ? 'Book os' : 'Book us' ?></a
+              ><?php echo $is_danish ? 'BOOK OS' : 'BOOK US' ?></a
             >
           </li>
           <li>
             <a href="<?php echo $is_danish ? '/dk#about' : '/#about' ?>"
-              ><?php echo $is_danish ? 'Om os' : 'About' ?></a
+              ><?php echo $is_danish ? 'OM OS' : 'ABOUT' ?></a
             >
           </li>
           <!-- <li>
