@@ -779,15 +779,16 @@ footer {
 footer .footer-ps span a {
   text-decoration: underline;
 }
-footer .footer-ps p,
-footer .footer-ps span a,
-footer .footer-ps span {
+footer p,
+footer a,
+footer span {
   font-size: calc(var(--fontsize-p) * 0.8);
   font-weight: var(--paragraph-weight);
   text-shadow: none;
   color: rgba(var(--white-color), 0.2);
   font-family: var(--content-font);
   list-style: none;
+  letter-spacing: var(--letter-spacing-1);
 }
 
 /* SOCIAL ICONS START */

@@ -5,22 +5,23 @@
          include $IPATH . 'global-social-icons.php';
          ?>
   <br />
-  <div class="footer-ps">
-    <p><a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a><br /></p>
+  <p>
+    <a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a>
     <br />
-    <b
-      ><span
-        >©
-        <?= date('Y') ?></span
-      ></b
-    >
-    <span
-      >Slavic Media I/S<br />
-      <a
+  </p>
+  <br />
+  <div class="footer-ps">
+    <span>
+      ©
+      <?= date('Y') ?>
+      Slavic Media I/S | </span
+    ><span
+      ><a
         target="_blank"
         rel="noopener noreferrer"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
-        ><u> CVR: 44081512</u></a
+      >
+        CVR: 44081512</a
       >
     </span>
   </div>
