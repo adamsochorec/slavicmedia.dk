@@ -18,7 +18,6 @@
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
-
         <div class="lottie">
           <dotlottie-player
             src="/assets/lottie/error.lottie"
@@ -29,11 +28,9 @@
           ></dotlottie-player>
         </div>
         <h1>The page you’re looking<br />for can’t be found.</h1>
-        <br />
         <h2>
           <a href="http://slavicmedia.dk">Return to the homepage &#8250; </a>
         </h2>
-        <hr />
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->

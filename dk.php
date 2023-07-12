@@ -324,7 +324,6 @@
               alt="Dreng kigger ned fra et bjerg mod en solnedgang"
             />
           </div>
-
           <div id="services"></div>
         </div>
       </article>
@@ -333,11 +332,10 @@
       <!-- BOOK US START -->
       <article>
         <section class="wrapper-standard">
-          <div id="bookus"></div>
-          <hr class="reveal" />
+          <div id="bookos"></div>
+
           <section class="contact-form-section">
             <h1 class="reveal">BOOK OS</h1>
-            <br /><br />
             <form
               id="contactForm"
               onclick="loading()"
@@ -403,7 +401,6 @@
                   <br /><br />
                 </div>
               </div>
-
               <div class="reveal">
                 <p><label for="message">Besked *</label></p>
                 <textarea
@@ -434,7 +431,6 @@
                 <!-- Omdirigering til succes-siden -->
               </div>
             </form>
-            <hr class="reveal" />
           </section>
         </section>
       </article>
@@ -453,23 +449,31 @@
           </div>
         </div>
         <section class="wrapper-standard">
-          <hr class="reveal" />
+          <br />
           <p class="profile-info reveal">
             Hos Slavic Media er vi mere end bare to fyre fra Tjekkiet 🇨🇿 og
-            Slovakiet 🇸🇰 (ikke Tjekkoslovakiet dog) - vi er
-            multimedie-wizards.<br /><br />Vi opererer i hjertet af Danmark, i
-            den kulturelt levende by Kolding, og vi har tilbragt mere tid bag et
-            kamera end til vores forelæsninger på
+            Slovakiet 🇸🇰 (ikke Tjekkoslovakiet dog) - vi er multimedie-wizards
+          </p>
+          <p class="reveal">
+            Vi opererer i hjertet af Danmark, i den kulturelt levende by
+            Kolding, og vi har tilbragt mere tid bag et kamera end til vores
+            forelæsninger på
             <a
               href="https://www.iba.dk"
               target="_blank"
               rel="noopener noreferrer"
               >IBA</a
-            >.<br /><br />Fra at fange din bedstemors 80-års fødselsdag til at
-            producere den virksomhedsvideo, som din chef har pustet dig i nakken
-            om, så har vi styr på det hele.<br /><br />Vi har mestret kunsten
-            inden for fotografering og videoproduktion, og vi er klar til at
-            drysse lidt af vores slaviske magi over dit projekt 😎
+            >.
+          </p>
+          <p class="reveal">
+            Fra at fange din bedstemors 80-års fødselsdag til at producere den
+            virksomhedsvideo, som din chef har pustet dig i nakken om, så har vi
+            styr på det hele.
+          </p>
+          <p class="reveal">
+            Vi har mestret kunsten inden for fotografering og videoproduktion,
+            og vi er klar til at drysse lidt af vores slaviske magi over dit
+            projekt 😎
           </p>
           <hr class="reveal" />
 
@@ -484,9 +488,7 @@
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik</h4>
-                  <br />
                   <h5 class="reveal">Medstifter 🇸🇰</h5>
-                  <br />
                   <p class="reveal">
                     <a href="tel:+4552812304">+45 52 81 23 04</a>
                   </p>
@@ -495,7 +497,6 @@
                       >marcel@slavicmedia.dk</a
                     >
                   </p>
-                  <br />
                   <div class="social-icons reveal">
                     <a
                       href="https://www.linkedin.com/in/marcelhajik"
@@ -549,7 +550,7 @@
                     </a>
                   </div>
                 </section>
-                <br /><br />
+                <br />
                 <div class="reveal">
                   <p>Engelsk</p>
                   <div class="skill-bar faded">
@@ -592,16 +593,13 @@
                 <div class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec</h4>
-                  <br />
                   <h5 class="reveal">Medstifter 🇨🇿</h5>
-                  <br />
                   <p class="reveal">
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
                   </p>
                   <p class="reveal">
                     <a href="mailto:adam@slavicmedia.dk">adam@slavicmedia.dk</a>
                   </p>
-                  <br />
                   <div class="social-icons reveal">
                     <a
                       href="https://www.linkedin.com/in/adamsochorec"
@@ -661,7 +659,7 @@
                     </a>
                   </div>
                 </div>
-                <br /><br />
+                <br />
                 <div class="reveal">
                   <p>Engelsk</p>
                   <div class="skill-bar faded">
@@ -698,6 +696,7 @@
           </section>
           <section>
             <hr class="reveal" />
+            <h2 class="reveal">Samarbejdspartnere & Kunder</h2>
             <svg
               class="reveal"
               version="1.1"
@@ -2316,7 +2315,7 @@
                 </g>
               </a>
             </svg>
-            <br /><br />
+            <hr class="reveal" />
             <a
               id="press-kit"
               href="/assets/press-kit.zip"
@@ -2329,11 +2328,6 @@
                 <div class="btn-shadow"></div></div
             ></a>
           </section>
-
-          <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-          include $IPATH . 'global-totop.php';
-          ?>
         </section>
       </article>
       <!-- ABOUT END -->

@@ -32,11 +32,9 @@
         </div>
         <br />
         <h1>Formularen blev<br />indsendt succesfuldt!</h1>
-        <br />
         <h2>
           <a href="/dk">Gå tilbage til forsiden &#8250; </a>
         </h2>
-        <hr />
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->

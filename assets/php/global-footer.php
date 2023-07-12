@@ -1,15 +1,15 @@
 <!-- FOOTER START -->
+<hr style="opacity: 0" />
 <footer>
   <?php
          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
          include $IPATH . 'global-social-icons.php';
          ?>
-  <br />
-  <p>
-    <a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a>
-    <br />
-  </p>
-  <br />
+  <div class="footer-ps">
+    <p>
+      <a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a>
+    </p>
+  </div>
   <div class="footer-ps">
     <span>
       ©
@@ -25,7 +25,6 @@
       >
     </span>
   </div>
-  <br />
   <script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"

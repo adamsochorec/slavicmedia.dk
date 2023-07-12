@@ -12,7 +12,7 @@
         <ul class="menu-left">
           <!--   <li><a href="<?php echo $is_danish ? '/dk#services' : '/#services' ?>">Services</a></li>-->
           <li>
-            <a href="<?php echo $is_danish ? '/dk#bookus' : '/#bookus' ?>"
+            <a href="<?php echo $is_danish ? '/dk#bookos' : '/#bookus' ?>"
               ><?php echo $is_danish ? 'BOOK OS' : 'BOOK US' ?></a
             >
           </li>

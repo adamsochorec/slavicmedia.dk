@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector("header"),
       blur = document.querySelector(".blur"),
       blurValue = getComputedStyle(document.documentElement)
-        .getPropertyValue("--blur-2")
+        .getPropertyValue("--blur-3")
         .trim();
 
     if (window.pageYOffset > 740) {

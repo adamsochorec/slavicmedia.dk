@@ -28,11 +28,9 @@
         </div>
         <br />
         <h1>Form submitted<br />successfully!</h1>
-        <br />
         <h2>
           <a href="/">Return to the homepage &#8250; </a>
         </h2>
-        <hr />
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
