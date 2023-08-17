@@ -36,3 +36,8 @@
     </div>
   </div>
 </header>
+<!-- LOADER START -->
+<aside class="loader-container">
+  <div class="loader"></div>
+</aside>
+<!-- LOADER END -->
