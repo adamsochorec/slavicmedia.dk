@@ -89,11 +89,16 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 7;
+    backdrop-filter: var(--blur-2) !important; /* Standard syntax */
+  -webkit-backdrop-filter: var(--blur-2) !important; /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: var(--blur-2) !important; /* Firefox */
+  -ms-backdrop-filter: var(--blur-2) !important; /* Edge */
+  -o-backdrop-filter: var(--blur-2) !important; /* Older versions of Opera */
 }
 .loader-container .loader {
   height: 70px;
