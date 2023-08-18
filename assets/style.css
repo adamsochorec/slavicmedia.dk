@@ -33,6 +33,7 @@
   --border-radius-1: 5px;
   --border-radius-2: 10px;
   --border-radius-3: 15px;
+  --border-radius-4: 20px;
   --transition-1: all.2s ease-in-out;
   --transition-2: all.3s ease-in-out;
   --shadow-transition: translate(4px, -4px);
@@ -1151,8 +1152,11 @@ footer span {
   height: 5px;
   margin-bottom: 1rem;
 }
+#about .skill-bar.faded .skill-bar{
+  border-top-left-radius: var(--border-radius-4);
+  border-bottom-left-radius: var(--border-radius-4);
+}
 #about .skill-bar {
-  border-radius: 20px;
   margin-top: 10px;
   padding: 0;
   position: relative;
@@ -1172,6 +1176,7 @@ footer span {
   background-color: rgba(var(--white-color), 0.8);
   width: 100%;
   animation: none;
+  border-radius: var(--border-radius-4);
 }
 #about h4 {
   font-size: var(--fontsize-h5);
