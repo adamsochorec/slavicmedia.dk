@@ -93,7 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9;
+  z-index: 7;
 }
 .loader-container .loader {
   height: 70px;
@@ -902,7 +902,7 @@ footer span {
   position: absolute;
   bottom: 20px;
   opacity: 50%;
-  z-index: 9;
+  z-index: 5;
 }
 .showcase .explore p {
   letter-spacing: var(--letter-spacing-2);
