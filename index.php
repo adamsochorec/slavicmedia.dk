@@ -48,9 +48,20 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Huset Fundament</h2>
+              <h2>
+                Huset Fundament
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>
-                Showreel of cultural volunteer-driven organisation &#8250;<br /><br /><a
+                Showreel of cultural volunteer organisation &#8250;<br /><br /><a
                   >husetfundament.dk</a
                 >
               </p>
@@ -69,7 +80,18 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Repaire & Remake Festival</h2>
+              <h2>
+                Repaire & Remake Festival
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>
                 Event video of a festival focused on reusing old things and
                 sustainability in general &#8250;<br /><br /><a
@@ -92,7 +114,18 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Parkour School</h2>
+              <h2>
+                Parkour School
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>
                 Slovak parkour summer camp showcase in the heart of Tatras
                 &#8250;<br /><br /><a>parkourskola.sk</a>
@@ -109,7 +142,18 @@
             <img src="/img/cover-halloweenparty.jpg" alt="Afterparty reel" />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Halloween Party</h2>
+              <h2>
+                Halloween Party
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>Afterparty reel &#8250;<br /><br /><a>tribemedia.dk</a></p>
               <!--</div>-->
               <a
@@ -125,7 +169,18 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Bygning 5</h2>
+              <h2>
+                Bygning 5
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>
                 Interview documentary of a public cultural house in Kolding
                 &#8250;<br /><br /><a>bygning5.dk</a>
@@ -144,7 +199,18 @@
             />
             <div class="gallery-item-caption">
               <!--<div>-->
-              <h2>Samsø</h2>
+              <h2>
+                Samsø
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h2>
               <p>
                 Short artistic film featuring drone-captured footage &#8250;
               </p>
