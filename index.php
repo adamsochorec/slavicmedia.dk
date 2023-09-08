@@ -2381,14 +2381,14 @@
             </svg>
             <hr class="reveal" />
             <a
-              id="press-kit"
-              href="/assets/press-kit.zip"
+              id="tag-guide"
+              href="/assets/tag-guide.zip"
               target="_blank"
               rel="noopener noreferrer"
               download=""
             >
               <div class="btn-area flex-center reveal">
-                <button id="btn">GET OUR PRESS KIT</button>
+                <button id="btn">GET OUR TAG GUIDE</button>
                 <div class="btn-shadow"></div></div
             ></a>
           </section>

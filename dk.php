@@ -2383,14 +2383,14 @@
             </svg>
             <hr class="reveal" />
             <a
-              id="press-kit"
-              href="/assets/press-kit.zip"
+              id="tag-guide"
+              href="/assets/tag-guide.zip"
               target="_blank"
               rel="noopener noreferrer"
               download=""
             >
               <div class="btn-area flex-center reveal">
-                <button id="btn">FÅ VORES PRESSESÆT</button>
+                <button id="btn">FÅ VORES TAG GUIDE</button>
                 <div class="btn-shadow"></div></div
             ></a>
           </section>
