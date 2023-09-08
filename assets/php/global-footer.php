@@ -7,7 +7,7 @@
          ?>
   <div class="footer-ps">
     <p>
-      <a href="mailto:adam@slavicmedia.dk">contact@slavicmedia.dk</a>
+      <a href="mailto:contact@slavicmedia.dk">contact@slavicmedia.dk</a>
     </p>
   </div>
   <div class="footer-ps">
