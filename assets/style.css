@@ -141,13 +141,19 @@ hr {
   color: rgba(var(--white-color), 1);
   margin: 2rem 0;
   z-index: 3;
-  box-shadow: var(--box-shadow-1);
 }
 
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
-
+.grid-container.fifty-fifty .grid-item:nth-child(odd),
+.grid-container.seventy-thirty .grid-item:nth-child(odd) {
+  margin: 0 1rem 0 0;
+}
+.grid-container.fifty-fifty .grid-item:nth-child(even),
+.grid-container.seventy-thirty .grid-item:nth-child(even) {
+  margin: 0 0 0 1rem;
+}
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
   width: 7px;
@@ -297,9 +303,6 @@ p a:hover {
 /* TEXT END */
 
 /* PATHNAME NAVIGATION START */
-.pathname-container {
-  margin-top: 7rem;
-}
 .pathname:nth-child(1) a::before {
   content: "slavicmedia";
 }
@@ -356,6 +359,21 @@ p a:hover {
     background-color: rgba(var(--light-grey-color), 0.1);
   }
 }
+/* GRADIENT START */
+.gradient {
+  -webkit-animation: gradient 7s ease infinite;
+  animation: gradient 7s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    rgb(var(--primary-color)),
+    rgb(var(--secondary-color))
+  );
+  background-size: 400% 400%;
+  transition: all 0.5s ease;
+}
+.gallery .gradient:hover {
+  background-size: 100% 100%;
+}
 @-webkit-keyframes gradient {
   0% {
     background-position: 0 50%;
@@ -378,6 +396,7 @@ p a:hover {
     background-position: 0 50%;
   }
 }
+/* GRADIENT END */
 /* ANIMATIONS END */
 
 /* WRAPPER START */
@@ -391,10 +410,11 @@ hr {
   max-width: 100%;
 }
 .wrapper-standard,
-hr {
+.wrapper-standard hr {
   width: 37.5rem;
 }
-.wrapper-wide {
+.wrapper-wide,
+.wrapper-wide hr {
   width: 55rem;
 }
 .btn-area #btn,
@@ -411,15 +431,23 @@ img,
 svg {
   vertical-align: middle;
 }
-img {
-  animation: skeleton-loading 1s linear infinite alternate;
-  height: 100%;
-  width: 100%;
+.blog-item .img,
+.blog-item .map-margin,
+.blog-item iframe {
+  margin: var(--text-padding) 0 0 0;
+}
+
+.blog-item img,
+.blog-item iframe {
+  border-radius: var(--border-radius-2);
 }
 iframe,
 img {
+  animation: skeleton-loading 1s linear infinite alternate;
   border-radius: 0;
   border: none;
+  height: 100%;
+  width: 100%;
 }
 #chevron-right {
   fill: rgb(var(--primary-color));
@@ -427,11 +455,36 @@ img {
   padding-bottom: 1px;
   width: 0.5rem;
 }
+#date {
+  padding-bottom: 3px;
+  width: 15px;
+  fill: var(--text-color);
+}
 .alt-alt {
   z-index: -9;
 }
 .note {
   font-size: 0.7rem;
+}
+.blog-item span.note {
+  border: 1px solid var(--text-color);
+  border-radius: var(--border-radius-3);
+  padding: 10px;
+  max-width: 21rem;
+}
+#map img {
+  border-radius: unset;
+}
+#map {
+  height: 400px;
+  border-radius: var(--border-radius-2);
+}
+#map,
+#map:hover,
+#map::after,
+#map::before,
+#map:focus {
+  border-radius: var(--border-radius-2) !important;
 }
 /* IMG, IFRAME, SVG END */
 
@@ -892,7 +945,8 @@ footer span {
   object-fit: cover;
   width: 100%;
 }
-#visuals .grid-container iframe {
+#visuals .grid-container iframe,
+.blog-item iframe {
   aspect-ratio: 16/9;
 }
 /* INTRO VIDEO START */
@@ -1114,6 +1168,204 @@ footer span {
   background-image: url(/img/husetfundament.png);
 }
 /* WEB DEV START*/
+/* BLOG START */
+.blog-item h1,
+.noindex .pathname-container {
+  margin-top: 7.4rem;
+}
+.blog-item .pathname-container {
+  text-transform: lowercase;
+}
+#blog h1:before,
+.blog-item .pathname:nth-child(2) a::before {
+  content: "Blog";
+}
+
+/* CYBERSECURITY START */
+#cybersecurity .pathname-current:before,
+#cybersecurity h1:before,
+.gallery #cybersecurity span:before {
+  content: "Cybersecurity";
+}
+#cybersecurity .intro-section h2 {
+  font-size: var(--fontsize-h1);
+}
+#cybersecurity .btn-area input {
+  background: 0;
+  background-color: rgb(var(--white-color));
+  border: none;
+  border-radius: var(--border-radius-2);
+  box-sizing: border-box;
+  font-size: var(--fontsize-h2);
+  height: 50px;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+#cybersecurity #btn:before {
+  content: "Generate & Copy";
+  font-weight: 600;
+}
+#cybersecurity #btn.clicked:before {
+  content: "Copied!";
+}
+#screwdriver-wrench {
+  fill: var(--text-color);
+  height: 23px;
+  vertical-align: middle;
+}
+#FALottie {
+  height: 300px;
+}
+
+.img-fill {
+  background-color: #fff;
+}
+.st0,
+.st2,
+.st31,
+.st32,
+.st33,
+.st34,
+.st35,
+.st36,
+.st37 {
+  fill: rgb(var(--grey-color));
+}
+.st1,
+.st40 {
+  fill: rgb(var(--primary-color));
+}
+.st3,
+.st4 {
+  fill: rgb(var(--secondary-color));
+}
+.st20,
+.st24,
+.st25,
+.st26,
+.st27,
+.st28,
+.st29,
+.st30,
+.st38,
+.st39 {
+  fill: rgb(var(--white-color));
+}
+#password-strength-form input[type="password"],
+#password-strength-form input[type="text"] {
+  background: transparent;
+  border: 2px solid rgba(var(--white-color));
+  color: rgb(var(--white-color));
+  font-size: var(--fontsize-h2);
+  height: 55px;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: var(--border-radius-2);
+  -moz-border-radius: var(--border-radius-2);
+  border-radius: var(--border-radius-2);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+  -webkit-transition: border 0.25s linear, color 0.25s linear;
+  -moz-transition: border 0.25s linear, color 0.25s linear;
+  -o-transition: border 0.25s linear, color 0.25s linear;
+  transition: border 0.25s linear, color 0.25s linear;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+}
+#password-strength-form input[type="password"]:focus,
+#password-strength-form input[type="text"]:focus {
+  outline: 0;
+}
+#password-strength-form {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.strength_meter {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 55px;
+  z-index: -1;
+}
+.button_strength {
+  color: var(--text-color);
+  margin-top: 40px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.strength_meter div {
+  width: 0%;
+  height: 55px;
+  text-align: right;
+  line-height: 43px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: var(--border-radius-2);
+}
+.strength_meter div p {
+  position: absolute;
+  top: 56px;
+  right: 0px;
+  font-size: 13px;
+}
+.veryweak {
+  background-color: #dd7272;
+  border-color: #f04040 !important;
+  width: 25% !important;
+}
+.weak {
+  background-color: #ffb78c;
+  border-color: #ff853c !important;
+  width: 50% !important;
+}
+.medium {
+  background-color: #dac663;
+  border-color: #fc0 !important;
+  width: 75% !important;
+}
+.strong {
+  background-color: #82d92b;
+  border-color: #8dff1c !important;
+  width: 100% !important;
+}
+
+/* CYBERSECURITY END */
+.gallery span:before,
+.gallery span {
+  text-align: center;
+}
+.gallery span:before,
+.gallery span {
+  text-align: center;
+}
+.gallery #aland {
+  background-image: url(/img/2022-10-16-00978.jpg);
+}
+#aland .pathname-current:before,
+#aland h1:before,
+.gallery #aland span:before {
+  content: "Åland";
+}
+.gallery #vestkystruten {
+  background-image: url(/img/2022-07-26-00855.jpg);
+}
+#vestkystruten .pathname-current:before,
+#vestkystruten h1:before,
+.gallery #vestkystruten span:before {
+  content: "Vestkystruten";
+}
+/* BLOG END */
 /* ABOUT START */
 
 #about .intro-section {
@@ -1267,15 +1519,23 @@ footer span {
     opacity: 1;
     transform: translateY(0);
   }
+  .grid-container.seventy-thirty {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .grid-container.seventy-thirty .grid-item:nth-child(even) {
+    text-align: right;
+  }
 }
 @media only screen and (max-width: 500px) {
   .contact-form-section .contact-form .grid-item:nth-child(even),
   .contact-form-section .contact-form .grid-item:nth-child(odd),
-  .services-grid .grid-item:nth-child(even),
-  .services-grid .grid-item:nth-child(odd) {
+  .grid-container.seventy-thirty .grid-item:nth-child(even),
+  .grid-container.seventy-thirty .grid-item:nth-child(odd) {
     margin: 0rem;
   }
-  .grid-container.contact-form {
+  .grid-container.contact-form,
+  .grid-container.seventy-thirty {
     display: flex;
     flex-direction: column;
   }
@@ -1345,7 +1605,8 @@ footer span {
   #visuals .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .pathname-container {
+  .blog-item h1,
+  .noindex .pathname-container {
     margin-top: 4rem;
   }
   .intro-section {
