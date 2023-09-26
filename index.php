@@ -497,10 +497,11 @@
               </div>
             </form>
           </section>
+          <hr class="reveal" />
         </section>
       </article>
       <!-- BOOK US END -->
-
+   
       <!-- ABOUT START -->
       <article id="about">
         <div class="intro-section-wrapper reveal">
@@ -2382,10 +2383,9 @@
             <hr class="reveal" />
             <a
               id="tag-guide"
-              href="/assets/tag-guide.zip"
+              href="/assets/tag-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download=""
             >
               <div class="btn-area flex-center reveal">
                 <button id="btn">GET OUR TAG GUIDE</button>
