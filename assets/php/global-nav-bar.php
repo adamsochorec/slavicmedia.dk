@@ -2,7 +2,7 @@
   <div class="blur">
     <div class="container">
       <nav id="navigation">
-        <a href="<?php echo $is_danish ? '/dk' : '/' ?>">
+        <a href="<?php echo $is_danish ? '/da' : '/' ?>">
           <img class="logo" alt="Slavic Media logo" src="/img/logo.png" />
         </a>
         <a aria-label="mobile menu" class="hamburger">
@@ -27,7 +27,7 @@
             >
           </li>-->
           <li>
-            <a href="<?php echo $is_danish ? '/' : '/dk' ?>"
+            <a href="<?php echo $is_danish ? '/' : '/da' ?>"
               ><?php echo $is_danish ? 'EN' : 'DK' ?></a
             >
           </li>

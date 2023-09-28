@@ -30,7 +30,7 @@
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
           <div class="explore">
-            <a href="/#visual">
+            <a href="/da#visual">
               <p>UDFORSK VORES PORTEFØLJE</p>
               <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
