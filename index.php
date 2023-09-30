@@ -5,14 +5,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta
-      name="description"
-      content="Unleash the magic of Slavic Media, the dynamic duo from Czechia and Slovakia, as we masterfully weave our skills into every project. From capturing heartfelt moments to producing corporate videos in Kolding, Denmark, we've got you covered!"
-    />
-    <meta
-      name="keywords"
-      content="Event Videography, Wedding Videography, Commercial Photography, Portrait Photography, Kolding Photographers, Kolding Videographers, Denmark Media Services, Professional Photography, Professional Videography, Branding Services, Content Creation, Multimedia Production, Digital Marketing, Social Media Content, Creative Agency Kolding, Multimedia Design, Promotional Videos, Documentary Filmmaking, Music Videos, Sports Videography, Lifestyle Photography"
-    />
+    <meta name="description" content="<?php echo $lang['meta_desc'] ?>" />
+    <meta name="keywords" content="<?php echo $lang['meta_keywords'] ?>" />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -30,13 +24,11 @@
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
           <div class="explore">
-            <a href="/#visual">
-              <p>EXPLORE OUR PORTOFLIO</p>
-              <?php
+            <p><?php echo $lang['explore'] ?></p>
+            <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
-              ?></a
-            >
+              ?>
           </div>
         </section>
 
@@ -44,7 +36,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/cover-husetfundament.jpg"
-              alt="Showreel of cultural volunteer-driven organisation"
+              alt="<?php echo $lang['husetfundament_desc'] ?>."
             />
             <div class="gallery-item-caption">
               <!--<div>-->
@@ -61,7 +53,7 @@
                 </svg>
               </h2>
               <p>
-                Showreel of cultural volunteer organisation &#8250;<br /><br /><a
+                <?php echo $lang['husetfundament_desc'] ?>&#8250;<br /><br /><a
                   >husetfundament.dk</a
                 >
               </p>
@@ -76,7 +68,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/cover-repaireandremake.jpg"
-              alt="Event video of a festival focused on reusing old things and sustainability in general."
+              alt="<?php echo $lang['repaireandremake_title'] ?>."
             />
             <div class="gallery-item-caption">
               <!--<div>-->
@@ -93,8 +85,7 @@
                 </svg>
               </h2>
               <p>
-                Event video of a festival focused on reusing old things and
-                sustainability in general &#8250;<br /><br /><a
+                <?php echo $lang['repaireandremake_desc'] ?>&#8250;<br /><br /><a
                   >nicolaikultur.dk</a
                 >
               </p>
@@ -110,12 +101,12 @@
             <img
               src="/img/cover-parkourtabor.jpg"
               class="north-cascades-img"
-              alt="Slovak parkour summer camp showcase in the heart of Tatras"
+              alt="<?php echo $lang['parkourschool_title'] ?>."
             />
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>
-                Parkour School
+                <?php echo $lang['parkourschool_title'] ?>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   id="videoplay"
@@ -127,8 +118,9 @@
                 </svg>
               </h2>
               <p>
-                Slovak parkour summer camp showcase in the heart of Tatras
-                &#8250;<br /><br /><a>parkourskola.sk</a>
+                <?php echo $lang['parkourschool_desc'] ?>&#8250;<br /><br /><a
+                  >parkourskola.sk</a
+                >
               </p>
               <!--</div>-->
               <a
@@ -139,11 +131,14 @@
           </div>
 
           <div class="gallery-item reveal">
-            <img src="/img/cover-halloweenparty.jpg" alt="Afterparty reel" />
+            <img
+              src="/img/cover-halloweenparty.jpg"
+              alt="<?php echo $lang['haloween_desc'] ?>."
+            />
             <div class="gallery-item-caption">
               <!--<div>-->
               <h2>
-                Halloween Party
+                <?php echo $lang['haloween_title'] ?>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   id="videoplay"
@@ -154,7 +149,11 @@
                   />
                 </svg>
               </h2>
-              <p>Afterparty reel &#8250;<br /><br /><a>tribemedia.dk</a></p>
+              <p>
+                <?php echo $lang['haloween_desc'] ?>&#8250;<br /><br /><a
+                  >tribemedia.dk</a
+                >
+              </p>
               <!--</div>-->
               <a
                 class="vimeo-popup"
@@ -165,7 +164,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/cover-bygning5.jpg"
-              alt="Interview documentary of a public cultural house in Kolding"
+              alt="<?php echo $lang['bygning_desc'] ?>."
             />
             <div class="gallery-item-caption">
               <!--<div>-->
@@ -182,8 +181,9 @@
                 </svg>
               </h2>
               <p>
-                Interview documentary of a public cultural house in Kolding
-                &#8250;<br /><br /><a>bygning5.dk</a>
+                <?php echo $lang['bygning_desc'] ?>&#8250;<br /><br /><a
+                  >bygning5.dk</a
+                >
               </p>
               <!--</div>-->
               <a
@@ -195,7 +195,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/cover-samso.jpg"
-              alt="Short artistic film featuring drone-captured footage"
+              alt="<?php echo $lang['samso_desc'] ?>."
             />
             <div class="gallery-item-caption">
               <!--<div>-->
@@ -211,9 +211,7 @@
                   />
                 </svg>
               </h2>
-              <p>
-                Short artistic film featuring drone-captured footage &#8250;
-              </p>
+              <p><?php echo $lang['samso_desc'] ?>&#8250;</p>
               <!--</div>-->
               <a
                 class="vimeo-popup"
@@ -226,167 +224,167 @@
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-22-00624.jpg"
-              alt="Portrait of a girl in a black shirt taken in a studio."
+              alt="<?php echo $lang['photo_1'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2021-06-21-01188.jpg"
-              alt="Group of women sitting together at Slovo 21 workshop."
+              alt="<?php echo $lang['photo_2'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2021-06-21-01194.jpg"
-              alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+              alt="<?php echo $lang['photo_3'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2022-02-10-00118.jpg"
-              alt="Group of laughing women sitting together at IBA Kolding."
+              alt="<?php echo $lang['photo_4'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-02-10-00116.jpg"
-              alt="Portrait of a woman smiling at IBA Kolding"
+              alt="<?php echo $lang['photo_5'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2021-11-13-02059.jpg"
-              alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+              alt="<?php echo $lang['photo_6'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2021-06-24-01208.jpg"
-              alt="Male and female actors standing next to each other at Divaldo Disk scene."
+              alt="<?php echo $lang['photo_7'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2021-06-24-01233.jpg"
-              alt="Studio portrait of a woman with a hat at Divadlo Disk."
+              alt="<?php echo $lang['photo_8'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2021-04-25-00693.jpg"
-              alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
+              alt="<?php echo $lang['photo_9'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2021-04-14-00608.jpg"
-              alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+              alt="<?php echo $lang['photo_10'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-24-00671.jpg"
-              alt="Still life portrait of an elderly woman sitting at a table with a cup and saucer, taken at Divadlo Na Vinohradech."
+              alt="<?php echo $lang['photo_11'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2021-05-16-00786.jpg"
-              alt="Man surrounded by bottles smoking a cigarette at Divadlo Na Vinohradech."
+              alt="<?php echo $lang['photo_12'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-13-00583.jpg"
-              alt="Otakar Brousek ml. smiling with painted face in jungle background the Divadlo Na Vinohradech."
+              alt="<?php echo $lang['photo_13'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2023-02-10-08468.jpg"
-              alt="Portrait from a concert of a rocker with black-painted face at a concert in Pistop, Kolding."
+              alt="<?php echo $lang['photo_14'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-05-06-00394.jpg"
-              alt="Group of men standing together at a rave party in Råværket, Kolding."
+              alt="<?php echo $lang['photo_15'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2023-02-10-08461.jpg"
-              alt="Aperly High standing on a stage holding a microphone at a concert in Pistop, Kolding."
+              alt="<?php echo $lang['photo_16'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-05-06-00360.jpg"
-              alt="Couple of DJs standing on a stage in front of a mixing board at a rave party in Råværket, Kolding."
+              alt="<?php echo $lang['photo_17'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2023-02-10-08469.jpg"
-              alt="Portrait from a concert of a rocker girl waving with her hand at a concert in Pistop, Kolding."
+              alt="<?php echo $lang['photo_18'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2022-06-28-00708.jpg"
-              alt="Woman holding a microphone in front of a crowd at Roskilde Festival."
+              alt="<?php echo $lang['photo_19'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-06-30-00748.jpg"
-              alt="Kim Kim singing at Roskilde Festival."
+              alt="<?php echo $lang['photo_20'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2022-06-24-00534.jpg"
-              alt="Freshly married couple running out of a Kolding City Hall with flowers."
+              alt="<?php echo $lang['photo_21'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-06-11-00458.jpg"
-              alt="Wedding couple walking down the aisle."
+              alt="<?php echo $lang['photo_22'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2022-06-18-00518.jpg"
-              alt="Group of older couples kissing at a wedding in Kolding."
+              alt="<?php echo $lang['photo_23'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="Man doing a handstand in front of a group of kids at Parkour Škola camp."
+              alt="<?php echo $lang['photo_24'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
-              alt="Man doing a somersault in front of a group of kids at Parkour Škola camp."
+              alt="<?php echo $lang['photo_25'] ?>."
             />
           </div>
 
           <div class="h-stretch hidePhoto reveal">
             <img
               src="/img/22120791749078.jpg"
-              alt="Boy looking down from a moutain towards a sunset."
+              alt="<?php echo $lang['photo_26'] ?>."
             />
           </div>
 
@@ -400,7 +398,7 @@
         <section class="wrapper-standard">
           <div id="bookus"></div>
           <section class="contact-form-section">
-            <h1 class="reveal">BOOK US</h1>
+            <h1 class="reveal"><?php echo $lang['contact'] ?></h1>
             <form
               id="contactForm"
               onclick="loading()"
@@ -411,7 +409,9 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="challenge"> Current Business Challenge</label>
+                  <label for="challenge">
+                    <?php echo $lang['challenge'] ?>
+                  </label>
                 </p>
                 <input
                   type="text"
@@ -434,7 +434,12 @@
                   />
                   <br /><br />
 
-                  <p><label for="company"> Company * </label></p>
+                  <p>
+                    <label for="company">
+                      <?php echo $lang['company'] ?>
+                      *
+                    </label>
+                  </p>
                   <input
                     type="text"
                     id="company"
@@ -445,7 +450,12 @@
                   <br /><br />
                 </div>
                 <div class="grid-item reveal">
-                  <p><label for="fullName"> Full Name * </label></p>
+                  <p>
+                    <label for="fullName">
+                      <?php echo $lang['fullName'] ?>
+                      *
+                    </label>
+                  </p>
                   <input
                     type="text"
                     id="fullName"
@@ -455,7 +465,12 @@
                     autocomplete="name"
                   />
                   <br /><br />
-                  <p><label for="budget"> Budget * </label></p>
+                  <p>
+                    <label for="budget">
+                      <?php echo $lang['budget'] ?>
+                      *
+                    </label>
+                  </p>
                   <input
                     type="text"
                     required
@@ -467,7 +482,12 @@
                 </div>
               </div>
               <div class="reveal">
-                <p><label for="message"> Message * </label></p>
+                <p>
+                  <label for="message">
+                    <?php echo $lang['message'] ?>
+                    *
+                  </label>
+                </p>
                 <textarea
                   minlength="10"
                   name="Message"
@@ -479,7 +499,7 @@
                 <br /><br />
                 <div class="btn-area flex-center">
                   <button id="btn" class="submit-btn" type="submit">
-                    SUBMIT FORM
+                    <?php echo $lang['submit'] ?>
                   </button>
                   <div class="btn-shadow"></div>
                 </div>
@@ -491,23 +511,22 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://slavicmedia.dk/success"
+                  value="https://slavicmedia.dk/?"
                 />
                 <!-- Redirect to the success page -->
               </div>
             </form>
           </section>
-          <hr class="reveal" />
         </section>
       </article>
       <!-- BOOK US END -->
-   
+
       <!-- ABOUT START -->
       <article id="about">
         <div class="intro-section-wrapper reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
-              <h1 class="reveal">ABOUT</h1>
+              <h1 class="reveal"><?php echo $lang['about'] ?></h1>
               <div></div>
             </div>
           </div>
@@ -515,14 +534,11 @@
         <section class="wrapper-standard">
           <br />
           <p class="profile-info reveal">
-            At Slavic Media, we're more than just two guys from the Czechia 🇨🇿
-            and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia
-            wizards seeking independence.
+            <?php echo $lang['desc_1'] ?>
           </p>
           <p class="reveal">
-            Operating in the heart of Denmark, in the culturally vibrant town of
-            Kolding, we've spent more time behind a camera lens than in our
-            lectures at the
+            <?php echo $lang['desc_2'] ?>
+
             <a
               href="https://www.iba.dk"
               target="_blank"
@@ -531,28 +547,24 @@
             >.
           </p>
           <p class="reveal">
-            From capturing your grandmother's 80th birthday to producing that
-            corporate video your boss has been nagging you about, we've got you
-            covered.
+            <?php echo $lang['desc_3'] ?>
           </p>
           <p class="reveal">
-            We've mastered the art of photo and video services, and we're ready
-            to sprinkle a bit of our Slavic magic on your project 😎
+            <?php echo $lang['desc_4'] ?>
           </p>
           <hr class="reveal" />
 
           <section class="grid-container skills-section">
             <div class="grid-item">
               <div>
-                <img
-                  src="/img/2022-04-24-07404.jpg"
-                  alt="Portrait of Marcel Hájik"
-                  class="reveal"
-                />
+                <img src="/img/2022-04-24-07404.jpg" alt="." class="reveal" />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik</h4>
-                  <h5 class="reveal">Co-founder 🇸🇰</h5>
+                  <h5 class="reveal">
+                    <?php echo $lang['cofounder'] ?>
+                    🇸🇰
+                  </h5>
                   <p class="reveal">
                     <a href="tel:+4552812304">+45 52 81 23 04</a>
                   </p>
@@ -616,31 +628,33 @@
                 </section>
                 <br />
                 <div class="reveal">
-                  <p>English</p>
+                  <p><?php echo $lang['marcel_skill_1'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Editing & Post-production</p>
+                  <p>
+                    <?php echo $lang['marcel_skill_2'] ?>
+                  </p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Video-production</p>
+                  <p><?php echo $lang['marcel_skill_3'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Animations</p>
+                  <p><?php echo $lang['marcel_skill_4'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Climbing</p>
+                  <p><?php echo $lang['marcel_skill_5'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
@@ -651,13 +665,16 @@
               <div>
                 <img
                   src="/img/2022-04-24-07426.jpg"
-                  alt="Portrait of Adam Sochorec"
+                  alt="<?php echo $lang['adam_photo'] ?>"
                   class="reveal"
                 />
                 <div class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec</h4>
-                  <h5 class="reveal">Co-founder 🇨🇿</h5>
+                  <h5 class="reveal">
+                    <?php echo $lang['cofounder'] ?>
+                    🇨🇿
+                  </h5>
                   <p class="reveal">
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
                   </p>
@@ -725,32 +742,34 @@
                 </div>
                 <br />
                 <div class="reveal">
-                  <p>English</p>
+                  <p><?php echo $lang['adam_skill_1'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Editing & Post-production</p>
+                  <p>
+                    <?php echo $lang['adam_skill_2'] ?>
+                  </p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Photography</p>
+                  <p><?php echo $lang['adam_skill_3'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </div>
 
                 <div class="reveal">
-                  <p>Web Development</p>
+                  <p><?php echo $lang['adam_skill_4'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p>Danish</p>
+                  <p><?php echo $lang['adam_skill_5'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
                   </div>
@@ -760,8 +779,9 @@
           </section>
           <section>
             <hr class="reveal" />
-            <h2 class="reveal">Collaborators & Clients</h2>
-
+            <h2 class="reveal">
+              <?php echo $lang['clients'] ?>
+            </h2>
             <svg
               class="reveal"
               version="1.1"
@@ -2388,7 +2408,7 @@
               rel="noopener noreferrer"
             >
               <div class="btn-area flex-center reveal">
-                <button id="btn">GET OUR TAG GUIDE</button>
+                <button id="btn"><?php echo $lang['guide'] ?></button>
                 <div class="btn-shadow"></div></div
             ></a>
           </section>

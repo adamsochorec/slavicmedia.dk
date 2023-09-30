@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang['language'] ?>">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -29,7 +29,10 @@
         </div>
         <h1>The page you’re looking<br />for can’t be found.</h1>
         <h2>
-          <a href="http://slavicmedia.dk">Return to the homepage &#8250; </a>
+          <a href="http://slavicmedia.dk"
+            ><?php echo $lang['return'] ?>
+            &#8250;
+          </a>
         </h2>
       </article>
     </main>

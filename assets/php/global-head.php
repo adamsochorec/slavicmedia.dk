@@ -1,3 +1,4 @@
+<?php include "assets/php/config.php"; ?>
 <meta charset="UTF-8" >
 <meta name="author" content="Slavic Media" >
 <meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -8,7 +9,3 @@ rel="stylesheet"
 href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
 />
 <link rel="stylesheet" href="/assets/style.css" >
-<?php
-  $current_url = $_SERVER['REQUEST_URI'];
-  $is_danish = strpos($current_url, '/da') !== false;
-?>

@@ -7,14 +7,17 @@ ErrorDocument 403 /404.php
 # Default index
 DirectoryIndex index.php
 
-# disable directory listing and MultiViews
-Options +FollowSymLinks -MultiViews -Indexes
+RewriteEngine On
+RewriteBase /
 
-# disable automatic addition of trailing / after a directory
-DirectorySlash Off
+# Redirect URLs with ?lang=en to /en/
+RewriteCond %{QUERY_STRING} ^lang=([^&]+)$ [NC]
+RewriteRule ^$ /%1/? [R=301,L]
 
-RewriteEngine on
+# Rewrite /en/ to ?lang=en
+RewriteRule ^([a-z]{2})/$ /?lang=$1 [QSA,L]
 
 # add .php extension 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]
+

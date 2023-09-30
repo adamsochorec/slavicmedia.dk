@@ -5,7 +5,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <title>Success | Slavic Media</title>
+    <title><?php echo $lang['success_title'] ?> | Slavic Media</title>
   </head>
   <body id="success" class="noindex">
     <?php
@@ -27,9 +27,14 @@
           ></dotlottie-player>
         </div>
         <br />
-        <h1>Form submitted<br />successfully!</h1>
+        <h1>
+          <?php echo $lang['successmessage'] ?>
+        </h1>
         <h2>
-          <a href="/">Return to the homepage &#8250; </a>
+          <a href="/">
+            <?php echo $lang['return'] ?>
+            &#8250;
+          </a>
         </h2>
       </article>
     </main>

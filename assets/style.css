@@ -972,14 +972,6 @@ footer span {
   letter-spacing: var(--letter-spacing-2);
   font-size: calc(var(--fontsize-p) * 0.8);
 }
-.showcase .explore:hover {
-  opacity: 100%;
-}
-.showcase .explore,
-.showcase .explore:hover {
-  transition: var(--transition-3);
-  -webkit-transition: var(--transition-3);
-}
 .video-container {
   position: absolute;
   top: 0;
