@@ -396,7 +396,7 @@
       <!-- BOOK US START -->
       <article>
         <section class="wrapper-standard">
-          <div id="bookus"></div>
+          <div id="contact"></div>
           <section class="contact-form-section">
             <h1 class="reveal"><?php echo $lang['contact'] ?></h1>
             <form
@@ -409,14 +409,15 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="challenge">
-                    <?php echo $lang['challenge'] ?>
+                  <label for="subject">
+                    <?php echo $lang['subject'] ?>*
                   </label>
                 </p>
                 <input
                   type="text"
-                  id="challenge"
+                  id="subject"
                   name="_subject"
+                  required
                   placeholder=""
                 />
                 <br /><br />
@@ -437,14 +438,13 @@
                   <p>
                     <label for="company">
                       <?php echo $lang['company'] ?>
-                      *
+                      
                     </label>
                   </p>
                   <input
                     type="text"
                     id="company"
                     name="Company"
-                    required
                     placeholder=""
                   />
                   <br /><br />
@@ -468,12 +468,11 @@
                   <p>
                     <label for="budget">
                       <?php echo $lang['budget'] ?>
-                      *
+                      
                     </label>
                   </p>
                   <input
                     type="text"
-                    required
                     id="budget"
                     name="Budget"
                     placeholder=""
@@ -511,7 +510,7 @@
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://slavicmedia.dk/?"
+                  value="https://slavicmedia.dk/success"
                 />
                 <!-- Redirect to the success page -->
               </div>

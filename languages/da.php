@@ -1,6 +1,5 @@
 <?php
 $lang = array(
-    "meta_lang" => "da",
     "meta_desc" => "Udforsk magien ved Slavic Media, det dynamiske duo fra Tjekkiet og Slovakiet, som vi mesterligt væver vores færdigheder ind i hvert projekt. Fra at fange hjertevarme øjeblikke til at producere virksomhedsvideoer i Kolding, Danmark, har vi dig dækket!",
     "meta_keywords" => "Event Videografi, Bryllupsvideografi, Erhvervsfotografi, Portrætfotografi, Kolding Fotografer, Kolding Videografer, Danmark Medietjenester, Professionel Fotografi, Professionel Videografi, Brandingtjenester, Indholdsskabelse, Multimedieproduktion, Digital Marketing, Sociale medieindhold, Kreativt bureau Kolding, Multimediedesign, Promotionsvideoer, Dokumentarfilm, Musikvideoer, Sportsvideografi, Livsstilsfotografi",
     "about" => "OM OS",
@@ -14,7 +13,7 @@ $lang = array(
     "bygning_desc" => "Interviewdokumentar om et offentligt kulturhus i Kolding",
     "samso_desc" => "Kort kunstfilm med droneoptaget materiale",
     "contact" => "KONTAKT",
-    "challenge" => "Aktuel Forretningsudfordring",
+    "subject" => "Emne",
     "company" => "Firma",
     "fullName" => "Fulde Navn",
     "budget" => "Budget",

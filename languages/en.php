@@ -1,6 +1,5 @@
 <?php
 $lang = array(
-    "meta_lang" => "en",
     "meta_desc" => "Unleash the magic of Slavic Media, the dynamic duo from Czechia and Slovakia, as we masterfully weave our skills into every project. From capturing heartfelt moments to producing corporate videos in Kolding, Denmark, we've got you covered!",
     "meta_keywords" => "Event Videography, Wedding Videography, Commercial Photography, Portrait Photography, Kolding Photographers, Kolding Videographers, Denmark Media Services, Professional Photography, Professional Videography, Branding Services, Content Creation, Multimedia Production, Digital Marketing, Social Media Content, Creative Agency Kolding, Multimedia Design, Promotional Videos, Documentary Filmmaking, Music Videos, Sports Videography, Lifestyle Photography",
     "about" => "ABOUT",
@@ -14,7 +13,7 @@ $lang = array(
     "bygning_desc" => "Interview documentary of a public cultural house in Kolding",
     "samso_desc" => "Short artistic film featuring drone-captured footage",
     "contact" => "CONTACT",
-    "challenge" => "Current Business Challenge",
+    "subject" => "Subject",
     "company" => "Company",
     "fullName" => "Full Name",
     "budget" => "Budget",
