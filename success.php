@@ -31,8 +31,12 @@
           <?php echo $lang['successmessage'] ?>
         </h1>
         <h2>
-          <a href="/">
-            <?php echo $lang['return'] ?>
+          <a href="/<?php if($_SESSION['lang']=="da"){
+            echo '?lang=da"';
+          }
+          else if($_SESSION['lang']=="en"){
+            echo '?lang=en"';
+          } ?>">            <?php echo $lang['return'] ?>
             &#8250;
           </a>
         </h2>

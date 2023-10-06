@@ -2,7 +2,12 @@
   <div class="blur">
     <div class="container">
       <nav id="navigation">
-        <a href="/">
+        <a href="/<?php if($_SESSION['lang']=="da"){
+          echo '?lang=da"';
+        }
+        else if($_SESSION['lang']=="en"){
+          echo '?lang=en"';
+        } ?>">
           <img class="logo" alt="Logo Slavic Media" src="/img/logo.png" />
         </a>
         <a aria-label="mobile menu" class="hamburger">
