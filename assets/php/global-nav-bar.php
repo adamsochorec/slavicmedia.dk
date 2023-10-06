@@ -17,10 +17,12 @@
             <a href="#about"><?php echo $lang['about'] ?></a>
           </li>
           <li>
-            <a href="/?lang=da">DA</a>
-          </li>
-          <li>
-            <a href="/?lang=en">EN</a>
+            <?php if($_SESSION['lang']=="da"){
+              echo '<a href="/?lang=en">EN</a>';
+            }
+            else if($_SESSION['lang']=="en"){
+              echo '<a href="/?lang=da">DA</a>';
+            } ?>
           </li>
         </ul>
       </nav>

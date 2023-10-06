@@ -1369,7 +1369,7 @@ footer span {
   padding: 0;
 }
 #about .grid-item img {
-  border-radius: 10%;
+  border-radius: var(--border-radius-3);
   box-shadow: var(--box-shadow-1);
 }
 .grid-container p {

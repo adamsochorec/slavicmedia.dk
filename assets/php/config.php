@@ -9,7 +9,6 @@ if (!isset($_SESSION['lang'])) {
 } else if (isset($_GET['lang']) && in_array($_GET['lang'], $supportedLanguages)) {
     $_SESSION['lang'] = $_GET['lang'];
 }
-
 // Ensure the requested language file exists before requiring it
 $languageFile = "languages/" . $_SESSION['lang'] . ".php";
 if (file_exists($languageFile)) {

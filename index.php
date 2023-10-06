@@ -409,9 +409,7 @@
             >
               <div class="reveal">
                 <p>
-                  <label for="subject">
-                    <?php echo $lang['subject'] ?>*
-                  </label>
+                  <label for="subject"> <?php echo $lang['subject'] ?>* </label>
                 </p>
                 <input
                   type="text"
@@ -438,7 +436,6 @@
                   <p>
                     <label for="company">
                       <?php echo $lang['company'] ?>
-                      
                     </label>
                   </p>
                   <input
@@ -468,15 +465,9 @@
                   <p>
                     <label for="budget">
                       <?php echo $lang['budget'] ?>
-                      
                     </label>
                   </p>
-                  <input
-                    type="text"
-                    id="budget"
-                    name="Budget"
-                    placeholder=""
-                  />
+                  <input type="text" id="budget" name="Budget" placeholder="" />
                   <br /><br />
                 </div>
               </div>
@@ -505,12 +496,12 @@
                 <input
                   type="hidden"
                   name="_captcha"
-                  value="false"
+                  value="true"
                 /><!-- Spam captcha deactivation -->
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://slavicmedia.dk/success"
+                  value="https://slavicmedia.dk/success?lang=<?php echo $_SESSION['lang'];?>"
                 />
                 <!-- Redirect to the success page -->
               </div>
