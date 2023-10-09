@@ -550,10 +550,9 @@
                 <img src="/img/2022-04-24-07404.jpg" alt="." class="reveal" />
                 <section class="profile">
                   <br />
-                  <h4 class="reveal">Marcel Hájik</h4>
+                  <h4 class="reveal">Marcel Hájik 🇸🇰</h4>
                   <h5 class="reveal">
-                    <?php echo $lang['cofounder'] ?>
-                    🇸🇰
+                    <?php echo $lang['marcel-title'] ?>
                   </h5>
                   <p class="reveal">
                     <a href="tel:+4552812304">+45 52 81 23 04</a>
@@ -660,10 +659,9 @@
                 />
                 <div class="profile">
                   <br />
-                  <h4 class="reveal">Adam Sochorec</h4>
+                  <h4 class="reveal">Adam Sochorec 🇨🇿</h4>
                   <h5 class="reveal">
-                    <?php echo $lang['cofounder'] ?>
-                    🇨🇿
+                    <?php echo $lang['adam-title'] ?>
                   </h5>
                   <p class="reveal">
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
