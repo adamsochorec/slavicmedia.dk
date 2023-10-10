@@ -34,7 +34,7 @@
           }
           else if($_SESSION['lang']=="en"){
             echo '?lang=en"';
-          } ?>"><?php echo $lang['return'] ?>
+          } ?>">Return to the homepage
             &#8250;
           </a>
         </h2>
