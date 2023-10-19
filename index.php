@@ -1,3 +1,4 @@
+<?php include 'assets/php/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -2390,10 +2391,12 @@
             </svg>
             <hr class="reveal" />
             <a
-              id="tag-guide"
-              href="/assets/tag-guide.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/press<?php if($_SESSION['lang']=='da'){
+        echo '?lang=da';
+      }
+      else if($_SESSION['lang']=='en'){
+        echo '?lang=en';
+      } ?>'"
             >
               <div class="btn-area flex-center reveal">
                 <button id="btn"><?php echo $lang['guide'] ?></button>

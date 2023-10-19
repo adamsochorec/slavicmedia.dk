@@ -1,6 +1,6 @@
 <?php
-$lang = array(
-    "meta_desc" => "Udforsk magien ved Slavic Media, det dynamiske duo fra Tjekkiet og Slovakiet, som vi mesterligt væver vores færdigheder ind i hvert projekt. Fra at fange hjertevarme øjeblikke til at producere virksomhedsvideoer i Kolding, Danmark, har vi dig dækket!",
+$lang = [
+    "meta_desc" => "Udforsk magien ved Slavic Media, det dynamiske duo fra Tjekkiet og Slovakiet, som vi mesterligt væver vores færdigheder ind i hvert projekt. Fra at fange hjertevarme øjeblikke til at producere virksomhedsvideoer i Kolding, Danmark, har vi dig rdækket!",
     "meta_keywords" => "Event Videografi, Bryllupsvideografi, Erhvervsfotografi, Portrætfotografi, Kolding Fotografer, Kolding Videografer, Danmark Medietjenester, Professionel Fotografi, Professionel Videografi, Brandingtjenester, Indholdsskabelse, Multimedieproduktion, Digital Marketing, Sociale medieindhold, Kreativt bureau Kolding, Multimediedesign, Promotionsvideoer, Dokumentarfilm, Musikvideoer, Sportsvideografi, Livsstilsfotografi",
     "about" => "OM OS",
     "explore" => "UDFORSK VORES PORTFOLIO",
@@ -12,6 +12,8 @@ $lang = array(
     "haloween_desc" => "Efterfest reel",
     "bygning_desc" => "Interviewdokumentar om et offentligt kulturhus i Kolding",
     "samso_desc" => "Kort kunstfilm med droneoptaget materiale",
+    "expeditiondenmark_title" => "Ekspedition Danmark",
+    "expeditiondenmark_desc" => "Kom med på vores cykelrejse fra det helt sydlige til det helt nordlige Danmark.",
     "contact" => "KONTAKT",
     "subject" => "Emne",
     "company" => "Firma",
@@ -38,7 +40,7 @@ $lang = array(
     "adam_skill_4" => "Webudvikling",
     "adam_skill_5" => "Dansk",
     "clients" => "Samarbejdspartnere & Kunder",
-    "guide" => "FÅ VORES MÆRKAT GUIDE",
+    "guide" => "PRESSEMATERIALE",
     "success_title" => "Formular indsendt succesfuldt!",
     "successmessage" => "Formular indsendt<br />succesfuldt!",
     "return" => "Gå tilbage til startsiden",
@@ -68,5 +70,14 @@ $lang = array(
     "photo_24" => "Mand laver en håndstand foran en gruppe børn på Parkour Škola-lejren",
     "photo_25" => "Mand laver en vejrmølle foran en gruppe børn på Parkour Škola-lejren",
     "photo_26" => "Dreng kigger ned fra et bjerg mod en solnedgang",
-);
+    "brandingguide_title" => "Brandingsguide",
+    "brandingguide_desc" => "En brandingsguide fastsætter de visuelle og stilistiske standarder for et firma's brand og sikrer konsistens i logoer, farver, skrifter og design.",
+    "creditguide_title" => "Kredit Guide",
+    "creditguide_desc" => "En kredit guide beskriver, hvordan man tagger og giver kredit til Slavic Media på sociale medier og for vores arbejde.",
+    "presskit_title" => "Pressemappe",
+    "presskit_desc" => "En pressemappe er en pakke med markedsføringsmaterialer, der gives til medierne for at introducere en virksomhed eller person, herunder pressemeddelelser, billeder og relevant information.",
+    "download" => "Download",
+    "preview" => "Forhåndsvise",
+    "press" => "PRESSE"
+];
 ?>

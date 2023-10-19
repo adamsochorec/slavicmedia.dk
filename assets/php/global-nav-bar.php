@@ -2,12 +2,14 @@
   <div class="blur">
     <div class="container">
       <nav id="navigation">
-        <a href="/<?php if($_SESSION['lang']=="da"){
-          echo '?lang=da"';
+        <a
+          href="/<?php if($_SESSION['lang']=='da'){
+          echo '?lang=da';
         }
-        else if($_SESSION['lang']=="en"){
-          echo '?lang=en"';
-        } ?>">
+        else if($_SESSION['lang']=='en'){
+          echo '?lang=en';
+        } ?>"
+        >
           <img class="logo" alt="Logo Slavic Media" src="/img/logo.png" />
         </a>
         <a aria-label="mobile menu" class="hamburger">
@@ -16,18 +18,50 @@
         </a>
         <ul class="menu-left">
           <li>
-            <a href="#contact"><?php echo $lang['contact'] ?></a>
+            <a
+              href="/<?php if($_SESSION['lang']=='da'){
+          echo '?lang=da';
+        }
+        else if($_SESSION['lang']=='en'){
+          echo '?lang=en';
+        } ?>'#contact"
+              ><?php echo $lang['contact'] ?></a
+            >
           </li>
           <li>
-            <a href="#about"><?php echo $lang['about'] ?></a>
+            <a
+              href="/<?php if($_SESSION['lang']=='da'){
+        echo '?lang=da';
+      }
+      else if($_SESSION['lang']=='en'){
+        echo '?lang=en';
+      } ?>'#about"
+              ><?php echo $lang['about'] ?></a
+            >
           </li>
           <li>
-            <?php if($_SESSION['lang']=="da"){
-              echo '<a href="/?lang=en">EN</a>';
+            <?php
+            $currentLang = $_SESSION['lang'];
+            $currentPage = $_SERVER['REQUEST_URI'];
+            
+            function createLanguageLink($lang) {
+                global $currentPage;
+                // Replace the existing lang parameter or add it to the query string
+                $newURL = preg_replace('/(\?|&)lang=[a-zA-Z]+/', '', $currentPage); // Remove the existing lang parameter
+                if (strpos($newURL, '?') === false) {
+                    $newURL .= '?lang=' . $lang;
+                } else {
+                    $newURL .= '&lang=' . $lang;
+                }
+                return $newURL;
             }
-            else if($_SESSION['lang']=="en"){
-              echo '<a href="/?lang=da">DA</a>';
-            } ?>
+            ?>
+
+            <?php if($currentLang == 'da'): ?>
+            <a href="<?php echo createLanguageLink('en'); ?>">EN</a>
+            <?php elseif($currentLang == "en"): ?>
+            <a href="<?php echo createLanguageLink('da'); ?>">DA</a>
+            <?php endif; ?>
           </li>
         </ul>
       </nav>

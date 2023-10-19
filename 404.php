@@ -1,5 +1,6 @@
+<?php include 'assets/php/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $lang['language'] ?>">
+<html lang="en">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';

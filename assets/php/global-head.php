@@ -1,4 +1,3 @@
-<?php include "config.php"; ?>
 <meta charset="UTF-8" >
 <meta name="author" content="Slavic Media" >
 <meta http-equiv="X-UA-Compatible" content="IE=edge" >

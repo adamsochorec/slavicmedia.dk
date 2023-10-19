@@ -1,5 +1,4 @@
-<?php
-session_start();
+<?php session_start();
 
 // Define a list of supported languages to avoid arbitrary file inclusion
 $supportedLanguages = ['en', 'da'];
