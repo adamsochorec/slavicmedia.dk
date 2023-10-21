@@ -18,27 +18,18 @@
         </a>
         <ul class="menu-left">
           <li>
-            <a
-              href="/<?php if($_SESSION['lang']=='da'){
-          echo '?lang=da';
-        }
-        else if($_SESSION['lang']=='en'){
-          echo '?lang=en';
-        } ?>'#contact"
-              ><?php echo $lang['contact'] ?></a
-            >
+            <a href="/#plans">PLANS</a>
           </li>
           <li>
-            <a
-              href="/<?php if($_SESSION['lang']=='da'){
-        echo '?lang=da';
-      }
-      else if($_SESSION['lang']=='en'){
-        echo '?lang=en';
-      } ?>'#about"
-              ><?php echo $lang['about'] ?></a
-            >
+            <a href="/portfolio">PORTFOLIO</a>
           </li>
+          <li>
+            <a href="/#contact">CONTACT</a>
+          </li>
+          <li>
+            <a href="/#about">ABOUT</a>
+          </li>
+
           <li>
             <?php
             $currentLang = $_SESSION['lang'];

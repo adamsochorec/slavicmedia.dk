@@ -33,484 +33,77 @@
           </div>
         </section>
 
-        <div id="visual" class="video-gallery">
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-husetfundament.jpg"
-              alt="<?php echo $lang['husetfundament_desc'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                Huset Fundament
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p>
-                <?php echo $lang['husetfundament_desc'] ?>&#8250;<br /><br /><a
-                  >husetfundament.dk</a
-                >
-              </p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
-              ></a>
-            </div>
+      <hr style="opacity: 0" />
+      <article class="wrapper-wide" id="company-intro">
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item">
+            <h4 class="highlited">Our story</h4>
+            <h2>We believe in capturing the best moments at your event</h2>
           </div>
-
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-repaireandremake.jpg"
-              alt="<?php echo $lang['repaireandremake_title'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                Repaire & Remake Festival
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p>
-                <?php echo $lang['repaireandremake_desc'] ?>&#8250;<br /><br /><a
-                  >nicolaikultur.dk</a
-                >
-              </p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
-              ></a>
-            </div>
-          </div>
-
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-parkourtabor.jpg"
-              class="north-cascades-img"
-              alt="<?php echo $lang['parkourschool_title'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                <?php echo $lang['parkourschool_title'] ?>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p>
-                <?php echo $lang['parkourschool_desc'] ?>&#8250;<br /><br /><a
-                  >parkourskola.sk</a
-                >
-              </p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
-              ></a>
-            </div>
-          </div>
-
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-halloweenparty.jpg"
-              alt="<?php echo $lang['haloween_desc'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                <?php echo $lang['haloween_title'] ?>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p>
-                <?php echo $lang['haloween_desc'] ?>&#8250;<br /><br /><a
-                  >tribemedia.dk</a
-                >
-              </p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/aVACZcA69r4?modestbranding=1"
-              ></a>
-            </div>
-          </div>
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-bygning5.jpg"
-              alt="<?php echo $lang['bygning_desc'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                Bygning 5
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p>
-                <?php echo $lang['bygning_desc'] ?>&#8250;<br /><br /><a
-                  >bygning5.dk</a
-                >
-              </p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
-              ></a>
-            </div>
-          </div>
-          <div class="gallery-item reveal">
-            <img
-              src="/img/cover-samso.jpg"
-              alt="<?php echo $lang['samso_desc'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <!--<div>-->
-              <h2>
-                Samsø
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  id="videoplay"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                  />
-                </svg>
-              </h2>
-              <p><?php echo $lang['samso_desc'] ?>&#8250;</p>
-              <!--</div>-->
-              <a
-                class="vimeo-popup"
-                href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
-              ></a>
-            </div>
+          <div class="grid-item">
+            <p>
+              We love working with our clients and capturing their moments. For
+              us, every second counts, so we have an eye for detail. We leave no
+              room for error. So you don’t have to worry about missing out on
+              precious moments. Just be at the scene we will capture each second
+              it. Our clients can choose from multiple sessions, and even
+              include add-ons depending on their event. We also provide
+              consultation before each session.
+            </p>
           </div>
         </div>
-        <div class="grid-container photo-grid">
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-22-00624.jpg"
-              alt="<?php echo $lang['photo_1'] ?>."
-            />
+        <hr />
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item">
+            <h4 class="highlited">Explore our services</h4>
+            <h2>Select from a wide range of multimedia services</h2>
           </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-06-21-01188.jpg"
-              alt="<?php echo $lang['photo_2'] ?>."
-            />
+          <div class="grid-item">
+            <p>
+              Curabitur varius viverra diam ac scelerisque. Nam quis elit vitae
+              libero luctus posuere. Morbi sit amet turpis gravida, scelerisque
+              risus quis, tincidunt felis. Sed.
+            </p>
           </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-06-21-01194.jpg"
-              alt="<?php echo $lang['photo_3'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-02-10-00118.jpg"
-              alt="<?php echo $lang['photo_4'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-02-10-00116.jpg"
-              alt="<?php echo $lang['photo_5'] ?>."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-11-13-02059.jpg"
-              alt="<?php echo $lang['photo_6'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-06-24-01208.jpg"
-              alt="<?php echo $lang['photo_7'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-06-24-01233.jpg"
-              alt="<?php echo $lang['photo_8'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-04-25-00693.jpg"
-              alt="<?php echo $lang['photo_9'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-04-14-00608.jpg"
-              alt="<?php echo $lang['photo_10'] ?>."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-24-00671.jpg"
-              alt="<?php echo $lang['photo_11'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-05-16-00786.jpg"
-              alt="<?php echo $lang['photo_12'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-13-00583.jpg"
-              alt="<?php echo $lang['photo_13'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2023-02-10-08468.jpg"
-              alt="<?php echo $lang['photo_14'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-05-06-00394.jpg"
-              alt="<?php echo $lang['photo_15'] ?>."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-02-10-08461.jpg"
-              alt="<?php echo $lang['photo_16'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-05-06-00360.jpg"
-              alt="<?php echo $lang['photo_17'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-02-10-08469.jpg"
-              alt="<?php echo $lang['photo_18'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-06-28-00708.jpg"
-              alt="<?php echo $lang['photo_19'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-06-30-00748.jpg"
-              alt="<?php echo $lang['photo_20'] ?>."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2022-06-24-00534.jpg"
-              alt="<?php echo $lang['photo_21'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-06-11-00458.jpg"
-              alt="<?php echo $lang['photo_22'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2022-06-18-00518.jpg"
-              alt="<?php echo $lang['photo_23'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/109909456_2867588020231536_6545430788383010042_o.jpg"
-              alt="<?php echo $lang['photo_24'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/116431110_2874499956207009_689238237833982380_o.jpg"
-              alt="<?php echo $lang['photo_25'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch hidePhoto reveal">
-            <img
-              src="/img/22120791749078.jpg"
-              alt="<?php echo $lang['photo_26'] ?>."
-            />
-          </div>
-
-          <div id="services"></div>
         </div>
+        <hr style="opacity: 0" />
+
+        <div class="grid-container gallery reveal">
+          <div>
+            <h2>Photo</h2>
+            <a href="/services/photo">
+              <div class="grid-item" id="first-product">
+                <div class="filter"></div>
+              </div>
+            </a>
+            <p><?php echo $lang['brandingguide_desc'] ?></p>
+          </div>
+          <div>
+            <h2>Video</h2>
+            <a href="/services/video">
+              <div class="grid-item" id="second-product">
+                <div class="filter"></div>
+              </div>
+            </a>
+            <p>
+              <?php echo $lang['creditguide_desc'] ?>
+            </p>
+          </div>
+          <div>
+            <h2>Graphic</h2>
+            <a href="/services/graphic">
+              <div class="grid-item" id="third-product">
+                <div class="filter"></div>
+              </div>
+            </a>
+            <p>
+              <?php echo $lang['presskit_desc'] ?>
+            </p>
+          </div>
+        </div>
+        <hr />
       </article>
       <!-- VISUALS END -->
-
-      <!-- BOOK US START -->
-      <article>
-        <section class="wrapper-standard">
-          <div id="contact"></div>
-          <section class="contact-form-section">
-            <h1 class="reveal"><?php echo $lang['contact'] ?></h1>
-            <form
-              id="contactForm"
-              onclick="loading()"
-              action="https://formsubmit.co/contact@slavicmedia.dk"
-              method="POST"
-              novalidate
-              enctype="multipart/form-data"
-            >
-              <div class="reveal">
-                <p>
-                  <label for="subject"> <?php echo $lang['subject'] ?>* </label>
-                </p>
-                <input
-                  type="text"
-                  id="subject"
-                  name="_subject"
-                  required
-                  placeholder=""
-                />
-                <br /><br />
-              </div>
-              <div class="grid-container contact-form">
-                <div class="grid-item reveal">
-                  <p><label for="email"> Email * </label></p>
-                  <input
-                    type="email"
-                    id="email"
-                    name="Email"
-                    placeholder=""
-                    required
-                    autocomplete="email"
-                  />
-                  <br /><br />
-
-                  <p>
-                    <label for="company">
-                      <?php echo $lang['company'] ?>
-                    </label>
-                  </p>
-                  <input
-                    type="text"
-                    id="company"
-                    name="Company"
-                    placeholder=""
-                  />
-                  <br /><br />
-                </div>
-                <div class="grid-item reveal">
-                  <p>
-                    <label for="fullName">
-                      <?php echo $lang['fullName'] ?>
-                      *
-                    </label>
-                  </p>
-                  <input
-                    type="text"
-                    id="fullName"
-                    required
-                    name="Full Name"
-                    placeholder=""
-                    autocomplete="name"
-                  />
-                  <br /><br />
-                  <p>
-                    <label for="budget">
-                      <?php echo $lang['budget'] ?>
-                    </label>
-                  </p>
-                  <input type="text" id="budget" name="Budget" placeholder="" />
-                  <br /><br />
-                </div>
-              </div>
-              <div class="reveal">
-                <p>
-                  <label for="message">
-                    <?php echo $lang['message'] ?>
-                    *
-                  </label>
-                </p>
-                <textarea
-                  minlength="10"
-                  name="Message"
-                  rows="7"
-                  required
-                  id="message"
-                  placeholder=""
-                ></textarea>
-                <br /><br />
-                <div class="btn-area flex-center">
-                  <button id="btn" class="submit-btn" type="submit">
-                    <?php echo $lang['submit'] ?>
-                  </button>
-                  <div class="btn-shadow"></div>
-                </div>
-                <input
-                  type="hidden"
-                  name="_captcha"
-                  value="true"
-                /><!-- Spam captcha deactivation -->
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://slavicmedia.dk/success?lang=<?php echo $_SESSION['lang'];?>"
-                />
-                <!-- Redirect to the success page -->
-              </div>
-            </form>
-          </section>
-        </section>
-      </article>
-      <!-- BOOK US END -->
 
       <!-- ABOUT START -->
       <article id="about">
@@ -2390,14 +1983,7 @@
               </a>
             </svg>
             <hr class="reveal" />
-            <a
-              href="/press<?php if($_SESSION['lang']=='da'){
-        echo '?lang=da';
-      }
-      else if($_SESSION['lang']=='en'){
-        echo '?lang=en';
-      } ?>'"
-            >
+            <a href="/pres">
               <div class="btn-area flex-center reveal">
                 <button id="btn"><?php echo $lang['guide'] ?></button>
                 <div class="btn-shadow"></div></div

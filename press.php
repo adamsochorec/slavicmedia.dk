@@ -65,9 +65,9 @@
           <div>
             <h2><?php echo $lang['presskit_title'] ?></h2>
             <a
-              href="/assets/press-kit.zip"
               target="_blank"
               rel="noopener noreferrer"
+              download="/assets/press-kit.zip"
             >
               <div class="grid-item" id="press-kit">
                 <div class="blur">
