@@ -1,3 +1,4 @@
+<?php include 'assets/php/config.php'; ?>
 <header>
   <div class="blur">
     <div class="container">
@@ -18,16 +19,19 @@
         </a>
         <ul class="menu-left">
           <li>
-            <a href="/#plans">PLANS</a>
+            <a href="/#<?php echo $lang['asset_101'] ?>"
+              ><?php echo $lang['asset_101'] ?></a
+            >
           </li>
           <li>
-            <a href="/portfolio">PORTFOLIO</a>
+            <a href="/<?php echo $lang['asset_102'] ?>"
+              ><?php echo $lang['asset_102'] ?></a
+            >
           </li>
           <li>
-            <a href="/#contact">CONTACT</a>
-          </li>
-          <li>
-            <a href="/#about">ABOUT</a>
+            <a href="/#<?php echo $lang['asset_103'] ?>"
+              ><?php echo $lang['asset_18'] ?></a
+            >
           </li>
 
           <li>

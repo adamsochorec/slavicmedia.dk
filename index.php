@@ -6,8 +6,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['meta_desc'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['meta_keywords'] ?>" />
+    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
+    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
     <title>Slavic Media</title>
   </head>
   <body id="homepage">
@@ -20,108 +20,243 @@
     <main>
       <!-- VISUALS START -->
       <article id="visuals">
+        <!-- INTRO VIDEO START -->
         <section class="showcase">
           <div class="video-container">
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
           <div class="explore">
-            <p><?php echo $lang['explore'] ?></p>
+            <p><?php echo $lang['asset_1'] ?></p>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
               ?>
           </div>
         </section>
+        <!-- INTRO VIDEO END -->
+        <!-- VIDEO GALLERY START -->
+        <section id="visual" class="video-gallery">
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-husetfundament.jpg"
+              alt="<?php echo $lang['asset_40'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h4>
+                Huset Fundament
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h4>
+              <p>
+                <?php echo $lang['asset_40'] ?>&#8250;<br /><br /><a
+                  >husetfundament.dk</a
+                >
+              </p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
+              ></a>
+            </div>
+          </div>
 
-      <hr style="opacity: 0" />
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-repaireandremake.jpg"
+              alt="<?php echo $lang['asset_38'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h4>
+                Repaire & Remake Festival
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h4>
+              <p>
+                <?php echo $lang['asset_38'] ?>&#8250;<br /><br /><a
+                  >nicolaikultur.dk</a
+                >
+              </p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
+              ></a>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-samso.jpg"
+              alt="<?php echo $lang['asset_39'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h4>
+                Samsø
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="videoplay"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
+                  />
+                </svg>
+              </h4>
+              <p><?php echo $lang['asset_39'] ?>&#8250;</p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
+              ></a>
+            </div>
+          </div>
+        </section>
+        <!-- VIDEO GALLERY END -->
+        <!-- PHOTO GALLERY START -->
+        <section class="grid-container photo-grid">
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-04-22-00624.jpg"
+              alt="<?php echo $lang['asset_2'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2021-06-21-01188.jpg"
+              alt="<?php echo $lang['asset_3'] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-06-21-01194.jpg"
+              alt="<?php echo $lang['asset_4'] ?>."
+            />
+          </div>
+        </section>
+        <!-- PHOTO GALLERY END -->
+      </article>
+      <!-- VISUALS END -->
+      <!-- COMPANY CAPTIONS START -->
+
       <article class="wrapper-wide" id="company-intro">
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h4 class="highlited">Our story</h4>
-            <h2>We believe in capturing the best moments at your event</h2>
+            <h2 class="highlited reveal">
+              <?php echo $lang['asset_5'] ?>
+            </h2>
+            <h1 class="reveal">
+              <?php echo $lang['asset_6'] ?>
+            </h1>
           </div>
           <div class="grid-item">
-            <p>
-              We love working with our clients and capturing their moments. For
-              us, every second counts, so we have an eye for detail. We leave no
-              room for error. So you don’t have to worry about missing out on
-              precious moments. Just be at the scene we will capture each second
-              it. Our clients can choose from multiple sessions, and even
-              include add-ons depending on their event. We also provide
-              consultation before each session.
+            <p class="reveal">
+              <?php echo $lang['asset_7'] ?>
             </p>
           </div>
         </div>
-        <hr />
-        <div class="grid-container fifty-fifty">
+        <hr id="<?php echo $lang['asset_101'] ?>" class="reveal" />
+        <!-- SERVICES  START -->
+        <div class="grid-container fifty-fifty reveal">
           <div class="grid-item">
-            <h4 class="highlited">Explore our services</h4>
-            <h2>Select from a wide range of multimedia services</h2>
+            <h2 class="highlited reveal">
+              <?php echo $lang['asset_8'] ?>
+            </h2>
+            <h1 class="reveal">
+              <?php echo $lang['asset_9'] ?>
+            </h1>
           </div>
           <div class="grid-item">
             <p>
-              Curabitur varius viverra diam ac scelerisque. Nam quis elit vitae
-              libero luctus posuere. Morbi sit amet turpis gravida, scelerisque
-              risus quis, tincidunt felis. Sed.
+              <?php echo $lang['asset_10'] ?>
             </p>
           </div>
         </div>
         <hr style="opacity: 0" />
-
-        <div class="grid-container gallery reveal">
-          <div>
-            <h2>Photo</h2>
+        <div class="grid-container gallery reveal" id="services">
+          <div class="reveal">
+            <h3><?php echo $lang['asset_11'] ?></h3>
             <a href="/services/photo">
               <div class="grid-item" id="first-product">
                 <div class="filter"></div>
               </div>
             </a>
-            <p><?php echo $lang['brandingguide_desc'] ?></p>
+            <p>
+              <?php echo $lang['asset_12'] ?><a href="/services/photo"
+                ><?php echo $lang['asset_104'] ?></a
+              >
+            </p>
           </div>
-          <div>
-            <h2>Video</h2>
+          <div class="reveal">
+            <h3><?php echo $lang['asset_13'] ?></h3>
             <a href="/services/video">
               <div class="grid-item" id="second-product">
                 <div class="filter"></div>
               </div>
             </a>
             <p>
-              <?php echo $lang['creditguide_desc'] ?>
+              <?php echo $lang['asset_14'] ?><a href="/services/video"
+                ><?php echo $lang['asset_104'] ?></a
+              >
             </p>
           </div>
-          <div>
-            <h2>Graphic</h2>
+          <div class="reveal">
+            <h3><?php echo $lang['asset_15'] ?></h3>
             <a href="/services/graphic">
               <div class="grid-item" id="third-product">
                 <div class="filter"></div>
               </div>
             </a>
             <p>
-              <?php echo $lang['presskit_desc'] ?>
+              <?php echo $lang['asset_16'] ?><a href="/services/graphic"
+                ><?php echo $lang['asset_104'] ?></a
+              >
             </p>
           </div>
         </div>
-        <hr />
+
+        <!-- SERVICES END -->
+        <hr style="opacity: 0" />
+        <!-- CTA START -->
+        <a href="/portfolio" class="reveal">
+          <div class="btn-area flex-center reveal">
+            <button id="btn"><?php echo $lang['asset_17'] ?></button>
+            <div class="btn-shadow"></div></div
+        ></a>
+        <!-- CTA END -->
+        <hr style="opacity: 0" id="<?php echo $lang['asset_103'] ?>" />
       </article>
       <!-- VISUALS END -->
 
-      <!-- ABOUT START -->
-      <article id="about">
-        <div class="intro-section-wrapper reveal">
+      <!-- OUR TEAM START -->
+      <article id="ourteam">
+        <!-- OUR TEAM INTRO SECTION START -->
+        <section class="team-container reveal">
           <div class="intro-section flex-center">
             <div class="intro-subsection">
-              <h1 class="reveal"><?php echo $lang['about'] ?></h1>
-              <div></div>
+              <h3 class="reveal">
+                &nbsp;<?php echo $lang['asset_18'] ?>&nbsp;
+              </h3>
             </div>
           </div>
-        </div>
+        </section>
+        <!-- OUR TEAM INTRO SECTION END -->
+        <!-- OUR TEAM PARAGRAPHS START -->
         <section class="wrapper-standard">
           <br />
-          <p class="profile-info reveal">
-            <?php echo $lang['desc_1'] ?>
-          </p>
+          <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
           <p class="reveal">
-            <?php echo $lang['desc_2'] ?>
+            <?php echo $lang['asset_20'] ?>
 
             <a
               href="https://www.iba.dk"
@@ -130,23 +265,27 @@
               >IBA</a
             >.
           </p>
+          <p class="reveal"><?php echo $lang['asset_21'] ?>.</p>
           <p class="reveal">
-            <?php echo $lang['desc_3'] ?>
+            <?php echo $lang['asset_22'] ?>
           </p>
-          <p class="reveal">
-            <?php echo $lang['desc_4'] ?>
-          </p>
+          <!-- OUR TEAM PARAGRAPHS END -->
           <hr class="reveal" />
-
+          <!-- TEAM SECTION START -->
           <section class="grid-container skills-section">
+            <!-- MARCEL SECTION START -->
             <div class="grid-item">
               <div>
-                <img src="/img/2022-04-24-07404.jpg" alt="." class="reveal" />
+                <img
+                  src="/img/2022-04-24-07404.jpg"
+                  alt="<?php echo $lang['asset_23'] ?>Marcel Hájik"
+                  class="reveal"
+                />
                 <section class="profile">
                   <br />
                   <h4 class="reveal">Marcel Hájik 🇸🇰</h4>
                   <h5 class="reveal">
-                    <?php echo $lang['marcel-title'] ?>
+                    <?php echo $lang['asset_24'] ?>
                   </h5>
                   <p class="reveal">
                     <a href="tel:+4552812304">+45 52 81 23 04</a>
@@ -210,52 +349,56 @@
                   </div>
                 </section>
                 <br />
+                <!-- MARCEL SKILLS START -->
                 <div class="reveal">
-                  <p><?php echo $lang['marcel_skill_1'] ?></p>
+                  <p><?php echo $lang['asset_25'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
                   <p>
-                    <?php echo $lang['marcel_skill_2'] ?>
+                    <?php echo $lang['asset_26'] ?>
                   </p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p><?php echo $lang['marcel_skill_3'] ?></p>
+                  <p><?php echo $lang['asset_27'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="85"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p><?php echo $lang['marcel_skill_4'] ?></p>
+                  <p><?php echo $lang['asset_28'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p><?php echo $lang['marcel_skill_5'] ?></p>
+                  <p><?php echo $lang['asset_29'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
               </div>
+              <!-- MARCEL SKILLS START -->
             </div>
+            <!-- MARCEL SECTION END -->
+            <!-- ADAM SKILLS START -->
             <div class="grid-item">
               <div>
                 <img
                   src="/img/2022-04-24-07426.jpg"
-                  alt="<?php echo $lang['adam_photo'] ?>"
+                  alt="<?php echo $lang['asset_23'] ?>Adam Sochorec"
                   class="reveal"
                 />
                 <div class="profile">
                   <br />
                   <h4 class="reveal">Adam Sochorec 🇨🇿</h4>
                   <h5 class="reveal">
-                    <?php echo $lang['adam-title'] ?>
+                    <?php echo $lang['asset_30'] ?>
                   </h5>
                   <p class="reveal">
                     <a href="tel:+4550104776">+45 50 10 47 76</a>
@@ -323,46 +466,51 @@
                   </div>
                 </div>
                 <br />
+                <!-- ADAM SKILLS START -->
                 <div class="reveal">
-                  <p><?php echo $lang['adam_skill_1'] ?></p>
+                  <p><?php echo $lang['asset_31'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </div>
                 <div class="reveal">
                   <p>
-                    <?php echo $lang['adam_skill_2'] ?>
+                    <?php echo $lang['asset_32'] ?>
                   </p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="80"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p><?php echo $lang['adam_skill_3'] ?></p>
+                  <p><?php echo $lang['asset_33'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="90"></div>
                   </div>
                 </div>
 
                 <div class="reveal">
-                  <p><?php echo $lang['adam_skill_4'] ?></p>
+                  <p><?php echo $lang['asset_34'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="60"></div>
                   </div>
                 </div>
                 <div class="reveal">
-                  <p><?php echo $lang['adam_skill_5'] ?></p>
+                  <p><?php echo $lang['asset_35'] ?></p>
                   <div class="skill-bar faded">
                     <div class="skill-bar" data-progress="50"></div>
                   </div>
                 </div>
               </div>
+              <!-- ADAM SKILLS END -->
             </div>
+            <!-- ADAM SECTION END -->
           </section>
+          <!-- TEAM SECTION END -->
+          <!-- COLLABORATORS AND CLIENTS START -->
           <section>
             <hr class="reveal" />
             <h2 class="reveal">
-              <?php echo $lang['clients'] ?>
+              <?php echo $lang['asset_36'] ?>
             </h2>
             <svg
               class="reveal"
@@ -1982,16 +2130,27 @@
                 </g>
               </a>
             </svg>
-            <hr class="reveal" />
-            <a href="/pres">
-              <div class="btn-area flex-center reveal">
-                <button id="btn"><?php echo $lang['guide'] ?></button>
-                <div class="btn-shadow"></div></div
-            ></a>
           </section>
+          <hr class="reveal" />
         </section>
+        <!-- COLLABORATORS AND CLIENTS END -->
+        <!-- CTA SECTION START -->
+        <section class="press-container reveal">
+          <div class="intro-section flex-center">
+            <div class="intro-subsection">
+              <!-- CTA START -->
+              <a href="/press" class="reveal">
+                <div class="btn-area flex-center reveal">
+                  <button id="btn"><?php echo $lang['asset_37'] ?></button>
+                  <div class="btn-shadow"></div></div
+              ></a>
+              <!-- CTA END -->
+            </div>
+          </div>
+        </section>
+        <!-- CTA SECTION END -->
       </article>
-      <!-- ABOUT END -->
+      <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
     <?php

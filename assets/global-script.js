@@ -105,27 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {
-  // YOUTUBE PLAYER API START
-  /*
-  var player;
-
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player("player", {
-      videoId: "Muvkn0OGDbw",
-      playerVars: {
-        autoplay: 1,
-        modestbranding: 1,
-        loop: 1,
-        controls: 0,
-        playlist: "Muvkn0OGDbw",
-      },
-    });
-  }
-  */
-  // YOUTUBE PLAYER API START
-
   // SKILL BARS START
-
   function setProgress(e, progress) {
     e.style.opacity = 1;
     e.style.width = `${progress}%`;
@@ -140,34 +120,6 @@ if (document.body.id === "homepage") {
   }
   showProgress();
   // SKILL BARS END
-
-  (function contactForm() {
-    const contactForm = document.getElementById("contactForm");
-
-    /// LOADER AT SUBMITING A FORM START
-    function onFormSubmission(event) {
-      const isValid = Array.from(event.target.elements).every((element) =>
-          element.reportValidity()
-        ),
-        submitButton = document.querySelector(".submit-btn");
-
-      if (isValid) {
-        submitButton.innerHTML = "<div class='loader'></div>";
-      } else {
-        event.preventDefault();
-      }
-    }
-    contactForm.addEventListener("submit", onFormSubmission);
-    // LOADER AT SUBMITING A FORM END
-
-    // SUBMIT AT ENTER START
-    document.addEventListener("keyup", function (event) {
-      if (event.keyCode === 13) {
-        onFormSubmission(event);
-      }
-    });
-    // SUBMIT AT ENTER END
-  })();
 }
 // HOMEPAGE END
 

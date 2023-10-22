@@ -6,9 +6,9 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['meta_desc'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['meta_keywords'] ?>" />
-    <title>Slavic Media</title>
+    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
+    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
+    <title>Photo Services | Slavic Media</title>
   </head>
   <body class="services" id="photography">
     <!-- HEADER START -->
@@ -20,18 +20,19 @@
     <main>
       <article class="wrapper-wide">
         <hr style="opacity: 0" />
-        <h1>Photography Plans</h1>
+        <h1><?php echo $lang['asset_105'] ?></h1>
         <hr />
         <div class="grid-container fifty-fifty">
           <div class="grid-item"><img src="/img/2023-02-10-08469.jpg" /></div>
           <div class="grid-item text-container">
             <section>
-              <h4>Event</h4>
+              <h2>Event</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
                 veritatis tenetur eaque incidunt dolorem culpa reiciendis
                 perspiciatis, exercitationem quas. Error corrupti tempore
                 aperiam sunt! Nam rerum animi libero ipsum excepturi?
+                <a href="/portfolio#event"><?php echo $lang['asset_113'] ?></a>
               </p>
             </section>
           </div>
@@ -39,7 +40,7 @@
         <div class="grid-container fifty-fifty">
           <div class="grid-item text-container">
             <section>
-              <h4>Travel</h4>
+              <h2>Travel</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
                 veritatis tenetur eaque incidunt dolorem culpa reiciendis
@@ -54,7 +55,7 @@
           <div class="grid-item"><img src="/img/2021-04-25-00693.jpg" /></div>
           <div class="grid-item text-container">
             <section>
-              <h4>Portrait</h4>
+              <h2>Portrait</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
                 veritatis tenetur eaque incidunt dolorem culpa reiciendis
@@ -67,8 +68,8 @@
         <hr />
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h4 class="highlited">Our packages</h4>
-            <h2>Book our affordable packages today</h2>
+            <h2 class="highlited">Our packages</h2>
+            <h3>Book our affordable packages today</h3>
           </div>
           <div class="grid-item">
             <p>
@@ -82,9 +83,9 @@
         <div class="grid-container gallery reveal">
           <div class="grid-item">
             <div class="gallery-item-wrapper">
-              <h3>Essential</h3>
-              <h4>2.000 DKK excl. moms</h4>
-              <h5>The Highlights Package</h5>
+              <h4>Essential</h4>
+              <h5>2.000 DKK excl. moms</h5>
+              <h6>The Highlights Package</h6>
               <ul>
                 <li>2 hours of photography</li>
                 <li>10 edited digital images</li>
@@ -100,9 +101,9 @@
           </div>
           <div class="grid-item">
             <div class="gallery-item-wrapper">
-              <h3>Standard</h3>
-              <h4>4.000 DKK excl. moms</h4>
-              <h5>The In-Depth Package</h5>
+              <h4>Standard</h4>
+              <h5>4.000 DKK excl. moms</h5>
+              <h6>The In-Depth Package</h6>
               <ul>
                 <li>4 hours of photography</li>
                 <li>More in-depth coverage of the event</li>
@@ -119,9 +120,9 @@
           </div>
           <div class="grid-item">
             <div class="gallery-item-wrapper">
-              <h3>Elite</h3>
-              <h4>13.000 DKK excl. moms</h4>
-              <h5>The Full Coverage Package</h5>
+              <h4>Elite</h4>
+              <h5>13.000 DKK excl. moms</h5>
+              <h6>The Full Coverage Package</h6>
               <ul>
                 <li>8+ hours of photography</li>
                 <li>30+ edited digital images</li>

@@ -6,9 +6,9 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['meta_desc'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['meta_keywords'] ?>" />
-    <title>Slavic Media</title>
+    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
+    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
+    <title>Press | Slavic Media</title>
   </head>
   <body id="press">
     <!-- HEADER START -->
@@ -19,31 +19,52 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-wide">
-        <h1><?php echo $lang['press'] ?></h1>
+        <div class="pathname-container"></div>
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item">
+            <h2 class="highlited"><?php echo $lang['asset_74'] ?></h2>
+            <h1><?php echo $lang['asset_75'] ?></h1>
+            <div class="pathname-container">
+              <p>
+                <span class="pathname"><a href="/"></a> &#8250; </span>
+                <span class="pathname"><?php echo $lang['asset_75'] ?></span>
+              </p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p>
+              <?php echo $lang['asset_76'] ?>
+            </p>
+          </div>
+        </div>
         <hr />
-        <div class="grid-container gallery reveal">
+        <!-- PRESSS MATERIALS GRID START -->
+        <div class="grid-container gallery">
+          <!-- BRAND GUIDE START -->
           <div>
-            <h2>
-              <?php echo $lang['brandingguide_title'] ?>
-            </h2>
+            <h3>
+              <?php echo $lang['asset_77'] ?>
+            </h3>
             <a
-              href="/assets/branding-guide.pdf"
+              href="/assets/brand-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div class="grid-item" id="branding-guide">
+              <div class="grid-item" id="brand-guide">
                 <div class="blur">
                   <span>
-                    <?php echo $lang['preview'] ?>
+                    <?php echo $lang['asset_84'] ?>
                     &#8250;</span
                   >
                 </div>
               </div>
             </a>
-            <p><?php echo $lang['brandingguide_desc'] ?></p>
+            <p><?php echo $lang['asset_78'] ?></p>
           </div>
+          <!-- BRAND GUIDE END -->
+          <!-- CREDIT GUIDE START -->
           <div>
-            <h2><?php echo $lang['creditguide_title'] ?></h2>
+            <h3><?php echo $lang['asset_79'] ?></h3>
             <a
               href="/assets/credit-guide.pdf"
               target="_blank"
@@ -52,37 +73,41 @@
               <div class="grid-item" id="credit-guide">
                 <div class="blur">
                   <span>
-                    <?php echo $lang['preview'] ?>
+                    <?php echo $lang['asset_84'] ?>
                     &#8250;</span
                   >
                 </div>
               </div>
             </a>
             <p>
-              <?php echo $lang['creditguide_desc'] ?>
+              <?php echo $lang['asset_80'] ?>
             </p>
           </div>
+          <!-- CREDIT GUIDE END -->
+          <!-- PRESS KIT START -->
           <div>
-            <h2><?php echo $lang['presskit_title'] ?></h2>
+            <h3><?php echo $lang['asset_81'] ?></h3>
             <a
+              href="/assets/press-kit.zip"
               target="_blank"
               rel="noopener noreferrer"
-              download="/assets/press-kit.zip"
             >
               <div class="grid-item" id="press-kit">
                 <div class="blur">
                   <span>
-                    <?php echo $lang['download'] ?>
+                    <?php echo $lang['asset_83'] ?>
                     &#8250;</span
                   >
                 </div>
               </div>
             </a>
             <p>
-              <?php echo $lang['presskit_desc'] ?>
+              <?php echo $lang['asset_82'] ?>
             </p>
           </div>
         </div>
+        <!-- PRESS KIT END -->
+        <!-- PRESSS MATERIALS GRID END -->
       </article>
     </main>
     <!-- FOOTER START -->
