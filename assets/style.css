@@ -746,9 +746,9 @@ ul.menu-left.collapse {
   -ms-backdrop-filter: var(--blur-1); /* Edge */
   -o-backdrop-filter: var(--blur-1); /* Older versions of Opera */
 }
-.gallery a,
-.gallery a::after,
-.gallery a:hover,
+.gallery .gallery-item,
+.gallery .gallery-item::after,
+.gallery .gallery-item:hover,
 .gallery .grid-item,
 .gallery .grid-item::after,
 .gallery .grid-item:hover,
@@ -757,6 +757,7 @@ ul.menu-left.collapse {
   border-radius: var(--border-radius-2);
   transition: var(--transition-3);
 }
+
 .gallery .grid-item::after {
   background: inherit;
   background-size: cover;
@@ -1072,15 +1073,19 @@ footer span {
   font-size: var(--fontsize-h5);
 }
 .services .gallery .grid-item {
-  height: 600px;
+  height: 390px;
   background-color: rgba(var(--primary-color), 1);
+  border: 3px solid rgb(var(--secondary-color));
+}
+.services .gallery .grid-item li {
+  font-size: calc(var(--fontsize-p) * 0.9);
 }
 .services .gallery .grid-item:hover {
-  box-shadow: 7px 7px 0 rgb(var(--secondary-color));
+  box-shadow: 5px -5px 0 rgb(var(--secondary-color));
 }
 .services .gallery .gallery-item-wrapper {
   z-index: 1;
-  padding: 30px 20px;
+  padding: 20px 20px;
   align-self: self-start;
 }
 .services .grid-container img {

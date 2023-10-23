@@ -22,16 +22,16 @@
         <div class="pathname-container"></div>
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h2 class="highlited"><?php echo $lang['asset_43'] ?></h2>
-            <h1><?php echo $lang['asset_44'] ?></h1>
-            <div class="pathname-container">
+            <h2 class="highlited reveal"><?php echo $lang['asset_43'] ?></h2>
+            <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
+            <div class="pathname-container reveal">
               <p>
                 <span class="pathname"><a href="/"></a> &#8250; </span>
                 <span class="pathname"><?php echo $lang['asset_102'] ?></span>
               </p>
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-ite reveal">
             <p>
               <?php echo $lang['asset_45'] ?>
             </p>
@@ -40,7 +40,7 @@
       </article>
       <!-- VIDEO GALLERY START -->
       <article id="visual" class="video-gallery">
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/cover-husetfundament.jpg"
             alt="<?php echo $lang['asset_40'] ?>."
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/cover-repaireandremake.jpg"
             alt="<?php echo $lang['asset_38'] ?>."
@@ -100,7 +100,7 @@
           </div>
         </div>
 
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/cover-parkourtabor.jpg"
             class="north-cascades-img"
@@ -131,7 +131,7 @@
           </div>
         </div>
 
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/cover-halloweenparty.jpg"
             alt="<?php echo $lang['asset_49'] ?>."
@@ -400,6 +400,60 @@
               src="/img/2022-06-18-00518.jpg"
               alt="<?php echo $lang['asset_69'] ?>."
             />
+          </div>
+          <!-- EVENT END -->
+        </div>
+      </article>
+      <article class="wrapper-wide" id="travel">
+        <hr class="reveal" />
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item">
+            <h3 class="highlited reveal"><?php echo $lang['asset_108'] ?></h3>
+            <h2 class="reveal">
+              <?php echo $lang['asset_85'] ?>
+            </h2>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              <?php echo $lang['asset_109'] ?>
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="visuals">
+        <div class="grid-container photo-grid">
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+          </div>
+          <div class="v-stretch reveal">
+            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
           </div>
           <!-- EVENT END -->
 

@@ -24,13 +24,13 @@
 
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h2 class="highlited">
+            <h2 class="highlited reveal">
               <?php echo $lang['asset_89'] ?>
             </h2>
-            <h1>
+            <h1 class="reveal">
               <?php echo $lang['asset_88'] ?>
             </h1>
-            <div class="pathname-container">
+            <div class="pathname-container reveal">
               <p>
                 <span class="pathname"><a href="/"></a> &#8250; </span>
                 <span class="pathname"
@@ -41,7 +41,7 @@
               </p>
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item reveal">
             <p>
               <?php echo $lang['asset_91'] ?>
             </p>
@@ -49,7 +49,7 @@
         </div>
       </article>
       <section id="visual" class="video-gallery">
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/cover-samso.jpg"
             alt="<?php echo $lang['asset_39'] ?>."
@@ -74,7 +74,7 @@
             ></a>
           </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item reveal">
           <img
             src="/img/2022-07-26-00855.jpg"
             alt="<?php echo $lang['asset_86'] ?>."
@@ -106,12 +106,14 @@
         <hr class="reveal" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h3 class="highlited"><?php echo $lang['asset_92'] ?>2023</h3>
-            <h2>
+            <h3 class="highlited reveal">
+              <?php echo $lang['asset_92'] ?>2023
+            </h3>
+            <h2 class="reveal">
               <?php echo $lang['asset_93'] ?>
             </h2>
           </div>
-          <div class="grid-item">
+          <div class="grid-item reveal">
             <p>
               <?php echo $lang['asset_94'] ?>
             </p>

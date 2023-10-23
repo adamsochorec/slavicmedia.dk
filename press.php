@@ -22,30 +22,31 @@
         <div class="pathname-container"></div>
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h2 class="highlited"><?php echo $lang['asset_74'] ?></h2>
-            <h1><?php echo $lang['asset_75'] ?></h1>
-            <div class="pathname-container">
+            <h2 class="highlited reveal"><?php echo $lang['asset_74'] ?></h2>
+            <h1 class="reveal"><?php echo $lang['asset_75'] ?></h1>
+            <div class="pathname-container reveal">
               <p>
                 <span class="pathname"><a href="/"></a> &#8250; </span>
                 <span class="pathname"><?php echo $lang['asset_75'] ?></span>
               </p>
             </div>
           </div>
-          <div class="grid-item">
+          <div class="grid-item reveal">
             <p>
               <?php echo $lang['asset_76'] ?>
             </p>
           </div>
         </div>
-        <hr />
+        <hr class="reveal" />
         <!-- PRESSS MATERIALS GRID START -->
-        <div class="grid-container gallery">
+        <div class="grid-container gallery reveal">
           <!-- BRAND GUIDE START -->
           <div>
             <h3>
               <?php echo $lang['asset_77'] ?>
             </h3>
             <a
+              class="gallery-item"
               href="/assets/brand-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -66,6 +67,7 @@
           <div>
             <h3><?php echo $lang['asset_79'] ?></h3>
             <a
+              class="gallery-item"
               href="/assets/credit-guide.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,6 +90,7 @@
           <div>
             <h3><?php echo $lang['asset_81'] ?></h3>
             <a
+              class="gallery-item"
               href="/assets/press-kit.zip"
               target="_blank"
               rel="noopener noreferrer"

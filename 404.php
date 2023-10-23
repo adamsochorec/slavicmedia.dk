@@ -19,7 +19,7 @@
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
-        <div class="lottie">
+        <div class="lottie reveal">
           <dotlottie-player
             src="/assets/lottie/error.lottie"
             background="transparent"
@@ -28,8 +28,8 @@
             autoplay
           ></dotlottie-player>
         </div>
-        <h1>The page you’re looking<br />for can’t be found.</h1>
-        <h2>
+        <h1 class="reveal">The page you’re looking<br />for can’t be found.</h1>
+        <h2 class="reveal">
           <a href="http://slavicmedia.dk/<?php if($_SESSION['lang']=="da"){
             echo '?lang=da"';
           }

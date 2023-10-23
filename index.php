@@ -25,7 +25,7 @@
           <div class="video-container">
             <video src="/img/showreel.mp4" autoplay muted loop></video>
           </div>
-          <div class="explore">
+          <div class="explore reveal">
             <p><?php echo $lang['asset_1'] ?></p>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -186,7 +186,7 @@
         <div class="grid-container gallery reveal" id="services">
           <div class="reveal">
             <h3><?php echo $lang['asset_11'] ?></h3>
-            <a href="/services/photo">
+            <a class="gallery-item" href="/services/photo">
               <div class="grid-item" id="first-product">
                 <div class="filter"></div>
               </div>
@@ -230,7 +230,7 @@
         <!-- CTA START -->
         <a href="/portfolio" class="reveal">
           <div class="btn-area flex-center reveal">
-            <button id="btn"><?php echo $lang['asset_17'] ?></button>
+            <button id="btn"><?php echo $lang['asset_102'] ?></button>
             <div class="btn-shadow"></div></div
         ></a>
         <!-- CTA END -->
