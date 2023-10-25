@@ -1,4 +1,3 @@
-<?php include 'assets/php/config.php'; ?>
 <header>
   <div class="blur">
     <div class="container">

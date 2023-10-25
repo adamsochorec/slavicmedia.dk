@@ -68,6 +68,14 @@ body {
   background-color: rgb(var(--grey-color));
   overflow-x: hidden;
 }
+.loader-container,
+header .blur:not(#homepage header .blur) {
+  backdrop-filter: var(--blur-2) !important; /* Standard syntax */
+  -webkit-backdrop-filter: var(--blur-2) !important; /* Chrome, Safari, Opera */
+  -moz-backdrop-filter: var(--blur-2) !important; /* Firefox */
+  -ms-backdrop-filter: var(--blur-2) !important; /* Edge */
+  -o-backdrop-filter: var(--blur-2) !important; /* Older versions of Opera */
+}
 @keyframes transitionIn {
   0% {
     opacity: 0;
@@ -96,11 +104,6 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 7;
-  backdrop-filter: var(--blur-2) !important; /* Standard syntax */
-  -webkit-backdrop-filter: var(--blur-2) !important; /* Chrome, Safari, Opera */
-  -moz-backdrop-filter: var(--blur-2) !important; /* Firefox */
-  -ms-backdrop-filter: var(--blur-2) !important; /* Edge */
-  -o-backdrop-filter: var(--blur-2) !important; /* Older versions of Opera */
 }
 .loader-container .loader {
   height: 70px;
@@ -564,9 +567,6 @@ header .blur {
   padding: 0.5rem 0;
   height: 50px;
 }
-header .blur:not(#homepage header .blur) {
-  backdrop-filter: var(--blur-2);
-}
 header img.logo {
   float: left;
   width: 200px;
@@ -951,7 +951,7 @@ footer span {
 /* VIDEO GALLERY START*/
 .video-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 10px;
   width: 100%;
   padding: var(--homepage-padding) var(--homepage-padding) 0
