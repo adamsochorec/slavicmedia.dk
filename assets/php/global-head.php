@@ -8,3 +8,5 @@ rel="stylesheet"
 href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
 />
 <link rel="stylesheet" href="/assets/style.css" >
+<meta name="robots" content="noindex" />
+<meta name="googlebot" content="noindex" />

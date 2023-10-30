@@ -1,6 +1,6 @@
 <?php include 'assets/php/config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -228,7 +228,7 @@
         <!-- SERVICES END -->
         <hr style="opacity: 0" />
         <!-- CTA START -->
-        <a href="/portfolio" class="reveal">
+        <a href="/en/portfolio" class="reveal">
           <div class="btn-area flex-center reveal">
             <button id="btn"><?php echo $lang['asset_102'] ?></button>
             <div class="btn-shadow"></div></div
@@ -508,11 +508,18 @@
           <!-- TEAM SECTION END -->
           <!-- COLLABORATORS AND CLIENTS START -->
           <section>
-            <hr class="reveal" />
-            <h2 class="reveal">
+            <hr style="opacity: 0;">
+          </section>
+        </section>
+        <!-- COLLABORATORS AND CLIENTS END -->
+        <!-- CTA SECTION START -->
+        <section class="press-container reveal">
+          <div class="intro-section flex-center">
+            <div class="intro-subsection">
+              <article class="wrapper-standard"><h2 class="reveal">
               <?php echo $lang['asset_36'] ?>
             </h2>
-            <svg
+                <svg 
               class="reveal"
               version="1.1"
               id="Layer_1"
@@ -2130,16 +2137,9 @@
                 </g>
               </a>
             </svg>
-          </section>
-          <hr class="reveal" />
-        </section>
-        <!-- COLLABORATORS AND CLIENTS END -->
-        <!-- CTA SECTION START -->
-        <section class="press-container reveal">
-          <div class="intro-section flex-center">
-            <div class="intro-subsection">
+          </article><br>
               <!-- CTA START -->
-              <a href="/press" class="reveal">
+              <a href="/en/press" class="reveal">
                 <div class="btn-area flex-center reveal">
                   <button id="btn"><?php echo $lang['asset_37'] ?></button>
                   <div class="btn-shadow"></div></div

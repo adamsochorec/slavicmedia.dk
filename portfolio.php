@@ -305,7 +305,7 @@
               alt="<?php echo $lang['asset_57'] ?>."
             />
           </div>
-          <div class="h-stretch reveal">
+          <div class="h-stretch hidePhoto2 reveal">
             <img
               src="/img/2021-05-16-00786.jpg"
               alt="<?php echo $lang['asset_58'] ?>."
