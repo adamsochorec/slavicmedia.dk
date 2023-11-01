@@ -2,8 +2,7 @@
   <div class="blur">
     <div class="container">
       <nav id="navigation">
-        <a
-href="/"        >
+        <a href="/">
           <img class="logo" alt="Logo Slavic Media" src="/img/logo.png" />
         </a>
         <a aria-label="mobile menu" class="hamburger">
@@ -26,7 +25,12 @@ href="/"        >
               ><?php echo $lang['asset_18'] ?></a
             >
           </li>
-          <li><a href="<?php echo "assets/php/lang?lang" ?>">EN / DA</a></li>
+          <li>
+            <a href="/<?php echo $lang['asset_75'] ?>"
+              ><?php echo $lang['asset_75'] ?></a
+            >
+          </li>
+          <!-- <li><a href="<?php //echo "assets/php/lang?lang" ?>">EN / DA</a></li> -->
         </ul>
       </nav>
     </div>

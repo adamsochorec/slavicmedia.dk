@@ -1,6 +1,6 @@
 <?php
 $lang = [
-    "asset_1" => "EXPLORE OUR PORTFOLIO",
+    "asset_1" => "scroll to explore",
     "asset_5" => "Our story",
     "asset_6" => "We believe in capturing the best moments at your event",
     "asset_7" => " We love working with our clients and capturing their moments. For
@@ -10,8 +10,8 @@ $lang = [
     it. Our clients can choose from multiple sessions, and even
     include add-ons depending on their event. We also provide
     consultation before each session.",
-    "asset_8" => "Explore our services",
-    "asset_9" => "Select from a wide range of multimedia services",
+    "asset_8" => "Our portfolio",
+    "asset_9" => "<span class='highlited tuscher'>Select</span> from a range of multimedia <span class='highlited tuscher'>services</span>",
     "asset_10" => " Curabitur varius viverra diam ac scelerisque. Nam quis elit vitae
     libero luctus posuere. Morbi sit amet turpis gravida, scelerisque
     risus quis, tincidunt felis. Sed.",
@@ -19,7 +19,7 @@ $lang = [
     "asset_12" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "asset_13" => "Video",
     "asset_14" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "asset_15" => "Graphic design",
+    "asset_15" => "Graphic",
     "asset_17" => "",
     "asset_16" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "asset_19" => "At Slavic Media, we're more than just two guys from the Czechia 🇨🇿 and Slovakia 🇸🇰 (not Czechoslovakia thought)- we're multimedia wizards seeking independence",
@@ -109,19 +109,19 @@ $lang = [
     "asset_102" => "portfolio",
     "asset_18" => "Our Team",
     "asset_103" => "ourteam",
-    "asset_104" => "<br>Learn more &#8250;",
+    "asset_104" => "Learn more",
     "asset_105" => "Photo Services",
     "asset_107" => "Event",
     "asset_108" => "Photo Services",
     "asset_109" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus earum minima ipsum? Corrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
     "asset_110" => "Portrait",
     "asset_112" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloribus earum minima ipsum? Corrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
-    "asset_113" => "Explore our event portfolio ",
-    "asset_114" => "Explore our portrait portfolio &#8250;",
-    "asset_115" => "Explore our travel portfolio &#8250;",
-    "asset_116" => "",
-    "asset_117" => "",
-    "asset_118" => "",
+    "asset_113" => "Event portfolio",
+    "asset_114" => "Portrait portfolio",
+    "asset_115" => "Travel portfolio",
+    "asset_116" => "Event plans",
+    "asset_117" => "Portrait plans",
+    "asset_118" => "Travel plans",
     "asset_119" => "",
     "asset_120" => "",
     "asset_121" => "",

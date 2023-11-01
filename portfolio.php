@@ -217,15 +217,21 @@
       </article>
       <!-- VIDEO GALLERY END -->
       <!-- PHOTO GALLERY START -->
-      <article class="wrapper-wide" id="portrait">
+      <!-- PORTRAIT START -->
+      <article class="wrapper-wide" id="<?php echo $lang['asset_110'] ?>">
         <hr class="reveal" />
         <div class="grid-container fifty-fifty">
-          <div class="grid-item">
-            <h3 class="highlited reveal"><?php echo $lang['asset_108'] ?></h3>
-            <h2 class="reveal">
+          <div class="grid-item reveal">
+            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
+            <h2>
               <?php echo $lang['asset_110'] ?>
             </h2>
+            <br />
+            <a class="cta" href="/photo#<?php echo $lang['asset_110'] ?>"
+              ><?php echo $lang['asset_117'] ?>
+            </a>
           </div>
+
           <div class="grid-item">
             <p class="reveal">
               <?php echo $lang['asset_112'] ?>
@@ -233,36 +239,19 @@
           </div>
         </div>
       </article>
+      <hr style="opacity: 0" />
+
       <article id="visuals">
         <div class="grid-container photo-grid">
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-04-22-00624.jpg"
-              alt="<?php echo $lang['asset_2'] ?>."
-            />
-          </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2021-06-21-01188.jpg"
-              alt="<?php echo $lang['asset_3'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2021-06-21-01194.jpg"
-              alt="<?php echo $lang['asset_4'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-02-10-00118.jpg"
+              src="/img/2021-04-13-00583.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2022-02-10-00116.jpg"
+              src="/img/2021-05-16-00786.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
@@ -301,33 +290,38 @@
 
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-04-24-00671.jpg"
+              src="/img/2021-10-17-01935.jpg"
               alt="<?php echo $lang['asset_57'] ?>."
             />
           </div>
-          <div class="h-stretch hidePhoto2 reveal">
+          <div class="h-stretch reveal">
             <img
-              src="/img/2021-05-16-00786.jpg"
+              src="/img/2021-05-28-01020.jpg"
               alt="<?php echo $lang['asset_58'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2021-04-13-00583.jpg"
+              src="/img/2021-09-05-01666.jpg"
               alt="<?php echo $lang['asset_59'] ?>."
             />
           </div>
         </div>
+        <!-- PORTRAIT END -->
         <!-- EVENT START -->
       </article>
-      <article class="wrapper-wide" id="event">
+      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
         <hr class="reveal" />
         <div class="grid-container fifty-fifty">
-          <div class="grid-item">
-            <h3 class="highlited reveal"><?php echo $lang['asset_108'] ?></h3>
-            <h2 class="reveal">
+          <div class="grid-item reveal">
+            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
+            <h2>
               <?php echo $lang['asset_107'] ?>
             </h2>
+            <br />
+            <a class="cta" href="/photo#<?php echo $lang['asset_107'] ?>"
+              ><?php echo $lang['asset_116'] ?>
+            </a>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -336,82 +330,87 @@
           </div>
         </div>
       </article>
+      <hr style="opacity: 0" />
+
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <img
-              src="/img/2023-02-10-08468.jpg"
-              alt="<?php echo $lang['asset_60'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-05-06-00394.jpg"
-              alt="<?php echo $lang['asset_61'] ?>."
-            />
-          </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-02-10-08461.jpg"
-              alt="<?php echo $lang['asset_62'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-05-06-00360.jpg"
-              alt="<?php echo $lang['asset_63'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-02-10-08469.jpg"
-              alt="<?php echo $lang['asset_64'] ?>."
-            />
-          </div>
-
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2022-06-28-00708.jpg"
+              src="/img/2023-09-09-10524.jpg"
               alt="<?php echo $lang['asset_65'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2022-06-30-00748.jpg"
+              src="/img/2022-06-28-00708.jpg"
               alt="<?php echo $lang['asset_66'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
-              src="/img/2022-06-24-00534.jpg"
+              src="/img/2023-09-09-10507.jpg"
+              alt="<?php echo $lang['asset_62'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-05-12-08991.jpg"
+              alt="<?php echo $lang['asset_63'] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2023-09-22-00026.jpg"
+              alt="<?php echo $lang['asset_64'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-05-12-08965.jpg"
+              alt="<?php echo $lang['asset_60'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-05-12-08969.jpg"
+              alt="<?php echo $lang['asset_61'] ?>."
+            />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2023-05-12-08987.jpg"
               alt="<?php echo $lang['asset_67'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2022-06-11-00458.jpg"
+              src="/img/2022-06-18-00518.jpg"
               alt="<?php echo $lang['asset_68'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2022-06-18-00518.jpg"
+              src="/img/2022-02-10-00116.jpg"
               alt="<?php echo $lang['asset_69'] ?>."
             />
           </div>
           <!-- EVENT END -->
         </div>
       </article>
-      <article class="wrapper-wide" id="travel">
+      <article class="wrapper-wide" id="<?php echo $lang['asset_88'] ?>">
         <hr class="reveal" />
         <div class="grid-container fifty-fifty">
-          <div class="grid-item">
-            <h3 class="highlited reveal"><?php echo $lang['asset_108'] ?></h3>
-            <h2 class="reveal">
+          <div class="grid-item reveal">
+            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
+            <h2>
               <?php echo $lang['asset_85'] ?>
             </h2>
+            <br />
+            <a class="cta" href="/photo#<?php echo $lang['asset_88'] ?>"
+              ><?php echo $lang['asset_118'] ?>
+            </a>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -420,40 +419,69 @@
           </div>
         </div>
       </article>
+      <hr style="opacity: 0" />
+
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-10-15-00970.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-10-16-00979.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2023-08-06-00304.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2023-07-26-00100.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-10-17-01001.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
 
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-12-08-01181.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-12-07-01167.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img src="/img/2023-08-04-159.jpg" alt="<?php echo $lang[''] ?>." />
           </div>
           <div class="h-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2023-07-27-00147.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <div class="v-stretch reveal">
-            <img src="/img/gray.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2022-07-26-00855.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
           </div>
           <!-- EVENT END -->
 

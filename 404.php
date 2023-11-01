@@ -17,9 +17,9 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-narrow flex-center">
+      <article class="wrapper-narrow flex-center reveal">
         <div class="pathname-container"></div>
-        <div class="lottie reveal">
+        <div class="lottie">
           <dotlottie-player
             src="/assets/lottie/error.lottie"
             background="transparent"
@@ -28,17 +28,12 @@
             autoplay
           ></dotlottie-player>
         </div>
-        <h1 class="reveal">The page you’re looking<br />for can’t be found.</h1>
-        <h2 class="reveal">
-          <a href="http://slavicmedia.dk/<?php if($_SESSION['lang']=="da"){
-            echo '?lang=da"';
-          }
-          else if($_SESSION['lang']=="en"){
-            echo '?lang=en"';
-          } ?>">Return to the homepage
-            &#8250;
-          </a>
-        </h2>
+        <h1>
+          The <span class="highlited tuscher">page</span> you’re looking<br />for
+          <span class="highlited tuscher">can't</span> be
+          <span class="highlited tuscher">found</span>.
+        </h1>
+        <a class="cta" href="http://slavicmedia.dk/">Return to the homepage </a>
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->

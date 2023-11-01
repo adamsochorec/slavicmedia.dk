@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .getPropertyValue("--blur-2")
         .trim());
 
-    if (window.pageYOffset > 740) {
+    if (window.pageYOffset > 680) {
       header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
       blur.style.backdropFilter = blurValue;
       blur.style.webkitBackdropFilter = blurValue;
@@ -102,6 +102,22 @@ document.addEventListener("DOMContentLoaded", function () {
       blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
     }
   });
+  function createLottieInteractivity(playerId) {
+    LottieInteractivity.create({
+      player: playerId,
+      mode: "cursor",
+      actions: [
+        {
+          type: "hover",
+          forceFlag: false,
+        },
+      ],
+    });
+  }
+
+  createLottieInteractivity("#photoLottie");
+  createLottieInteractivity("#videoLottie");
+  createLottieInteractivity("#graphicdesignLottie");
 });
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {

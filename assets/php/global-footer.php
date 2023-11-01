@@ -26,11 +26,17 @@
     </span>
   </div>
   <script
-    type="text/javascript"
-    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    src="https://kit.fontawesome.com/0d09e23a84.js"
+    crossorigin="anonymous"
   ></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
+    crossorigin="anonymous"
+  ></script>
   <!-- Google tag (gtag.js) -->
   <script
     async
