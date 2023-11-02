@@ -4,6 +4,11 @@
       <nav id="navigation">
         <a href="/">
           <img class="logo" alt="Logo Slavic Media" src="/img/logo.png" />
+          <img
+            class="logo mobile"
+            alt="Logo Slavic Media"
+            src="/img/logo2.png"
+          />
         </a>
         <a aria-label="mobile menu" class="hamburger">
           <span></span>

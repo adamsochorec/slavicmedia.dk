@@ -39,8 +39,9 @@
       </article>
       <!-- VISUALS END -->
       <!-- COMPANY CAPTIONS START -->
-      <hr id="<?php echo $lang['asset_101'] ?>" style="opacity: 0" />
       <article class="wrapper-wide" id="company-intro">
+        <hr id="<?php echo $lang['asset_101'] ?>" />
+
         <!-- SERVICES  START -->
         <div class="grid-container fifty-fifty reveal">
           <div class="grid-item">
@@ -69,6 +70,8 @@
                     src="/assets/lottie/photo.json"
                     background="transparent"
                     speed="1"
+                    autoplay
+                    loop
                   ></lottie-player>
                   <p>
                     <?php echo $lang['asset_12'] ?>
@@ -89,6 +92,8 @@
                     src="/assets/lottie/video.json"
                     background="transparent"
                     speed="1"
+                    autoplay
+                    loop
                   ></lottie-player>
                   <p>
                     <?php echo $lang['asset_14'] ?>
@@ -109,6 +114,8 @@
                     src="/assets/lottie/graphicdesign.json"
                     background="transparent"
                     speed="1"
+                    autoplay
+                    loop
                   ></lottie-player>
                   <p>
                     <?php echo $lang['asset_16'] ?>

@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
       blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
     }
   });
+  /*
   function createLottieInteractivity(playerId) {
     LottieInteractivity.create({
       player: playerId,
@@ -118,7 +119,9 @@ document.addEventListener("DOMContentLoaded", function () {
   createLottieInteractivity("#photoLottie");
   createLottieInteractivity("#videoLottie");
   createLottieInteractivity("#graphicdesignLottie");
+  */
 });
+
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {
   // SKILL BARS START

@@ -67,14 +67,12 @@
               >
                 <path
                   d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
+                /></svg
+              ><br />
+              <span><a>husetfundament.dk</a></span>
             </h3>
-            <p>
-              <?php echo $lang['asset_40'] ?>&#8250;<br /><br /><a
-                >husetfundament.dk</a
-              >
-            </p>
+            <p><?php echo $lang['asset_40'] ?></p>
+
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
@@ -89,7 +87,7 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              Repaire & Remake Festival
+              Repaire Festival
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 id="videoplay"
@@ -99,12 +97,11 @@
                   d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
                 />
               </svg>
+              <br />
+              <span><a>nicolaikultur.dk</a></span>
             </h3>
-            <p>
-              <?php echo $lang['asset_38'] ?>&#8250;<br /><br /><a
-                >nicolaikultur.dk</a
-              >
-            </p>
+
+            <p><?php echo $lang['asset_38'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
@@ -130,12 +127,10 @@
                   d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
                 />
               </svg>
+              <br />
+              <span><a>parkourskola.sk</a></span>
             </h3>
-            <p>
-              <?php echo $lang['asset_47'] ?>&#8250;<br /><br /><a
-                >parkourskola.sk</a
-              >
-            </p>
+            <p><?php echo $lang['asset_47'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
@@ -160,12 +155,10 @@
                   d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
                 />
               </svg>
+              <br />
+              <span><a>tribemedia.dk</a></span>
             </h3>
-            <p>
-              <?php echo $lang['asset_49'] ?>&#8250;<br /><br /><a
-                >tribemedia.dk</a
-              >
-            </p>
+            <p><?php echo $lang['asset_49'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/aVACZcA69r4?modestbranding=1"
@@ -189,12 +182,10 @@
                   d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
                 />
               </svg>
+              <br />
+              <span><a>bygning5.dk</a></span>
             </h3>
-            <p>
-              <?php echo $lang['asset_50'] ?>&#8250;<br /><br /><a
-                >bygning5.dk</a
-              >
-            </p>
+            <p><?php echo $lang['asset_50'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
@@ -219,7 +210,7 @@
                 />
               </svg>
             </h3>
-            <p><?php echo $lang['asset_39'] ?>&#8250;</p>
+            <p><?php echo $lang['asset_39'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"

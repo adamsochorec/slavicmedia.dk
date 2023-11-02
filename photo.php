@@ -136,7 +136,7 @@
         <hr class="reveal" />
         <!-- PACKAGES START -->
         <h3 class="reveal">
-          <span class="highlited tuscher">Our</span> packages &
+          Our packages &
           <span class="highlited tuscher">Prices</span>
         </h3>
         <p class="reveal">
@@ -445,9 +445,10 @@
         <!-- PACKAGES END -->
         <hr class="reveal" />
       </article>
+      <!-- LETS TALK START  
+
       <article class="wrapper-standard">
         <div class="grid-container fifty-fifty" id="letstalk">
-          <!-- LET'S TALK START -->
           <div class="grid-item">
             <h3 class="reveal">
               <span class="highlited tuscher">Interested?</span
@@ -528,17 +529,16 @@
             </p>
           </div>
           <div class="grid-item">
-            <!-- ADAM SECTION START -->
             <img
               src="/img/2022-04-24-07426.jpg"
               alt="<?php echo $lang['asset_23'] ?>Adam Sochorec"
               class="reveal"
             />
-            <!-- ADAM SECTION END -->
             <!-- LET'S TALK END -->
           </div>
         </div>
       </article>
+      <!-- LETS TALK START  -->
     </main>
     <!-- FOOTER START -->
     <?php
