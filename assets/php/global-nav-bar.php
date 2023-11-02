@@ -26,9 +26,7 @@
             >
           </li>
           <li>
-            <a href="/<?php echo $lang['asset_75'] ?>"
-              ><?php echo $lang['asset_75'] ?></a
-            >
+            <a href="/press"><?php echo $lang['asset_75'] ?></a>
           </li>
           <!-- <li><a href="<?php //echo "assets/php/lang?lang" ?>">EN / DA</a></li> -->
         </ul>

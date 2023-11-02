@@ -6,7 +6,10 @@
   />
   <div class="profile">
     <br />
-    <h4 class="reveal">Adam Sochorec 🇨🇿</h4>
+    <h4 class="reveal">
+      Adam Sochorec<br />
+      🇨🇿
+    </h4>
     <h5 class="reveal">
       <?php echo $lang['asset_30'] ?>
     </h5>

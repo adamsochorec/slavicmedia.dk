@@ -20,25 +20,37 @@
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>
-        <div class="grid-container fifty-fifty">
-          <div class="grid-item">
-            <h2 class="highlited reveal"><?php echo $lang['asset_43'] ?></h2>
-            <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
-            <div class="pathname-container reveal">
-              <p>
-                <span class="pathname"><a href="/"></a> &#8250; </span>
-                <span class="pathname"><?php echo $lang['asset_102'] ?></span>
-              </p>
-            </div>
-          </div>
-          <div class="grid-ite reveal">
+        <div class="grid-item">
+          <h2 class="highlited reveal"><?php echo $lang['asset_43'] ?></h2>
+          <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
+          <div class="pathname-container reveal">
             <p>
-              <?php echo $lang['asset_45'] ?>
+              <span class="pathname"><a href="/"></a> &#8250; </span>
+              <span class="pathname"><?php echo $lang['asset_102'] ?></span>
             </p>
           </div>
         </div>
       </article>
       <!-- VIDEO GALLERY START -->
+      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
+        <hr class="reveal" />
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item reveal">
+            <h3 class="highlited">Video Services</h3>
+            <h2>Hocičo</h2>
+            <br />
+            <a class="cta" href="/photo#<?php echo $lang['asset_107'] ?>"
+              >Hocičo plans
+            </a>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              <?php echo $lang['asset_109'] ?>
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr style="opacity: 0;"" />
       <article id="visual" class="video-gallery">
         <div class="gallery-item reveal">
           <img
@@ -244,12 +256,16 @@
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-04-13-00583.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-05-16-00786.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
@@ -257,18 +273,24 @@
           </div>
 
           <div class="v-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-11-13-02059.jpg"
               alt="<?php echo $lang['asset_52'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-06-24-01208.jpg"
               alt="<?php echo $lang['asset_53'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-06-24-01233.jpg"
               alt="<?php echo $lang['asset_54'] ?>."
@@ -276,12 +298,16 @@
           </div>
 
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-04-25-00693.jpg"
               alt="<?php echo $lang['asset_55'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-04-14-00608.jpg"
               alt="<?php echo $lang['asset_56'] ?>."
@@ -289,18 +315,24 @@
           </div>
 
           <div class="v-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-10-17-01935.jpg"
               alt="<?php echo $lang['asset_57'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-05-28-01020.jpg"
               alt="<?php echo $lang['asset_58'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
+            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
+
             <img
               src="/img/2021-09-05-01666.jpg"
               alt="<?php echo $lang['asset_59'] ?>."

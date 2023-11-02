@@ -6,7 +6,10 @@
   />
   <section class="profile">
     <br />
-    <h4 class="reveal">Marcel Hájik 🇸🇰</h4>
+    <h4 class="reveal">
+      Marcel Hájik<br />
+      🇸🇰
+    </h4>
     <h5 class="reveal">
       <?php echo $lang['asset_24'] ?>
     </h5>

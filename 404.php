@@ -28,11 +28,7 @@
             autoplay
           ></dotlottie-player>
         </div>
-        <h1>
-          The <span class="highlited tuscher">page</span> you’re looking<br />for
-          <span class="highlited tuscher">can't</span> be
-          <span class="highlited tuscher">found</span>.
-        </h1>
+        <h1>The page you’re looking<br />for can't be found.</h1>
         <a class="cta" href="http://slavicmedia.dk/">Return to the homepage </a>
       </article>
     </main>
