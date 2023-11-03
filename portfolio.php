@@ -50,7 +50,7 @@
           </div>
         </div>
       </article>
-      <hr style="opacity: 0;"" />
+      <hr class="semi" />
       <article id="visual" class="video-gallery">
         <div class="gallery-item reveal">
           <img
@@ -242,21 +242,32 @@
           </div>
         </div>
       </article>
-      <hr style="opacity: 0" />
+      <hr class="semi" />
 
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span
+                  ><span>divadlonavinohradech.cz &#8250;</span
+                  ><span><i class="fa-solid fa-circle-info"></i></span>
+                  &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-04-13-00583.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-05-16-00786.jpg"
               alt="<?php echo $lang['asset_51'] ?>."
@@ -264,24 +275,36 @@
           </div>
 
           <div class="v-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-11-13-02059.jpg"
               alt="<?php echo $lang['asset_52'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-06-24-01208.jpg"
               alt="<?php echo $lang['asset_53'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-06-24-01233.jpg"
               alt="<?php echo $lang['asset_54'] ?>."
@@ -289,16 +312,24 @@
           </div>
 
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-04-25-00693.jpg"
               alt="<?php echo $lang['asset_55'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-04-14-00608.jpg"
               alt="<?php echo $lang['asset_56'] ?>."
@@ -306,24 +337,36 @@
           </div>
 
           <div class="v-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-10-17-01935.jpg"
               alt="<?php echo $lang['asset_57'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-05-28-01020.jpg"
               alt="<?php echo $lang['asset_58'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
-            <p class="note"><a href="">divadlonavinohradech.cz</a></p>
-
+            <p class="note">
+              <a href="" target="_blank" rel="noopener noreferrer"
+                ><span>divadlonavinohradech.cz &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2021-09-05-01666.jpg"
               alt="<?php echo $lang['asset_59'] ?>."
@@ -353,7 +396,7 @@
           </div>
         </div>
       </article>
-      <hr style="opacity: 0" />
+      <hr class="semi" />
 
       <article id="visuals">
         <div class="grid-container photo-grid">
@@ -442,17 +485,34 @@
           </div>
         </div>
       </article>
-      <hr style="opacity: 0" />
-
+      <hr class="semi" />
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Åland &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-10-15-00970.jpg"
               alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Åland &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-10-16-00979.jpg"
               alt="<?php echo $lang[''] ?>."
@@ -472,6 +532,15 @@
             />
           </div>
           <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Åland &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-10-17-01001.jpg"
               alt="<?php echo $lang[''] ?>."
@@ -479,12 +548,31 @@
           </div>
 
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>timetravels.com &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-12-08-01181.jpg"
               alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>timetravels.com &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-12-07-01167.jpg"
               alt="<?php echo $lang[''] ?>."
@@ -501,6 +589,15 @@
             />
           </div>
           <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/vestkystruten"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Vestkystruten &#8250;</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-07-26-00855.jpg"
               alt="<?php echo $lang[''] ?>."

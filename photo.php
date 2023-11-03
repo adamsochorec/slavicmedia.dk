@@ -22,7 +22,7 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-wide">
-        <hr class="reveal" style="opacity: 0" />
+        <hr class="semi" />
         <h1 class="reveal"><?php echo $lang['asset_105'] ?></h1>
 
         <div class="pathname-container reveal">
@@ -144,7 +144,7 @@
           hidden fees and affordable rates tailored to fit your photography
           needs.
         </p>
-        <hr style="opacity: 0" />
+        <hr class="semi" />
 
         <div class="tabset reveal">
           <!-- Tab 1 -->
@@ -177,7 +177,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_110'] ?>
-                        Essential
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>2.000 DKK excl. moms</h5>
                       <h6>The Highlights Package</h6>
@@ -188,6 +188,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_110'] ?>
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a limited budget
                         or that only require a few hours of coverage. It is also
@@ -202,7 +206,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_110'] ?>
-                        Core
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>4.000 DKK excl. moms</h5>
                       <h6>The In-Depth Package</h6>
@@ -216,6 +220,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_110'] ?>
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is a good option for events with a moderate
                         budget or that require more in-depth coverage. It is
@@ -230,7 +238,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_110'] ?>
-                        Elite
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>13.000 DKK excl. moms</h5>
                       <h6>The Full Coverage Package</h6>
@@ -247,6 +255,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_110'] ?>
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a large budget or
                         that require full coverage from start to finish. It is
@@ -268,7 +280,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_107'] ?>
-                        Essential
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>2.000 DKK excl. moms</h5>
                       <h6>The Highlights Package</h6>
@@ -279,6 +291,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_107'] ?>
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a limited budget
                         or that only require a few hours of coverage. It is also
@@ -293,7 +309,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_107'] ?>
-                        Core
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>4.000 DKK excl. moms</h5>
                       <h6>The In-Depth Package</h6>
@@ -307,6 +323,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_107'] ?>
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is a good option for events with a moderate
                         budget or that require more in-depth coverage. It is
@@ -321,7 +341,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_107'] ?>
-                        Elite
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>13.000 DKK excl. moms</h5>
                       <h6>The Full Coverage Package</h6>
@@ -338,6 +358,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_107'] ?>
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a large budget or
                         that require full coverage from start to finish. It is
@@ -358,7 +382,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_85'] ?>
-                        Essential
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>2.000 DKK excl. moms</h5>
                       <h6>The Highlights Package</h6>
@@ -369,6 +393,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_85'] ?>
+                        Essential&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a limited budget
                         or that only require a few hours of coverage. It is also
@@ -383,7 +411,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_85'] ?>
-                        Core
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>4.000 DKK excl. moms</h5>
                       <h6>The In-Depth Package</h6>
@@ -397,6 +425,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_85'] ?>
+                        Core&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is a good option for events with a moderate
                         budget or that require more in-depth coverage. It is
@@ -411,7 +443,7 @@
                     <div class="flip-card-front">
                       <h4>
                         <?php echo $lang['asset_85'] ?>
-                        Elite
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
                       </h4>
                       <h5>13.000 DKK excl. moms</h5>
                       <h6>The Full Coverage Package</h6>
@@ -428,6 +460,10 @@
                       </ul>
                     </div>
                     <div class="flip-card-back">
+                      <h4>
+                        <?php echo $lang['asset_85'] ?>
+                        Elite&nbsp;<i class="fa-solid fa-circle-info"></i>
+                      </h4>
                       <p>
                         This package is ideal for events with a large budget or
                         that require full coverage from start to finish. It is
@@ -444,6 +480,9 @@
         </div>
         <!-- PACKAGES END -->
         <hr class="reveal" />
+        <!-- GRAPHIC START -->
+
+        <!-- GRAPHIC START -->
       </article>
       <!-- LETS TALK START  
 
@@ -534,11 +573,10 @@
               alt="<?php echo $lang['asset_23'] ?>Adam Sochorec"
               class="reveal"
             />
-            <!-- LET'S TALK END -->
           </div>
         </div>
       </article>
-      <!-- LETS TALK START  -->
+      <!-- LETS TALK END  -->
     </main>
     <!-- FOOTER START -->
     <?php

@@ -143,6 +143,10 @@ hr {
   z-index: 3;
   box-shadow: var(--box-shadow-1);
 }
+.semi {
+  margin: 1rem 0;
+  opacity: 0 !important;
+}
 #homepage header {
   background-color: rgba(var(--black-color), 0);
 }
@@ -704,6 +708,7 @@ hr {
 .wrapper-super-wide {
   width: 10rem;
 }
+
 /* WRAPPER END */
 
 /* IMG, IFRAME, SVG START */
@@ -1157,7 +1162,7 @@ footer span {
   margin: 0 auto;
 }
 #visuals .grid-container.photo-grid {
-  padding: 10px var(--homepage-padding) 30px var(--homepage-padding);
+  padding: 10px var(--homepage-padding) 0 var(--homepage-padding);
 }
 #visuals .grid-container.video-grid {
   padding-top: var(--nav-bar-top-position);
@@ -1229,8 +1234,7 @@ footer span {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 10px;
   width: 100%;
-  padding: var(--homepage-padding) var(--homepage-padding) 0
-    var(--homepage-padding);
+  padding: 0 var(--homepage-padding) 0 var(--homepage-padding);
   margin: 0;
   box-sizing: border-box;
 }
@@ -1687,7 +1691,10 @@ footer span {
   padding: 0 3px !important;
   background-color: rgba(var(--secondary-color), 0.4);
 }
-
+.note a {
+  background-color: none;
+  text-decoration: none;
+}
 /* MEDIA QERRIES START */
 
 @media only screen and (min-width: 300px) {
@@ -1736,7 +1743,7 @@ footer span {
   .team-container .intro-section,
   .press-container .intro-section,
   .intro-section .filter {
-    border-radius: none;
+    border-radius: 0 !important;
     width: 100vw;
   }
 }
@@ -1883,9 +1890,26 @@ footer span {
     margin-bottom: 60px;
   }
 }
-@media only screen and (max-width: 667px) {
-  p.note {
+@media only screen and (min-width: 668px) {
+  .note span:nth-child(2) {
     display: none;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .note span:nth-child(1) {
+    display: none;
+  }
+  .note {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  p.note a {
+    box-shadow: none;
+    color: rgba(var(--white-color), 0.8);
+  }
+  p.note a:hover {
+    box-shadow: none;
+    color: rgba(var(--primary-color), 0.8);
   }
   header .container {
     max-width: 100%;
@@ -1924,8 +1948,7 @@ footer span {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 668px) {
-}
+
 @media only screen and (max-width: 767px) {
   header ul {
     clear: both;

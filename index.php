@@ -40,7 +40,7 @@
       <!-- VISUALS END -->
       <!-- COMPANY CAPTIONS START -->
       <article class="wrapper-wide" id="company-intro">
-        <hr id="<?php echo $lang['asset_101'] ?>" />
+        <hr <hr class="semi" id="<?php echo $lang['asset_101'] ?>" />
 
         <!-- SERVICES  START -->
         <div class="grid-container fifty-fifty reveal">
@@ -55,7 +55,7 @@
             </p>
           </div>
         </div>
-        <hr style="opacity: 0" />
+        <hr class="semi" />
 
         <div class="grid-container gallery reveal" id="services">
           <div class="reveal">
@@ -151,7 +151,7 @@
         </div>
 
         <!-- SERVICES END -->
-        <hr class="reveal" id="ourteam" />
+        <hr class="semi" id="ourteam" />
       </article>
       <!-- VISUALS END -->
 
@@ -182,7 +182,7 @@
       </article>
       <!-- OUR TEAM INTRO SECTION END -->
       <article id="ourteam" class="wrapper-standard">
-        <hr style="opacity: 0" />
+        <hr class="semi" />
         <!-- TEAM SECTION START -->
         <section class="grid-container skills-section">
           <!-- MARCEL SECTION START -->
@@ -269,7 +269,7 @@
         <!-- TEAM SECTION END -->
         <!-- COLLABORATORS AND CLIENTS START -->
         <section>
-          <hr style="opacity: 0" />
+          <hr class="semi" />
         </section>
       </article>
 
