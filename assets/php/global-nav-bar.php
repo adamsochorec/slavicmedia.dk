@@ -1,7 +1,7 @@
 <header>
   <div class="blur">
     <div class="container">
-      <nav id="navigation">
+      <nav id="navigation" role="navigation" aria-label="Main Navigation">
         <a href="/">
           <img class="logo" alt="Logo Slavic Media" src="/img/logo.png" />
           <img
@@ -10,37 +10,49 @@
             src="/img/logo2.png"
           />
         </a>
-        <a aria-label="mobile menu" class="hamburger">
+        <a
+          aria-label="Open mobile menu"
+          class="hamburger"
+          role="button"
+          aria-expanded="false"
+        >
           <span></span>
-          <span></span> <span></span>
+          <span></span>
+          <span></span>
         </a>
-        <ul class="menu-left">
-          <li>
+        <ul class="menu-left" role="menu">
+          <li role="menuitem">
             <a href="/#<?php echo $lang['asset_101'] ?>"
               ><?php echo $lang['asset_101'] ?></a
             >
           </li>
-          <li>
+          <li role="menuitem">
             <a href="/<?php echo $lang['asset_102'] ?>"
               ><?php echo $lang['asset_102'] ?></a
             >
           </li>
-          <li>
+          <li role="menuitem">
             <a href="/#<?php echo $lang['asset_103'] ?>"
               ><?php echo $lang['asset_18'] ?></a
             >
           </li>
-          <li>
+          <li role="menuitem">
             <a href="/press"><?php echo $lang['asset_75'] ?></a>
           </li>
-          <!-- <li><a href="<?php //echo "assets/php/lang?lang" ?>">EN / DA</a></li> -->
+          <!-- <li role="menuitem"><a href="<?php //echo "assets/php/lang?lang" ?>">EN / DA</a></li> -->
         </ul>
       </nav>
     </div>
   </div>
 </header>
 <!-- LOADER START -->
-<aside class="loader-container">
-  <div class="loader"></div>
+<aside class="loader-container" role="complementary">
+  <div class="loader" aria-label="Loading"></div>
 </aside>
-<!-- LOADER END -->
+<!-- LOADER END
+<div class="cookie">
+  <div class="cookie-consent__col2">
+    <button class="cookie-consent__btn">Got it!</button>
+  </div>
+</div>
+ -->

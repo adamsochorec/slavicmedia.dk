@@ -139,15 +139,8 @@
 
         <hr class="reveal" />
         <!-- PACKAGES START -->
-        <h3 class="reveal">
-          Our packages &
-          <span class="highlited tuscher">Prices</span>
-        </h3>
-        <p class="reveal">
-          Capture your special moments with our transparent pricing options. No
-          hidden fees and affordable rates tailored to fit your photography
-          needs.
-        </p>
+        <h3 class="reveal"><?php echo $lang['asset_145'] ?></h3>
+        <p class="reveal"><?php echo $lang['asset_131'] ?></p>
         <hr class="semi" />
 
         <div class="tabset reveal">
@@ -182,27 +175,27 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
-                      <h5>2.000 DKK excl. moms</h5>
-                      <h6>The Highlights Package</h6>
+                      <h5>
+                        2.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6>
+                        <?php echo $lang['asset_136'] ?>
+                      </h6>
                       <ul>
-                        <li>2 hours of photography</li>
-                        <li>10 edited digital images</li>
-                        <li>Highlights of the event</li>
+                        <?php echo $lang['asset_137'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        This package is ideal for events with a limited budget
-                        or that only require a few hours of coverage. It is also
-                        a good option for events where the focus is on the
-                        speakers or performers rather than the guests.
+                        <?php echo $lang['asset_138'] ?>
                       </p>
                     </div>
                   </div>
@@ -213,31 +206,24 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <h5>4.000 DKK excl. moms</h5>
-                      <h6>The In-Depth Package</h6>
+                      <h5>
+                        4.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
-                        <li>4 hours of photography</li>
-                        <li>More in-depth coverage of the event</li>
-                        <li>
-                          1-hour free pre-production meeting online or offline
-                        </li>
-                        <li>1 revision</li>
+                        <?php echo $lang['asset_140'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p>
-                        This package is a good option for events with a moderate
-                        budget or that require more in-depth coverage. It is
-                        also a good option for events where the focus is on both
-                        the speakers or performers and the guests.
-                      </p>
+                      <p><?php echo $lang['asset_141'] ?></p>
                     </div>
                   </div>
                 </div>
@@ -247,20 +233,15 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
-                      <h5>13.000 DKK excl. moms</h5>
-                      <h6>The Full Coverage Package</h6>
+                      <h5>
+                        13.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
-                        <li>8+ hours of photography</li>
-                        <li>30+ edited digital images</li>
-                        <li>
-                          Full coverage of the event, from start to finish
-                        </li>
-                        <li>2-5min event video showcasing the entire event</li>
-                        <li>Free of credit policy</li>
-                        <li>Up to 3 revisions</li>
-                        <li>Free pre-production meeting online or offline</li>
+                        <?php echo $lang['asset_143'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -270,10 +251,7 @@
                         Elite
                       </h4>
                       <p>
-                        This package is ideal for events with a large budget or
-                        that require full coverage from start to finish. It is
-                        also a good option for events where the focus is on
-                        capturing the unique spirit of the event.
+                        <?php echo $lang['asset_144'] ?>
                       </p>
                     </div>
                   </div>
@@ -291,27 +269,27 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
-                      <h5>2.000 DKK excl. moms</h5>
-                      <h6>The Highlights Package</h6>
+                      <h5>
+                        2.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6>
+                        <?php echo $lang['asset_136'] ?>
+                      </h6>
                       <ul>
-                        <li>2 hours of photography</li>
-                        <li>10 edited digital images</li>
-                        <li>Highlights of the event</li>
+                        <?php echo $lang['asset_137'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        This package is ideal for events with a limited budget
-                        or that only require a few hours of coverage. It is also
-                        a good option for events where the focus is on the
-                        speakers or performers rather than the guests.
+                        <?php echo $lang['asset_138'] ?>
                       </p>
                     </div>
                   </div>
@@ -322,31 +300,24 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <h5>4.000 DKK excl. moms</h5>
-                      <h6>The In-Depth Package</h6>
+                      <h5>
+                        4.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
-                        <li>4 hours of photography</li>
-                        <li>More in-depth coverage of the event</li>
-                        <li>
-                          1-hour free pre-production meeting online or offline
-                        </li>
-                        <li>1 revision</li>
+                        <?php echo $lang['asset_140'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p>
-                        This package is a good option for events with a moderate
-                        budget or that require more in-depth coverage. It is
-                        also a good option for events where the focus is on both
-                        the speakers or performers and the guests.
-                      </p>
+                      <p><?php echo $lang['asset_141'] ?></p>
                     </div>
                   </div>
                 </div>
@@ -356,20 +327,15 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
-                      <h5>13.000 DKK excl. moms</h5>
-                      <h6>The Full Coverage Package</h6>
+                      <h5>
+                        13.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
-                        <li>8+ hours of photography</li>
-                        <li>30+ edited digital images</li>
-                        <li>
-                          Full coverage of the event, from start to finish
-                        </li>
-                        <li>2-5min event video showcasing the entire event</li>
-                        <li>Free of credit policy</li>
-                        <li>Up to 3 revisions</li>
-                        <li>Free pre-production meeting online or offline</li>
+                        <?php echo $lang['asset_143'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -379,10 +345,7 @@
                         Elite
                       </h4>
                       <p>
-                        This package is ideal for events with a large budget or
-                        that require full coverage from start to finish. It is
-                        also a good option for events where the focus is on
-                        capturing the unique spirit of the event.
+                        <?php echo $lang['asset_144'] ?>
                       </p>
                     </div>
                   </div>
@@ -399,27 +362,27 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
-                      <h5>2.000 DKK excl. moms</h5>
-                      <h6>The Highlights Package</h6>
+                      <h5>
+                        2.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6>
+                        <?php echo $lang['asset_136'] ?>
+                      </h6>
                       <ul>
-                        <li>2 hours of photography</li>
-                        <li>10 edited digital images</li>
-                        <li>Highlights of the event</li>
+                        <?php echo $lang['asset_137'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Essential
+                        <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        This package is ideal for events with a limited budget
-                        or that only require a few hours of coverage. It is also
-                        a good option for events where the focus is on the
-                        speakers or performers rather than the guests.
+                        <?php echo $lang['asset_138'] ?>
                       </p>
                     </div>
                   </div>
@@ -430,31 +393,24 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <h5>4.000 DKK excl. moms</h5>
-                      <h6>The In-Depth Package</h6>
+                      <h5>
+                        4.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
-                        <li>4 hours of photography</li>
-                        <li>More in-depth coverage of the event</li>
-                        <li>
-                          1-hour free pre-production meeting online or offline
-                        </li>
-                        <li>1 revision</li>
+                        <?php echo $lang['asset_140'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Core
+                        <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p>
-                        This package is a good option for events with a moderate
-                        budget or that require more in-depth coverage. It is
-                        also a good option for events where the focus is on both
-                        the speakers or performers and the guests.
-                      </p>
+                      <p><?php echo $lang['asset_141'] ?></p>
                     </div>
                   </div>
                 </div>
@@ -464,20 +420,15 @@
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
-                      <h5>13.000 DKK excl. moms</h5>
-                      <h6>The Full Coverage Package</h6>
+                      <h5>
+                        13.000 DKK
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
-                        <li>8+ hours of photography</li>
-                        <li>30+ edited digital images</li>
-                        <li>
-                          Full coverage of the event, from start to finish
-                        </li>
-                        <li>2-5min event video showcasing the entire event</li>
-                        <li>Free of credit policy</li>
-                        <li>Up to 3 revisions</li>
-                        <li>Free pre-production meeting online or offline</li>
+                        <?php echo $lang['asset_143'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -487,10 +438,7 @@
                         Elite
                       </h4>
                       <p>
-                        This package is ideal for events with a large budget or
-                        that require full coverage from start to finish. It is
-                        also a good option for events where the focus is on
-                        capturing the unique spirit of the event.
+                        <?php echo $lang['asset_144'] ?>
                       </p>
                     </div>
                   </div>

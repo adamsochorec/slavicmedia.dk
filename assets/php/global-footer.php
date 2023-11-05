@@ -1,5 +1,5 @@
 <!-- FOOTER START -->
-<hr style="opacity: 0" />
+<hr class="semi" />
 <footer>
   <?php
          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -7,9 +7,14 @@
          ?>
   <div class="footer-ps">
     <p>
-      <a href="mailto:contact@slavicmedia.dk">contact@slavicmedia.dk</a>
+      <a
+        href="mailto:contact@slavicmedia.dk"
+        aria-label="Email: contact@slavicmedia.dk"
+        >contact@slavicmedia.dk</a
+      >
     </p>
   </div>
+
   <div class="footer-ps">
     <span>
       ©
@@ -20,9 +25,10 @@
         target="_blank"
         rel="noopener noreferrer"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
+        aria-label="View CVR details for Slavic Media I/S"
       >
-        CVR: 44081512</a
-      >
+        CVR: 44081512
+      </a>
     </span>
   </div>
   <script

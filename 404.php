@@ -17,7 +17,7 @@
     include $IPATH . 'global-nav-bar.php';
     ?>
     <main>
-      <article class="wrapper-narrow flex-center reveal">
+      <article class="wrapper-narrow flex-center reveal" role="main">
         <div class="pathname-container"></div>
         <div class="lottie">
           <dotlottie-player
@@ -26,10 +26,14 @@
             speed="0.7"
             loop
             autoplay
-          ></dotlottie-player>
+            role="img"
+            aria-label="<?php echo $lang['asset_130'] ?>"
+          >
+            ></dotlottie-player
+          >
         </div>
         <h1>The page you’re looking<br />for can't be found.</h1>
-        <a class="cta" href="http://slavicmedia.dk/">Return to the homepage </a>
+        <a class="cta" href="http://slavicmedia.dk">Return to the homepage</a>
       </article>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->

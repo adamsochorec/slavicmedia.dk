@@ -1,7 +1,7 @@
 <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'config.php';
-    ?>
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
@@ -22,7 +22,7 @@
     <!-- HEADER END -->
     <main>
       <!-- VISUALS START -->
-      <article id="visuals">
+      <article id="visuals" role="region" aria-label="Visuals">
         <!-- INTRO VIDEO START -->
         <section class="showcase">
           <div class="video-container">
@@ -31,13 +31,16 @@
               loop="true"
               autoplay="autoplay"
               muted
+              aria-label="Intro Video"
+              role="video"
+              aria-describedby="introVideoDescription"
             ></video>
           </div>
           <a href="/#<?php echo $lang['asset_101'] ?>" class="explore reveal">
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
               include $IPATH . 'global-scroll.php';
-              ?>
+            ?>
           </a>
         </section>
         <!-- INTRO VIDEO END -->
@@ -45,10 +48,14 @@
       <!-- VISUALS END -->
       <!-- COMPANY CAPTIONS START -->
       <article class="wrapper-wide" id="company-intro">
-        <hr <hr class="semi" id="<?php echo $lang['asset_101'] ?>" />
+        <hr class="semi" id="<?php echo $lang['asset_101'] ?>" />
 
-        <!-- SERVICES  START -->
-        <div class="grid-container fifty-fifty reveal">
+        <!-- SERVICES START -->
+        <div
+          class="grid-container fifty-fifty reveal"
+          role="region"
+          aria-label="Services"
+        >
           <div class="grid-item">
             <h1>
               <?php echo $lang['asset_9'] ?>
@@ -60,12 +67,22 @@
             </p>
           </div>
         </div>
-        <hr class="semi" />
+        <hr class="semi" role="separator" />
 
-        <div class="grid-container gallery reveal" id="services">
+        <div
+          class="grid-container gallery reveal"
+          id="services"
+          role="region"
+          aria-label="Services Gallery"
+        >
           <div class="reveal">
             <a class="gallery-item" href="/photo">
-              <div class="grid-item" id="first-product">
+              <div
+                class="grid-item"
+                id="first-product"
+                role="region"
+                aria-label="<?php echo $lang['asset_11'] ?>"
+              >
                 <div class="inner-wrapper flex-center">
                   <h3>
                     <?php echo $lang['asset_11'] ?>
@@ -77,7 +94,11 @@
                     speed="1"
                     autoplay
                     loop
+                    aria-label="Photo Lottie Animation"
+                    role="img"
+                    aria-describedby="photoLottieDescription"
                   ></lottie-player>
+
                   <p>
                     <?php echo $lang['asset_12'] ?>
                   </p>
@@ -87,7 +108,12 @@
           </div>
           <div class="reveal">
             <a href="/video">
-              <div class="grid-item" id="second-product">
+              <div
+                class="grid-item"
+                id="second-product"
+                role="region"
+                aria-label="<?php echo $lang['asset_13'] ?>"
+              >
                 <div class="inner-wrapper flex-center">
                   <h3>
                     <?php echo $lang['asset_13'] ?>
@@ -99,7 +125,11 @@
                     speed="1"
                     autoplay
                     loop
+                    aria-label="Video Lottie Animation"
+                    role="img"
+                    aria-describedby="videoLottieDescription"
                   ></lottie-player>
+
                   <p>
                     <?php echo $lang['asset_14'] ?>
                   </p>
@@ -108,7 +138,7 @@
             </a>
           </div>
         </div>
-        <hr class="reveal" />
+        <hr class="reveal" role="separator" />
 
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
@@ -136,11 +166,15 @@
         <!-- SERVICES END -->
         <hr class="semi" id="ourteam" />
       </article>
-      <!-- VISUALS END -->
+      <!-- COMPANY CAPTIONS END -->
 
       <!-- OUR TEAM START -->
       <!-- OUR TEAM INTRO SECTION START -->
-      <article class="team-container reveal">
+      <article
+        class="team-container reveal"
+        role="region"
+        aria-label="Our Team"
+      >
         <div class="intro-section flex-center">
           <div class="filter"></div>
           <article class="wrapper-standard">
@@ -165,11 +199,16 @@
       </article>
       <!-- OUR TEAM INTRO SECTION END -->
       <article id="ourteam" class="wrapper-standard">
-        <hr class="semi" />
+        <hr class="semi" role="separator" />
         <!-- TEAM SECTION START -->
         <section class="grid-container skills-section">
           <!-- MARCEL SECTION START -->
-          <div class="grid-item" id="marcel">
+          <div
+            class="grid-item"
+            id="marcel"
+            role="region"
+            aria-label="Marcel's Skills"
+          >
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'marcel.php';
@@ -209,11 +248,17 @@
           </div>
           <!-- MARCEL SECTION END -->
           <!-- ADAM SECTION START -->
-          <div class="grid-item" id="adam">
+          <div
+            class="grid-item"
+            id="adam"
+            role="region"
+            aria-label="Adam's Skills"
+          >
             <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'adam.php';
-    ?><!-- ADAM SKILLS START -->
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'adam.php';
+            ?>
+            <!-- ADAM SKILLS START -->
             <div class="reveal">
               <p><?php echo $lang['asset_25'] ?></p>
               <div class="skill-bar faded">
@@ -252,13 +297,16 @@
         <!-- TEAM SECTION END -->
         <!-- COLLABORATORS AND CLIENTS START -->
         <section>
-          <hr class="semi" />
+          <hr class="semi" role="separator" />
         </section>
       </article>
-
       <!-- COLLABORATORS AND CLIENTS END -->
       <!-- CTA SECTION START -->
-      <section class="press-container reveal">
+      <section
+        class="press-container reveal"
+        role="region"
+        aria-label="Press Section"
+      >
         <div class="intro-section flex-center">
           <div class="filter"></div>
           <article class="wrapper-standard">
@@ -284,7 +332,6 @@
       <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
-
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

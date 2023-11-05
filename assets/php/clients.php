@@ -9,31 +9,36 @@
   viewBox="0 0 1077 302"
   enable-background="new 0 0 1077 302"
   xml:space="preserve"
+  role="img"
+  aria-label="Clients & Collaborators"
 >
   <a
     class="clients"
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.franklincovey.cz/"
+    aria-label="FranklinCovey Logo"
   >
     <g>
-      <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        id="clients"
-        d="M343.4,79.5v2.7H343v-2.1l-0.8,2.1h-0.5l-0.7-2.1v2.1h-0.5v-2.7
-                h0.8l0.7,2l0.7-2H343.4z M339.2,80.1v2.1h-0.6v-2.1h-0.8v-0.6h2.2v0.6H339.2z M266,69.7c0.8,0,1.2-0.4,1.2-1.2
-                c0-0.8-0.4-1.2-1.2-1.2c-0.8,0-1.2,0.4-1.2,1.2C264.8,69.4,265.2,69.7,266,69.7z M215.3,71.2c-0.2,0.9-0.5,1.4-0.7,1.7l-2.1,0.4
-                h-3.4l0.1-6.1c0-0.8,0.3-1.2,0.7-1.2h2.3l3,0.4l2.1,3h0.7l-1-4.1h-12.4v0.5c0.8,0,1.5,0.2,1.8,0.5c0.2,0.2,0.4,0.9,0.4,2l-0.2,11.1
-                c0,1-0.1,1.6-0.4,2c-0.3,0.3-1,0.5-2,0.5v0.6h7.4v-0.6l-2.1-0.5c-0.3-0.3-0.5-0.9-0.5-2v-5.2h3.6c0.9,0,1.5,0.1,1.9,0.5
-                c0.4,0.4,0.7,1,0.7,2h0.7v-5.5L215.3,71.2L215.3,71.2L215.3,71.2z M218.4,79.5c0,1-0.1,1.7-0.3,2c-0.2,0.3-0.6,0.5-1.3,0.5v0.5h5.1
-                V82l-1.3-0.5l-0.3-1.6v-4.4c0-1.4,0.6-2.1,1.7-2.1l1.4,0.1c0.8,0,1.2-0.2,1.2-0.8c0-0.5-0.4-0.8-1.1-0.8c-0.6,0-1.3,0.2-2,0.7
-                l-1.1,0.6l-0.2-0.3v-0.9l-0.1-0.2l-2.8,1.4v0l0.1,0.3h0.1c0.4-0.1,0.7,0.1,0.7,0.7l0.1,0.6L218.4,79.5L218.4,79.5z M230.9,76.5v4
-                c-1,0.7-1.8,1.1-2.3,1.1c-1.5,0-2.2-0.8-2.2-2.1c0.2-1.2,1.3-2.1,3.4-2.7L230.9,76.5z M227.3,73.8c0.3-0.9,0.9-1.4,1.8-1.4
-                c1.2,0,1.8,0.8,1.8,2.3v1.2l-1.5,0.4c-3.2,0.7-4.9,1.9-5,3.4c0,0.8,0.3,1.5,0.9,2.1c0.5,0.6,1.2,0.8,1.9,0.8c1.2,0,2.4-0.6,3.7-1.6
-                c0,0.9,0.5,1.4,1.4,1.4h1.6V82h0.3l-0.8-0.2c-0.4-0.2-0.6-0.7-0.6-1.3V75c0-2.1-1-3.2-3.1-3.2c-0.9,0-2,0.3-3,0.9
-                c-1,0.6-1.4,1.2-1.4,1.7c0,0.5,0.2,0.7,0.7,0.7C226.5,75.2,226.9,74.8,227.3,73.8L227.3,73.8z"
-      />
+      <path fill-rule="evenodd" clip-rule="evenodd" id="clients"
+      d="M343.4,79.5v2.7H343v-2.1l-0.8,2.1h-0.5l-0.7-2.1v2.1h-0.5v-2.7
+      h0.8l0.7,2l0.7-2H343.4z M339.2,80.1v2.1h-0.6v-2.1h-0.8v-0.6h2.2v0.6H339.2z
+      M266,69.7c0.8,0,1.2-0.4,1.2-1.2
+      c0-0.8-0.4-1.2-1.2-1.2c-0.8,0-1.2,0.4-1.2,1.2C264.8,69.4,265.2,69.7,266,69.7z
+      M215.3,71.2c-0.2,0.9-0.5,1.4-0.7,1.7l-2.1,0.4
+      h-3.4l0.1-6.1c0-0.8,0.3-1.2,0.7-1.2h2.3l3,0.4l2.1,3h0.7l-1-4.1h-12.4v0.5c0.8,0,1.5,0.2,1.8,0.5c0.2,0.2,0.4,0.9,0.4,2l-0.2,11.1
+      c0,1-0.1,1.6-0.4,2c-0.3,0.3-1,0.5-2,0.5v0.6h7.4v-0.6l-2.1-0.5c-0.3-0.3-0.5-0.9-0.5-2v-5.2h3.6c0.9,0,1.5,0.1,1.9,0.5
+      c0.4,0.4,0.7,1,0.7,2h0.7v-5.5L215.3,71.2L215.3,71.2L215.3,71.2z
+      M218.4,79.5c0,1-0.1,1.7-0.3,2c-0.2,0.3-0.6,0.5-1.3,0.5v0.5h5.1
+      V82l-1.3-0.5l-0.3-1.6v-4.4c0-1.4,0.6-2.1,1.7-2.1l1.4,0.1c0.8,0,1.2-0.2,1.2-0.8c0-0.5-0.4-0.8-1.1-0.8c-0.6,0-1.3,0.2-2,0.7
+      l-1.1,0.6l-0.2-0.3v-0.9l-0.1-0.2l-2.8,1.4v0l0.1,0.3h0.1c0.4-0.1,0.7,0.1,0.7,0.7l0.1,0.6L218.4,79.5L218.4,79.5z
+      M230.9,76.5v4
+      c-1,0.7-1.8,1.1-2.3,1.1c-1.5,0-2.2-0.8-2.2-2.1c0.2-1.2,1.3-2.1,3.4-2.7L230.9,76.5z
+      M227.3,73.8c0.3-0.9,0.9-1.4,1.8-1.4
+      c1.2,0,1.8,0.8,1.8,2.3v1.2l-1.5,0.4c-3.2,0.7-4.9,1.9-5.0,3.4c0,0.8,0.3,1.5,0.9,2.1c0.5,0.6,1.2,0.8,1.9,0.8c1.2,0,2.4-0.6,3.7-1.6
+      c0,0.9,0.5,1.4,1.4,1.4h1.6V82h0.3l-0.8-0.2c-0.4-0.2-0.6-0.7-0.6-1.3V75c0-2.1-1-3.2-3.1-3.2c-0.9,0-2,0.3-3,0.9
+      c-1,0.6-1.4,1.2-1.4,1.7c0,0.5,0.2,0.7,0.7,0.7C226.5,75.2,226
+
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -88,6 +93,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.divadlonavinohradech.com/"
+    aria-label="Divadlo na Vinohradech Logo"
   >
     <g>
       <path
@@ -244,6 +250,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.oldstars.cz/"
+    aria-label="Oldstars Logo"
   >
     <g>
       <path
@@ -324,6 +331,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.divadlodisk.cz/"
+    aria-label="Divadlo Disk Logo"
   >
     <path
       id="clients"
@@ -433,6 +441,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://parkourskola.sk/"
+    aria-label="Parkour Skola Logo"
   >
     <g>
       <path
@@ -552,6 +561,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.roskilde-festival.dk/"
+    aria-label="Roskilde Festival Logo"
   >
     <path
       id="clients"
@@ -685,6 +695,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://samoeurope.com/"
+    aria-label="Samo Europe Logo"
   >
     <g>
       <path
@@ -792,6 +803,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.bygning5.dk/"
+    aria-label="Bygning 5 Logo"
   >
     <g xmlns="http://www.w3.org/2000/svg">
       <g>
@@ -968,6 +980,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.utuloktulacik.sk/"
+    aria-label="Tulacik Logo"
   >
     <g>
       <path
@@ -1209,6 +1222,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.husetfundament.dk/"
+    aria-label="Huset Fundament Logo"
   >
     <g>
       <path
@@ -1421,6 +1435,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.iba.dk/"
+    aria-label="Confucius Institute Logo"
   >
     <path
       id="clients"
@@ -1522,6 +1537,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://www.slovo21.cz/"
+    aria-label="Slovo 21 Logo"
   >
     <g>
       <path

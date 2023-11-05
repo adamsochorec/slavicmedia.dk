@@ -1,5 +1,4 @@
 // LOADER ANIMATION START
-
 (function introLoader() {
   window.addEventListener("load", () => {
     // When the window is fully loaded, hide the loader

@@ -3,6 +3,7 @@
     href="https://www.linkedin.com/company/slavicmedia/"
     target="_blank"
     rel="noopener noreferrer"
+    aria-label="LinkedIn"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +21,7 @@
     href="https://www.instagram.com/slavicmedia.dk/"
     target="_blank"
     rel="noopener noreferrer"
+    aria-label="Instagram"
   >
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
       <path
@@ -31,6 +33,7 @@
     target="_blank"
     rel="noopener noreferrer"
     href="https://youtube.com/@slavicmedia"
+    aria-label="YouTube"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

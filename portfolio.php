@@ -19,37 +19,60 @@
     <!-- HEADER END -->
     <main>
       <article class="wrapper-wide">
-        <div class="pathname-container"></div>
-        <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
+        <div
+          class="pathname-container"
+          role="navigation"
+          aria-label="Breadcrumb navigation"
+        ></div>
+        <h1 class="reveal" aria-label="<?php echo $lang['asset_102'] ?>">
+          <?php echo $lang['asset_102'] ?>
+        </h1>
         <div class="pathname-container reveal">
           <p>
-            <span class="pathname"><a href="/"></a> &#8250; </span>
-            <span class="pathname"><?php echo $lang['asset_102'] ?></span>
+            <span class="pathname"
+              ><a href="/" aria-label="Home"></a> &#8250;
+            </span>
+            <span class="pathname" aria-label="<?php echo $lang['asset_102'] ?>"
+              ><?php echo $lang['asset_102'] ?></span
+            >
           </p>
         </div>
       </article>
+
       <!-- VIDEO GALLERY START -->
-      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
-        <hr class="reveal" />
+      <article
+        class="wrapper-wide"
+        id="<?php echo $lang['asset_13'] ?>"
+        aria-label="<?php echo $lang['asset_126'] ?>"
+        role="region"
+      >
+        <hr class="reveal" role="separator" aria-hidden="true" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
-            <h3 class="highlited">Video Services</h3>
+            <h3 class="highlited">
+              <?php echo $lang['asset_126'] ?>
+            </h3>
             <h2>Hocičo</h2>
             <br />
-            <a class="cta" href="/photo#<?php echo $lang['asset_107'] ?>"
-              >Hocičo plans
+            <a
+              class="cta"
+              href="/photo#<?php echo $lang['asset_107'] ?>"
+              aria-label="<?php echo $lang['asset_128'] ?>"
+            >
+              Hocičo plans
             </a>
           </div>
           <div class="grid-item">
-            <p class="reveal">
+            <p class="reveal" aria-hidden="true">
               <?php echo $lang['asset_109'] ?>
             </p>
           </div>
         </div>
       </article>
-      <hr class="semi" />
-      <article id="visual" class="video-gallery">
-        <div class="gallery-item reveal">
+
+      <hr class="semi" role="separator" />
+      <article id="visual" class="video-gallery" aria-label="Video Gallery">
+        <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
             src="/img/cover-husetfundament.jpg"
             alt="<?php echo $lang['asset_40'] ?>."
@@ -61,12 +84,13 @@
               <br />
               <span>2023</span>
             </h3>
-            <p>
+            <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
               <i class="fa-solid fa-circle-info">&nbsp; </i
               ><a href>husetfundament.dk</a>
             </p>
 
             <a
+              aria-label="<?php echo $lang['asset_127'] ?>"
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
             ></a>
@@ -187,7 +211,7 @@
       <!-- PHOTO GALLERY START -->
       <!-- PORTRAIT START -->
       <article class="wrapper-wide" id="<?php echo $lang['asset_110'] ?>">
-        <hr class="reveal" />
+        <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
@@ -207,7 +231,7 @@
           </div>
         </div>
       </article>
-      <hr class="semi" />
+      <hr class="semi" role="separator" />
 
       <article id="visuals">
         <div class="grid-container photo-grid">
@@ -223,7 +247,7 @@
             </p>
             <img
               src="/img/2021-04-13-00583.jpg"
-              alt="<?php echo $lang['asset_51'] ?>."
+              alt="<?php echo $lang['asset_59'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -238,14 +262,14 @@
             </p>
             <img
               src="/img/2021-05-16-00786.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_58'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2021-11-13-02059.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_52'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -260,7 +284,7 @@
             </p>
             <img
               src="/img/2021-06-24-01208.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_53'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -275,7 +299,7 @@
             </p>
             <img
               src="/img/2021-06-24-01233.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_54'] ?>."
             />
           </div>
 
@@ -291,7 +315,7 @@
             </p>
             <img
               src="/img/2021-04-25-00693.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_55'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -306,20 +330,20 @@
             </p>
             <img
               src="/img/2021-04-14-00608.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_56'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-22-00624.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_2'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2021-05-28-01020.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -334,7 +358,7 @@
             </p>
             <img
               src="/img/2021-06-21-01194.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_4'] ?>."
             />
           </div>
         </div>
@@ -342,7 +366,7 @@
         <!-- EVENT START -->
       </article>
       <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
-        <hr class="reveal" />
+        <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
@@ -361,7 +385,7 @@
           </div>
         </div>
       </article>
-      <hr class="semi" />
+      <hr class="semi" role="separator" />
 
       <article id="visuals">
         <div class="grid-container photo-grid">
@@ -377,7 +401,7 @@
             </p>
             <img
               src="/img/2023-09-09-10524.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_66'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -392,7 +416,7 @@
             </p>
             <img
               src="/img/2022-06-28-00708.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_65'] ?>."
             />
           </div>
 
@@ -408,7 +432,7 @@
             </p>
             <img
               src="/img/2023-09-09-10507.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_67'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -423,7 +447,7 @@
             </p>
             <img
               src="/img/2023-05-27-00025.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_61'] ?>."
             />
           </div>
           <div class="h-stretch unhide reveal">
@@ -438,7 +462,7 @@
             </p>
             <img
               src="/img/2022-06-30-00748.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_70'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -453,7 +477,7 @@
             </p>
             <img
               src="/img/2023-09-23-00049.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_71'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -468,7 +492,7 @@
             </p>
             <img
               src="/img/2023-05-12-08965.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_72'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -483,7 +507,7 @@
             </p>
             <img
               src="/img/2023-02-10-08469.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_60'] ?>."
             />
           </div>
           <div class="hhh-stretch reveal">
@@ -498,14 +522,14 @@
             </p>
             <img
               src="/img/2023-05-12-08969.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_63'] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <img
               src="/img/2022-06-18-00518.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_69'] ?>."
             />
           </div>
 
@@ -521,7 +545,7 @@
             </p>
             <img
               src="/img/2023-09-01-00086.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_57'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -536,7 +560,7 @@
             </p>
             <img
               src="/img/2023-09-24-00022.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_3'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -551,7 +575,7 @@
             </p>
             <img
               src="/img/2023-09-30-00022.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_48'] ?>."
             />
           </div>
 
@@ -559,7 +583,7 @@
         </div>
       </article>
       <article class="wrapper-wide" id="<?php echo $lang['asset_88'] ?>">
-        <hr class="reveal" />
+        <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
@@ -578,7 +602,7 @@
           </div>
         </div>
       </article>
-      <hr class="semi" />
+      <hr class="semi" role="separator" />
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
@@ -593,7 +617,7 @@
             </p>
             <img
               src="/img/2022-10-15-00970.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_49'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -608,14 +632,14 @@
             </p>
             <img
               src="/img/2022-10-16-00979.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_87'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2023-08-06-00304.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_86'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -630,14 +654,14 @@
             </p>
             <img
               src="/img/2022-07-20-00854.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_92'] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
             <img
               src="/img/2023-07-26-00100.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_93'] ?>."
             />
           </div>
 
@@ -654,7 +678,7 @@
             </p>
             <img
               src="/img/2022-12-08-01181.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_95'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -674,12 +698,15 @@
           </div>
 
           <div class="v-stretch reveal">
-            <img src="/img/2023-08-04-159.jpg" alt="<?php echo $lang[''] ?>." />
+            <img
+              src="/img/2023-08-04-159.jpg"
+              alt="<?php echo $lang['asset_119'] ?>."
+            />
           </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2023-07-27-00147.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_120'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -694,14 +721,110 @@
             </p>
             <img
               src="/img/2022-07-26-00855.jpg"
-              alt="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang['asset_121'] ?>."
             />
           </div>
           <!-- EVENT END -->
-
           <!-- PHOTO GALLERY END -->
         </div>
       </article>
+      <!-- VIDEO GALLERY START -->
+      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
+        <hr class="reveal" role="separator" />
+        <div class="grid-container fifty-fifty">
+          <div class="grid-item reveal">
+            <h2>Art Projects</h2>
+            <br />
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              <?php echo $lang['asset_109'] ?>
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr class="semi" role="separator" />
+      <article id="visual" class="video-gallery">
+        <div class="gallery-item reveal">
+          <img
+            src="/img/cover-samso.jpg"
+            alt="<?php echo $lang['asset_39'] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i>
+
+              Samsø <br />
+              <span>2023</span>
+            </h3>
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="/img/cover-autoportrait.jpg"
+            alt="<?php echo $lang['asset_122'] ?> <?php echo $lang['asset_123'] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i>
+              <?php echo $lang['asset_122'] ?>
+              <br />
+              <span>2021</span>
+            </h3>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i
+              ><a>adamsochorec.com</a>
+            </p>
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/mB6d6F_SyAU?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="/img/cover-anna.jpg"
+            alt="Анна <?php echo $lang['asset_123'] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i>
+              Анна
+              <br />
+              <span>2020</span>
+            </h3>
+
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/TYCKiIOtFY0?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img
+            src="/img/gray.jpg"
+            alt="<?php echo $lang['asset_125'] ?> <?php echo $lang['asset_123'] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i>
+              <?php echo $lang['asset_125'] ?>
+              <br />
+              <span>20XX</span>
+            </h3>
+
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/TYCKiIOtFY0?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+      </article>
+      <!-- VIDEO GALLERY END -->
     </main>
     <!-- FOOTER START -->
     <?php
