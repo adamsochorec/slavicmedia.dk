@@ -1,24 +1,23 @@
 <div id="adam">
   <img
     src="/img/2022-04-24-07426.jpg"
-    alt="<?php echo $lang['asset_23'] ?>Adam Sochorec"
+    alt="<?php echo $lang['asset_23'] ?>Adam"
     class="reveal"
   />
   <div class="profile">
-    <br />
-    <h4 class="reveal">
-      Adam Sochorec<br />
-      🇨🇿
-    </h4>
+    <h4 class="reveal">Adam S.</h4>
     <h5 class="reveal">
       <?php echo $lang['asset_30'] ?>
     </h5>
     <p class="reveal">
       <a href="tel:+4550104776">+45 50 10 47 76</a>
+      <span> </span>
     </p>
+
     <p class="reveal">
       <a href="mailto:adam@slavicmedia.dk">adam@slavicmedia.dk</a>
     </p>
+
     <div class="social-icons reveal">
       <a
         href="https://www.linkedin.com/in/adamsochorec"

@@ -37,6 +37,10 @@
     src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
     crossorigin="anonymous"
   ></script>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+  ></script>
   <!-- Google tag (gtag.js) -->
   <script
     async

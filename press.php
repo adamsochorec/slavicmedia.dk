@@ -20,31 +20,21 @@
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>
-        <div class="grid-container fifty-fifty">
-          <div class="grid-item">
-            <h2 class="highlited reveal"><?php echo $lang['asset_74'] ?></h2>
-            <h1 class="reveal"><?php echo $lang['asset_75'] ?></h1>
-            <div class="pathname-container reveal">
-              <p>
-                <span class="pathname"><a href="/"></a> &#8250; </span>
-                <span class="pathname"><?php echo $lang['asset_75'] ?></span>
-              </p>
-            </div>
-          </div>
-          <div class="grid-item reveal">
-            <p>
-              <?php echo $lang['asset_76'] ?>
-            </p>
-          </div>
+        <h1 class="reveal"><?php echo $lang['asset_75'] ?></h1>
+        <div class="pathname-container reveal">
+          <p>
+            <span class="pathname"><a href="/"></a> &#8250; </span>
+            <span class="pathname"><?php echo $lang['asset_75'] ?></span>
+          </p>
         </div>
         <hr class="reveal" />
         <!-- PRESSS MATERIALS GRID START -->
         <div class="grid-container gallery reveal">
           <!-- BRAND GUIDE START -->
           <div>
-            <h3>
+            <h2>
               <?php echo $lang['asset_77'] ?>
-            </h3>
+            </h2>
             <a
               class="gallery-item"
               href="/assets/brand-guide.pdf"
@@ -65,7 +55,7 @@
           <!-- BRAND GUIDE END -->
           <!-- CREDIT GUIDE START -->
           <div>
-            <h3><?php echo $lang['asset_79'] ?></h3>
+            <h2><?php echo $lang['asset_79'] ?></h2>
             <a
               class="gallery-item"
               href="/assets/credit-guide.pdf"
@@ -88,7 +78,7 @@
           <!-- CREDIT GUIDE END -->
           <!-- PRESS KIT START -->
           <div>
-            <h3><?php echo $lang['asset_81'] ?></h3>
+            <h2><?php echo $lang['asset_81'] ?></h2>
             <a
               class="gallery-item"
               href="/assets/press-kit.zip"

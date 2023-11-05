@@ -26,7 +26,12 @@
         <!-- INTRO VIDEO START -->
         <section class="showcase">
           <div class="video-container">
-            <video src="/img/showreel.mp4" autoplay muted loop></video>
+            <video
+              src="/img/showreel.mp4"
+              loop="true"
+              autoplay="autoplay"
+              muted
+            ></video>
           </div>
           <a href="/#<?php echo $lang['asset_101'] ?>" class="explore reveal">
             <?php
@@ -102,39 +107,17 @@
               </div>
             </a>
           </div>
-          <div class="reveal">
-            <a href="/graphic">
-              <div class="grid-item" id="third-product">
-                <div class="inner-wrapper flex-center">
-                  <h3>
-                    <?php echo $lang['asset_15'] ?>
-                  </h3>
-                  <lottie-player
-                    id="graphicdesignLottie"
-                    src="/assets/lottie/graphicdesign.json"
-                    background="transparent"
-                    speed="1"
-                    autoplay
-                    loop
-                  ></lottie-player>
-                  <p>
-                    <?php echo $lang['asset_16'] ?>
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
         <hr class="reveal" />
 
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h2 class="highlited reveal">
+            <h3 class="highlited reveal">
               <?php echo $lang['asset_5'] ?>
-            </h2>
-            <h1 class="reveal">
+            </h3>
+            <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>
-            </h1>
+            </h2>
             <br />
             <div class="reveal">
               <a href="/portfolio" class="cta">
@@ -161,7 +144,7 @@
         <div class="intro-section flex-center">
           <div class="filter"></div>
           <article class="wrapper-standard">
-            <h3 class="reveal"><?php echo $lang['asset_18'] ?></h3>
+            <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
             <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
@@ -279,9 +262,9 @@
         <div class="intro-section flex-center">
           <div class="filter"></div>
           <article class="wrapper-standard">
-            <h2 class="reveal">
+            <h3 class="reveal">
               <?php echo $lang['asset_36'] ?>
-            </h2>
+            </h3>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'clients.php';
@@ -301,11 +284,7 @@
       <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
-    ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

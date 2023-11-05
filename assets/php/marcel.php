@@ -1,18 +1,15 @@
 <div id="marcel">
   <img
     src="/img/2022-04-24-07404.jpg"
-    alt="<?php echo $lang['asset_23'] ?>Marcel Hájik"
+    alt="<?php echo $lang['asset_23'] ?>Marcel"
     class="reveal"
   />
   <section class="profile">
-    <br />
-    <h4 class="reveal">
-      Marcel Hájik<br />
-      🇸🇰
-    </h4>
+    <h4 class="reveal">Marcel H.</h4>
     <h5 class="reveal">
       <?php echo $lang['asset_24'] ?>
     </h5>
+
     <p class="reveal">
       <a href="tel:+4552812304">+45 52 81 23 04</a>
     </p>

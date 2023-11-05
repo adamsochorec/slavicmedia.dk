@@ -20,15 +20,12 @@
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>
-        <div class="grid-item">
-          <h2 class="highlited reveal"><?php echo $lang['asset_43'] ?></h2>
-          <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
-          <div class="pathname-container reveal">
-            <p>
-              <span class="pathname"><a href="/"></a> &#8250; </span>
-              <span class="pathname"><?php echo $lang['asset_102'] ?></span>
-            </p>
-          </div>
+        <h1 class="reveal"><?php echo $lang['asset_102'] ?></h1>
+        <div class="pathname-container reveal">
+          <p>
+            <span class="pathname"><a href="/"></a> &#8250; </span>
+            <span class="pathname"><?php echo $lang['asset_102'] ?></span>
+          </p>
         </div>
       </article>
       <!-- VIDEO GALLERY START -->
@@ -59,19 +56,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
+              <i class="fa-regular fa-circle-play"></i>
               Huset Fundament
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                /></svg
-              ><br />
-              <span><a>husetfundament.dk</a></span>
+              <br />
+              <span>2023</span>
             </h3>
-            <p><?php echo $lang['asset_40'] ?></p>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i
+              ><a href>husetfundament.dk</a>
+            </p>
 
             <a
               class="vimeo-popup"
@@ -87,21 +80,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
+              <i class="fa-regular fa-circle-play"></i>
               Repaire Festival
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
               <br />
-              <span><a>nicolaikultur.dk</a></span>
+              <span>2023 </span>
             </h3>
-
-            <p><?php echo $lang['asset_38'] ?></p>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i
+              ><a href>nicolaikultur.dk</a>
+            </p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
@@ -113,24 +100,20 @@
           <img
             src="/img/cover-parkourtabor.jpg"
             class="north-cascades-img"
-            alt="<?php echo $lang['parkourschool_title'] ?>."
+            alt="<?php echo $lang[''] ?>."
           />
           <div class="gallery-item-caption">
             <h3>
+              <i class="fa-regular fa-circle-play"></i>
               <?php echo $lang['asset_46'] ?>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
+
               <br />
-              <span><a>parkourskola.sk</a></span>
+              <span>2023</span>
             </h3>
-            <p><?php echo $lang['asset_47'] ?></p>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i
+              ><a>parkourskola.sk</a>
+            </p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
@@ -145,20 +128,14 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <?php echo $lang['asset_48'] ?>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
+              <i class="fa-regular fa-circle-play"></i>
               <br />
-              <span><a>tribemedia.dk</a></span>
+              <span>2022</span>
             </h3>
-            <p><?php echo $lang['asset_49'] ?></p>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i>
+              <a>tribemedia.dk </a>
+            </p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/aVACZcA69r4?modestbranding=1"
@@ -172,20 +149,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
+              <i class="fa-regular fa-circle-play"></i>
+
               Bygning 5
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
               <br />
-              <span><a>bygning5.dk</a></span>
+              <span>2022</span>
             </h3>
-            <p><?php echo $lang['asset_50'] ?></p>
+            <p>
+              <i class="fa-solid fa-circle-info">&nbsp; </i><a>bygning5.dk</a>
+            </p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
@@ -199,18 +171,11 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              Samsø
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="videoplay"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c7.6-4.2 16.8-4.1 24.3 .5l144 88c7.1 4.4 11.5 12.1 11.5 20.5s-4.4 16.1-11.5 20.5l-144 88c-7.4 4.5-16.7 4.7-24.3 .5s-12.3-12.2-12.3-20.9V168c0-8.7 4.7-16.7 12.3-20.9z"
-                />
-              </svg>
+              <i class="fa-regular fa-circle-play"></i>
+
+              Samsø <br />
+              <span>2023</span>
             </h3>
-            <p><?php echo $lang['asset_39'] ?></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
@@ -248,11 +213,11 @@
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span
-                  ><span>divadlonavinohradech.cz &#8250;</span
-                  ><span><i class="fa-solid fa-circle-info"></i></span>
-                  &#8250;</span
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -263,113 +228,113 @@
           </div>
           <div class="h-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
               src="/img/2021-05-16-00786.jpg"
-              alt="<?php echo $lang['asset_51'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
-            <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
               src="/img/2021-11-13-02059.jpg"
-              alt="<?php echo $lang['asset_52'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
+              <a
+                href="https://www.divadlodisk.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo Disk</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
               src="/img/2021-06-24-01208.jpg"
-              alt="<?php echo $lang['asset_53'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
+              <a
+                href="https://www.divadlodisk.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo Disk</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
             </p>
             <img
               src="/img/2021-06-24-01233.jpg"
-              alt="<?php echo $lang['asset_54'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
 
           <div class="h-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
               src="/img/2021-04-25-00693.jpg"
-              alt="<?php echo $lang['asset_55'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
               src="/img/2021-04-14-00608.jpg"
-              alt="<?php echo $lang['asset_56'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
-            <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
-              src="/img/2021-10-17-01935.jpg"
-              alt="<?php echo $lang['asset_57'] ?>."
+              src="/img/2021-04-22-00624.jpg"
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
               src="/img/2021-05-28-01020.jpg"
-              alt="<?php echo $lang['asset_58'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="v-stretch reveal">
             <p class="note">
-              <a href="" target="_blank" rel="noopener noreferrer"
-                ><span>divadlonavinohradech.cz &#8250;</span
+              <a
+                href="https://www.slovo21.cz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Slovo 21</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
-              src="/img/2021-09-05-01666.jpg"
-              alt="<?php echo $lang['asset_59'] ?>."
+              src="/img/2021-06-21-01194.jpg"
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
         </div>
@@ -401,67 +366,195 @@
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
             <img
               src="/img/2023-09-09-10524.jpg"
-              alt="<?php echo $lang['asset_65'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.roskilde-festival.dk/da/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Rosklide Festival</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2022-06-28-00708.jpg"
-              alt="<?php echo $lang['asset_66'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
 
           <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
             <img
               src="/img/2023-09-09-10507.jpg"
-              alt="<?php echo $lang['asset_62'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
-              src="/img/2023-05-12-08991.jpg"
-              alt="<?php echo $lang['asset_63'] ?>."
+              src="/img/2023-05-27-00025.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+          <div class="h-stretch unhide reveal">
+            <p class="note">
+              <a
+                href="https://www.roskilde-festival.dk/da/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Rosklide Festival</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-06-30-00748.jpg"
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
-              src="/img/2023-09-22-00026.jpg"
-              alt="<?php echo $lang['asset_64'] ?>."
+              src="/img/2023-09-23-00049.jpg"
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
               src="/img/2023-05-12-08965.jpg"
-              alt="<?php echo $lang['asset_60'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
           <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
+            <img
+              src="/img/2023-02-10-08469.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+          <div class="hhh-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
             <img
               src="/img/2023-05-12-08969.jpg"
-              alt="<?php echo $lang['asset_61'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
 
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-05-12-08987.jpg"
-              alt="<?php echo $lang['asset_67'] ?>."
-            />
-          </div>
           <div class="h-stretch reveal">
             <img
               src="/img/2022-06-18-00518.jpg"
-              alt="<?php echo $lang['asset_68'] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
-          <div class="v-stretch reveal">
+
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.facebook.com/koldingkulturnat/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Kolding Kulturnat</span>
+                <span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
-              src="/img/2022-02-10-00116.jpg"
-              alt="<?php echo $lang['asset_69'] ?>."
+              src="/img/2023-09-01-00086.jpg"
+              alt="<?php echo $lang[''] ?>."
             />
           </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.kolding.dk/om-kommunen/nyhedsarkiv/hyg-og-byg-baeredygtig-sondag-med-gratis-mobler-til-koldings-studerende/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Hyg og Byg</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
+            <img
+              src="/img/2023-09-24-00022.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Huset Fundament</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
+            </p>
+            <img
+              src="/img/2023-09-30-00022.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+
           <!-- EVENT END -->
         </div>
       </article>
@@ -494,7 +587,7 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Åland &#8250;</span
+                ><span>Åland</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -509,7 +602,7 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Åland &#8250;</span
+                ><span>Åland</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -526,23 +619,24 @@
             />
           </div>
           <div class="h-stretch reveal">
-            <img
-              src="/img/2023-07-26-00100.jpg"
-              alt="<?php echo $lang[''] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
             <p class="note">
               <a
-                href="https://adamsochorec.com/blog/aland"
+                href="https://adamsochorec.com/blog/vestkystruten"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Åland &#8250;</span
+                ><span>Vestkystruten</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
-              src="/img/2022-10-17-01001.jpg"
+              src="/img/2022-07-20-00854.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2023-07-26-00100.jpg"
               alt="<?php echo $lang[''] ?>."
             />
           </div>
@@ -554,7 +648,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>timetravels.com &#8250;</span
+                <span>Timetravels</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -569,7 +663,7 @@
                 href="https://www.timetravels.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>timetravels.com &#8250;</span
+                ><span>Timetravels</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -594,7 +688,7 @@
                 href="https://adamsochorec.com/blog/vestkystruten"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Vestkystruten &#8250;</span
+                ><span>Vestkystruten</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>

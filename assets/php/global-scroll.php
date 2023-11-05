@@ -1,4 +1,4 @@
-<div id="wrapper">
+<div id="wrapper scroll">
   <div id="wrapper-inner">
     <div id="scroll-down">
       <span class="arrow-down">
