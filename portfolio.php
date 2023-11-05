@@ -235,6 +235,21 @@
 
       <article id="visuals">
         <div class="grid-container photo-grid">
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-09-05-01666.jpg"
+              alt="<?php echo $lang['asset_148'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img src="/img/hvalp.jpg" alt="<?php echo $lang['asset_150'] ?>." />
+          </div>
+          <div class="v-stretch reveal">
+            <img
+              src="/img/2021-10-17-01935.jpg"
+              alt="<?php echo $lang['asset_149'] ?>."
+            />
+          </div>
           <div class="h-stretch reveal">
             <p class="note">
               <a
@@ -333,7 +348,6 @@
               alt="<?php echo $lang['asset_56'] ?>."
             />
           </div>
-
           <div class="v-stretch reveal">
             <img
               src="/img/2021-04-22-00624.jpg"
@@ -361,10 +375,22 @@
               alt="<?php echo $lang['asset_4'] ?>."
             />
           </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2021-07-19-01355.jpg"
+              alt="<?php echo $lang['asset_146'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2021-08-24-01615.jpg"
+              alt="<?php echo $lang['asset_147'] ?>."
+            />
+          </div>
         </div>
-        <!-- PORTRAIT END -->
-        <!-- EVENT START -->
       </article>
+      <!-- PORTRAIT END -->
+      <!-- EVENT START -->
       <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
