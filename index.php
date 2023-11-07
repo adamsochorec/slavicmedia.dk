@@ -31,11 +31,13 @@
               loop="true"
               autoplay="autoplay"
               muted
+              class="video-offload"
               aria-label="Intro Video"
               role="video"
               aria-describedby="introVideoDescription"
             ></video>
           </div>
+
           <a href="/#<?php echo $lang['asset_101'] ?>" class="explore reveal">
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -92,8 +94,6 @@
                     src="/assets/lottie/photo.json"
                     background="transparent"
                     speed="1"
-                    autoplay
-                    loop
                     aria-label="Photo Lottie Animation"
                     role="img"
                     aria-describedby="photoLottieDescription"
@@ -123,8 +123,6 @@
                     src="/assets/lottie/video.json"
                     background="transparent"
                     speed="1"
-                    autoplay
-                    loop
                     aria-label="Video Lottie Animation"
                     role="img"
                     aria-describedby="videoLottieDescription"
@@ -142,9 +140,6 @@
 
         <div class="grid-container fifty-fifty">
           <div class="grid-item">
-            <h3 class="highlited reveal">
-              <?php echo $lang['asset_5'] ?>
-            </h3>
             <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>
             </h2>
@@ -177,8 +172,24 @@
       >
         <div class="intro-section flex-center">
           <div class="filter"></div>
+          <video
+            id="heroVideo"
+            src="/img/showreel.mp4"
+            loop="true"
+            autoplay="autoplay"
+            muted
+            class="video-offload filter"
+            aria-label="Our Team Video"
+            role="video"
+            aria-describedby="Our Team cover video"
+          ></video>
+
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
+            <button id="playPauseButton" class="play">
+              <i id="playControl" class="fa-regular fa-circle-play fa-xl"></i>
+              <i id="pauseControl" class="fa-regular fa-circle-pause fa-xl"></i>
+            </button>
             <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
@@ -213,39 +224,106 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'marcel.php';
             ?>
-            <div class="reveal">
-              <p><?php echo $lang['asset_25'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="80"></div>
-              </div>
-            </div>
+            <!-- MARCEL LANGUAGES START -->
             <div class="reveal">
               <p>
-                <?php echo $lang['asset_26'] ?>
+                <?php echo $lang['asset_25'] ?>
               </p>
+              <div class="grid-container fifty-fifty">
+                <ul class="languages-legend">
+                  <li class="english"><?php echo $lang['asset_155'] ?></li>
+                  <li class="slavic"><?php echo $lang['asset_157'] ?></li>
+                </ul>
+                <ul class="languages-legend">
+                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
+                </ul>
+              </div>
               <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="80"></div>
+                <span data-view-component="true" class="Progress">
+                  <span
+                    class="english"
+                    style="width: 45%"
+                    itemprop="keywords"
+                    aria-label="English 45"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="slavic"
+                    style="width: 45%"
+                    itemprop="keywords"
+                    aria-label="Slovak 45"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="danish"
+                    style="width: 10%"
+                    itemprop="keywords"
+                    aria-label="Danish 10"
+                    data-view-component="true"
+                  ></span>
+                </span>
               </div>
             </div>
+            <!-- MARCEL LANGUAGES END -->
+            <!-- MARCEL  RESPONSIBILITES START-->
             <div class="reveal">
-              <p><?php echo $lang['asset_27'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="85"></div>
+              <p>
+                <?php echo $lang['asset_159'] ?>
+              </p>
+              <div class="grid-container fifty-fifty">
+                <ul class="languages-legend">
+                  <li class="responsibility-1">
+                    <?php echo $lang['asset_160'] ?>
+                  </li>
+                  <li class="responsibility-2">
+                    <?php echo $lang['asset_161'] ?>
+                  </li>
+                </ul>
+                <ul class="languages-legend">
+                  <li class="responsibility-3">
+                    <?php echo $lang['asset_162'] ?>
+                  </li>
+                  <li class="responsibility-4">
+                    <?php echo $lang['asset_163'] ?>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="reveal">
-              <p><?php echo $lang['asset_28'] ?></p>
               <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="60"></div>
-              </div>
-            </div>
-            <div class="reveal">
-              <p><?php echo $lang['asset_29'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="60"></div>
+                <span data-view-component="true" class="Progress">
+                  <span
+                    class="responsibility-1"
+                    style="width: 50%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_160'] ?> 45 "
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-2"
+                    style="width: 35%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_161'] ?> 25 "
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-3"
+                    style="width: 10%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_162'] ?> 10"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-4"
+                    style="width: 5%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_163'] ?> 5"
+                    data-view-component="true"
+                  ></span>
+                </span>
               </div>
             </div>
           </div>
+          <!-- MARCEL LANGUAGES RESPONSIBILITES -->
+
           <!-- MARCEL SECTION END -->
           <!-- ADAM SECTION START -->
           <div
@@ -258,39 +336,112 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'adam.php';
             ?>
-            <!-- ADAM SKILLS START -->
+            <!-- ADAM LANGUAGES START -->
             <div class="reveal">
-              <p><?php echo $lang['asset_25'] ?></p>
+              <p>
+                <?php echo $lang['asset_25'] ?>
+              </p>
+              <div class="grid-container fifty-fifty">
+                <ul class="languages-legend">
+                  <li class="english"><?php echo $lang['asset_155'] ?></li>
+                  <li class="slavic"><?php echo $lang['asset_156'] ?></li>
+                </ul>
+                <ul class="languages-legend">
+                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
+                  <li class="swedish"><?php echo $lang['asset_158'] ?></li>
+                </ul>
+              </div>
               <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="80"></div>
+                <span data-view-component="true" class="Progress">
+                  <span
+                    class="english"
+                    style="width: 30%"
+                    itemprop="keywords"
+                    aria-label="PHP 78.1"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="slavic"
+                    style="width: 30%"
+                    itemprop="keywords"
+                    aria-label="CSS 18.8"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="danish"
+                    style="width: 30%"
+                    itemprop="keywords"
+                    aria-label="JavaScript 1.6"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="swedish"
+                    style="width: 10%"
+                    itemprop="keywords"
+                    aria-label="Hack 1.5"
+                    data-view-component="true"
+                  ></span>
+                </span>
               </div>
             </div>
             <div class="reveal">
               <p>
-                <?php echo $lang['asset_26'] ?>
+                <?php echo $lang['asset_159'] ?>
               </p>
+              <div class="grid-container fifty-fifty">
+                <ul class="languages-legend">
+                  <li class="responsibility-1">
+                    <?php echo $lang['asset_160'] ?>
+                  </li>
+                  <li class="responsibility-2">
+                    <?php echo $lang['asset_161'] ?>
+                  </li>
+                </ul>
+                <ul class="languages-legend">
+                  <li class="responsibility-3">
+                    <?php echo $lang['asset_166'] ?>
+                  </li>
+                  <li class="responsibility-4">
+                    <?php echo $lang['asset_167'] ?>
+                  </li>
+                </ul>
+              </div>
+              <!-- ADAM LANGUAGES END -->
+              <!-- ADAM RESPONSIBILITIES START -->
               <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="80"></div>
+                <span data-view-component="true" class="Progress">
+                  <span
+                    class="responsibility-1"
+                    style="width: 10%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_160'] ?>"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-2"
+                    style="width: 40%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_161'] ?>"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-3"
+                    style="width: 30%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_166'] ?>"
+                    data-view-component="true"
+                  ></span>
+                  <span
+                    class="responsibility-4"
+                    style="width: 30%"
+                    itemprop="keywords"
+                    aria-label="<?php echo $lang['asset_167'] ?>"
+                    data-view-component="true"
+                  ></span>
+                </span>
               </div>
             </div>
-            <div class="reveal">
-              <p><?php echo $lang['asset_27'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="85"></div>
-              </div>
-            </div>
-            <div class="reveal">
-              <p><?php echo $lang['asset_28'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="60"></div>
-              </div>
-            </div>
-            <div class="reveal">
-              <p><?php echo $lang['asset_29'] ?></p>
-              <div class="skill-bar faded">
-                <div class="skill-bar" data-progress="60"></div>
-              </div>
-            </div>
+            <!-- ADAM RESPONSIBILITIES START -->
           </div>
           <!-- ADAM SECTION END -->
         </section>

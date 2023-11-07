@@ -148,11 +148,12 @@
         <div class="gallery-item reveal">
           <img
             src="/img/cover-halloweenparty.jpg"
-            alt="<?php echo $lang['asset_49'] ?>."
+            alt="<?php echo $lang['asset_152'] ?>."
           />
           <div class="gallery-item-caption">
             <h3>
               <i class="fa-regular fa-circle-play"></i>
+              <?php echo $lang['asset_152'] ?>
               <br />
               <span>2022</span>
             </h3>
@@ -387,6 +388,12 @@
               alt="<?php echo $lang['asset_147'] ?>."
             />
           </div>
+          <div class="h-stretch unhide reveal">
+            <img
+              src="/img/2021-10-01-01825.jpg"
+              alt="<?php echo $lang['asset_153'] ?>."
+            />
+          </div>
         </div>
       </article>
       <!-- PORTRAIT END -->
@@ -604,8 +611,8 @@
               alt="<?php echo $lang['asset_48'] ?>."
             />
           </div>
-
           <!-- EVENT END -->
+          <!-- TRAVEL START -->
         </div>
       </article>
       <article class="wrapper-wide" id="<?php echo $lang['asset_88'] ?>">
@@ -661,20 +668,13 @@
               alt="<?php echo $lang['asset_87'] ?>."
             />
           </div>
-
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-08-06-00304.jpg"
-              alt="<?php echo $lang['asset_86'] ?>."
-            />
-          </div>
           <div class="h-stretch reveal">
             <p class="note">
               <a
                 href="https://adamsochorec.com/blog/vestkystruten"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Vestkystruten</span
+                ><span><?php echo $lang['asset_151'] ?></span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
@@ -684,13 +684,55 @@
             />
           </div>
 
+          <div class="h-stretch video-gallery reveal">
+            <div class="video-gallery">
+              <div class="gallery-item reveal">
+                <img
+                  src="/img/2022-07-26-00855.jpg"
+                  alt="<?php echo $lang['asset_121'] ?>."
+                />
+                <div class="gallery-item-caption">
+                  <h3>
+                    <i class="fa-regular fa-circle-play"></i>
+
+                    <?php echo $lang['asset_151'] ?><br />
+                    <span>2022</span>
+                  </h3>
+                  <a
+                    class="vimeo-popup"
+                    href="https://www.youtube-nocookie.com/embed/3go3v59pfEo?modestbranding=1"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="v-stretch reveal">
             <img
-              src="/img/2023-07-26-00100.jpg"
-              alt="<?php echo $lang['asset_93'] ?>."
+              src="/img/2023-08-04-159.jpg"
+              alt="<?php echo $lang['asset_119'] ?>."
             />
           </div>
-
+          <div class="h-stretch reveal">
+            <img
+              src="/img/2023-07-27-00147.jpg"
+              alt="<?php echo $lang['asset_120'] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Åland</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-10-16-00977.jpg"
+              alt="<?php echo $lang['asset_121'] ?>."
+            />
+          </div>
           <div class="h-stretch reveal">
             <p class="note">
               <a
@@ -723,31 +765,31 @@
             />
           </div>
 
-          <div class="v-stretch reveal">
+          <div class="h-stretch reveal">
             <img
-              src="/img/2023-08-04-159.jpg"
-              alt="<?php echo $lang['asset_119'] ?>."
+              src="/img/2023-08-06-00304.jpg"
+              alt="<?php echo $lang['asset_86'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <img
-              src="/img/2023-07-27-00147.jpg"
-              alt="<?php echo $lang['asset_120'] ?>."
+              src="/img/2023-07-26-00100.jpg"
+              alt="<?php echo $lang['asset_93'] ?>."
             />
           </div>
-          <div class="v-stretch reveal">
+          <div class="h-stretch unhide reveal">
             <p class="note">
               <a
-                href="https://adamsochorec.com/blog/vestkystruten"
+                href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Vestkystruten</span
+                ><span>Åland</span
                 ><span><i class="fa-solid fa-circle-info"></i></span
               ></a>
             </p>
             <img
-              src="/img/2022-07-26-00855.jpg"
-              alt="<?php echo $lang['asset_121'] ?>."
+              src="/img/2022-10-15-00967.jpg"
+              alt="<?php echo $lang['asset_154'] ?>."
             />
           </div>
           <!-- EVENT END -->
@@ -830,7 +872,7 @@
             ></a>
           </div>
         </div>
-        <div class="gallery-item reveal">
+        <div class="gallery-item hideVideoGallery reveal">
           <img
             src="/img/gray.jpg"
             alt="<?php echo $lang['asset_125'] ?> <?php echo $lang['asset_123'] ?>."

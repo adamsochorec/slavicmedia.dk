@@ -47,6 +47,7 @@
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
   <!-- Google tag (gtag.js) -->
   <script
     async

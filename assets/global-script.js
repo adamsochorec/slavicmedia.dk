@@ -102,24 +102,21 @@ document.addEventListener("DOMContentLoaded", function () {
       blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
     }
   });
-  /*
+
   function createLottieInteractivity(playerId) {
     LottieInteractivity.create({
       player: playerId,
-      mode: "cursor",
+      mode: "scroll",
       actions: [
         {
-          type: "hover",
-          forceFlag: false,
+          visibility: [0.1, 1.0],
+          type: "play",
         },
       ],
     });
   }
-
   createLottieInteractivity("#photoLottie");
   createLottieInteractivity("#videoLottie");
-  createLottieInteractivity("#graphicdesignLottie");
-  */
 });
 
 // CHANGE HEADER RGBA AT SCROLL END
@@ -139,7 +136,75 @@ if (document.body.id === "homepage") {
   }
   showProgress();
   // SKILL BARS END
+  // VIDEO CONTROLS START
+  const video = document.getElementById("heroVideo"),
+    pauseControl = document.getElementById("pauseControl"),
+    playControl = document.getElementById("playControl"),
+    playPauseButton = document.getElementById("playPauseButton");
+
+  playPauseButton.addEventListener("click", function () {
+    if (video.paused) {
+      video.play();
+      playPauseButton.classList.remove("play");
+      playPauseButton.classList.add("pause");
+      pauseControl.style.display = "unset";
+      playControl.style.display = "none";
+    } else {
+      video.pause();
+      playPauseButton.classList.remove("pause");
+      playPauseButton.classList.add("play");
+      pauseControl.style.display = "none";
+      playControl.style.display = "unset";
+      video.removeAttribute("controls");
+    }
+  });
+  // VIDEO CONTROLS END
+  // VIDEO OFFLOAD START
+  function videoOffload() {
+    // Get all video elements with the "lazy-video" class
+    const videoOffload = document.querySelectorAll(".video-offload");
+
+    // Function to handle the Intersection Observer for a single video
+    function handleVideoIntersection(video) {
+      // Define the options for the Intersection Observer
+      const options = {
+        root: null, // Use the viewport as the root
+        rootMargin: "0px", // No margin
+        threshold: 0.1, // 10% of the target element must be visible to trigger
+      };
+
+      // Callback function when the video enters or exits the viewport
+      const callback = (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // The video is in the viewport, so play it and show controls
+            video.play();
+            video.removeAttribute("controls");
+          } else {
+            // The video is out of the viewport, so pause it and hide controls
+            video.pause();
+          }
+        });
+      };
+
+      // Create an Intersection Observer with the specified options and callback for the current video
+      const observer = new IntersectionObserver(callback, options);
+
+      // Start observing the current video element
+      observer.observe(video);
+    }
+
+    // Iterate over all lazy video elements and apply the Intersection Observer
+    videoOffload.forEach((video) => {
+      video.setAttribute("autoplay", "false"); // Disable autoplay initially
+
+      // Apply Intersection Observer to the current video
+      handleVideoIntersection(video);
+    });
+  }
 }
+// VIDEO OFFLOAD END
+
 // HOMEPAGE END
 
 // VIMEO GALLERY START

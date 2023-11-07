@@ -160,18 +160,16 @@ hr {
 }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 3px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(var(--black-color), 0);
+  background: rgba(var(--primary-color), 0);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(var(--white-color), 0.4);
-  border-radius: var(--border-radius-2);
+  background: rgba(var(--primary-color), 0.4);
+  border-radius: 0;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(var(--white-color), 0.8);
-}
+
 ::selection {
   background: rgba(var(--primary-color), 0.5);
 }
@@ -261,7 +259,7 @@ p {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-1);
 }
-main ul {
+main ul:not(main ul.languages-legend) {
   list-style-type: circle;
 }
 main li,
@@ -270,7 +268,7 @@ p:not(.grid-container.fifty-fifty p) {
 }
 .highlited {
   color: rgba(var(--primary-color), 0.7);
-  font-size: var(--fontsize-h5) !important;
+  font-size: inherit;
 }
 /* LINK START */
 a,
@@ -1170,9 +1168,7 @@ footer span {
 #services.grid-container.gallery {
   grid-template-columns: repeat(2, 1fr);
 }
-.grid-container.photo-grid h3 {
-  text-align: center;
-}
+
 .grid-container.photo-grid {
   display: grid;
   grid-gap: 10px;
@@ -1187,7 +1183,6 @@ footer span {
 }
 #visuals .grid-container iframe,
 #visuals .grid-container img {
-  height: 100%;
   object-fit: cover;
   width: 100%;
 }
@@ -1678,7 +1673,6 @@ img.mfp-img {
   width: 100%;
   height: 100%;
 }
-
 .video-gallery .gallery-item p {
   position: relative;
   margin: 0;
@@ -1720,6 +1714,15 @@ img.mfp-img {
   vertical-align: baseline;
   height: 15px;
 }
+#visuals .video-gallery {
+  display: block;
+  padding: 0 !important;
+}
+#visuals .video-gallery .gallery-item {
+  border-radius: 0;
+  height: 100%;
+}
+
 /* VIDEO GALLERY END */
 /* VISUALS END */
 
@@ -1921,8 +1924,32 @@ img.mfp-img {
 /* WEB DEV START*/
 
 /* OUR TEAM START */
-.team-container .intro-section {
+/*.team-container .intro-section {
   background-image: url(/img/2023-08-04-159.jpg);
+}*/
+.team-container .intro-section video {
+  object-fit: cover;
+  z-index: -1;
+}
+#playPauseButton {
+  background: rgba(0, 0, 0, 0);
+  color: rgba(var(--white-color), 0.7);
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+#playControl {
+  display: none;
+}
+#playPauseButton:hover {
+  color: rgba(var(--primary-color), 0.7);
+}
+#playPauseButton,
+#playPauseButton:hover {
+  transition: var(--transition-1);
 }
 .press-container .intro-section {
   background-image: url(/img/2023-05-19-09057.jpg);
@@ -1982,12 +2009,14 @@ img.mfp-img {
 #adam .skill-bar.faded,
 #adam .skill-bar,
 #marcel .skill-bar.faded,
-#marcel .skill-bar {
+#marcel .skill-bar,
+.Progress {
   height: 5px;
   margin-bottom: 1rem;
 }
 #adam .skill-bar.faded .skill-bar,
-#marcel .skill-bar.faded .skill-bar {
+#marcel .skill-bar.faded .skill-bar,
+.Progress {
   border-top-left-radius: var(--border-radius-4);
   border-bottom-left-radius: var(--border-radius-4);
 }
@@ -2015,7 +2044,63 @@ img.mfp-img {
   animation: none;
   border-radius: var(--border-radius-4);
 }
+.Progress {
+  background-color: rgba(var(--white-color), 0.8);
+  border-radius: var(--border-radius-4);
+  display: flex;
+  overflow: hidden;
+}
+.languages-legend li {
+  font-size: var(--fontsize-note);
+}
+.languages-legend ::marker {
+  height: 10px;
+}
+.languages-legend .english::marker,
+.skill-bar.faded .english {
+  background-color: rgba(var(--primary-color), 1);
+  color: rgba(var(--primary-color), 1);
+}
+.languages-legend .slavic::marker,
+.skill-bar.faded .slavic {
+  background-color: rgba(var(--primary-color), 0.7);
+  color: rgba(var(--primary-color), 0.7);
+}
+.languages-legend .danish::marker,
+.skill-bar.faded .danish {
+  background-color: rgba(var(--primary-color), 0.3);
+  color: rgba(var(--primary-color), 0.3);
+}
 
+.languages-legend .swedish::marker,
+.skill-bar.faded .swedish {
+  background-color: rgba(var(--primary-color), 0.1);
+  color: rgba(var(--white-color), 1);
+}
+.languages-legend .responsibility-1::marker,
+.skill-bar.faded .responsibility-1 {
+  background-color: rgba(var(--secondary-color), 1);
+  color: rgba(var(--secondary-color), 1);
+}
+.languages-legend .responsibility-2::marker,
+.skill-bar.faded .responsibility-2 {
+  background-color: rgba(var(--secondary-color), 0.7);
+  color: rgba(var(--secondary-color), 0.7);
+}
+.languages-legend .responsibility-3::marker,
+.skill-bar.faded .responsibility-3 {
+  background-color: rgba(var(--secondary-color), 0.4);
+  color: rgba(var(--secondary-color), 0.4);
+}
+.languages-legend .responsibility-4::marker,
+.skill-bar.faded .responsibility-4 {
+  background-color: rgba(var(--white-color), 1);
+  color: rgba(var(--white-color), 1);
+}
+.languages-legend ul {
+  list-style-type: disc !important;
+  padding: 0px !important;
+}
 .clients path {
   fill: var(--text-color);
 }
@@ -2373,6 +2458,9 @@ img.mfp-img {
     display: flex;
     flex-direction: column;
   }
+  #visuals .video-gallery .gallery-item {
+    height: 150px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2483,12 +2571,16 @@ img.mfp-img {
   .hide {
     display: none;
   }
+  #visuals .grid-container img {
+    height: 100%;
+  }
 }
 @media only screen and (max-width: 1109px) {
   .video-gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media only screen and (min-width: 700px) and (min-height: 825px) {
   .noindex footer,
   #press footer {
@@ -2497,8 +2589,8 @@ img.mfp-img {
     z-index: 2;
   }
 }
-@media only screen and (max-width: 1620px) {
-  #homepage .video-gallery .gallery-item:last-child {
+@media only screen and (min-width: 1620px) {
+  #portfolio .video-gallery .hideVideoGallery {
     display: none;
   }
 }
