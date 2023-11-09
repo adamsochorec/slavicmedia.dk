@@ -970,7 +970,7 @@ ul.menu-left.collapse {
   height: 25px;
   pointer-events: none;
   width: 25px;
-} /*
+}
 @keyframes submit-loader {
   0% {
     transform: rotate(0turn);
@@ -1066,7 +1066,76 @@ ul.menu-left.collapse {
   font-size: var(--fontsize-h3);
 }
 /* GALLERY GRID END */
+/* CONTACT FORM START */
 
+.contact-form-section .contact-form .grid-item:nth-child(odd) {
+  margin: 0 1rem 0 0;
+}
+.contact-form-section .contact-form .grid-item:nth-child(even) {
+  margin: 0 0 0 1rem;
+}
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+  border: none;
+  border-radius: var(--border-radius-1);
+  padding: 0.8rem;
+  width: 100%;
+  box-shadow: var(--box-shadow-1);
+}
+.contact-form-section ::placeholder,
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+  color: rgba(var(--white-color), 0.7);
+}
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+  color: rgba(var(--white-color), 1);
+}
+.contact-form-section ::placeholder,
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+  font-family: var(--content-font);
+  font-size: calc(var(--fontsize-p) * 0.9);
+  font-weight: var(--paragraph-weight);
+  line-height: 20px;
+  letter-spacing: var(--letter-spacing-1);
+}
+.contact-form-section input,
+.contact-form-section select,
+.contact-form-section textarea {
+  background: rgba(var(--light-grey-color), 0.4);
+  border: none;
+}
+.contact-form-section input:focus,
+.contact-form-section select:focus,
+.contact-form-section textarea:focus {
+  border: none;
+  outline: 0;
+}
+.contact-form-section p {
+  margin-bottom: 0.5rem;
+}
+.contact-form-section button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+select {
+  appearance: none;
+  background-color: transparent;
+  background-image: url(/img/jpg/chevron-down-solid.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+textarea {
+  resize: none;
+}
+/* CONTACT FORM END */
 /* FOOTER START */
 footer {
   padding: 20px 0 20px 0;
@@ -2219,7 +2288,7 @@ ul.languages-legend li::marker {
     margin: 0;
   }
 }
-@media only screen and (min-width: 330px) {
+@media only screen and (min-width: 310px) {
   .grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -2237,7 +2306,7 @@ ul.languages-legend li::marker {
     padding-left: 10px;
   }
   ul.languages-legend:nth-child(even) {
-    padding: 0;
+    padding: 0 0 0 17px;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -2286,6 +2355,7 @@ ul.languages-legend li::marker {
     object-fit: cover;
     background-position: center center;
     display: block;
+    background-repeat: no-repeat;
   }
   .team-container .intro-section video,
   #playPauseButton {

@@ -459,7 +459,7 @@
         </div>
         <!-- PACKAGES END -->
         <hr class="reveal" />
-        <!-- GRAPHIC START -->
+        <!-- GRAPHIC START 
 
         <div class="grid-container features-grid">
           <div class="grid-item">
@@ -531,13 +531,12 @@
         </div>
         <!-- GRAPHIC END -->
       </article>
-      <!-- LETS TALK START  
-
-      <article class="wrapper-standard">
-        <div class="grid-container fifty-fifty" id="letstalk">
-          
-      </article>
-      <!-- LETS TALK END  -->
+      <!-- CTA  START  -->
+      <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'contact-form.php';
+    ?>
+      <!-- CTA  END  -->
     </main>
     <!-- FOOTER START -->
     <?php

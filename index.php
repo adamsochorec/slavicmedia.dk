@@ -208,6 +208,24 @@
             <p class="reveal">
               <?php echo $lang['asset_22'] ?>
             </p>
+            <p class="reveal">
+              <a
+                <a
+                href="https://adamsochorec.com/blog/vestkystruten"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <?php echo $lang['asset_171'] ?></a
+              >
+              →<br /><a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <?php echo $lang['asset_172'] ?></a
+              >
+              →
+            </p>
           </article>
         </div>
       </article>
@@ -227,6 +245,8 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'marcel.php';
             ?>
+            <hr class="semi" />
+
             <!-- MARCEL LANGUAGES START -->
             <div class="reveal">
               <br />
@@ -336,6 +356,7 @@
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
             include $IPATH . 'adam.php';
             ?>
+            <hr class="semi" />
             <!-- ADAM LANGUAGES START -->
             <div class="reveal">
               <br />

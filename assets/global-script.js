@@ -207,7 +207,35 @@ if (document.body.id === "homepage") {
 // VIDEO OFFLOAD END
 
 // HOMEPAGE END
+// CONTACT FORM START
+(function contactForm() {
+  const contactForm = document.getElementById("contactForm");
 
+  /// LOADER AT SUBMITING A FORM START
+  function onFormSubmission(event) {
+    const isValid = Array.from(event.target.elements).every((element) =>
+        element.reportValidity()
+      ),
+      submitButton = document.querySelector(".submit-btn");
+
+    if (isValid) {
+      submitButton.innerHTML = "<div class='loader'></div>";
+    } else {
+      event.preventDefault();
+    }
+  }
+  contactForm.addEventListener("submit", onFormSubmission);
+  // LOADER AT SUBMITING A FORM END
+
+  // SUBMIT AT ENTER START
+  document.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+      onFormSubmission(event);
+    }
+  });
+  // SUBMIT AT ENTER END
+})();
+// CONTACT FORM END
 // VIMEO GALLERY START
 $(document).ready(function () {
   $(".video-gallery").magnificPopup({
