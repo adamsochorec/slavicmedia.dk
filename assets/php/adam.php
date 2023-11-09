@@ -80,6 +80,5 @@
       </a>
     </div>
   </div>
-  <hr class="reveal" />
 </div>
 <!-- ADAM SKILLS END -->

@@ -143,19 +143,22 @@
             <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>
             </h2>
-            <br />
-            <div class="reveal">
+            <div class="hideCTA-min reveal">
               <a href="/portfolio" class="cta">
                 <?php echo $lang['asset_8'] ?>
               </a>
             </div>
           </div>
-
-          <div class="grid-item">
-            <p class="reveal">
+          <div class="grid-item reveal">
+            <p>
               <?php echo $lang['asset_7'] ?>
             </p>
           </div>
+        </div>
+        <div class="hideCTA-max reveal">
+          <a href="/portfolio" class="cta">
+            <?php echo $lang['asset_8'] ?>
+          </a>
         </div>
 
         <!-- SERVICES END -->
@@ -183,7 +186,7 @@
             role="video"
             aria-describedby="Our Team cover video"
           ></video>
-
+          <div class="filter"></div>
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
             <button id="playPauseButton" class="play">
@@ -226,16 +229,15 @@
             ?>
             <!-- MARCEL LANGUAGES START -->
             <div class="reveal">
-              <p>
-                <?php echo $lang['asset_25'] ?>
-              </p>
+              <br />
+              <h6><?php echo $lang['asset_25'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
                   <li class="english"><?php echo $lang['asset_155'] ?></li>
-                  <li class="slavic"><?php echo $lang['asset_157'] ?></li>
+                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
                 </ul>
                 <ul class="languages-legend">
-                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
+                  <li class="slavic"><?php echo $lang['asset_157'] ?></li>
                 </ul>
               </div>
               <div class="skill-bar faded">
@@ -267,21 +269,19 @@
             <!-- MARCEL LANGUAGES END -->
             <!-- MARCEL  RESPONSIBILITES START-->
             <div class="reveal">
-              <p>
-                <?php echo $lang['asset_159'] ?>
-              </p>
+              <h6><?php echo $lang['asset_159'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
                   <li class="responsibility-1">
                     <?php echo $lang['asset_160'] ?>
                   </li>
-                  <li class="responsibility-2">
-                    <?php echo $lang['asset_161'] ?>
+                  <li class="responsibility-3">
+                    <?php echo $lang['asset_162'] ?>
                   </li>
                 </ul>
                 <ul class="languages-legend">
-                  <li class="responsibility-3">
-                    <?php echo $lang['asset_162'] ?>
+                  <li class="responsibility-2">
+                    <?php echo $lang['asset_161'] ?>
                   </li>
                   <li class="responsibility-4">
                     <?php echo $lang['asset_163'] ?>
@@ -294,14 +294,14 @@
                     class="responsibility-1"
                     style="width: 50%"
                     itemprop="keywords"
-                    aria-label="<?php echo $lang['asset_160'] ?> 45 "
+                    aria-label="<?php echo $lang['asset_160'] ?> 50"
                     data-view-component="true"
                   ></span>
                   <span
                     class="responsibility-2"
-                    style="width: 35%"
+                    style="width: 30%"
                     itemprop="keywords"
-                    aria-label="<?php echo $lang['asset_161'] ?> 25 "
+                    aria-label="<?php echo $lang['asset_161'] ?> 30"
                     data-view-component="true"
                   ></span>
                   <span
@@ -313,9 +313,9 @@
                   ></span>
                   <span
                     class="responsibility-4"
-                    style="width: 5%"
+                    style="width: 10%"
                     itemprop="keywords"
-                    aria-label="<?php echo $lang['asset_163'] ?> 5"
+                    aria-label="<?php echo $lang['asset_163'] ?> 10"
                     data-view-component="true"
                   ></span>
                 </span>
@@ -338,16 +338,16 @@
             ?>
             <!-- ADAM LANGUAGES START -->
             <div class="reveal">
-              <p>
-                <?php echo $lang['asset_25'] ?>
-              </p>
+              <br />
+              <h6><?php echo $lang['asset_25'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
                   <li class="english"><?php echo $lang['asset_155'] ?></li>
-                  <li class="slavic"><?php echo $lang['asset_156'] ?></li>
+                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
                 </ul>
                 <ul class="languages-legend">
-                  <li class="danish"><?php echo $lang['asset_35'] ?></li>
+                  <li class="slavic"><?php echo $lang['asset_156'] ?></li>
+
                   <li class="swedish"><?php echo $lang['asset_158'] ?></li>
                 </ul>
               </div>
@@ -355,51 +355,49 @@
                 <span data-view-component="true" class="Progress">
                   <span
                     class="english"
-                    style="width: 30%"
+                    style="width: 45%"
                     itemprop="keywords"
-                    aria-label="PHP 78.1"
+                    aria-label="<?php echo $lang['asset_155'] ?> 45"
                     data-view-component="true"
                   ></span>
                   <span
                     class="slavic"
-                    style="width: 30%"
+                    style="width: 25%"
                     itemprop="keywords"
-                    aria-label="CSS 18.8"
+                    aria-label="?php echo $lang['asset_156'] ?> 30"
                     data-view-component="true"
                   ></span>
                   <span
                     class="danish"
-                    style="width: 30%"
+                    style="width: 25%"
                     itemprop="keywords"
-                    aria-label="JavaScript 1.6"
+                    aria-label="<?php echo $lang['asset_35'] ?> 25"
                     data-view-component="true"
                   ></span>
                   <span
                     class="swedish"
                     style="width: 10%"
                     itemprop="keywords"
-                    aria-label="Hack 1.5"
+                    aria-label="<?php echo $lang['asset_158'] ?> 10"
                     data-view-component="true"
                   ></span>
                 </span>
               </div>
             </div>
             <div class="reveal">
-              <p>
-                <?php echo $lang['asset_159'] ?>
-              </p>
+              <h6><?php echo $lang['asset_159'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
                   <li class="responsibility-1">
                     <?php echo $lang['asset_160'] ?>
                   </li>
-                  <li class="responsibility-2">
-                    <?php echo $lang['asset_161'] ?>
+                  <li class="responsibility-3">
+                    <?php echo $lang['asset_166'] ?>
                   </li>
                 </ul>
                 <ul class="languages-legend">
-                  <li class="responsibility-3">
-                    <?php echo $lang['asset_166'] ?>
+                  <li class="responsibility-2">
+                    <?php echo $lang['asset_161'] ?>
                   </li>
                   <li class="responsibility-4">
                     <?php echo $lang['asset_167'] ?>

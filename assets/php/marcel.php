@@ -72,7 +72,6 @@
       </a>
     </div>
   </section>
-  <hr class="reveal" />
   <!-- MARCEL SKILLS START -->
 </div>
 <!-- MARCEL SKILLS START -->

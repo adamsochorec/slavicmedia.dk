@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   createLottieInteractivity("#photoLottie");
   createLottieInteractivity("#videoLottie");
+  createLottieInteractivity("#graphicdesignLottie");
 });
 
 // CHANGE HEADER RGBA AT SCROLL END

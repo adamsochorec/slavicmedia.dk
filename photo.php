@@ -181,6 +181,7 @@
                         2.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6>
                         <?php echo $lang['asset_136'] ?>
                       </h6>
@@ -212,6 +213,7 @@
                         4.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_140'] ?>
@@ -239,6 +241,7 @@
                         13.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_143'] ?>
@@ -275,6 +278,7 @@
                         2.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6>
                         <?php echo $lang['asset_136'] ?>
                       </h6>
@@ -306,6 +310,7 @@
                         4.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_140'] ?>
@@ -333,6 +338,7 @@
                         13.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_143'] ?>
@@ -368,6 +374,7 @@
                         2.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6>
                         <?php echo $lang['asset_136'] ?>
                       </h6>
@@ -399,6 +406,7 @@
                         4.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_140'] ?>
@@ -426,6 +434,7 @@
                         13.000 DKK
                         <?php echo $lang['asset_132'] ?>
                       </h5>
+                      <br />
                       <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
                         <?php echo $lang['asset_143'] ?>
