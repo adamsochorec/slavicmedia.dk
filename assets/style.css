@@ -211,7 +211,6 @@ h6 {
   color: var(--text-color);
   font-family: var(--logo-font);
   position: relative;
-  text-transform: capitalize;
 }
 .grid-container.gallery h3,
 h1 {
@@ -223,8 +222,7 @@ h2 {
 h3 {
   font-size: var(--fontsize-h3);
 }
-h4,
-.highlited:not(.highlited.tuscher) {
+h4 {
   font-size: var(--fontsize-h4);
 }
 h5 {
@@ -260,7 +258,9 @@ p:not(.grid-container.fifty-fifty p) {
 }
 .highlited {
   color: rgba(var(--primary-color), 0.7);
-  font-size: inherit;
+}
+.grid-container .highlited:not(.grid-container .highlited.tuscher) {
+  font-size: var(--fontsize-h5);
 }
 /* LINK START */
 a,
@@ -921,6 +921,7 @@ ul.menu-left.collapse {
   border-radius: var(--border-radius-1);
   margin-top: 1rem;
   max-width: fit-content;
+  font-size: var(--fontsize-p);
   font-family: var(--logo-font);
   box-shadow: var(--box-shadow-1);
   z-index: 8;
@@ -1209,6 +1210,8 @@ footer span {
 }
 #services .grid-item p {
   max-width: 80%;
+  text-align: center;
+  font-family: var(--content-font);
 }
 .gallery #first-product p,
 .gallery #first-product h3 {
@@ -1908,17 +1911,21 @@ img.mfp-img {
 .tabset > label {
   position: relative;
   display: inline-block;
-  padding: 10px 15px;
-  border: 2px solid transparent;
+  padding: 7.5px 12.5px;
   border-bottom: 0;
   cursor: pointer;
+  font-family: var(--logo-font);
   margin-right: 10px;
   border-radius: var(--border-radius-1);
+  white-space: nowrap;
   box-shadow: var(--box-shadow-1);
   outline: 2.5px solid rgb(var(--secondary-color));
 }
+
 .tabset > label h4 {
   padding: 0;
+  font-size: var(--fontsize-p);
+  font-weight: var(--paragraph-weight);
 }
 .tabset > label:hover,
 .tabset > input:focus + label {
@@ -2176,10 +2183,10 @@ ul.languages-legend li::marker {
   fill: rgba(var(--primary-color), 1);
   cursor: pointer;
 }
-#ourteam .clients:hover path,
-#ourteam .clients path,
-#ourteam .clients:hover g,
-#ourteam .clients g {
+.clients:hover path,
+.clients path,
+.clients:hover g,
+.clients g {
   transition: var(--transition-2);
   -webkit-transition: var(--transition-2);
   -moz-transition: var(--transition-2); /* Firefox */

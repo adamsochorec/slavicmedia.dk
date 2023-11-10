@@ -13,47 +13,59 @@
     >
       <div class="grid-container contact-form">
         <div class="grid-item reveal">
+          <p><label for="email">Email *</label></p>
           <input
             type="email"
             id="email"
-            name="Email"
-            placeholder="Email *"
+            name="email"
+            placeholder=""
             required
             autocomplete="email"
           />
           <br /><br />
         </div>
         <div class="grid-item reveal">
+          <p>
+            <label for="name"
+              ><?php echo $lang['asset_170'] ?>
+              *</label
+            >
+          </p>
           <input
             type="text"
             id="name"
             required
-            name="Name"
-            placeholder="<?php echo $lang['asset_170'] ?> *"
+            name="name"
+            placeholder=""
             autocomplete="Name"
           />
           <br /><br />
         </div>
       </div>
       <div class="reveal">
+        <p>
+          <label for="project"
+            ><?php echo $lang['asset_169'] ?>
+            *</label
+          >
+        </p>
         <textarea
           minlength="10"
           name="project"
           rows="7"
           required
           id="project"
-          placeholder="<?php echo $lang['asset_169'] ?> *"
+          placeholder=""
         ></textarea>
         <br /><br />
-        <div class="reveal">
-          <button type="submit" aria-label="<?php echo $lang['asset_164'] ?>">
-            <a class="cta"> <?php echo $lang['asset_164'] ?></a>
-          </button>
-        </div>
+        <button type="submit" aria-label="<?php echo $lang['asset_164'] ?>">
+          <a class="cta"><?php echo $lang['asset_164'] ?></a>
+        </button>
+
         <input
           type="hidden"
           name="_captcha"
-          value="true"
+          value="false"
         /><!-- Spam captcha deactivation -->
         <input
           type="hidden"

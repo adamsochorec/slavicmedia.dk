@@ -100,7 +100,7 @@
                   ></lottie-player>
 
                   <p>
-                    <?php echo $lang['asset_12'] ?>
+                    <b><?php echo $lang['asset_12'] ?>.</b>
                   </p>
                 </div>
               </div>
@@ -128,9 +128,7 @@
                     aria-describedby="videoLottieDescription"
                   ></lottie-player>
 
-                  <p>
-                    <?php echo $lang['asset_14'] ?>
-                  </p>
+                  <p><?php echo $lang['asset_14'] ?>.</p>
                 </div>
               </div>
             </a>
@@ -144,7 +142,7 @@
               <?php echo $lang['asset_6'] ?>
             </h2>
             <div class="hideCTA-min reveal">
-              <a href="/portfolio" class="cta">
+              <a href="/works" class="cta">
                 <?php echo $lang['asset_8'] ?>
               </a>
             </div>
@@ -156,7 +154,7 @@
           </div>
         </div>
         <div class="hideCTA-max reveal">
-          <a href="/portfolio" class="cta">
+          <a href="/works" class="cta">
             <?php echo $lang['asset_8'] ?>
           </a>
         </div>
@@ -196,36 +194,8 @@
             <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
-
-              <a
-                href="https://www.iba.dk"
-                target="_blank"
-                rel="noopener noreferrer"
-                >IBA</a
-              >.
             </p>
             <p class="reveal"><?php echo $lang['asset_21'] ?>.</p>
-            <p class="reveal">
-              <?php echo $lang['asset_22'] ?>
-            </p>
-            <p class="reveal">
-              <a
-                <a
-                href="https://adamsochorec.com/blog/vestkystruten"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <?php echo $lang['asset_171'] ?></a
-              >
-              →<br /><a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <?php echo $lang['asset_172'] ?></a
-              >
-              →
-            </p>
           </article>
         </div>
       </article>

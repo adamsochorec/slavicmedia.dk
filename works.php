@@ -54,12 +54,8 @@
             </h3>
             <h2>Hocičo</h2>
             <div class="hideCTA-min reveal">
-              <a
-                href="/photo#<?php echo $lang['asset_107'] ?>"
-                class="cta"
-                aria-label=""
-              >
-                Hocičo plans
+              <a href="/photo" class="cta" aria-label="">
+                <?php echo $lang['asset_116'] ?>
               </a>
             </div>
           </div>
@@ -71,11 +67,11 @@
         </div>
         <div class="hideCTA-max reveal">
           <a
-            href="/photo#<?php echo $lang['asset_107'] ?>"
+            href="/photo"
             class="cta"
             aria-label="<?php echo $lang['asset_128'] ?>"
           >
-            Hocičo plans
+            <?php echo $lang['asset_116'] ?>
           </a>
         </div>
       </article>
@@ -221,7 +217,7 @@
       <!-- VIDEO GALLERY END -->
       <!-- PHOTO GALLERY START -->
       <!-- PORTRAIT START -->
-      <article class="wrapper-wide" id="<?php echo $lang['asset_110'] ?>">
+      <article class="wrapper-wide" id="portrait">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
@@ -232,26 +228,26 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo#<?php echo $lang['asset_110'] ?>"
+                href="/photo"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_117'] ?>
+                <?php echo $lang['asset_116'] ?>
               </a>
             </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              <?php echo $lang['asset_112'] ?>
+              <?php echo $lang['asset_173'] ?>
             </p>
           </div>
         </div>
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo#<?php echo $lang['asset_110'] ?>"
+            href="/photo"
             aria-label="<?php echo $lang['asset_117'] ?>"
           >
-            <?php echo $lang['asset_117'] ?>
+            <?php echo $lang['asset_116'] ?>
           </a>
         </div>
       </article>
@@ -259,6 +255,36 @@
 
       <article id="visuals">
         <div class="grid-container photo-grid">
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2021-04-25-00693.jpg"
+              alt="<?php echo $lang['asset_55'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.divadlonavinohradech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Divadlo na Vinohradech</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2021-04-14-00608.jpg"
+              alt="<?php echo $lang['asset_56'] ?>."
+            />
+          </div>
           <div class="v-stretch reveal">
             <img
               src="/img/2021-09-05-01666.jpg"
@@ -341,35 +367,16 @@
               alt="<?php echo $lang['asset_54'] ?>."
             />
           </div>
-
           <div class="h-stretch reveal">
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Divadlo na Vinohradech</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
-              src="/img/2021-04-25-00693.jpg"
-              alt="<?php echo $lang['asset_55'] ?>."
+              src="/img/2021-07-19-01355.jpg"
+              alt="<?php echo $lang['asset_146'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Divadlo na Vinohradech</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
-              src="/img/2021-04-14-00608.jpg"
-              alt="<?php echo $lang['asset_56'] ?>."
+              src="/img/2021-08-24-01615.jpg"
+              alt="<?php echo $lang['asset_147'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -399,18 +406,7 @@
               alt="<?php echo $lang['asset_4'] ?>."
             />
           </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-07-19-01355.jpg"
-              alt="<?php echo $lang['asset_146'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2021-08-24-01615.jpg"
-              alt="<?php echo $lang['asset_147'] ?>."
-            />
-          </div>
+
           <div class="h-stretch unhide reveal">
             <img
               src="/img/2021-10-01-01825.jpg"
@@ -420,8 +416,8 @@
         </div>
       </article>
       <!-- PORTRAIT END -->
-      <!-- EVENT START -->
-      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
+      <!-- STILLS START -->
+      <article class="wrapper-wide" id="Stills">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
@@ -432,7 +428,7 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo#<?php echo $lang['asset_107'] ?>"
+                href="/photo"
                 aria-label="<?php echo $lang['asset_116'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -441,14 +437,14 @@
           </div>
           <div class="grid-item">
             <p class="reveal">
-              <?php echo $lang['asset_109'] ?>
+              <?php echo $lang['asset_174'] ?>
             </p>
           </div>
         </div>
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo#<?php echo $lang['asset_107'] ?>"
+            href="/photo"
             aria-label="<?php echo $lang['asset_116'] ?>"
           >
             <?php echo $lang['asset_116'] ?>
@@ -648,11 +644,11 @@
               alt="<?php echo $lang['asset_48'] ?>."
             />
           </div>
-          <!-- EVENT END -->
+          <!-- STILLS END -->
           <!-- TRAVEL START -->
         </div>
       </article>
-      <article class="wrapper-wide" id="<?php echo $lang['asset_88'] ?>">
+      <article class="wrapper-wide" id="Travel">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
@@ -663,32 +659,124 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo#<?php echo $lang['asset_88'] ?>"
+                href="/photo"
                 aria-label="<?php echo $lang['asset_118'] ?>"
               >
-                <?php echo $lang['asset_118'] ?>
+                <?php echo $lang['asset_116'] ?>
               </a>
             </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              <?php echo $lang['asset_109'] ?>
+              <?php echo $lang['asset_175'] ?>
             </p>
           </div>
         </div>
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo#<?php echo $lang['asset_88'] ?>"
+            href="/photo"
             aria-label="<?php echo $lang['asset_118'] ?>"
           >
-            <?php echo $lang['asset_118'] ?>
+            <?php echo $lang['asset_116'] ?>
           </a>
         </div>
       </article>
       <hr class="semi" role="separator" />
       <article id="visuals">
         <div class="grid-container photo-grid">
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Timetravels</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-12-08-01181.jpg"
+              alt="<?php echo $lang['asset_95'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Timetravels</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-12-07-01167.jpg"
+              alt="<?php echo $lang[''] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Tourist Israel</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01113.jpg"
+              alt="<?php echo $lang['asset_121'] ?>."
+            />
+          </div>
+          <div class="h-stretch unhide reveal">
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Tourist Israel</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01113.jpg"
+              alt="<?php echo $lang['asset_121'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Tourist Israel</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01096.jpg"
+              alt="<?php echo $lang['asset_120'] ?>."
+            />
+          </div>
+
+          <div class="v-stretch reveal">
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Tourist Israel</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01059.jpg"
+              alt="<?php echo $lang['asset_119'] ?>."
+            />
+          </div>
           <div class="h-stretch reveal">
             <p class="note">
               <a
@@ -757,65 +845,6 @@
               </div>
             </div>
           </div>
-          <div class="v-stretch reveal">
-            <img
-              src="/img/2023-08-04-159.jpg"
-              alt="<?php echo $lang['asset_119'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <img
-              src="/img/2023-07-27-00147.jpg"
-              alt="<?php echo $lang['asset_120'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Åland</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-10-16-00977.jpg"
-              alt="<?php echo $lang['asset_121'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note">
-              <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Timetravels</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-08-01181.jpg"
-              alt="<?php echo $lang['asset_95'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note">
-              <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Timetravels</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-07-01167.jpg"
-              alt="<?php echo $lang[''] ?>."
-            />
-          </div>
-
           <div class="h-stretch reveal">
             <img
               src="/img/2023-08-06-00304.jpg"
@@ -828,27 +857,13 @@
               alt="<?php echo $lang['asset_93'] ?>."
             />
           </div>
-          <div class="h-stretch unhide reveal">
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Åland</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-10-15-00967.jpg"
-              alt="<?php echo $lang['asset_154'] ?>."
-            />
-          </div>
-          <!-- EVENT END -->
+
+          <!-- STILLS END -->
           <!-- PHOTO GALLERY END -->
         </div>
       </article>
-      <!-- VIDEO GALLERY START -->
-      <article class="wrapper-wide" id="<?php echo $lang['asset_107'] ?>">
+      <!-- ART PROJECTS START -->
+      <article class="wrapper-wide" id="Art-Projects">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty">
           <div class="grid-item reveal">
@@ -942,7 +957,7 @@
           </div>
         </div>
       </article>
-      <!-- VIDEO GALLERY END -->
+      <!-- ART PROJECTS END -->
     </main>
     <!-- FOOTER START -->
     <?php

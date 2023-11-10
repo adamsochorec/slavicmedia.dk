@@ -9,6 +9,12 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
+    <script
+      src="https://www.google.com/recaptcha/enterprise.js?render=6LfQfQkpAAAAAC416S79vWY4zeUSxkGuUUEFhMMr"
+      async
+      defer
+    ></script>
+    <!-- Your code -->
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
     <title>Photo Services | Slavic Media</title>
@@ -39,9 +45,6 @@
         <!-- PORTRAIT START -->
         <div class="grid-container services-grid">
           <div class="grid-item reveal">
-            <h3 class="highlited hideHeading-min">
-              <?php echo $lang['asset_108'] ?>
-            </h3>
             <h2 class="hideHeading-min">
               <?php echo $lang['asset_110'] ?>
             </h2>
@@ -49,63 +52,49 @@
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h3 class="highlited hideHeading-max">
-                <?php echo $lang['asset_108'] ?>
-              </h3>
               <h2 class="hideHeading-max">
                 <?php echo $lang['asset_110'] ?>
               </h2>
               <p>
-                <?php echo $lang['asset_112'] ?>
+                <?php echo $lang['asset_173'] ?>
               </p>
               <br />
               <div>
                 <a
                   class="cta reveal"
-                  href="/portfolio#<?php echo $lang['asset_110'] ?>"
+                  href="/works#<?php echo $lang['asset_110'] ?>"
                   ><?php echo $lang['asset_114'] ?>
                 </a>
               </div>
             </section>
           </div>
           <!-- PORTRAIT END -->
-          <!-- EVENT START -->
+          <!-- STILLS START -->
           <div class="grid-item reveal">
-            <h3 class="highlited hideHeading-min">
-              <?php echo $lang['asset_108'] ?>
-            </h3>
             <h2 class="hideHeading-min">
               <?php echo $lang['asset_107'] ?>
             </h2>
-            <img src="/img/2023-02-10-08469.jpg" alt="Event Cover" />
+            <img src="/img/2023-09-09-10524.jpg" alt="Stills Cover" />
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h3 class="highlited hideHeading-max">
-                <?php echo $lang['asset_108'] ?>
-              </h3>
               <h2 class="hideHeading-max">
                 <?php echo $lang['asset_107'] ?>
               </h2>
               <p>
-                <?php echo $lang['asset_109'] ?>
+                <?php echo $lang['asset_174'] ?>
               </p>
               <br />
               <div>
-                <a
-                  class="cta"
-                  href="/portfolio#<?php echo $lang['asset_107'] ?>"
+                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
                   ><?php echo $lang['asset_113'] ?>
                 </a>
               </div>
             </section>
           </div>
-          <!-- EVENT END -->
+          <!-- STILLS END -->
           <!-- TRAVEL START -->
           <div class="grid-item">
-            <h3 class="highlited hideHeading-min reveal">
-              <?php echo $lang['asset_108'] ?>
-            </h3>
             <h2 class="hideHeading-min reveal">
               <?php echo $lang['asset_85'] ?>
             </h2>
@@ -117,18 +106,15 @@
           </div>
           <div class="grid-item text-container">
             <section>
-              <h3 class="highlited hideHeading-max reveal">
-                <?php echo $lang['asset_108'] ?>
-              </h3>
               <h2 class="hideHeading-max reveal">
                 <?php echo $lang['asset_85'] ?>
               </h2>
               <p class="reveal">
-                <?php echo $lang['asset_109'] ?>
+                <?php echo $lang['asset_175'] ?>
               </p>
               <br />
               <div class="reveal">
-                <a class="cta" href="/portfolio#<?php echo $lang['asset_85'] ?>"
+                <a class="cta" href="/works#<?php echo $lang['asset_85'] ?>"
                   ><?php echo $lang['asset_115'] ?>
                 </a>
               </div>
@@ -136,7 +122,6 @@
           </div>
         </div>
         <!-- TRAVEL END -->
-
         <hr class="reveal" />
         <!-- PACKAGES START -->
         <h3 class="reveal"><?php echo $lang['asset_145'] ?></h3>
@@ -149,21 +134,21 @@
             type="radio"
             name="tabset"
             id="tab1"
-            aria-controls="portrait"
+            aria-controls="Portrait"
             checked
           />
           <label for="tab1"
             ><h4><?php echo $lang['asset_110'] ?></h4></label
           >
           <!-- Tab 2 -->
-          <input type="radio" name="tabset" id="tab2" aria-controls="event" />
+          <input type="radio" name="tabset" id="tab2" aria-controls="Stills" />
           <label for="tab2"
             ><h4><?php echo $lang['asset_107'] ?></h4></label
           >
           <!-- Tab 3 -->
-          <input type="radio" name="tabset" id="tab3" aria-controls="travel" />
+          <input type="radio" name="tabset" id="tab3" aria-controls="Travel" />
           <label for="tab3"
-            ><h4><?php echo $lang['asset_88'] ?></h4></label
+            ><h4><?php echo $lang['asset_85'] ?></h4></label
           >
           <div class="tab-panels">
             <!-- PORTRAIT PACKAGES START -->
@@ -263,8 +248,8 @@
             </section>
             <!-- PORTRAIT PACKAGES END -->
 
-            <!-- EVENT PACKAGES START -->
-            <section id="event" class="tab-panel">
+            <!-- STILLS PACKAGES START -->
+            <section id="stills" class="tab-panel">
               <div class="grid-container gallery reveal">
                 <div class="grid-item flip-card" id="essential">
                   <div class="flip-card-inner">
@@ -358,7 +343,7 @@
                 </div>
               </div>
             </section>
-            <!-- EVENT PACKAGES END -->
+            <!-- Stills PACKAGES END -->
             <!-- TRAVEL PACKAGES START -->
             <section id="travel" class="tab-panel">
               <div class="grid-container gallery reveal">

@@ -236,6 +236,12 @@ if (document.body.id === "homepage") {
   // SUBMIT AT ENTER END
 })();
 // CONTACT FORM END
+// RECAPTCHA START
+function onSubmit(token) {
+  document.getElementById("contactForm").submit();
+}
+// RECAPTCHA END
+
 // VIMEO GALLERY START
 $(document).ready(function () {
   $(".video-gallery").magnificPopup({
