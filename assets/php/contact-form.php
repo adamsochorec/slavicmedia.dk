@@ -23,8 +23,6 @@
             autocomplete="email"
           />
           <br /><br />
-        </div>
-        <div class="grid-item reveal">
           <p>
             <label for="name"
               ><?php echo $lang['asset_170'] ?>
@@ -39,6 +37,49 @@
             placeholder=""
             autocomplete="Name"
           />
+          <br /><br />
+        </div>
+        <div class="grid-item reveal">
+          <p>
+            <label for="category"><?php echo $lang['asset_181'] ?> </label>
+          </p>
+          <select id="category" name="category">
+            <option value="" selected disabled hidden>
+              <span class="default-option">
+                <?php echo $lang['asset_184'] ?></span
+              >
+            </option>
+            <option value="<?php echo $lang['asset_110'] ?>">
+              <?php echo $lang['asset_110'] ?>
+            </option>
+            <option value="<?php echo $lang['asset_107'] ?>">
+              <?php echo $lang['asset_107'] ?>
+            </option>
+            <option value="<?php echo $lang['asset_85'] ?>">
+              <?php echo $lang['asset_85'] ?>
+            </option>
+          </select>
+          <br /><br />
+
+          <p>
+            <label for="plan"><?php echo $lang['asset_182'] ?></label>
+          </p>
+          <select id="plan" name="plan">
+            <option value="" selected disabled hidden>
+              <span class="default-option"
+                ><?php echo $lang['asset_183'] ?></span
+              >
+            </option>
+            <option value="<?php echo $lang['asset_133'] ?>">
+              <?php echo $lang['asset_133'] ?>
+            </option>
+            <option value="<?php echo $lang['asset_134'] ?>">
+              <?php echo $lang['asset_134'] ?>
+            </option>
+            <option value="<?php echo $lang['asset_135'] ?>">
+              <?php echo $lang['asset_135'] ?>
+            </option>
+          </select>
           <br /><br />
         </div>
       </div>
@@ -57,16 +98,13 @@
           id="project"
           placeholder=""
         ></textarea>
-        <br /><br />
-        <button type="submit" aria-label="<?php echo $lang['asset_164'] ?>">
-          <a class="cta"><?php echo $lang['asset_164'] ?></a>
+        <button
+          class="submit-btn flex-center"
+          aria-label="<?php echo $lang['asset_164'] ?>"
+        >
+          <?php echo $lang['asset_164'] ?>
         </button>
 
-        <input
-          type="hidden"
-          name="_captcha"
-          value="false"
-        /><!-- Spam captcha deactivation -->
         <input
           type="hidden"
           name="_next"

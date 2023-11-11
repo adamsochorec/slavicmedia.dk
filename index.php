@@ -19,6 +19,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-nav-bar.php';
     ?>
+
     <!-- HEADER END -->
     <main>
       <!-- VISUALS START -->
@@ -31,10 +32,12 @@
               loop="true"
               autoplay="autoplay"
               muted
-              class="video-offload"
+              class="video-offload video-control"
+              preload="auto"
               aria-label="Intro Video"
+              playsinline
               role="video"
-              aria-describedby="introVideoDescription"
+              aria-describedby="Hero video"
             ></video>
           </div>
 
@@ -70,7 +73,45 @@
           </div>
         </div>
         <hr class="semi" role="separator" />
+        <!-- FEATURES START -->
 
+        <div class="grid-container features-grid">
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/camera.png" />
+            <h4>Quality standards</h4>
+          </div>
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/studio.png" />
+            <h4>Studio</h4>
+          </div>
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/edit.png" />
+            <h4>Extensive postproduction</h4>
+          </div>
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/drone.png" />
+            <h4>Aerial shooting</h4>
+          </div>
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/design.png" />
+            <h4>Graphic</h4>
+          </div>
+
+          <div class="grid-item reveal">
+            <img class="feature" src="/img/flexibility.png" />
+            <h4>Animation</h4>
+          </div>
+        </div>
+        <hr class="semi" role="separator" />
+
+        <section class="flex-center">
+          <div class="reveal">
+            <a href="/services" class="cta">
+              <?php echo $lang['asset_108'] ?>
+            </a>
+          </div>
+        </section>
+        <!-- FEATURES END 
         <div
           class="grid-container gallery reveal"
           id="services"
@@ -98,7 +139,6 @@
                     role="img"
                     aria-describedby="photoLottieDescription"
                   ></lottie-player>
-
                   <p>
                     <b><?php echo $lang['asset_12'] ?>.</b>
                   </p>
@@ -133,7 +173,7 @@
               </div>
             </a>
           </div>
-        </div>
+        </div>-->
         <hr class="reveal" role="separator" />
 
         <div class="grid-container fifty-fifty">
@@ -141,22 +181,12 @@
             <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>
             </h2>
-            <div class="hideCTA-min reveal">
-              <a href="/works" class="cta">
-                <?php echo $lang['asset_8'] ?>
-              </a>
-            </div>
           </div>
           <div class="grid-item reveal">
             <p>
               <?php echo $lang['asset_7'] ?>
             </p>
           </div>
-        </div>
-        <div class="hideCTA-max reveal">
-          <a href="/works" class="cta">
-            <?php echo $lang['asset_8'] ?>
-          </a>
         </div>
 
         <!-- SERVICES END -->
@@ -179,12 +209,13 @@
             loop="true"
             autoplay="autoplay"
             muted
+            preload="auto"
+            playsinline
             class="video-offload filter"
             aria-label="Our Team Video"
             role="video"
             aria-describedby="Our Team cover video"
           ></video>
-          <div class="filter"></div>
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
             <button id="playPauseButton" class="play">
@@ -195,7 +226,7 @@
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
             </p>
-            <p class="reveal"><?php echo $lang['asset_21'] ?>.</p>
+            <p class="reveal"><?php echo $lang['asset_21'] ?></p>
           </article>
         </div>
       </article>

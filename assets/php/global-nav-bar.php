@@ -22,9 +22,7 @@
         </a>
         <ul class="menu-left" role="menu">
           <li role="menuitem">
-            <a href="/#<?php echo $lang['asset_101'] ?>"
-              ><?php echo $lang['asset_101'] ?></a
-            >
+            <a href="/services"><?php echo $lang['asset_101'] ?></a>
           </li>
           <li role="menuitem">
             <a href="/<?php echo $lang['asset_102'] ?>"
@@ -45,14 +43,8 @@
     </div>
   </div>
 </header>
-<!-- LOADER START -->
+<!-- LOADER START 
 <aside class="loader-container" role="complementary">
   <div class="loader" aria-label="Loading"></div>
 </aside>
-<!-- LOADER END
-<div class="cookie">
-  <div class="cookie-consent__col2">
-    <button class="cookie-consent__btn">Got it!</button>
-  </div>
-</div>
- -->
+<!-- LOADER END -->

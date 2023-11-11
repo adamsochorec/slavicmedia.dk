@@ -33,8 +33,11 @@
           >
         </div>
         <h1>The page you’re looking<br />for can't be found.</h1>
-        <a class="cta" href="http://slavicmedia.dk">Return to the homepage</a>
+        <a class="cta" href="http://slavicmedia.dk"
+          ><?php echo $lang['asset_180'] ?></a
+        >
       </article>
+      <div class="pathname-container"></div>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script

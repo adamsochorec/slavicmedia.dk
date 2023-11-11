@@ -8,7 +8,7 @@
     ?>
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
-    <title>Slavic Media</title>
+    <title>Works | Slavic Media</title>
   </head>
   <body id="portfolio">
     <!-- HEADER START -->
@@ -39,7 +39,7 @@
         </div>
       </article>
 
-      <!-- VIDEO GALLERY START -->
+      <!-- VIDEO GALLERY START 
       <article
         class="wrapper-wide"
         id="<?php echo $lang['asset_13'] ?>"
@@ -54,7 +54,11 @@
             </h3>
             <h2>Hocičo</h2>
             <div class="hideCTA-min reveal">
-              <a href="/photo" class="cta" aria-label="">
+              <a
+                href="/services"
+                class="cta"
+                aria-label="<?php echo $lang['asset_116'] ?>"
+              >
                 <?php echo $lang['asset_116'] ?>
               </a>
             </div>
@@ -67,7 +71,7 @@
         </div>
         <div class="hideCTA-max reveal">
           <a
-            href="/photo"
+            href="/services"
             class="cta"
             aria-label="<?php echo $lang['asset_128'] ?>"
           >
@@ -75,7 +79,7 @@
           </a>
         </div>
       </article>
-
+-->
       <hr class="semi" role="separator" />
       <article id="visual" class="video-gallery" aria-label="Video Gallery">
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
@@ -244,7 +248,7 @@
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo"
+            href="/services"
             aria-label="<?php echo $lang['asset_117'] ?>"
           >
             <?php echo $lang['asset_116'] ?>
@@ -252,7 +256,6 @@
         </div>
       </article>
       <hr class="semi" role="separator" />
-
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
@@ -428,7 +431,7 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo"
+                href="/services"
                 aria-label="<?php echo $lang['asset_116'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -444,7 +447,7 @@
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo"
+            href="/services"
             aria-label="<?php echo $lang['asset_116'] ?>"
           >
             <?php echo $lang['asset_116'] ?>
@@ -659,7 +662,7 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo"
+                href="/services"
                 aria-label="<?php echo $lang['asset_118'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -675,7 +678,7 @@
         <div class="hideCTA-max reveal">
           <a
             class="cta"
-            href="/photo"
+            href="/services"
             aria-label="<?php echo $lang['asset_118'] ?>"
           >
             <?php echo $lang['asset_116'] ?>
@@ -728,7 +731,7 @@
             </p>
             <img
               src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_121'] ?>."
+              alt="<?php echo $lang['asset_176'] ?>."
             />
           </div>
           <div class="h-stretch unhide reveal">
@@ -743,7 +746,7 @@
             </p>
             <img
               src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_121'] ?>."
+              alt="<?php echo $lang['asset_176'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -758,7 +761,7 @@
             </p>
             <img
               src="/img/2023-08-29-01096.jpg"
-              alt="<?php echo $lang['asset_120'] ?>."
+              alt="<?php echo $lang['asset_177'] ?>."
             />
           </div>
 
@@ -774,7 +777,7 @@
             </p>
             <img
               src="/img/2023-08-29-01059.jpg"
-              alt="<?php echo $lang['asset_119'] ?>."
+              alt="<?php echo $lang['asset_178'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
