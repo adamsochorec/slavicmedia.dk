@@ -57,7 +57,7 @@
 
         <!-- SERVICES START -->
         <div
-          class="grid-container fifty-fifty reveal"
+          class="grid-container fifty-fifty caption-container reveal"
           role="region"
           aria-label="Services"
         >
@@ -86,7 +86,7 @@
           </div>
           <div class="grid-item reveal">
             <img class="feature" src="/img/edit.png" />
-            <h4>Extensive postproduction</h4>
+            <h4>Extensive post-production</h4>
           </div>
           <div class="grid-item reveal">
             <img class="feature" src="/img/drone.png" />
@@ -176,7 +176,7 @@
         </div>-->
         <hr class="reveal" role="separator" />
 
-        <div class="grid-container fifty-fifty">
+        <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item">
             <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>

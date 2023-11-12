@@ -1,4 +1,27 @@
-// RECAPTCHA START
+// CONTENT REVEAL START
+function reveal() {
+  const reveals = document.querySelectorAll(".reveal"),
+    windowHeight = window.innerHeight;
+
+  reveals.forEach((reveal) => {
+    const revealtop = reveal.getBoundingClientRect().top,
+      revealpoint = 0;
+    if (revealtop < windowHeight - revealpoint) {
+      reveal.classList.add("active");
+    }
+  });
+}
+window.addEventListener("scroll", reveal);
+reveal();
+// CONTENT REVEAL END// LOADER ANIMATION START
+(function introLoader() {
+  window.addEventListener("load", () => {
+    // When the window is fully loaded, hide the loader
+    const loader = document.querySelector(".loader-container");
+    loader.style.display = "none";
+  });
+})();
+// LOADER ANIMATION END// RECAPTCHA START
 function onSubmit(token) {
   document.getElementById("contactForm").submit();
 }
@@ -20,24 +43,23 @@ if (document.body.id === "servicees") {
     // Optional parameters
     direction: "horizontal",
     loop: true,
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
 
     // Navigation arrows
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
   });
 }
 // SWIPER END
-// LOADER ANIMATION START
-(function introLoader() {
-  window.addEventListener("load", () => {
-    // When the window is fully loaded, hide the loader
-    const loader = document.querySelector(".loader-container");
-    loader.style.display = "none";
-  });
-})();
-// LOADER ANIMATION END
 
 (function header() {
   let lastScrollTop = 0;
@@ -91,22 +113,7 @@ if (document.body.id === "servicees") {
     lastScrollTop = st;
   }
 })();
-// CONTENT REVEAL START
-function reveal() {
-  const reveals = document.querySelectorAll(".reveal"),
-    windowHeight = window.innerHeight;
 
-  reveals.forEach((reveal) => {
-    const revealtop = reveal.getBoundingClientRect().top,
-      revealpoint = 0;
-    if (revealtop < windowHeight - revealpoint) {
-      reveal.classList.add("active");
-    }
-  });
-}
-window.addEventListener("scroll", reveal);
-reveal();
-// CONTENT REVEAL END
 // HOMEPAGE START
 
 // CHANGE HEADER RGBA AT SCROLL END

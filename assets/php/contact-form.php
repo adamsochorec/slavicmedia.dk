@@ -22,7 +22,7 @@
             required
             autocomplete="email"
           />
-          <br /><br />
+          <br />
           <p>
             <label for="name"
               ><?php echo $lang['asset_170'] ?>
@@ -37,7 +37,7 @@
             placeholder=""
             autocomplete="Name"
           />
-          <br /><br />
+          <br />
         </div>
         <div class="grid-item reveal">
           <p>
@@ -46,7 +46,7 @@
           <select id="category" name="category">
             <option value="" selected disabled hidden>
               <span class="default-option">
-                <?php echo $lang['asset_184'] ?></span
+                <?php echo $lang['asset_183'] ?></span
               >
             </option>
             <option value="<?php echo $lang['asset_110'] ?>">
@@ -59,7 +59,7 @@
               <?php echo $lang['asset_85'] ?>
             </option>
           </select>
-          <br /><br />
+          <br />
 
           <p>
             <label for="plan"><?php echo $lang['asset_182'] ?></label>
@@ -80,7 +80,7 @@
               <?php echo $lang['asset_135'] ?>
             </option>
           </select>
-          <br /><br />
+          <br />
         </div>
       </div>
       <div class="reveal">
@@ -111,6 +111,8 @@
           value="https://slavicmedia.dk/success"
         />
         <!-- Redirect to the success page -->
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- Captcha disable -->
       </div>
     </form>
   </section>

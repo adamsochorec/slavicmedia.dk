@@ -4,9 +4,6 @@
       <span class="arrow-down" aria-hidden="true">
         <!-- CSS generated icon for decorative purpose -->
       </span>
-      <span id="scroll-title" aria-label="<?php echo $lang['asset_1'] ?>">
-        <?php echo $lang['asset_1'] ?>
-      </span>
     </div>
   </div>
 </div>

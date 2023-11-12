@@ -43,7 +43,7 @@
     </div>
   </div>
 </header>
-<!-- LOADER START 
+<!-- LOADER START -->
 <aside class="loader-container" role="complementary">
   <div class="loader" aria-label="Loading"></div>
 </aside>

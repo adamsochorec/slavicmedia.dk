@@ -10,7 +10,7 @@
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
     <title>Works | Slavic Media</title>
   </head>
-  <body id="portfolio">
+  <body id="works">
     <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -223,7 +223,7 @@
       <!-- PORTRAIT START -->
       <article class="wrapper-wide" id="portrait">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty">
+        <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
@@ -232,7 +232,7 @@
             <div class="hideCTA-min reveal">
               <a
                 class="cta"
-                href="/photo"
+                href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -422,7 +422,7 @@
       <!-- STILLS START -->
       <article class="wrapper-wide" id="Stills">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty">
+        <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
@@ -653,7 +653,7 @@
       </article>
       <article class="wrapper-wide" id="Travel">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty">
+        <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
@@ -868,7 +868,7 @@
       <!-- ART PROJECTS START -->
       <article class="wrapper-wide" id="Art-Projects">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty">
+        <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h2>Art Projects</h2>
           </div>

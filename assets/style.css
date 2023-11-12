@@ -1152,7 +1152,9 @@ select {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 30px;
+  appearance: none;
 }
+
 textarea {
   resize: none;
 }
@@ -1279,13 +1281,28 @@ footer span {
 }
 /* SWIPER START */
 .swiper {
-  width: 600px;
-  height: 300px;
+  height: 400px;
+  aspect-ratio: 4/3;
+  width: 100%;
 }
-
+.swiper img {
+  object-fit: cover;
+}
 .swiper .swiper-button-prev,
 .swiper .swiper-button-next {
   color: rgba(var(--white-color), 0.5);
+}
+.swiper-pagination-bullet-active {
+  background: rgba(var(--white-color), 0.5);
+}
+.swiper-pagination-bullet {
+  background: rgba(var(--white-color), 0.5);
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 4px;
 }
 /* SWIPER END */
 
@@ -1788,13 +1805,11 @@ img.mfp-img {
 .video-gallery .gallery-item p {
   font-size: 0.8rem;
   letter-spacing: 2px;
-
   padding: 12px 0;
   opacity: 0;
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(10%, 0, 0);
 }
-
 .video-gallery .gallery-item:hover img {
   opacity: 0.3;
   transform: scale(1.2);
@@ -1991,7 +2006,7 @@ img.mfp-img {
   bottom: 10px;
   right: 10px;
   animation-delay: 10s;
-  animation: repeat-pulse 0.5s ease-in infinite alternate;
+  animation: repeat-pulse 2s ease-in infinite alternate;
 }
 .tab-panel #essential i.fa-repeat {
   color: black;
@@ -2402,6 +2417,13 @@ ul.languages-legend li::marker {
     width: 100vw;
     box-shadow: none;
   }
+  .caption-container {
+    display: block;
+  }
+  .caption-container h2,
+  .caption-container h1 {
+    margin-bottom: 1rem;
+  }
 }
 @media only screen and (min-width: 500px) {
   #ourteam .skills-section .grid-item:nth-child(1) {
@@ -2476,10 +2498,6 @@ ul.languages-legend li::marker {
   .features-grid .grid-item {
     padding: 10px;
   }
-  .services .grid-container img {
-    object-fit: cover;
-    padding-right: var(--homepage-padding);
-  }
 }
 @media only screen and (min-width: 538px) {
   .hideLanguages {
@@ -2498,9 +2516,6 @@ ul.languages-legend li::marker {
 @media only screen and (min-width: 560px) {
   .hidePhoto {
     display: none;
-  }
-  .hideHeading-min {
-    display: none !important;
   }
   .unhide {
     display: none;
@@ -2535,27 +2550,8 @@ ul.languages-legend li::marker {
   .intro-section {
     background-attachment: scroll;
   }
-  .services .grid-container.services-grid {
-    grid-template-columns: 1fr;
-  }
   hr.hideHr {
     display: none;
-  }
-  .hideHeading-max {
-    display: none !important;
-  }
-  .services .grid-container.services-grid img,
-  .services .grid-container.services-grid video {
-    aspect-ratio: 16/9 !important;
-    height: auto;
-  }
-  .services .grid-container.services-grid {
-    grid-gap: 0;
-  }
-  .services
-    .grid-container.services-grid
-    .grid-item:nth-child(even):not(.grid-item:last-child) {
-    margin-bottom: 60px;
   }
 }
 @media only screen and (min-width: 668px) {
@@ -2570,7 +2566,6 @@ ul.languages-legend li::marker {
   .note {
     background-color: rgba(0, 0, 0, 0) !important;
   }
-
   p.note a {
     box-shadow: none;
     color: rgba(var(--white-color), 0.8);
@@ -2659,6 +2654,22 @@ ul.languages-legend li::marker {
   .video-container {
     height: 100%;
   }
+  .services .grid-container.services-grid {
+    display: block;
+  }
+  .hideHeading-max {
+    display: none !important;
+  }
+  .services .grid-container.services-grid img {
+    aspect-ratio: 16/9 !important;
+  }
+  .services .grid-container.services-grid {
+    grid-gap: 0;
+  }
+  .grid-container.services-grid
+    .grid-item:nth-child(even):not(.grid-item:last-child) {
+    margin-bottom: 60px;
+  }
 }
 @media only screen and (min-width: 415px) and (max-width: 767px) {
   .press-container .intro-section,
@@ -2688,6 +2699,9 @@ ul.languages-legend li::marker {
     height: 60vh;
   }
   .explore {
+    display: none !important;
+  }
+  .hideHeading-min {
     display: none !important;
   }
 }
@@ -2747,7 +2761,7 @@ ul.languages-legend li::marker {
   }
 }
 @media only screen and (min-width: 1620px) {
-  #portfolio .video-gallery .hideVideoGallery {
+  #works .video-gallery .hideVideoGallery {
     display: none;
   }
 }
