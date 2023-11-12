@@ -73,6 +73,26 @@
           <label for="tab3"
             ><h4><?php echo $lang['asset_85'] ?></h4></label
           >
+          <!-- Tab 4 -->
+          <input
+            type="radio"
+            name="tabset"
+            id="tab4"
+            aria-controls="Showreel"
+          />
+          <label for="tab4"
+            ><h4><?php echo $lang['asset_184'] ?></h4></label
+          >
+          <!-- Tab 5 -->
+          <input
+            type="radio"
+            name="tabset"
+            id="tab5"
+            aria-controls="Interview"
+          />
+          <label for="tab5"
+            ><h4><?php echo $lang['asset_187'] ?></h4></label
+          >
           <div class="tab-panels">
             <!-- PORTRAIT PACKAGES START -->
             <section id="portrait" class="tab-panel">
@@ -382,8 +402,8 @@
         </div>
         <!-- PACKAGES END -->
         <hr class="reveal" />
-        <!-- PORTRAIT START -->
         <div class="grid-container services-grid">
+          <!-- PORTRAIT START -->
           <div class="grid-item reveal">
             <h2 class="hideHeading-min">
               <?php echo $lang['asset_110'] ?>
@@ -464,8 +484,62 @@
               </div>
             </section>
           </div>
+          <!-- TRAVEL END -->
+          <!-- SHOWREEL START -->
+          <div class="grid-item reveal">
+            <h2 class="hideHeading-min">
+              <?php echo $lang['asset_184'] ?>
+            </h2>
+            <?php
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            include $IPATH . 'showreel-swiper.php';
+            ?>
+          </div>
+          <div class="grid-item text-container reveal">
+            <section>
+              <h2 class="hideHeading-max">
+                <?php echo $lang['asset_184'] ?>
+              </h2>
+              <p>
+                <?php echo $lang['asset_185'] ?>
+              </p>
+              <br />
+              <div>
+                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
+                  ><?php echo $lang['asset_186'] ?>
+                </a>
+              </div>
+            </section>
+          </div>
+          <!-- SHOWREEL END -->
+          <!-- INTERVIEW START -->
+          <div class="grid-item reveal">
+            <h2 class="hideHeading-min">
+              <?php echo $lang['asset_187'] ?>
+            </h2>
+            <?php
+              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+              include $IPATH . 'interview-swiper.php';
+              ?>
+          </div>
+          <div class="grid-item text-container reveal">
+            <section>
+              <h2 class="hideHeading-max">
+                <?php echo $lang['asset_187'] ?>
+              </h2>
+              <p>
+                <?php echo $lang['asset_188'] ?>
+              </p>
+              <br />
+              <div>
+                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
+                  ><?php echo $lang['asset_189'] ?>
+                </a>
+              </div>
+            </section>
+          </div>
+          <!-- INTERVIEW END -->
         </div>
-        <!-- TRAVEL END -->
 
         <hr class="reveal" />
       </article>

@@ -1292,12 +1292,11 @@ footer span {
 .swiper .swiper-button-next {
   color: rgba(var(--white-color), 0.5);
 }
-.swiper-pagination-bullet-active {
-  background: rgba(var(--white-color), 0.5);
-}
+.swiper-pagination-bullet-active,
 .swiper-pagination-bullet {
   background: rgba(var(--white-color), 0.5);
 }
+
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
@@ -2327,6 +2326,7 @@ ul.languages-legend li::marker {
   text-decoration: none;
   bottom: 4px;
   right: 4px;
+  z-index: 9999;
   padding: 0 3px !important;
   background-color: rgba(var(--secondary-color), 0.4);
 }
@@ -2669,6 +2669,10 @@ ul.languages-legend li::marker {
   .grid-container.services-grid
     .grid-item:nth-child(even):not(.grid-item:last-child) {
     margin-bottom: 60px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
   }
 }
 @media only screen and (min-width: 415px) and (max-width: 767px) {
