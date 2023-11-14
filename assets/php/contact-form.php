@@ -43,7 +43,7 @@
           <p>
             <label for="category"><?php echo $lang['asset_181'] ?> </label>
           </p>
-          <select id="category" name="category">
+          <select required id="category" name="category">
             <option value="" selected disabled hidden>
               <span class="default-option">
                 <?php echo $lang['asset_183'] ?></span
@@ -66,11 +66,10 @@
             </option>
           </select>
           <br />
-
           <p>
             <label for="plan"><?php echo $lang['asset_182'] ?></label>
           </p>
-          <select id="plan" name="plan">
+          <select required id="plan" name="plan">
             <option value="" selected disabled hidden>
               <span class="default-option"
                 ><?php echo $lang['asset_183'] ?></span

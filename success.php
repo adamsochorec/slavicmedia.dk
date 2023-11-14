@@ -9,7 +9,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-head.php';
     ?>
-    <title><?php echo $lang['success_title'] ?> | Slavic Media</title>
+    <title><?php echo $lang['asset_179'] ?> | Slavic Media</title>
   </head>
   <body id="success" class="noindex">
     <?php

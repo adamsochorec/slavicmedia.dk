@@ -405,17 +405,17 @@
         <div class="grid-container services-grid">
           <!-- PORTRAIT START -->
           <div class="grid-item reveal">
-            <h2 class="hideHeading-min">
+            <h2 class="hide-heading-min">
               <?php echo $lang['asset_110'] ?>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'portrait-swiper.php';
+            include $IPATH . 'swiper-portrait.php';
             ?>
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h2 class="hideHeading-max">
+              <h2 class="hide-heading-max">
                 <?php echo $lang['asset_110'] ?>
               </h2>
               <p>
@@ -432,17 +432,17 @@
           <!-- PORTRAIT END -->
           <!-- STILLS START -->
           <div class="grid-item reveal">
-            <h2 class="hideHeading-min">
+            <h2 class="hide-heading-min">
               <?php echo $lang['asset_107'] ?>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'stills-swiper.php';
+            include $IPATH . 'swiper-stills.php';
             ?>
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h2 class="hideHeading-max">
+              <h2 class="hide-heading-max">
                 <?php echo $lang['asset_107'] ?>
               </h2>
               <p>
@@ -459,18 +459,18 @@
           <!-- STILLS END -->
           <!-- TRAVEL START -->
           <div class="grid-item">
-            <h2 class="hideHeading-min reveal">
+            <h2 class="hide-heading-min reveal">
               <?php echo $lang['asset_85'] ?>
             </h2>
             <!-- Slider main container -->
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'travel-swiper.php';
+            include $IPATH . 'swiper-travel.php';
             ?>
           </div>
           <div class="grid-item text-container">
             <section>
-              <h2 class="hideHeading-max reveal">
+              <h2 class="hide-heading-max reveal">
                 <?php echo $lang['asset_85'] ?>
               </h2>
               <p class="reveal">
@@ -487,17 +487,17 @@
           <!-- TRAVEL END -->
           <!-- SHOWREEL START -->
           <div class="grid-item reveal">
-            <h2 class="hideHeading-min">
+            <h2 class="hide-heading-min">
               <?php echo $lang['asset_184'] ?>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'showreel-swiper.php';
+            include $IPATH . 'swiper-showreel.php';
             ?>
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h2 class="hideHeading-max">
+              <h2 class="hide-heading-max">
                 <?php echo $lang['asset_184'] ?>
               </h2>
               <p>
@@ -514,17 +514,17 @@
           <!-- SHOWREEL END -->
           <!-- INTERVIEW START -->
           <div class="grid-item reveal">
-            <h2 class="hideHeading-min">
+            <h2 class="hide-heading-min">
               <?php echo $lang['asset_187'] ?>
             </h2>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-              include $IPATH . 'interview-swiper.php';
+              include $IPATH . 'swiper-interview.php';
               ?>
           </div>
           <div class="grid-item text-container reveal">
             <section>
-              <h2 class="hideHeading-max">
+              <h2 class="hide-heading-max">
                 <?php echo $lang['asset_187'] ?>
               </h2>
               <p>

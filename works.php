@@ -38,48 +38,6 @@
           </p>
         </div>
       </article>
-
-      <!-- VIDEO GALLERY START 
-      <article
-        class="wrapper-wide"
-        id="<?php echo $lang['asset_13'] ?>"
-        aria-label="<?php echo $lang['asset_126'] ?>"
-        role="region"
-      >
-        <hr class="reveal" role="separator" aria-hidden="true" />
-        <div class="grid-container fifty-fifty">
-          <div class="grid-item reveal">
-            <h3 class="highlited">
-              <?php echo $lang['asset_126'] ?>
-            </h3>
-            <h2>Hocičo</h2>
-            <div class="hideCTA-min reveal">
-              <a
-                href="/services"
-                class="cta"
-                aria-label="<?php echo $lang['asset_116'] ?>"
-              >
-                <?php echo $lang['asset_116'] ?>
-              </a>
-            </div>
-          </div>
-          <div class="grid-item">
-            <p class="reveal" aria-hidden="true">
-              <?php echo $lang['asset_109'] ?>
-            </p>
-          </div>
-        </div>
-        <div class="hideCTA-max reveal">
-          <a
-            href="/services"
-            class="cta"
-            aria-label="<?php echo $lang['asset_128'] ?>"
-          >
-            <?php echo $lang['asset_116'] ?>
-          </a>
-        </div>
-      </article>
--->
       <hr class="semi" role="separator" />
       <article id="visual" class="video-gallery" aria-label="Video Gallery">
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
@@ -134,7 +92,7 @@
           <img
             src="/img/cover-parkourtabor.jpg"
             class="north-cascades-img"
-            alt="<?php echo $lang[''] ?>."
+            alt="<?php echo $lang['asset_47'] ?>."
           />
           <div class="gallery-item-caption">
             <h3>
@@ -229,7 +187,7 @@
             <h2>
               <?php echo $lang['asset_110'] ?>
             </h2>
-            <div class="hideCTA-min reveal">
+            <div class="hide-cta-min reveal">
               <a
                 class="cta"
                 href="/services"
@@ -245,7 +203,7 @@
             </p>
           </div>
         </div>
-        <div class="hideCTA-max reveal">
+        <div class="hide-cta-max reveal">
           <a
             class="cta"
             href="/services"
@@ -341,18 +299,9 @@
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note">
-              <a
-                href="https://www.divadlodisk.cz/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><span>Divadlo Disk</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
-            </p>
             <img
-              src="/img/2021-06-24-01208.jpg"
-              alt="<?php echo $lang['asset_53'] ?>."
+              src="/img/2021-10-01-01825.jpg"
+              alt="<?php echo $lang['asset_153'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -410,7 +359,7 @@
             />
           </div>
 
-          <div class="h-stretch unhide reveal">
+          <div class="h-stretch hide-photo-min reveal">
             <img
               src="/img/2021-10-01-01825.jpg"
               alt="<?php echo $lang['asset_153'] ?>."
@@ -428,7 +377,7 @@
             <h2>
               <?php echo $lang['asset_107'] ?>
             </h2>
-            <div class="hideCTA-min reveal">
+            <div class="hide-cta-min reveal">
               <a
                 class="cta"
                 href="/services"
@@ -444,7 +393,7 @@
             </p>
           </div>
         </div>
-        <div class="hideCTA-max reveal">
+        <div class="hide-cta-max reveal">
           <a
             class="cta"
             href="/services"
@@ -476,15 +425,15 @@
           <div class="h-stretch reveal">
             <p class="note">
               <a
-                href="https://www.roskilde-festival.dk/da/"
+                href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Rosklide Festival</span
-                ><span><i class="fa-solid fa-circle-info"></i></span
-              ></a>
+                ><span>Divadlo Disk</span
+                ><span><i class="fa-solid fa-circle-info"></i></span>
+              </a>
             </p>
             <img
-              src="/img/2022-06-28-00708.jpg"
+              src="/img/2021-06-24-01208.jpg"
               alt="<?php echo $lang['asset_65'] ?>."
             />
           </div>
@@ -519,7 +468,7 @@
               alt="<?php echo $lang['asset_61'] ?>."
             />
           </div>
-          <div class="h-stretch unhide reveal">
+          <div class="h-stretch hide-photo-min reveal">
             <p class="note">
               <a
                 href="https://www.roskilde-festival.dk/da/"
@@ -530,7 +479,7 @@
               ></a>
             </p>
             <img
-              src="/img/2022-06-30-00748.jpg"
+              src="/img/2022-06-28-00708.jpg"
               alt="<?php echo $lang['asset_70'] ?>."
             />
           </div>
@@ -659,7 +608,7 @@
             <h2>
               <?php echo $lang['asset_85'] ?>
             </h2>
-            <div class="hideCTA-min reveal">
+            <div class="hide-cta-min reveal">
               <a
                 class="cta"
                 href="/services"
@@ -675,7 +624,7 @@
             </p>
           </div>
         </div>
-        <div class="hideCTA-max reveal">
+        <div class="hide-cta-max reveal">
           <a
             class="cta"
             href="/services"
@@ -734,7 +683,7 @@
               alt="<?php echo $lang['asset_176'] ?>."
             />
           </div>
-          <div class="h-stretch unhide reveal">
+          <div class="h-stretch hide-photo-min reveal">
             <p class="note">
               <a
                 href="https://touristisrael.com"
@@ -940,7 +889,7 @@
             ></a>
           </div>
         </div>
-        <div class="gallery-item hideVideoGallery reveal">
+        <div class="gallery-item hide-video_gallery reveal">
           <img
             src="/img/gray.jpg"
             alt="<?php echo $lang['asset_125'] ?> <?php echo $lang['asset_123'] ?>."

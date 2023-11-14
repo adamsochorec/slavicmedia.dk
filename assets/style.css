@@ -959,13 +959,8 @@ button.submit-btn:hover,
 button.submit-btn {
   transition: var(--transition-2);
 }
-.cta.cta-2 {
-  padding: 5px 10px;
-  border-radius: var(--border-radius-4);
-}
-
-.hideCTA-max,
-.hideCTA-min {
+.hide-cta-max,
+.hide-cta-min {
   margin: var(--cta-margin);
 }
 /*
@@ -1284,9 +1279,19 @@ footer span {
   height: 400px;
   aspect-ratio: 4/3;
   width: 100%;
+  box-shadow: var(--box-shadow-1);
+  border-radius: var(--border-radius-2);
 }
-.swiper img {
+.swiper-slide {
+  border-radius: var(--border-radius-2);
+}
+.swiper img,
+.swiper video {
   object-fit: cover;
+}
+.swiper video {
+  height: 100%;
+  width: 100%;
 }
 .swiper .swiper-button-prev,
 .swiper .swiper-button-next {
@@ -2357,13 +2362,13 @@ ul.languages-legend li::marker {
   ul.languages-legend:nth-child(even) {
     padding: 0 0 0 17px;
   }
-  .hideCTA-max {
+  .hide-cta-max {
     display: none;
     margin: var(--cta-margin);
   }
 }
 @media only screen and (max-width: 310px) {
-  .hideCTA-min {
+  .hide-cta-min {
     display: none !important;
   }
   .tabset > label {
@@ -2443,11 +2448,16 @@ ul.languages-legend li::marker {
   .grid-container.seventy-thirty .grid-item:nth-child(even) {
     text-align: right;
   }
-}
-@media only screen and (max-width: 500px) {
-  header img.logo {
+  .hide-slider_img-min {
     display: none;
   }
+}
+@media only screen and (max-width: 500px) {
+  header img.logo,
+  .hide-slider_img-max {
+    display: none;
+  }
+
   header img.logo.mobile {
     width: 110px;
     height: 100%;
@@ -2500,9 +2510,6 @@ ul.languages-legend li::marker {
   }
 }
 @media only screen and (min-width: 538px) {
-  .hideLanguages {
-    display: none;
-  }
   header nav ul li a {
     display: block;
     padding: 0.425rem 0rem;
@@ -2512,12 +2519,12 @@ ul.languages-legend li::marker {
   #ourteam .languages {
     height: 18px;
   }
+  .tabset > label {
+    margin: 0px 10px 13px 0px;
+  }
 }
 @media only screen and (min-width: 560px) {
-  .hidePhoto {
-    display: none;
-  }
-  .unhide {
+  .hide-photo-min {
     display: none;
   }
 }
@@ -2530,8 +2537,7 @@ ul.languages-legend li::marker {
   .h-stretch {
     grid-column: span 1;
   }
-  #visuals .v-stretch,
-  .hidePhoto2 {
+  #visuals .v-stretch {
     display: none;
   }
   .video-grid .h-stretch {
@@ -2549,9 +2555,6 @@ ul.languages-legend li::marker {
   }
   .intro-section {
     background-attachment: scroll;
-  }
-  hr.hideHr {
-    display: none;
   }
 }
 @media only screen and (min-width: 668px) {
@@ -2614,7 +2617,6 @@ ul.languages-legend li::marker {
     height: 150px;
   }
 }
-
 @media only screen and (max-width: 767px) {
   header ul {
     clear: both;
@@ -2645,19 +2647,18 @@ ul.languages-legend li::marker {
     height: auto;
     padding: 30px 0px;
   }
-  .team-container .intro-section .filter {
+  .team-container .intro-section .filter,
+  .video-container {
     height: 100%;
   }
   .showcase {
     height: 100vh;
   }
-  .video-container {
-    height: 100%;
-  }
+
   .services .grid-container.services-grid {
     display: block;
   }
-  .hideHeading-max {
+  .hide-heading-max {
     display: none !important;
   }
   .services .grid-container.services-grid img {
@@ -2691,8 +2692,10 @@ ul.languages-legend li::marker {
     float: left;
     margin-left: 1rem;
   }
-  header .hamburger {
-    display: none;
+  header .hamburger,
+  .explore,
+  .hide-heading-min {
+    display: none !important;
   }
   header .blur {
     height: 50px;
@@ -2701,12 +2704,6 @@ ul.languages-legend li::marker {
   .press-container .intro-section,
   .intro-section .filter {
     height: 60vh;
-  }
-  .explore {
-    display: none !important;
-  }
-  .hideHeading-min {
-    display: none !important;
   }
 }
 @media only screen and (max-width: 947px) {
@@ -2743,9 +2740,6 @@ ul.languages-legend li::marker {
     display: block;
     clear: both;
   }
-  .hide {
-    display: none;
-  }
   #visuals .grid-container img {
     height: 100%;
   }
@@ -2755,17 +2749,8 @@ ul.languages-legend li::marker {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media only screen and (min-width: 700px) and (min-height: 825px) {
-  .noindex footer,
-  #press footer {
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-  }
-}
 @media only screen and (min-width: 1620px) {
-  #works .video-gallery .hideVideoGallery {
+  #works .video-gallery .hide-video_gallery {
     display: none;
   }
 }

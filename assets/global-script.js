@@ -57,6 +57,29 @@ if (document.body.id === "servicees") {
       el: ".swiper-scrollbar",
     },
   });
+  window.swiperNested1 = new Swiper("swiper-nested-1", {
+    mode: "horizontal",
+    pagination: ".pagination",
+    paginationClickable: true,
+    preventLinks: true,
+    resistance: "100%",
+    slidesPerView: 1,
+    onSlideClick: video,
+  });
+  function video() {
+    if (!clicked) {
+      playVideo();
+      console.log("Slide clicked 1st");
+      window.clicked = true;
+    } else if ((clicked = 2)) {
+      player.pauseVideo();
+      console.log("Slide clicked 2nd");
+      window.clicked = false;
+    } else {
+      resumeVideo();
+      window.clicked = 2;
+    }
+  }
 }
 // SWIPER END
 
