@@ -93,6 +93,8 @@
           <label for="tab5"
             ><h4><?php echo $lang['asset_187'] ?></h4></label
           >
+          <hr class="semi" />
+
           <div class="tab-panels">
             <!-- PORTRAIT PACKAGES START -->
             <section id="portrait" class="tab-panel">

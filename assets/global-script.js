@@ -1,19 +1,4 @@
-// CONTENT REVEAL START
-function reveal() {
-  const reveals = document.querySelectorAll(".reveal"),
-    windowHeight = window.innerHeight;
-
-  reveals.forEach((reveal) => {
-    const revealtop = reveal.getBoundingClientRect().top,
-      revealpoint = 0;
-    if (revealtop < windowHeight - revealpoint) {
-      reveal.classList.add("active");
-    }
-  });
-}
-window.addEventListener("scroll", reveal);
-reveal();
-// CONTENT REVEAL END// LOADER ANIMATION START
+// LOADER ANIMATION START
 (function introLoader() {
   window.addEventListener("load", () => {
     // When the window is fully loaded, hide the loader
@@ -21,67 +6,7 @@ reveal();
     loader.style.display = "none";
   });
 })();
-// LOADER ANIMATION END// RECAPTCHA START
-function onSubmit(token) {
-  document.getElementById("contactForm").submit();
-}
-// RECAPTCHA END
-// VIMEO GALLERY START
-$(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: "a",
-    type: "iframe",
-    gallery: {
-      enabled: true,
-    },
-  });
-});
-// VIMEO GALLERY END
-// SWIPER START
-if (document.body.id === "servicees") {
-  const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-    // If we need pagination
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    // Navigation arrows
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    // And if we need scrollbar
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-  });
-  window.swiperNested1 = new Swiper("swiper-nested-1", {
-    mode: "horizontal",
-    pagination: ".pagination",
-    paginationClickable: true,
-    preventLinks: true,
-    resistance: "100%",
-    slidesPerView: 1,
-    onSlideClick: video,
-  });
-  function video() {
-    if (!clicked) {
-      playVideo();
-      console.log("Slide clicked 1st");
-      window.clicked = true;
-    } else if ((clicked = 2)) {
-      player.pauseVideo();
-      console.log("Slide clicked 2nd");
-      window.clicked = false;
-    } else {
-      resumeVideo();
-      window.clicked = 2;
-    }
-  }
-}
-// SWIPER END
+// LOADER ANIMATION END
 
 (function header() {
   let lastScrollTop = 0;
@@ -136,111 +61,143 @@ if (document.body.id === "servicees") {
   }
 })();
 
+// SWIPER START
+if (document.body.id === "servicees") {
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+}
+// SWIPER END
+// CONTENT REVEAL START
+function reveal() {
+  const reveals = document.querySelectorAll(".reveal"),
+    windowHeight = window.innerHeight;
+
+  reveals.forEach((reveal) => {
+    const revealtop = reveal.getBoundingClientRect().top,
+      revealpoint = 0;
+    if (revealtop < windowHeight - revealpoint) {
+      reveal.classList.add("active");
+    }
+  });
+}
+window.addEventListener("scroll", reveal);
+reveal();
+// CONTENT REVEAL END
 // HOMEPAGE START
+// CHANGE HEADER RGBA AT SCROLL START
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector("#homepage header");
+    (blur = document.querySelector(".blur")),
+      (blurValue = getComputedStyle(document.documentElement)
+        .getPropertyValue("--blur-2")
+        .trim());
+
+    if (window.pageYOffset > 500) {
+      header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
+      blur.style.backdropFilter = blurValue;
+      blur.style.webkitBackdropFilter = blurValue;
+      blur.style.MozBackdropFilter = blurValue; // Unsupported
+      blur.style.MsBackdropFilter = blurValue; // Unsupported
+      blur.style.OBackdropFilter = blurValue; // Unsupported
+    } else {
+      header.style.backgroundColor = "rgba(0, 0, 0, 0)";
+      blur.style.backdropFilter = "blur(0px)";
+      blur.style.webkitBackdropFilter = "blur(0px)";
+      blur.style.MozBackdropFilter = "blur(0px)"; // Unsupported
+      blur.style.MsBackdropFilter = "blur(0px)"; // Unsupported
+      blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
+    }
+  });
+
+  function createLottieInteractivity(playerId) {
+    LottieInteractivity.create({
+      player: playerId,
+      mode: "scroll",
+      actions: [
+        {
+          visibility: [0.1, 1.0],
+          type: "play",
+        },
+      ],
+    });
+  }
+  createLottieInteractivity("#photoLottie");
+  createLottieInteractivity("#videoLottie");
+  createLottieInteractivity("#graphicdesignLottie");
+});
 
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {
-  // CHANGE HEADER RGBA AT SCROLL START
-  document.addEventListener("DOMContentLoaded", function () {
-    window.addEventListener("scroll", function () {
-      const header = document.querySelector("#homepage header");
-      (blur = document.querySelector(".blur")),
-        (blurValue = getComputedStyle(document.documentElement)
-          .getPropertyValue("--blur-2")
-          .trim());
+  // SKILL BARS START
+  function setProgress(e, progress) {
+    e.style.opacity = 1;
+    e.style.width = `${progress}%`;
+  }
+  function showProgress() {
+    const skillBars = document.querySelectorAll(".skill-bar");
 
-      if (window.pageYOffset > 680) {
-        header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
-        blur.style.backdropFilter = blurValue;
-        blur.style.webkitBackdropFilter = blurValue;
-        blur.style.MozBackdropFilter = blurValue; // Unsupported
-        blur.style.MsBackdropFilter = blurValue; // Unsupported
-        blur.style.OBackdropFilter = blurValue; // Unsupported
-      } else {
-        header.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        blur.style.backdropFilter = "blur(0px)";
-        blur.style.webkitBackdropFilter = "blur(0px)";
-        blur.style.MozBackdropFilter = "blur(0px)"; // Unsupported
-        blur.style.MsBackdropFilter = "blur(0px)"; // Unsupported
-        blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
-      }
+    skillBars.forEach((bar) => {
+      const progress = bar.dataset.progress;
+      setProgress(bar, progress);
     });
-  });
+  }
+  showProgress();
+  // SKILL BARS END
   // VIDEO CONTROLS START
-  (function () {
-    const video = document.getElementById("heroVideo"),
-      pauseControl = document.getElementById("pauseControl"),
-      playControl = document.getElementById("playControl"),
-      playPauseButton = document.getElementById("playPauseButton");
+  const video = document.getElementById("heroVideo"),
+    pauseControl = document.getElementById("pauseControl"),
+    playControl = document.getElementById("playControl"),
+    playPauseButton = document.getElementById("playPauseButton");
 
-    // Check if all required elements are found
-    if (video && pauseControl && playControl && playPauseButton) {
-      function togglePlayPause() {
-        if (video.paused) {
-          video.play();
-          playPauseButton.classList.remove("play");
-          playPauseButton.classList.add("pause");
-          pauseControl.style.display = "unset";
-          playControl.style.display = "none";
-        } else {
-          video.pause();
-          playPauseButton.classList.remove("pause");
-          playPauseButton.classList.add("play");
-          pauseControl.style.display = "none";
-          playControl.style.display = "unset";
-          video.removeAttribute("controls");
-        }
-      }
-
-      playPauseButton.addEventListener("click", togglePlayPause);
+  playPauseButton.addEventListener("click", function () {
+    if (video.paused) {
+      video.play();
+      playPauseButton.classList.remove("play");
+      playPauseButton.classList.add("pause");
+      pauseControl.style.display = "unset";
+      playControl.style.display = "none";
     } else {
-      console.error("One or more elements not found.");
+      video.pause();
+      playPauseButton.classList.remove("pause");
+      playPauseButton.classList.add("play");
+      pauseControl.style.display = "none";
+      playControl.style.display = "unset";
+      video.removeAttribute("controls");
     }
-  })();
-
-  // VIDEO CONTROLS END
-}
-// HOMEPAGE END
-
-// LOTTIE INTERACTIVITY START
-function createLottieInteractivity(playerElement) {
-  LottieInteractivity.create({
-    player: playerElement,
-    mode: "scroll",
-    actions: [
-      {
-        visibility: [0.1, 1.0],
-        type: "play",
-      },
-    ],
   });
-}
+  // VIDEO CONTROLS END
+  // VIDEO OFFLOAD START
+  function videoOffload() {
+    // Get all video elements with the "lazy-video" class
+    const videoOffload = document.querySelectorAll(".video-offload");
 
-// Get all lottie-player elements and apply interactivity
-const lottiePlayers = document.querySelectorAll("lottie-player");
-
-lottiePlayers.forEach((player) => {
-  createLottieInteractivity(player);
-});
-
-// LOTTIE INTERACTIVITY END
-
-// VIDEO OFFLOAD START
-(function () {
-  function videoOffload(selector = ".video-offload", options = {}) {
-    // Get all video elements with the specified class
-    const videos = document.querySelectorAll(selector);
     // Function to handle the Intersection Observer for a single video
     function handleVideoIntersection(video) {
-      // Merge default options with user-defined options
-      const observerOptions = Object.assign(
-        {
-          root: null, // Use the viewport as the root
-          rootMargin: "0px", // No margin
-          threshold: 0.1, // 10% of the target element must be visible to trigger
-        },
-        options
-      );
+      // Define the options for the Intersection Observer
+      const options = {
+        root: null, // Use the viewport as the root
+        rootMargin: "0px", // No margin
+        threshold: 0.1, // 10% of the target element must be visible to trigger
+      };
+
       // Callback function when the video enters or exits the viewport
       const callback = (entries, observer) => {
         entries.forEach((entry) => {
@@ -254,47 +211,69 @@ lottiePlayers.forEach((player) => {
           }
         });
       };
+
       // Create an Intersection Observer with the specified options and callback for the current video
-      const observer = new IntersectionObserver(callback, observerOptions);
+      const observer = new IntersectionObserver(callback, options);
+
       // Start observing the current video element
       observer.observe(video);
     }
+
     // Iterate over all lazy video elements and apply the Intersection Observer
-    videos.forEach((video) => {
+    videoOffload.forEach((video) => {
       video.setAttribute("autoplay", "false"); // Disable autoplay initially
 
       // Apply Intersection Observer to the current video
       handleVideoIntersection(video);
     });
   }
-  // Call the encapsulated function with default or custom parameters
-  videoOffload();
-})();
+}
 // VIDEO OFFLOAD END
 
+// HOMEPAGE END
 // CONTACT FORM START
-document.addEventListener("DOMContentLoaded", function () {
+(function contactForm() {
   const contactForm = document.getElementById("contactForm");
 
-  if (contactForm) {
-    // LOADER AT SUBMITTING A FORM START
-    function onFormSubmission(event) {
-      const isValid = Array.from(event.target.elements).every((element) =>
+  /// LOADER AT SUBMITING A FORM START
+  function onFormSubmission(event) {
+    const isValid = Array.from(event.target.elements).every((element) =>
         element.reportValidity()
-      );
+      ),
+      submitButton = document.querySelector(".submit-btn");
 
-      const submitButton = document.querySelector(".submit-btn");
-
-      if (isValid) {
-        submitButton.innerHTML = "<div class='loader'></div>";
-      } else {
-        event.preventDefault();
-      }
+    if (isValid) {
+      submitButton.innerHTML = "<div class='loader'></div>";
+    } else {
+      event.preventDefault();
     }
-
-    contactForm.addEventListener("submit", onFormSubmission);
-    // LOADER AT SUBMITTING A FORM END
   }
-});
+  contactForm.addEventListener("submit", onFormSubmission);
+  // LOADER AT SUBMITING A FORM END
 
+  // SUBMIT AT ENTER START
+  document.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+      onFormSubmission(event);
+    }
+  });
+  // SUBMIT AT ENTER END
+})();
 // CONTACT FORM END
+// RECAPTCHA START
+function onSubmit(token) {
+  document.getElementById("contactForm").submit();
+}
+// RECAPTCHA END
+
+// VIMEO GALLERY START
+$(document).ready(function () {
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
+// VIMEO GALLERY END

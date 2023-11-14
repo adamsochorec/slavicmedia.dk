@@ -1,4 +1,4 @@
-<div class="swiper">
+<div class="swiper reveal">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->

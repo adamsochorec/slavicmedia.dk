@@ -250,7 +250,6 @@
 
             <!-- MARCEL LANGUAGES START -->
             <div class="reveal">
-              <br />
               <h6><?php echo $lang['asset_25'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
@@ -288,6 +287,7 @@
               </div>
             </div>
             <!-- MARCEL LANGUAGES END -->
+            <hr class="semi" />
             <!-- MARCEL  RESPONSIBILITES START-->
             <div class="reveal">
               <h6><?php echo $lang['asset_159'] ?>:</h6>
@@ -360,7 +360,6 @@
             <hr class="semi" />
             <!-- ADAM LANGUAGES START -->
             <div class="reveal">
-              <br />
               <h6><?php echo $lang['asset_25'] ?>:</h6>
               <div class="grid-container fifty-fifty">
                 <ul class="languages-legend">
@@ -406,6 +405,7 @@
                 </span>
               </div>
             </div>
+            <hr class="semi" />
             <div class="reveal">
               <h6><?php echo $lang['asset_159'] ?>:</h6>
               <div class="grid-container fifty-fifty">
