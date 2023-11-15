@@ -1,5 +1,5 @@
 <!-- BOOK US START -->
-<article class="wrapper-standard">
+<article  class="wrapper-standard">
   <section class="contact-form-section">
     <h3 class="reveal"><?php echo $lang['asset_168'] ?></h3>
     <hr class="semi" />
@@ -84,6 +84,9 @@
             <option value="<?php echo $lang['asset_135'] ?>">
               <?php echo $lang['asset_135'] ?>
             </option>
+            <option value="<?php echo $lang['asset_190'] ?>">
+              <?php echo $lang['asset_190'] ?>
+            </option>
           </select>
           <br />
         </div>
@@ -109,14 +112,14 @@
         >
           <?php echo $lang['asset_164'] ?>
         </button>
-
+        
         <input
           type="hidden"
           name="_next"
           value="https://slavicmedia.dk/success"
         />
         <!-- Redirect to the success page -->
-        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_captcha" value="true" />
         <!-- Captcha disable -->
       </div>
     </form>

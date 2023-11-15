@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+  <body>
+    <form id="demo">
+      <input type="text" method="POST" />
+      <button
+        class="g-recaptcha"
+        data-sitekey="6LdKlA8pAAAAAK_PoabMbq9IFlm3eDCs_DbEGWbM"
+        data-callback="onSubmit"
+        data-action="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </body>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("demo").submit();
+    }
+  </script>
+</html>

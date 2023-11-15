@@ -13,7 +13,8 @@ function reveal() {
 }
 window.addEventListener("scroll", reveal);
 reveal();
-// CONTENT REVEAL END// LOADER ANIMATION START
+// CONTENT REVEAL END
+// LOADER ANIMATION START
 (function introLoader() {
   window.addEventListener("load", () => {
     // When the window is fully loaded, hide the loader
@@ -21,22 +22,7 @@ reveal();
     loader.style.display = "none";
   });
 })();
-// LOADER ANIMATION END// RECAPTCHA START
-function onSubmit(token) {
-  document.getElementById("contactForm").submit();
-}
-// RECAPTCHA END
-// VIMEO GALLERY START
-$(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: "a",
-    type: "iframe",
-    gallery: {
-      enabled: true,
-    },
-  });
-});
-// VIMEO GALLERY END
+// LOADER ANIMATION END
 // SWIPER START
 if (document.body.id === "servicees") {
   const swiper = new Swiper(".swiper", {
@@ -82,6 +68,18 @@ if (document.body.id === "servicees") {
   }
 }
 // SWIPER END
+
+// VIMEO GALLERY START
+$(document).ready(function () {
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
+// VIMEO GALLERY END
 
 (function header() {
   let lastScrollTop = 0;

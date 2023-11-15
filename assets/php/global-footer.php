@@ -36,19 +36,11 @@
     crossorigin="anonymous"
   ></script>
   <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
-    crossorigin="anonymous"
-  ></script>
-  <script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
-  <!-- Google tag (gtag.js) 
+   <!-- Google tag (gtag.js) -->
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8"
@@ -61,7 +53,7 @@
     gtag("js", new Date());
 
     gtag("config", "G-KGTECW9SN8");
-  </script>-->
+  </script>
   <script type="text/javascript" src="/assets/global-script.js" defer></script>
 </footer>
 <!-- FOOTER END -->

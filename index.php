@@ -38,6 +38,7 @@
               playsinline
               role="video"
               aria-describedby="Hero video"
+              poster="/img/showreel.png"
             ></video>
           </div>
 
@@ -74,32 +75,49 @@
         </div>
         <hr class="semi" role="separator" />
         <!-- FEATURES START -->
-
         <div class="grid-container features-grid">
           <div class="grid-item reveal">
-            <img class="feature" src="/img/camera.png" />
-            <h4>Quality standards</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/camera.png" />
+              <h4>Quality standards</h4>
+            </div>
+            <div class="filter"></div>
           </div>
           <div class="grid-item reveal">
-            <img class="feature" src="/img/studio.png" />
-            <h4>Studio</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/studio.png" />
+              <h4>Studio</h4>
+            </div>
+            <div class="filter"></div>
           </div>
           <div class="grid-item reveal">
-            <img class="feature" src="/img/edit.png" />
-            <h4>Extensive post-production</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/edit.png" />
+              <h4>Extensive post-production</h4>
+            </div>
+            <div class="filter"></div>
           </div>
           <div class="grid-item reveal">
-            <img class="feature" src="/img/drone.png" />
-            <h4>Aerial shooting</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/drone.png" />
+              <h4>Aerial shooting</h4>
+            </div>
+            <div class="filter"></div>
           </div>
           <div class="grid-item reveal">
-            <img class="feature" src="/img/design.png" />
-            <h4>Graphic</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/design.png" />
+              <h4>Graphic</h4>
+            </div>
+            <div class="filter"></div>
           </div>
 
           <div class="grid-item reveal">
-            <img class="feature" src="/img/flexibility.png" />
-            <h4>Animation</h4>
+            <div class="wrapper">
+              <img class="feature" src="/img/flexibility.png" />
+              <h4>Animation</h4>
+            </div>
+            <div class="filter"></div>
           </div>
         </div>
         <hr class="semi" role="separator" />
@@ -111,69 +129,7 @@
             </a>
           </div>
         </section>
-        <!-- FEATURES END 
-        <div
-          class="grid-container gallery reveal"
-          id="services"
-          role="region"
-          aria-label="Services Gallery"
-        >
-          <div class="reveal">
-            <a class="gallery-item" href="/photo">
-              <div
-                class="grid-item"
-                id="first-product"
-                role="region"
-                aria-label="<?php echo $lang['asset_11'] ?>"
-              >
-                <div class="inner-wrapper flex-center">
-                  <h3>
-                    <?php echo $lang['asset_11'] ?>
-                  </h3>
-                  <lottie-player
-                    id="photoLottie"
-                    src="/assets/lottie/photo.json"
-                    background="transparent"
-                    speed="1"
-                    aria-label="Photo Lottie Animation"
-                    role="img"
-                    aria-describedby="photoLottieDescription"
-                  ></lottie-player>
-                  <p>
-                    <b><?php echo $lang['asset_12'] ?>.</b>
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="reveal">
-            <a href="/video">
-              <div
-                class="grid-item"
-                id="second-product"
-                role="region"
-                aria-label="<?php echo $lang['asset_13'] ?>"
-              >
-                <div class="inner-wrapper flex-center">
-                  <h3>
-                    <?php echo $lang['asset_13'] ?>
-                  </h3>
-                  <lottie-player
-                    id="videoLottie"
-                    src="/assets/lottie/video.json"
-                    background="transparent"
-                    speed="1"
-                    aria-label="Video Lottie Animation"
-                    role="img"
-                    aria-describedby="videoLottieDescription"
-                  ></lottie-player>
-
-                  <p><?php echo $lang['asset_14'] ?>.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>-->
+        <!-- FEATURES END -->
         <hr class="reveal" role="separator" />
 
         <div class="grid-container fifty-fifty caption-container">
@@ -215,6 +171,7 @@
             aria-label="Our Team Video"
             role="video"
             aria-describedby="Our Team cover video"
+            poster="/img/showreel-ourteam.png"
           ></video>
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>

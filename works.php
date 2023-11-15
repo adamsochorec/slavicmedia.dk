@@ -912,6 +912,14 @@
       <!-- ART PROJECTS END -->
     </main>
     <!-- FOOTER START -->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
+    crossorigin="anonymous"
+  ></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';
