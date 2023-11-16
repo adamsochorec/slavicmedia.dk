@@ -76,49 +76,48 @@
         <hr class="semi" role="separator" />
         <!-- FEATURES START -->
         <div class="grid-container features-grid">
-          <div class="grid-item reveal">
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/camera.png" />
               <h4>Quality standards</h4>
             </div>
             <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
+          </a>
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/studio.png" />
               <h4>Studio</h4>
             </div>
             <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
+          </a>
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/edit.png" />
               <h4>Extensive post-production</h4>
             </div>
             <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
+          </a>
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/drone.png" />
               <h4>Aerial shooting</h4>
             </div>
             <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
+          </a>
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/design.png" />
               <h4>Graphic</h4>
             </div>
             <div class="filter"></div>
-          </div>
-
-          <div class="grid-item reveal">
+          </a>
+          <a href="/services" class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/flexibility.png" />
               <h4>Animation</h4>
             </div>
             <div class="filter"></div>
-          </div>
+          </a>
         </div>
         <hr class="semi" role="separator" />
 
@@ -437,7 +436,7 @@
       >
         <div class="intro-section flex-center">
           <div class="filter"></div>
-          <article class="wrapper-standard">
+          <article class="wrapper-standard" id="clients">
             <h3 class="reveal">
               <?php echo $lang['asset_36'] ?>
             </h3>
@@ -447,10 +446,22 @@
             ?>
           </article>
           <!-- CTA START -->
-          <div class="flex-center reveal">
-            <a href="/press" class="cta">
-              <?php echo $lang['asset_37'] ?>
-            </a>
+          <hr class="semi" />
+          <div class="grid-container fifty-fifty">
+            <div class="grid-item reveal">
+              <a
+                target="_blank"
+                href="https://clients.slavicmedia.dk"
+                class="cta"
+              >
+                <?php echo $lang['asset_191'] ?>
+              </a>
+            </div>
+            <div class="grid-item reveal">
+              <a href="/for-press" class="cta cta2">
+                <?php echo $lang['asset_75'] ?>
+              </a>
+            </div>
           </div>
           <!-- CTA END -->
         </div>

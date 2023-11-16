@@ -35,7 +35,7 @@
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"
   ></script>
-  <script
+   <!--<script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>

@@ -14,73 +14,6 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 // CONTENT REVEAL END
-// LOADER ANIMATION START
-(function introLoader() {
-  window.addEventListener("load", () => {
-    // When the window is fully loaded, hide the loader
-    const loader = document.querySelector(".loader-container");
-    loader.style.display = "none";
-  });
-})();
-// LOADER ANIMATION END
-// SWIPER START
-if (document.body.id === "servicees") {
-  const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-    // If we need pagination
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    // Navigation arrows
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    // And if we need scrollbar
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-  });
-  window.swiperNested1 = new Swiper("swiper-nested-1", {
-    mode: "horizontal",
-    pagination: ".pagination",
-    paginationClickable: true,
-    preventLinks: true,
-    resistance: "100%",
-    slidesPerView: 1,
-    onSlideClick: video,
-  });
-  function video() {
-    if (!clicked) {
-      playVideo();
-      console.log("Slide clicked 1st");
-      window.clicked = true;
-    } else if ((clicked = 2)) {
-      player.pauseVideo();
-      console.log("Slide clicked 2nd");
-      window.clicked = false;
-    } else {
-      resumeVideo();
-      window.clicked = 2;
-    }
-  }
-}
-// SWIPER END
-
-// VIMEO GALLERY START
-$(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: "a",
-    type: "iframe",
-    gallery: {
-      enabled: true,
-    },
-  });
-});
-// VIMEO GALLERY END
-
 (function header() {
   let lastScrollTop = 0;
 
@@ -133,9 +66,7 @@ $(document).ready(function () {
     lastScrollTop = st;
   }
 })();
-
 // HOMEPAGE START
-
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {
   // CHANGE HEADER RGBA AT SCROLL START
@@ -233,6 +164,72 @@ if (document.body.id === "homepage") {
 }
 // VIDEO OFFLOAD END
 // HOMEPAGE END
+// LOADER ANIMATION START
+(function introLoader() {
+  window.addEventListener("load", () => {
+    // When the window is fully loaded, hide the loader
+    const loader = document.querySelector(".loader-container");
+    loader.style.display = "none";
+  });
+})();
+// LOADER ANIMATION END
+// SWIPER START
+if (document.body.id === "servicees") {
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "horizontal",
+    loop: true,
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+  window.swiperNested1 = new Swiper("swiper-nested-1", {
+    mode: "horizontal",
+    pagination: ".pagination",
+    paginationClickable: true,
+    preventLinks: true,
+    resistance: "100%",
+    slidesPerView: 1,
+    onSlideClick: video,
+  });
+  function video() {
+    if (!clicked) {
+      playVideo();
+      console.log("Slide clicked 1st");
+      window.clicked = true;
+    } else if ((clicked = 2)) {
+      player.pauseVideo();
+      console.log("Slide clicked 2nd");
+      window.clicked = false;
+    } else {
+      resumeVideo();
+      window.clicked = 2;
+    }
+  }
+}
+// SWIPER END
+
+// VIMEO GALLERY START
+$(document).ready(function () {
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true,
+    },
+  });
+});
+// VIMEO GALLERY END
 
 // LOTTIE INTERACTIVITY START
 function createLottieInteractivity(playerElement) {

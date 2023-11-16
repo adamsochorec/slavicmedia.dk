@@ -39,10 +39,12 @@
           <div class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/camera.png" />
-              <h4>Quality standards</h4>
+              <h4>Visual Excellence</h4>
               <p>
-                We deliver full resolution 25 MP photographs, 4k in 10 bit depth
-                renders as well as online optimised content versions.
+                Immerse yourself in top-notch visuals with our 25 MP photos and
+                4K 10-bit renders. We ensure every fine detail is captured to
+                bring your creations to life. Our delivery includes
+                online-optimized content, making it easy to share and access.
               </p>
             </div>
             <div class="filter"></div>
@@ -50,10 +52,12 @@
           <div class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/studio.png" />
-              <h4>Studio</h4>
+              <h4>Studio Creativy</h4>
               <p>
-                Professionaly equiped facilies ready for maximum creative
-                freedom.
+                Step into our professionally equipped studios, designed to
+                unleash maximum creative freedom. Our studio provides the
+                perfect environment for capturing your vision with precision and
+                style.
               </p>
             </div>
             <div class="filter"></div>
@@ -63,10 +67,12 @@
             <div class="wrapper">
               <img class="feature" src="/img/edit.png" />
 
-              <h4>Extensive post-production</h4>
+              <h4>Expert Post-Production</h4>
               <p>
-                From basic light editing to image retouching, colour grading,
-                video VFX.
+                Go beyond basic editing! Experience the transformative power of
+                image retouching, precise color grading, and expert video VFX.
+                We guarantee your content will stand out with unparalleled
+                visual appeal.
               </p>
             </div>
             <div class="filter"></div>
@@ -74,10 +80,11 @@
           <div class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/drone.png" />
-              <h4>Aerial shooting</h4>
+              <h4>Aerial Perspectives</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                neque commodi exercitationem facilis dolores.
+                Elevate your projects with breathtaking aerial views. Our aerial
+                shooting services add a new dimension to your visuals, capturing
+                moments from unique and captivating angles.
               </p>
             </div>
             <div class="filter"></div>
@@ -85,8 +92,12 @@
           <div class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/design.png" />
-              <h4>Graphic</h4>
-              <p>Posters,</p>
+              <h4>Graphic Art</h4>
+              <p>
+                Make your brand look amazing with our fantastic graphic designs.
+                We create eye-catching logos and cool layouts that will really
+                impress people.
+              </p>
             </div>
             <div class="filter"></div>
           </div>
@@ -94,8 +105,12 @@
           <div class="grid-item reveal">
             <div class="wrapper">
               <img class="feature" src="/img/flexibility.png" />
-              <h4>Animation</h4>
-              <p>Motion graphics, intro & outro, product reveal</p>
+              <h4>Dynamic Animation</h4>
+              <p>
+                Have fun with our animated stories! We bring ideas to life with
+                lively characters and cool motion graphics. Your projects will
+                be super exciting with our animation skills.
+              </p>
             </div>
             <div class="filter"></div>
           </div>
@@ -355,7 +370,12 @@
                       <br />
                       <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
-                        <?php echo $lang['asset_140'] ?>
+                        <li>4 hours of photography</li>
+                        <li>More in-depth coverage of the event</li>
+                        <li>
+                          1-hour free pre-production meeting online or offline
+                        </li>
+                        <li>1 revision</li>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -383,9 +403,15 @@
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
-                      <h6><?php echo $lang['asset_142'] ?></h6>
+                      <h6>The Full Coverage Package</h6>
                       <ul>
-                        <?php echo $lang['asset_143'] ?>
+                        <li>Entire day</li>
+                        <li>Studio or outdoor</li>
+                        <li>30+ edited digital images</li>
+                        <li>Make-up artist</li>
+                        <li>Free of credit policy</li>
+                        <li>Up to 3 revisions</li>
+                        <li>Pre-production meeting online or offline</li>
                       </ul>
                     </div>
                     <div class="flip-card-back">

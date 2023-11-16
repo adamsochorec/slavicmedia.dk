@@ -6,7 +6,7 @@ $lang = [
     "asset_4" => "Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop",
     "asset_5" => "Our story",
     "asset_6" => "<span class='highlited tuscher'>Actions</span> speak louder <span class='highlited tuscher'>than</span> any <span class='highlited tuscher'> words</span>",
-    "asset_7" => "Do you need to fly with drone at the open sea, shoot northern lights at -20°C, cycle over the entire country, walk over the desert or get closer than anyone else?",
+    "asset_7" => "Do you want to fly a drone over the open sea, capture the northern lights in freezing cold weather, bike across the whole country, walk through the desert, or get up close in a way that nobody else has?",
     "asset_8" => "Our works",
     "asset_9" => "Strategy, <span class='highlited tuscher'>experience</span>, precision and hard work to your <span class='highlited tuscher'>service</span>",
     "asset_10" =>"We’re not your traditional production company. We’re creative storytellers who believe good set designs, deep eye contact, and the right ligh that can raise your message above the noise.",
@@ -17,9 +17,9 @@ $lang = [
     "asset_15" => "Graphic",
     "asset_17" => "",
     "asset_16" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    "asset_19" => "Slavic Media is a creative multimedia company specialized in a variety of commercials, advertisements, brand films, music videos, and photography.",
-    "asset_20" => "We reach out to our customers visual needs with customized and personalized ideas for their brand or site, ​​we believe in using the camera to tell a story.",
-    "asset_21" => " By storytelling with our beautiful cinematography, good scripts, and spotless design we aim to take brands to their fullest potential.",
+    "asset_19" => "Slavic Media is a creative multimedia company that focuses on making different kinds of commercials, ads, brand films and photos.",
+    "asset_20" => "We work with our customers to create unique and personalized ideas for their brand or website.",
+    "asset_21" => "We tell stories with our beautiful videos, well-written scripts, and clean designs to help brands reach their maximum potential.",
     "asset_22" => "",
     "asset_23" => "Portrait of ",
     "asset_24" => "Partner & Videographer",
@@ -34,8 +34,8 @@ $lang = [
     "asset_33" => "Photography",
     "asset_34" => "Web Development",
     "asset_35" => "Danish",
-    "asset_36" => "Clients & Collaborators",
-    "asset_37" => "Press materials",
+    "asset_36" => "Our Amazing Clients",
+    "asset_37" => "",
     "asset_38" => "Event video of a festival focused on reusing old things.",
     "asset_39" => "Short artistic film featuring drone-captured footage.",
     "asset_40" => "Showreel of cultural volunteer organisation.",
@@ -71,7 +71,7 @@ $lang = [
     "asset_71" => "Silouete of a DJ playing in rave in Kolding",
     "asset_72" => "Silouete of a Ki! performing in Pitstop",
     "asset_74" => "Lorem ipsum ",
-    "asset_75" => "Press",
+    "asset_75" => "For Press",
     "asset_76" => " Corrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
     "asset_77" => "Brand Guide",
     "asset_78" => "Sets the visual and stylistic standards for our brand, ensuring consistency in logos, colors, fonts, and design.",
@@ -139,21 +139,13 @@ $lang = [
     a good option for events where the focus is on the
     speakers or performers rather than the guests.",
     "asset_139" => "The In-Depth Package",
-    "asset_140" => "<li>4 hours of photography</li><li>More in-depth coverage of the event</li><li>1-hour free pre-production meeting online or offline</li><li>1 revision</li>",
+    "asset_140" => "",
     "asset_141" => "This package is a good option for events with a moderate
     budget or that require more in-depth coverage. It is
     also a good option for events where the focus is on both
     the speakers or performers and the guests.",
-    "asset_142" => "The Full Coverage Package",
-    "asset_143" => "<li>8+ hours of photography</li>
-    <li>30+ edited digital images</li>
-    <li>
-      Full coverage of the event, from start to finish
-    </li>
-    <li>2-5min event video showcasing the entire event</li>
-    <li>Free of credit policy</li>
-    <li>Up to 3 revisions</li>
-    <li>Free pre-production meeting online or offline</li>",
+    "asset_142" => "",
+    "asset_143" => "",
     "asset_144" => "This package is ideal for events with a large budget or
     that require full coverage from start to finish. It is
     also a good option for events where the focus is on
@@ -187,9 +179,9 @@ $lang = [
     "asset_170" => "Name",
     "asset_171" => "Expedition Denmark blog",
     "asset_172" => "Expedition Åland blog",
-    "asset_173" => "Corporate headshots or artistic composition? Exterior or session in profesional studio are both options. Elite plan includes make-up artist to enhance your profesional impression.",
-    "asset_174" => "Performing live? Important presentation? Getting married? Hosting a vernisage? Grab a chance to see your event from unrevealed perspective without noticing you hired us.",
-    "asset_175" => "Exploring tundra or desert?",
+    "asset_173" => "Whether you want pictures for work that look really good or photos that show who you are, we have choices for you. You can have pictures taken outside or in a studio for a fancy look. Choose our Elite plan, and you'll even have a makeup artist to make sure you look really nice and professional.",
+    "asset_174" => "Elevate your live performances, crucial presentations, weddings, or vernissages by experiencing your event from an unseen perspective without even noticing you hired us.",
+    "asset_175" => "Embark on a visual journey through tundras or deserts as we capture the spirit of your adventures. Our lens transforms your travel experiences into captivating stories.",
     "asset_176" => "Portrait of guide in Judean Derest nearby the Dead Sea",
     "asset_177" => "Girl stading barefoot in the middle of oasis sprink in Judean Desert in Israel",
     "asset_178" => "Woman hiking on Masada in Israel",
@@ -199,13 +191,13 @@ $lang = [
     "asset_182" => "Plan",
     "asset_183" => "- Select -",
     "asset_184" => "Showreel",
-    "asset_185" => "Showreel bla bla",
+    "asset_185" => "Let us distill the essence of your project into a compelling showreel. Our team specializes in creating narratives that leave a lasting impact on your audience.",
     "asset_186" => "Showreel works",
     "asset_187" => "Interview",
-    "asset_188" => "Interview bla bla",
+    "asset_188" => "We specialize in capturing the nuances of conversations, making your interviews engaging, insightful, and visually appealing. Transform the ordinary into the extraordinary.",
     "asset_189" => "Interview works",
     "asset_190" => "Not sure yet",
-    "asset_191" => "",
+    "asset_191" => "For clients",
     "asset_192" => "",
     "asset_193" => "",
     "asset_194" => "",

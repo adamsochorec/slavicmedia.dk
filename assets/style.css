@@ -942,24 +942,31 @@ button.submit-btn {
   border-radius: var(--border-radius-1);
   margin-top: var(--grid-gap-2) !important;
   max-width: fit-content;
-  min-width: 130px;
+  min-width: 150px;
   font-size: var(--fontsize-p);
   font-family: var(--logo-font);
   box-shadow: var(--box-shadow-1);
   z-index: 8;
   white-space: nowrap;
-  border: none;
+  border: 2px solid rgba(var(--secondary-color), 1);
   cursor: pointer;
 }
 .cta:hover,
 button.submit-btn:hover {
   background-color: rgba(var(--secondary-color), 0.8);
+  border: 2px solid rgba(var(--secondary-color), 0.1);
 }
 .cta,
 .cta:hover,
 button.submit-btn:hover,
 button.submit-btn {
   transition: var(--transition-2);
+}
+.cta.cta2 {
+  background-color: rgba(var(--secondary-color), 0);
+}
+.cta.cta2:hover {
+  background-color: rgba(var(--secondary-color), 1);
 }
 .hide-cta-max,
 .hide-cta-min {
@@ -2808,7 +2815,7 @@ img.feature {
   animation: none;
   height: 30px;
   width: auto;
-  margin-bottom: 1rem;
+  margin-bottom: var(--grid-gap-1);
 }
 /* FEATURES END */
 
@@ -2999,6 +3006,10 @@ ul.languages-legend li::marker {
 
   color: #ff6c12;
 }
+/* OUR TEAM SKILL BAR END */
+/* OUR TEAM END */
+
+/* CLIENTS START */
 .clients path {
   fill: var(--text-color);
 }
@@ -3016,8 +3027,8 @@ ul.languages-legend li::marker {
   -ms-transition: var(--transition-2); /* Edge */
   -o-transition: var(--transition-2);
 }
-/* OUR TEAM SKILL BAR END */
-/* OUR TEAM END */
+
+/* CLIENTS END */
 
 /* NO INDEX PAGES START */
 #error .lottie {
@@ -3106,11 +3117,14 @@ ul.languages-legend li::marker {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  #ourteam .skills-section .grid-item:nth-child(1) {
-    margin-right: 10px;
+
+  #ourteam .skills-section .grid-item:nth-child(1),
+  #clients .grid-container.grid-item:nth-child(1) {
+    margin-right: var(--grid-gap-1);
   }
-  #ourteam .skills-section .grid-item:nth-child(2) {
-    margin-left: 10px;
+  #ourteam .skills-section .grid-item:nth-child(2),
+  #clients .grid-container.grid-item:nth-child(2) {
+    margin-left: var(--grid-gap-1);
   }
   #error .lottie {
     margin-bottom: 4rem;
@@ -3274,7 +3288,7 @@ ul.languages-legend li::marker {
     height: 15px;
   }
   .features-grid .grid-item {
-    padding: var(--grid-gap-1);
+    padding: var(--grid-gap-2);
   }
 }
 @media only screen and (min-width: 538px) {
@@ -3458,7 +3472,7 @@ ul.languages-legend li::marker {
   }
   header nav ul li {
     float: left;
-    margin-left: var(--grid-gap-2);
+    margin-left: var(--grid-gap-3);
   }
   header .hamburger,
   .explore,

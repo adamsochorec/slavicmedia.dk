@@ -24,20 +24,24 @@
           <li role="menuitem">
             <a href="/services"><?php echo $lang['asset_101'] ?></a>
           </li>
-          <li role="menuitem">
-            <a href="/<?php echo $lang['asset_102'] ?>"
-              ><?php echo $lang['asset_102'] ?></a
-            >
-          </li>
+
           <li role="menuitem">
             <a href="/#<?php echo $lang['asset_103'] ?>"
               ><?php echo $lang['asset_18'] ?></a
             >
           </li>
           <li role="menuitem">
-            <a href="/press"><?php echo $lang['asset_75'] ?></a>
+            <a target="_blank" href="https://clients.slavicmedia.dk"
+              ><?php echo $lang['asset_191'] ?></a
+            >
           </li>
-          <!-- <li role="menuitem"><a href="<?php //echo "assets/php/lang?lang" ?>">EN / DA</a></li> -->
+
+          <li role="menuitem">
+            <a href="/for-press"><?php echo $lang['asset_75'] ?></a>
+          </li>
+          <li role="menuitem">
+            <a href="/works"><?php echo $lang['asset_102'] ?></a>
+          </li>
         </ul>
       </nav>
     </div>
