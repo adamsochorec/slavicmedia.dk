@@ -75,56 +75,69 @@
         </div>
         <hr class="semi" role="separator" />
         <!-- FEATURES START -->
-        <div class="grid-container features-grid">
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/camera.png" />
-              <h4>Quality standards</h4>
+        <article
+          id="visual"
+          class="video-gallery features-grid"
+          aria-label="Services Features Overview"
+        >
+          <a
+            href="/services"
+            class="gallery-item reveal"
+            aria-label="Huset Fundament 2023"
+          >
+            <img
+              src="/img/2023-09-09-10524.jpg"
+              alt="<?php echo $lang['asset_40'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>Portrait</h3>
             </div>
-            <div class="filter"></div>
           </a>
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/studio.png" />
-              <h4>Studio</h4>
+          <a href="/services" class="gallery-item reveal">
+            <img
+              src="/img/2021-04-25-00693.jpg"
+              class="north-cascades-img"
+              alt="<?php echo $lang['asset_47'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>Stills</h3>
             </div>
-            <div class="filter"></div>
           </a>
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/edit.png" />
-              <h4>Extensive post-production</h4>
+          <a href="/services" class="gallery-item reveal">
+            <img
+              src="/img/2022-12-08-01181.jpg"
+              alt="<?php echo $lang['asset_152'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>Travel</h3>
             </div>
-            <div class="filter"></div>
           </a>
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/drone.png" />
-              <h4>Aerial shooting</h4>
+          <a href="/services" class="gallery-item reveal">
+            <img
+              src="/img/cover-husetfundament.jpg"
+              alt="<?php echo $lang['asset_50'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>Showreel</h3>
             </div>
-            <div class="filter"></div>
           </a>
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/design.png" />
-              <h4>Graphic</h4>
+
+          <a href="/services" class="gallery-item reveal">
+            <img
+              src="/img/cover-crowdfunding.jpg"
+              alt="<?php echo $lang['asset_38'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>Interview</h3>
             </div>
-            <div class="filter"></div>
           </a>
-          <a href="/services" class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/flexibility.png" />
-              <h4>Animation</h4>
-            </div>
-            <div class="filter"></div>
-          </a>
-        </div>
+        </article>
         <hr class="semi" role="separator" />
 
         <section class="flex-center">
           <div class="reveal">
             <a href="/services" class="cta">
-              <?php echo $lang['asset_108'] ?>
+              <?php echo $lang['asset_101'] ?>
             </a>
           </div>
         </section>
@@ -143,10 +156,25 @@
             </p>
           </div>
         </div>
-
-        <!-- SERVICES END -->
-        <hr class="semi" id="ourteam" />
       </article>
+
+      <!-- SERVICES END -->
+      <hr class="semi" id="team" />
+      <!-- REVIEWS START -->
+      <?php
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    include $IPATH . 'reviews.php';
+    ?>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://g.page/r/CRTkzopg3plWEB0/review"
+        class="cta reveal"
+      >
+        <?php echo $lang['asset_31'] ?>
+      </a>
+      <!-- REVIEWS END -->
+      <hr class="semi" id="team" />
       <!-- COMPANY CAPTIONS END -->
 
       <!-- OUR TEAM START -->
@@ -173,7 +201,7 @@
             poster="/img/showreel-ourteam.png"
           ></video>
           <article class="wrapper-standard">
-            <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
+            <h3 class="reveal"><?php echo $lang['asset_18'] ?></h3>
             <button id="playPauseButton" class="play">
               <i id="playControl" class="fa-regular fa-circle-play fa-xl"></i>
               <i id="pauseControl" class="fa-regular fa-circle-pause fa-xl"></i>
@@ -187,7 +215,7 @@
         </div>
       </article>
       <!-- OUR TEAM INTRO SECTION END -->
-      <article id="ourteam" class="wrapper-standard">
+      <article id="team" class="wrapper-standard">
         <hr class="semi" role="separator" />
         <!-- TEAM SECTION START -->
         <section class="grid-container skills-section">
@@ -471,6 +499,8 @@
       <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

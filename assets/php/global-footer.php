@@ -11,17 +11,11 @@
         href="mailto:contact@slavicmedia.dk"
         aria-label="Email: contact@slavicmedia.dk"
         >contact@slavicmedia.dk</a
-      >
-    </p>
-  </div>
-
-  <div class="footer-ps">
-    <span>
+      ><br />
       ©
       <?= date('Y') ?>
-      Slavic Media I/S | </span
-    ><span
-      ><a
+      Slavic Media I/S |
+      <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
@@ -29,13 +23,14 @@
       >
         CVR: 44081512
       </a>
-    </span>
+    </p>
   </div>
+
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"
   ></script>
-   <!--<script
+  <!--<script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>
@@ -54,6 +49,8 @@
 
     gtag("config", "G-KGTECW9SN8");
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <script type="text/javascript" src="/assets/global-script.js" defer></script>
 </footer>
 <!-- FOOTER END -->

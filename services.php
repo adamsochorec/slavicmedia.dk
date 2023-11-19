@@ -13,7 +13,7 @@
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
     <title>Services | Slavic Media</title>
   </head>
-  <body class="services" id="servicees">
+  <body id="services">
     <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -35,95 +35,100 @@
         </div>
         <hr class="reveal" />
         <!-- FEATURES START -->
-        <div class="grid-container features-grid">
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/camera.png" />
-              <h4>Visual Excellence</h4>
+        <article
+          id="visual"
+          class="video-gallery features-grid"
+          aria-label="Video Gallery"
+        >
+          <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
+            <img
+              src="/img/2021-05-28-01020.jpg"
+              alt="<?php echo $lang['asset_40'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <?php echo $lang['asset_192'] ?>
+              </h3>
               <p>
-                Immerse yourself in top-notch visuals with our 25 MP photos and
-                4K 10-bit renders. We ensure every fine detail is captured to
-                bring your creations to life. Our delivery includes
-                online-optimized content, making it easy to share and access.
+                <?php echo $lang['asset_193'] ?>
               </p>
             </div>
-            <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/studio.png" />
-              <h4>Studio Creativy</h4>
-              <p>
-                Step into our professionally equipped studios, designed to
-                unleash maximum creative freedom. Our studio provides the
-                perfect environment for capturing your vision with precision and
-                style.
-              </p>
-            </div>
-            <div class="filter"></div>
           </div>
 
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/edit.png" />
-
-              <h4>Expert Post-Production</h4>
+          <div class="gallery-item reveal">
+            <img src="/img/studio.jpg" alt="<?php echo $lang['asset_38'] ?>." />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-microphone-lines"></i>
+                <?php echo $lang['asset_194'] ?>
+              </h3>
               <p>
-                Go beyond basic editing! Experience the transformative power of
-                image retouching, precise color grading, and expert video VFX.
-                We guarantee your content will stand out with unparalleled
-                visual appeal.
+                <?php echo $lang['asset_195'] ?>
               </p>
             </div>
-            <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/drone.png" />
-              <h4>Aerial Perspectives</h4>
-              <p>
-                Elevate your projects with breathtaking aerial views. Our aerial
-                shooting services add a new dimension to your visuals, capturing
-                moments from unique and captivating angles.
-              </p>
-            </div>
-            <div class="filter"></div>
-          </div>
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/design.png" />
-              <h4>Graphic Art</h4>
-              <p>
-                Make your brand look amazing with our fantastic graphic designs.
-                We create eye-catching logos and cool layouts that will really
-                impress people.
-              </p>
-            </div>
-            <div class="filter"></div>
           </div>
 
-          <div class="grid-item reveal">
-            <div class="wrapper">
-              <img class="feature" src="/img/flexibility.png" />
-              <h4>Dynamic Animation</h4>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/2021-08-24-01615.jpg"
+              class="north-cascades-img"
+              alt="<?php echo $lang['asset_47'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <?php echo $lang['asset_196'] ?>
+              </h3>
               <p>
-                Have fun with our animated stories! We bring ideas to life with
-                lively characters and cool motion graphics. Your projects will
-                be super exciting with our animation skills.
+                <?php echo $lang['asset_197'] ?>
               </p>
             </div>
-            <div class="filter"></div>
           </div>
-        </div>
-        <hr class="semi" role="separator" />
 
-        <section class="flex-center">
-          <div class="reveal">
-            <a href="/services#proposal" class="cta">
-              <?php echo $lang['asset_168'] ?>
-            </a>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-samso.jpg"
+              alt="<?php echo $lang['asset_152'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-plane"></i>
+                <?php echo $lang['asset_198'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_199'] ?>
+              </p>
+            </div>
           </div>
-        </section>
+          <div class="gallery-item reveal">
+            <img src="/img/hvalp.jpg" alt="<?php echo $lang['asset_50'] ?>." />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <?php echo $lang['asset_200'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_201'] ?>
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/animation.jpg"
+              alt="<?php echo $lang['asset_39'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-solid fa-shuffle"></i>
+                <?php echo $lang['asset_202'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_203'] ?>
+              </p>
+            </div>
+          </div>
+        </article>
         <!-- FEATURES END -->
         <hr class="reveal" />
 
@@ -175,7 +180,7 @@
               </p>
               <br />
               <div>
-                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
+                <a class="cta" href="/works#stills"
                   ><?php echo $lang['asset_113'] ?>
                 </a>
               </div>
@@ -203,7 +208,7 @@
               </p>
               <br />
               <div class="reveal">
-                <a class="cta" href="/works#<?php echo $lang['asset_85'] ?>"
+                <a class="cta" href="/works#travel"
                   ><?php echo $lang['asset_115'] ?>
                 </a>
               </div>
@@ -230,7 +235,7 @@
               </p>
               <br />
               <div>
-                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
+                <a class="cta" href="/works#"
                   ><?php echo $lang['asset_186'] ?>
                 </a>
               </div>
@@ -257,7 +262,7 @@
               </p>
               <br />
               <div>
-                <a class="cta" href="/works#<?php echo $lang['asset_107'] ?>"
+                <a class="cta" href="/works#"
                   ><?php echo $lang['asset_189'] ?>
                 </a>
               </div>
@@ -330,15 +335,15 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <h5>
-                        2.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
                       <h6>
-                        <?php echo $lang['asset_136'] ?>
+                        <?php echo $lang[''] ?>
                       </h6>
                       <ul>
-                        <?php echo $lang['asset_137'] ?>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -348,7 +353,7 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_138'] ?>
+                        <?php echo $lang[''] ?>
                       </p>
                     </div>
                   </div>
@@ -356,7 +361,6 @@
                 <div class="grid-item flip-card" id="core">
                   <div class="flip-card-inner">
                     <i class="fa-solid fa-repeat"></i>
-
                     <div class="flip-card-front">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
@@ -364,18 +368,13 @@
                         <?php echo $lang['asset_134'] ?>
                       </h4>
                       <h5>
-                        4.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
-                      <h6><?php echo $lang['asset_139'] ?></h6>
+                      <h6><?php echo $lang[''] ?></h6>
                       <ul>
-                        <li>4 hours of photography</li>
-                        <li>More in-depth coverage of the event</li>
-                        <li>
-                          1-hour free pre-production meeting online or offline
-                        </li>
-                        <li>1 revision</li>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -384,7 +383,7 @@
                         <?php echo $lang['asset_110'] ?>
                         <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p><?php echo $lang['asset_141'] ?></p>
+                      <p><?php echo $lang[''] ?></p>
                     </div>
                   </div>
                 </div>
@@ -399,29 +398,23 @@
                         <?php echo $lang['asset_135'] ?>
                       </h4>
                       <h5>
-                        13.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
-                      <h6>The Full Coverage Package</h6>
+                      <h6><?php echo $lang[''] ?></h6>
                       <ul>
-                        <li>Entire day</li>
-                        <li>Studio or outdoor</li>
-                        <li>30+ edited digital images</li>
-                        <li>Make-up artist</li>
-                        <li>Free of credit policy</li>
-                        <li>Up to 3 revisions</li>
-                        <li>Pre-production meeting online or offline</li>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_110'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_144'] ?>
+                        <?php echo $lang[''] ?>
                       </p>
                     </div>
                   </div>
@@ -429,7 +422,6 @@
               </div>
             </section>
             <!-- PORTRAIT PACKAGES END -->
-
             <!-- STILLS PACKAGES START -->
             <section id="stills" class="tab-panel">
               <div class="grid-container gallery reveal">
@@ -444,15 +436,15 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <h5>
-                        2.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
                       <h6>
-                        <?php echo $lang['asset_136'] ?>
+                        <?php echo $lang[''] ?>
                       </h6>
                       <ul>
-                        <?php echo $lang['asset_137'] ?>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -462,7 +454,7 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_138'] ?>
+                        <?php echo $lang[''] ?>
                       </p>
                     </div>
                   </div>
@@ -478,13 +470,13 @@
                         <?php echo $lang['asset_134'] ?>
                       </h4>
                       <h5>
-                        4.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
-                      <h6><?php echo $lang['asset_139'] ?></h6>
+                      <h6><?php echo $lang[''] ?></h6>
                       <ul>
-                        <?php echo $lang['asset_140'] ?>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -493,7 +485,7 @@
                         <?php echo $lang['asset_107'] ?>
                         <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p><?php echo $lang['asset_141'] ?></p>
+                      <p><?php echo $lang[''] ?></p>
                     </div>
                   </div>
                 </div>
@@ -508,23 +500,23 @@
                         <?php echo $lang['asset_135'] ?>
                       </h4>
                       <h5>
-                        13.000 DKK
+                        <?php echo $lang[''] ?>
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
-                      <h6><?php echo $lang['asset_142'] ?></h6>
+                      <h6><?php echo $lang[''] ?></h6>
                       <ul>
-                        <?php echo $lang['asset_143'] ?>
+                        <?php echo $lang[''] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_107'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_144'] ?>
+                        <?php echo $lang[''] ?>
                       </p>
                     </div>
                   </div>
@@ -545,7 +537,9 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <h5>
-                        2.000 DKK
+                        <?php echo $lang['asset_214'] ?>
+                        +
+                        <?php echo $lang['asset_204'] ?>,
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
@@ -553,7 +547,7 @@
                         <?php echo $lang['asset_136'] ?>
                       </h6>
                       <ul>
-                        <?php echo $lang['asset_137'] ?>
+                        <?php echo $lang['asset_205'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -563,7 +557,7 @@
                         <?php echo $lang['asset_133'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_138'] ?>
+                        <?php echo $lang['asset_206'] ?>
                       </p>
                     </div>
                   </div>
@@ -579,13 +573,15 @@
                         <?php echo $lang['asset_134'] ?>
                       </h4>
                       <h5>
-                        4.000 DKK
+                        <?php echo $lang['asset_213'] ?>
+                        +
+                        <?php echo $lang['asset_204'] ?>,
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
                       <h6><?php echo $lang['asset_139'] ?></h6>
                       <ul>
-                        <?php echo $lang['asset_140'] ?>
+                        <?php echo $lang['asset_207'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
@@ -594,7 +590,9 @@
                         <?php echo $lang['asset_85'] ?>
                         <?php echo $lang['asset_134'] ?>
                       </h4>
-                      <p><?php echo $lang['asset_141'] ?></p>
+                      <p>
+                        <?php echo $lang['asset_208'] ?>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -608,23 +606,25 @@
                         <?php echo $lang['asset_135'] ?>
                       </h4>
                       <h5>
-                        13.000 DKK
+                        <?php echo $lang['asset_212'] ?>
+                        +
+                        <?php echo $lang['asset_204'] ?>,
                         <?php echo $lang['asset_132'] ?>
                       </h5>
                       <br />
                       <h6><?php echo $lang['asset_142'] ?></h6>
                       <ul>
-                        <?php echo $lang['asset_143'] ?>
+                        <?php echo $lang['asset_209'] ?>
                       </ul>
                     </div>
                     <div class="flip-card-back">
                       <h4>
                         <i class="fa-solid fa-circle-info"></i>&nbsp;
                         <?php echo $lang['asset_85'] ?>
-                        Elite
+                        <?php echo $lang['asset_135'] ?>
                       </h4>
                       <p>
-                        <?php echo $lang['asset_144'] ?>
+                        <?php echo $lang['asset_211'] ?>
                       </p>
                     </div>
                   </div>
@@ -632,6 +632,228 @@
               </div>
             </section>
             <!-- TRAVEL PACKAGES END -->
+            <!-- SHOWREEL PACKAGES START -->
+            <section id="travel" class="tab-panel">
+              <div class="grid-container gallery reveal">
+                <div class="grid-item flip-card" id="essential">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_133'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_133'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item flip-card" id="core">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_134'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_134'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item flip-card" id="elite">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_184'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- SHOWREEL PACKAGES END -->
+            <!-- INTERVIEW PACKAGES START -->
+            <section id="travel" class="tab-panel">
+              <div class="grid-container gallery reveal">
+                <div class="grid-item flip-card" id="essential">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item flip-card" id="core">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item flip-card" id="elite">
+                  <div class="flip-card-inner">
+                    <i class="fa-solid fa-repeat"></i>
+                    <div class="flip-card-front">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <h5>
+                        <?php echo $lang[''] ?>
+                        +
+                        <?php echo $lang[''] ?>,
+                        <?php echo $lang['asset_132'] ?>
+                      </h5>
+                      <br />
+                      <h6>
+                        <?php echo $lang[''] ?>
+                      </h6>
+                      <ul>
+                        <?php echo $lang[''] ?>
+                      </ul>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4>
+                        <i class="fa-solid fa-circle-info"></i>&nbsp;
+                        <?php echo $lang['asset_187'] ?>
+                        <?php echo $lang['asset_135'] ?>
+                      </h4>
+                      <p>
+                        <?php echo $lang[''] ?>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- INTERVIEW PACKAGES END -->
           </div>
         </div>
         <!-- PACKAGES END -->

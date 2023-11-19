@@ -29,8 +29,7 @@
             role="img"
             aria-label="<?php echo $lang['asset_130'] ?>"
           >
-            ></dotlottie-player
-          >
+          </dotlottie-player>
         </div>
         <h1>The page you’re looking<br />for can't be found.</h1>
         <a class="cta" href="http://slavicmedia.dk"

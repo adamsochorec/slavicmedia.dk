@@ -15,12 +15,12 @@ $lang = [
     "asset_13" => "Video",
     "asset_14" => "Storytelling interviews and action showreels are our domain",
     "asset_15" => "Graphic",
-    "asset_17" => "",
+    "asset_17" => "press",
     "asset_16" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "asset_19" => "Slavic Media is a creative multimedia company that focuses on making different kinds of commercials, ads, brand films and photos.",
     "asset_20" => "We work with our customers to create unique and personalized ideas for their brand or website.",
     "asset_21" => "We tell stories with our beautiful videos, well-written scripts, and clean designs to help brands reach their maximum potential.",
-    "asset_22" => "",
+    "asset_22" => "works",
     "asset_23" => "Portrait of ",
     "asset_24" => "Partner & Videographer",
     "asset_25" => "Languages",
@@ -29,7 +29,7 @@ $lang = [
     "asset_28" => "Animations",
     "asset_29" => " Climbing", 
     "asset_30" => "Partner & Photographer",
-    "asset_31" => "",
+    "asset_31" => "Give us a review",
     "asset_32" => "Editing & Post-production",
     "asset_33" => "Photography",
     "asset_34" => "Web Development",
@@ -96,14 +96,14 @@ $lang = [
     "asset_97" => "Portrait of a girl cudling with two huskys in Finish Lapland",
     "asset_98" => "Åland",
     "asset_99" => " Corrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores.",
-    "asset_101" => "Services",
-    "asset_102" => "Works",
+    "asset_101" => "Explore our Services",
+    "asset_102" => "Our Works",
     "asset_18" => "Our Team",
-    "asset_103" => "ourteam",
+    "asset_103" => "team",
     "asset_104" => "Learn more",
     "asset_105" => "Services",
     "asset_107" => "Stills",
-    "asset_108" => "Explore our Services",
+    "asset_108" => "",
     "asset_109" => "A Jack of All Trades! Commercial is our passion but <u>art</u> is our language.",
     "asset_110" => "Portrait",
     "asset_112" => " Corrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores.",
@@ -198,18 +198,115 @@ $lang = [
     "asset_189" => "Interview works",
     "asset_190" => "Not sure yet",
     "asset_191" => "For clients",
-    "asset_192" => "",
-    "asset_193" => "",
-    "asset_194" => "",
-    "asset_195" => "",
-    "asset_196" => "",
-    "asset_197" => "",
-    "asset_198" => "",
-    "asset_199" => "",
-    "asset_200" => ""
-    
-
-
-
+    "asset_192" => "Visual Excellence",
+    "asset_193" => "  Immerse yourself in top-notch visuals with our 25 MP photos and 4K 10-bit renders. We ensure every fine detail is captured to bring your creations to life. Our delivery includes online-optimized content, making it easy to share and access.",
+    "asset_194" => "Studio Creativy",
+    "asset_195" => "Step into our professionally equipped studios, designed to unleash maximum creative freedom. Our studio provides the perfect environment for capturing your vision with precision and style.",
+    "asset_196" => "Expert Post-Production",
+    "asset_197" => "Go beyond basic editing! Experience the transformative power of
+    image retouching, precise color grading, and expert video VFX.
+    We guarantee your content will stand out with unparalleled
+    visual appeal.",
+    "asset_198" => "Aerial Perspective",
+    "asset_199" => "Elevate your projects with breathtaking aerial views. Our aerial shooting services add a new dimension to your visuals, capturing moments from unique and captivating angles.",
+    "asset_200" => "Graphic Art",
+    "asset_201" => "Make your brand look amazing with our fantastic graphic designs. We create eye-catching logos and cool layouts that will really impress people.",
+    "asset_202" => "Dynamic Animation",
+    "asset_203" => "Have fun with our animated stories! We bring ideas to life with
+    lively characters and cool motion graphics. Your projects will
+    be super exciting with our animation skills.",
+    "asset_204" => "travelling costs",
+    "asset_205" => "<li>10 edited digital images /day</li>
+    <li>Highlights of your trip</li>
+    <li>
+      Candid photos of travelers: From portraits of
+      travelers to scenic landscapes
+    </li>
+    <li>
+      Real-time photo sharing: Daily photo exports to
+      allowing travellers sharing their experiences
+    </li>
+    <li>
+      2-3 minute YouTube video: showcasing the essence of
+      your trip accompanied with music and narration.
+    </li>
+    <li>
+      4K video delivery: Resolution with a 10-bit dynamic
+      range for exceptional detail.
+    </li>",
+    "asset_206" => "This package is ideal for travel agencies who want to
+    capture their trip in stunning photos and an engaging 4k
+    YouTube video. Package includes export at the end of
+    each day allowing to share your experiences instantly
+    with friends and followers.",
+    "asset_207" => "<li>20 edited digital images /trip day</li>
+    <li>
+      A mix of iconic and candid photos - Portraits of
+      travelers, landscapes and sights
+    </li>
+    <li>
+      Atmospheric shots to capture the mood and feel of your
+      trip
+    </li>
+    <li>
+      2 youtube horizontal video (up to 2-3 minutes 1
+      video): highlights in two engaging YouTube videos,
+      each tailored to different storytelling approaches.
+    </li>
+    <li>
+      3 reels/tiktoks based on latest travelling trends
+    </li>
+    <li>Included drone video/photography</li>
+    <li>
+      More in-depth coverage of your trip, including unique
+      moments and local experiences
+    </li>",
+    "asset_208" => "This package is a good option for travel agencies who
+    want more in-depth coverage of their trip with multiple
+    exports for marketing, including candid moments,
+    including 3 reels/tiktok videos, drone aerial shot and 2
+    horizontal videos defined by your needs and focus on
+    experience/interview/storytelling Includes photo export
+    at the end of each day so travellers can post and share
+    their moments in real time/asap.",
+    "asset_209" => "<li>30 edited digital images /day</li>
+    <li>
+      3 youtube horizontal videos (2-3mins) or 1 long video
+      (10minutes)
+    </li>
+    <li>
+      5 reels/tiktoks based on latest travelling trends
+    </li>
+    <li>Included drone video/photography</li>
+    <li>
+      Full coverage of your trip, from start to finish
+    </li>
+    <li>
+      A variety of portraits, including posed and candid
+      shots
+    </li>
+    <li>
+      Atmospheric shots and videos that capture the essence
+      of your trip
+    </li>",
+    "asset_211" => "This package is ideal for travel agencies who want full
+    coverage of their trip, from start to finish, including
+    5 reels/tiktok videos, up to 3 youtube horizontal video
+    format, drone aerial shots, interviews of travelers for
+    better storytelling in videos and variety of portraits
+    and atmospheric shots. Includes photo export at the end
+    of each day so travellers can post and share their
+    moments in real time/asap.",
+    "asset_212" => "870 EUR",
+    "asset_213" => "1.500 EUR",
+    "asset_214" => "1.900 EUR",
+    "asset_215" => "XXX EUR",
+    "asset_216" => "",
+    "asset_217" => "",
+    "asset_218" => "",
+    "asset_219" => "",
+    "asset_220" => "",
+    "asset_221" => "",
+    "asset_222" => "",
 ];
 ?>

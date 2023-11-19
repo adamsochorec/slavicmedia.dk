@@ -14,6 +14,15 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 reveal();
 // CONTENT REVEAL END
+// LOADER ANIMATION START
+(function introLoader() {
+  window.addEventListener("load", () => {
+    // When the window is fully loaded, hide the loader
+    const loader = document.querySelector(".loader-container");
+    loader.style.display = "none";
+  });
+})();
+// LOADER ANIMATION END
 (function header() {
   let lastScrollTop = 0;
 
@@ -66,6 +75,31 @@ reveal();
     lastScrollTop = st;
   }
 })();
+const reviewsSwiper = new Swiper(".reviews-swiper", {
+  loop: true,
+  // speed: 600,
+  spaceBetween: 20,
+  // autoplay: {
+  //  delay: 1500,
+  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    400: {
+      slidesPerView: 2,
+    },
+    620: {
+      slidesPerView: 3,
+    },
+    947: {
+      slidesPerView: 4,
+    },
+  },
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+});
 // HOMEPAGE START
 // CHANGE HEADER RGBA AT SCROLL END
 if (document.body.id === "homepage") {
@@ -163,19 +197,47 @@ if (document.body.id === "homepage") {
   }
 }
 // VIDEO OFFLOAD END
+// START RATING START
+// Get all elements with the "stars" class
+var starContainers = document.querySelectorAll(".stars");
+
+// Iterate through each element and display stars based on the data-rating attribute
+starContainers.forEach(function (starContainer) {
+  var rating = parseInt(starContainer.getAttribute("data-rating"), 10);
+  showStars(starContainer, rating);
+});
+
+// Function to display stars based on the rating value
+function showStars(container, rating) {
+  container.innerHTML = ""; // Clear any existing content
+
+  // Create stars based on the rating
+  for (var i = 1; i <= 5; i++) {
+    var star = document.createElement("span");
+    star.className = "stars";
+
+    // Fill the star if it's within the rating
+    if (i <= rating) {
+      star.innerHTML = "★"; // Use a star symbol
+    } else {
+      star.innerHTML = "☆"; // Use an empty star symbol
+    }
+
+    // Append the star to the container
+    container.appendChild(star);
+  }
+}
+// START RATING END
 // HOMEPAGE END
-// LOADER ANIMATION START
-(function introLoader() {
-  window.addEventListener("load", () => {
-    // When the window is fully loaded, hide the loader
-    const loader = document.querySelector(".loader-container");
-    loader.style.display = "none";
-  });
-})();
-// LOADER ANIMATION END
-// SWIPER START
-if (document.body.id === "servicees") {
+
+// SWIPER SERVICES START
+if (document.body.id === "services") {
   const swiper = new Swiper(".swiper", {
+    loop: true,
+    speed: 600,
+    autoplay: {
+      delay: 15000,
+    },
     // Optional parameters
     direction: "horizontal",
     loop: true,
@@ -193,31 +255,8 @@ if (document.body.id === "servicees") {
       el: ".swiper-scrollbar",
     },
   });
-  window.swiperNested1 = new Swiper("swiper-nested-1", {
-    mode: "horizontal",
-    pagination: ".pagination",
-    paginationClickable: true,
-    preventLinks: true,
-    resistance: "100%",
-    slidesPerView: 1,
-    onSlideClick: video,
-  });
-  function video() {
-    if (!clicked) {
-      playVideo();
-      console.log("Slide clicked 1st");
-      window.clicked = true;
-    } else if ((clicked = 2)) {
-      player.pauseVideo();
-      console.log("Slide clicked 2nd");
-      window.clicked = false;
-    } else {
-      resumeVideo();
-      window.clicked = 2;
-    }
-  }
 }
-// SWIPER END
+// SWIPER SERVICES END
 
 // VIMEO GALLERY START
 $(document).ready(function () {

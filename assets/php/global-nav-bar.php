@@ -22,9 +22,11 @@
         </a>
         <ul class="menu-left" role="menu">
           <li role="menuitem">
-            <a href="/services"><?php echo $lang['asset_101'] ?></a>
+            <a href="/services"><?php echo $lang['asset_105'] ?></a>
           </li>
-
+          <li role="menuitem">
+            <a href="/works"><?php echo $lang['asset_102'] ?></a>
+          </li>
           <li role="menuitem">
             <a href="/#<?php echo $lang['asset_103'] ?>"
               ><?php echo $lang['asset_18'] ?></a
@@ -35,12 +37,8 @@
               ><?php echo $lang['asset_191'] ?></a
             >
           </li>
-
           <li role="menuitem">
-            <a href="/for-press"><?php echo $lang['asset_75'] ?></a>
-          </li>
-          <li role="menuitem">
-            <a href="/works"><?php echo $lang['asset_102'] ?></a>
+            <a href="/press"><?php echo $lang['asset_75'] ?></a>
           </li>
         </ul>
       </nav>

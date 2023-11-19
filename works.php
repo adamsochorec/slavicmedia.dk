@@ -32,160 +32,23 @@
             <span class="pathname"
               ><a href="/" aria-label="Home"></a> &#8250;
             </span>
-            <span class="pathname" aria-label="<?php echo $lang['asset_102'] ?>"
-              ><?php echo $lang['asset_102'] ?></span
+            <span class="pathname" aria-label="<?php echo $lang['asset_22'] ?>"
+              ><?php echo $lang['asset_22'] ?></span
             >
           </p>
         </div>
       </article>
       <hr class="semi" role="separator" />
-      <article id="visual" class="video-gallery" aria-label="Video Gallery">
-        <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
-          <img
-            src="/img/cover-husetfundament.jpg"
-            alt="<?php echo $lang['asset_40'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              Huset Fundament
-              <br />
-              <span>2023</span>
-            </h3>
-            <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-circle-info">&nbsp; </i
-              ><a href>husetfundament.dk</a>
-            </p>
 
-            <a
-              aria-label="<?php echo $lang['asset_127'] ?>"
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-repaireandremake.jpg"
-            alt="<?php echo $lang['asset_38'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              Repaire Festival
-              <br />
-              <span>2023 </span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-circle-info">&nbsp; </i
-              ><a href>nicolaikultur.dk</a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-parkourtabor.jpg"
-            class="north-cascades-img"
-            alt="<?php echo $lang['asset_47'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              <?php echo $lang['asset_46'] ?>
-
-              <br />
-              <span>2023</span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-circle-info">&nbsp; </i
-              ><a>parkourskola.sk</a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-halloweenparty.jpg"
-            alt="<?php echo $lang['asset_152'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              <?php echo $lang['asset_152'] ?>
-              <br />
-              <span>2022</span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-circle-info">&nbsp; </i>
-              <a>tribemedia.dk </a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/aVACZcA69r4?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-bygning5.jpg"
-            alt="<?php echo $lang['asset_50'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-
-              Bygning 5
-              <br />
-              <span>2022</span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-circle-info">&nbsp; </i><a>bygning5.dk</a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-samso.jpg"
-            alt="<?php echo $lang['asset_39'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-
-              Samsø <br />
-              <span>2023</span>
-            </h3>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-      </article>
-      <!-- VIDEO GALLERY END -->
       <!-- PHOTO GALLERY START -->
       <!-- PORTRAIT START -->
       <article class="wrapper-wide" id="portrait">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
-            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
               <?php echo $lang['asset_110'] ?>
+              <span class="highlited"><?php echo $lang['asset_105'] ?></span>
             </h2>
             <div class="hide-cta-min reveal">
               <a
@@ -201,16 +64,16 @@
             <p class="reveal">
               <?php echo $lang['asset_173'] ?>
             </p>
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_117'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="hide-cta-max reveal">
-          <a
-            class="cta"
-            href="/services"
-            aria-label="<?php echo $lang['asset_117'] ?>"
-          >
-            <?php echo $lang['asset_116'] ?>
-          </a>
         </div>
       </article>
       <hr class="semi" role="separator" />
@@ -373,9 +236,9 @@
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
-            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
               <?php echo $lang['asset_107'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <div class="hide-cta-min reveal">
               <a
@@ -391,16 +254,16 @@
             <p class="reveal">
               <?php echo $lang['asset_174'] ?>
             </p>
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_116'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="hide-cta-max reveal">
-          <a
-            class="cta"
-            href="/services"
-            aria-label="<?php echo $lang['asset_116'] ?>"
-          >
-            <?php echo $lang['asset_116'] ?>
-          </a>
         </div>
       </article>
       <hr class="semi" role="separator" />
@@ -596,17 +459,17 @@
               alt="<?php echo $lang['asset_48'] ?>."
             />
           </div>
-          <!-- STILLS END -->
-          <!-- TRAVEL START -->
         </div>
       </article>
+      <!-- STILLS END -->
+      <!-- TRAVEL START -->
       <article class="wrapper-wide" id="Travel">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
-            <h3 class="highlited"><?php echo $lang['asset_108'] ?></h3>
             <h2>
               <?php echo $lang['asset_85'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <div class="hide-cta-min reveal">
               <a
@@ -622,16 +485,16 @@
             <p class="reveal">
               <?php echo $lang['asset_175'] ?>
             </p>
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_118'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="hide-cta-max reveal">
-          <a
-            class="cta"
-            href="/services"
-            aria-label="<?php echo $lang['asset_118'] ?>"
-          >
-            <?php echo $lang['asset_116'] ?>
-          </a>
         </div>
       </article>
       <hr class="semi" role="separator" />
@@ -774,7 +637,6 @@
               alt="<?php echo $lang['asset_92'] ?>."
             />
           </div>
-
           <div class="h-stretch video-gallery reveal">
             <div class="video-gallery">
               <div class="gallery-item reveal">
@@ -809,11 +671,226 @@
               alt="<?php echo $lang['asset_93'] ?>."
             />
           </div>
-
-          <!-- STILLS END -->
-          <!-- PHOTO GALLERY END -->
         </div>
       </article>
+      <!-- TRAVEL END -->
+      <hr class="semi" role="separator" />
+      <!-- SHOWREEEL START -->
+      <article class="wrapper-wide" id="Showreel">
+        <hr class="reveal" role="separator" />
+        <div class="grid-container fifty-fifty caption-container">
+          <div class="grid-item reveal">
+            <h2>
+              <?php echo $lang['asset_184'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
+            </h2>
+            <div class="hide-cta-min reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_118'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              <?php echo $lang['asset_185'] ?>
+            </p>
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_118'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="semi" />
+      </article>
+      <article id="visuals">
+        <div class="grid-container photo-grid">
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Timetravels</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <video
+              src="/img/husetfundament-showreel.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="Huset Fundament"
+              aria-describedby="<?php echo $lang['asset_40'] ?>"
+              poster="/img/cover-husetfundament.jpg"
+            ></video>
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Timetravels</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <video
+              src="/img/repaireremake.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="Repaire Festival"
+              aria-describedby="<?php echo $lang['asset_38'] ?>"
+              poster="/img/cover-repaireandremake.jpg"
+            ></video>
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Tourist Israel</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
+            <video
+              src="/img/silentparty.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="<?php echo $lang['asset_152'] ?>"
+              aria-describedby="<?php echo $lang['asset_152'] ?>"
+              poster="/img/cover-halloweenparty.jpg"
+            ></video>
+          </div>
+        </div>
+      </article>
+      <!-- SHOWREEEL END -->
+      <!-- INTERVIEW START -->
+      <article class="wrapper-wide" id="Interview">
+        <hr class="reveal" role="separator" />
+        <div class="grid-container fifty-fifty caption-container">
+          <div class="grid-item reveal">
+            <h2>
+              <?php echo $lang['asset_187'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
+            </h2>
+            <div class="hide-cta-min reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_118'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              <?php echo $lang['asset_188'] ?>
+            </p>
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services"
+                aria-label="<?php echo $lang['asset_118'] ?>"
+              >
+                <?php echo $lang['asset_116'] ?>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="semi" />
+        <section id="visual" class="video-gallery" aria-label="">
+          <div
+            class="gallery-item reveal"
+            aria-label="Huset Fundament Crowdfunding 2023"
+          >
+            <img
+              src="/img/cover-crowdfunding.jpg"
+              alt="<?php echo $lang['asset_40'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
+                Crowdfunding
+                <br />
+                <span>2023</span>
+              </h3>
+              <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
+                <i class="fa-solid fa-circle-info">&nbsp; </i
+                ><a href>husetfundament.dk</a>
+              </p>
+              <a
+                aria-label="<?php echo $lang['asset_127'] ?>"
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/hNFAma898Ak?modestbranding=1"
+              ></a>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-parkourtabor.jpg"
+              class="north-cascades-img"
+              alt="<?php echo $lang['asset_47'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
+                <?php echo $lang['asset_46'] ?>
+
+                <br />
+                <span>2023</span>
+              </h3>
+              <p>
+                <i class="fa-solid fa-circle-info">&nbsp; </i
+                ><a>parkourskola.sk</a>
+              </p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
+              ></a>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-bygning5.jpg"
+              alt="<?php echo $lang['asset_50'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
+
+                Bygning 5
+                <br />
+                <span>2022</span>
+              </h3>
+              <p>
+                <i class="fa-solid fa-circle-info">&nbsp; </i><a>bygning5.dk</a>
+              </p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
+              ></a>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- INTERVIEW END -->
       <!-- ART PROJECTS START -->
       <article class="wrapper-wide" id="Art-Projects">
         <hr class="reveal" role="separator" />
@@ -827,99 +904,80 @@
             </p>
           </div>
         </div>
-      </article>
-      <hr class="semi" role="separator" />
-      <article id="visual" class="video-gallery">
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-samso.jpg"
-            alt="<?php echo $lang['asset_39'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
+        <hr class="semi" role="separator" />
+        <section id="visual" class="video-gallery">
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-samso.jpg"
+              alt="<?php echo $lang['asset_39'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
 
-              Samsø <br />
-              <span>2023</span>
-            </h3>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
-            ></a>
+                Samsø <br />
+                <span>2023</span>
+              </h3>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-autoportrait.jpg"
-            alt="<?php echo $lang['asset_122'] ?> <?php echo $lang['asset_123'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              <?php echo $lang['asset_122'] ?>
-              <br />
-              <span>2021</span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-circle-info">&nbsp; </i
-              ><a>adamsochorec.com</a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/mB6d6F_SyAU?modestbranding=1"
-            ></a>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-autoportrait.jpg"
+              alt="<?php echo $lang['asset_122'] ?> <?php echo $lang['asset_123'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
+                <?php echo $lang['asset_122'] ?>
+                <br />
+                <span>2021</span>
+              </h3>
+              <p>
+                <i class="fa-solid fa-circle-info">&nbsp; </i
+                ><a>adamsochorec.com</a>
+              </p>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/mB6d6F_SyAU?modestbranding=1"
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-anna.jpg"
-            alt="Анна <?php echo $lang['asset_123'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              Анна
-              <br />
-              <span>2020</span>
-            </h3>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/cover-anna.jpg"
+              alt="Анна <?php echo $lang['asset_123'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <i class="fa-regular fa-circle-play"></i>
+                Анна
+                <br />
+                <span>2020</span>
+              </h3>
 
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/TYCKiIOtFY0?modestbranding=1"
-            ></a>
+              <a
+                class="vimeo-popup"
+                href="https://www.youtube-nocookie.com/embed/TYCKiIOtFY0?modestbranding=1"
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="gallery-item hide-video_gallery reveal">
-          <img
-            src="/img/gray.jpg"
-            alt="<?php echo $lang['asset_125'] ?> <?php echo $lang['asset_123'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i>
-              <?php echo $lang['asset_125'] ?>
-              <br />
-              <span>20XX</span>
-            </h3>
-
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/TYCKiIOtFY0?modestbranding=1"
-            ></a>
-          </div>
-        </div>
+        </section>
       </article>
       <!-- ART PROJECTS END -->
     </main>
     <!-- FOOTER START -->
     <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
+      crossorigin="anonymous"
+    ></script>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

@@ -11,7 +11,7 @@
         role="video"
         aria-label="Huset Fundament"
         aria-describedby="<?php echo $lang['asset_40'] ?>"
-        poster="/img/cover-husetfundament.jpg"
+        poster="/img/cover-crowdfunding.jpg"
       ></video>
     </div>
     <div class="swiper-slide">
@@ -24,7 +24,6 @@
         aria-label="Bygning 5"
         aria-describedby="<?php echo $lang['asset_50'] ?>"
         poster="/img/cover-bygning5.jpg"
-
       ></video>
     </div>
     <div class="swiper-slide">
