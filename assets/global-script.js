@@ -77,16 +77,16 @@ reveal();
 })();
 const reviewsSwiper = new Swiper(".reviews-swiper", {
   loop: true,
-  // speed: 600,
-  spaceBetween: 20,
-  // autoplay: {
-  //  delay: 1500,
-  // },
+  speed: 600,
+  spaceBetween: 10,
+  autoplay: {
+    delay: 1500,
+  },
   breakpoints: {
     0: {
       slidesPerView: 1,
     },
-    400: {
+    375: {
       slidesPerView: 2,
     },
     620: {

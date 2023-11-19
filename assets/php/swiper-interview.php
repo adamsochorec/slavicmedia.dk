@@ -3,6 +3,15 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://husetfundament.dk/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Huset Fundament</span
+          ><span><i class="fa-solid fa-circle-info"></i></span>
+        </a>
+      </p>
       <video
         src="/img/crowdfunding.mp4"
         preload="metadata"
@@ -15,6 +24,15 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://www.bygning5.dk"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Bygning 5</span
+          ><span><i class="fa-solid fa-circle-info"></i></span
+        ></a>
+      </p>
       <video
         src="/img/bygning5.mp4"
         preload="metadata"
@@ -27,6 +45,15 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://parkourskola.sk"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Parkour Škola</span
+          ><span><i class="fa-solid fa-circle-info"></i></span
+        ></a>
+      </p>
       <video
         src="/img/parkourtabor.mp4"
         preload="metadata"

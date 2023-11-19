@@ -25,7 +25,7 @@
             <a href="/services"><?php echo $lang['asset_105'] ?></a>
           </li>
           <li role="menuitem">
-            <a href="/works"><?php echo $lang['asset_102'] ?></a>
+            <a href="/projects"><?php echo $lang['asset_102'] ?></a>
           </li>
           <li role="menuitem">
             <a href="/#<?php echo $lang['asset_103'] ?>"

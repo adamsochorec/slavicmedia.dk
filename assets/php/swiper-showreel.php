@@ -3,6 +3,15 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://husetfundament.dk/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Huset Fundament</span
+          ><span><i class="fa-solid fa-circle-info"></i></span>
+        </a>
+      </p>
       <video
         src="/img/husetfundament-showreel.mp4"
         preload="metadata"
@@ -15,6 +24,15 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://www.bygning5.dk"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Bygning 5</span
+          ><span><i class="fa-solid fa-circle-info"></i></span
+        ></a>
+      </p>
       <video
         src="/img/repaireremake.mp4"
         preload="metadata"
@@ -27,6 +45,15 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://tribemedia.dk"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Tribe Media</span
+          ><span><i class="fa-solid fa-circle-info"></i></span
+        ></a>
+      </p>
       <video
         src="/img/silentparty.mp4"
         preload="metadata"

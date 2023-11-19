@@ -130,13 +130,14 @@
           </div>
         </article>
         <!-- FEATURES END -->
-        <hr class="reveal" />
+        <hr class="reveal" id="portrait" />
 
         <div class="grid-container services-grid">
           <!-- PORTRAIT START -->
           <div class="grid-item reveal">
             <h2 class="hide-heading-min">
               <?php echo $lang['asset_110'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -147,13 +148,14 @@
             <section>
               <h2 class="hide-heading-max">
                 <?php echo $lang['asset_110'] ?>
+                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
               <p>
                 <?php echo $lang['asset_173'] ?>
               </p>
               <br />
-              <div>
-                <a class="cta" href="/works#portrait"
+              <div class="reveal" id="stills">
+                <a class="cta" href="/projects#portrait"
                   ><?php echo $lang['asset_114'] ?>
                 </a>
               </div>
@@ -164,6 +166,7 @@
           <div class="grid-item reveal">
             <h2 class="hide-heading-min">
               <?php echo $lang['asset_107'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -174,13 +177,14 @@
             <section>
               <h2 class="hide-heading-max">
                 <?php echo $lang['asset_107'] ?>
+                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
               <p>
                 <?php echo $lang['asset_174'] ?>
               </p>
               <br />
-              <div>
-                <a class="cta" href="/works#stills"
+              <div class="reveal" id="travel">
+                <a class="cta" href="/projects#stills"
                   ><?php echo $lang['asset_113'] ?>
                 </a>
               </div>
@@ -191,6 +195,7 @@
           <div class="grid-item">
             <h2 class="hide-heading-min reveal">
               <?php echo $lang['asset_85'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <!-- Slider main container -->
             <?php
@@ -202,13 +207,14 @@
             <section>
               <h2 class="hide-heading-max reveal">
                 <?php echo $lang['asset_85'] ?>
+                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
               <p class="reveal">
                 <?php echo $lang['asset_175'] ?>
               </p>
               <br />
-              <div class="reveal">
-                <a class="cta" href="/works#travel"
+              <div class="reveal" id="showreel">
+                <a class="cta" href="/projects#travel"
                   ><?php echo $lang['asset_115'] ?>
                 </a>
               </div>
@@ -219,6 +225,7 @@
           <div class="grid-item reveal">
             <h2 class="hide-heading-min">
               <?php echo $lang['asset_184'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -229,13 +236,14 @@
             <section>
               <h2 class="hide-heading-max">
                 <?php echo $lang['asset_184'] ?>
+                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
               <p>
                 <?php echo $lang['asset_185'] ?>
               </p>
               <br />
-              <div>
-                <a class="cta" href="/works#"
+              <div class="reveal" id="interview">
+                <a class="cta" href="/projects#showreel"
                   ><?php echo $lang['asset_186'] ?>
                 </a>
               </div>
@@ -246,6 +254,7 @@
           <div class="grid-item reveal">
             <h2 class="hide-heading-min">
               <?php echo $lang['asset_187'] ?>
+              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
               $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
@@ -256,13 +265,14 @@
             <section>
               <h2 class="hide-heading-max">
                 <?php echo $lang['asset_187'] ?>
+                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
               <p>
                 <?php echo $lang['asset_188'] ?>
               </p>
               <br />
-              <div>
-                <a class="cta" href="/works#"
+              <div class="reveal" id="packages">
+                <a class="cta" href="/projects#interview"
                   ><?php echo $lang['asset_189'] ?>
                 </a>
               </div>

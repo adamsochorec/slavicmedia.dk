@@ -144,7 +144,10 @@
         <!-- FEATURES END -->
         <hr class="reveal" role="separator" />
 
-        <div class="grid-container fifty-fifty caption-container">
+        <div
+          class="grid-container fifty-fifty caption-container"
+          id="reviews-caption"
+        >
           <div class="grid-item">
             <h2 class="reveal">
               <?php echo $lang['asset_6'] ?>
@@ -161,18 +164,22 @@
       <!-- SERVICES END -->
       <hr class="semi" id="team" />
       <!-- REVIEWS START -->
-      <?php
+      <article class="wrapper-wide" id="reviews">
+        <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'reviews.php';
+    include $IPATH . 'swiper-reviews.php';
     ?>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://g.page/r/CRTkzopg3plWEB0/review"
-        class="cta reveal"
-      >
-        <?php echo $lang['asset_31'] ?>
-      </a>
+        <div class="flex-center reveal">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://g.page/r/CRTkzopg3plWEB0/review"
+            class="cta"
+          >
+            <?php echo $lang['asset_31'] ?>
+          </a>
+        </div>
+      </article>
       <!-- REVIEWS END -->
       <hr class="semi" id="team" />
       <!-- COMPANY CAPTIONS END -->
@@ -486,7 +493,7 @@
               </a>
             </div>
             <div class="grid-item reveal">
-              <a href="/for-press" class="cta cta2">
+              <a href="/press" class="cta cta2">
                 <?php echo $lang['asset_75'] ?>
               </a>
             </div>
