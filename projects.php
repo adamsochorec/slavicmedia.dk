@@ -223,9 +223,18 @@
           </div>
 
           <div class="h-stretch hide-photo-min reveal">
+            <p class="note">
+              <a
+                href="https://www.sort-hvid.dk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span>Sort / Hvid</span
+                ><span><i class="fa-solid fa-circle-info"></i></span
+              ></a>
+            </p>
             <img
-              src="/img/2021-10-01-01825.jpg"
-              alt="<?php echo $lang['asset_153'] ?>."
+              src="/img/2023-11-13-00267.jpg"
+              alt="<?php echo $lang['asset_216'] ?>."
             />
           </div>
         </div>
@@ -653,8 +662,8 @@
               controls="controls"
               playsinline
               role="video"
-              aria-label=" "
-              aria-describedby="<?php echo $lang['asset_40'] ?>"
+              aria-label=""
+              aria-describedby=""
               poster="/img/2022-07-26-00855.jpg"
             ></video>
           </div>

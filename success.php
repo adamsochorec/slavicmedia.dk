@@ -1,7 +1,4 @@
-<?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'config.php';
-    ?>
+<?php include 'assets/php/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

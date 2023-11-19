@@ -40,6 +40,14 @@
           <li role="menuitem">
             <a href="/press"><?php echo $lang['asset_75'] ?></a>
           </li>
+          <li role="menuitem">
+            <?php if($_SESSION['lang']=="da"){
+              echo '<a href="/?lang=en">EN</a>';
+            }
+            else if($_SESSION['lang']=="en"){
+              echo '<a href="/?lang=da">DA</a>';
+            } ?>
+          </li>
         </ul>
       </nav>
     </div>

@@ -1,7 +1,4 @@
-<?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'config.php';
-?>
+<?php include 'assets/php/config.php'; ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
@@ -90,7 +87,7 @@
               alt="<?php echo $lang['asset_40'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>Portrait</h3>
+              <h3><?php echo $lang['asset_110'] ?></h3>
             </div>
           </a>
           <a href="/services" class="gallery-item reveal">
@@ -100,7 +97,7 @@
               alt="<?php echo $lang['asset_47'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>Stills</h3>
+              <h3><?php echo $lang['asset_107'] ?></h3>
             </div>
           </a>
           <a href="/services" class="gallery-item reveal">
@@ -109,7 +106,9 @@
               alt="<?php echo $lang['asset_152'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>Travel</h3>
+              <h3>
+                <h3><?php echo $lang['asset_85'] ?></h3>
+              </h3>
             </div>
           </a>
           <a href="/services" class="gallery-item reveal">
@@ -118,7 +117,7 @@
               alt="<?php echo $lang['asset_50'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>Showreel</h3>
+              <h3><?php echo $lang['asset_184'] ?></h3>
             </div>
           </a>
 
@@ -128,7 +127,7 @@
               alt="<?php echo $lang['asset_38'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>Interview</h3>
+              <h3><?php echo $lang['asset_187'] ?></h3>
             </div>
           </a>
         </article>
@@ -506,8 +505,6 @@
       <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'global-footer.php';

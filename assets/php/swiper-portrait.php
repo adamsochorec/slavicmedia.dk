@@ -164,6 +164,27 @@
         alt="<?php echo $lang['asset_51'] ?>."
       />
     </div>
+    <div class="swiper-slide">
+      <p class="note">
+        <a
+          href="https://www.sort-hvid.dk/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Sort / Hvid</span
+          ><span><i class="fa-solid fa-circle-info"></i></span
+        ></a>
+      </p>
+      <img
+        class="hide-slider_img-max"
+        src="/img/blur/2023-11-13-00267.jpg"
+        alt="<?php echo $lang['asset_51'] ?>."
+      />
+      <img
+        class="hide-slider_img-min"
+        src="/img/blur/2023-11-13-00267-v.jpg"
+        alt="<?php echo $lang['asset_51'] ?>."
+      />
+    </div>
   </div>
 
   <!-- If we need pagination -->

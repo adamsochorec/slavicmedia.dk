@@ -1,7 +1,7 @@
 <?php session_start();
 
 // Define a list of supported languages to avoid arbitrary file inclusion
-$supportedLanguages = ['en'];
+$supportedLanguages = ['en', 'da'];
 
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = "en";
