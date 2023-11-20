@@ -1,14 +1,15 @@
-<?php $lang = [
+<?php
+$lang = [
 "asset_1" => "rul for at udforske",
 "asset_2" => "Portræt af en pige i sort skjorte taget i et studie.",
-"asset_3" => "Et par mænd laver ting på et værksted hos Hyg og Byg",
+"asset_3" => "Et par mænd laver ting på værksted hos Hyg og Byg",
 "asset_4" => "Portræt af en kvinde i en blå kjole, der sidder bag et bord på Slovo 21 workshop",
 "asset_5" => "Vores historie",
 "asset_6" => "<span class='highlited tuscher'>Handlinger</span> siger højere <span class='highlited tuscher'>end</span> nogen <span class='highlited tuscher'> ord</span >",
-"asset_7" => "Vil du flyve en drone over åbent hav, fange nordlyset i koldt vejr, cykle på tværs af hele landet, gå gennem ørkenen eller komme tæt på på en måde, som ingen andre har?" ,
+"asset_7" => "Vil du flyve med en drone over åbent hav, fange nordlyset i isende koldt vejr, cykle på tværs af hele landet, gå gennem ørkenen eller komme tæt på på en måde, som ingen andre har? ",
 "asset_8" => "Vores projekter",
 "asset_9" => "Strategi, <span class='highlited tuscher'>erfaring</span>, præcision og hårdt arbejde til din <span class='highlited tuscher'>service</span>",
-"asset_10" =>"Vi er ikke dit traditionelle produktionsselskab. Vi er kreative historiefortællere, der tror på gode scenografier, dyb øjenkontakt og det rigtige lys kan hæve dit budskab over støjen.",
+"asset_10" =>"Vi er ikke dit traditionelle produktionsselskab. Vi er kreative historiefortællere, der tror på gode scenografier, dyb øjenkontakt og det rigtige lys, der kan hæve dit budskab over støjen.",
 "asset_11" => "Foto",
 "asset_12" => "Hovedbilleder, fotografering, stillbilleder og rejsedokumentation er vores niche",
 "asset_13" => "Video",
@@ -37,7 +38,7 @@
 "asset_37" => "",
 "asset_38" => "Begivenhedsvideo af en festival med fokus på genbrug af gamle ting.",
 "asset_39" => "Kort kunstnerisk film med dronefanget optagelser.",
-"asset_40" => "Showreel af en kulturel frivillig organisation.",
+"asset_40" => "Showreel af kulturel frivillig organisation.",
 "asset_41" => "Slip magien fra Slavic Media, den dynamiske duo fra Tjekkiet og Slovakiet, løs, mens vi mesterligt væver vores færdigheder ind i hvert projekt. Fra at fange hjertelige øjeblikke til at producere virksomhedsvideoer i Kolding, Danmark, vi har dig dækket !",
 "asset_42" => "Begivenhedsvideografi, Bryllupsvideografi, Kommerciel fotografering, Portrætfotografering, Kolding-fotografer, Kolding-videografer, Danmark Media Services, Professionel fotografering, Professionel videografi, Branding Services, Indholdsskabelse, Multimedieproduktion, Digital Marketing, Social Media Content, Kreativt bureau Kolding, multimediedesign, salgsfremmende videoer, dokumentarfilm, musikvideoer, sportsvideografi, livsstilsfotografering",
 "asset_43" => "Lorem ipsum",
@@ -46,7 +47,7 @@
 "asset_46" => "Parkour Skole",
 "asset_47" => "Slovakisk parkour sommerlejr udstillingsvindue i hjertet af Tatras.",
 "asset_48" => "Udvendigt loppemarked arrangeret af Kiosk 54",
-"asset_49" => "Foto af en vandrer, der står på klippen i skoven med en vandrestang ud af en trægren",
+"asset_49" => "Foto af vandrer, der står på klippen i skoven med en vandrestang ud af en trægren",
 "asset_50" => "Interviewdokumentar af et offentligt kulturhus i Kolding.",
 "asset_51" => "Portræt af en kvinde lænet over en violin",
 "asset_52" => "Nærbillede af en mand iført baseballkasket lænet op ad en mur i Kolding",
@@ -54,7 +55,7 @@
 "asset_54" => "Studioportræt af en kvinde med en hat på Divadlo Disk",
 "asset_55" => "Nærbillede portræt af Tereza Císařová liggende på et bord med pommes frites, fotograferet ved Divadlo Na Vinohradech",
 "asset_56" => "David Steigerwald afklædt, siddende i et bur ved Divadlo Na Vinohradech, Prag",
-"asset_57" => "Par holder i hånden under et show i Kolding Kulturnat",
+"asset_57" => "Par holder i hånden under show i Kolding Kulturnat",
 "asset_58" => "Mand omgivet af flasker, der ryger en cigaret på Divadlo Na Vinohradech",
 "asset_59" => "Otakar Brousek ml. smilende med malet ansigt i junglebaggrunden Divadlo Na Vinohradech",
 "asset_60" => "Portræt fra en koncert af en rocker med sortmalet ansigt ved en koncert i Pistop, Kolding",
@@ -64,11 +65,11 @@
 "asset_64" => "Portræt fra en koncert af en rockerpige, der vinker med hånden til en koncert i Pitstop, Kolding",
 "asset_65" => "Kvinde holder en mikrofon foran en menneskemængde på Roskilde Festival",
 "asset_66" => "Anime Animeaux frontmand holder en mikrofon på en scene",
-"asset_67" => "Anime Animeaux-guitarist uden skjorte med hovedrollen i et kamera",
+"asset_67" => "Anime Animeaux-guitarrist uden skjorte med hovedrollen i et kamera",
 "asset_69" => "Gruppe ældre par kysser til bryllup i Kolding",
 "asset_70" => "Kim Kim optræder på en Roskilde festival",
-"asset_71" => "Silhuet af en DJ, der spiller i en rave i Kolding",
-"asset_72" => "Silhuet af en Ki! der optræder i Pitstop",
+"asset_71" => "Silouete af en DJ, der spiller i rave i Kolding",
+"asset_72" => "Silouete of a Ki! optræder i Pitstop",
 "asset_74" => "Lorem ipsum",
 "asset_75" => "Til presse",
 "asset_76" => " Korrupte muligheder unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
@@ -81,8 +82,8 @@
 "asset_83" => "Download",
 "asset_84" => "Forhåndsvisning",
 "asset_85" => "Rejse",
-"asset_86" => "Fisker, der fisker i det nordlige Sverige oplyst af en skinnende måne",
-"asset_87" => "Backpackere på vandretur gennem Ålands landskab",
+"asset_86" => "Fisker, der fisker i det nordlige Sverige belyst af en skinnende måne",
+"asset_87" => "Backpackere på vandretur gennem et landskab på Åland",
 "asset_88" => "",
 "asset_89" => "Lorem ipsum",
 "asset_90" => " Korrupti optio unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
@@ -92,7 +93,7 @@
 "asset_94" => " Corrupti option unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
 "asset_95" => "Portræt af en tidsrejseguide med norske fjorde i baggrunden",
 "asset_96" => " Korrupti valgmulighed unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores, reprehenderit eius assumenda facere commodi delectus.",
-"asset_97" => "Portræt af en pige, der kæler med to huskyer i finske Lapland",
+"asset_97" => "Portræt af en pige, der kæler med to huskyer i Finske Lapland",
 "asset_98" => "Åland",
 "asset_99" => " Korrupti valgmulighed unde amet, cupiditate aut iusto accusamus saepe necessitatibus dolores.",
 "asset_101" => "Udforsk vores tjenester",
@@ -106,9 +107,9 @@
 "asset_109" => "En mester i alle brancher! Kommerciel er vores passion, men <u>kunst</u> er vores sprog.",
 "asset_110" => "Portræt",
 "asset_112" => " Korrupte valgmuligheder, cupiditate aut iusto accusamus saepe necessitatibus dolores.",
-"asset_113" => "Stills-projekter",
-"asset_114" => "Portrætprojekter",
-"asset_115" => "Rejseprojekter",
+"asset_113" => "Stills projekter",
+"asset_114" => "Portræt projekter",
+"asset_115" => "Rejse projekter",
 "asset_116" => "Planer og priser",
 "asset_117" => "",
 "asset_118" => "",
@@ -153,7 +154,7 @@ fanger begivenhedens unikke ånd.",
 <span class='highlited tuscher'>Priser</span>",
 "asset_146" => "Mand rapper med glødende tankstationsbaggrund, Prag",
 "asset_147" => "Nærbillede af en piges ansigt med farverig makeup omkring øjnene, der får hende til at ligne en sommerfugl",
-"asset_148" => "Nærbillede af en piges ansigt, der læner sig op ad et spejl, skaber en refleksion, med en lyserød baggrund, fotograferet i Kolding",
+"asset_148" => "Nærbillede af en piges ansigt, der læner sig op ad et spejl, skaber en refleksion, med lyserød baggrund, fotograferet i Kolding",
 "asset_149" => "Kvinde i rød top med livlig læbestift, ansigt skjult af plexiglas",
 "asset_150" => "Band HVALP albumcover",
 "asset_151" => "Ekspedition Danmark",
@@ -165,24 +166,24 @@ fanger begivenhedens unikke ånd.",
 "asset_157" => "Slovakisk",
 "asset_158" => "Svensk",
 "asset_159" => "Færdigheder",
-"asset_160" => "Videoproduktion",
-"asset_161" => "Fotoproduktion",
+"asset_160" => "Video-produktion",
+"asset_161" => "Foto-produktion",
 "asset_162" => "Animation",
-"asset_163" => "Manuskriptskrivning",
+"asset_163" => "Scripts-krivning",
 "asset_164" => "Send",
 "asset_165" => "",
 "asset_166" => "Webdev",
-"asset_167" => "Droneoperatør",
+"asset_167" => "Drone-operatør",
 "asset_168" => "Anmod om et forslag",
 "asset_169" => "Projektbeskrivelse",
 "asset_170" => "Navn",
 "asset_171" => "Ekspedition Danmarks blog",
 "asset_172" => "Ekspedition Åland blog",
-"asset_173" => "Uanset om du vil have billeder til arbejdet, der ser godt ud, eller billeder, der viser, hvem du er, har vi valg til dig. Du kan få taget billeder udenfor eller i et studie for et fancy look.",
+"asset_173" => "Uanset om du vil have billeder til arbejdet, der ser rigtig godt ud, eller billeder, der viser, hvem du er, har vi valg til dig. Du kan få billeder taget udenfor eller i et studie for et fancy look.",
 "asset_174" => "Høj dine liveoptrædener, vigtige præsentationer, bryllupper eller ferniseringer ved at opleve din begivenhed fra et uset perspektiv uden overhovedet at bemærke, at du hyrede os.",
 "asset_175" => "Begynd på en visuel rejse gennem tundraer eller ørkener, mens vi fanger ånden i dine eventyr. Vores linse forvandler dine rejseoplevelser til fængslende historier.",
 "asset_176" => "Portræt af guide i Judean Derest i nærheden af Det Døde Hav",
-"asset_177" => "Pige, der står barfodet midt i oasekilden i Judæas ørken i Israel",
+"asset_177" => "Pige stader barfodet midt i en oase i Judæaørkenen i Israel",
 "asset_178" => "Kvinde vandrer på Masada i Israel",
 "asset_179" => "Formularen blev sendt!",
 "asset_180" => "Vend tilbage til startsiden",
@@ -198,20 +199,18 @@ fanger begivenhedens unikke ånd.",
 "asset_190" => "Ikke sikker endnu",
 "asset_191" => "Til kunder",
 "asset_192" => "Visuel fremragende",
-"asset_193" => " Fordyb dig i førsteklasses billeder med vores 25 MP-fotos og 4K 10-bit gengivelser. Vi sikrer, at alle fine detaljer fanges for at bringe dine kreationer til live. Vores levering inkluderer online-optimeret indhold, hvilket gør det nemt at dele og få adgang til.",
+"asset_193" => "Fordyb dig i førsteklasses billeder med vores 25 MP-fotos og 4K 10-bit gengivelser. Vi sikrer, at alle fine detaljer er fanget for at bringe dine kreationer til live.",
 "asset_194" => "Studio kreativitet",
-"asset_195" => "Træd ind i vores professionelt udstyrede studier, designet til at frigøre maksimal kreativ frihed. Vores studie giver det perfekte miljø til at fange din vision med præcision og stil.",
+"asset_195" => "Træd ind i vores professionelt udstyrede studie, designet til at frigøre maksimal kreativ frihed.",
 "asset_196" => "Ekspert efterproduktion",
 "asset_197" => "Gå ud over grundlæggende redigering! Oplev den transformative kraft af
-billedretouchering, præcis farvegradering og ekspertvideo-VFX.
-Vi garanterer, at dit indhold skiller sig ud uden sidestykke
-visuel appel.",
+billedretouchering, præcis farvegradering og ekspertvideo VFX.",
 "asset_198" => "Luftperspektiv",
-"asset_199" => "Løft dine projekter med betagende udsigter fra luften. Vores luftoptagelsestjenester tilføjer en ny dimension til dine billeder og fanger øjeblikke fra unikke og fængslende vinkler.",
+"asset_199" => "Løft dine projekter med betagende udsigter fra luften. Vores luftoptagelsestjenester tilføjer en ny dimension til dine billeder.",
 "asset_200" => "Grafik",
-"asset_201" => "Få dit brand til at se fantastisk ud med vores fantastiske grafiske designs. Vi skaber iøjnefaldende logoer og fede layouts, der vil imponere folk.",
+"asset_201" => "Få dit brand til at se fantastisk ud med vores fantastiske grafiske designs. Vi skaber iøjnefaldende logoer og fede layouts, der virkelig vil imponere folk.",
 "asset_202" => "Dynamisk animation",
-"asset_203" => "Hav det sjovt med vores animerede historier! Vi bringer ideer ud i livet med
+"asset_203" => "Vi bringer ideer ud i livet med
 livlige karakterer og cool motion graphics. Dine projekter vil
 være super spændende med vores animationsevner.",
 "asset_204" => "rejseomkostninger",
@@ -231,7 +230,7 @@ din tur ledsaget af musik og fortælling.
 </li>
 <li>
 4K-videolevering: Opløsning med en 10-bit dynamik
-Udvalget for enestående detaljer.
+række for ekstraordinære detaljer.
 </li>",
 "asset_206" => "Denne pakke er ideel til rejsebureauer, der ønsker det
 fange deres tur i fantastiske billeder og en engagerende 4k
@@ -248,12 +247,12 @@ Atmosfæriske billeder for at fange din stemning og følelse
 rejse
 </li>
 <li>
-2 YouTube horisontale videoer (op til 2-3 minutter 1
+2 youtube horisontale videoer (op til 2-3 minutter 1
 video): højdepunkter i to engagerende YouTube-videoer,
 hver skræddersyet til forskellige historiefortællingstilgange.
 </li>
 <li>
-3 hjul/tiktoks baseret på de seneste rejsetrends
+3 hjul/tiktoks baseret på seneste rejsetrends
 </li>
 <li>Inkluderet dronevideo/fotografi</li>
 <li>
@@ -263,18 +262,18 @@ Mere dybdegående dækning af din rejse, inklusive unikke
 "asset_208" => "Denne pakke er en god mulighed for rejsebureauer, der
 ønsker mere dybdegående dækning af deres rejse med flere
 eksport til markedsføring, herunder ærlige øjeblikke,
-inklusive 3 hjul/TikTok-videoer, et luftfoto med drone og 2
+inklusive 3 hjul/tiktok videoer, drone luftfoto og 2
 horisontale videoer defineret af dine behov og fokus på
 oplevelse/interview/historiefortælling Inkluderer fotoeksport
 i slutningen af hver dag, så rejsende kan skrive og dele
-deres øjeblikke i realtid/ASAP.",
+deres øjeblikke i realtid/asap.",
 "asset_209" => "<li>30 redigerede digitale billeder/dag</li>
 <li>
-3 YouTube horisontale videoer (2-3 minutter) eller 1 lang video
+3 horisontale YouTube-videoer (2-3 minutter) eller 1 lang video
 (10 minutter)
 </li>
 <li>
-5 hjul/tiktoks baseret på de seneste rejsetrends
+5 hjul/tiktoks baseret på seneste rejsetrends
 </li>
 <li>Inkluderet dronevideo/fotografi</li>
 <li>
@@ -290,18 +289,18 @@ af din rejse
 </li>",
 "asset_211" => "Denne pakke er ideel til rejsebureauer, der ønsker fuld
 dækning af deres rejse, fra start til slut, herunder
-5 hjul/TikTok-videoer, op til 3 YouTube horisontale videoer
-format, drone-luftoptagelser og interviews af rejsende til
-bedre historiefortælling i videoer og en række portrætter
+5 hjul/tiktok videoer, op til 3 youtube horisontale videoer
+format, drone luftoptagelser, interviews af rejsende til
+bedre historiefortælling i videoer og forskellige portrætter
 og atmosfæriske billeder. Inkluderer fotoeksport i slutningen
 af hver dag, så rejsende kan skrive og dele deres
-øjeblikke i realtid/ASAP.",
+øjeblikke i realtid/asap.",
 "asset_212" => "870 EUR",
 "asset_213" => "1.500 EUR",
 "asset_214" => "1.900 EUR",
 "asset_215" => "XXX EUR",
-"asset_216" => "Kvinde og mand i et intimt kram, en kvinde holder en kniv på mandens hals.",
-"asset_217" => "",
+"asset_216" => "Kvinde og mand i intimt kram, kvinde holder en kif på mandens hals.",
+"asset_217" => "Andet",
 "asset_218" => "",
 "asset_219" => "",
 "asset_220" => "",

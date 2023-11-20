@@ -186,6 +186,7 @@
       />
     </div>
   </div>
+  <div class="swiper-pagination"></div>
 
   <!-- If we need pagination -->
   <!-- If we need navigation buttons -->

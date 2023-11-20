@@ -199,20 +199,18 @@ $lang = [
     "asset_190" => "Not sure yet",
     "asset_191" => "For clients",
     "asset_192" => "Visual Excellence",
-    "asset_193" => "  Immerse yourself in top-notch visuals with our 25 MP photos and 4K 10-bit renders. We ensure every fine detail is captured to bring your creations to life. Our delivery includes online-optimized content, making it easy to share and access.",
+    "asset_193" => "Immerse yourself in top-notch visuals with our 25 MP photos and 4K 10-bit renders. We ensure every fine detail is captured to bring your creations to life.",
     "asset_194" => "Studio Creativy",
-    "asset_195" => "Step into our professionally equipped studios, designed to unleash maximum creative freedom. Our studio provides the perfect environment for capturing your vision with precision and style.",
+    "asset_195" => "Step into our professionally equipped studio, designed to unleash maximum creative freedom.",
     "asset_196" => "Expert Post-Production",
     "asset_197" => "Go beyond basic editing! Experience the transformative power of
-    image retouching, precise color grading, and expert video VFX.
-    We guarantee your content will stand out with unparalleled
-    visual appeal.",
+    image retouching, precise color grading, and expert video VFX.",
     "asset_198" => "Aerial Perspective",
-    "asset_199" => "Elevate your projects with breathtaking aerial views. Our aerial shooting services add a new dimension to your visuals, capturing moments from unique and captivating angles.",
+    "asset_199" => "Elevate your projects with breathtaking aerial views. Our aerial shooting services add a new dimension to your visuals.",
     "asset_200" => "Graphic Art",
     "asset_201" => "Make your brand look amazing with our fantastic graphic designs. We create eye-catching logos and cool layouts that will really impress people.",
     "asset_202" => "Dynamic Animation",
-    "asset_203" => "Have fun with our animated stories! We bring ideas to life with
+    "asset_203" => "We bring ideas to life with
     lively characters and cool motion graphics. Your projects will
     be super exciting with our animation skills.",
     "asset_204" => "travelling costs",
@@ -302,7 +300,7 @@ $lang = [
     "asset_214" => "1.900 EUR",
     "asset_215" => "XXX EUR",
     "asset_216" => "Woman and man in intimate hug, woman holds a kife on mans neck.",
-    "asset_217" => "",
+    "asset_217" => "Other",
     "asset_218" => "",
     "asset_219" => "",
     "asset_220" => "",

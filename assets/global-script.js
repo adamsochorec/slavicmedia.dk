@@ -80,7 +80,7 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   speed: 600,
   spaceBetween: 10,
   autoplay: {
-    delay: 1500,
+    delay: 3000,
   },
   breakpoints: {
     0: {

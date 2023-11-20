@@ -44,7 +44,6 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
                 <?php echo $lang['asset_192'] ?>
               </h3>
               <p>
@@ -57,7 +56,6 @@
             <img src="/img/studio.jpg" alt="<?php echo $lang['asset_38'] ?>." />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-microphone-lines"></i>
                 <?php echo $lang['asset_194'] ?>
               </h3>
               <p>
@@ -74,7 +72,6 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-pen-to-square"></i>
                 <?php echo $lang['asset_196'] ?>
               </h3>
               <p>
@@ -90,7 +87,6 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-plane"></i>
                 <?php echo $lang['asset_198'] ?>
               </h3>
               <p>
@@ -102,7 +98,6 @@
             <img src="/img/hvalp.jpg" alt="<?php echo $lang['asset_50'] ?>." />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-compass-drafting"></i>
                 <?php echo $lang['asset_200'] ?>
               </h3>
               <p>
@@ -117,7 +112,6 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <i class="fa-solid fa-shuffle"></i>
                 <?php echo $lang['asset_202'] ?>
               </h3>
               <p>

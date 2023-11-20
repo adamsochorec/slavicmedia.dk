@@ -64,6 +64,9 @@
             <option value="<?php echo $lang['asset_187'] ?>">
               <?php echo $lang['asset_187'] ?>
             </option>
+            <option value="<?php echo $lang['asset_217'] ?>">
+              <?php echo $lang['asset_217'] ?>
+            </option>
           </select>
           <br />
           <p>

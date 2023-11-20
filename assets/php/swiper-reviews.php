@@ -54,6 +54,27 @@
         can guarantee you high quality photos and videos. Definitely will come
         back to these guys. :))
       </p>
+    </div> <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjX0xNwelhtHQ_46afqwRvy8K1_gBCCVFzmw9C-GNY9nTQ=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/116209661109434700092?hl=en-US"
+              >Bygning 5</a
+            ><br />Collaborator<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">Collaboration with pros :)</p>
     </div>
     <div class="swiper-slide">
       <div class="grid-container">
@@ -79,6 +100,30 @@
         Have had them take photos for a few events and they are just a great
         team. good guys, easy to work with, great eye for photography. 10/10
         would recommend 🙌
+      </p>
+    </div>
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            src="https://lh3.googleusercontent.com/a/ACg8ocLtiYezKjjGk3MmzuuwgUbI9BNNjkq5y8xXZVNlGvKb=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/108504332332452488678?hl=en-US"
+              >Erika H.</a
+            ><br />Client<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        They were amazing to work with. Definitely not the last collab.
       </p>
     </div>
     <div class="swiper-slide">
@@ -112,52 +157,6 @@
         <div class="grid-item">
           <img
             class="customer-img"
-            src="https://lh3.googleusercontent.com/a/ACg8ocLtiYezKjjGk3MmzuuwgUbI9BNNjkq5y8xXZVNlGvKb=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.google.com/maps/contrib/108504332332452488678?hl=en-US"
-              >Erika H.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">
-        They were amazing to work with. Definitely not the last collab.
-      </p>
-    </div>
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a-/ALV-UjVWC7FZLpPknVEpxrdB7NFfgLVs18Vs92Sfdpgo9ENmWYk=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.google.com/maps/contrib/101149448207142561689?hl=en-US"
-              >Janka H.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">Amazing service! 🤩</p>
-    </div>
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjXZ14eIvhbSg9Qmpyeu_NaaYcqbgv-I6A1vJ46rin9gn8I=w120-h120-p-rp-mo-br100"
           />
         </div>
@@ -175,28 +174,7 @@
       </div>
       <p class="rewiews-message">Great photos! 🙏🔥</p>
     </div>
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a-/ALV-UjX0xNwelhtHQ_46afqwRvy8K1_gBCCVFzmw9C-GNY9nTQ=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.google.com/maps/contrib/116209661109434700092?hl=en-US"
-              >Bygning 5</a
-            ><br />Collaborator<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">Collaboration with pros :)</p>
-    </div>
+   
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -223,6 +201,27 @@
         der er med til at formidle den historie man vil fortælle. De største
         anbefalinger herfra.
       </p>
+    </div>   <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjVWC7FZLpPknVEpxrdB7NFfgLVs18Vs92Sfdpgo9ENmWYk=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/101149448207142561689?hl=en-US"
+              >Janka H.</a
+            ><br />Client<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">Amazing service! 🤩</p>
     </div>
     <!--
     <div class="swiper-slide">
