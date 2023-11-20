@@ -38,8 +38,6 @@
           </p>
         </div>
       </article>
-      <hr class="semi" role="separator" />
-
       <!-- PHOTO GALLERY START -->
       <!-- PORTRAIT START -->
       <article class="wrapper-wide" id="portrait">
@@ -276,7 +274,6 @@
         </div>
       </article>
       <hr class="semi" role="separator" />
-
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
@@ -683,7 +680,6 @@
         </div>
       </article>
       <!-- TRAVEL END -->
-      <hr class="semi" role="separator" />
       <!-- SHOWREEEL START -->
       <article class="wrapper-wide" id="showreel">
         <hr class="reveal" role="separator" />
@@ -909,8 +905,7 @@
           </div>
         </div>
       </article>
-      <hr class="semi" role="separator" />
-      <article id="visuals">
+<br>      <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <video

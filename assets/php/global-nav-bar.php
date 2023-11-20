@@ -28,7 +28,7 @@
             <a href="/projects"><?php echo $lang['asset_102'] ?></a>
           </li>
           <li role="menuitem">
-            <a href="/#<?php echo $lang['asset_103'] ?>"
+            <a href="/#team"
               ><?php echo $lang['asset_18'] ?></a
             >
           </li>
@@ -42,10 +42,10 @@
           </li>
           <li role="menuitem">
             <?php if($_SESSION['lang']=="da"){
-              echo '<a href="/?lang=en">EN</a>';
+              echo '<a href="/?lang=en">🇬🇧</a>';
             }
             else if($_SESSION['lang']=="en"){
-              echo '<a href="/?lang=da">DA</a>';
+              echo '<a href="/?lang=da">🇩🇰</a>';
             } ?>
           </li>
         </ul>

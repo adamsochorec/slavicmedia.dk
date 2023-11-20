@@ -197,7 +197,7 @@ hr {
   box-shadow: var(--box-shadow-1);
 }
 hr:not(hr.semi) {
-  margin: 3rem 0;
+  margin: 48px 0;
 }
 .semi {
   margin: var(--grid-gap-2) 0;
@@ -834,6 +834,8 @@ header {
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   -ms-transform: translateY(0);
   transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -929,7 +931,7 @@ ul.menu-left.collapse {
 .cta,
 button.submit-btn {
   background-color: rgba(var(--secondary-color), 1);
-  padding: 10px 15px;
+  padding: var(--grid-gap-1) var(--grid-gap-2);
   color: rgba(var(--white-color), 1);
   border-radius: var(--border-radius-1);
   margin-top: var(--grid-gap-2) !important;
@@ -1107,9 +1109,9 @@ button.submit-btn {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  border: none;
+  outline: 2px solid rgba(var(--light-grey-color), 0.4);
   border-radius: var(--border-radius-1);
-  padding: 0.8rem;
+  padding: var(--grid-gap-1) var(--grid-gap-2);
   width: 100%;
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
@@ -1295,7 +1297,6 @@ footer span {
   font-weight: 800;
 }
 #services .grid-item p {
-  max-width: 80%;
   font-family: var(--content-font);
 }
 .gallery #first-product p,
@@ -2829,7 +2830,7 @@ img.mfp-img {
   text-decoration: underline;
 }
 #services .gallery .grid-item {
-  height: 390px;
+  height: 400px;
 }
 /* CARD FLIP START */
 .flip-card {
@@ -2948,7 +2949,7 @@ img.mfp-img {
 .tabset > label {
   position: relative;
   display: inline-block;
-  padding: 7.5px 12.5px;
+  padding: var(--grid-gap-1) var(--grid-gap-2);
   border-bottom: 0;
   cursor: pointer;
   font-family: var(--logo-font);
@@ -3029,14 +3030,14 @@ img.mfp-img {
 /* FEATURES START */
 .features-grid {
   display: grid;
-  grid-gap: var(--grid-gap-1);
+  grid-gap: var(--grid-gap-2);
   padding: 0;
 }
 #services .features-grid .gallery-item {
   position: relative;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   max-width: calc(100vw - var(--homepage-padding) * 2);
-  height: 150px;
+  height: 400px;
 }
 #homepage .features-grid {
   grid-template-columns: repeat(3, 1fr);
@@ -3058,6 +3059,11 @@ img.mfp-img {
   -o-object-fit: cover;
   object-fit: cover;
   z-index: -1;
+}
+.team-container .intro-section,
+.press-container .intro-section,
+.intro-section .filter {
+  height: 400px;
 }
 #playPauseButton {
   background: rgba(0, 0, 0, 0);
@@ -3472,10 +3478,6 @@ ul.languages-legend li::marker {
   .noindex h1 {
     font-size: var(--fontsize-h5);
   }
-  .press-container .intro-section,
-  .press-container .intro-section .filter {
-    height: 40vh;
-  }
   .team-container .intro-section,
   .press-container .intro-section,
   .intro-section .filter {
@@ -3576,8 +3578,8 @@ ul.languages-legend li::marker {
   .features-grid {
     grid-gap: var(--grid-gap-2);
   }
-  #homepage .features-grid h4 {
-    font-size: var(--fontsize-note) !important;
+  #homepage .features-grid h3 {
+    font-size: var(--fontsize-p) !important;
   }
   #services .features-grid h4 {
     font-size: var(--fontsize-h5);
@@ -3618,7 +3620,8 @@ ul.languages-legend li::marker {
     grid-template-columns: repeat(2, 1fr);
   }
   #services .features-grid .gallery-item {
-    height: 220px;
+    aspect-ratio: 1/1;
+    height: 100%;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -3774,12 +3777,6 @@ ul.languages-legend li::marker {
     display: none;
   }
 }
-@media only screen and (min-width: 415px) and (max-width: 767px) {
-  .press-container .intro-section,
-  .press-container .intro-section .filter {
-    height: 50vh;
-  }
-}
 @media only screen and (min-width: 768px) {
   header ul.menu-left {
     display: block !important;
@@ -3788,7 +3785,7 @@ ul.languages-legend li::marker {
   }
   header nav ul li {
     float: left;
-    margin-left: var(--grid-gap-3);
+    margin-left: var(--grid-gap-2);
   }
   header .hamburger,
   .explore,
@@ -3797,11 +3794,6 @@ ul.languages-legend li::marker {
   }
   header .blur {
     height: 50px;
-  }
-  .team-container .intro-section,
-  .press-container .intro-section,
-  .intro-section .filter {
-    height: 60vh;
   }
 }
 @media only screen and (min-width: 850px) {
@@ -3820,8 +3812,7 @@ ul.languages-legend li::marker {
     margin-bottom: 50px;
   }
   .team-container .intro-section {
-    height: auto;
-    padding: 30px 0px;
+    padding: var(--grid-gap-3) 0px;
   }
   .team-container .intro-section .filter,
   .video-container {

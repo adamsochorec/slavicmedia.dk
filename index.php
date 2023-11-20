@@ -51,7 +51,7 @@
       <!-- VISUALS END -->
       <!-- COMPANY CAPTIONS START -->
       <article class="wrapper-wide" id="company-intro">
-        <hr class="semi" id="<?php echo $lang['asset_101'] ?>" />
+        <br id="<?php echo $lang['asset_101'] ?>" >
 
         <!-- SERVICES START -->
         <div
@@ -161,9 +161,9 @@
       </article>
 
       <!-- SERVICES END -->
-      <hr class="semi" id="team" />
       <!-- REVIEWS START -->
       <article class="wrapper-wide" id="reviews">
+        <br>
         <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
     include $IPATH . 'swiper-reviews.php';

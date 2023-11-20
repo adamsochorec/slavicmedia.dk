@@ -224,6 +224,7 @@
         anbefalinger herfra.
       </p>
     </div>
+    <!--
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -246,6 +247,8 @@
       </div>
       <p class="rewiews-message">The guys are fine.</p>
     </div>
+    -->
+    <!-- 
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -268,7 +271,8 @@
       </div>
       <p class="rewiews-message"></p>
     </div>
-    <div class="swiper-slide">
+    -->
+    <!-- <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
           <img
@@ -290,5 +294,9 @@
       </div>
     </div>
     <p class="rewiews-message"></p>
+  </div>    
+   -->
   </div>
+  <div class="swiper-pagination"></div>
+
 </section>
