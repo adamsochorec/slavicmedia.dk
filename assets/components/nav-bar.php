@@ -1,5 +1,4 @@
 <header>
-  <div class="blur">
     <div class="container">
       <nav id="navigation" role="navigation" aria-label="Main Navigation">
         <a href="/">
@@ -61,7 +60,6 @@
         </ul>
       </nav>
     </div>
-  </div>
 </header>
 <!-- LOADER START -->
 <aside class="loader-container" role="complementary">

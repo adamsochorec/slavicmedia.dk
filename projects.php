@@ -86,7 +86,9 @@
                 rel="noopener noreferrer"
                 ><span>Divadlo na Vinohradech</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -101,9 +103,11 @@
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Divadlo na Vinohradech</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span>Divadlo na Vinohradech</span>
+                <span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -138,7 +142,9 @@
                 rel="noopener noreferrer"
                 ><span>Divadlo na Vinohradech</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -155,7 +161,9 @@
                 rel="noopener noreferrer"
                 ><span>Divadlo na Vinohradech</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -185,8 +193,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Divadlo Disk</span
-                ><span
+                ><span>Divadlo Disk</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -233,7 +240,9 @@
                 rel="noopener noreferrer"
                 ><span>Slovo 21</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -251,7 +260,9 @@
                 rel="noopener noreferrer"
                 ><span>Sort / Hvid</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -305,8 +316,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -323,8 +333,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Divadlo Disk</span
-                ><span
+                ><span>Divadlo Disk</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -342,8 +351,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -362,7 +370,9 @@
                 rel="noopener noreferrer"
                 ><span>Huset Fundament</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -379,7 +389,9 @@
                 rel="noopener noreferrer"
                 ><span>Rosklide Festival</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -396,7 +408,9 @@
                 rel="noopener noreferrer"
                 ><span>Huset Fundament</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -413,7 +427,9 @@
                 rel="noopener noreferrer"
                 ><span>Huset Fundament</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -430,7 +446,7 @@
                 rel="noopener noreferrer"
                 ><span>Huset Fundament</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
             </p>
@@ -446,8 +462,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -475,7 +490,9 @@
                 rel="noopener noreferrer"
                 ><span>Kolding Kulturnat</span>
                 <span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -492,7 +509,7 @@
                 rel="noopener noreferrer"
                 ><span>Hyg og Byg</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
             </p>
@@ -508,8 +525,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -568,7 +584,9 @@
               >
                 <span>Timetravels</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -585,7 +603,9 @@
                 rel="noopener noreferrer"
                 ><span>Timetravels</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -602,7 +622,9 @@
                 rel="noopener noreferrer"
                 ><span>Tourist Israel</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -619,7 +641,9 @@
                 rel="noopener noreferrer"
                 ><span>Tourist Israel</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -636,7 +660,9 @@
                 rel="noopener noreferrer"
                 ><span>Tourist Israel</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -654,7 +680,9 @@
                 rel="noopener noreferrer"
                 ><span>Tourist Israel</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -671,7 +699,9 @@
                 rel="noopener noreferrer"
                 ><span><?php echo $lang['asset_218'] ?></span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -688,7 +718,9 @@
                 rel="noopener noreferrer"
                 ><span><?php echo $lang['asset_218'] ?></span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -705,7 +737,9 @@
                 rel="noopener noreferrer"
                 ><span><?php echo $lang['asset_151'] ?></span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <img
@@ -722,7 +756,9 @@
                 rel="noopener noreferrer"
                 ><span><?php echo $lang['asset_151'] ?></span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <video
@@ -797,8 +833,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -823,7 +858,9 @@
                 rel="noopener noreferrer"
                 ><span>Bygning 5</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <video
@@ -846,7 +883,9 @@
                 rel="noopener noreferrer"
                 ><span>Tribe Media</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <video
@@ -908,8 +947,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><span>Huset Fundament</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -934,7 +972,9 @@
                 rel="noopener noreferrer"
                 ><span>Bygning 5</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <video
@@ -957,7 +997,9 @@
                 rel="noopener noreferrer"
                 ><span>Parkour Škola</span
                 ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
               ></a>
             </p>
             <video

@@ -81,6 +81,10 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   autoplay: {
     delay: 3000,
   },
+  preloadImages: false,
+  lazyLoading: true,
+  observer: true,
+  observeParents: true,
   breakpoints: {
     0: {
       slidesPerView: 1,
@@ -106,25 +110,24 @@ if (document.body.id === "homepage") {
   document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
       const header = document.querySelector("#homepage header");
-      (blur = document.querySelector(".blur")),
-        (blurValue = getComputedStyle(document.documentElement)
-          .getPropertyValue("--blur-2")
-          .trim());
+      blurValue = getComputedStyle(document.documentElement)
+        .getPropertyValue("--blur-2")
+        .trim();
 
       if (window.pageYOffset > 680) {
-        header.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
-        blur.style.backdropFilter = blurValue;
-        blur.style.webkitBackdropFilter = blurValue;
-        blur.style.MozBackdropFilter = blurValue; // Unsupported
-        blur.style.MsBackdropFilter = blurValue; // Unsupported
-        blur.style.OBackdropFilter = blurValue; // Unsupported
+        header.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+        header.style.backdropFilter = blurValue;
+        header.style.webkitBackdropFilter = blurValue;
+        header.style.MozBackdropFilter = blurValue; // Unsupported
+        header.style.MsBackdropFilter = blurValue; // Unsupported
+        header.style.OBackdropFilter = blurValue; // Unsupported
       } else {
         header.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        blur.style.backdropFilter = "blur(0px)";
-        blur.style.webkitBackdropFilter = "blur(0px)";
-        blur.style.MozBackdropFilter = "blur(0px)"; // Unsupported
-        blur.style.MsBackdropFilter = "blur(0px)"; // Unsupported
-        blur.style.OBackdropFilter = "blur(0px)"; // Unsupported
+        header.style.backdropFilter = "blur(0px)";
+        header.style.webkitBackdropFilter = "blur(0px)";
+        header.style.MozBackdropFilter = "blur(0px)"; // Unsupported
+        header.style.MsBackdropFilter = "blur(0px)"; // Unsupported
+        header.style.OBackdropFilter = "blur(0px)"; // Unsupported
       }
     });
   });

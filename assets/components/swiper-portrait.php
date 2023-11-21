@@ -10,7 +10,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -26,7 +27,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -69,7 +71,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -85,7 +88,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -108,7 +112,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo Disk</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -158,7 +164,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Slovo 21</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -187,7 +194,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Sort / Hvid</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img

@@ -10,7 +10,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <video
@@ -32,7 +34,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Bygning 5</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <video
@@ -54,7 +57,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tribe Media</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <video

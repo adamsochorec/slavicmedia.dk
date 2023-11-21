@@ -10,7 +10,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -30,7 +32,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Rosklide Festival</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -46,7 +49,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -62,7 +67,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -78,7 +84,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo Disk</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -94,7 +101,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -116,7 +124,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -132,7 +141,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -148,7 +159,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -171,7 +184,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Kolding Kulturnat</span>
-          <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          <span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -187,7 +201,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Hyg og Byg</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img
@@ -203,7 +219,9 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
         </a>
       </p>
       <img

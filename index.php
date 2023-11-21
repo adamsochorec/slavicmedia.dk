@@ -77,7 +77,7 @@
           aria-label="Services Features Overview"
         >
           <a
-            href="/services"
+            href="/projects#portrait"
             class="gallery-item reveal"
             aria-label="Huset Fundament 2023"
           >
@@ -89,7 +89,7 @@
               <h3><?php echo $lang['asset_110'] ?></h3>
             </div>
           </a>
-          <a href="/services" class="gallery-item reveal">
+          <a href="/projects#stills" class="gallery-item reveal">
             <img
               src="/img/2021-04-25-00693.jpg"
               class="north-cascades-img"
@@ -99,7 +99,7 @@
               <h3><?php echo $lang['asset_107'] ?></h3>
             </div>
           </a>
-          <a href="/services" class="gallery-item reveal">
+          <a href="/portrait#travel" class="gallery-item reveal">
             <img
               src="/img/2022-12-08-01181.jpg"
               alt="<?php echo $lang['asset_152'] ?>."
@@ -110,7 +110,7 @@
               </h3>
             </div>
           </a>
-          <a href="/services" class="gallery-item reveal">
+          <a href="/projects#showreel" class="gallery-item reveal">
             <img
               src="/img/cover-husetfundament.jpg"
               alt="<?php echo $lang['asset_50'] ?>."
@@ -120,7 +120,7 @@
             </div>
           </a>
 
-          <a href="/services" class="gallery-item reveal">
+          <a href="/projects#interview" class="gallery-item reveal">
             <img
               src="/img/cover-crowdfunding.jpg"
               alt="<?php echo $lang['asset_38'] ?>."
@@ -187,7 +187,6 @@
         aria-label="Our Team"
       >
         <div class="intro-section flex-center">
-          <div class="filter"></div>
           <video
             id="heroVideo"
             src="/img/showreel-ourteam.mp4"
@@ -229,12 +228,52 @@
             aria-label="Marcel's Skills"
           >
             <div id="marcel">
-              <img
-                src="/img/2022-04-24-07404.jpg"
-                alt="<?php echo $lang['asset_23'] ?>Marcel"
-                class="reveal"
-                aria-label="Marcel's Portrait"
-              />
+              <div class="reveal">
+                <svg
+                  class="note flag"
+                  aria-label="Slovakia"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 10800 7200"
+                  fill="#ee1c25"
+                  focusable="false"
+                >
+                  <defs>
+                    <clipPath id="c">
+                      <path
+                        id="s"
+                        d="m4678 1746c0 0 56 561 56 1683-8 1146-865 1726-1494 2031-629-305-1486-885-1494-2031 0-1122 56-1683 56-1683z"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g transform="scale(1200)">
+                    <path fill="#fff" d="m0 0h9v6H0z" />
+                    <path fill="#0b4ea2" d="m0 2h9v4H0z" />
+                    <path d="m0 4h9v2H0z" />
+                  </g>
+                  <use xlink:href="#s" />
+                  <path
+                    fill="#fff"
+                    d="m3113 4800V3397c-475 0-610 42-752 85a2323 2323 0 0 0 0-431c142 43 277 85 752 85v-390c-150 0-357 6-595 87a2323 2323 0 0 0 0-432c238 80 445 86 595 86 0-113-35-356-79-557a2323 2323 0 0 0 412 0c-44 201-79 444-79 557 150 0 357-6 595-86a2323 2323 0 0 0 0 432c-238-81-445-87-595-87v390c475 0 610-42 752-85a2323 2323 0 0 0 0 431c-142-43-277-85-752-85v1403z"
+                  />
+                  <path
+                    clip-path="url(#c)"
+                    fill="#0b4ea2"
+                    d="m2463 5903a507 867 0 1 1 319-1541 584 1084 0 0 1 916 0 507 867 0 1 1 319 1541z"
+                  />
+                  <use
+                    xlink:href="#s"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="108"
+                  />
+                </svg>
+                <img
+                  src="/img/2022-04-24-07404.jpg"
+                  alt="<?php echo $lang['asset_23'] ?>Marcel"
+                  class="reveal"
+                  aria-label="Marcel's Portrait"
+                />
+              </div>
               <section class="profile">
                 <h4 class="reveal">Marcel H.</h4>
                 <h5 class="reveal">
@@ -345,7 +384,6 @@
             </div>
           </div>
           <!-- MARCEL LANGUAGES RESPONSIBILITES -->
-
           <!-- MARCEL SECTION END -->
           <!-- ADAM SECTION START -->
           <div
@@ -355,13 +393,59 @@
             aria-label="Adam's Skills"
           >
             <div id="adam">
-              <img
-                src="/img/2022-04-24-07426.jpg"
-                alt="<?php echo $lang['asset_23'] ?> Adam"
-                class="reveal"
-                role="img"
-                aria-label="<?php echo $lang['asset_23'] ?> Adam"
-              />
+              <div class="reveal">
+                <svg
+                  class="note flag"
+                  aria-label="Czechia"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                >
+                  <mask
+                    x="1"
+                    y="1"
+                    maskUnits="userSpaceOnUse"
+                    style="mask-type: alpha"
+                  >
+                    <circle cx="12" cy="12" r="11" fill="#D9D9D9"></circle>
+                  </mask>
+                  <g mask="url(#language_english_svg__a)">
+                    <path fill="#01257D" d="M1 1h22v22H1V1Z"></path>
+                    <path
+                      fill="#fff"
+                      d="m1.842 7.33 2.294-3.277L22.158 16.67l-2.295 3.277z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="m19.864 4.052 2.294 3.276L4.136 19.947 1.842 16.67z"
+                    ></path>
+                    <path
+                      fill="#CF1429"
+                      d="m2.703 6.1.573-.82L21.298 17.9l-.574.818z"
+                    ></path>
+                    <path
+                      fill="#CF1429"
+                      d="m20.724 5.281.574.82L3.276 18.718l-.573-.82z"
+                    ></path>
+                    <path fill="#fff" d="M9 1h6v22H9z"></path>
+                    <path fill="#fff" d="M1 15V9h22v6H1Z"></path>
+                    <path
+                      fill="#CF1429"
+                      fill-rule="evenodd"
+                      d="M14 1h-4v9H1v4h9v9h4v-9h9v-4h-9V1Z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <img
+                  src="/img/2022-04-24-07426.jpg"
+                  alt="<?php echo $lang['asset_23'] ?> Adam"
+                  class="reveal"
+                  role="img"
+                  aria-label="<?php echo $lang['asset_23'] ?> Adam"
+                />
+              </div>
+
               <div class="profile">
                 <h4 class="reveal" role="heading" aria-level="4">Adam S.</h4>
                 <h5 class="reveal">

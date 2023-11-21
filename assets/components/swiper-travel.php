@@ -11,7 +11,8 @@
           rel="noopener noreferrer"
         >
           <span>Timetravels</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -27,7 +28,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Timetravels</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -43,7 +45,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -60,7 +63,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -76,7 +80,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -92,7 +97,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_218'] ?></span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -108,7 +114,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_218'] ?></span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -124,7 +131,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_151'] ?></span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -146,7 +154,8 @@
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_151'] ?></span
-          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+          ><span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
