@@ -2,8 +2,8 @@
 <hr class="semi" />
 <footer>
   <?php
-         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-         include $IPATH . 'global-social-icons.php';
+         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+         include $IPATH . 'social-icons.php';
          ?>
   <div class="footer-ps">
     <p>
@@ -51,6 +51,6 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <script type="text/javascript" src="/assets/global-script.js" defer></script>
+  <script type="text/javascript" src="/assets/script.js" defer></script>
 </footer>
 <!-- FOOTER END -->

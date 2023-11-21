@@ -3,13 +3,14 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlonavinohradech.com/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -18,13 +19,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlonavinohradech.com/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -33,12 +35,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-09-05-01666.jpg"
         alt="<?php echo $lang['asset_148'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <img
         class="hide-slider_img-max"
         src="/img/blur/hvalp.jpg"
@@ -51,19 +55,21 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-10-17-01935.jpg"
         alt="<?php echo $lang['asset_149'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlonavinohradech.com/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -72,13 +78,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlonavinohradech.com/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo na Vinohradech</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -87,19 +94,21 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-11-13-02059.jpg"
         alt="<?php echo $lang['asset_52'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlodisk.cz/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo Disk</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -108,24 +117,28 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-07-19-01355.jpg"
         alt="<?php echo $lang['asset_146'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-08-24-01615.jpg"
         alt="<?php echo $lang['asset_147'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         src="/img/blur/2021-04-22-00624.jpg"
         alt="<?php echo $lang['asset_2'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         class="hide-slider_img-max"
         src="/img/blur/2021-05-28-01020.jpg"
@@ -138,13 +151,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.slovo21.cz/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Slovo 21</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -153,6 +167,7 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <img
         class="hide-slider_img-max"
         src="/img/blur/2021-10-01-01825.jpg"
@@ -165,13 +180,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://www.sort-hvid.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Sort / Hvid</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img

@@ -1,10 +1,10 @@
-<?php include 'assets/php/config.php'; ?>
+<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
@@ -13,8 +13,8 @@
   <body id="press">
     <!-- HEADER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
     <!-- HEADER END -->
     <main>
@@ -131,8 +131,8 @@
     </main>
     <!-- FOOTER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
     <!-- FOOTER END -->
   </body>

@@ -1,17 +1,17 @@
-<?php include 'assets/php/config.php'; ?>
+<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <title><?php echo $lang['asset_179'] ?> | Slavic Media</title>
   </head>
   <body id="success" class="noindex">
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
@@ -45,8 +45,8 @@
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
   </body>
 </html>

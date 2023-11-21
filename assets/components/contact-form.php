@@ -1,5 +1,4 @@
-<!-- BOOK US START -->
-<article  class="wrapper-standard">
+<article class="wrapper-standard">
   <section class="contact-form-section">
     <h3 class="reveal"><?php echo $lang['asset_168'] ?></h3>
     <hr class="semi" />
@@ -109,13 +108,13 @@
           id="project"
           placeholder=""
         ></textarea>
+
         <button
-          class="submit-btn flex-center"
+          class="submit-btn"
           aria-label="<?php echo $lang['asset_164'] ?>"
         >
           <?php echo $lang['asset_164'] ?>
         </button>
-        
         <input
           type="hidden"
           name="_next"
@@ -127,5 +126,5 @@
       </div>
     </form>
   </section>
+  <hr class="reveal" />
 </article>
-<!-- BOOK US END -->

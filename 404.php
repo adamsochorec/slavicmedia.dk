@@ -1,10 +1,10 @@
-<?php include 'assets/php/config.php'; ?>
+<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <title>Page Not Found | Slavic Media</title>
     <meta name="robots" content="noindex" />
@@ -13,8 +13,8 @@
 
   <body id="error" class="noindex">
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
     <main>
       <article class="wrapper-narrow flex-center reveal" role="main">
@@ -46,8 +46,8 @@
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
   </body>
 </html>

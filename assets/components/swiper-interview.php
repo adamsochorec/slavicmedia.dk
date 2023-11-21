@@ -3,13 +3,14 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <video
@@ -24,13 +25,14 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://www.bygning5.dk"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Bygning 5</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <video
@@ -45,13 +47,14 @@
       ></video>
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://parkourskola.sk"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Parkour Škola</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <video

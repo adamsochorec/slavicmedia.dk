@@ -3,6 +3,7 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://www.timetravels.com"
@@ -10,7 +11,7 @@
           rel="noopener noreferrer"
         >
           <span>Timetravels</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -19,13 +20,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://www.timetravels.com"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Timetravels</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -34,13 +36,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://touristisrael.com"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -50,13 +53,14 @@
     </div>
 
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://touristisrael.com"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -65,13 +69,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://touristisrael.com"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Tourist Israel</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -80,12 +85,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://adamsochorec.com/blog/aland"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Åland</span><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><?php echo $lang['asset_218'] ?></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -94,12 +101,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://adamsochorec.com/blog/aland"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Åland</span><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><?php echo $lang['asset_218'] ?></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -108,13 +117,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://adamsochorec.com/blog/vestkystruten"
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_151'] ?></span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -129,13 +139,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://adamsochorec.com/blog/vestkystruten"
           target="_blank"
           rel="noopener noreferrer"
           ><span><?php echo $lang['asset_151'] ?></span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -144,12 +155,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <img
         src="/img/blur/2023-08-06-00304.jpg"
         alt="<?php echo $lang['asset_86'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <img
         src="/img/blur/2023-07-26-00100.jpg"
         alt="<?php echo $lang['asset_93'] ?>."

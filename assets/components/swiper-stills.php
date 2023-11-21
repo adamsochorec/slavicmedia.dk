@@ -3,13 +3,14 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -22,13 +23,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <p class="note">
         <a
           href="https://www.roskilde-festival.dk/da/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Rosklide Festival</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -37,13 +39,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -52,13 +55,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -67,13 +71,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://www.divadlodisk.cz/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Divadlo Disk</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -82,13 +87,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -103,13 +109,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -118,13 +125,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -133,13 +141,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -148,19 +157,21 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2022</p>
       <img
         src="/img/blur/2022-06-18-00518.jpg"
         alt="<?php echo $lang['asset_69'] ?>."
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://www.facebook.com/koldingkulturnat/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Kolding Kulturnat</span>
-          <span><i class="fa-solid fa-circle-info"></i></span
+          <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
       </p>
       <img
@@ -169,13 +180,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://www.kolding.dk/om-kommunen/nyhedsarkiv/hyg-og-byg-baeredygtig-sondag-med-gratis-mobler-til-koldings-studerende/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Hyg og Byg</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img
@@ -184,13 +196,14 @@
       />
     </div>
     <div class="swiper-slide">
+      <p class="note date">2023</p>
       <p class="note">
         <a
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
           ><span>Huset Fundament</span
-          ><span><i class="fa-solid fa-circle-info"></i></span>
+          ><span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </a>
       </p>
       <img

@@ -1,10 +1,10 @@
-<?php include 'assets/php/config.php'; ?>
+<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
@@ -13,8 +13,8 @@
   <body id="services">
     <!-- HEADER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
 
     <!-- HEADER END -->
@@ -131,7 +131,7 @@
               <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'swiper-portrait.php';
             ?>
           </div>
@@ -144,39 +144,39 @@
               <p>
                 <?php echo $lang['asset_173'] ?>
               </p>
-              <div class="reveal" id="stills">
-                <a class="cta" href="/projects#portrait"
-                  ><?php echo $lang['asset_114'] ?>
-                </a>
-              </div>
+              <a href="/projects#portrait">
+                <div class="cta" id="stills">
+                  <?php echo $lang['asset_114'] ?>
+                </div>
+              </a>
             </section>
           </div>
           <!-- PORTRAIT END -->
           <!-- STILLS START -->
-          <div class="grid-item reveal">
+          <div class="grid-item">
             <h2 class="hide-heading-min">
               <?php echo $lang['asset_107'] ?>
               <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'swiper-stills.php';
             ?>
           </div>
-          <div class="grid-item text-container reveal">
+          <div class="grid-item text-container">
             <section>
-              <h2 class="hide-heading-max">
+              <h2 class="hide-heading-max reveal">
                 <?php echo $lang['asset_107'] ?>
                 <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
               </h2>
-              <p>
+              <p class="reveal">
                 <?php echo $lang['asset_174'] ?>
               </p>
-              <div class="reveal" id="travel">
-                <a class="cta" href="/projects#stills"
-                  ><?php echo $lang['asset_113'] ?>
-                </a>
-              </div>
+              <a href="/projects#stills">
+                <div class="cta" id="travel">
+                  <?php echo $lang['asset_113'] ?>
+                </div></a
+              >
             </section>
           </div>
           <!-- STILLS END -->
@@ -188,7 +188,7 @@
             </h2>
             <!-- Slider main container -->
             <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'swiper-travel.php';
             ?>
           </div>
@@ -201,11 +201,11 @@
               <p class="reveal">
                 <?php echo $lang['asset_175'] ?>
               </p>
-              <div class="reveal" id="showreel">
-                <a class="cta" href="/projects#travel"
-                  ><?php echo $lang['asset_115'] ?>
-                </a>
-              </div>
+              <a href="/projects#travel">
+                <div class="cta" id="showreel">
+                  <?php echo $lang['asset_115'] ?>
+                </div>
+              </a>
             </section>
           </div>
           <!-- TRAVEL END -->
@@ -216,7 +216,7 @@
               <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'swiper-showreel.php';
             ?>
           </div>
@@ -229,11 +229,11 @@
               <p>
                 <?php echo $lang['asset_185'] ?>
               </p>
-              <div class="reveal" id="interview">
-                <a class="cta" href="/projects#showreel"
-                  ><?php echo $lang['asset_186'] ?>
-                </a>
-              </div>
+              <a href="/projects#showreel">
+                <div class="cta" id="interview">
+                  <?php echo $lang['asset_186'] ?>
+                </div></a
+              >
             </section>
           </div>
           <!-- SHOWREEL END -->
@@ -244,7 +244,7 @@
               <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
             </h2>
             <?php
-              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
               include $IPATH . 'swiper-interview.php';
               ?>
           </div>
@@ -257,11 +257,11 @@
               <p>
                 <?php echo $lang['asset_188'] ?>
               </p>
-              <div class="reveal" id="packages">
-                <a class="cta" href="/projects#interview"
-                  ><?php echo $lang['asset_189'] ?>
-                </a>
-              </div>
+              <a href="/projects#interview"
+                ><div class="cta" id="plans">
+                  <?php echo $lang['asset_189'] ?>
+                </div></a
+              >
             </section>
           </div>
           <!-- INTERVIEW END -->
@@ -857,7 +857,7 @@
       </article>
       <!-- CTA  START  -->
       <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'contact-form.php';
     ?>
       <!-- CTA  END  -->
@@ -866,8 +866,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
     <!-- FOOTER END -->
   </body>

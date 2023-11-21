@@ -1,10 +1,10 @@
-<?php include 'assets/php/config.php'; ?>
+<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-head.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'head.php';
     ?>
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
@@ -13,8 +13,8 @@
   <body id="homepage">
     <!-- HEADER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-nav-bar.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'nav-bar.php';
     ?>
 
     <!-- HEADER END -->
@@ -38,11 +38,10 @@
               poster="/img/showreel.png"
             ></video>
           </div>
-
           <a href="/#<?php echo $lang['asset_101'] ?>" class="explore reveal">
             <?php
-              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-              include $IPATH . 'global-scroll.php';
+              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+              include $IPATH . 'scroll.php';
             ?>
           </a>
         </section>
@@ -131,14 +130,12 @@
             </div>
           </a>
         </article>
-        <hr class="semi" role="separator" />
-
         <section class="flex-center">
-          <div class="reveal">
-            <a href="/services" class="cta">
+          <a class="reveal" href="/services">
+            <div class="cta">
               <?php echo $lang['asset_101'] ?>
-            </a>
-          </div>
+            </div>
+          </a>
         </section>
         <!-- FEATURES END -->
         <hr class="reveal" role="separator" />
@@ -159,25 +156,24 @@
           </div>
         </div>
       </article>
-
       <!-- SERVICES END -->
       <!-- REVIEWS START -->
       <article class="wrapper-wide" id="reviews">
         <br />
         <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'swiper-reviews.php';
     ?>
-        <div class="flex-center reveal">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://g.page/r/CRTkzopg3plWEB0/review"
-            class="cta"
-          >
+        <a
+          class="flex-center reveal"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://g.page/r/CRTkzopg3plWEB0/review"
+        >
+          <div class="cta">
             <?php echo $lang['asset_31'] ?>
-          </a>
-        </div>
+          </div>
+        </a>
       </article>
       <!-- REVIEWS END -->
       <hr class="semi" id="team" />
@@ -232,10 +228,66 @@
             role="region"
             aria-label="Marcel's Skills"
           >
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'marcel.php';
-            ?>
+            <div id="marcel">
+              <img
+                src="/img/2022-04-24-07404.jpg"
+                alt="<?php echo $lang['asset_23'] ?>Marcel"
+                class="reveal"
+                aria-label="Marcel's Portrait"
+              />
+              <section class="profile">
+                <h4 class="reveal">Marcel H.</h4>
+                <h5 class="reveal">
+                  <?php echo $lang['asset_24'] ?>
+                </h5>
+
+                <div class="social-icons reveal">
+                  <a href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="mailto:marcel@slavicmedia.dk"
+                    aria-label="Email: marcel@slavicmedia.dk"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/marcelhajik"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      viewBox="0 0 382 382"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </section>
+              <!-- MARCEL SKILLS START -->
+            </div>
+            <!-- MARCEL SKILLS START -->
+
             <hr class="semi" />
             <!-- MARCEL  RESPONSIBILITES START-->
             <div class="reveal">
@@ -302,10 +354,65 @@
             role="region"
             aria-label="Adam's Skills"
           >
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-            include $IPATH . 'adam.php';
-            ?>
+            <div id="adam">
+              <img
+                src="/img/2022-04-24-07426.jpg"
+                alt="<?php echo $lang['asset_23'] ?> Adam"
+                class="reveal"
+                role="img"
+                aria-label="<?php echo $lang['asset_23'] ?> Adam"
+              />
+              <div class="profile">
+                <h4 class="reveal" role="heading" aria-level="4">Adam S.</h4>
+                <h5 class="reveal">
+                  <?php echo $lang['asset_30'] ?>
+                </h5>
+
+                <div class="social-icons reveal">
+                  <a href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                      /></svg
+                  ></a>
+                  <a
+                    href="mailto:adam@slavicmedia.dk"
+                    aria-label="Email: adam@slavicmedia.dk"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/adamsochorec"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      version="1.1"
+                      viewBox="0 0 382 382"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889  C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056  H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806  c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1  s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73  c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079  c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426  c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472  L341.91,330.654L341.91,330.654z"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ADAM SKILLS END -->
+
             <hr class="semi" />
             <!-- ADAM RESPONSIBILITIES START -->
             <div class="reveal">
@@ -385,27 +492,26 @@
               <?php echo $lang['asset_36'] ?>
             </h3>
             <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
+            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'clients.php';
             ?>
           </article>
           <!-- CTA START -->
-          <hr class="semi" />
           <div class="grid-container fifty-fifty">
-            <div class="grid-item reveal">
-              <a
-                target="_blank"
-                href="https://clients.slavicmedia.dk"
-                class="cta"
-              >
+            <a
+              class="grid-item reveal"
+              target="_blank"
+              href="https://clients.slavicmedia.dk"
+              ><div class="cta">
                 <?php echo $lang['asset_191'] ?>
-              </a>
-            </div>
-            <div class="grid-item reveal">
-              <a href="/press" class="cta cta2">
+              </div>
+            </a>
+
+            <a class="grid-item reveal" href="/press">
+              <div class="cta cta2">
                 <?php echo $lang['asset_75'] ?>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
           <!-- CTA END -->
         </div>
@@ -416,8 +522,8 @@
     </main>
     <!-- FOOTER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/php/';
-    include $IPATH . 'global-footer.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'footer.php';
     ?>
     <!-- FOOTER END -->
   </body>
