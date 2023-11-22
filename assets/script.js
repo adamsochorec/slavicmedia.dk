@@ -260,18 +260,6 @@ if (document.body.id === "services") {
 }
 // SWIPER SERVICES END
 
-// VIMEO GALLERY START
-$(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: "a",
-    type: "iframe",
-    gallery: {
-      enabled: true,
-    },
-  });
-});
-// VIMEO GALLERY END
-
 // LOTTIE INTERACTIVITY START
 function createLottieInteractivity(playerElement) {
   LottieInteractivity.create({

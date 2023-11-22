@@ -7,9 +7,8 @@
       onclick="loading()"
       action="https://formsubmit.co/contact@slavicmedia.dk"
       method="POST"
-      novalidate
-      enctype="multipart/form-data"
     >
+      <!-- Form elements -->
       <div class="grid-container contact-form">
         <div class="grid-item reveal">
           <p><label for="email">Email *</label></p>
@@ -108,20 +107,25 @@
           id="project"
           placeholder=""
         ></textarea>
-
         <button
           class="submit-btn"
           aria-label="<?php echo $lang['asset_164'] ?>"
         >
           <?php echo $lang['asset_164'] ?>
         </button>
-        <input
+        <div
+          class="cf-turnstile"
+          data-sitekey="0x4AAAAAAANhXDf8oQtrWBls"
+          data-callback="javascriptCallback"
+        ></div>
+
+        <!-- <input
           type="hidden"
           name="_next"
           value="https://slavicmedia.dk/success"
-        />
+        /> -->
         <!-- Redirect to the success page -->
-        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_captcha" value="false" />
         <!-- Captcha disable -->
       </div>
     </form>
