@@ -5,7 +5,7 @@
     <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/contact@slavicmedia.dk"
+      action="https://formsubmit.co/33ba160945b035b2578f7d428a1c2e3f"
       method="POST"
     >
       <!-- Form elements -->
@@ -108,24 +108,23 @@
           placeholder=""
         ></textarea>
         <button
-          class="submit-btn"
+          class="submit-btn flex-center"
           aria-label="<?php echo $lang['asset_164'] ?>"
         >
           <?php echo $lang['asset_164'] ?>
         </button>
-        <div
-          class="cf-turnstile"
-          data-sitekey="0x4AAAAAAANhXDf8oQtrWBls"
-          data-callback="javascriptCallback"
-        ></div>
-
-        <!-- <input
+        <input
           type="hidden"
           name="_next"
           value="https://slavicmedia.dk/success"
-        /> -->
+        />
+        <input
+          type="hidden"
+          name="_blacklist"
+          value="spammy pattern, banned term, phrase"
+        /><input type="hidden" name="_template" value="table" />
         <!-- Redirect to the success page -->
-        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_captcha" value="true" />
         <!-- Captcha disable -->
       </div>
     </form>

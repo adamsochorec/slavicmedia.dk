@@ -9,10 +9,6 @@
     <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
     <title>Services | Slavic Media</title>
-    <script
-      src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
-      defer
-    ></script>
   </head>
   <body id="services">
     <!-- HEADER START -->
@@ -41,9 +37,9 @@
           class="video-gallery features-grid"
           aria-label="Video Gallery"
         >
-          <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
+          <div class="gallery-item reveal" aria-label="">
             <img
-              src="/img/2021-05-28-01020.jpg"
+              src="/img/2023-05-12-08965.jpg"
               alt="<?php echo $lang['asset_40'] ?>."
             />
             <div class="gallery-item-caption">
@@ -871,18 +867,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'footer.php';
     ?>
-    <script>
-      // This function is called when the Turnstile script is loaded and ready to be used.
-      // The function name matches the "onload=..." parameter.
-      function _turnstileCb() {
-        console.debug("_turnstileCb called");
-
-        turnstile.render("#myWidget", {
-          sitekey: "0x4AAAAAAANhXDf8oQtrWBls",
-          theme: "light",
-        });
-      }
-    </script>
     <!-- FOOTER END -->
   </body>
 </html>

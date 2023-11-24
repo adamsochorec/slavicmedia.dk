@@ -966,7 +966,6 @@ button.submit-btn {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  min-width: 150px;
   font-size: var(--fontsize-p);
   font-family: var(--logo-font);
   -webkit-box-shadow: var(--box-shadow-1);
@@ -975,6 +974,9 @@ button.submit-btn {
   white-space: nowrap;
   border: 2px solid rgba(var(--secondary-color), 1);
   cursor: pointer;
+}
+button.submit-btn {
+  min-width: 150px;
 }
 .cta:hover,
 button.submit-btn:hover {
@@ -2728,10 +2730,10 @@ img.mfp-img {
 .video-gallery .gallery-item img {
   position: relative;
   display: block;
+  opacity: 0.5;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  opacity: 0.5;
   /*transition: opacity .35s, transform .35s;*/
   -webkit-transition: all 350ms ease-in-out;
   -o-transition: all 350ms ease-in-out;
@@ -2784,8 +2786,8 @@ img.mfp-img {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-filter: var(--blur-2);
-  filter: var(--blur-2);
+  -webkit-filter: var(--blur-1);
+  filter: var(--blur-1);
 }
 .video-gallery .gallery-item .gallery-item-caption {
   text-align: left;
@@ -3348,7 +3350,7 @@ ul.languages-legend li::marker {
   z-index: 8;
 }
 p.note {
-  background-color: rgba(var(--black-color), 0);
+  background-color: rgba(var(--black-color), 0.1);
   top: var(--grid-gap-1);
   right: var(--grid-gap-1);
   padding: 0 6px;

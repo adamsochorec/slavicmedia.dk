@@ -125,9 +125,7 @@ $lang = [
     "asset_128" => "Link to Hocičo plans",
     "asset_129" => "Website: ",
     "asset_130" => "Animation: Page Not Found",
-    "asset_131" => "Capture your special moments with our transparent pricing options. No
-    hidden fees and affordable rates tailored to fit your photography
-    needs.",
+    "asset_131" => "Designed to adapt to your evolving needs, ensuring you always have the right tools at your disposal.We believe in providing value for your investment. Our pricing is competitive, offering a range of plans to suit various budgets.",
     "asset_132" => "excl. moms",
     "asset_133" => " Essential",
     "asset_134" => " Core",
@@ -210,9 +208,7 @@ $lang = [
     "asset_200" => "Graphic Art",
     "asset_201" => "Make your brand look amazing with our fantastic graphic designs. We create eye-catching logos and cool layouts that will really impress people.",
     "asset_202" => "Dynamic Animation",
-    "asset_203" => "We bring ideas to life with
-    lively characters and cool motion graphics. Your projects will
-    be super exciting with our animation skills.",
+    "asset_203" => "We bring ideas to life with lively motion graphics and cool 3D animations.",
     "asset_204" => "travelling costs",
     "asset_205" => "<li>10 edited digital images /day</li>
     <li>Highlights of your trip</li>

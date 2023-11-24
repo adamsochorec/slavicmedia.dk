@@ -125,9 +125,7 @@ $lang = [
 "asset_128" => "Link til Hocičo-planer",
 "asset_129" => "Websted: ",
 "asset_130" => "Animation: Siden blev ikke fundet",
-"asset_131" => "Fang dine specielle øjeblikke med vores gennemsigtige prismuligheder. Nej
-skjulte gebyrer og overkommelige priser skræddersyet til at passe til din fotografering
-behov.",
+"asset_131" => "Designet til at tilpasse sig dine skiftende behov, hvilket sikrer, at du altid har de rigtige værktøjer til din rådighed. Vi tror på at give værdi for din investering. Vores priser er konkurrencedygtige og tilbyder en række planer, der passer til forskellige budgetter.",
 "asset_132" => "ekskl. mødre",
 "asset_133" => " Essential",
 "asset_134" => " Core",
@@ -210,9 +208,7 @@ billedretouchering, præcis farvegradering og ekspertvideo VFX.",
 "asset_200" => "Grafik",
 "asset_201" => "Få dit brand til at se fantastisk ud med vores fantastiske grafiske designs. Vi skaber iøjnefaldende logoer og fede layouts, der virkelig vil imponere folk.",
 "asset_202" => "Dynamisk animation",
-"asset_203" => "Vi bringer ideer ud i livet med
-livlige karakterer og cool motion graphics. Dine projekter vil
-være super spændende med vores animationsevner.",
+"asset_203" => "Vi bringer ideer ud i livet med livlig bevægelsesgrafik og seje 3D-animationer.",
 "asset_204" => "rejseomkostninger",
 "asset_205" => "<li>10 redigerede digitale billeder/dag</li>
 <li>Højdepunkter på din rejse</li>

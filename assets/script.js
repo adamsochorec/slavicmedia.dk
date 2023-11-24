@@ -155,7 +155,7 @@ if (document.body.id === "homepage") {
   });
   // VIDEO CONTROLS END
   // VIDEO OFFLOAD START
-  function videoOffload() {
+  function videoOffloadFunction() {
     // Get all video elements with the "lazy-video" class
     const videoOffload = document.querySelectorAll(".video-offload");
 
@@ -240,25 +240,36 @@ if (document.body.id === "services") {
     autoplay: {
       delay: 15000,
     },
-    // Optional parameters
     direction: "horizontal",
     loop: true,
-    // If we need pagination
     pagination: {
       el: ".swiper-pagination",
     },
-    // Navigation arrows
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    // And if we need scrollbar
     scrollbar: {
       el: ".swiper-scrollbar",
     },
+    on: {
+      slideChange: function () {
+        // Pause videos in the previous slide
+        const previousSlide = this.slides[this.previousIndex];
+        pauseVideosInSlide(previousSlide);
+      },
+    },
   });
 }
-// SWIPER SERVICES END
+// Function to pause all videos in a given slide
+function pauseVideosInSlide(slide) {
+  const videos = slide.querySelectorAll("video");
+  videos.forEach((video) => {
+    if (!video.paused) {
+      video.pause();
+    }
+  });
+}
 
 // LOTTIE INTERACTIVITY START
 function createLottieInteractivity(playerElement) {

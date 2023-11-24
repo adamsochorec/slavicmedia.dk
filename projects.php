@@ -1050,6 +1050,31 @@
             ></video>
           </div>
           <div class="h-stretch reveal">
+            <p class="note date">2022</p>
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span><?php echo $lang['asset_218'] ?></span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <video
+              src="/img/aland.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="<?php echo $lang['asset_218'] ?>"
+              aria-describedby=""
+              poster="/img/cover-aland.jpg"
+            ></video>
+          </div>
+          <div class="h-stretch reveal">
             <p class="note date">2020</p>
             <video
               src="/img/anna.mp4"
@@ -1057,8 +1082,8 @@
               controls="controls"
               playsinline
               role="video"
-              aria-label="Bygning 5"
-              aria-describedby="<?php echo $lang['asset_50'] ?>"
+              aria-label=""
+              aria-describedby=""
               poster="/img/cover-anna.jpg"
             ></video>
           </div>
