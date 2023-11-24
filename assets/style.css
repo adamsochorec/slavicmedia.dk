@@ -57,17 +57,14 @@
 }
 @font-face {
   font-family: "SF Pro Regular";
-  src: url(/assets/SFProDisplay-Regular.woff) format("woff"),
-    url(/assets/SFProDisplay-Regular.ttf) format("truetype");
+  src: url(/assets/SFProDisplay-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "SF Pro Light";
-  src: url(/assets/SFProDisplay-Light.woff) format("woff"),
-    url(/assets/SFProDisplay-Light.ttf) format("truetype");
+  src: url(/assets/SFProDisplay-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: Raleway;
-  font-weight: var(--heading-weight);
   src: url(/assets/Raleway-SemiBold.ttf) format("truetype");
 }
 
@@ -629,7 +626,8 @@ p a:hover {
   );
   background: -webkit-gradient(
     linear,
-    left top, right top,
+    left top,
+    right top,
     from(rgba(199, 30, 30, 1)),
     to(rgba(18, 69, 126, 1))
   );
@@ -854,8 +852,7 @@ header {
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-    background 0.3s,
-    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -1552,7 +1549,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    right top, left top,
+    right top,
+    left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1570,7 +1568,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top, right top,
+    left top,
+    right top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1588,7 +1587,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left bottom, left top,
+    left bottom,
+    left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1606,7 +1606,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top, left bottom,
+    left top,
+    left bottom,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
