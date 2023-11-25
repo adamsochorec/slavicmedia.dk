@@ -822,7 +822,7 @@
             </a>
           </div>
         </div>
-        <hr class="semi" />
+        <hr class="semi" role="separator" />
       </article>
       <article id="visuals">
         <div class="grid-container photo-grid">
@@ -936,7 +936,7 @@
             </a>
           </div>
         </div>
-        <hr class="semi" />
+        <hr class="semi" role="separator" />
       </article>
       <article id="visuals">
         <div class="grid-container photo-grid">

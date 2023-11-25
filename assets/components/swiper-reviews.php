@@ -7,6 +7,59 @@
         <div class="grid-item">
           <img
             class="customer-img"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjVp41MBuTxuz4HQIt172lk5B4Tsj2hUAFLIRZKBl0gZd_Ax=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/106744506446456654416?hl=en-US"
+              >Armando P.</a
+            ><br />Musician<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        Amazing services from talented young professionals. Smart solutions,
+        serious and creative attitude. Excellent.
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
+    </div>
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            src="https://lh3.googleusercontent.com/a/ACg8ocJpEE9rIHxCOIQH2O6oQH2G7MSYNf71eC5poj-WNPe8=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/110738271589854335121?hl=en-US"
+              >Daniel D.</a
+            ><br />Musician<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        Adam photographed SLOEVSINDs first show a Pitstop Kolding. Great and
+        lively pictures capturing the high energy and mood from the show -
+        awesome work!
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
+    </div>
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjWr3R2B2S2VxsEfKZXltWT611uRPhp1ViWHxYRuxj9G9q4=w120-h120-p-rp-mo-br100"
           />
         </div>
@@ -54,7 +107,8 @@
         can guarantee you high quality photos and videos. Definitely will come
         back to these guys. :))
       </p>
-    </div> <div class="swiper-slide">
+    </div>
+    <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
           <img
@@ -174,7 +228,7 @@
       </div>
       <p class="rewiews-message">Great photos! 🙏🔥</p>
     </div>
-   
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -201,7 +255,8 @@
         der er med til at formidle den historie man vil fortælle. De største
         anbefalinger herfra.
       </p>
-    </div>   <div class="swiper-slide">
+    </div>
+    <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
           <img
@@ -222,6 +277,31 @@
         </div>
       </div>
       <p class="rewiews-message">Amazing service! 🤩</p>
+    </div>
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            src="https://lh3.googleusercontent.com/a/ACg8ocIdOb0qOc-EqWHiGjpLo35QFWPn_huGJIVlGmlY6Kwx=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.com/maps/contrib/116366454104707477681?hl=en-US"
+              >Raasmus S.</a
+            ><br />Client<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        Professional and kind guys. Delivered shining shots 🤘🏼
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
     <!--
     <div class="swiper-slide">
@@ -297,5 +377,4 @@
    -->
   </div>
   <div class="swiper-pagination"></div>
-
 </section>

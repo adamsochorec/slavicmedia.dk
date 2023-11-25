@@ -1,4 +1,4 @@
-<div class="swiper reveal">
+<div class="swiper reveal" role="region" aria-label="Image Slider">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
@@ -9,8 +9,9 @@
           href="https://husetfundament.dk/"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Huset Fundament</span
-          ><span
+        >
+          <span>Huset Fundament</span>
+          <span
             >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
           ></span>
         </a>
@@ -33,10 +34,12 @@
           href="https://www.bygning5.dk"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Bygning 5</span
-          ><span
-            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
-        ></a>
+        >
+          <span>Bygning 5</span>
+          <span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
+        </a>
       </p>
       <video
         src="/img/repaireremake.mp4"
@@ -56,10 +59,12 @@
           href="https://tribemedia.dk"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Tribe Media</span
-          ><span
-            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
-        ></a>
+        >
+          <span>Tribe Media</span>
+          <span
+            >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></span>
+        </a>
       </p>
       <video
         src="/img/silentparty.mp4"
@@ -74,8 +79,12 @@
     </div>
   </div>
   <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+  <div class="swiper-pagination" role="group" aria-label="Pagination"></div>
   <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+  <div
+    class="swiper-button-prev"
+    role="button"
+    aria-label="Previous Slide"
+  ></div>
+  <div class="swiper-button-next" role="button" aria-label="Next Slide"></div>
 </div>

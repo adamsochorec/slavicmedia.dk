@@ -19,7 +19,7 @@
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
         <div class="pathname-container"></div>
-        <div class="lottie">
+        <div class="lottie" role="presentation" aria-hidden="true">
           <dotlottie-player
             src="/assets/lottie/success.lottie"
             background="transparent"
@@ -31,11 +31,11 @@
         <h1>
           <?php echo $lang['asset_179'] ?>
         </h1>
-        <a class="cta" href="/">
+        <a class="cta" href="/" role="link">
           <?php echo $lang['asset_180'] ?>
         </a>
       </article>
-      <div class="pathname-container"></div>
+      <div class="pathname-container" role="separator" aria-hidden="true"></div>
     </main>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script

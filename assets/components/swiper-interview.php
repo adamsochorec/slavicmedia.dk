@@ -1,8 +1,8 @@
-<div class="swiper reveal">
+<div class="swiper reveal" role="region" aria-label="Image Slideshow">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide">
+    <div class="swiper-slide" role="group" aria-label="Slide 1">
       <p class="note date">2023</p>
       <p class="note">
         <a
@@ -26,7 +26,8 @@
         poster="/img/cover-crowdfunding.jpg"
       ></video>
     </div>
-    <div class="swiper-slide">
+    <hr role="separator" aria-label="Separator between slides" />
+    <div class="swiper-slide" role="group" aria-label="Slide 1">
       <p class="note date">2022</p>
       <p class="note">
         <a
@@ -49,14 +50,15 @@
         poster="/img/cover-bygning5.jpg"
       ></video>
     </div>
-    <div class="swiper-slide">
+    <hr role="separator" aria-label="Separator between slides" />
+    <div class="swiper-slide" role="group" aria-label="Slide 3">
       <p class="note date">2021</p>
       <p class="note">
         <a
           href="https://parkourskola.sk"
           target="_blank"
           rel="noopener noreferrer"
-          ><span>Parkour Škola</span
+          ><span><?php echo $lang['asset_46'] ?></span
           ><span
             >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
         ></a>
@@ -76,6 +78,6 @@
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
   <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev" aria-label="Previous Slide"></div>
+  <div class="swiper-button-next" aria-label="Next Slide"></div>
 </div>

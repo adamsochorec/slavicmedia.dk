@@ -35,7 +35,7 @@ $lang = [
     "asset_34" => "Web Development",
     "asset_35" => "Danish",
     "asset_36" => "Our Amazing Clients",
-    "asset_37" => "",
+    "asset_37" => "View CVR details for Slavic Media I/S",
     "asset_38" => "Event video of a festival focused on reusing old things.",
     "asset_39" => "Short artistic film featuring drone-captured footage.",
     "asset_40" => "Showreel of cultural volunteer organisation.",
@@ -148,7 +148,7 @@ $lang = [
     that require full coverage from start to finish. It is
     also a good option for events where the focus is on
     capturing the unique spirit of the event.",
-    "asset_145" => "  Our <span class='highlited tuscher'>Plans</span> &
+    "asset_145" => "Plans &
     <span class='highlited tuscher'>Pricing</span>",
     "asset_146" => "Male rapper with glowing gas station background, Prague",
     "asset_147" => "Close-up of a girl's face with colorful makeup around her eyes, making her look like a buterfly",
@@ -172,7 +172,7 @@ $lang = [
     "asset_165" => "",
     "asset_166" => "Web dev",
     "asset_167" => "Drone operator",
-    "asset_168" => "Request a Proposal",
+    "asset_168" => "Request a <span class='highlited tuscher'>Proposal</span>",
     "asset_169" => "Project description",
     "asset_170" => "Name",
     "asset_171" => "Expedition Denmark blog",

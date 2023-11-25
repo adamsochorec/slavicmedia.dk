@@ -22,15 +22,15 @@
         <div
           class="pathname-container"
           role="region"
-          aria-label="Page Path"
+          aria-labelledby="pagePathHeading"
         ></div>
-        <h1 class="reveal" role="heading" aria-level="1">
+        <h1 id="pagePathHeading" class="reveal" role="heading" aria-level="1">
           <?php echo $lang['asset_75'] ?>
         </h1>
         <div
           class="pathname-container reveal"
           role="navigation"
-          aria-label="Breadcrumbs"
+          aria-labelledby="breadcrumbsHeading"
         >
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
@@ -46,9 +46,9 @@
           <div
             class="gallery-item"
             role="region"
-            aria-label="<?php echo $lang['asset_77'] ?>"
+            aria-labelledby="brandGuideHeading"
           >
-            <h2>
+            <h2 id="brandGuideHeading">
               <?php echo $lang['asset_77'] ?>
             </h2>
             <a
@@ -75,9 +75,9 @@
           <div
             class="gallery-item"
             role="region"
-            aria-label="<?php echo $lang['asset_79'] ?>"
+            aria-labelledby="creditGuideHeading"
           >
-            <h2><?php echo $lang['asset_79'] ?></h2>
+            <h2 id="creditGuideHeading"><?php echo $lang['asset_79'] ?></h2>
             <a
               class="gallery-item"
               href="/assets/credit-guide.pdf"
@@ -102,9 +102,9 @@
           <div
             class="gallery-item"
             role="region"
-            aria-label="<?php echo $lang['asset_81'] ?>"
+            aria-labelledby="pressKitHeading"
           >
-            <h2><?php echo $lang['asset_81'] ?></h2>
+            <h2 id="pressKitHeading"><?php echo $lang['asset_81'] ?></h2>
             <a
               class="gallery-item"
               href="/assets/press-kit.zip"

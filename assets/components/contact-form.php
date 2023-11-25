@@ -1,15 +1,23 @@
 <article class="wrapper-standard">
   <section class="contact-form-section">
-    <h3 class="reveal"><?php echo $lang['asset_168'] ?></h3>
-    <hr class="semi" />
+    <h3 class="reveal" role="heading" aria-level="3">
+      <?php echo $lang['asset_168'] ?>
+    </h3>
+    <hr class="semi" role="separator" aria-hidden="true" />
     <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/33ba160945b035b2578f7d428a1c2e3f"
+      action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"
       method="POST"
+      role="form"
+      aria-labelledby="contactFormHeading"
     >
       <!-- Form elements -->
-      <div class="grid-container contact-form">
+      <div
+        class="grid-container contact-form"
+        role="group"
+        aria-labelledby="contactFormGroupLabel"
+      >
         <div class="grid-item reveal">
           <p><label for="email">Email *</label></p>
           <input
@@ -19,6 +27,8 @@
             placeholder=""
             required
             autocomplete="email"
+            aria-required="true"
+            aria-labelledby="email"
           />
           <br />
           <p>
@@ -34,6 +44,8 @@
             name="name"
             placeholder=""
             autocomplete="Name"
+            aria-required="true"
+            aria-labelledby="name"
           />
           <br />
         </div>
@@ -41,7 +53,13 @@
           <p>
             <label for="category"><?php echo $lang['asset_181'] ?> </label>
           </p>
-          <select required id="category" name="category">
+          <select
+            required
+            id="category"
+            name="category"
+            aria-required="true"
+            aria-labelledby="category"
+          >
             <option value="" selected disabled hidden>
               <span class="default-option">
                 <?php echo $lang['asset_183'] ?></span
@@ -70,7 +88,13 @@
           <p>
             <label for="plan"><?php echo $lang['asset_182'] ?></label>
           </p>
-          <select required id="plan" name="plan">
+          <select
+            required
+            id="plan"
+            name="plan"
+            aria-required="true"
+            aria-labelledby="plan"
+          >
             <option value="" selected disabled hidden>
               <span class="default-option"
                 ><?php echo $lang['asset_183'] ?></span
@@ -106,10 +130,14 @@
           required
           id="project"
           placeholder=""
+          aria-required="true"
+          aria-labelledby="project"
         ></textarea>
         <button
           class="submit-btn flex-center"
           aria-label="<?php echo $lang['asset_164'] ?>"
+          role="button"
+          aria-labelledby="submitBtn"
         >
           <?php echo $lang['asset_164'] ?>
         </button>
@@ -129,5 +157,5 @@
       </div>
     </form>
   </section>
-  <hr class="reveal" />
+  <hr class="reveal" role="separator" aria-hidden="true" />
 </article>

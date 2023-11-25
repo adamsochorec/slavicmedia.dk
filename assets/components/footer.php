@@ -1,16 +1,18 @@
 <!-- FOOTER START -->
-<hr class="semi" />
+<hr class="semi" role="separator" />
 <footer>
   <?php
-         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-         include $IPATH . 'social-icons.php';
-         ?>
+     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+     include $IPATH . 'social-icons.php';
+  ?>
   <div class="footer-ps">
     <p>
       <a
         href="mailto:contact@slavicmedia.dk"
         aria-label="Email: contact@slavicmedia.dk"
-        >contact@slavicmedia.dk</a
+        role="link"
+      >
+        contact@slavicmedia.dk </a
       ><br />
       ©
       <?= date('Y') ?>
@@ -19,7 +21,8 @@
         target="_blank"
         rel="noopener noreferrer"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
-        aria-label="View CVR details for Slavic Media I/S"
+        aria-label=""
+        role="link"
       >
         CVR: 44081512
       </a>
@@ -29,6 +32,7 @@
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"
+    role="script"
   ></script>
   <!--<script
     type="text/javascript"
@@ -39,6 +43,7 @@
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8"
+    role="script"
   ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -49,8 +54,16 @@
 
     gtag("config", "G-KGTECW9SN8");
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    role="script"
+  ></script>
 
-  <script type="text/javascript" src="/assets/script.js" defer></script>
+  <script
+    type="text/javascript"
+    src="/assets/script.js"
+    defer
+    role="script"
+  ></script>
 </footer>
 <!-- FOOTER END -->
