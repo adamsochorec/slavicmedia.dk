@@ -6,8 +6,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
+    <meta name="description" content="<?php echo $lang['asset_19'] ?>" />
+    <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" />
     <title>Projects | Slavic Media</title>
   </head>
   <body id="projects">
@@ -83,7 +83,7 @@
               <a
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech</span
                 ><span
                   >&nbsp;<i
@@ -93,6 +93,7 @@
             </p>
             <img
               src="/img/2021-04-25-00693.jpg"
+              title="<?php echo $lang['asset_55'] ?>."
               alt="<?php echo $lang['asset_55'] ?>."
             />
           </div>
@@ -102,7 +103,7 @@
               <a
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech</span>
                 <span
                   >&nbsp;<i
@@ -112,6 +113,7 @@
             </p>
             <img
               src="/img/2021-04-14-00608.jpg"
+              title="<?php echo $lang['asset_56'] ?>."
               alt="<?php echo $lang['asset_56'] ?>."
             />
           </div>
@@ -119,17 +121,23 @@
             <p class="note date">2022</p>
             <img
               src="/img/2021-09-05-01666.jpg"
+              title="<?php echo $lang['asset_148'] ?>."
               alt="<?php echo $lang['asset_148'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
-            <img src="/img/hvalp.jpg" alt="<?php echo $lang['asset_150'] ?>." />
+            <img
+              src="/img/hvalp.jpg"
+              alt="<?php echo $lang['asset_150'] ?>."
+              title="<?php echo $lang['asset_150'] ?>."
+            />
           </div>
           <div class="v-stretch reveal">
             <p class="note date">2021</p>
             <img
               src="/img/2021-10-17-01935.jpg"
+              title="<?php echo $lang['asset_149'] ?>."
               alt="<?php echo $lang['asset_149'] ?>."
             />
           </div>
@@ -139,7 +147,7 @@
               <a
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech</span
                 ><span
                   >&nbsp;<i
@@ -149,6 +157,7 @@
             </p>
             <img
               src="/img/2021-04-13-00583.jpg"
+              title="<?php echo $lang['asset_59'] ?>."
               alt="<?php echo $lang['asset_59'] ?>."
             />
           </div>
@@ -158,7 +167,7 @@
               <a
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech</span
                 ><span
                   >&nbsp;<i
@@ -168,6 +177,7 @@
             </p>
             <img
               src="/img/2021-05-16-00786.jpg"
+              title="<?php echo $lang['asset_58'] ?>."
               alt="<?php echo $lang['asset_58'] ?>."
             />
           </div>
@@ -176,6 +186,7 @@
             <p class="note date">2021</p>
             <img
               src="/img/2021-11-13-02059.jpg"
+              title="<?php echo $lang['asset_52'] ?>."
               alt="<?php echo $lang['asset_52'] ?>."
             />
           </div>
@@ -183,6 +194,7 @@
             <p class="note date">2021</p>
             <img
               src="/img/2021-10-01-01825.jpg"
+              title="<?php echo $lang['asset_153'] ?>."
               alt="<?php echo $lang['asset_153'] ?>."
             />
           </div>
@@ -192,7 +204,7 @@
               <a
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo Disk</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -201,12 +213,14 @@
             <img
               src="/img/2021-06-24-01233.jpg"
               alt="<?php echo $lang['asset_54'] ?>."
+              title="<?php echo $lang['asset_54'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2021</p>
             <img
               src="/img/2021-07-19-01355.jpg"
+              title="<?php echo $lang['asset_146'] ?>."
               alt="<?php echo $lang['asset_146'] ?>."
             />
           </div>
@@ -214,6 +228,7 @@
             <p class="note date">2021</p>
             <img
               src="/img/2021-08-24-01615.jpg"
+              title="<?php echo $lang['asset_147'] ?>."
               alt="<?php echo $lang['asset_147'] ?>."
             />
           </div>
@@ -221,6 +236,7 @@
             <p class="note date">2021</p>
             <img
               src="/img/2021-04-22-00624.jpg"
+              title="<?php echo $lang['asset_2'] ?>."
               alt="<?php echo $lang['asset_2'] ?>."
             />
           </div>
@@ -228,6 +244,7 @@
             <p class="note date">2021</p>
             <img
               src="/img/2021-05-28-01020.jpg"
+              title="<?php echo $lang['asset_51'] ?>."
               alt="<?php echo $lang['asset_51'] ?>."
             />
           </div>
@@ -237,7 +254,7 @@
               <a
                 href="https://www.slovo21.cz/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Slovo 21</span
                 ><span
                   >&nbsp;<i
@@ -248,6 +265,7 @@
             <img
               src="/img/2021-06-21-01194.jpg"
               alt="<?php echo $lang['asset_4'] ?>."
+              title="<?php echo $lang['asset_4'] ?>."
             />
           </div>
 
@@ -257,7 +275,7 @@
               <a
                 href="https://www.sort-hvid.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Sort / Hvid</span
                 ><span
                   >&nbsp;<i
@@ -268,6 +286,7 @@
             <img
               src="/img/2023-11-13-00267.jpg"
               alt="<?php echo $lang['asset_216'] ?>."
+              title="<?php echo $lang['asset_216'] ?>."
             />
           </div>
         </div>
@@ -315,7 +334,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -324,6 +343,7 @@
             <img
               src="/img/2023-09-09-10524.jpg"
               alt="<?php echo $lang['asset_66'] ?>."
+              title="<?php echo $lang['asset_66'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -332,7 +352,7 @@
               <a
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Divadlo Disk</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -350,7 +370,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -359,6 +379,7 @@
             <img
               src="/img/2023-09-09-10507.jpg"
               alt="<?php echo $lang['asset_67'] ?>."
+              title="<?php echo $lang['asset_67'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -367,7 +388,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span
                 ><span
                   >&nbsp;<i
@@ -378,6 +399,7 @@
             <img
               src="/img/2023-05-27-00025.jpg"
               alt="<?php echo $lang['asset_61'] ?>."
+              title="<?php echo $lang['asset_61'] ?>."
             />
           </div>
           <div class="h-stretch hide-photo-min reveal">
@@ -386,7 +408,7 @@
               <a
                 href="https://www.roskilde-festival.dk/da/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Rosklide Festival</span
                 ><span
                   >&nbsp;<i
@@ -397,6 +419,7 @@
             <img
               src="/img/2022-06-28-00708.jpg"
               alt="<?php echo $lang['asset_70'] ?>."
+              title="<?php echo $lang['asset_70'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -405,7 +428,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span
                 ><span
                   >&nbsp;<i
@@ -416,6 +439,7 @@
             <img
               src="/img/2023-09-23-00049.jpg"
               alt="<?php echo $lang['asset_71'] ?>."
+              title="<?php echo $lang['asset_71'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -424,7 +448,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span
                 ><span
                   >&nbsp;<i
@@ -435,6 +459,7 @@
             <img
               src="/img/2023-05-12-08965.jpg"
               alt="<?php echo $lang['asset_72'] ?>."
+              title="<?php echo $lang['asset_72'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -443,7 +468,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span
                 ><span
                   >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
@@ -461,7 +486,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -470,6 +495,7 @@
             <img
               src="/img/2023-05-12-08969.jpg"
               alt="<?php echo $lang['asset_63'] ?>."
+              title="<?php echo $lang['asset_63'] ?>."
             />
           </div>
 
@@ -478,6 +504,7 @@
             <img
               src="/img/2022-06-18-00518.jpg"
               alt="<?php echo $lang['asset_69'] ?>."
+              title="<?php echo $lang['asset_69'] ?>."
             />
           </div>
 
@@ -487,7 +514,7 @@
               <a
                 href="https://www.facebook.com/koldingkulturnat/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Kolding Kulturnat</span>
                 <span
                   >&nbsp;<i
@@ -498,6 +525,7 @@
             <img
               src="/img/2023-09-01-00086.jpg"
               alt="<?php echo $lang['asset_57'] ?>."
+              title="<?php echo $lang['asset_57'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -506,7 +534,7 @@
               <a
                 href="https://www.kolding.dk/om-kommunen/nyhedsarkiv/hyg-og-byg-baeredygtig-sondag-med-gratis-mobler-til-koldings-studerende/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Hyg og Byg</span
                 ><span
                   >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
@@ -516,6 +544,7 @@
             <img
               src="/img/2023-09-24-00022.jpg"
               alt="<?php echo $lang['asset_3'] ?>."
+              title="<?php echo $lang['asset_3'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -524,7 +553,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -533,6 +562,7 @@
             <img
               src="/img/2023-09-30-00022.jpg"
               alt="<?php echo $lang['asset_48'] ?>."
+              title="<?php echo $lang['asset_48'] ?>."
             />
           </div>
         </div>
@@ -580,7 +610,7 @@
               <a
                 href="https://www.timetravels.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels</span
                 ><span
@@ -592,6 +622,7 @@
             <img
               src="/img/2022-12-08-01181.jpg"
               alt="<?php echo $lang['asset_95'] ?>."
+              title="<?php echo $lang['asset_95'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -600,7 +631,7 @@
               <a
                 href="https://www.timetravels.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Timetravels</span
                 ><span
                   >&nbsp;<i
@@ -610,7 +641,8 @@
             </p>
             <img
               src="/img/2022-12-07-01167.jpg"
-              alt="<?php echo $lang[''] ?>."
+              title="<?php echo $lang['asset_97'] ?>."
+              alt="<?php echo $lang['asset_97'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -619,7 +651,7 @@
               <a
                 href="https://touristisrael.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel</span
                 ><span
                   >&nbsp;<i
@@ -630,6 +662,7 @@
             <img
               src="/img/2023-08-29-01113.jpg"
               alt="<?php echo $lang['asset_176'] ?>."
+              title="<?php echo $lang['asset_176'] ?>."
             />
           </div>
           <div class="h-stretch hide-photo-min reveal">
@@ -638,7 +671,7 @@
               <a
                 href="https://touristisrael.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel</span
                 ><span
                   >&nbsp;<i
@@ -649,6 +682,7 @@
             <img
               src="/img/2023-08-29-01113.jpg"
               alt="<?php echo $lang['asset_176'] ?>."
+              title="<?php echo $lang['asset_176'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -657,7 +691,7 @@
               <a
                 href="https://touristisrael.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel</span
                 ><span
                   >&nbsp;<i
@@ -668,6 +702,7 @@
             <img
               src="/img/2023-08-29-01096.jpg"
               alt="<?php echo $lang['asset_177'] ?>."
+              title="<?php echo $lang['asset_177'] ?>."
             />
           </div>
 
@@ -677,7 +712,7 @@
               <a
                 href="https://touristisrael.com"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel</span
                 ><span
                   >&nbsp;<i
@@ -688,6 +723,7 @@
             <img
               src="/img/2023-08-29-01059.jpg"
               alt="<?php echo $lang['asset_178'] ?>."
+              title="<?php echo $lang['asset_178'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -696,7 +732,7 @@
               <a
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_218'] ?></span
                 ><span
                   >&nbsp;<i
@@ -707,6 +743,7 @@
             <img
               src="/img/2022-10-15-00970.jpg"
               alt="<?php echo $lang['asset_49'] ?>."
+              title="<?php echo $lang['asset_49'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -715,7 +752,7 @@
               <a
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_218'] ?></span
                 ><span
                   >&nbsp;<i
@@ -726,6 +763,7 @@
             <img
               src="/img/2022-10-16-00979.jpg"
               alt="<?php echo $lang['asset_87'] ?>."
+              title="<?php echo $lang['asset_87'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -734,7 +772,7 @@
               <a
                 href="https://adamsochorec.com/blog/vestkystruten"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_151'] ?></span
                 ><span
                   >&nbsp;<i
@@ -745,6 +783,7 @@
             <img
               src="/img/2022-07-20-00854.jpg"
               alt="<?php echo $lang['asset_92'] ?>."
+              title="<?php echo $lang['asset_92'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -753,7 +792,7 @@
               <a
                 href="https://adamsochorec.com/blog/vestkystruten"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_151'] ?></span
                 ><span
                   >&nbsp;<i
@@ -778,6 +817,7 @@
             <img
               src="/img/2023-08-06-00304.jpg"
               alt="<?php echo $lang['asset_86'] ?>."
+              title="<?php echo $lang['asset_86'] ?>."
             />
           </div>
           <div class="h-stretch reveal">
@@ -785,6 +825,7 @@
             <img
               src="/img/2023-07-26-00100.jpg"
               alt="<?php echo $lang['asset_93'] ?>."
+              title="<?php echo $lang['asset_93'] ?>."
             />
           </div>
         </div>
@@ -832,7 +873,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -855,7 +896,7 @@
               <a
                 href="https://www.bygning5.dk"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Bygning 5</span
                 ><span
                   >&nbsp;<i
@@ -880,7 +921,7 @@
               <a
                 href="https://tribemedia.dk"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Tribe Media</span
                 ><span
                   >&nbsp;<i
@@ -946,7 +987,7 @@
               <a
                 href="https://husetfundament.dk/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament</span>&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
@@ -969,7 +1010,7 @@
               <a
                 href="https://www.bygning5.dk"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Bygning 5</span
                 ><span
                   >&nbsp;<i
@@ -994,7 +1035,7 @@
               <a
                 href="https://parkourskola.sk"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span>Parkour Škola</span
                 ><span
                   >&nbsp;<i
@@ -1055,7 +1096,7 @@
               <a
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_218'] ?></span
                 ><span
                   >&nbsp;<i

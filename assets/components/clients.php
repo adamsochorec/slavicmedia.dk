@@ -15,7 +15,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.franklincovey.cz/"
     aria-label="Franklin Covey Website"
   >
@@ -89,7 +89,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.divadlonavinohradech.com/"
     aria-label="Divadlo na Vinohradech Logo"
   >
@@ -246,7 +246,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.timetravels.com/"
     aria-label="Timetravels Logo"
   >
@@ -261,7 +261,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.divadlodisk.cz/"
     aria-label="Divadlo Disk Logo"
   >
@@ -371,7 +371,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://parkourskola.sk/"
     aria-label="Parkour Skola Logo"
   >
@@ -491,7 +491,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.roskilde-festival.dk/"
     aria-label="Roskilde Festival Logo"
   >
@@ -627,7 +627,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://samoeurope.com/"
     aria-label="Samo Europe Logo"
   >
@@ -735,7 +735,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.kolding.dk/"
     aria-label="Kolding Kommune Logo"
   >
@@ -893,7 +893,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.sort-hvid.dk/"
     aria-label="Sort Hvid Logo"
   >
@@ -906,7 +906,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.husetfundament.dk/"
     aria-label="Huset Fundament Logo"
   >
@@ -1119,7 +1119,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.familysearch.org"
     aria-label="Family Search logo"
   >
@@ -1205,7 +1205,7 @@
   <a
     class="clients"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer nofollow"
     href="https://www.slovo21.cz/"
     aria-label="Slovo 21 Logo"
   >

@@ -1,3 +1,15 @@
+function switchLanguage(langCode) {
+  // Change langswitch.php to the path which is actually responsible for that
+  fetch(`/config.php?lang=${langCode}`, {
+    credentials: "same-origin",
+  })
+    .then(() => {
+      window.location.reload();
+    })
+    .catch((error) => {
+      console.log("There was an error while switching languages");
+    });
+}
 // LOADER ANIMATION START
 (function introLoader() {
   window.addEventListener("load", () => {

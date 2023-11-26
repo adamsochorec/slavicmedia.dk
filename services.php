@@ -1,14 +1,14 @@
 <?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
-    <title>Services | Slavic Media</title>
+    <meta name="description" content="<?php echo $lang['asset_225'] ?>" />
+    <!-- <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" /> -->
+    <title>Multimedia <?php echo $lang['asset_105'] ?> | Slavic Media</title>
   </head>
   <body id="services">
     <!-- HEADER START -->
@@ -40,6 +40,7 @@
           <div class="gallery-item reveal" aria-label="">
             <img
               src="/img/2023-05-12-08965.jpg"
+              title="<?php echo $lang['asset_40'] ?>."
               alt="<?php echo $lang['asset_40'] ?>."
             />
             <div class="gallery-item-caption">
@@ -53,7 +54,11 @@
           </div>
 
           <div class="gallery-item reveal">
-            <img src="/img/studio.jpg" alt="<?php echo $lang['asset_38'] ?>." />
+            <img
+              src="/img/studio.jpg"
+              title="<?php echo $lang['asset_38'] ?>."
+              alt="<?php echo $lang['asset_38'] ?>."
+            />
             <div class="gallery-item-caption">
               <h3>
                 <?php echo $lang['asset_194'] ?>
@@ -68,6 +73,7 @@
             <img
               src="/img/2021-08-24-01615.jpg"
               class="north-cascades-img"
+              title="<?php echo $lang['asset_47'] ?>."
               alt="<?php echo $lang['asset_47'] ?>."
             />
             <div class="gallery-item-caption">
@@ -83,6 +89,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/cover-samso.jpg"
+              title="<?php echo $lang['asset_152'] ?>."
               alt="<?php echo $lang['asset_152'] ?>."
             />
             <div class="gallery-item-caption">
@@ -95,7 +102,11 @@
             </div>
           </div>
           <div class="gallery-item reveal">
-            <img src="/img/hvalp.jpg" alt="<?php echo $lang['asset_50'] ?>." />
+            <img
+              src="/img/hvalp.jpg"
+              alt="<?php echo $lang['asset_50'] ?>."
+              title="<?php echo $lang['asset_50'] ?>."
+            />
             <div class="gallery-item-caption">
               <h3>
                 <?php echo $lang['asset_200'] ?>
@@ -108,6 +119,7 @@
           <div class="gallery-item reveal">
             <img
               src="/img/animation.jpg"
+              title="<?php echo $lang['asset_39'] ?>."
               alt="<?php echo $lang['asset_39'] ?>."
             />
             <div class="gallery-item-caption">

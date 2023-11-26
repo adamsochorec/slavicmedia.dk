@@ -8,7 +8,7 @@
         <a
           href="https://husetfundament.dk/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
         >
           <span>Huset Fundament</span>
           <span
@@ -33,7 +33,7 @@
         <a
           href="https://www.bygning5.dk"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
         >
           <span>Bygning 5</span>
           <span
@@ -58,7 +58,7 @@
         <a
           href="https://tribemedia.dk"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
         >
           <span>Tribe Media</span>
           <span

@@ -6,9 +6,9 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
-    <title>Slavic Media</title>
+    <meta name="description" content="<?php echo $lang['asset_223'] ?>" />
+    <!-- <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" /> -->
+    <title><?php echo $lang['asset_222'] ?> | Slavic Media</title>
   </head>
   <body id="homepage">
     <!-- HEADER START -->
@@ -83,6 +83,7 @@
           >
             <img
               src="/img/2023-09-09-10524.jpg"
+              title="<?php echo $lang['asset_40'] ?>."
               alt="<?php echo $lang['asset_40'] ?>."
             />
             <div class="gallery-item-caption">
@@ -93,6 +94,7 @@
             <img
               src="/img/2021-04-25-00693.jpg"
               class="north-cascades-img"
+              title="<?php echo $lang['asset_47'] ?>."
               alt="<?php echo $lang['asset_47'] ?>."
             />
             <div class="gallery-item-caption">
@@ -102,6 +104,7 @@
           <a href="/portrait#travel" class="gallery-item reveal">
             <img
               src="/img/2022-12-08-01181.jpg"
+              title="<?php echo $lang['asset_152'] ?>."
               alt="<?php echo $lang['asset_152'] ?>."
             />
             <div class="gallery-item-caption">
@@ -113,6 +116,7 @@
           <a href="/projects#showreel" class="gallery-item reveal">
             <img
               src="/img/cover-husetfundament.jpg"
+              title="<?php echo $lang['asset_50'] ?>."
               alt="<?php echo $lang['asset_50'] ?>."
             />
             <div class="gallery-item-caption">
@@ -123,6 +127,7 @@
           <a href="/projects#interview" class="gallery-item reveal">
             <img
               src="/img/cover-crowdfunding.jpg"
+              title="<?php echo $lang['asset_38'] ?>."
               alt="<?php echo $lang['asset_38'] ?>."
             />
             <div class="gallery-item-caption">
@@ -167,7 +172,7 @@
         <a
           class="flex-center reveal"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           href="https://g.page/r/CRTkzopg3plWEB0/review"
         >
           <div class="cta">
@@ -328,6 +333,7 @@
                 <img
                   src="/img/2022-04-24-07404.jpg"
                   alt="<?php echo $lang['asset_23'] ?>Marcel"
+                  title="<?php echo $lang['asset_23'] ?>Marcel"
                   class="reveal"
                   aria-label="Marcel's Portrait"
                 />
@@ -351,7 +357,7 @@
                   <a
                     href="https://www.linkedin.com/in/marcelhajik"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
@@ -475,6 +481,7 @@
                 <img
                   src="/img/2022-04-24-07426.jpg"
                   alt="<?php echo $lang['asset_23'] ?> Adam"
+                  title="<?php echo $lang['asset_23'] ?> Adam"
                   class="reveal"
                   role="img"
                   aria-label="<?php echo $lang['asset_23'] ?> Adam"
@@ -500,7 +507,7 @@
                   <a
                     href="https://www.linkedin.com/in/adamsochorec"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     <i class="fa-brands fa-linkedin"></i>
                   </a>

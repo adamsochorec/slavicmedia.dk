@@ -19,7 +19,7 @@
       Slavic Media I/S |
       <a
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer nofollow"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
         aria-label=""
         role="link"

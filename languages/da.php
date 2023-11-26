@@ -297,9 +297,13 @@ af hver dag, så rejsende kan skrive og dele deres
 "asset_216" => "Kvinde og mand i intimt kram, kvinde holder en kif på mandens hals.",
 "asset_217" => "Andet",
 "asset_218" => "Ekspedition Åland",
-"asset_219" => "",
-"asset_220" => "",
-"asset_221" => "",
-"asset_222" => "",
+"asset_219" => "multimedieproduktion, Danmark, digital markedsføring, Kolding, kreativ historiefortælling, Syddanmark, Trekantenområdet, fotografitjenester, videotjenester, manuskriptskrivning, Kolding, scenografi, droneoptagelser, unikke brandkoncepter, personlige brandideer, kommerciel produktion, professionel fotograf, professionel videograf, multimediebureau, professionelt studie, multimedietjenester, ekspertpostproduktion, visuel ekspertise, grafisk design, animationer, 3D-modeller, rejser, stillfotografering, begivenhedsfotografering, portrætfotografering, showreel, interview",
+"asset_220" => "Mærkeguide, kreditvejledning, pressesæt, logo, vektor, tag-guide, sociale medier",
+"asset_221" => "Udforsk vores presseside for omfattende ressourcer. Vores brandguide etablerer visuelle og stilistiske standarder, der sikrer ensartet logo, farve, skrifttype og design. Kreditvejledningen beskriver, hvordan man tagger og krediterer vores multimediearbejde på tværs af digitalt og trykt medier. Download vores pressesæt til vektoriserede logoer, skrifttyper og væsentlige brandingmaterialer, hvilket giver dig mulighed for præcist at repræsentere vores brand i din dækning.",
+"asset_222" => "Din online tilstedeværelse",
+"asset_223" => "Vi er en kreativ multimedievirksomhed, der er specialiseret i portrætter, stillbilleder, showreels og interviews. Lad os fortælle din historie gennem smukke billeder og rene designs.",
+"asset_224" => "Portrættjenester, stillbilleder, rejsetjenester, showreel-tjenester, interviewtjenester, professionel fotograf, professionel videograf, multimediebureau, produktionsselskab, ekspertpostproduktion, visuel ekspertise, grafisk design, animationer, 3D-modeller, e-handel , professionelt udstyr, farveklassificering, ",
+"asset_225" => "Slavic Media er en ikke-traditionel multimedieproduktionsvirksomhed, der har specialiseret sig i kreativ historiefortælling. Vi tror på styrken af gode scenografier, dyb øjenkontakt og den rigtige belysning til at løfte dit budskab over støjen.",
+"asset_226" => "Åbn mobilmenuen",
 ];
 ?>

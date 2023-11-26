@@ -1,14 +1,14 @@
 <?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_41'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['asset_42'] ?>" />
-    <title>Press | Slavic Media</title>
+    <meta name="description" content="<?php echo $lang['asset_221'] ?>" />
+    <!--     <meta name="keywords" content="<?php echo $lang['asset_220'] ?>" /> -->
+    <title><?php echo $lang['asset_75'] ?> | Slavic Media</title>
   </head>
   <body id="press">
     <!-- HEADER START -->
@@ -55,7 +55,6 @@
               class="gallery-item"
               href="/assets/brand-guide.pdf"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <div class="grid-item" id="brand-guide">
                 <div class="blur">
@@ -82,7 +81,6 @@
               class="gallery-item"
               href="/assets/credit-guide.pdf"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <div class="grid-item" id="credit-guide">
                 <div class="blur">
@@ -109,7 +107,6 @@
               class="gallery-item"
               href="/assets/press-kit.zip"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <div class="grid-item" id="press-kit">
                 <div class="blur">

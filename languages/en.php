@@ -298,9 +298,14 @@ $lang = [
     "asset_216" => "Woman and man in intimate hug, woman holds a kife on mans neck.",
     "asset_217" => "Other",
     "asset_218" => "Expedition Åland",
-    "asset_219" => "",
-    "asset_220" => "",
-    "asset_221" => "",
-    "asset_222" => "",
+    "asset_219" => "multimedia production, Denmark, digital marketing, Kolding, creative storytelling, Syddanmark, Trekantenområdet, photography services, video services, scriptwriting, Kolding, set design, drone footage, unique brand concepts, personalized brand ideas, commercial production, professional photographer, professional videographer, multimedia agency, professional studio, multimedia services, expert post production, visual excellence, graphic design, animations, 3D models, travel, still photography, event photography, portrait photography, showreel, interview",
+    "asset_220" => "Brand guide, Credit guide, Press kit, logo, vector, tag guide, social media",
+    "asset_221" => "Explore our Press page for comprehensive resources. Our Brand Guide establishes visual and stylistic standards, ensuring logo, color, font, and design consistency. The Credit Guide outlines how to tag and credit our multimedia work across digital and printed media. Download our Press Kit for vectorized logos, fonts, and essential branding materials, empowering you to accurately represent our brand in your coverage.",
+    "asset_222" => "Your Online Presence",
+    "asset_223" => "We are a creative multimedia company specializing in portraits, stills, showreels and interviews. Let us tell your story through beautiful shots and clean designs.
+    ",
+    "asset_224" => "Portrait Services, Stills services, Travel Services, Showreel services, interview services, professional photographer, professional videographer, multimedia agency, production company, expert post production, visual excellence, graphic design, animations, 3D models, e commerce, professional equipment, colour grading, ",    
+    "asset_225" => "Slavic Media is a non-traditional multimedia production company that specializes in creative storytelling. We believe in the power of good set designs, deep eye contact, and the right lighting to elevate your message above the noise.",
+    "asset_226" => "Open mobile menu",
 ];
 ?>

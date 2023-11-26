@@ -3,6 +3,7 @@
 // Define a list of supported languages to avoid arbitrary file inclusion
 $supportedLanguages = ['en', 'da'];
 
+
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = "en";
 } else if (isset($_GET['lang']) && in_array($_GET['lang'], $supportedLanguages)) {
@@ -17,4 +18,6 @@ if (file_exists($languageFile)) {
     // You can add code here to provide a graceful error message or take other appropriate actions.
     die("Language file not found.");
 }
+
+
 ?>

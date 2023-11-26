@@ -14,7 +14,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/106744506446456654416?hl=en-US"
               >Armando P.</a
             ><br />Musician<br />
@@ -40,7 +40,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/110738271589854335121?hl=en-US"
               >Daniel D.</a
             ><br />Musician<br />
@@ -67,7 +67,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/109240411528056870351?hl=en-US"
               >Nikos S.</a
             ><br />UX Researcher<br />
@@ -94,7 +94,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/102583932635799024170?hl=en-US"
               >Dominik T.</a
             ><br />Customer<br />
@@ -120,7 +120,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/116209661109434700092?hl=en-US"
               >Bygning 5</a
             ><br />Collaborator<br />
@@ -142,7 +142,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/100383834414028866094?hl=en-US"
               >Annesofie B.</a
             ><br />Project Assistant<br />
@@ -168,7 +168,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/108504332332452488678?hl=en-US"
               >Erika H.</a
             ><br />Client<br />
@@ -192,7 +192,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/118217763143382642144?hl=en-US"
               >Yaan D.</a
             ><br />Client<br />
@@ -218,7 +218,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/116120348225372955039?hl=en-US"
               >Isbjörg</a
             ><br />Band<br />
@@ -241,7 +241,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/100363374932860666953?hl=en-US"
               >Nicole J.</a
             ><br />Client<br />
@@ -268,7 +268,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/101149448207142561689?hl=en-US"
               >Janka H.</a
             ><br />Client<br />
@@ -290,7 +290,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/116366454104707477681?hl=en-US"
               >Raasmus S.</a
             ><br />Client<br />
@@ -316,7 +316,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/105371539797385376285?hl=en-US"
               >Július S.</a
             ><br />Client<br />
@@ -340,7 +340,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/118423903113266752229?hl=en-US"
               >SYL</a
             ><br />Band<br />
@@ -363,7 +363,7 @@
           <p>
             <a
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/107580988011083737028?hl=en-US"
               >Christián T.</a
             ><br />Client<br />
@@ -376,5 +376,6 @@
   </div>    
    -->
   </div>
-  <div class="swiper-pagination"></div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination" role="group" aria-label="Pagination"></div>
 </section>

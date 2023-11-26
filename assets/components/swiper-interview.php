@@ -8,7 +8,7 @@
         <a
           href="https://husetfundament.dk/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           ><span>Huset Fundament</span
           ><span
             >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
@@ -33,7 +33,7 @@
         <a
           href="https://www.bygning5.dk"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           ><span>Bygning 5</span
           ><span
             >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
@@ -57,7 +57,7 @@
         <a
           href="https://parkourskola.sk"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer nofollow"
           ><span><?php echo $lang['asset_46'] ?></span
           ><span
             >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i></span
@@ -76,8 +76,12 @@
     </div>
   </div>
   <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+  <div class="swiper-pagination" role="group" aria-label="Pagination"></div>
   <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev" aria-label="Previous Slide"></div>
-  <div class="swiper-button-next" aria-label="Next Slide"></div>
+  <div
+    class="swiper-button-prev"
+    role="button"
+    aria-label="Previous Slide"
+  ></div>
+  <div class="swiper-button-next" role="button" aria-label="Next Slide"></div>
 </div>
