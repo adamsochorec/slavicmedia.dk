@@ -39,21 +39,8 @@
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
   ></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
-   <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8"
-    role="script"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-KGTECW9SN8");
-  </script>
+ -->
+  
   <script
     src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
     role="script"

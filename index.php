@@ -16,8 +16,8 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
-
     <!-- HEADER END -->
+
     <main>
       <!-- VISUALS START -->
       <article id="visuals" role="region" aria-label="Visuals">

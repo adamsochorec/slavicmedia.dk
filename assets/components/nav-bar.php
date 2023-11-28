@@ -63,6 +63,12 @@
       </nav>
     </div>
 </header>
+   <!-- COOKIES START -->
+   <?php
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'cookies.php';
+   ?>
+  <!-- COOKIES END -->
 <!-- LOADER START -->
 <aside class="loader-container" role="complementary">
   <div class="loader" aria-label="Loading"></div>

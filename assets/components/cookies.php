@@ -1,15 +1,22 @@
-<section class="banner" role="banner" aria-labelledby="banner-heading">
-  <article class="wrapper-wide">
-    <div class="banner-wrapper">
-      <p id="banner-heading">
-        We use Google Analytics, to enhance your browsing experience and analyze
-        how you interact with our website. By continuing to use this website,
-        you consent to the use of cookies as described in our
-        <a href="/cookie-policy">Cookie Policy</a>.
-      </p>
-      <button aria-label="Close" onclick="closeBanner()">
-        <a class="cta">Got it</a>
-      </button>
-    </div>
-  </article>
-</section>
+<div class="wrapper">
+  <div class="title-box">
+    <i class="fa-solid fa-cookie-bite"></i>
+    <h3>Cookies Consent</h3>
+  </div>
+  <div class="info">
+    <p>
+      This website use analytical cookies to help you have a superior and more
+      relevant browsing experience on the website.
+      <!-- <br />
+      <a href="#">
+        Learn more &#8250;</a
+      >
+    </p> -->
+    </p>
+  </div>
+
+  <div class="buttons">
+    <button class="button cta" id="acceptBtn">Accept</button>
+    <button class="button cta">Decline</button>
+  </div>
+</div>

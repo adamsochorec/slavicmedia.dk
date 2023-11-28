@@ -87,3 +87,49 @@ reveal();
     lastScrollTop = st;
   }
 })();
+// COOKIES START
+// ---- ---- Const ---- ---- //
+const cookiesBox = document.querySelector(".wrapper"),
+  buttons = document.querySelectorAll(".button");
+// ---- ---- Show ---- ---- //
+const executeCodes = () => {
+  if (document.cookie.includes("SlavicMedia")) {
+    // If the cookie is already set, no need to show the cookie consent box
+    loadGoogleAnalytics();
+    return;
+  }
+  cookiesBox.classList.add("show");
+  // ---- ---- Button ---- ---- //
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      cookiesBox.classList.remove("show");
+
+      // ---- ---- Time ---- ---- //
+      if (button.id == "acceptBtn") {
+        document.cookie = "cookieBy= SlavicMedia; max-age=" + 60 * 60 * 24 * 30;
+        loadGoogleAnalytics();
+      }
+    });
+  });
+};
+const loadGoogleAnalytics = () => {
+  // ---- ---- Google Analytics Code ---- ---- //
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8";
+  script.role = "script";
+
+  script.onload = function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-KGTECW9SN8");
+  };
+
+  document.head.appendChild(script);
+};
+
+window.addEventListener("load", executeCodes);
+// COOKIES END
