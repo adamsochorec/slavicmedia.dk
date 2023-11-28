@@ -66,7 +66,7 @@
    <!-- COOKIES START -->
    <?php
    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-   include $IPATH . 'cookies.php';
+   include $IPATH . 'privacy.php';
    ?>
   <!-- COOKIES END -->
 <!-- LOADER START -->

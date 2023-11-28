@@ -89,7 +89,7 @@ reveal();
 })();
 // COOKIES START
 // ---- ---- Const ---- ---- //
-const cookiesBox = document.querySelector(".wrapper"),
+const cookiesBox = document.querySelector(".privacy-container"),
   buttons = document.querySelectorAll(".button");
 // ---- ---- Show ---- ---- //
 const executeCodes = () => {

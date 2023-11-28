@@ -24,7 +24,9 @@
         aria-label=""
         role="link"
       >
-        CVR: 44081512
+        CVR: 44081512 </a
+      ><br /><a href="/cookies">
+        <?php echo $lang['asset_231'] ?>
       </a>
     </p>
   </div>
@@ -40,7 +42,7 @@
   ></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
  -->
-  
+
   <script
     src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
     role="script"
