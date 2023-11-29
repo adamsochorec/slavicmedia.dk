@@ -2837,6 +2837,30 @@ img.mfp-img {
 #services .services-grid .grid-item p {
   margin: 0 0 var(--grid-gap-2) 0;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: var(--border-radius-2);
+  box-shadow: var(--box-shadow-1);
+}
+tr:nth-child(odd) {
+  background-color: rgba(var(--light-grey-color), 0.4);
+}
+th,
+td {
+  border: 2px solid rgba(var(--light-grey-color), 0.4);
+  text-align: left;
+  padding: var(--grid-gap-1);
+}
+table i {
+  color: white;
+}
+th {
+  background-color: #f2f2f2;
+}
+table p {
+  font-size: var(--fontsize-note);
+}
 /* CARD FLIP START */
 .flip-card {
   background-color: transparent;
@@ -3478,6 +3502,10 @@ p.note.date {
   }
   .hide-cta-min {
     display: none !important;
+  }
+  th,
+  td {
+    padding: var(--grid-gap-1) 5px;
   }
 }
 @media only screen and (min-width: 500px) {

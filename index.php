@@ -164,7 +164,7 @@
       <!-- SERVICES END -->
       <!-- REVIEWS START -->
       <article class="wrapper-wide" id="reviews">
-        <br />
+        <hr class="semi" />
         <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'swiper-reviews.php';

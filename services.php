@@ -68,7 +68,6 @@
               </p>
             </div>
           </div>
-
           <div class="gallery-item reveal">
             <img
               src="/img/2021-08-24-01615.jpg"
@@ -85,7 +84,6 @@
               </p>
             </div>
           </div>
-
           <div class="gallery-item reveal">
             <img
               src="/img/cover-samso.jpg"
@@ -132,152 +130,14 @@
             </div>
           </div>
         </article>
+        <section class="flex-center">
+          <a class="reveal" href="/projects" id="plans">
+            <div class="cta">
+              <?php echo $lang['asset_233'] ?>
+            </div>
+          </a>
+        </section>
         <!-- FEATURES END -->
-        <hr class="reveal" id="portrait" />
-
-        <div class="grid-container services-grid">
-          <!-- PORTRAIT START -->
-          <div class="grid-item reveal">
-            <h2 class="hide-heading-min">
-              <?php echo $lang['asset_110'] ?>
-              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-            </h2>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-            include $IPATH . 'swiper-portrait.php';
-            ?>
-          </div>
-          <div class="grid-item text-container reveal">
-            <section>
-              <h2 class="hide-heading-max">
-                <?php echo $lang['asset_110'] ?>
-                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-              </h2>
-              <p>
-                <?php echo $lang['asset_173'] ?>
-              </p>
-              <a href="/projects#portrait">
-                <div class="cta" id="stills">
-                  <?php echo $lang['asset_114'] ?>
-                </div>
-              </a>
-            </section>
-          </div>
-          <!-- PORTRAIT END -->
-          <!-- STILLS START -->
-          <div class="grid-item">
-            <h2 class="hide-heading-min">
-              <?php echo $lang['asset_107'] ?>
-              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-            </h2>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-            include $IPATH . 'swiper-stills.php';
-            ?>
-          </div>
-          <div class="grid-item text-container">
-            <section>
-              <h2 class="hide-heading-max reveal">
-                <?php echo $lang['asset_107'] ?><br />
-                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-              </h2>
-              <p class="reveal">
-                <?php echo $lang['asset_174'] ?>
-              </p>
-              <a href="/projects#stills">
-                <div class="cta" id="travel">
-                  <?php echo $lang['asset_113'] ?>
-                </div></a
-              >
-            </section>
-          </div>
-          <!-- STILLS END -->
-          <!-- TRAVEL START -->
-          <div class="grid-item">
-            <h2 class="hide-heading-min reveal">
-              <?php echo $lang['asset_85'] ?>
-              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-            </h2>
-            <!-- Slider main container -->
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-            include $IPATH . 'swiper-travel.php';
-            ?>
-          </div>
-          <div class="grid-item text-container">
-            <section>
-              <h2 class="hide-heading-max reveal">
-                <?php echo $lang['asset_85'] ?>
-                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-              </h2>
-              <p class="reveal">
-                <?php echo $lang['asset_175'] ?>
-              </p>
-              <a href="/projects#travel">
-                <div class="cta" id="showreel">
-                  <?php echo $lang['asset_115'] ?>
-                </div>
-              </a>
-            </section>
-          </div>
-          <!-- TRAVEL END -->
-          <!-- SHOWREEL START -->
-          <div class="grid-item reveal">
-            <h2 class="hide-heading-min">
-              <?php echo $lang['asset_184'] ?>
-              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-            </h2>
-            <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-            include $IPATH . 'swiper-showreel.php';
-            ?>
-          </div>
-          <div class="grid-item text-container reveal">
-            <section>
-              <h2 class="hide-heading-max">
-                <?php echo $lang['asset_184'] ?>
-                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-              </h2>
-              <p>
-                <?php echo $lang['asset_185'] ?>
-              </p>
-              <a href="/projects#showreel">
-                <div class="cta" id="interview">
-                  <?php echo $lang['asset_186'] ?>
-                </div></a
-              >
-            </section>
-          </div>
-          <!-- SHOWREEL END -->
-          <!-- INTERVIEW START -->
-          <div class="grid-item reveal">
-            <h2 class="hide-heading-min">
-              <?php echo $lang['asset_187'] ?>
-              <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-            </h2>
-            <?php
-              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-              include $IPATH . 'swiper-interview.php';
-              ?>
-          </div>
-          <div class="grid-item text-container reveal">
-            <section>
-              <h2 class="hide-heading-max">
-                <?php echo $lang['asset_187'] ?>
-                <span class="highlited"> <?php echo $lang['asset_105'] ?></span>
-              </h2>
-              <p>
-                <?php echo $lang['asset_188'] ?>
-              </p>
-              <a href="/projects#interview"
-                ><div class="cta" id="plans">
-                  <?php echo $lang['asset_189'] ?>
-                </div></a
-              >
-            </section>
-          </div>
-          <!-- INTERVIEW END -->
-        </div>
         <hr class="reveal" role="separator" />
         <!-- PACKAGES START -->
         <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
@@ -289,655 +149,430 @@
             type="radio"
             name="tabset"
             id="tab1"
-            aria-controls="Portrait"
+            aria-controls="<?php echo $lang['asset_33'] ?>"
             checked
           />
           <label for="tab1"
-            ><span><?php echo $lang['asset_110'] ?></span></label
+            ><span><?php echo $lang['asset_33'] ?></span></label
           >
           <!-- Tab 2 -->
-          <input type="radio" name="tabset" id="tab2" aria-controls="Stills" />
+          <input
+            type="radio"
+            name="tabset"
+            id="tab2"
+            aria-controls="<?php echo $lang['asset_13'] ?>"
+          />
           <label for="tab2"
-            ><span><?php echo $lang['asset_107'] ?></span></label
+            ><span><?php echo $lang['asset_13'] ?></span></label
           >
           <!-- Tab 3 -->
-          <input type="radio" name="tabset" id="tab3" aria-controls="Travel" />
+          <input type="radio" name="tabset" id="tab3" aria-controls="" />
           <label for="tab3"
-            ><span><?php echo $lang['asset_85'] ?></span></label
-          >
-          <!-- Tab 4 -->
-          <input
-            type="radio"
-            name="tabset"
-            id="tab4"
-            aria-controls="Showreel"
-          />
-          <label for="tab4"
-            ><span><?php echo $lang['asset_184'] ?></span></label
-          >
-          <!-- Tab 5 -->
-          <input
-            type="radio"
-            name="tabset"
-            id="tab5"
-            aria-controls="Interview"
-          />
-          <label for="tab5"
-            ><span><?php echo $lang['asset_187'] ?></span></label
+            ><span><?php echo $lang['asset_234'] ?></span></label
           >
           <hr class="semi" role="separator" />
-
           <div class="tab-panels">
-            <!-- PORTRAIT PACKAGES START -->
-            <section id="portrait" class="tab-panel">
-              <div class="grid-container gallery reveal">
-                <div class="grid-item flip-card" id="essential">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        2500 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <li>Preproduction meeting</li>
-                        <li>One revision</li>
-                        <li>One hour of shooting on set</li>
-                        <li>5 edited photos</li>
-                        <li>Online gallery for photo selection</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="core">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        4000 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Preproduction meeting</li>
-                        <li>Two revisions</li>
-                        <li>Two hours of shooting on set</li>
-                        <li>15 edited photos</li>
-                        <li>Online gallery for photo selection</li>
-                        <li>High-resolution digital files</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <p><?php echo $lang[''] ?></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="elite">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>6000 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Preproduction meeting</li>
-                        <li>Unlimited revisions</li>
-                        <li>Three hours of shooting on set</li>
-                        <li>up to 30 edited photos</li>
-                        <li>Online gallery for photo selection</li>
-                        <li>High-resolution digital files</li>
-                        <li>Professional retouching</li>
-                        <li>Make-up artist</li>
-                        <li>High-resolution digital files</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_110'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- PORTRAIT PACKAGES END -->
-            <!-- STILLS PACKAGES START -->
-            <section id="stills" class="tab-panel">
-              <div class="grid-container gallery reveal">
-                <div class="grid-item flip-card" id="essential">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>2500 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Preproduction meeting</li>
-                        <li>One revision</li>
-                        <li>Two hours of shooting on set</li>
-                        <li>Basic editing</li>
-                        <li>Online gallery for photo selection</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="core">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>4000 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Two revisions</li>
-                        <li>Three hours of shooting on set</li>
-                        <li>Advanced editing</li>
-                        <li>Online gallery for photo selection</li>
-                        <li>High-resolution digital files</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <p><?php echo $lang[''] ?></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="elite">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>6000 DKK,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Preproduction meeting</li>
-                        <li>Unlimited revisions</li>
-                        <li>Four hours of shooting on set</li>
-                        <li>Premium editing</li>
-                        <li>Online gallery for photo selection</li>
-                        <li>High-resolution digital files</li>
-                        <li>Professional retouching</li>
-                        <li>Album cover / poster graphic designs</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_107'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- STILLS PACKAGES END -->
-            <!-- TRAVEL PACKAGES START -->
-            <section id="travel" class="tab-panel">
-              <div class="grid-container gallery reveal">
-                <div class="grid-item flip-card" id="essential">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang['asset_214'] ?>
-                        +
-                        <?php echo $lang['asset_204'] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang['asset_205'] ?>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang['asset_206'] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="core">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang['asset_213'] ?>
-                        +
-                        <?php echo $lang['asset_204'] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang['asset_207'] ?>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang['asset_208'] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="elite">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang['asset_212'] ?>
-                        +
-                        <?php echo $lang['asset_204'] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <h6><?php echo $lang['asset_142'] ?></h6>
-                      <ul>
-                        <?php echo $lang['asset_209'] ?>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_85'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang['asset_211'] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- TRAVEL PACKAGES END -->
-            <!-- SHOWREEL PACKAGES START -->
-            <section id="travel" class="tab-panel">
-              <div class="grid-container gallery reveal">
-                <div class="grid-item flip-card" id="essential">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        3500 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Script consultation</li>
-                        <li>One-hour shoot time</li>
-                        <li>Basic video editing</li>
-                        <li>Standard horizontal video version</li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 3 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_133'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="core">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        5500 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Script consultation and refinement</li>
-                        <li>Two-hour shoot time</li>
-                        <li>Advanced video editing</li>
-                        <li>Incorporation of drone footage</li>
-                        <li>
-                          Advanced motion graphics (3D animations,
-                          animations...)
-                        </li>
-                        <li>High-resolution video files</li>
-                        <li>
-                          Customized horizontal and vertical video versions
-                        </li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 5 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_134'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="elite">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        8000 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Script consultation and unlimited revisions</li>
-                        <li>Three-hour shoot time</li>
-                        <li>Premium video editing</li>
-                        <li>Incorporation of drone footage</li>
-                        <li>
-                          Advanced motion graphics (3D animations,
-                          animations...)
-                        </li>
-                        <li>High-resolution video files</li>
-                        <li>Professional color grading</li>
-                        <li>Customized graphics and animations</li>
-                        <li>
-                          Multiple video versions optimized for various
-                          platforms (horizontal, vertical, square)
-                        </li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 8 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_184'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- SHOWREEL PACKAGES END -->
-            <!-- INTERVIEW PACKAGES START -->
-            <section id="travel" class="tab-panel">
-              <div class="grid-container gallery reveal">
-                <div class="grid-item flip-card" id="essential">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        3000 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Interview planning session</li>
-                        <li>One-hour shoot time</li>
-                        <li>Basic video editing</li>
-                        <li>Standard horizontal video version</li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 3 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="core">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        5000 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>Detailed interview planning and setup</li>
-                        <li>Two-hour shoot time</li>
-                        <li>Advanced video editing</li>
-                        <li>
-                          Advanced motion graphics (3D animations,
-                          animations...)
-                        </li>
-                        <li>High-resolution video files</li>
-                        <li>
-                          Customized horizontal and vertical video versions
-                        </li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 5 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item flip-card" id="elite">
-                  <div class="flip-card-inner">
-                    <i class="fa-solid fa-repeat"></i>
-                    <div class="flip-card-front">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <h5>
-                        <?php echo $lang[''] ?>
-                        7500 DKK<?php echo $lang[''] ?>,
-                        <?php echo $lang['asset_132'] ?>
-                      </h5>
-                      <ul>
-                        <?php echo $lang[''] ?>
-                        <li>Free preproduction meeting</li>
-                        <li>
-                          Detailed interview planning with unlimited revisions
-                        </li>
-                        <li>Three-hour shoot time</li>
-                        <li>Premium video editing</li>
-                        <li>
-                          Advanced motion graphics (3D animations,
-                          animations...)
-                        </li>
-                        <li>High-resolution video files</li>
-                        <li>Professional color grading</li>
-                        <li>Customized graphics and animations</li>
-                        <li>
-                          Multiple video versions optimized for various
-                          platforms (horizontal, vertical, square)
-                        </li>
-                        <li>
-                          Online sharing link for easy social media sharing
-                        </li>
-                        <li>Video length up to 10 minutes</li>
-                      </ul>
-                    </div>
-                    <div class="flip-card-back">
-                      <h4>
-                        <i class="fa-solid fa-circle-info"></i>&nbsp;
-                        <?php echo $lang['asset_187'] ?>
-                        <?php echo $lang['asset_135'] ?>
-                      </h4>
-                      <p>
-                        <?php echo $lang[''] ?>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- INTERVIEW PACKAGES END -->
+            <!-- PHOTO PACKAGES START -->
+            <div class="tab-panel">
+              <table id="<?php echo $lang['asset_33'] ?>">
+                <tr>
+                  <th>Included</th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Price (excl. VAT)</p>
+                  </td>
+                  <td>
+                    <p>1500 DKK</p>
+                  </td>
+                  <td>
+                    <p>4000 DKK</p>
+                  </td>
+                  <td>
+                    <p>6000 DKK</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Preproduction meeting</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Revisions</p>
+                  </td>
+                  <td>
+                    <p>1</p>
+                  </td>
+                  <td>
+                    <p>2</p>
+                  </td>
+                  <td>
+                    <p>Unlimited</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Shooting duration</p>
+                  </td>
+                  <td>
+                    <p>1.5 h</p>
+                  </td>
+                  <td>
+                    <p>Half day (4-5h)</p>
+                  </td>
+                  <td>
+                    <p>Full day (7-9h)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Photos amount</p>
+                  </td>
+                  <td>
+                    <p>5</p>
+                  </td>
+                  <td>
+                    <p>20</p>
+                  </td>
+                  <td>
+                    <p>50</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Online gallery for photo selection</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Make-up artist</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Recommended for</p>
+                  </td>
+                  <td>
+                    <p>
+                      Headshots,<br />
+                      Product photos
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      Events,<br />
+                      Promo materials (prints, SoMe)
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      Large events,<br />
+                      Extensive studio sessions
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- PHOTO PACKAGES END -->
+            <!-- VIDEO PACKAGES START -->
+            <div class="tab-panel">
+              <table id="<?php echo $lang['asset_13'] ?>">
+                <tr>
+                  <th>Included</th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Price (excl. VAT)</p>
+                  </td>
+                  <td>
+                    <p>3500 DKK</p>
+                  </td>
+                  <td>
+                    <p>5500 DKK</p>
+                  </td>
+                  <td>
+                    <p>8000 DKK</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Preproduction meeting</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Revisions</p>
+                  </td>
+                  <td>
+                    <p>1</p>
+                  </td>
+                  <td>
+                    <p>2</p>
+                  </td>
+                  <td>
+                    <p>Unlimited</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Shooting duration</p>
+                  </td>
+                  <td>
+                    <p>3 h</p>
+                  </td>
+                  <td>
+                    <p>Half day (4-5h)</p>
+                  </td>
+                  <td>
+                    <p>Full day (7-9h)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Final cut duration</p>
+                  </td>
+                  <td>
+                    <p>up to 3 min</p>
+                  </td>
+                  <td>
+                    <p>upt to 5 min</p>
+                  </td>
+                  <td>
+                    <p>up to 8 min</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Make-up artist</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Drone footage</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Advaned Motion graphics</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Recommended for</p>
+                  </td>
+                  <td>
+                    <p>
+                      Hero/cover videos,<br />
+                      showreels…
+                    </p>
+                  </td>
+                  <td>
+                    <p>Event aftermovies,<br />Extensuve company video</p>
+                  </td>
+                  <td>
+                    <p>Campaigns,<br />Large events</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- VIDEO PACKAGES END -->
+            <!-- ALL IN PACKAGES START -->
+            <div class="tab-panel">
+              <table id="allin">
+                <tr>
+                  <th>Included</th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Price (excl. VAT)</p>
+                  </td>
+                  <td>
+                    <p>?? DKK</p>
+                  </td>
+                  <td>
+                    <p>?? DKK</p>
+                  </td>
+                  <td>
+                    <p>?? DKK</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Preproduction meeting</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Revisions</p>
+                  </td>
+                  <td>
+                    <p>1</p>
+                  </td>
+                  <td>
+                    <p>2</p>
+                  </td>
+                  <td>
+                    <p>Unlimited</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Shooting duration</p>
+                  </td>
+                  <td>
+                    <p>1.5 h</p>
+                  </td>
+                  <td>
+                    <p>Half day (4-5h)</p>
+                  </td>
+                  <td>
+                    <p>Full day (7-9h)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Photos amount</p>
+                  </td>
+                  <td>
+                    <p>10</p>
+                  </td>
+                  <td>
+                    <p>20</p>
+                  </td>
+                  <td>
+                    <p>30</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Online gallery for photo selection</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Make-up artist</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-circle-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Recommended for</p>
+                  </td>
+                  <td>
+                    <p>Headshots, Product photos</p>
+                  </td>
+                  <td>
+                    <p>Events, Promo materials (prints, SoMe)</p>
+                  </td>
+                  <td>
+                    <p>Large events, Extensive studio sessions</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- ALL IN PACKAGES END -->
           </div>
         </div>
-        <!-- PACKAGES END -->
+
         <hr id="proposal" class="reveal" />
       </article>
       <!-- CTA  START  -->

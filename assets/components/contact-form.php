@@ -65,23 +65,14 @@
                 <?php echo $lang['asset_183'] ?></span
               >
             </option>
-            <option value="<?php echo $lang['asset_110'] ?>">
-              <?php echo $lang['asset_110'] ?>
+            <option value="<?php echo $lang['asset_11'] ?>">
+              <?php echo $lang['asset_11'] ?>
             </option>
-            <option value="<?php echo $lang['asset_107'] ?>">
-              <?php echo $lang['asset_107'] ?>
+            <option value="<?php echo $lang['asset_13'] ?>">
+              <?php echo $lang['asset_13'] ?>
             </option>
-            <option value="<?php echo $lang['asset_85'] ?>">
-              <?php echo $lang['asset_85'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_184'] ?>">
-              <?php echo $lang['asset_184'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_187'] ?>">
-              <?php echo $lang['asset_187'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_217'] ?>">
-              <?php echo $lang['asset_217'] ?>
+            <option value="<?php echo $lang['asset_234'] ?>">
+              <?php echo $lang['asset_234'] ?>
             </option>
           </select>
           <br />
