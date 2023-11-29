@@ -45,7 +45,7 @@
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h2>
-              <?php echo $lang['asset_110'] ?>
+              <?php echo $lang['asset_11'] ?>
               <span class="highlited"><?php echo $lang['asset_22'] ?></span>
             </h2>
             <a
@@ -141,47 +141,6 @@
               alt="<?php echo $lang['asset_149'] ?>."
             />
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2021-04-13-00583.jpg"
-              title="<?php echo $lang['asset_59'] ?>."
-              alt="<?php echo $lang['asset_59'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2021-05-16-00786.jpg"
-              title="<?php echo $lang['asset_58'] ?>."
-              alt="<?php echo $lang['asset_58'] ?>."
-            />
-          </div>
-
           <div class="v-stretch reveal">
             <p class="note date">2021</p>
             <img
@@ -193,9 +152,9 @@
           <div class="h-stretch reveal">
             <p class="note date">2021</p>
             <img
-              src="/img/2021-10-01-01825.jpg"
-              title="<?php echo $lang['asset_153'] ?>."
-              alt="<?php echo $lang['asset_153'] ?>."
+              src="/img/2021-08-24-01615.jpg"
+              title="<?php echo $lang['asset_147'] ?>."
+              alt="<?php echo $lang['asset_147'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -214,22 +173,6 @@
               src="/img/2021-06-24-01233.jpg"
               alt="<?php echo $lang['asset_54'] ?>."
               title="<?php echo $lang['asset_54'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-07-19-01355.jpg"
-              title="<?php echo $lang['asset_146'] ?>."
-              alt="<?php echo $lang['asset_146'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-08-24-01615.jpg"
-              title="<?php echo $lang['asset_147'] ?>."
-              alt="<?php echo $lang['asset_147'] ?>."
             />
           </div>
           <div class="v-stretch reveal">
@@ -440,44 +383,6 @@
               src="/img/2023-09-23-00049.jpg"
               alt="<?php echo $lang['asset_71'] ?>."
               title="<?php echo $lang['asset_71'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-05-12-08965.jpg"
-              alt="<?php echo $lang['asset_72'] ?>."
-              title="<?php echo $lang['asset_72'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span
-                ><span
-                  >&nbsp;<i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
-              </a>
-            </p>
-            <img
-              src="/img/2023-02-10-08469.jpg"
-              alt="<?php echo $lang['asset_60'] ?>."
             />
           </div>
           <div class="hhh-stretch reveal">
@@ -766,26 +671,7 @@
               title="<?php echo $lang['asset_87'] ?>."
             />
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/vestkystruten"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_151'] ?></span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-07-20-00854.jpg"
-              alt="<?php echo $lang['asset_92'] ?>."
-              title="<?php echo $lang['asset_92'] ?>."
-            />
-          </div>
+
           <div class="h-stretch reveal">
             <p class="note date">2022</p>
             <p class="note">
@@ -811,22 +697,30 @@
               poster="/img/2022-07-26-00855.jpg"
             ></video>
           </div>
-
           <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <img
-              src="/img/2023-08-06-00304.jpg"
-              alt="<?php echo $lang['asset_86'] ?>."
-              title="<?php echo $lang['asset_86'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <img
-              src="/img/2023-07-26-00100.jpg"
-              alt="<?php echo $lang['asset_93'] ?>."
-              title="<?php echo $lang['asset_93'] ?>."
-            />
+            <p class="note date">2022</p>
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span><?php echo $lang['asset_218'] ?></span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <video
+              src="/img/aland.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="<?php echo $lang['asset_218'] ?>"
+              aria-describedby=""
+              poster="/img/cover-aland.jpg"
+            ></video>
           </div>
         </div>
       </article>
@@ -913,31 +807,6 @@
               aria-label="Repaire Festival"
               aria-describedby="<?php echo $lang['asset_38'] ?>"
               poster="/img/cover-repaireandremake.jpg"
-            ></video>
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://tribemedia.dk"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tribe Media</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/silentparty.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_152'] ?>"
-              aria-describedby="<?php echo $lang['asset_152'] ?>"
-              poster="/img/cover-halloweenparty.jpg"
             ></video>
           </div>
         </div>
@@ -1029,31 +898,6 @@
               poster="/img/cover-bygning5.jpg"
             ></video>
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://parkourskola.sk"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Parkour Škola</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/parkourtabor.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_46'] ?>"
-              aria-describedby="<?php echo $lang['asset_47'] ?>"
-              poster="/img/cover-parkourtabor.jpg"
-            ></video>
-          </div>
         </div>
       </article>
       <!-- INTERVIEW END -->
@@ -1088,44 +932,6 @@
               aria-label="Huset Fundament"
               aria-describedby="<?php echo $lang['asset_40'] ?>"
               poster="/img/cover-samso.jpg"
-            ></video>
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/aland.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_218'] ?>"
-              aria-describedby=""
-              poster="/img/cover-aland.jpg"
-            ></video>
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2020</p>
-            <video
-              src="/img/anna.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label=""
-              aria-describedby=""
-              poster="/img/cover-anna.jpg"
             ></video>
           </div>
           <div class="h-stretch reveal">

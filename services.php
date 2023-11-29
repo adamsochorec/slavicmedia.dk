@@ -37,53 +37,6 @@
           class="video-gallery features-grid"
           aria-label="Video Gallery"
         >
-          <div class="gallery-item reveal" aria-label="">
-            <img
-              src="/img/2023-05-12-08965.jpg"
-              title="<?php echo $lang['asset_40'] ?>."
-              alt="<?php echo $lang['asset_40'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3>
-                <?php echo $lang['asset_192'] ?>
-              </h3>
-              <p>
-                <?php echo $lang['asset_193'] ?>
-              </p>
-            </div>
-          </div>
-
-          <div class="gallery-item reveal">
-            <img
-              src="/img/studio.jpg"
-              title="<?php echo $lang['asset_38'] ?>."
-              alt="<?php echo $lang['asset_38'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3>
-                <?php echo $lang['asset_194'] ?>
-              </h3>
-              <p>
-                <?php echo $lang['asset_195'] ?>
-              </p>
-            </div>
-          </div>
-          <div class="gallery-item reveal">
-            <img
-              src="/img/2021-08-24-01615.jpg"
-              class="north-cascades-img"
-              title="<?php echo $lang['asset_47'] ?>."
-              alt="<?php echo $lang['asset_47'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3>
-                <?php echo $lang['asset_196'] ?>
-              </h3>
-              <p>
-                <?php echo $lang['asset_197'] ?>
-              </p>
-            </div>
-          </div>
           <div class="gallery-item reveal">
             <img
               src="/img/cover-samso.jpg"
@@ -126,6 +79,52 @@
               </h3>
               <p>
                 <?php echo $lang['asset_203'] ?>
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item reveal" aria-label="">
+            <img
+              src="/img/preproduction.jpg"
+              title="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang[''] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <?php echo $lang['asset_235'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_235'] ?>
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/studio.jpg"
+              title="<?php echo $lang['asset_38'] ?>."
+              alt="<?php echo $lang['asset_38'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <?php echo $lang['asset_194'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_195'] ?>
+              </p>
+            </div>
+          </div>
+          <div class="gallery-item reveal">
+            <img
+              src="/img/2021-04-25-00693.jpg"
+              class="north-cascades-img"
+              title="<?php echo $lang['asset_47'] ?>."
+              alt="<?php echo $lang['asset_47'] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3>
+                <?php echo $lang['asset_196'] ?>
+              </h3>
+              <p>
+                <?php echo $lang['asset_197'] ?>
               </p>
             </div>
           </div>
@@ -176,13 +175,13 @@
             <div class="tab-panel">
               <table id="<?php echo $lang['asset_33'] ?>">
                 <tr>
-                  <th>Included</th>
+                  <th class="left-align">Included</th>
                   <th>Essential</th>
                   <th>Core</th>
                   <th>Elite</th>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Price (excl. VAT)</p>
                   </td>
                   <td>
@@ -196,21 +195,21 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Preproduction meeting</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Revisions</p>
                   </td>
                   <td>
@@ -224,7 +223,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Shooting duration</p>
                   </td>
                   <td>
@@ -238,7 +237,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Photos amount</p>
                   </td>
                   <td>
@@ -252,54 +251,73 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Online gallery for photo selection</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Make-up artist</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <p>Recommended for</p>
+                  <td class="left-align">
+                    <p>Drone footage</p>
                   </td>
                   <td>
-                    <p>
-                      Headshots,<br />
-                      Product photos
-                    </p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p>
-                      Events,<br />
-                      Promo materials (prints, SoMe)
-                    </p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p>
-                      Large events,<br />
-                      Extensive studio sessions
-                    </p>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p>Extensive graphical work (posters, covers)</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p>Recommended for:</p>
+                  </td>
+                  <td>
+                    <p>Headshots, Product photos</p>
+                  </td>
+                  <td>
+                    <p>Events, Promo materials (prints, SoMe)</p>
+                  </td>
+                  <td>
+                    <p>Large events, Extensive studio sessions</p>
                   </td>
                 </tr>
               </table>
@@ -309,13 +327,13 @@
             <div class="tab-panel">
               <table id="<?php echo $lang['asset_13'] ?>">
                 <tr>
-                  <th>Included</th>
+                  <th class="left-align">Included</th>
                   <th>Essential</th>
                   <th>Core</th>
                   <th>Elite</th>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Price (excl. VAT)</p>
                   </td>
                   <td>
@@ -329,21 +347,21 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Preproduction meeting</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Revisions</p>
                   </td>
                   <td>
@@ -357,7 +375,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Shooting duration</p>
                   </td>
                   <td>
@@ -371,7 +389,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Final cut duration</p>
                   </td>
                   <td>
@@ -385,62 +403,59 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Make-up artist</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Drone footage</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>Advaned Motion graphics</p>
-                  </td>
-                  <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <p>Recommended for</p>
+                  <td class="left-align">
+                    <p>Extensive motion graphics</p>
                   </td>
                   <td>
-                    <p>
-                      Hero/cover videos,<br />
-                      showreels…
-                    </p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p>Event aftermovies,<br />Extensuve company video</p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p>Campaigns,<br />Large events</p>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p>Recommended for:</p>
+                  </td>
+                  <td>
+                    <p>Hero/cover videos, showreels</p>
+                  </td>
+                  <td>
+                    <p>Event aftermovies, Extensuve company video</p>
+                  </td>
+                  <td>
+                    <p>Campaigns, Large events</p>
                   </td>
                 </tr>
               </table>
@@ -450,13 +465,13 @@
             <div class="tab-panel">
               <table id="allin">
                 <tr>
-                  <th>Included</th>
+                  <th class="left-align">Included</th>
                   <th>Essential</th>
                   <th>Core</th>
                   <th>Elite</th>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Price (excl. VAT)</p>
                   </td>
                   <td>
@@ -470,21 +485,21 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Preproduction meeting</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Revisions</p>
                   </td>
                   <td>
@@ -498,11 +513,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Shooting duration</p>
                   </td>
                   <td>
-                    <p>1.5 h</p>
+                    <p>1.5h</p>
                   </td>
                   <td>
                     <p>Half day (4-5h)</p>
@@ -512,7 +527,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="left-align">
                     <p>Photos amount</p>
                   </td>
                   <td>
@@ -526,45 +541,87 @@
                   </td>
                 </tr>
                 <tr>
+                  <td class="left-align">
+                    <p>Horizontal 2-3min videos</p>
+                  </td>
                   <td>
+                    <p>1x</p>
+                  </td>
+                  <td>
+                    <p>2x</p>
+                  </td>
+                  <td>
+                    <p>3x</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p>Vertical &#8249; 30s videos</p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p>2x</p>
+                  </td>
+                  <td>
+                    <p>3x</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
                     <p>Online gallery for photo selection</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
+                  <td class="left-align">
+                    <p>Drone footage</p>
+                  </td>
                   <td>
+                    <p><i class="fa-regular fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-regular fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
                     <p>Make-up artist</p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-xmark"></i></p>
+                    <p><i class="fa-regular fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-circle-check"></i></p>
+                    <p><i class="fa-regular fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <p>Recommended for</p>
+                  <td class="left-align">
+                    <p>Recommended for:</p>
                   </td>
                   <td>
-                    <p>Headshots, Product photos</p>
+                    <p>Multiple day events, (tourism, festivals)</p>
                   </td>
                   <td>
-                    <p>Events, Promo materials (prints, SoMe)</p>
+                    <p>Multiple day events (tourism, festivals)</p>
                   </td>
                   <td>
-                    <p>Large events, Extensive studio sessions</p>
+                    <p>Multiple day events (tourism, festivals)</p>
                   </td>
                 </tr>
               </table>
