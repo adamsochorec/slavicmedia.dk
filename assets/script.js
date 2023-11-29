@@ -87,26 +87,40 @@ reveal();
     lastScrollTop = st;
   }
 })();
-// COOKIES START
+/// COOKIES START
 // ---- ---- Const ---- ---- //
 const cookiesBox = document.querySelector(".privacy-container"),
   buttons = document.querySelectorAll(".button");
+
+// Function to check if a specific cookie is set
+const isCookieSet = (cookieName) =>
+  document.cookie
+    .split(";")
+    .some((item) => item.trim().startsWith(cookieName + "="));
+
 // ---- ---- Show ---- ---- //
 const executeCodes = () => {
-  if (document.cookie.includes("SlavicMedia")) {
-    // If the cookie is already set, no need to show the cookie consent box
-    loadGoogleAnalytics();
+  // Check if any of the cookies are already set
+  if (isCookieSet("SlavicMedia") || isCookieSet("DeclinedSlavicMedia")) {
+    if (isCookieSet("SlavicMedia")) {
+      loadGoogleAnalytics();
+    }
     return;
   }
   cookiesBox.classList.add("show");
+
   // ---- ---- Button ---- ---- //
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       cookiesBox.classList.remove("show");
 
-      // ---- ---- Time ---- ---- //
+      // Set a cookie for a month based on the user's choice
+      let cookieValue =
+        button.id == "acceptBtn" ? "SlavicMedia" : "DeclinedSlavicMedia";
+      document.cookie = `${cookieValue}=true; max-age=${60 * 60 * 24 * 30}`;
+
+      // Load Google Analytics if accepted
       if (button.id == "acceptBtn") {
-        document.cookie = "cookieBy= SlavicMedia; max-age=" + 60 * 60 * 24 * 30;
         loadGoogleAnalytics();
       }
     });
