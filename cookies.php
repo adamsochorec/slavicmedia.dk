@@ -22,6 +22,7 @@
         <div class="pathname-container"></div>
         <h1 class="reveal">
           <?php echo $lang['asset_231'] ?>
+          <i class="fa-solid fa-cookie-bite"></i>
         </h1>
         <div class="pathname-container reveal">
           <p>
@@ -37,56 +38,45 @@
         <section>
           <h2 class="reveal">Introduction</h2>
           <p class="reveal">
-            Welcome to Slavic Media I/S ("us", "we", or "our") at
-            <a href="https://slavicmedia.dk">slavicmedia.dk</a>. This Cookie
-            Policy explains how we use cookies and similar technologies on our
-            website. By using our website, you agree to the use of cookies as
-            described in this policy.
+            <?php echo $lang['asset_269'] ?>
           </p>
         </section>
         <hr class="semi" role="separator" />
         <section>
-          <h2 class="reveal">What are Cookies?</h2>
-          <p class="reveal">
-            Cookies are small pieces of data stored on your device (computer or
-            mobile device) when you visit our website. They serve various
-            purposes, such as improving your browsing experience and providing
-            us with insights into how our website is used.
-          </p>
+          <h2 class="reveal"><?php echo $lang['asset_271'] ?>?</h2>
+          <p class="reveal"><?php echo $lang['asset_270'] ?></p>
         </section>
         <hr class="semi" role="separator" />
 
         <section>
-          <h2 class="reveal">How We Use Cookies</h2>
-          <p class="reveal">We use cookies for the following purposes:</p>
+          <h2 class="reveal"><?php echo $lang['asset_272'] ?>?</h2>
+          <p class="reveal">
+            <?php echo $lang['asset_273'] ?>
+          </p>
           <ul>
             <li class="reveal">
-              <strong>Google Analytics:</strong> We use Google Analytics to
-              analyze the use of our website. Google Analytics gathers
-              information about website use through cookies to help us improve
-              our website and services. You can learn more about how Google
-              Analytics collects and processes data by visiting their
-              <a href="https://policies.google.com/privacy">Privacy Policy</a>.
+              <?php echo $lang['asset_274'] ?>
+              <a
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                href="https://policies.google.com/privacy"
+                ><?php echo $lang['asset_275'] ?></a
+              >.
             </li>
           </ul>
         </section>
         <hr class="semi" role="separator" />
         <section>
-          <h2 class="reveal">Your Choices</h2>
+          <h2 class="reveal"><?php echo $lang['asset_276'] ?></h2>
           <p class="reveal">
-            You can control and/or delete cookies as you wish. You can delete
-            all cookies that are already on your device and prevent them from
-            being placed by adjusting your browser settings. However, please be
-            aware that disabling cookies may affect the functionality of our
-            website.
+            <?php echo $lang['asset_277'] ?>
           </p>
         </section>
         <hr class="semi" role="separator" />
         <section>
-          <h2 class="reveal">Contact Us</h2>
+          <h2 class="reveal"><?php echo $lang['asset_278'] ?></h2>
           <p class="reveal">
-            If you have any questions about our Cookie Policy, please contact us
-            at
+            <?php echo $lang['asset_279'] ?>
             <a href="mailto:contact@slavicmedia.dk">contact@slavicmedia.dk</a>
           </p>
         </section>

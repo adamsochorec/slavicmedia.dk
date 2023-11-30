@@ -93,7 +93,7 @@
                 <?php echo $lang['asset_235'] ?>
               </h3>
               <p>
-                <?php echo $lang['asset_235'] ?>
+                <?php echo $lang['asset_236'] ?>
               </p>
             </div>
           </div>
@@ -172,31 +172,31 @@
           <hr class="semi" role="separator" />
           <div class="tab-panels">
             <!-- PHOTO PACKAGES START -->
-            <div class="tab-panel">
+            <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_33'] ?>">
                 <tr>
-                  <th class="left-align">Included</th>
-                  <th>Essential</th>
-                  <th>Core</th>
-                  <th>Elite</th>
+                  <th class="left-align"><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_134'] ?></th>
+                  <th><?php echo $lang['asset_135'] ?></th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Price (excl. VAT)</p>
+                    <p><?php echo $lang['asset_237'] ?></p>
                   </td>
                   <td>
-                    <p>1500 DKK</p>
+                    <p><?php echo $lang['asset_239'] ?></p>
                   </td>
                   <td>
-                    <p>4000 DKK</p>
+                    <p><?php echo $lang['asset_240'] ?></p>
                   </td>
                   <td>
-                    <p>6000 DKK</p>
+                    <p><?php echo $lang['asset_241'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Preproduction meeting</p>
+                    <p><?php echo $lang['asset_235'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-check"></i></p>
@@ -210,7 +210,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Revisions</p>
+                    <p><?php echo $lang['asset_246'] ?></p>
                   </td>
                   <td>
                     <p>1</p>
@@ -219,26 +219,32 @@
                     <p>2</p>
                   </td>
                   <td>
-                    <p>Unlimited</p>
+                    <p><?php echo $lang['asset_247'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Shooting duration</p>
+                    <p><?php echo $lang['asset_248'] ?></p>
                   </td>
                   <td>
-                    <p>1.5 h</p>
+                    <p>1.5<?php echo $lang['asset_249'] ?></p>
                   </td>
                   <td>
-                    <p>Half day (4-5h)</p>
+                    <p>
+                      <?php echo $lang['asset_257'] ?>
+                      (4-5<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                   <td>
-                    <p>Full day (7-9h)</p>
+                    <p>
+                      <?php echo $lang['asset_258'] ?>
+                      (7-9<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Photos amount</p>
+                    <p><?php echo $lang['asset_261'] ?></p>
                   </td>
                   <td>
                     <p>5</p>
@@ -252,7 +258,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Online gallery for photo selection</p>
+                    <p><?php echo $lang['asset_260'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-check"></i></p>
@@ -266,7 +272,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Make-up artist</p>
+                    <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -280,7 +286,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Drone footage</p>
+                    <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -294,7 +300,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Extensive graphical work (posters, covers)</p>
+                    <p><?php echo $lang['asset_262'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -308,47 +314,53 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Recommended for:</p>
+                    <p><?php echo $lang['asset_253'] ?>:</p>
                   </td>
                   <td>
-                    <p>Headshots, Product photos</p>
+                    <p>
+                      <?php echo $lang['asset_263'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>Events, Promo materials (prints, SoMe)</p>
+                    <p>
+                      <?php echo $lang['asset_264'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>Large events, Extensive studio sessions</p>
+                    <p>
+                      <?php echo $lang['asset_265'] ?>
+                    </p>
                   </td>
                 </tr>
               </table>
             </div>
             <!-- PHOTO PACKAGES END -->
             <!-- VIDEO PACKAGES START -->
-            <div class="tab-panel">
+            <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_13'] ?>">
                 <tr>
-                  <th class="left-align">Included</th>
-                  <th>Essential</th>
-                  <th>Core</th>
-                  <th>Elite</th>
+                  <th class="left-align"><?php echo $lang['asset_238'] ?></th>
+                  <th><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_134'] ?></th>
+                  <th><?php echo $lang['asset_135'] ?></th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Price (excl. VAT)</p>
+                    <p><?php echo $lang['asset_237'] ?></p>
                   </td>
                   <td>
-                    <p>3500 DKK</p>
+                    <p><?php echo $lang['asset_242'] ?></p>
                   </td>
                   <td>
-                    <p>5500 DKK</p>
+                    <p><?php echo $lang['asset_243'] ?></p>
                   </td>
                   <td>
-                    <p>8000 DKK</p>
+                    <p><?php echo $lang['asset_244'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Preproduction meeting</p>
+                    <p><?php echo $lang['asset_235'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-check"></i></p>
@@ -362,7 +374,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Revisions</p>
+                    <p><?php echo $lang['asset_246'] ?></p>
                   </td>
                   <td>
                     <p>1</p>
@@ -371,40 +383,55 @@
                     <p>2</p>
                   </td>
                   <td>
-                    <p>Unlimited</p>
+                    <p><?php echo $lang['asset_247'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Shooting duration</p>
+                    <p><?php echo $lang['asset_248'] ?></p>
                   </td>
                   <td>
-                    <p>3 h</p>
+                    <p>3<?php echo $lang['asset_249'] ?></p>
                   </td>
                   <td>
-                    <p>Half day (4-5h)</p>
+                    <p>
+                      <?php echo $lang['asset_257'] ?>
+                      (4-5<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                   <td>
-                    <p>Full day (7-9h)</p>
+                    <p>
+                      <?php echo $lang['asset_258'] ?>
+                      (7-9<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Final cut duration</p>
+                    <p><?php echo $lang['asset_250'] ?></p>
                   </td>
                   <td>
-                    <p>up to 3 min</p>
+                    <p>
+                      <?php echo $lang['asset_251'] ?>
+                      3 min
+                    </p>
                   </td>
                   <td>
-                    <p>upt to 5 min</p>
+                    <p>
+                      <?php echo $lang['asset_251'] ?>
+                      5 min
+                    </p>
                   </td>
                   <td>
-                    <p>up to 8 min</p>
+                    <p>
+                      <?php echo $lang['asset_251'] ?>
+                      8 min
+                    </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Make-up artist</p>
+                    <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -418,7 +445,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Drone footage</p>
+                    <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -432,7 +459,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Extensive motion graphics</p>
+                    <p><?php echo $lang['asset_252'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -446,47 +473,53 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Recommended for:</p>
+                    <p><?php echo $lang['asset_253'] ?>:</p>
                   </td>
                   <td>
-                    <p>Hero/cover videos, showreels</p>
+                    <p>
+                      <?php echo $lang['asset_254'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>Event aftermovies, Extensuve company video</p>
+                    <p>
+                      <?php echo $lang['asset_255'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>Campaigns, Large events</p>
+                    <p>
+                      <?php echo $lang['asset_256'] ?>
+                    </p>
                   </td>
                 </tr>
               </table>
             </div>
             <!-- VIDEO PACKAGES END -->
             <!-- ALL IN PACKAGES START -->
-            <div class="tab-panel">
+            <div class="tab-panel reveal">
               <table id="allin">
                 <tr>
-                  <th class="left-align">Included</th>
-                  <th>Essential</th>
-                  <th>Core</th>
-                  <th>Elite</th>
+                  <th class="left-align"><?php echo $lang['asset_238'] ?></th>
+                  <th><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_134'] ?></th>
+                  <th><?php echo $lang['asset_135'] ?></th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Price (excl. VAT)</p>
+                    <p><?php echo $lang['asset_237'] ?></p>
                   </td>
                   <td>
-                    <p>?? DKK</p>
+                    <p><?php echo $lang['asset_245'] ?></p>
                   </td>
                   <td>
-                    <p>?? DKK</p>
+                    <p><?php echo $lang['asset_245'] ?></p>
                   </td>
                   <td>
-                    <p>?? DKK</p>
+                    <p><?php echo $lang['asset_245'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Preproduction meeting</p>
+                    <p><?php echo $lang['asset_245'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-check"></i></p>
@@ -500,7 +533,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Revisions</p>
+                    <p><?php echo $lang['asset_246'] ?></p>
                   </td>
                   <td>
                     <p>1</p>
@@ -514,21 +547,27 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Shooting duration</p>
+                    <p><?php echo $lang['asset_248'] ?></p>
                   </td>
                   <td>
-                    <p>1.5h</p>
+                    <p>1.5<?php echo $lang['asset_249'] ?></p>
                   </td>
                   <td>
-                    <p>Half day (4-5h)</p>
+                    <p>
+                      <?php echo $lang['asset_257'] ?>
+                      (4-5<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                   <td>
-                    <p>Full day (7-9h)</p>
+                    <p>
+                      <?php echo $lang['asset_258'] ?>
+                      (7-9<?php echo $lang['asset_249'] ?>)
+                    </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Photos amount</p>
+                    <p><?php echo $lang['asset_261'] ?></p>
                   </td>
                   <td>
                     <p>10</p>
@@ -542,7 +581,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Horizontal 2-3min videos</p>
+                    <p><?php echo $lang['asset_267'] ?></p>
                   </td>
                   <td>
                     <p>1x</p>
@@ -556,7 +595,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Vertical &#8249; 30s videos</p>
+                    <p><?php echo $lang['asset_268'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -570,7 +609,8 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Online gallery for photo selection</p>
+                    <p></p>
+                    <p><?php echo $lang['asset_260'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-check"></i></p>
@@ -584,7 +624,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Drone footage</p>
+                    <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -598,7 +638,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Make-up artist</p>
+                    <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
                     <p><i class="fa-regular fa-xmark"></i></p>
@@ -612,16 +652,16 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Recommended for:</p>
+                    <p><?php echo $lang['asset_253'] ?>:</p>
                   </td>
                   <td>
-                    <p>Multiple day events, (tourism, festivals)</p>
+                    <p><?php echo $lang['asset_259'] ?></p>
                   </td>
                   <td>
-                    <p>Multiple day events (tourism, festivals)</p>
+                    <p><?php echo $lang['asset_259'] ?></p>
                   </td>
                   <td>
-                    <p>Multiple day events (tourism, festivals)</p>
+                    <p><?php echo $lang['asset_259'] ?></p>
                   </td>
                 </tr>
               </table>

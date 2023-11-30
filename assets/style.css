@@ -294,9 +294,7 @@ h4,
 h5 {
   font-size: clamp(0.9em, 2vw, 1.25em);
 }
-h6,
-#services .flip-card h5,
-#services .flip-card h4 {
+h6 {
   font-size: clamp(0.8em, 1.5vw, 1em);
 }
 p {
@@ -824,6 +822,10 @@ header {
     background 0.3s;
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -2845,143 +2847,43 @@ img.mfp-img {
 /* VISUALS END */
 
 /* SERVICES START */
-#services .flip-card h5 {
-  font-family: var(--content-font);
-  text-decoration: underline;
-}
 #services .gallery .grid-item {
   height: var(--dimension-4);
 }
 #services .services-grid .grid-item p {
   margin: 0 0 var(--grid-gap-2) 0;
 }
-table {
+#services table {
   border-collapse: collapse;
   width: 100%;
   border-radius: var(--border-radius-2);
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
-tr:nth-child(odd) {
+#services tr:nth-child(odd) {
   background-color: rgba(var(--light-grey-color), 0.4);
 }
-th:not(.left-align),
-td:not(.left-align) {
+#services th:not(.left-align),
+#services td:not(.left-align) {
   text-align: center;
 }
-th,
-td {
+#services th,
+#services td {
   border: 1px solid rgba(var(--light-grey-color), 0.4);
   padding: var(--grid-gap-1);
 }
 .left-align {
   text-align: left;
 }
-table i {
+#services table i {
   color: white;
 }
-th {
-  background-color: #f2f2f2;
-}
-
-/* CARD FLIP START */
-.flip-card {
-  background-color: transparent;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-}
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner,
-.flip-card:active .flip-card-inner {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 20px 20px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: -webkit-transform 0.8s;
-  transition: -webkit-transform 0.8s;
-  -o-transition: transform 0.8s;
-  transition: transform 0.8s;
-  transition: transform 0.8s, -webkit-transform 0.8s;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  z-index: 1;
-  -ms-flex-item-align: self-start;
-  align-self: self-start;
-}
-/* Style the back side */
-.flip-card-back {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-#services .gallery .grid-item#essential .flip-card-back p {
-  color: rgb(var(--black-color));
-}
-/* CARD FLIP END */
-#services .gallery .grid-item#essential {
-  background-color: rgb(var(--white-color));
-  color: rgb(var(--black-color));
-}
-#services .gallery .grid-item#essential h4,
-#services .gallery .grid-item#essential h5,
-#services .gallery .grid-item#essential h6,
-#services .gallery .grid-item#essential li {
-  color: rgb(var(--black-color));
-}
-#services .gallery .grid-item#core {
-  background-color: rgb(var(--primary-color));
-}
-#services .gallery .grid-item#elite {
-  background-color: rgb(var(--secondary-color));
-}
-#services .grid-container.services-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: var(--grid-gap-3);
-}
-#services .grid-container .swiper {
-  aspect-ratio: 3/2;
-  width: 100%;
+#services th {
+  background-color: white;
 }
 #services .grid-container img {
   -o-object-fit: cover;
   object-fit: cover;
-}
-#services .grid-container .text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-#services .gallery ul {
-  padding-left: 20px;
-}
-#services .flip-card li,
-#services .flip-card p {
-  font-size: var(--fontsize-note);
-}
-#services .gallery .grid-item,
-#services .gallery .grid-item .blur {
-  -webkit-box-pack: unset;
-  -ms-flex-pack: unset;
-  justify-content: unset;
 }
 .tabset > input[type="radio"] {
   position: absolute;
@@ -3066,7 +2968,6 @@ th {
   max-width: calc(100vw - var(--homepage-padding) * 2);
   height: var(--dimension-3);
 }
-
 .features-grid h4,
 .features-grid h3 {
   padding: 0 !important;
@@ -3671,7 +3572,7 @@ p.note.date {
   }
 }
 @media only screen and (min-width: 620px) {
-  .features-grid {
+  #services .features-grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .features-grid .gallery-item {

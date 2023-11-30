@@ -7,7 +7,7 @@
     <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"
+      action="https://formsubmit.co/contact@slavicmedia.dk"
       method="POST"
       role="form"
       aria-labelledby="contactFormHeading"
@@ -137,11 +137,7 @@
           name="_next"
           value="https://slavicmedia.dk/success"
         />
-        <input
-          type="hidden"
-          name="_blacklist"
-          value="spammy pattern, banned term, phrase"
-        /><input type="hidden" name="_template" value="table" />
+
         <!-- Redirect to the success page -->
         <input type="hidden" name="_captcha" value="true" />
         <!-- Captcha disable -->

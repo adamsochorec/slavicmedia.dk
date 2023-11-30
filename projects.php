@@ -38,9 +38,8 @@
           </p>
         </div>
       </article>
-      <!-- PHOTO GALLERY START -->
-      <!-- PORTRAIT START -->
-      <article class="wrapper-wide" id="portrait">
+      <!-- PHOTO START -->
+      <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
@@ -211,7 +210,6 @@
               title="<?php echo $lang['asset_4'] ?>."
             />
           </div>
-
           <div class="h-stretch hide-photo-min reveal">
             <p class="note date">2023</p>
             <p class="note">
@@ -232,45 +230,6 @@
               title="<?php echo $lang['asset_216'] ?>."
             />
           </div>
-        </div>
-      </article>
-      <!-- PORTRAIT END -->
-      <!-- STILLS START -->
-      <article class="wrapper-wide" id="stills">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              <?php echo $lang['asset_107'] ?>
-              <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
-            </h2>
-            <a
-              class="hide-cta-min reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_116'] ?>"
-              ><div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              <?php echo $lang['asset_174'] ?>
-            </p>
-            <a
-              class="hide-cta-max reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_116'] ?>"
-              ><div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-        </div>
-      </article>
-      <hr class="semi" role="separator" />
-      <article id="visuals">
-        <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
             <p class="note">
@@ -306,7 +265,6 @@
               alt="<?php echo $lang['asset_65'] ?>."
             />
           </div>
-
           <div class="v-stretch reveal">
             <p class="note date">2023</p>
             <p class="note">
@@ -403,7 +361,6 @@
               title="<?php echo $lang['asset_63'] ?>."
             />
           </div>
-
           <div class="h-stretch reveal">
             <p class="note date">2022</p>
             <img
@@ -412,7 +369,6 @@
               title="<?php echo $lang['asset_69'] ?>."
             />
           </div>
-
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
             <p class="note">
@@ -470,45 +426,6 @@
               title="<?php echo $lang['asset_48'] ?>."
             />
           </div>
-        </div>
-      </article>
-      <!-- STILLS END -->
-      <!-- TRAVEL START -->
-      <article class="wrapper-wide" id="travel">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              <?php echo $lang['asset_85'] ?>
-              <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
-            </h2>
-            <a
-              class="hide-cta-min reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-              ><div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              <?php echo $lang['asset_175'] ?>
-            </p>
-            <a
-              class="hide-cta-max reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-              ><div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-        </div>
-      </article>
-      <hr class="semi" role="separator" />
-      <article id="visuals">
-        <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <p class="note date">2022</p>
             <p class="note">
@@ -610,7 +527,6 @@
               title="<?php echo $lang['asset_177'] ?>."
             />
           </div>
-
           <div class="v-stretch reveal">
             <p class="note date">2023</p>
             <p class="note">
@@ -671,67 +587,16 @@
               title="<?php echo $lang['asset_87'] ?>."
             />
           </div>
-
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/vestkystruten"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_151'] ?></span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/vestkystruten.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label=""
-              aria-describedby=""
-              poster="/img/2022-07-26-00855.jpg"
-            ></video>
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/aland.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_218'] ?>"
-              aria-describedby=""
-              poster="/img/cover-aland.jpg"
-            ></video>
-          </div>
         </div>
       </article>
-      <!-- TRAVEL END -->
-      <!-- SHOWREEEL START -->
-      <article class="wrapper-wide" id="showreel">
+      <!-- PHOTO END -->
+      <!-- VIDEO START -->
+      <article class="wrapper-wide" id="video">
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h2>
-              <?php echo $lang['asset_184'] ?>
+              <?php echo $lang['asset_13'] ?>
               <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
             </h2>
             <a
@@ -752,95 +617,6 @@
               href="/services#plans"
               aria-label="<?php echo $lang['asset_118'] ?>"
               ><div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-        </div>
-        <hr class="semi" role="separator" />
-      </article>
-      <article id="visuals">
-        <div class="grid-container photo-grid">
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;<span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
-              </a>
-            </p>
-            <video
-              src="/img/husetfundament-showreel.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Huset Fundament"
-              aria-describedby="<?php echo $lang['asset_40'] ?>"
-              poster="/img/cover-husetfundament.jpg"
-            ></video>
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://www.bygning5.dk"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Bygning 5</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <video
-              src="/img/repaireremake.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Repaire Festival"
-              aria-describedby="<?php echo $lang['asset_38'] ?>"
-              poster="/img/cover-repaireandremake.jpg"
-            ></video>
-          </div>
-        </div>
-      </article>
-      <!-- SHOWREEEL END -->
-      <!-- INTERVIEW START -->
-      <article class="wrapper-wide" id="interview">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              <?php echo $lang['asset_187'] ?>
-              <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
-            </h2>
-            <a
-              class="hide-cta-min reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-            >
-              <div class="cta">
-                <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              <?php echo $lang['asset_188'] ?>
-            </p>
-            <a
-              class="hide-cta-max reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-            >
-              <div class="cta">
                 <?php echo $lang['asset_116'] ?>
               </div>
             </a>
@@ -888,6 +664,55 @@
               ></a>
             </p>
             <video
+              src="/img/repaireremake.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="Repaire Festival"
+              aria-describedby="<?php echo $lang['asset_38'] ?>"
+              poster="/img/cover-repaireandremake.jpg"
+            ></video>
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://husetfundament.dk/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Huset Fundament</span>&nbsp;<span
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></span>
+              </a>
+            </p>
+            <video
+              src="/img/husetfundament-showreel.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="Huset Fundament"
+              aria-describedby="<?php echo $lang['asset_40'] ?>"
+              poster="/img/cover-husetfundament.jpg"
+            ></video>
+          </div>
+
+          <div class="h-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://www.bygning5.dk"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Bygning 5</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <video
               src="/img/bygning5.mp4"
               preload="metadata"
               controls="controls"
@@ -898,29 +723,31 @@
               poster="/img/cover-bygning5.jpg"
             ></video>
           </div>
-        </div>
-      </article>
-      <!-- INTERVIEW END -->
-      <!-- ART PROJECTS START -->
-      <article class="wrapper-wide" id="Art-Projects">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              Art
-              <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
-            </h2>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              <?php echo $lang['asset_109'] ?>
+          <div class="h-stretch reveal">
+            <p class="note date">2022</p>
+            <p class="note">
+              <a
+                href="https://adamsochorec.com/blog/aland"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span><?php echo $lang['asset_218'] ?></span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
             </p>
+            <video
+              src="/img/aland.mp4"
+              preload="metadata"
+              controls="controls"
+              playsinline
+              role="video"
+              aria-label="<?php echo $lang['asset_218'] ?>"
+              aria-describedby=""
+              poster="/img/cover-aland.jpg"
+            ></video>
           </div>
-        </div>
-      </article>
-      <br />
-      <article id="visuals">
-        <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
             <video
@@ -934,22 +761,9 @@
               poster="/img/cover-samso.jpg"
             ></video>
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <video
-              src="/img/autoportrait.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_46'] ?>"
-              aria-describedby="<?php echo $lang['asset_47'] ?>"
-              poster="/img/cover-autoportrait.jpg"
-            ></video>
-          </div>
         </div>
       </article>
-      <!-- ART PROJECTS END -->
+      <!-- VIDEO END -->
     </main>
     <!-- FOOTER START -->
     <?php

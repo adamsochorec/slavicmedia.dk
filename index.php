@@ -77,61 +77,33 @@
           aria-label="Services Features Overview"
         >
           <a
-            href="/projects#portrait"
+            href="/projects#photo"
             class="gallery-item reveal"
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/2023-09-09-10524.jpg"
-              title="<?php echo $lang['asset_40'] ?>."
-              alt="<?php echo $lang['asset_40'] ?>."
+              src="/img/hvalp.jpg"
+              alt="<?php echo $lang['asset_150'] ?>."
+              title="<?php echo $lang['asset_150'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_110'] ?></h3>
+              <h3><?php echo $lang['asset_11'] ?></h3>
+              <p>
+                <?php echo $lang['asset_173'] ?>
+              </p>
             </div>
           </a>
-          <a href="/projects#stills" class="gallery-item reveal">
+          <a href="/projects#video" class="gallery-item reveal">
             <img
-              src="/img/2021-04-25-00693.jpg"
-              class="north-cascades-img"
-              title="<?php echo $lang['asset_47'] ?>."
-              alt="<?php echo $lang['asset_47'] ?>."
+              src="/img/DSCF9640.jpg"
+              title="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang[''] ?>."
             />
             <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_107'] ?></h3>
-            </div>
-          </a>
-          <a href="/portrait#travel" class="gallery-item reveal">
-            <img
-              src="/img/2022-12-08-01181.jpg"
-              title="<?php echo $lang['asset_152'] ?>."
-              alt="<?php echo $lang['asset_152'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3>
-                <h3><?php echo $lang['asset_85'] ?></h3>
-              </h3>
-            </div>
-          </a>
-          <a href="/projects#showreel" class="gallery-item reveal">
-            <img
-              src="/img/cover-husetfundament.jpg"
-              title="<?php echo $lang['asset_50'] ?>."
-              alt="<?php echo $lang['asset_50'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_184'] ?></h3>
-            </div>
-          </a>
-
-          <a href="/projects#interview" class="gallery-item reveal">
-            <img
-              src="/img/cover-crowdfunding.jpg"
-              title="<?php echo $lang['asset_38'] ?>."
-              alt="<?php echo $lang['asset_38'] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_187'] ?></h3>
+              <h3><?php echo $lang['asset_13'] ?></h3>
+              <p>
+                <?php echo $lang['asset_185'] ?>
+              </p>
             </div>
           </a>
         </article>
