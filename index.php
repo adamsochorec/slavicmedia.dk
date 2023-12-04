@@ -77,12 +77,12 @@
           aria-label="Services Features Overview"
         >
           <a
-            href="/projects#photo"
+            href="/projects"
             class="gallery-item reveal"
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/hvalp.jpg"
+              src="/img/2022-06598-11-30-2.jpg"
               alt="<?php echo $lang['asset_150'] ?>."
               title="<?php echo $lang['asset_150'] ?>."
             />
@@ -601,7 +601,12 @@
     include $IPATH . 'footer.php';
     ?>
     <script type="text/javascript" src="/assets/index.js" defer></script>
-
+    <script
+      type="text/javascript"
+      src="/assets/cookies.js"
+      defer
+      role="script"
+    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

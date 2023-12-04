@@ -47,29 +47,30 @@
               <?php echo $lang['asset_11'] ?>
               <span class="highlited"><?php echo $lang['asset_22'] ?></span>
             </h2>
-            <a
-              class="hide-cta-min reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_117'] ?>"
-            >
-              <div class="cta">
+
+            <div class="hide-cta-min reveal">
+              <a
+                class="cta"
+                href="/services#plans"
+                aria-label="<?php echo $lang['asset_117'] ?>"
+              >
                 <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
               <?php echo $lang['asset_173'] ?>
             </p>
-            <a
-              class="hide-cta-max reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_117'] ?>"
-            >
-              <div class="cta">
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services#plans"
+                aria-label="<?php echo $lang['asset_117'] ?>"
+              >
                 <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </article>
@@ -599,27 +600,29 @@
               <?php echo $lang['asset_13'] ?>
               <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
             </h2>
-            <a
-              class="hide-cta-min reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-              ><div class="cta">
+            <div class="hide-cta-min reveal">
+              <a
+                class="cta"
+                href="/services#plans"
+                aria-label="<?php echo $lang['asset_117'] ?>"
+              >
                 <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
               <?php echo $lang['asset_185'] ?>
             </p>
-            <a
-              class="hide-cta-max reveal"
-              href="/services#plans"
-              aria-label="<?php echo $lang['asset_118'] ?>"
-              ><div class="cta">
+            <div class="hide-cta-max reveal">
+              <a
+                class="cta"
+                href="/services#plans"
+                aria-label="<?php echo $lang['asset_117'] ?>"
+              >
                 <?php echo $lang['asset_116'] ?>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
         <hr class="semi" role="separator" />

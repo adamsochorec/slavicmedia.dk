@@ -199,13 +199,13 @@
                     <p><?php echo $lang['asset_235'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -261,13 +261,13 @@
                     <p><?php echo $lang['asset_260'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -275,13 +275,13 @@
                     <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -289,13 +289,13 @@
                     <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -303,13 +303,13 @@
                     <p><?php echo $lang['asset_262'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -363,13 +363,13 @@
                     <p><?php echo $lang['asset_235'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -434,13 +434,13 @@
                     <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -448,13 +448,13 @@
                     <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -462,13 +462,13 @@
                     <p><?php echo $lang['asset_252'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -522,13 +522,13 @@
                     <p><?php echo $lang['asset_245'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -598,7 +598,7 @@
                     <p><?php echo $lang['asset_268'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
                     <p>2x</p>
@@ -613,13 +613,13 @@
                     <p><?php echo $lang['asset_260'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -627,13 +627,13 @@
                     <p><?php echo $lang['asset_266'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -641,13 +641,13 @@
                     <p><?php echo $lang['asset_196'] ?></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-regular fa-check"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                 </tr>
                 <tr>
@@ -685,6 +685,12 @@
     include $IPATH . 'footer.php';
     ?>
     <script type="text/javascript" src="/assets/services.js" defer></script>
+    <script
+      type="text/javascript"
+      src="/assets/cookies.js"
+      defer
+      role="script"
+    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

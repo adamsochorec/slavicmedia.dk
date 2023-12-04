@@ -87,7 +87,12 @@
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'footer.php';
-    ?>
+    ?><script
+    type="text/javascript"
+    src="/assets/cookies.js"
+    defer
+    role="script"
+    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

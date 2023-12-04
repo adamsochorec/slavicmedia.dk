@@ -294,7 +294,7 @@ h4,
 h5 {
   font-size: clamp(0.9em, 2vw, 1.25em);
 }
-h6 {
+h6, #services table th {
   font-size: clamp(0.8em, 1.5vw, 1em);
 }
 p {
@@ -597,8 +597,7 @@ p a:hover {
   );
   background: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(199, 30, 30, 1)),
     to(rgba(18, 69, 126, 1))
   );
@@ -822,6 +821,9 @@ header {
     background 0.3s;
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -1359,7 +1361,6 @@ footer span {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
-  border-radius: var(--border-radius-2);
 }
 #visuals .grid-container video {
   aspect-ratio: 16/9;
@@ -1579,8 +1580,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    right top,
-    left top,
+    right top, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1598,8 +1598,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1617,8 +1616,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left bottom,
-    left top,
+    left bottom, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1636,8 +1634,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -2876,10 +2873,10 @@ img.mfp-img {
   text-align: left;
 }
 #services table i {
-  color: white;
+  color: rgb(var(--white-color));
 }
 #services th {
-  background-color: white;
+  background-color: rgb(var(--white-color));
 }
 #services .grid-container img {
   -o-object-fit: cover;
@@ -3402,7 +3399,7 @@ p.note.date {
     display: none;
     margin: var(--cta-margin);
   }
-  table p {
+  #services table p {
     font-size: var(--fontsize-note);
   }
 }
@@ -3430,11 +3427,11 @@ p.note.date {
   .hide-cta-min {
     display: none !important;
   }
-  th,
-  td {
+  #services th,
+  #services td {
     padding: var(--grid-gap-1) 5px;
   }
-  table p {
+  #services table p {
     font-size: 10px;
   }
 }

@@ -9,5 +9,3 @@
   hreflang="<?php echo $_SESSION['lang'] ?>-DK"
   href="slavicmedia.dk"
 />
-<meta name="robots" content="noindex" />
-<meta name="googlebot" content="noindex" />
