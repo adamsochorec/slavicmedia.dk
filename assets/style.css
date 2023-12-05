@@ -294,7 +294,8 @@ h4,
 h5 {
   font-size: clamp(0.9em, 2vw, 1.25em);
 }
-h6, #services table th {
+h6,
+#services table th {
   font-size: clamp(0.8em, 1.5vw, 1em);
 }
 p {
@@ -597,7 +598,8 @@ p a:hover {
   );
   background: -webkit-gradient(
     linear,
-    left top, right top,
+    left top,
+    right top,
     from(rgba(199, 30, 30, 1)),
     to(rgba(18, 69, 126, 1))
   );
@@ -822,8 +824,7 @@ header {
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-    background 0.3s,
-    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -1362,7 +1363,7 @@ footer span {
   object-fit: cover;
   width: 100%;
 }
-#visuals .grid-container video {
+#visuals .grid-container iframe {
   aspect-ratio: 16/9;
 }
 /* SWIPER START */
@@ -1580,7 +1581,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    right top, left top,
+    right top,
+    left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1598,7 +1600,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top, right top,
+    left top,
+    right top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1616,7 +1619,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left bottom, left top,
+    left bottom,
+    left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1634,7 +1638,8 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top, left bottom,
+    left top,
+    left bottom,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -3338,6 +3343,19 @@ p.note.date {
 }
 
 /* REVIEWS END */
+/* PROJECTS START */
+#photo-gallery img {
+  height: unset;
+  width: unset;
+}
+#photo-gallery {
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  width: 100%;
+}
+/* PROJECTS END */
 
 /* MEDIA QERRIES START */
 
@@ -3532,6 +3550,9 @@ p.note.date {
   }
   .tabset > label {
     margin: 0px 10px 13px 0px;
+  }
+  .video-grid .grid-container.photo-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (min-width: 560px) {

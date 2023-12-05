@@ -78,6 +78,127 @@
       <article id="visuals">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
+            <p class="note date">2022</p>
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <span>Timetravels</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-12-08-01181.jpg"
+              alt="<?php echo $lang['asset_95'] ?>."
+              title="<?php echo $lang['asset_95'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://www.timetravels.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Timetravels</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2022-12-07-01167.jpg"
+              title="<?php echo $lang['asset_97'] ?>."
+              alt="<?php echo $lang['asset_97'] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Tourist Israel</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01113.jpg"
+              alt="<?php echo $lang['asset_176'] ?>."
+              title="<?php echo $lang['asset_176'] ?>."
+            />
+          </div>
+          <div class="h-stretch hide-photo-min reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Tourist Israel</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01113.jpg"
+              alt="<?php echo $lang['asset_176'] ?>."
+              title="<?php echo $lang['asset_176'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Tourist Israel</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01096.jpg"
+              alt="<?php echo $lang['asset_177'] ?>."
+              title="<?php echo $lang['asset_177'] ?>."
+            />
+          </div>
+          <div class="v-stretch reveal">
+            <p class="note date">2023</p>
+            <p class="note">
+              <a
+                href="https://touristisrael.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Tourist Israel</span
+                ><span
+                  >&nbsp;<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
+            <img
+              src="/img/2023-08-29-01059.jpg"
+              alt="<?php echo $lang['asset_178'] ?>."
+              title="<?php echo $lang['asset_178'] ?>."
+            />
+          </div>
+          <div class="h-stretch reveal">
             <p class="note date">2021</p>
             <p class="note">
               <a
@@ -427,127 +548,7 @@
               title="<?php echo $lang['asset_48'] ?>."
             />
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
-              <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-              >
-                <span>Timetravels</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-08-01181.jpg"
-              alt="<?php echo $lang['asset_95'] ?>."
-              title="<?php echo $lang['asset_95'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Timetravels</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-07-01167.jpg"
-              title="<?php echo $lang['asset_97'] ?>."
-              alt="<?php echo $lang['asset_97'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_176'] ?>."
-              title="<?php echo $lang['asset_176'] ?>."
-            />
-          </div>
-          <div class="h-stretch hide-photo-min reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_176'] ?>."
-              title="<?php echo $lang['asset_176'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01096.jpg"
-              alt="<?php echo $lang['asset_177'] ?>."
-              title="<?php echo $lang['asset_177'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
-                ><span
-                  >&nbsp;<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01059.jpg"
-              alt="<?php echo $lang['asset_178'] ?>."
-              title="<?php echo $lang['asset_178'] ?>."
-            />
-          </div>
+
           <div class="h-stretch reveal">
             <p class="note date">2022</p>
             <p class="note">
@@ -627,7 +628,7 @@
         </div>
         <hr class="semi" role="separator" />
       </article>
-      <article id="visuals">
+      <article id="visuals" class="video-grid">
         <div class="grid-container photo-grid">
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
@@ -641,16 +642,7 @@
                 ></span>
               </a>
             </p>
-            <video
-              src="/img/crowdfunding.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Huset Fundament"
-              aria-describedby="<?php echo $lang['asset_40'] ?>"
-              poster="/img/cover-crowdfunding.jpg"
-            ></video>
+            <iframe src="https://www.youtube-nocookie.com/embed/XBqSmnszKrI?si=7nohkpI3QT-hFqIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
@@ -666,16 +658,7 @@
                   ></i></span
               ></a>
             </p>
-            <video
-              src="/img/repaireremake.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Repaire Festival"
-              aria-describedby="<?php echo $lang['asset_38'] ?>"
-              poster="/img/cover-repaireandremake.jpg"
-            ></video>
+            <iframe src="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?si=DW3xFn6qfqnlPNLf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
@@ -689,16 +672,7 @@
                 ></span>
               </a>
             </p>
-            <video
-              src="/img/husetfundament-showreel.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Huset Fundament"
-              aria-describedby="<?php echo $lang['asset_40'] ?>"
-              poster="/img/cover-husetfundament.jpg"
-            ></video>
+            <iframe src="https://www.youtube-nocookie.com/embed/hNFAma898Ak?si=8eNBr80vs0czr4c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 
           <div class="h-stretch reveal">
@@ -725,6 +699,7 @@
               aria-describedby="<?php echo $lang['asset_50'] ?>"
               poster="/img/cover-bygning5.jpg"
             ></video>
+         <!--    <iframe width="560" height="315" src="https://www.youtube.com/embed/7zRs5jSRxGs?si=GzZ3kY3PdJgwsTXb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2022</p>
@@ -740,29 +715,10 @@
                   ></i></span
               ></a>
             </p>
-            <video
-              src="/img/aland.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="<?php echo $lang['asset_218'] ?>"
-              aria-describedby=""
-              poster="/img/cover-aland.jpg"
-            ></video>
-          </div>
+            <iframe src="https://www.youtube-nocookie.com/embed/RYr5MRm1yB8?si=tfd8VzrFFReNL5fX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
           <div class="h-stretch reveal">
             <p class="note date">2023</p>
-            <video
-              src="/img/samso.mp4"
-              preload="metadata"
-              controls="controls"
-              playsinline
-              role="video"
-              aria-label="Huset Fundament"
-              aria-describedby="<?php echo $lang['asset_40'] ?>"
-              poster="/img/cover-samso.jpg"
-            ></video>
+            <iframe src="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?si=Wzv-dGy44IX66nN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </article>
@@ -773,6 +729,12 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'footer.php';
     ?>
+    <script
+      type="text/javascript"
+      src="/assets/cookies.js"
+      defer
+      role="script"
+    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

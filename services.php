@@ -39,7 +39,7 @@
         >
           <div class="gallery-item reveal">
             <img
-              src="/img/cover-samso.jpg"
+              src="/img/thumbnail/cover-samso.jpg"
               title="<?php echo $lang['asset_152'] ?>."
               alt="<?php echo $lang['asset_152'] ?>."
             />
@@ -54,7 +54,7 @@
           </div>
           <div class="gallery-item reveal">
             <img
-              src="/img/hvalp.jpg"
+              src="/img/thumbnail/hvalp.jpg"
               alt="<?php echo $lang['asset_50'] ?>."
               title="<?php echo $lang['asset_50'] ?>."
             />
@@ -69,7 +69,7 @@
           </div>
           <div class="gallery-item reveal">
             <img
-              src="/img/animation.jpg"
+              src="/img/thumbnail/animation.jpg"
               title="<?php echo $lang['asset_39'] ?>."
               alt="<?php echo $lang['asset_39'] ?>."
             />
@@ -84,7 +84,7 @@
           </div>
           <div class="gallery-item reveal" aria-label="">
             <img
-              src="/img/preproduction.jpg"
+              src="/img/thumbnail/preproduction.jpg"
               title="<?php echo $lang[''] ?>."
               alt="<?php echo $lang[''] ?>."
             />
@@ -99,7 +99,7 @@
           </div>
           <div class="gallery-item reveal">
             <img
-              src="/img/studio.jpg"
+              src="/img/thumbnail/studio.jpg"
               title="<?php echo $lang['asset_38'] ?>."
               alt="<?php echo $lang['asset_38'] ?>."
             />
@@ -114,7 +114,7 @@
           </div>
           <div class="gallery-item reveal">
             <img
-              src="/img/2021-04-25-00693.jpg"
+              src="/img/thumbnail/2021-04-25-00693.jpg"
               class="north-cascades-img"
               title="<?php echo $lang['asset_47'] ?>."
               alt="<?php echo $lang['asset_47'] ?>."
@@ -280,6 +280,7 @@
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
                   </td>
+                  https://source.unsplash.com/CkagyZJ88kE/1000x1000
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
                   </td>

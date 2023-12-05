@@ -82,7 +82,7 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/2022-06598-11-30-2.jpg"
+              src="/img/thumbnail/2022-06598-11-30-2.jpg"
               alt="<?php echo $lang['asset_150'] ?>."
               title="<?php echo $lang['asset_150'] ?>."
             />
@@ -95,7 +95,7 @@
           </a>
           <a href="/projects#video" class="gallery-item reveal">
             <img
-              src="/img/DSCF9640.jpg"
+              src="/img/thumbnail/DSCF9640.jpg"
               title="<?php echo $lang[''] ?>."
               alt="<?php echo $lang[''] ?>."
             />
@@ -303,7 +303,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/2022-04-24-07404.jpg"
+                  src="/img/thumbnail/2022-04-24-07404.jpg"
                   alt="<?php echo $lang['asset_23'] ?>Marcel"
                   title="<?php echo $lang['asset_23'] ?>Marcel"
                   class="reveal"
@@ -451,7 +451,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/2022-04-24-07426.jpg"
+                  src="/img/thumbnail/2022-04-24-07426.jpg"
                   alt="<?php echo $lang['asset_23'] ?> Adam"
                   title="<?php echo $lang['asset_23'] ?> Adam"
                   class="reveal"
