@@ -76,8 +76,21 @@
           class="video-gallery features-grid"
           aria-label="Services Features Overview"
         >
+          <a href="/projects" class="gallery-item reveal">
+            <img
+              src="/img/thumbnail/DSCF9640.jpg"
+              title="<?php echo $lang[''] ?>."
+              alt="<?php echo $lang[''] ?>."
+            />
+            <div class="gallery-item-caption">
+              <h3><?php echo $lang['asset_13'] ?></h3>
+              <p>
+                <?php echo $lang['asset_185'] ?>
+              </p>
+            </div>
+          </a>
           <a
-            href="/projects"
+            href="/projects#photo"
             class="gallery-item reveal"
             aria-label="Huset Fundament 2023"
           >
@@ -90,19 +103,6 @@
               <h3><?php echo $lang['asset_11'] ?></h3>
               <p>
                 <?php echo $lang['asset_173'] ?>
-              </p>
-            </div>
-          </a>
-          <a href="/projects#video" class="gallery-item reveal">
-            <img
-              src="/img/thumbnail/DSCF9640.jpg"
-              title="<?php echo $lang[''] ?>."
-              alt="<?php echo $lang[''] ?>."
-            />
-            <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_13'] ?></h3>
-              <p>
-                <?php echo $lang['asset_185'] ?>
               </p>
             </div>
           </a>

@@ -35,7 +35,7 @@
         <article
           id="visual"
           class="video-gallery features-grid"
-          aria-label="Video Gallery"
+          aria-label="Features Grid"
         >
           <div class="gallery-item reveal">
             <img
@@ -149,7 +149,6 @@
             name="tabset"
             id="tab1"
             aria-controls="<?php echo $lang['asset_33'] ?>"
-            checked
           />
           <label for="tab1"
             ><span><?php echo $lang['asset_33'] ?></span></label
@@ -160,6 +159,7 @@
             name="tabset"
             id="tab2"
             aria-controls="<?php echo $lang['asset_13'] ?>"
+            checked
           />
           <label for="tab2"
             ><span><?php echo $lang['asset_13'] ?></span></label
@@ -171,171 +171,6 @@
           >
           <hr class="semi" role="separator" />
           <div class="tab-panels">
-            <!-- PHOTO PACKAGES START -->
-            <div class="tab-panel reveal">
-              <table id="<?php echo $lang['asset_33'] ?>">
-                <tr>
-                  <th class="left-align"><?php echo $lang['asset_133'] ?></th>
-                  <th><?php echo $lang['asset_133'] ?></th>
-                  <th><?php echo $lang['asset_134'] ?></th>
-                  <th><?php echo $lang['asset_135'] ?></th>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_237'] ?></p>
-                  </td>
-                  <td>
-                    <p><?php echo $lang['asset_239'] ?></p>
-                  </td>
-                  <td>
-                    <p><?php echo $lang['asset_240'] ?></p>
-                  </td>
-                  <td>
-                    <p><?php echo $lang['asset_241'] ?></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_235'] ?></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_246'] ?></p>
-                  </td>
-                  <td>
-                    <p>1</p>
-                  </td>
-                  <td>
-                    <p>2</p>
-                  </td>
-                  <td>
-                    <p><?php echo $lang['asset_247'] ?></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_248'] ?></p>
-                  </td>
-                  <td>
-                    <p>1.5<?php echo $lang['asset_249'] ?></p>
-                  </td>
-                  <td>
-                    <p>
-                      <?php echo $lang['asset_257'] ?>
-                      (4-5<?php echo $lang['asset_249'] ?>)
-                    </p>
-                  </td>
-                  <td>
-                    <p>
-                      <?php echo $lang['asset_258'] ?>
-                      (7-9<?php echo $lang['asset_249'] ?>)
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_261'] ?></p>
-                  </td>
-                  <td>
-                    <p>5</p>
-                  </td>
-                  <td>
-                    <p>20</p>
-                  </td>
-                  <td>
-                    <p>50</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_260'] ?></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_196'] ?></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  https://source.unsplash.com/CkagyZJ88kE/1000x1000
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_266'] ?></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_262'] ?></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-xmark"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                  <td>
-                    <p><i class="fa-solid fa-check"></i></p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p><?php echo $lang['asset_253'] ?>:</p>
-                  </td>
-                  <td>
-                    <p>
-                      <?php echo $lang['asset_263'] ?>
-                    </p>
-                  </td>
-                  <td>
-                    <p>
-                      <?php echo $lang['asset_264'] ?>
-                    </p>
-                  </td>
-                  <td>
-                    <p>
-                      <?php echo $lang['asset_265'] ?>
-                    </p>
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!-- PHOTO PACKAGES END -->
             <!-- VIDEO PACKAGES START -->
             <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_13'] ?>">
@@ -495,6 +330,171 @@
               </table>
             </div>
             <!-- VIDEO PACKAGES END -->
+            <!-- PHOTO PACKAGES START -->
+            <div class="tab-panel reveal">
+              <table id="<?php echo $lang['asset_33'] ?>">
+                <tr>
+                  <th class="left-align"><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_133'] ?></th>
+                  <th><?php echo $lang['asset_134'] ?></th>
+                  <th><?php echo $lang['asset_135'] ?></th>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_237'] ?></p>
+                  </td>
+                  <td>
+                    <p><?php echo $lang['asset_239'] ?></p>
+                  </td>
+                  <td>
+                    <p><?php echo $lang['asset_240'] ?></p>
+                  </td>
+                  <td>
+                    <p><?php echo $lang['asset_241'] ?></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_235'] ?></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_246'] ?></p>
+                  </td>
+                  <td>
+                    <p>1</p>
+                  </td>
+                  <td>
+                    <p>2</p>
+                  </td>
+                  <td>
+                    <p><?php echo $lang['asset_247'] ?></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_248'] ?></p>
+                  </td>
+                  <td>
+                    <p>1.5<?php echo $lang['asset_249'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <?php echo $lang['asset_257'] ?>
+                      (4-5<?php echo $lang['asset_249'] ?>)
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <?php echo $lang['asset_258'] ?>
+                      (7-9<?php echo $lang['asset_249'] ?>)
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_261'] ?></p>
+                  </td>
+                  <td>
+                    <p>5</p>
+                  </td>
+                  <td>
+                    <p>20</p>
+                  </td>
+                  <td>
+                    <p>50</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_260'] ?></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_196'] ?></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_266'] ?></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_262'] ?></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-xmark"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                  <td>
+                    <p><i class="fa-solid fa-check"></i></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_253'] ?>:</p>
+                  </td>
+                  <td>
+                    <p>
+                      <?php echo $lang['asset_263'] ?>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <?php echo $lang['asset_264'] ?>
+                    </p>
+                  </td>
+                  <td>
+                    <p>
+                      <?php echo $lang['asset_265'] ?>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- PHOTO PACKAGES END -->
+
             <!-- ALL IN PACKAGES START -->
             <div class="tab-panel reveal">
               <table id="allin">

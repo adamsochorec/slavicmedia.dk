@@ -202,7 +202,7 @@ hr:not(hr.semi) {
   margin: 60px 0;
 }
 .semi {
-  margin: var(--grid-gap-2) 0;
+  margin: 25px 0;
   opacity: 0 !important;
 }
 #homepage header {
@@ -287,7 +287,7 @@ h3,
   font-size: clamp(1.25em, 3vw, 2em);
 }
 h4,
-.features-grid h3,
+.video-gallery h3,
 .noindex h1 {
   font-size: clamp(1em, 2.5vw, 1.5em);
 }
@@ -849,6 +849,8 @@ header {
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   -ms-transform: translateY(0);
   transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -1356,9 +1358,8 @@ footer span {
 #visuals .grid-container.video-grid {
   padding-top: var(--nav-bar-top-position);
 }
-#visuals .grid-container iframe,
 #visuals .grid-container img,
-#visuals .grid-container video {
+#visuals .grid-container iframe {
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
@@ -2738,6 +2739,7 @@ img.mfp-img {
     padding-right: 6px;
   }
 }
+
 .video-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -2746,6 +2748,7 @@ img.mfp-img {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .video-gallery .gallery-item {
   position: relative;
   max-width: calc(100vw - var(--homepage-padding) * 2);
@@ -3220,13 +3223,13 @@ ul.languages-legend li::marker {
 /* TRAVEL END */
 /* PRESS START */
 #press .gallery #brand-guide {
-  background-image: url(/img/cover-brandguide.png);
+  background-image: url(/img/thumbnail/cover-brandguide.png);
 }
 #press .gallery #credit-guide {
-  background-image: url(/img/cover-creditguide.png);
+  background-image: url(/img/thumbnail/cover-creditguide.png);
 }
 #press .gallery #press-kit {
-  background-image: url(/img/cover-presskit.png);
+  background-image: url(/img/thumbnail/cover-presskit.png);
 }
 #press .gallery .grid-item,
 #press .gallery .grid-item .blur {
@@ -3394,7 +3397,25 @@ p.note.date {
     margin: 0;
   }
 }
-@media only screen and (max-width: 350px) {
+
+@media only screen and (min-width: 375px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-grid .gallery-item {
+    height: var(--dimension-3);
+  }
+  #projects .video-gallery {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .video-gallery {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .video-gallery .gallery-item p {
+    display: none;
+  }
   .video-gallery
     .gallery-item
     p:not(.video-gallery.features-grid .gallery-item p) {
@@ -3402,14 +3423,6 @@ p.note.date {
   }
   .video-gallery .gallery-item .gallery-item-caption {
     padding: var(--grid-gap-2);
-  }
-}
-@media only screen and (min-width: 375px) {
-  .features-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .features-grid .gallery-item {
-    height: var(--dimension-3);
   }
 }
 @media only screen and (min-width: 415px) {
@@ -3738,4 +3751,5 @@ p.note.date {
     height: 100%;
   }
 }
+
 /* MEDIA QERRIES END */

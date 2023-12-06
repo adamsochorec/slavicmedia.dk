@@ -36,6 +36,7 @@
     crossorigin="anonymous"
     role="script"
   ></script>
+
   <!--<script
     type="text/javascript"
     src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
