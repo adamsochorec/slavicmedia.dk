@@ -13,7 +13,7 @@
     rel="noopener noreferrer nofollow"
     aria-label="Slavic Media Instagram"
   >
-    <i class="fa-brands fa-youtube fa-xl"></i>
+    <i class="fa-brands fa-instagram fa-xl"></i>
   </a>
   <a
     target="_blank"
@@ -21,6 +21,6 @@
     href="https://youtube.com/@slavicmedia"
     aria-label="Slavic Media YouTube"
   >
-    <i class="fa-brands fa-instagram fa-xl"></i>
+    <i class="fa-brands fa-youtube fa-xl"></i>
   </a>
 </div>

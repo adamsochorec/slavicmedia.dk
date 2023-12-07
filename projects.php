@@ -400,7 +400,7 @@
               ></a>
             </p>
             <img
-              src="/img/2023-12-02-00056.jpg"
+              src="/img/2023-12-02-00408.jpg"
               alt="<?php echo $lang['asset_286'] ?>."
               title="<?php echo $lang['asset_286'] ?>."
             />

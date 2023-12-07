@@ -598,8 +598,7 @@ p a:hover {
   );
   background: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(199, 30, 30, 1)),
     to(rgba(18, 69, 126, 1))
   );
@@ -823,6 +822,9 @@ header {
     background 0.3s;
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s;
+  transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
+    background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
     background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -1317,7 +1319,8 @@ footer span {
 .social-icons i:hover {
   -o-transition: var(--transition-2);
   -webkit-transition: var(--transition-2);
-  transition: var(--transition-2);
+  transition: var(--transition-2);  
+  cursor: pointer;
   -webkit-transition: var(--transition-2);
 }
 .social-icons a {
@@ -1582,8 +1585,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    right top,
-    left top,
+    right top, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1601,8 +1603,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1620,8 +1621,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left bottom,
-    left top,
+    left bottom, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1639,8 +1639,7 @@ footer span {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
