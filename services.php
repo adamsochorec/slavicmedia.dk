@@ -147,22 +147,22 @@
           <input
             type="radio"
             name="tabset"
-            id="tab1"
-            aria-controls="<?php echo $lang['asset_33'] ?>"
-          />
-          <label for="tab1"
-            ><span><?php echo $lang['asset_33'] ?></span></label
-          >
-          <!-- Tab 2 -->
-          <input
-            type="radio"
-            name="tabset"
             id="tab2"
             aria-controls="<?php echo $lang['asset_13'] ?>"
             checked
           />
           <label for="tab2"
             ><span><?php echo $lang['asset_13'] ?></span></label
+          >
+          <!-- Tab 2 -->
+          <input
+            type="radio"
+            name="tabset"
+            id="tab1"
+            aria-controls="<?php echo $lang['asset_33'] ?>"
+          />
+          <label for="tab1"
+            ><span><?php echo $lang['asset_33'] ?></span></label
           >
           <!-- Tab 3 -->
           <input type="radio" name="tabset" id="tab3" aria-controls="" />

@@ -1016,7 +1016,6 @@ button.submit-btn {
   font-family: var(--logo-font);
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
-  z-index: 9999999;
   white-space: nowrap;
   border: 2px solid rgba(var(--secondary-color), 1);
   cursor: pointer;

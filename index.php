@@ -79,8 +79,8 @@
           <a href="/projects" class="gallery-item reveal">
             <img
               src="/img/thumbnail/DSCF9640.jpg"
-              title="<?php echo $lang[''] ?>."
-              alt="<?php echo $lang[''] ?>."
+              title="<?php echo $lang['asset_288'] ?>."
+              alt="<?php echo $lang['asset_288'] ?>."
             />
             <div class="gallery-item-caption">
               <h3><?php echo $lang['asset_13'] ?></h3>
@@ -95,9 +95,9 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/thumbnail/2022-06598-11-30-2.jpg"
-              alt="<?php echo $lang['asset_150'] ?>."
-              title="<?php echo $lang['asset_150'] ?>."
+              src="/img/thumbnail/2023-11-30-00006.jpg"
+              alt="<?php echo $lang['asset_287'] ?>."
+              title="<?php echo $lang['asset_287'] ?>."
             />
             <div class="gallery-item-caption">
               <h3><?php echo $lang['asset_11'] ?></h3>

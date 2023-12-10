@@ -266,15 +266,15 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels</span
+                <span>Timetravels&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
             </p>
             <img
-              src="/img/2023-12-01-000305.jpg"
+              src="/img/2023-12-01-00263.jpg"
               alt="<?php echo $lang['asset_280'] ?>."
               title="<?php echo $lang['asset_280'] ?>."
             />
@@ -287,15 +287,15 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels</span
+                <span>Timetravels&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
             </p>
             <img
-              src="/img/2022-06598-11-30-2.jpg"
+              src="/img/2023-11-30-00006.jpg"
               alt="<?php echo $lang['asset_281'] ?>."
               title="<?php echo $lang['asset_281'] ?>."
             />
@@ -308,9 +308,9 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Sleddog Tours</span
+                <span>Sleddog.se&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -329,15 +329,15 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels</span
+                <span>Timetravels&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
             </p>
             <img
-              src="/img/2023-12-01-000205.jpg"
+              src="/img/2023-12-01-00250.jpg"
               alt="<?php echo $lang['asset_283'] ?>."
               title="<?php echo $lang['asset_283'] ?>."
             />
@@ -350,15 +350,15 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels</span
+                <span>Timetravels&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
             </p>
             <img
-              src="/img/2023-11-30-00001.jpg"
+              src="/img/2023-11-30-00036.jpg"
               alt="<?php echo $lang['asset_284'] ?>."
               title="<?php echo $lang['asset_284'] ?>."
             />
@@ -371,9 +371,9 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels</span
+                <span>Timetravels&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -392,15 +392,15 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Sleddog Tours</span
+                <span>Sleddog.se&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
             </p>
             <img
-              src="/img/2023-12-02-00408.jpg"
+              src="/img/2023-12-02-00459.jpg"
               alt="<?php echo $lang['asset_286'] ?>."
               title="<?php echo $lang['asset_286'] ?>."
             />
@@ -412,9 +412,9 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span
+                ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -432,9 +432,9 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span
+                ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -452,9 +452,9 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
+                ><span>Tourist Israel&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -472,9 +472,9 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
+                ><span>Tourist Israel&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -492,9 +492,9 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
+                ><span>Tourist Israel&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -512,9 +512,9 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span
+                ><span>Tourist Israel&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -532,9 +532,9 @@
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span
+                ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -552,9 +552,9 @@
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span>
+                ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span>
                 <span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -588,9 +588,9 @@
                 href="https://www.slovo21.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Slovo 21</span
+                ><span>Slovo 21&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -624,7 +624,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk</span>&nbsp;<span
+                ><span>Divadlo Disk&nbsp;&nbsp;</span><span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -637,6 +637,18 @@
           </div>
           <div class="h-stretch reveal">
             <p class="note date">2021</p>
+            <p class="note">
+              <a
+                href="https://www.sort-hvid.dk/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                ><span>Sort/Hvid&nbsp;&nbsp;</span
+                ><span
+                  ><i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i></span
+              ></a>
+            </p>
             <img
               src="/img/2023-11-13-00267.jpg"
               title="<?php echo $lang['asset_2'] ?>."
@@ -659,9 +671,9 @@
                 href="https://www.husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span
+                ><span>Huset Fundament&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -679,7 +691,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;<span
+                ><span>Huset Fundament&nbsp;&nbsp;</span><span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -697,7 +709,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk</span>&nbsp;<span
+                ><span>Divadlo Disk&nbsp;&nbsp;</span><span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -714,7 +726,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;<span
+                ><span>Huset Fundament&nbsp;&nbsp;</span><span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -732,9 +744,9 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span
+                ><span>Huset Fundament&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -752,9 +764,9 @@
                 href="https://www.roskilde-festival.dk/da/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Rosklide Festival</span
+                ><span>Rosklide Festival&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>
@@ -772,9 +784,9 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span
+                ><span>Huset Fundament&nbsp;&nbsp;</span
                 ><span
-                  >&nbsp;<i
+                  ><i
                     class="fa-solid fa-arrow-up-right-from-square"
                   ></i></span
               ></a>

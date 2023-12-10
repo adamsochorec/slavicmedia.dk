@@ -7,7 +7,7 @@
     <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/contact@slavicmedia.dk"
+      action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"
       method="POST"
       role="form"
       aria-labelledby="contactFormHeading"
@@ -137,10 +137,11 @@
           name="_next"
           value="https://slavicmedia.dk/success"
         />
-
-        <!-- Redirect to the success page -->
-        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_captcha" value="false" />
         <!-- Captcha disable -->
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_template" value="box">
+
       </div>
     </form>
   </section>
