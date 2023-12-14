@@ -136,12 +136,7 @@
           type="hidden"
           name="_next"
           value="https://slavicmedia.dk/success"
-        /><input
-          type="hidden"
-          name="_autoresponse"
-          value="your custom message"
         />
-
         <input type="hidden" name="_captcha" value="false" />
         <!-- Captcha disable -->
         <input type="text" name="_honey" style="display: none" />
