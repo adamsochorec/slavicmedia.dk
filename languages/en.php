@@ -372,7 +372,7 @@ all cookies that are already on your device and prevent them from
 being placed by adjusting your browser settings. However, please be
 aware that disabling cookies may affect the functionality of our
 website.",
-"asset_278" => "Contact Us",
+"asset_278" => "Contact",
 "asset_279" => " If you have any questions about our Cookie Policy, please contact us
 at",
 "asset_280" => "Group of people staring at Northern Lights",

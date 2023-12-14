@@ -1,7 +1,7 @@
 <!-- FOOTER START -->
 <hr class="semi" role="separator" />
 <footer>
-  <div class="footer-container">
+ <article class="wrapper-wide"> <div class="footer-container">
   <a href="/" > <img src="/img/logo2.png" /></a>
     <?php
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
@@ -42,13 +42,13 @@
       <br /><span
         ><i class="fa-solid fa-globe"></i>
           <?php if($_SESSION['lang']=="da"){
-            echo '<a class="language-switch" href="?lang=en">Dansk</a>';
+            echo '<a href="?lang=en">Dansk</a>';
           }
           else if($_SESSION['lang']=="en"){
-            echo '<a class="language-switch" href="?lang=da">English</a>';
+            echo '<a href="?lang=da">English</a>';
           } ?>
     </div>
-  </div>
+  </div></article>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"

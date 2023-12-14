@@ -374,7 +374,7 @@ alle cookies, der allerede er på din enhed og forhindrer dem i
 placeres ved at justere dine browserindstillinger. Vær dog venligst
 opmærksom på, at deaktivering af cookies kan påvirke funktionaliteten af vores
 internet side.",
-"asset_278" => "Kontakt os",
+"asset_278" => "Kontakt",
 "asset_279" => " Hvis du har spørgsmål om vores cookiepolitik, bedes du kontakte os
 på",
 "asset_280" => "Gruppe mennesker stirrer på nordlys",

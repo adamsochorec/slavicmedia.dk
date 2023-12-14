@@ -148,7 +148,7 @@ header:not(#homepage header),
   height: 70px;
   width: 70px;
 }
-main {
+main, footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1293,7 +1293,9 @@ footer hr {
   margin: var(--grid-gap-2) 0 !important;
   opacity: 30%;
 }
-
+footer .language-container {
+  opacity: 30%;
+}
 /* SOCIAL ICONS START */
 
 footer .social-icons,
@@ -3606,8 +3608,6 @@ p.note.date {
   }
   footer {
     font-size: var(--fontsize-note);
-  }
-  footer .footer-ps {
   }
   footer .language-container {
     margin-left: 40px;
