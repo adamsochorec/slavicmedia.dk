@@ -1,22 +1,23 @@
 <!-- FOOTER START -->
 <hr class="semi" role="separator" />
 <footer>
-  <?php
-     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-     include $IPATH . 'social-icons.php';
-  ?>
-  <div class="footer-ps">
-    <p>
+  <div class="footer-container">
+  <a href="/" > <img src="/img/logo2.png" /></a>
+    <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+      include $IPATH . 'social-icons.php';
+    ?>
+  </div>
+  <hr />
+  <div class="footer-container">
+    <div class="grid-item footer-ps">
       <a
         href="mailto:contact@slavicmedia.dk"
         aria-label="Email: contact@slavicmedia.dk"
         role="link"
       >
-        contact@slavicmedia.dk </a
-      ><br />
-      ©
-      <?= date('Y') ?>
-      Slavic Media I/S |
+      <?php echo $lang['asset_278'] ?>      </a>
+      <span>&#x2022;</span>
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
@@ -24,13 +25,30 @@
         aria-label=""
         role="link"
       >
-        CVR: 44081512 </a
-      ><br /><a href="/cookies">
+        CVR: 44081512
+      </a>
+      <span>&#x2022;</span>
+      <a href="/cookies">
         <?php echo $lang['asset_231'] ?>
       </a>
-    </p>
+      <br />
+      <p>
+        Copyright ©
+        <?= date('Y') ?>
+        Slavic Media I/S <?php echo $lang['asset_290'] ?>.
+      </p>
+    </div>
+    <div class="language-container">
+      <br /><span
+        ><i class="fa-solid fa-globe"></i>
+          <?php if($_SESSION['lang']=="da"){
+            echo '<a class="language-switch" href="?lang=en">Dansk</a>';
+          }
+          else if($_SESSION['lang']=="en"){
+            echo '<a class="language-switch" href="?lang=da">English</a>';
+          } ?>
+    </div>
   </div>
-
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"

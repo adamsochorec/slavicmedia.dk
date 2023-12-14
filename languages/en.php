@@ -125,7 +125,7 @@ $lang = [
     "asset_128" => "Link to Hocičo plans",
     "asset_129" => "Website: ",
     "asset_130" => "Animation: Page Not Found",
-    "asset_131" => "Designed to adapt to your evolving needs, ensuring you always have the right tools at your disposal.We believe in providing value for your investment. Our pricing is competitive, offering a range of plans to suit various budgets.",
+    "asset_131" => "Designed to adapt to your evolving needs, ensuring you always have the right tools at your disposal. We believe in providing value for your investment. Our pricing is competitive, offering a range of plans to suit various budgets.",
     "asset_132" => "excl. moms",
     "asset_133" => " Essential",
     "asset_134" => " Core",
@@ -308,10 +308,10 @@ $lang = [
     "asset_226" => "Open mobile menu",
     "asset_227" => "Cookies Consent",
 "asset_228" => "This website use analytical cookies to help you have a superior and more
-relevant browsing experience on the website.",
+relevant browsing experience on the website",
 "asset_229" => "Accept",
 "asset_230" => "Decline",
-"asset_231" => "Use of Cookies",
+"asset_231" => "Privacy Policy",
 "asset_232" => "cookies",
 "asset_233" => "Explore our Projects",
 "asset_234" => "All in",
@@ -347,15 +347,11 @@ relevant browsing experience on the website.",
 "asset_264" => "Events, Promo materials
 (prints, SoMe)",
 "asset_265" => "Large events, Extensive
-studio sessions",
+studio sessions.",
 "asset_266" => "Done-optagelser",
 "asset_267" => "Horizontal 2-3min videos",
 "asset_268" => "Vertical &#8249; 30s videos",
-"asset_269" => "Welcome to Slavic Media I/S ('us', 'we', or 'our') at
-<a href='https://slavicmedia.dk'>slavicmedia.dk</a>. This Cookie
-Policy explains how we use cookies and similar technologies on our
-website. By using our website, you agree to the use of cookies as
-described in this policy.",
+"asset_269" => "",
 "asset_270" => "Cookies are small pieces of data stored on your device (computer or
 mobile device) when you visit our website. They serve various
 purposes, such as improving your browsing experience and providing
@@ -364,7 +360,7 @@ us with insights into how our website is used.",
 "asset_272" => "How We Use Cookies",
 "asset_273" => "We use cookies for the following
 purposes:",
-"asset_274" => "<strong>Google Analytics:</strong> We use Google Analytics to
+"asset_274" => "<u>Google Analytics:</u> We use Google Analytics to
 analyze the use of our website. Google Analytics gathers
 information about website use through cookies to help us improve
 our website and services. You can learn more about how Google
@@ -388,8 +384,8 @@ at",
 "asset_286" => "Pair of boys petting husky",
 "asset_287" => "Photo services cover",
 "asset_288" => "Video services cover",
-"asset_289" => "",
-"asset_290" => "",
+"asset_289" => "Last Modified",
+"asset_290" => "All Rights Reserved",
 "asset_291" => "",
 "asset_292" => "",
 "asset_293" => "",

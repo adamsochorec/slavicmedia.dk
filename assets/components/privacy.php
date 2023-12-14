@@ -13,8 +13,9 @@
   <div class="info" id="cookieBannerDescription">
     <p>
       <?php echo $lang['asset_228'] ?>
-      <br />
-      <a href="/cookies">
+      ❤
+
+      <a href="/privacy-policy">
         <?php echo $lang['asset_104'] ?>
         &#8250;</a
       >

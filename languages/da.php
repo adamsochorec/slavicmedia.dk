@@ -306,7 +306,7 @@ af hver dag, så rejsende kan skrive og dele deres
 "asset_226" => "Åbn mobilmenuen",
 "asset_227" => "Samtykke til cookies",
 "asset_228" => "Dette websted bruger analytiske cookies til at hjælpe dig med at få en overordnet og mere
-relevant browsererfaring på hjemmesiden.",
+relevant browsererfaring på hjemmesiden",
 "asset_229" => "Accepter",
 "asset_230" => "Afvis",
 "asset_231" => "Brug af cookies",
@@ -362,7 +362,7 @@ os med indsigt i, hvordan vores hjemmeside bruges.",
 "asset_272" => "Sådan bruger vi cookies",
 "asset_273" => "Vi bruger cookies til følgende
 formål:",
-"asset_274" => "<strong>Google Analytics:</strong> Vi bruger Google Analytics til
+"asset_274" => "<u>Google Analytics:</u> Vi bruger Google Analytics til
 analysere brugen af vores hjemmeside. Google Analytics samler
 oplysninger om brug af hjemmeside gennem cookies for at hjælpe os med at forbedre os
 vores hjemmeside og tjenester. Du kan lære mere om, hvordan Google
@@ -386,8 +386,8 @@ på",
 "asset_286" => "Par drenge klapper husky",
 "asset_287" => "Fototjenester dækker",
 "asset_288" => "Videotjenester dækker",
-"asset_289" => "",
-"asset_290" => "",
+"asset_289" => "Sidst Ændret:",
+"asset_290" => "Alle rettigheder forbeholdes",
 "asset_291" => "",
 "asset_292" => "",
 "asset_293" => "",

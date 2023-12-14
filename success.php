@@ -20,12 +20,12 @@
         <div class="pathname-container"></div>
         <div class="pathname-container"></div>
         <div class="lottie" role="presentation" aria-hidden="true">
-          <dotlottie-player
-            src="/assets/lottie/success.lottie"
+          <lottie-player
+            src="/assets/lottie/success.json"
             background="transparent"
             speed="1"
             autoplay
-          ></dotlottie-player>
+          ></lottie-player>
         </div>
         <br />
         <h1>
@@ -40,8 +40,7 @@
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
       type="text/javascript"
-      src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"
-      defer
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
