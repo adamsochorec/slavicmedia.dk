@@ -25,9 +25,9 @@
         <div class="pathname-container reveal">
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
-            <span class="pathname"
-              ><a href="/#<?php echo $lang['asset_101'] ?>"></a>
-            </span>
+            <span class="pathname-current"
+              ><?php echo $lang['asset_105'] ?></span
+            >
           </p>
         </div>
         <hr class="reveal" role="separator" />

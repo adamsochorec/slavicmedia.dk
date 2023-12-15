@@ -17,7 +17,7 @@
         role="link"
       >
       <?php echo $lang['asset_278'] ?>      </a>
-      <span>&#x2022;</span>
+      <span>|</span>
       <a
         target="_blank"
         rel="noopener noreferrer nofollow"
@@ -25,18 +25,14 @@
         aria-label=""
         role="link"
       >
-        CVR: 44081512
+        CVR:&nbsp;44081512
       </a>
-      <span>&#x2022;</span>
-      <a href="/cookies">
+      <span>|</span>
+      <a href="/privacy-policy">
         <?php echo $lang['asset_231'] ?>
       </a>
       <br />
-      <p>
-        Copyright ©
-        <?= date('Y') ?>
-        Slavic Media I/S <?php echo $lang['asset_290'] ?>.
-      </p>
+    
     </div>
     <div class="language-container">
       <br /><span
@@ -48,7 +44,10 @@
             echo '<a href="?lang=da">English</a>';
           } ?>
     </div>
-  </div></article>
+  </div><br><p class="copyright">
+    Copyright ©
+    2023        Slavic Media I/S All Rights Reserved.
+  </p></article>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"

@@ -311,7 +311,7 @@ $lang = [
 relevant browsing experience on the website",
 "asset_229" => "Accept",
 "asset_230" => "Decline",
-"asset_231" => "Privacy Policy",
+"asset_231" => "Privacy&nbsp;Policy",
 "asset_232" => "cookies",
 "asset_233" => "Explore our Projects",
 "asset_234" => "All in",
@@ -365,14 +365,14 @@ analyze the use of our website. Google Analytics gathers
 information about website use through cookies to help us improve
 our website and services. You can learn more about how Google
 Analytics collects and processes data by visiting their",
-"asset_275" => "Privacy Policy",
+"asset_275" => "",
 "asset_276" => "Your Choices",
 "asset_277" => "You can control and/or delete cookies as you wish. You can delete
 all cookies that are already on your device and prevent them from
 being placed by adjusting your browser settings. However, please be
 aware that disabling cookies may affect the functionality of our
 website.",
-"asset_278" => "Contact",
+"asset_278" => "Contact&nbsp;Us",
 "asset_279" => " If you have any questions about our Cookie Policy, please contact us
 at",
 "asset_280" => "Group of people staring at Northern Lights",

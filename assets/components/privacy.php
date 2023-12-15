@@ -6,16 +6,13 @@
 >
   <div class="title-box">
     <i class="fa-solid fa-cookie-bite"></i>
-    <h3 id="cookieBannerTitle">
+    <span id="cookieBannerTitle">
       <?php echo $lang['asset_227'] ?>
-    </h3>
+    </span>
   </div>
   <div class="info" id="cookieBannerDescription">
     <p>
-      <?php echo $lang['asset_228'] ?>
-      ❤
-
-      <a href="/privacy-policy">
+      <?php echo $lang['asset_228'] ?>. <br /><a href="/privacy-policy">
         <?php echo $lang['asset_104'] ?>
         &#8250;</a
       >

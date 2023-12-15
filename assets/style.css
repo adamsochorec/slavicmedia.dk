@@ -148,7 +148,8 @@ header:not(#homepage header),
   height: 70px;
   width: 70px;
 }
-main, footer {
+main,
+footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -273,7 +274,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+#cookieBannerTitle {
   color: var(--text-color);
   font-family: var(--logo-font);
   position: relative;
@@ -296,7 +298,8 @@ h4,
   font-size: clamp(1em, 2.5vw, 1.5em);
 }
 h5,
-#privacy h3 {
+#privacy h3,
+#cookieBannerTitle {
   font-size: clamp(0.9em, 2vw, 1.25em);
 }
 h6,
@@ -973,7 +976,21 @@ ul.menu-left.collapse {
   width: calc(100% / 2 - 10px);
   max-width: unset !important;
 }
+
+/* PRIVACY PAGE START */
+#privacy p i {
+  font-size: var(--fontsize-note);
+  background-color: rgba(var(--primary-color), 0.4);
+}
+#privacy main li,
+#privacy main ol,
+#privacy main ul,
+#privacy p:not(#privacy .privacy-container p) {
+  font-size: 13px;
+}
+/* PRIVACY PAGE END */
 /* PRIVACY END */
+
 /* BUTTON START */
 .cta,
 button.submit-btn {
@@ -1280,7 +1297,9 @@ footer .footer-container {
 footer a:hover {
   text-decoration: underline !important;
 }
-
+footer .copyright {
+  opacity: 30%;
+}
 footer p,
 footer a,
 footer span {
@@ -2852,10 +2871,6 @@ img.mfp-img {
 /* VIDEO GALLERY END */
 /* VISUALS END */
 
-/* PRIVACY START */
-
-/* PRIVACY END */
-
 /* SERVICES START */
 #services .gallery .grid-item {
   height: var(--dimension-4);
@@ -3613,6 +3628,9 @@ p.note.date {
     margin-left: 40px;
     white-space: nowrap;
   }
+  footer .copyright {
+    font-size: 8px;
+  }
 }
 @media only screen and (min-width: 620px) {
   #services .features-grid {
@@ -3763,5 +3781,11 @@ p.note.date {
     height: 100%;
   }
 }
-
+@media only screen and (min-height: 700px) {
+  #noindex footer,
+  #press footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
 /* MEDIA QERRIES END */
