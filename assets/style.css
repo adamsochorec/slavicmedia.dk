@@ -148,8 +148,7 @@ header:not(#homepage header),
   height: 70px;
   width: 70px;
 }
-main,
-footer {
+main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1174,7 +1173,7 @@ button.submit-btn {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  outline: 2px solid rgba(var(--light-grey-color), 0.4);
+  outline: 2px solid rgba(var(--black-color), 0.4);
   border-radius: var(--border-radius-1);
   padding: var(--grid-gap-1) var(--grid-gap-2);
   width: 100%;
@@ -1239,7 +1238,7 @@ option .default-option {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  background: rgba(var(--light-grey-color), 0.4);
+  background: rgba(var(--black-color), 0.4);
   border: none;
 }
 .contact-form-section input,
@@ -1277,8 +1276,8 @@ footer {
   width: 100%;
 }
 footer img {
-  height: 40px;
-  width: auto;
+  width: 110px;
+  height: 100%;
   -webkit-animation: none;
   animation: none;
 }
@@ -2886,7 +2885,7 @@ img.mfp-img {
   box-shadow: var(--box-shadow-1);
 }
 #services tr:nth-child(odd) {
-  background-color: rgba(var(--light-grey-color), 0.4);
+  background-color: rgba(var(--black-color), 0.4);
 }
 #services th:not(.left-align),
 #services td:not(.left-align) {
@@ -2894,7 +2893,7 @@ img.mfp-img {
 }
 #services th,
 #services td {
-  border: 1px solid rgba(var(--light-grey-color), 0.4);
+  border: 1px solid rgba(var(--black-color), 0.4);
   padding: var(--grid-gap-1);
 }
 .left-align {
@@ -3034,8 +3033,6 @@ img.mfp-img {
 .intro-section .filter {
   border-radius: var(--border-radius-2);
   width: calc(100vw - 2 * var(--homepage-padding));
-  -webkit-box-shadow: var(--box-shadow-1);
-  box-shadow: var(--box-shadow-1);
 }
 .team-container .intro-section,
 .press-container .intro-section,
@@ -3782,7 +3779,12 @@ p.note.date {
   }
 }
 @media only screen and (min-height: 700px) {
-  #noindex footer,
+  #noindex footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media only screen and (min-height: 700px) and (min-width: 1400px) {
   #press footer {
     position: absolute;
     bottom: 0;

@@ -7,6 +7,8 @@
         <div class="grid-item">
           <img
             class="customer-img"
+            alt="Armando P., Musician"
+            title="Armando P., Musician"
             src="https://lh3.googleusercontent.com/a-/ALV-UjVp41MBuTxuz4HQIt172lk5B4Tsj2hUAFLIRZKBl0gZd_Ax=w120-h120-p-rp-mo-br100"
           />
         </div>
@@ -34,6 +36,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a/ACg8ocJpEE9rIHxCOIQH2O6oQH2G7MSYNf71eC5poj-WNPe8=w120-h120-p-rp-mo-br100"
+            alt="Daniel D., Musician"
+            title="Daniel D., Musician"
           />
         </div>
         <div class="grid-item">
@@ -61,6 +65,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjWr3R2B2S2VxsEfKZXltWT611uRPhp1ViWHxYRuxj9G9q4=w120-h120-p-rp-mo-br100"
+            alt="Nikos S., UX Researcher"
+            title="Nikos S., UX Researcher"
           />
         </div>
         <div class="grid-item">
@@ -88,6 +94,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a/ACg8ocIyhVFPYh9oWyCJMLX8xWNcVbY1ZkPg5bwWSfGWbURA=w120-h120-p-rp-mo-br100"
+            alt="Dominik T., Client"
+            title="Dominik T., Client"
           />
         </div>
         <div class="grid-item">
@@ -97,7 +105,7 @@
               rel="noopener noreferrer nofollow"
               href="https://www.google.com/maps/contrib/102583932635799024170?hl=en-US"
               >Dominik T.</a
-            ><br />Customer<br />
+            ><br />Client<br />
           </p>
           <div class="stars" data-rating="5"></div>
         </div>
@@ -114,6 +122,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjX0xNwelhtHQ_46afqwRvy8K1_gBCCVFzmw9C-GNY9nTQ=w120-h120-p-rp-mo-br100"
+            alt="Bygning 5, Collaborator"
+            title="Bygning 5, Collaborator"
           />
         </div>
         <div class="grid-item">
@@ -136,6 +146,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjUdOj4ktRKka0VAUcovtfK8anD-Utkduwcj5YrTJ7bnjGs=w120-h120-p-rp-mo-br100"
+            alt="Annesofie B., Project Assistant"
+            title="Annesofie B., Project Assistant"
           />
         </div>
         <div class="grid-item">
@@ -162,6 +174,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a/ACg8ocLtiYezKjjGk3MmzuuwgUbI9BNNjkq5y8xXZVNlGvKb=w120-h120-p-rp-mo-br100"
+            alt="Erika H., Client"
+            title="Erika H., Client"
           />
         </div>
         <div class="grid-item">
@@ -186,6 +200,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a/ACg8ocK_dqNUXsyTgNgQCIZRtpaaYHgydI3xXSg6CaJCS7Er=w120-h120-p-rp-mo-br100"
+            alt="Yaan D., Client"
+            title="Yaan D., Client"
           />
         </div>
         <div class="grid-item">
@@ -212,6 +228,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjXZ14eIvhbSg9Qmpyeu_NaaYcqbgv-I6A1vJ46rin9gn8I=w120-h120-p-rp-mo-br100"
+            alt="Isbjörg, Band"
+            title="Isbjörg, Band"
           />
         </div>
         <div class="grid-item">
@@ -235,6 +253,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjWHqZSf5lbWhEHNQtRhjD7R1VPDDXILC0-_fTAdps0N0w=w120-h120-p-rp-mo-br100"
+            alt="Nicole J., Client"
+            title="Nicole J., Client"
           />
         </div>
         <div class="grid-item">
@@ -262,6 +282,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a-/ALV-UjVWC7FZLpPknVEpxrdB7NFfgLVs18Vs92Sfdpgo9ENmWYk=w120-h120-p-rp-mo-br100"
+            alt="Janka H., Client"
+            title="Janka H., Client"
           />
         </div>
         <div class="grid-item">
@@ -284,6 +306,8 @@
           <img
             class="customer-img"
             src="https://lh3.googleusercontent.com/a/ACg8ocIdOb0qOc-EqWHiGjpLo35QFWPn_huGJIVlGmlY6Kwx=w120-h120-p-rp-mo-br100"
+            alt="Raasmus S., Client"
+            title="Raasmus S., Client"
           />
         </div>
         <div class="grid-item">

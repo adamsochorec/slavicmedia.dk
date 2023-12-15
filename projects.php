@@ -535,7 +535,7 @@
             />
           </div>
           <div class="v-stretch reveal">
-            <p class="note date">2022</p>
+            <p class="note date">2021</p>
             <img
               src="/img/2021-09-05-01666.jpg"
               title="<?php echo $lang['asset_148'] ?>."
@@ -604,7 +604,7 @@
             />
           </div>
           <div class="h-stretch reveal">
-            <p class="note date">2021</p>
+            <p class="note date">2023</p>
             <p class="note">
               <a
                 href="https://www.sort-hvid.dk/"

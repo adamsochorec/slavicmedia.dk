@@ -1,8 +1,8 @@
 <!-- FOOTER START -->
 <hr class="semi" role="separator" />
 <footer>
- <article class="wrapper-wide"> <div class="footer-container">
-  <a href="/" > <img src="/img/logo2.png" /></a>
+  <div class="footer-container">
+  <a href="/" > <img src="/img/logo2.png" alt="Logo Slavic Media" title="Logo Slavic Media" /></a>
     <?php
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
       include $IPATH . 'social-icons.php';
@@ -47,7 +47,7 @@
   </div><br><p class="copyright">
     Copyright ©
     2023        Slavic Media I/S All Rights Reserved.
-  </p></article>
+  </p>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
     crossorigin="anonymous"

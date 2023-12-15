@@ -35,9 +35,7 @@
         <span class="date reveal"
           ><p class="reveal">
             |
-            <i
-              ><u><?php echo $lang['asset_289'] ?></u>: December 2023</i
-            >
+            <i><?php echo $lang['asset_289'] ?>: December 2023</i>
           </p></span
         >
         <hr class="reveal" role="separator" />
@@ -50,24 +48,23 @@
             end users, through our compliance with this policy.<br /><br />This
             policy describes the types of information we may collect from you or
             that you may provide when you visit the website
-            <a href="https://slavicmedia.dk">slavicmedia.dk</a> (our 'Website')
-            or otherwise access our product pages, mobile or web applications,
-            or other digital products that link to or reference this Privacy
-            Policy (collectively with the Website, the 'Services') and our
-            practices for collecting, using, maintaining, protecting, and
-            disclosing that information.<br /><br />We reserve the right to
-            change this Privacy Policy at any time. We will notify you of any
-            changes to this Privacy Policy by posting a new Privacy Policy to
-            this page, and/or by sending notice to the primary email address
-            specified in your account. You are responsible for ensuring we have
-            an up-to-date active and deliverable email address for you, and for
-            periodically visiting our Website and this privacy policy to check
-            for any changes. Changes to this Privacy Policy are effective when
-            they are posted on this page. You acknowledge that your continued
-            use of our Services after we publish or send a notice about our
-            changes to this Privacy Policy means that the collection, use and
-            sharing of your information is subject to the updated Privacy
-            Policy.
+            <a href="/">slavicmedia.dk</a> (our 'Website') or otherwise access
+            our product pages, mobile or web applications, or other digital
+            products that link to or reference this Privacy Policy (collectively
+            with the Website, the 'Services') and our practices for collecting,
+            using, maintaining, protecting, and disclosing that information.<br /><br />We
+            reserve the right to change this Privacy Policy at any time. We will
+            notify you of any changes to this Privacy Policy by posting a new
+            Privacy Policy to this page, and/or by sending notice to the primary
+            email address specified in your account. You are responsible for
+            ensuring we have an up-to-date active and deliverable email address
+            for you, and for periodically visiting our Website and this privacy
+            policy to check for any changes. Changes to this Privacy Policy are
+            effective when they are posted on this page. You acknowledge that
+            your continued use of our Services after we publish or send a notice
+            about our changes to this Privacy Policy means that the collection,
+            use and sharing of your information is subject to the updated
+            Privacy Policy.
           </p>
           <hr />
           <ol>

@@ -35,7 +35,7 @@
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
             <span class="pathname" aria-label="<?php echo $lang['asset_17'] ?>"
-              ><?php echo $lang['asset_17'] ?></span
+              ><?php echo $lang['asset_75'] ?></span
             >
           </p>
         </div>

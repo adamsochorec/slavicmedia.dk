@@ -74,7 +74,7 @@
         <article
           id="visual"
           class="video-gallery features-grid"
-          aria-label="Services Features Overview"
+          aria-label="<?php echo $lang['asset_105'] ?>"
         >
           <a href="/projects" class="gallery-item reveal">
             <img
@@ -161,7 +161,7 @@
       <article
         class="team-container reveal"
         role="region"
-        aria-label="Our Team"
+        aria-label="<?php echo $lang['asset_18'] ?>"
       >
         <div class="intro-section flex-center">
           <video
@@ -173,9 +173,9 @@
             preload="auto"
             playsinline
             class="video-offload filter"
-            aria-label="Our Team Video"
+            aria-label="<?php echo $lang['asset_18'] ?> Video"
             role="video"
-            aria-describedby="Our Team cover video"
+            aria-describedby="<?php echo $lang['asset_18'] ?> cover video"
             poster="/img/showreel-ourteam.png"
           ></video>
           <article class="wrapper-standard">
@@ -577,15 +577,11 @@
               class="grid-item reveal"
               target="_blank"
               href="https://clients.slavicmedia.dk"
-              ><div class="cta">
-                <?php echo $lang['asset_191'] ?>
-              </div>
+              ><div class="cta"><?php echo $lang['asset_191'] ?></div>
             </a>
 
             <a class="grid-item reveal" href="/press">
-              <div class="cta cta2">
-                <?php echo $lang['asset_75'] ?>
-              </div>
+              <div class="cta"><?php echo $lang['asset_75'] ?></div>
             </a>
           </div>
           <!-- CTA END -->
