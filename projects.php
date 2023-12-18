@@ -91,14 +91,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
               <?php echo $lang['asset_46'] ?>
 
               <br />
               <span>2023</span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
               <a>sleddog.se</a>
             </p>
             <a
@@ -114,13 +115,14 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
               Huset Fundament
               <br />
               <span>2023</span>
             </h3>
             <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
               <a href>husetfundament.dk</a>
             </p>
 
@@ -139,13 +141,14 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
               Repaire Festival
               <br />
               <span>2023 </span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
               <a href>nicolaikultur.dk</a>
             </p>
             <a
@@ -162,7 +165,8 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
               <?php echo $lang['asset_218'] ?>
               <br />
               <span>2023</span>
@@ -180,14 +184,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
 
               Bygning 5
               <br />
               <span>2022</span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
               <a>bygning5.dk</a>
             </p>
             <a
@@ -203,7 +208,8 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
 
               Samsø <br />
               <span>2023</span>

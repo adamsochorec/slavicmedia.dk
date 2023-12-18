@@ -18,19 +18,19 @@
       >
       <?php echo $lang['asset_278'] ?>      </a>
       <span>|</span>
-      <a
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
-        aria-label=""
-        role="link"
-      >
-        CVR:&nbsp;44081512
-      </a>
-      <span>|</span>
       <a href="/privacy-policy">
         <?php echo $lang['asset_231'] ?>
       </a>
+      <span>|</span>  <a
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
+      aria-label=""
+      role="link"
+    >
+      CVR:&nbsp;44081512
+    </a>
+   
       <br />
     
     </div>

@@ -38,6 +38,12 @@
           aria-label="Features Grid"
         >
           <div class="gallery-item reveal">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-mountain-city"></i></i><br />
+                <?php echo $lang['asset_198'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/cover-samso.jpg"
               title="<?php echo $lang['asset_152'] ?>."
@@ -53,6 +59,12 @@
             </div>
           </div>
           <div class="gallery-item reveal">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-object-group"></i><br />
+                <?php echo $lang['asset_200'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/hvalp.jpg"
               alt="<?php echo $lang['asset_50'] ?>."
@@ -68,6 +80,12 @@
             </div>
           </div>
           <div class="gallery-item reveal">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-bolt"></i><br />
+                <?php echo $lang['asset_202'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/animation.jpg"
               title="<?php echo $lang['asset_39'] ?>."
@@ -83,6 +101,12 @@
             </div>
           </div>
           <div class="gallery-item reveal" aria-label="">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-handshake-simple"></i><br />
+                <?php echo $lang['asset_235'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/preproduction.jpg"
               title="<?php echo $lang[''] ?>."
@@ -98,6 +122,12 @@
             </div>
           </div>
           <div class="gallery-item reveal">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-microphone-lines"></i><br />
+                <?php echo $lang['asset_194'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/studio.jpg"
               title="<?php echo $lang['asset_38'] ?>."
@@ -113,6 +143,12 @@
             </div>
           </div>
           <div class="gallery-item reveal">
+            <div class="gallery-item-caption-max">
+              <h3>
+                <i class="fa-solid fa-masks-theater"></i><br />
+                <?php echo $lang['asset_196'] ?>
+              </h3>
+            </div>
             <img
               src="/img/thumbnail/2021-04-25-00693.jpg"
               class="north-cascades-img"

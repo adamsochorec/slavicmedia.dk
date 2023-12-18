@@ -48,23 +48,21 @@
             end users, through our compliance with this policy.<br /><br />This
             policy describes the types of information we may collect from you or
             that you may provide when you visit the website
-            <a href="/">slavicmedia.dk</a> (our 'Website') or otherwise access
-            our product pages, mobile or web applications, or other digital
-            products that link to or reference this Privacy Policy (collectively
-            with the Website, the 'Services') and our practices for collecting,
-            using, maintaining, protecting, and disclosing that information.<br /><br />We
-            reserve the right to change this Privacy Policy at any time. We will
-            notify you of any changes to this Privacy Policy by posting a new
-            Privacy Policy to this page, and/or by sending notice to the primary
-            email address specified in your account. You are responsible for
-            ensuring we have an up-to-date active and deliverable email address
-            for you, and for periodically visiting our Website and this privacy
-            policy to check for any changes. Changes to this Privacy Policy are
-            effective when they are posted on this page. You acknowledge that
-            your continued use of our Services after we publish or send a notice
-            about our changes to this Privacy Policy means that the collection,
-            use and sharing of your information is subject to the updated
-            Privacy Policy.
+            <a class="highlited" href="/">slavicmedia.dk</a> (our 'Website') or
+            otherwise access our product pages, mobile or web applications, or
+            other digital products that link to or reference this Privacy Policy
+            (collectively with the Website, the 'Services') and our practices
+            for collecting, using, maintaining, protecting, and disclosing that
+            information.<br /><br />We reserve the right to change this Privacy
+            Policy at any time. We will notify you of any changes to this
+            Privacy Policy by posting a new Privacy Policy to this page. You are
+            responsible for ensuring we have an up-to-date for periodically
+            visiting our Website and this privacy policy to check for any
+            changes. Changes to this Privacy Policy are effective when they are
+            posted on this page. You acknowledge that your continued use of our
+            Services after we publish our changes to this Privacy Policy means
+            that the collection, use and sharing of your information is subject
+            to the updated Privacy Policy.
           </p>
           <hr />
           <ol>
@@ -99,7 +97,7 @@
             <ul>
               <li class="reveal">
                 Us offline or through any other means, including on any other
-                website operated by Company or any third party; or
+                website operated by Company or any third party
               </li>
               <li class="reveal">
                 Any third party, including through any application or content
@@ -492,6 +490,7 @@
                 the relevant boxes or by sending us an email stating your
                 request to
                 <a
+                  class="highlited"
                   href="mailto:privacy@slavicmedia.dk"
                   aria-label="Email: privacy@slavicmedia.dk"
                   role="link"
@@ -529,6 +528,7 @@
               <li class="reveal">
                 You may also send us an email at
                 <a
+                  class="highlited"
                   href="mailto:privacy@slavicmedia.dk"
                   aria-label="Email: privacy@slavicmedia.dk"
                   role="link"
@@ -711,6 +711,7 @@
               to exercise your rights regarding Personal Data about you in
               accordance with applicable law. To do so, you may contact us at
               <a
+                class="highlited"
                 href="mailto:privacy@slavicmedia.dk"
                 aria-label="Email: privacy@slavicmedia.dk"
                 role="link"
@@ -725,6 +726,7 @@
               Personal Information about you. We encourage you to first reach
               out to us at
               <a
+                class="highlited"
                 href="mailto:privacy@slavicmedia.dk"
                 aria-label="Email: privacy@slavicmedia.dk"
                 role="link"
@@ -742,6 +744,7 @@
               To ask questions or comment about this privacy policy and our
               privacy practices, contact us at:
               <a
+                class="highlited"
                 href="mailto:privacy@slavicmedia.dk"
                 aria-label="Email: privacy@slavicmedia.dk"
                 role="link"

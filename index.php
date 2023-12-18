@@ -83,7 +83,11 @@
               alt="<?php echo $lang['asset_288'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_13'] ?></h3>
+              <h3>
+                <i class="fa-solid fa-video"></i
+                ><br class="video-gallery-break" />
+                <?php echo $lang['asset_13'] ?>
+              </h3>
               <p>
                 <?php echo $lang['asset_185'] ?>
               </p>
@@ -100,7 +104,11 @@
               title="<?php echo $lang['asset_287'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3><?php echo $lang['asset_11'] ?></h3>
+              <h3>
+                <i class="fa-solid fa-camera"></i
+                ><br class="video-gallery-break" />
+                <?php echo $lang['asset_11'] ?>
+              </h3>
               <p>
                 <?php echo $lang['asset_173'] ?>
               </p>
@@ -303,7 +311,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/thumbnail/2022-04-24-07404.jpg"
+                  src="/img/IMG_9562.jpg"
                   alt="<?php echo $lang['asset_23'] ?>Marcel"
                   title="<?php echo $lang['asset_23'] ?>Marcel"
                   class="reveal"
@@ -451,7 +459,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/thumbnail/2022-04-24-07426.jpg"
+                  src="/img/IMG_9523.jpg"
                   alt="<?php echo $lang['asset_23'] ?> Adam"
                   title="<?php echo $lang['asset_23'] ?> Adam"
                   class="reveal"
