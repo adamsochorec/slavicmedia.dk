@@ -3630,7 +3630,7 @@ p.note.date {
     display: none;
   }
   #services .features-grid .gallery-item {
-    background-color: unset;
+    background-color: rgba(var(--black-color), 0.3);
     height: 110px;
     border-left: 2px solid rgba(var(--primary-color), 0.5);
   }

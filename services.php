@@ -40,8 +40,8 @@
           <div class="gallery-item reveal">
             <div class="gallery-item-caption-max">
               <h3>
-                <i class="fa-solid fa-mountain-city"></i></i><br />
-                <?php echo $lang['asset_198'] ?>
+                <i class="fa-solid fa-mountain-city"></i><br />
+                <?php echo $lang['asset_266'] ?>
               </h3>
             </div>
             <img
@@ -51,7 +51,7 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <?php echo $lang['asset_198'] ?>
+                <?php echo $lang['asset_266'] ?>
               </h3>
               <p>
                 <?php echo $lang['asset_199'] ?>
@@ -83,7 +83,7 @@
             <div class="gallery-item-caption-max">
               <h3>
                 <i class="fa-solid fa-bolt"></i><br />
-                <?php echo $lang['asset_202'] ?>
+                <?php echo $lang['asset_252'] ?>
               </h3>
             </div>
             <img
@@ -93,7 +93,7 @@
             />
             <div class="gallery-item-caption">
               <h3>
-                <?php echo $lang['asset_202'] ?>
+                <?php echo $lang['asset_252'] ?>
               </h3>
               <p>
                 <?php echo $lang['asset_203'] ?>
@@ -124,18 +124,18 @@
           <div class="gallery-item reveal">
             <div class="gallery-item-caption-max">
               <h3>
-                <i class="fa-solid fa-microphone-lines"></i><br />
-                <?php echo $lang['asset_194'] ?>
+                <i class="fa-brands fa-dropbox"></i><br />
+                <?php echo $lang['asset_260'] ?>
               </h3>
             </div>
             <img
-              src="/img/thumbnail/studio.jpg"
+              src="/img/thumbnail/storage.jpg"
               title="<?php echo $lang['asset_38'] ?>."
               alt="<?php echo $lang['asset_38'] ?>."
             />
             <div class="gallery-item-caption">
               <h3>
-                <?php echo $lang['asset_194'] ?>
+                <?php echo $lang['asset_260'] ?>
               </h3>
               <p>
                 <?php echo $lang['asset_195'] ?>
@@ -337,7 +337,7 @@
                     <p><i class="fa-solid fa-xmark"></i></p>
                   </td>
                   <td>
-                    <p><i class="fa-solid fa-xmark"></i></p>
+                    <p><i class="fa-solid fa-check"></i></p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -495,7 +495,9 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_262'] ?></p>
+                    <p>
+                      <?php echo $lang['asset_200'] ?>&nbsp;<?php echo $lang['asset_262'] ?>
+                    </p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
