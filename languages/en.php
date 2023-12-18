@@ -348,7 +348,7 @@ relevant browsing experience on the website",
 (prints, SoMe)",
 "asset_265" => "Large events, Extensive
 studio sessions.",
-"asset_266" => "Drone shots",
+"asset_266" => "Drone Shots",
 "asset_267" => "Horizontal 2-3min videos",
 "asset_268" => "Vertical &#8249; 30s videos",
 "asset_269" => "",
