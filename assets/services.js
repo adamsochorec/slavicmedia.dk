@@ -1,38 +1,3 @@
-const swiper = new Swiper(".swiper", {
-  loop: true,
-  speed: 600,
-  autoplay: {
-    delay: 15000,
-  },
-  direction: "horizontal",
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-  on: {
-    slideChange: function () {
-      // Pause videos in the previous slide
-      const previousSlide = this.slides[this.previousIndex];
-      pauseVideosInSlide(previousSlide);
-    },
-  },
-});
-// Function to pause all videos in a given slide
-function pauseVideosInSlide(slide) {
-  const videos = slide.querySelectorAll("video");
-  videos.forEach((video) => {
-    if (!video.paused) {
-      video.pause();
-    }
-  });
-}
 // CONTACT FORM START
 document.addEventListener("DOMContentLoaded", function () {
   const contactForm = document.getElementById("contactForm");

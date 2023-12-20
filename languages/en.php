@@ -349,7 +349,7 @@ relevant browsing experience on the website",
 "asset_265" => "Large events, Extensive
 studio sessions.",
 "asset_266" => "Drone Shots",
-"asset_267" => "Horizontal 2-3min videos",
+"asset_267" => "Horizontal Video",
 "asset_268" => "Vertical &#8249; 30s videos",
 "asset_269" => "",
 "asset_270" => "Cookies are small pieces of data stored on your device (computer or

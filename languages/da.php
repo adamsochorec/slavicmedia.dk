@@ -347,7 +347,7 @@ relevant browsererfaring på hjemmesiden",
 "asset_265" => "Store begivenheder, omfattende
 studiesessioner",
 "asset_266" => "Drone-Optagelser",
-"asset_267" => "Horisontale 2-3min videoer",
+"asset_267" => "Horisontale Video",
 "asset_268" => "Lodrette &#8249; 30s videoer",
 "asset_269" => "Velkommen til Slavic Media I/S ('os', 'vi' eller 'vores') på
 <a href='https://slavicmedia.dk'>slavicmedia.dk</a>. Denne cookie
