@@ -253,7 +253,7 @@
             aria-controls="<?php echo $lang['asset_13'] ?>"
             checked
           />
-          <label for="tab2"
+          <label class="first" for="tab2"
             ><span><?php echo $lang['asset_13'] ?></span></label
           >
           <!-- Tab 2 -->
@@ -281,10 +281,10 @@
             type="radio"
             name="tabset"
             id="tab4"
-            aria-controls="<?php echo $lang[''] ?>sdsf"
+            aria-controls="<?php echo $lang['asset_308'] ?>"
           />
-          <label for="tab4"
-            ><span><?php echo $lang[''] ?>Post Production</span></label
+          <label class="last" for="tab4"
+            ><span><?php echo $lang['asset_308'] ?></span></label
           >
           <hr class="semi" role="separator" />
           <div class="tab-panels">
@@ -1061,6 +1061,23 @@
       defer
       role="script"
     ></script>
+    <script>
+      function updatePlanOptions() {
+        const categorySelect = document.getElementById("category");
+        const planSelect = document.getElementById("plan");
+        const disableOnSelectOption =
+          document.getElementById("disableOnSelect");
+
+        if (categorySelect.value === "<?php echo $lang['asset_308'] ?>") {
+          // If the second option from the bottom is selected in the first select,
+          // disable the corresponding option in the second select
+          disableOnSelectOption.disabled = true;
+        } else {
+          // If any other option is selected in the first select, enable the corresponding option
+          disableOnSelectOption.disabled = false;
+        }
+      }
+    </script>
 
     <!-- FOOTER END -->
   </body>

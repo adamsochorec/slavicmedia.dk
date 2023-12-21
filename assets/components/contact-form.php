@@ -50,62 +50,69 @@
           <br />
         </div>
         <div class="grid-item reveal">
-          <p>
-            <label for="category"><?php echo $lang['asset_181'] ?> </label>
-          </p>
-          <select
-            required
-            id="category"
-            name="category"
-            aria-required="true"
-            aria-labelledby="category"
-          >
-            <option value="" selected disabled hidden>
-              <span class="default-option">
-                <?php echo $lang['asset_183'] ?></span
-              >
-            </option>
-            <option value="<?php echo $lang['asset_11'] ?>">
-              <?php echo $lang['asset_11'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_13'] ?>">
-              <?php echo $lang['asset_13'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_234'] ?>">
-              <?php echo $lang['asset_234'] ?>
-            </option>
-          </select>
-          <br />
-          <p>
-            <label for="plan"><?php echo $lang['asset_182'] ?></label>
-          </p>
-          <select
-            required
-            id="plan"
-            name="plan"
-            aria-required="true"
-            aria-labelledby="plan"
-          >
-            <option value="" selected disabled hidden>
-              <span class="default-option"
-                ><?php echo $lang['asset_183'] ?></span
-              >
-            </option>
-            <option value="<?php echo $lang['asset_133'] ?>">
-              <?php echo $lang['asset_133'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_134'] ?>">
-              <?php echo $lang['asset_134'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_135'] ?>">
-              <?php echo $lang['asset_135'] ?>
-            </option>
-            <option value="<?php echo $lang['asset_190'] ?>">
-              <?php echo $lang['asset_190'] ?>
-            </option>
-          </select>
-          <br />
-        </div>
+  <p>
+    <label for="category"><?php echo $lang['asset_181'] ?> *</label>
+  </p>
+  <select
+    required
+    id="category"
+    name="category"
+    aria-required="true"
+    aria-labelledby="category"
+    onchange="updatePlanOptions()"
+  >
+    <option value="" selected disabled hidden>
+      <span class="default-option">
+        <?php echo $lang['asset_183'] ?></span
+      >
+    </option>
+    <option value="<?php echo $lang['asset_11'] ?>">
+      <?php echo $lang['asset_11'] ?>
+    </option>
+    <option value="<?php echo $lang['asset_13'] ?>">
+      <?php echo $lang['asset_13'] ?>
+    </option>
+    <option value="<?php echo $lang['asset_234'] ?>">
+      <?php echo $lang['asset_234'] ?>
+    </option>
+    <option id="disableIfSelected" value="<?php echo $lang['asset_308'] ?>">
+      <?php echo $lang['asset_308'] ?>
+    </option>
+  </select>
+  <br />
+  <p>
+    <label for="plan"><?php echo $lang['asset_182'] ?> *</label>
+  </p>
+  <select
+    required
+    id="disableOnSelect"
+    name="plan"
+    aria-required="true"
+    aria-labelledby="plan"
+  >
+    <option value="" selected disabled hidden>
+      <span class="default-option"
+        ><?php echo $lang['asset_183'] ?></span
+      >
+    </option>
+    <option value="<?php echo $lang['asset_133'] ?>">
+      <?php echo $lang['asset_133'] ?>
+    </option>
+    <option value="<?php echo $lang['asset_134'] ?>">
+      <?php echo $lang['asset_134'] ?>
+    </option>
+    <option value="<?php echo $lang['asset_135'] ?>">
+      <?php echo $lang['asset_135'] ?>
+    </option>
+    <option value="<?php echo $lang['asset_190'] ?>" >
+      <?php echo $lang['asset_190'] ?>
+    </option>
+  </select>
+  <br />
+</div>
+
+
+
       </div>
       <div class="reveal">
         <p>
