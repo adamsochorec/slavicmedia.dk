@@ -421,7 +421,69 @@ p a:hover {
   content: "services";
 }
 /* PATHNAME NAVIGATION END */
+/* SWITCHER START */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: calc(var(--grid-gap-3) * 2);
+  height: var(--grid-gap-3);
+  box-shadow: var(--box-shadow-1);
+}
+.switcher label p {
+  font-size: var(--fontsize-note);
+  position: relative;
+  margin-right: var(--grid-gap-1);
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switcher {
+  align-items: center;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(var(--secondary-color));
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: var(--border-radius-5);
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: var(--grid-gap-2);
+  width: auto;
+  aspect-ratio: 1/1;
+  left: calc(var(--grid-gap-2) / 2);
+  bottom: calc(var(--grid-gap-2) / 2);
+  background-color: white;
+  box-shadow: var(--box-shadow-1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: var(--border-radius-5);
+}
 
+input:checked + .slider {
+  background-color: rgb(var(--primary-color));
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(var(--grid-gap-3));
+  -ms-transform: translateX(var(--grid-gap-3));
+  transform: translateX(var(--grid-gap-3));
+}
+.planspricing,
+.switcher {
+  display: flex;
+  justify-content: space-between;
+}
+/* SWITCHER END */
 /* INTRO SECTION START */
 .intro-section {
   -webkit-box-align: center;
@@ -754,8 +816,8 @@ header a:hover {
   transition: color 0.35s ease;
 }
 .language-switch svg {
-  height: 15px;
-  width: 15px;
+  height: var(--grid-gap-2);
+  width: var(--grid-gap-2);
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: var(--border-radius-5);
@@ -946,9 +1008,9 @@ ul.menu-left.collapse {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-column-gap: 15px;
-  -moz-column-gap: 15px;
-  column-gap: 15px;
+  -webkit-column-gap: var(--grid-gap-2);
+  -moz-column-gap: var(--grid-gap-2);
+  column-gap: var(--grid-gap-2);
   color: rgb(var(--secondary-color));
   margin-bottom: var(--grid-gap-1);
 }
@@ -1005,7 +1067,7 @@ button.submit-btn {
   background-color: rgba(var(--secondary-color), 1);
   padding: var(--grid-gap-1) var(--grid-gap-2);
   color: rgba(var(--white-color), 1);
-  border-radius: var(--border-radius-1);
+  border-radius: var(--border-radius-5);
   margin-top: var(--grid-gap-1) !important;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -1016,6 +1078,7 @@ button.submit-btn {
   white-space: nowrap;
   border: 2px solid rgba(var(--secondary-color), 1);
   cursor: pointer;
+  z-index: 9;
 }
 button.submit-btn {
   min-width: 150px;
@@ -2862,7 +2925,7 @@ img.mfp-img {
 .video-gallery .gallery-item #videoplay {
   fill: #ffffff;
   vertical-align: baseline;
-  height: 15px;
+  height: var(--grid-gap-2);
 }
 #visuals .video-gallery {
   display: block;
@@ -2946,7 +3009,7 @@ img.mfp-img {
   cursor: pointer;
   font-family: var(--logo-font);
   margin-right: var(--grid-gap-1);
-  border-radius: var(--border-radius-1);
+  border-radius: var(--border-radius-5);
   white-space: nowrap;
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
@@ -2958,7 +3021,7 @@ img.mfp-img {
 }
 .tabset > label:hover,
 .tabset > input:focus + label {
-  border-radius: var(--border-radius-1);
+  border-radius: var(--border-radius-5);
   background-color: rgb(var(--secondary-color));
 }
 .tabset > label:hover,
@@ -2973,7 +3036,7 @@ img.mfp-img {
 }
 .tabset > input:checked + label {
   margin-bottom: -1px;
-  border-radius: var(--border-radius-1);
+  border-radius: var(--border-radius-5);
   background-color: rgb(var(--secondary-color));
 }
 .tabset > input:checked + label h4 {
@@ -3805,7 +3868,7 @@ p.note.date {
     bottom: 0;
   }
 }
-@media only screen and (min-height: 700px) and (min-width: 1400px) {
+@media only screen and (min-height: 700px) and (min-width: 1500px) {
   #press footer {
     position: absolute;
     bottom: 0;

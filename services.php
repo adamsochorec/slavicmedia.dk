@@ -215,8 +215,33 @@
         </section>
         <!-- FEATURES END -->
         <hr class="reveal" role="separator" />
+
         <!-- PACKAGES START -->
-        <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
+        <div class="planspricing reveal">
+          <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
+          <section class="switcher">
+            <label
+              class="toggleSwitch"
+              for="toggleSwitch"
+              role="checkbox"
+              aria-checked="false"
+              tabindex="0"
+              onclick="togglePrices()"
+            >
+              <p><?php echo $lang['asset_307'] ?></p>
+            </label>
+
+            <label
+              class="switch"
+              role="switch"
+              aria-checked="false"
+              tabindex="0"
+            >
+              <input type="checkbox" onclick="togglePrices()" />
+              <span class="slider"></span>
+            </label>
+          </section>
+        </div>
         <p class="reveal"><?php echo $lang['asset_131'] ?></p>
         <hr class="semi" role="separator" />
         <div class="tabset reveal">
@@ -252,7 +277,7 @@
             ><span><?php echo $lang['asset_234'] ?></span></label
           >
           <!-- Tab 4 -->
-          <!-- <input
+          <input
             type="radio"
             name="tabset"
             id="tab4"
@@ -260,7 +285,7 @@
           />
           <label for="tab4"
             ><span><?php echo $lang[''] ?>Post Production</span></label
-          > -->
+          >
           <hr class="semi" role="separator" />
           <div class="tab-panels">
             <!-- VIDEO PACKAGES START -->
@@ -277,13 +302,28 @@
                     <p><?php echo $lang['asset_237'] ?></p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_242'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_242'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_243'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_243'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_244'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_244'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                 </tr>
                 <tr>
@@ -467,13 +507,28 @@
                     <p><?php echo $lang['asset_237'] ?></p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_239'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_239'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_240'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_240'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_241'] ?></p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_241'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                 </tr>
                 <tr>
@@ -839,53 +894,144 @@
               </table>
             </div>
             <!-- ALL IN PACKAGES END -->
-            <!-- POSTPRODUCTION PACKAGES START 
+            <!-- POSTPRODUCTION PACKAGES START -->
             <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_13'] ?>">
                 <tr>
                   <th class="left-align">
-                    <?php echo $lang[''] ?>Type of Service
+                    <?php echo $lang['asset_299'] ?>
                   </th>
-                  <th><?php echo $lang[''] ?>Hourly rate</th>
+                  <th>
+                    <?php echo $lang['asset_237'] ?>
+                    /
+                    <?php echo $lang['asset_249'] ?>
+                  </th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Video Cut</p>
+                    <p>
+                      <?php echo $lang['asset_304'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>300DKK</p>
+                    <p><?php echo $lang['asset_303'] ?></p>
                   </td>
                 </tr>
+
                 <tr>
                   <td class="left-align">
-                    <p>Custom Motion Graphics</p>
+                    <p>
+                      <?php echo $lang['asset_235'] ?>
+                      /
+                      <?php echo $lang['asset_246'] ?>
+                    </p>
                   </td>
                   <td>
-                    <p>400DKK</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p>Photo Postprocessing</p>
-                  </td>
-                  <td>
-                    <p>400DKK</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="left-align">
-                    <p>Speech enhnacement</p>
-                  </td>
-                  <td>
-                    <p>400DKK</p>
+                    <p><?php echo $lang['asset_303'] ?></p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Video VFX</p>
+                    <p><?php echo $lang['asset_291'] ?></p>
                   </td>
                   <td>
-                    <p>500DKK</p>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_300'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_292'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_301'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_293'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_301'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_294'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_302'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_295'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_301'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_296'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_302'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_297'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_301'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="left-align">
+                    <p><?php echo $lang['asset_298'] ?></p>
+                  </td>
+                  <td>
+                    <p>
+                      <span class="price"
+                        ><?php echo $lang['asset_301'] ?></span
+                      >
+                      <?php echo $lang['asset_306'] ?>
+                    </p>
                   </td>
                 </tr>
               </table>
@@ -915,6 +1061,7 @@
       defer
       role="script"
     ></script>
+
     <!-- FOOTER END -->
   </body>
 </html>
