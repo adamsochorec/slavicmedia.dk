@@ -217,31 +217,8 @@
         <hr class="reveal" role="separator" />
 
         <!-- PACKAGES START -->
-        <div class="planspricing reveal">
           <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
-          <section class="switcher">
-            <label
-              class="toggleSwitch"
-              for="toggleSwitch"
-              role="checkbox"
-              aria-checked="false"
-              tabindex="0"
-              onclick="togglePrices()"
-            >
-              <p><?php echo $lang['asset_307'] ?></p>
-            </label>
-
-            <label
-              class="switch"
-              role="switch"
-              aria-checked="false"
-              tabindex="0"
-            >
-              <input type="checkbox" onclick="togglePrices()" />
-              <span class="slider"></span>
-            </label>
-          </section>
-        </div>
+        
         <p class="reveal"><?php echo $lang['asset_131'] ?></p>
         <hr class="semi" role="separator" />
         <div class="tabset reveal">
@@ -286,7 +263,28 @@
           <label class="last" for="tab4"
             ><span><?php echo $lang['asset_308'] ?></span></label
           >
-          <hr class="semi" role="separator" />
+          <section class="switcher">
+            <label
+              class="toggleSwitch"
+              for="toggleSwitch"
+              role="checkbox"
+              aria-checked="false"
+              tabindex="0"
+              onclick="togglePrices()"
+            >
+              <p>VAT</p>
+            </label>
+
+            <label
+              class="switch"
+              role="switch"
+              aria-checked="false"
+              tabindex="0"
+            >
+              <input type="checkbox" onclick="togglePrices()" />
+              <span class="slider"></span>
+            </label>
+          </section>
           <div class="tab-panels">
             <!-- VIDEO PACKAGES START -->
             <div class="tab-panel reveal">
