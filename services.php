@@ -217,11 +217,13 @@
         <hr class="reveal" role="separator" />
 
         <!-- PACKAGES START -->
-          <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
-        
-        <p class="reveal"><?php echo $lang['asset_131'] ?></p>
+        <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
+
+        <p class="reveal">
+          <?php echo $lang['asset_131'] ?>
+        </p>
         <hr class="semi" role="separator" />
-        <div class="tabset reveal">
+        <div class="tabset">
           <!-- Tab 1 -->
           <input
             type="radio"
@@ -230,7 +232,7 @@
             aria-controls="<?php echo $lang['asset_13'] ?>"
             checked
           />
-          <label class="first" for="tab2"
+          <label class="first reveal" for="tab2"
             ><span><?php echo $lang['asset_13'] ?></span></label
           >
           <!-- Tab 2 -->
@@ -240,7 +242,7 @@
             id="tab1"
             aria-controls="<?php echo $lang['asset_33'] ?>"
           />
-          <label for="tab1"
+          <label class="reveal" for="tab1"
             ><span><?php echo $lang['asset_33'] ?></span></label
           >
           <!-- Tab 3 -->
@@ -250,7 +252,7 @@
             id="tab3"
             aria-controls="<?php echo $lang['asset_234'] ?>"
           />
-          <label for="tab3"
+          <label class="reveal" for="tab3"
             ><span><?php echo $lang['asset_234'] ?></span></label
           >
           <!-- Tab 4 -->
@@ -260,19 +262,28 @@
             id="tab4"
             aria-controls="<?php echo $lang['asset_308'] ?>"
           />
-          <label class="last" for="tab4"
+          <label class="last reveal" for="tab4"
             ><span><?php echo $lang['asset_308'] ?></span></label
           >
-          <section class="switcher">
+          <section class="switcher reveal">
             <label
               class="toggleSwitch"
               for="toggleSwitch"
               role="checkbox"
               aria-checked="false"
               tabindex="0"
-              onclick="togglePrices()"
             >
-              <p>VAT</p>
+              <a
+                class="higlited"
+                title="<?php echo $lang['asset_309'] ?>"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                href="https://taxation-customs.ec.europa.eu/what-vat_en"
+                ><p>
+                  <i class="fa-solid fa-circle-info"></i>
+                  <?php echo $lang['asset_307'] ?>
+                </p></a
+              >
             </label>
 
             <label
@@ -281,7 +292,7 @@
               aria-checked="false"
               tabindex="0"
             >
-              <input type="checkbox" onclick="togglePrices()" />
+              <input type="checkbox" onclick="vatPrice()" />
               <span class="slider"></span>
             </label>
           </section>

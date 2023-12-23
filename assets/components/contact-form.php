@@ -3,8 +3,7 @@
     <h3 class="reveal" role="heading" aria-level="3">
       <?php echo $lang['asset_168'] ?>
     </h3>
-    <hr class="semi" role="separator" aria-hidden="true" />
-    <form
+<br>    <form
       id="contactForm"
       onclick="loading()"
       action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"

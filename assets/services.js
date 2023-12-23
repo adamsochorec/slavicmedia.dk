@@ -1,5 +1,5 @@
 // VAT SWITCHER
-function togglePrices() {
+function vatPrice() {
   var prices = document.querySelectorAll(".price");
 
   prices.forEach(function (price) {
@@ -15,7 +15,6 @@ function togglePrices() {
     }
   });
 }
-
 // CONTACT FORM START
 document.addEventListener("DOMContentLoaded", function () {
   const contactForm = document.getElementById("contactForm");
