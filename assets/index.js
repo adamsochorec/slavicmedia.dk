@@ -28,58 +28,33 @@ const video = document.getElementById("heroVideo"),
   pauseControl = document.getElementById("pauseControl"),
   playControl = document.getElementById("playControl"),
   playPauseButton = document.getElementById("playPauseButton");
-
-playPauseButton.addEventListener("click", function () {
+  
+function updateControls() {
   if (video.paused) {
-    video.play();
-    playPauseButton.classList.remove("play");
-    playPauseButton.classList.add("pause");
-    pauseControl.style.display = "unset";
-    playControl.style.display = "none";
-  } else {
-    video.pause();
     playPauseButton.classList.remove("pause");
     playPauseButton.classList.add("play");
     pauseControl.style.display = "none";
     playControl.style.display = "unset";
     video.removeAttribute("controls");
+  } else {
+    playPauseButton.classList.remove("play");
+    playPauseButton.classList.add("pause");
+    pauseControl.style.display = "unset";
+    playControl.style.display = "none";
+  }
+} 
+    
+video.addEventListener('pause', updateControls);
+video.addEventListener('play', updateControls);
+
+playPauseButton.addEventListener("click", function() {
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
   }
 });
 // VIDEO CONTROLS END
-
-// START RATING START
-// Get all elements with the "stars" class
-var starContainers = document.querySelectorAll(".stars");
-
-// Iterate through each element and display stars based on the data-rating attribute
-starContainers.forEach(function (starContainer) {
-  var rating = parseInt(starContainer.getAttribute("data-rating"), 10);
-  showStars(starContainer, rating);
-});
-
-// Function to display stars based on the rating value
-function showStars(container, rating) {
-  container.innerHTML = ""; // Clear any existing content
-
-  // Create stars based on the rating
-  for (var i = 1; i <= 5; i++) {
-    var star = document.createElement("span");
-    star.className = "stars";
-
-    // Fill the star if it's within the rating
-    if (i <= rating) {
-      star.innerHTML = "★"; // Use a star symbol
-    } else {
-      star.innerHTML = "☆"; // Use an empty star symbol
-    }
-
-    // Append the star to the container
-    container.appendChild(star);
-  }
-}
-// START RATING END
-// HOMEPAGE START
-// CHANGE HEADER RGBA AT SCROLL END
 
 // VIDEO OFFLOAD START
 function videoOffload() {
@@ -124,11 +99,43 @@ function videoOffload() {
     handleVideoIntersection(video);
   });
 }
-// VIDEO OFFLOAD END
 
 // Call the videoOffload function to initialize
 videoOffload();
 
+// VIDEO OFFLOAD END
+
+// START RATING START
+// Get all elements with the "stars" class
+const starContainers = document.querySelectorAll(".stars");
+// Iterate through each element and display stars based on the data-rating attribute
+starContainers.forEach(function (starContainer) {
+  const rating = parseInt(starContainer.getAttribute("data-rating"), 10);
+  showStars(starContainer, rating);
+});
+// Function to display stars based on the rating value
+function showStars(container, rating) {
+  container.innerHTML = ""; // Clear any existing content
+
+  // Create stars based on the rating
+  for (let i = 1; i <= 5; i++) {
+    const star = document.createElement("span");
+    star.className = "stars";
+
+    // Fill the star if it's within the rating
+    if (i <= rating) {
+      star.innerHTML = "★"; // Use a star symbol
+    } else {
+      star.innerHTML = "☆"; // Use an empty star symbol
+    }
+
+    // Append the star to the container
+    container.appendChild(star);
+  }
+}
+// START RATING END
+
+// RATING SWIPER START
 const reviewsSwiper = new Swiper(".reviews-swiper", {
   loop: true,
   speed: 600,
@@ -158,3 +165,4 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   direction: "horizontal",
   loop: true,
 });
+// RATING SWIPER END

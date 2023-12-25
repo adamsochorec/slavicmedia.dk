@@ -273,17 +273,17 @@
               aria-checked="false"
               tabindex="0"
             >
-              <a
+            <p>  <a
                 class="higlited"
                 title="<?php echo $lang['asset_309'] ?>"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 href="https://taxation-customs.ec.europa.eu/what-vat_en"
-                ><p>
+                >
                   <i class="fa-solid fa-circle-info"></i>
                   <?php echo $lang['asset_307'] ?>
-                </p></a
-              >
+               </a
+              > </p>
             </label>
 
             <label
@@ -1070,24 +1070,6 @@
       defer
       role="script"
     ></script>
-    <script>
-      function updatePlanOptions() {
-        const categorySelect = document.getElementById("category");
-        const planSelect = document.getElementById("plan");
-        const disableOnSelectOption =
-          document.getElementById("disableOnSelect");
-
-        if (categorySelect.value === "<?php echo $lang['asset_308'] ?>") {
-          // If the second option from the bottom is selected in the first select,
-          // disable the corresponding option in the second select
-          disableOnSelectOption.disabled = true;
-        } else {
-          // If any other option is selected in the first select, enable the corresponding option
-          disableOnSelectOption.disabled = false;
-        }
-      }
-    </script>
-
     <!-- FOOTER END -->
   </body>
 </html>

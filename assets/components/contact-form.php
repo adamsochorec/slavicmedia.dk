@@ -74,7 +74,7 @@
     <option value="<?php echo $lang['asset_234'] ?>">
       <?php echo $lang['asset_234'] ?>
     </option>
-    <option id="disableIfSelected" value="<?php echo $lang['asset_308'] ?>">
+    <option id="disableIfSelected" value="Service">
       <?php echo $lang['asset_308'] ?>
     </option>
   </select>
@@ -109,9 +109,6 @@
   </select>
   <br />
 </div>
-
-
-
       </div>
       <div class="reveal">
         <p>
