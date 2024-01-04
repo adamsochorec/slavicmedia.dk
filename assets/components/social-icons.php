@@ -1,4 +1,10 @@
 <div class="social-icons">
+    <a
+                    href="mailto:contact@slavicmedia.dk"
+                    aria-label="Email: contact@slavicmedia.dk"
+                  >
+                    <i class="fa-solid fa-envelope fa-xl"></i>
+                  </a>
   <a
     href="https://www.linkedin.com/company/slavicmedia/"
     target="_blank"

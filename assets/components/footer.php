@@ -11,13 +11,7 @@
   <hr />
   <div class="footer-container">
     <div class="grid-item footer-ps">
-      <a
-        href="mailto:contact@slavicmedia.dk"
-        aria-label="Email: contact@slavicmedia.dk"
-        role="link"
-      >
-      <?php echo $lang['asset_278'] ?>      </a>
-      <span>|</span>
+    
       <a href="/privacy-policy">
         <?php echo $lang['asset_231'] ?>
       </a>
@@ -46,7 +40,10 @@
     </div>
   </div><br><p class="copyright">
     Copyright ©
-    2023        Slavic Media I/S All Rights Reserved.
+    <?php
+$currentYear = date("Y");
+echo $currentYear;
+?>        Slavic Media I/S All Rights Reserved.
   </p>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"

@@ -431,6 +431,8 @@ p a:hover {
   padding: 10px;
   max-width: 200px;
   opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 .hover-element {
@@ -439,7 +441,7 @@ p a:hover {
 }
 /* HINT PANEL END */
 
-/* SWITCHER START */
+/* START */
 .switch {
   position: relative;
   display: inline-block;
@@ -473,14 +475,14 @@ p a:hover {
   right: 0;
   bottom: 0;
   background-color: rgba(var(--black-color), 0.3);
-  -webkit-transition: 0.2s;
+  border-radius: var(--border-radius-5);
+  outline: 2.5px solid white;
+}
+.slider,
+.slider:before{
+   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
-  border-radius: var(--border-radius-5);
-  outline: 1px solid white;
-}
-.slider:hover {
-  outline: 1px solid rgb(var(--secondary-color));
 }
 .slider:before {
   position: absolute;
@@ -493,15 +495,12 @@ p a:hover {
   background-color: white;
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
   border-radius: var(--border-radius-5);
 }
 
 input:checked + .slider {
   background-color: rgb(var(--secondary-color));
-  outline: 1px solid rgb(var(--secondary-color));
+  outline: 2.5px solid rgb(var(--secondary-color));
 }
 
 input:checked + .slider:before {
@@ -714,8 +713,7 @@ input:checked + .slider:before {
   );
   background: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(199, 30, 30, 1)),
     to(rgba(18, 69, 126, 1))
   );
@@ -1707,8 +1705,7 @@ footer .language-container {
   );
   background-image: -webkit-gradient(
     linear,
-    right top,
-    left top,
+    right top, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1726,8 +1723,7 @@ footer .language-container {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1745,8 +1741,7 @@ footer .language-container {
   );
   background-image: -webkit-gradient(
     linear,
-    left bottom,
-    left top,
+    left bottom, left top,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
@@ -1764,8 +1759,7 @@ footer .language-container {
   );
   background-image: -webkit-gradient(
     linear,
-    left top,
-    left bottom,
+    left top, left bottom,
     from(rgba(0, 0, 0, 0.5)),
     to(rgba(0, 0, 0, 0))
   );
