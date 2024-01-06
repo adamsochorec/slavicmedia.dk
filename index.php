@@ -192,11 +192,10 @@
               <i id="playControl" class="fa-regular fa-circle-play fa-xl"></i>
               <i id="pauseControl" class="fa-regular fa-circle-pause fa-xl"></i>
             </button>
-            <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
+            <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p><br>
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
             </p>
-            <p class="reveal"><?php echo $lang['asset_21'] ?></p>
           </article>
         </div>
       </article>

@@ -301,7 +301,7 @@
             <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_13'] ?>">
                 <tr>
-                  <th class="left-align"><?php echo $lang['asset_238'] ?></th>
+                  <th class="left-align"></th>
                   <th><?php echo $lang['asset_133'] ?></th>
                   <th><?php echo $lang['asset_134'] ?></th>
                   <th><?php echo $lang['asset_135'] ?></th>
@@ -506,7 +506,7 @@
             <div class="tab-panel reveal">
               <table id="<?php echo $lang['asset_33'] ?>">
                 <tr>
-                  <th class="left-align"><?php echo $lang['asset_133'] ?></th>
+                  <th class="left-align"></th>
                   <th><?php echo $lang['asset_133'] ?></th>
                   <th><?php echo $lang['asset_134'] ?></th>
                   <th><?php echo $lang['asset_135'] ?></th>
@@ -688,7 +688,7 @@
             <div class="tab-panel reveal">
               <table id="allin">
                 <tr>
-                  <th class="left-align"><?php echo $lang['asset_238'] ?></th>
+                  <th class="left-align"></th>
                   <th><?php echo $lang['asset_133'] ?></th>
                   <th><?php echo $lang['asset_134'] ?></th>
                   <th><?php echo $lang['asset_135'] ?></th>

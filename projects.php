@@ -48,13 +48,13 @@
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h2>
-              <?php echo $lang['asset_13'] ?>
-              <span class="highlited"> <?php echo $lang['asset_22'] ?></span>
+              <span class="highlited"><?php echo $lang['asset_13'] ?></span>
+             <?php echo $lang['asset_22'] ?>
             </h2>
             <div class="hide-cta-min reveal">
               <a
                 class="cta"
-                href="/services#plans"
+                href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -68,7 +68,7 @@
             <div class="hide-cta-max reveal">
               <a
                 class="cta"
-                href="/services#plans"
+                href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -230,14 +230,14 @@
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
             <h2>
-              <?php echo $lang['asset_11'] ?>
-              <span class="highlited"><?php echo $lang['asset_22'] ?></span>
+              <span class="highlited"><?php echo $lang['asset_11'] ?></span>
+             <?php echo $lang['asset_22'] ?>
             </h2>
 
             <div class="hide-cta-min reveal">
               <a
                 class="cta"
-                href="/services#plans"
+                href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
@@ -251,7 +251,7 @@
             <div class="hide-cta-max reveal">
               <a
                 class="cta"
-                href="/services#plans"
+                href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
