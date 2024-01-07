@@ -301,8 +301,8 @@ $lang = [
      "asset_220" => "Mærkeguide, kreditvejledning, pressesæt, logo, vektor, tagguide, sociale medier",
      "asset_221" => "Udforsk vores presseside for at få omfattende ressourcer. Vores brandguide etablerer visuelle og stilistiske standarder og sikrer ensartet logo, farve, skrifttype og design. Kreditvejledningen beskriver, hvordan man tagger og krediterer vores multimediearbejde på tværs af digitalt og trykt medier. Download vores pressesæt til vektoriserede logoer, skrifttyper og væsentlige brandingmaterialer, hvilket giver dig mulighed for præcist at repræsentere vores brand i din dækning.",
      "asset_222" => "Din online tilstedeværelse",
-     "asset_223" => "Vi er en kreativ multimedievirksomhed, der er specialiseret i portrætter, stillbilleder, showreels og interviews. Lad os fortælle din historie gennem smukke billeder og rene designs.
-     ",
+     "asset_223" => "Slavic Media is a creative multimedia company that focuses on the production of various brand films, showreels, stills and headshots.
+     We tell stories with our beautiful videos, well-written scripts, and clean designs to help brands reach their maximum potential. We will do everything possible to turn your vision into reality.",
      "asset_224" => "Portrættjenester, stillbilleder, rejsetjenester, showreeltjenester, interviewtjenester, professionel fotograf, professionel videograf, multimediebureau, produktionsselskab, ekspertpostproduktion, visuel ekspertise, grafisk design, animationer, 3D-modeller, e -handel, professionelt udstyr, farveklassificering, ",
      "asset_225" => "Slavic Media er en ikke-traditionel multimedieproduktionsvirksomhed, der har specialiseret sig i kreativ historiefortælling.tro på kraften i gode scenografier, dyb øjenkontakt og den rigtige belysning til at hæve dit budskab over støjen.",
      "asset_226" => "Åbn mobilmenu",

@@ -6,8 +6,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_225'] ?>" />
-    <!-- <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" /> -->
+    <meta name="description" content="<?php echo $lang[''] ?>" />
     <title><?php echo $lang['asset_231'] ?> | Slavic Media</title>
   </head>
   <body id="privacy">

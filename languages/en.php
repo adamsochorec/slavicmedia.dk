@@ -301,10 +301,9 @@ $lang = [
     "asset_220" => "Brand guide, Credit guide, Press kit, logo, vector, tag guide, social media",
     "asset_221" => "Explore our Press page for comprehensive resources. Our Brand Guide establishes visual and stylistic standards, ensuring logo, colour, font, and design consistency. The Credit Guide outlines how to tag and credit our multimedia work across digital and printed media. Download our Press Kit for vectorized logos, fonts, and essential branding materials, empowering you to accurately represent our brand in your coverage.",
     "asset_222" => "Your Online Presence",
-    "asset_223" => "We are a creative multimedia company specializing in portraits, stills, showreels and interviews. Let us tell your story through beautiful shots and clean designs.
-    ",
+    "asset_223" => "",
     "asset_224" => "Portrait Services, Stills services, Travel Services, Showreel services, interview services, professional photographer, professional videographer, multimedia agency, production company, expert post-production, visual excellence, graphic design, animations, 3D models, e-commerce, professional equipment, colour grading, ",    
-    "asset_225" => "Slavic Media is a non-traditional multimedia production company that specializes in creative storytelling. We believe in the power of good set designs, deep eye contact, and the right lighting to elevate your message above the noise.",
+    "asset_225" => "",
     "asset_226" => "Open mobile menu",
     "asset_227" => "<span class='highlited'>Cookies</span> Consent",
 "asset_228" => "This website uses analytical cookies to help you to have a superior and more

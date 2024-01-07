@@ -9,3 +9,11 @@
   hreflang="<?php echo $_SESSION['lang'] ?>-DK"
   href="slavicmedia.dk"
 />
+<!-- for Microsoft apps -->
+<meta name="msapplication-TileImage" content="http://slavicmedia.dk/img/thumbnail.png">
+<!-- Image to display -->
+<meta property="og: image" itemprop="image" content="http://slavicmedia.dk/img/thumbnail.png">
+<!-- Any size up to 300. Anything above 300px will not work in WhatsApp --> 
+<meta property="og: image:width" content="300"> 
+<meta property="og: image:height" content="300">
+

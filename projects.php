@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
     />
-    <meta name="description" content="<?php echo $lang['asset_19'] ?>" />
+    <meta name="description" content="<?php echo $lang['asset_10'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" />
     <title>Projects | Slavic Media</title>
   </head>
