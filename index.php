@@ -189,8 +189,8 @@
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
             <button id="playPauseButton" class="play">
-              <i id="playControl" class="fa-regular fa-circle-play fa-xl"></i>
-              <i id="pauseControl" class="fa-regular fa-circle-pause fa-xl"></i>
+              <i id="playControl" title="Play" class="fa-regular fa-circle-play fa-xl"></i>
+              <i id="pauseControl" title="Pause" class="fa-regular fa-circle-pause fa-xl"></i>
             </button>
             <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p><br>
             <p class="reveal">
@@ -214,6 +214,7 @@
             <div id="marcel">
               <div class="reveal">
                 <svg
+                title="<?php echo $lang['asset_311'] ?>"
                   class="note flag"
                   version="1.1"
                   id="Layer_1"
@@ -310,7 +311,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/IMG_9562.jpg"
+                  src="/img/thumbnail/2022-04-24-07404.jpg"
                   alt="<?php echo $lang['asset_23'] ?>Marcel"
                   title="<?php echo $lang['asset_23'] ?>Marcel"
                   class="reveal"
@@ -324,21 +325,21 @@
                 </h5>
 
                 <div class="social-icons reveal">
-                  <a href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
-                    <i class="fa-solid fa-phone"></i>
+                  <a  href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
+                    <i title="Phone" class="fa-solid fa-phone"></i>
                   </a>
-                  <a
+                  <a 
                     href="mailto:marcel@slavicmedia.dk"
                     aria-label="Email: marcel@slavicmedia.dk"
                   >
-                    <i class="fa-solid fa-envelope"></i>
+                    <i title="Email" class="fa-solid fa-envelope"></i>
                   </a>
-                  <a
+                  <a 
                     href="https://www.linkedin.com/in/marcelhajik"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </section>
@@ -424,6 +425,8 @@
                   viewBox="0 0 1062 1062"
                   style="enable-background: new 0 0 1062 1062"
                   xml:space="preserve"
+                  title="<?php echo $lang['asset_310'] ?>"
+
                 >
                   <style type="text/css">
                     .st0 {
@@ -458,7 +461,7 @@
                   </g>
                 </svg>
                 <img
-                  src="/img/IMG_9523.jpg"
+                  src="/img/thumbnail/2022-04-24-07426.jpg"
                   alt="<?php echo $lang['asset_23'] ?> Adam"
                   title="<?php echo $lang['asset_23'] ?> Adam"
                   class="reveal"
@@ -474,21 +477,21 @@
                 </h5>
 
                 <div class="social-icons reveal">
-                  <a href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
-                    ><i class="fa-solid fa-phone"></i
+                  <a  href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
+                    ><i title="Phone" class="fa-solid fa-phone"></i
                   ></a>
-                  <a
+                  <a 
                     href="mailto:adam@slavicmedia.dk"
                     aria-label="Email: adam@slavicmedia.dk"
                   >
-                    <i class="fa-solid fa-envelope"></i>
+                    <i title="Email" class="fa-solid fa-envelope"></i>
                   </a>
-                  <a
+                  <a 
                     href="https://www.linkedin.com/in/adamsochorec"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
               </div>

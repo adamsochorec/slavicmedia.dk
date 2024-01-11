@@ -48,7 +48,7 @@
             role="region"
             aria-labelledby="brandGuideHeading"
           >
-            <h2 id="brandGuideHeading">Brand guide</h2>
+            <h2 id="brandGuideHeading">Brand Guide</h2>
             <a
               class="gallery-item"
               href="/assets/brand-guide.pdf"

@@ -3234,14 +3234,12 @@ img.mfp-img {
 }
 #marcel .skill-bar.faded,
 #adam .skill-bar.faded {
-  background-color: rgba(var(--white-color), 0.8);
   width: 100%;
   -webkit-animation: none;
   animation: none;
   border-radius: var(--border-radius-4);
 }
 .Progress {
-  background-color: rgba(var(--white-color), 0.8);
   border-radius: var(--border-radius-4);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3662,6 +3660,9 @@ p.note.date {
   }
   .privacy-container.show {
     bottom: 0;
+  }
+  ul.languages-legend li {
+    font-size: 8px;
   }
 }
 @media only screen and (min-width: 538px) {
