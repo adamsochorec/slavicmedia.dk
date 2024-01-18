@@ -320,7 +320,7 @@
               </div>
               <section class="profile">
                 <h4 class="reveal">Marcel H.</h4>
-                <h5 class="reveal">
+                <h6 class="reveal">
                   <?php echo $lang['asset_24'] ?>
                 </h5>
 
@@ -472,9 +472,9 @@
 
               <div class="profile">
                 <h4 class="reveal" role="heading" aria-level="4">Adam S.</h4>
-                <h5 class="reveal">
+                <h6 class="reveal">
                   <?php echo $lang['asset_30'] ?>
-                </h5>
+                </h6>
 
                 <div class="social-icons reveal">
                   <a  href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
