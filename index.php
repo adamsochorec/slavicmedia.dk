@@ -149,16 +149,17 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'swiper-reviews.php';
     ?>
-        <a
+    <div
           class="flex-center reveal"
-          target="_blank"
+          >
+        <a
+        class="cta"          target="_blank"
           rel="noopener noreferrer nofollow"
           href="https://g.page/r/CRTkzopg3plWEB0/review"
         >
-          <div class="cta">
             <?php echo $lang['asset_31'] ?>
-          </div>
         </a>
+        </div>
       </article>
       <!-- REVIEWS END -->
       <hr class="semi" id="team" />

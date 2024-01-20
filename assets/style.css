@@ -39,7 +39,7 @@
   --shadow-transition: translate(4px, -4px);
   --nav-bar-top-position: 50px;
   --shadow-transition: translate(4px, -4px);
-  --box-shadow-1: 17px 20px 40px rgba(0, 0, 0, 0.21);
+  --box-shadow-1: 0px 0px 10px rgba(0, 0, 0, 0.25);
   --homepage-padding: 50px;
   --blur-1: blur(2px);
   --blur-2: blur(35px);
@@ -3448,6 +3448,7 @@ p.note.date {
   width: var(--dimension-3);
   border-radius: var(--border-radius-2);
   background-color: rgb(var(--dark-grey-color));
+  box-shadow: var(--box-shadow-1);
 }
 .reviews-swiper {
   border-radius: var(--border-radius-2);

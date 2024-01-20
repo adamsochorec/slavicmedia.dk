@@ -290,10 +290,10 @@ $lang = [
     and atmospheric shots. Includes photo export at the end
     of each day so travellers can post and share their
     moments in real-time/ASAP.",
-    "asset_212" => "870 EUR",
-    "asset_213" => "1.500 EUR",
-    "asset_214" => "1.900 EUR",
-    "asset_215" => "XXX EUR",
+    "asset_212" => "870",
+    "asset_213" => "1500",
+    "asset_214" => "1900",
+    "asset_215" => "XXX",
     "asset_216" => "Woman and man in an intimate hug, a woman holds a knife on man’s neck.",
     "asset_217" => "Other",
     "asset_218" => "Expedition Åland",
