@@ -1,23 +1,29 @@
-<?php session_start();
+<?php 
+session_start();
 
-// Define a list of supported languages to avoid arbitrary file inclusion
 $supportedLanguages = ['en', 'da'];
 
-
+// Default language is English if not set
 if (!isset($_SESSION['lang'])) {
     $_SESSION['lang'] = "en";
-} else if (isset($_GET['lang']) && in_array($_GET['lang'], $supportedLanguages)) {
+}
+
+// Check if the 'lang' parameter is in the URL and if it's a supported language
+if (isset($_GET['lang']) && in_array($_GET['lang'], $supportedLanguages)) {
     $_SESSION['lang'] = $_GET['lang'];
 }
-// Ensure the requested language file exists before requiring it
+
+// Redirect to a URL with the correct language prefix if it's not already present
+$currentLang = $_SESSION['lang'];
+if (!preg_match("/^\/$currentLang\//", $_SERVER['REQUEST_URI'])) {
+    header("Location: /$currentLang" . $_SERVER['REQUEST_URI']);
+    exit;
+}
+
 $languageFile = "languages/" . $_SESSION['lang'] . ".php";
 if (file_exists($languageFile)) {
     require_once $languageFile;
 } else {
-    // Handle the case where the language file doesn't exist (e.g., fallback to a default language).
-    // You can add code here to provide a graceful error message or take other appropriate actions.
     die("Language file not found.");
 }
-
-
 ?>

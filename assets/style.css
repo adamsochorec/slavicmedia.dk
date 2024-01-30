@@ -3349,6 +3349,9 @@ ul.languages-legend li::marker {
   height: 176px;
   z-index: 0;
 }
+#error li.lang-switch {
+  display: none;
+}
 #success .lottie {
   width: 104px;
   height: 104px;
@@ -3416,22 +3419,26 @@ ul.languages-legend li::marker {
 }
 p.note {
   background-color: rgba(var(--black-color), 0.1);
-  top: var(--grid-gap-1);
-  right: var(--grid-gap-1);
-  padding: 0 6px;
-  border-radius: var(--border-radius-2);
+  top: 0;
+  right: 0;
+  padding: 0 7px;
+  border-radius: 0 0 0 var(--border-radius-2);
   -webkit-backdrop-filter: var(--blur-3);
   backdrop-filter: var(--blur-3);
 }
 p.note.date {
-  left: var(--grid-gap-1);
+  left: 0;
   right: unset;
   cursor: default;
+  border-radius: 0 0 var(--border-radius-2) 0;
 }
 .note a,
 .note a:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+p.note:hover:not(p.note.date) {
+  text-decoration: underline;
 }
 .note.flag {
   height: var(--grid-gap-2);
@@ -3666,8 +3673,9 @@ p.note.date {
   .privacy-container {
     bottom: -400px;
     width: 100%;
-    border-radius: 0;
+    border-radius: var(--border-radius-2) var(--border-radius-2) 0 0;
     padding: var(--grid-gap-2) var(--grid-gap-2) var(--grid-gap-3);
+    box-shadow: var(--box-shadow-1);
   }
   .privacy-container.show {
     bottom: 0;
@@ -3797,8 +3805,8 @@ p.note.date {
     display: none;
   }
   p.note:not(p.note.date) {
-    padding: 0 3px 0 1px;
-    border-radius: var(--border-radius-1);
+    padding: 0 7px;
+    border-radius: 0 0 0 var(--border-radius-2);
   }
   .swiper-button-prev,
   .swiper-button-next {

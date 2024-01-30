@@ -273,17 +273,18 @@
               aria-checked="false"
               tabindex="0"
             >
-            <p>  <a
-                class="higlited"
-                title="<?php echo $lang['asset_309'] ?>"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                href="https://taxation-customs.ec.europa.eu/what-vat_en"
+              <p>
+                <a
+                  class="higlited"
+                  title="<?php echo $lang['asset_309'] ?>"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  href="https://taxation-customs.ec.europa.eu/what-vat_en"
                 >
                   <i class="fa-solid fa-circle-info"></i>
                   <?php echo $lang['asset_307'] ?>
-               </a
-              > </p>
+                </a>
+              </p>
             </label>
 
             <label

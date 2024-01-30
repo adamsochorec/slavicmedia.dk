@@ -49,7 +49,7 @@
           <div class="grid-item reveal">
             <h2>
               <span class="highlited"><?php echo $lang['asset_13'] ?></span>
-             <?php echo $lang['asset_22'] ?>
+              <?php echo $lang['asset_22'] ?>
             </h2>
             <div class="hide-cta-min reveal">
               <a
@@ -99,7 +99,7 @@
               <span>2023</span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
+              <i class="fa-solid fa-link"></i>&nbsp;
               <a>sleddog.se</a>
             </p>
             <a
@@ -122,7 +122,7 @@
               <span>2023</span>
             </h3>
             <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
+              <i class="fa-solid fa-link"></i>&nbsp;
               <a href>husetfundament.dk</a>
             </p>
 
@@ -148,7 +148,7 @@
               <span>2023 </span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
+              <i class="fa-solid fa-link"></i>&nbsp;
               <a href>nicolaikultur.dk</a>
             </p>
             <a
@@ -192,7 +192,7 @@
               <span>2022</span>
             </h3>
             <p>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
+              <i class="fa-solid fa-link"></i>&nbsp;
               <a>bygning5.dk</a>
             </p>
             <a
@@ -231,7 +231,7 @@
           <div class="grid-item reveal">
             <h2>
               <span class="highlited"><?php echo $lang['asset_11'] ?></span>
-             <?php echo $lang['asset_22'] ?>
+              <?php echo $lang['asset_22'] ?>
             </h2>
 
             <div class="hide-cta-min reveal">
@@ -272,8 +272,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -291,8 +290,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -310,8 +308,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Sleddog.se&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -329,8 +326,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -348,8 +344,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -367,8 +362,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Timetravels&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -386,8 +380,7 @@
                 rel="noopener noreferrer nofollow"
               >
                 <span>Sleddog.se&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -404,8 +397,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -422,8 +414,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -440,8 +431,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -458,8 +448,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -476,8 +465,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -494,8 +482,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -512,8 +499,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -530,8 +516,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span>
-                <span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                <span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -564,8 +549,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Slovo 21&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -617,8 +601,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Sort/Hvid&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -644,8 +627,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -718,8 +700,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -736,8 +717,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Rosklide Festival&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -754,8 +734,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i></span
+                ><span><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
