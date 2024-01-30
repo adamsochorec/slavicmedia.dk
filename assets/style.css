@@ -2987,6 +2987,10 @@ img.mfp-img {
 #services tr:nth-child(odd) {
   background-color: rgb(var(--dark-grey-color));
 }
+#services .undernote {
+  font-size: var(--fontsize-note);
+  text-align: left !important;
+}
 #services th:not(.left-align),
 #services td:not(.left-align) {
   text-align: center;
@@ -3044,8 +3048,6 @@ img.mfp-img {
   cursor: pointer;
   font-family: var(--logo-font);
   white-space: nowrap;
-  -webkit-box-shadow: var(--box-shadow-1);
-  box-shadow: var(--box-shadow-1);
   background: rgb(var(--dark-grey-color));
   border: 0;
   outline: 3px solid rgb(var(--dark-grey-color));
@@ -3455,6 +3457,7 @@ p.note:hover:not(p.note.date) {
   width: var(--dimension-3);
   border-radius: var(--border-radius-2);
   background-color: rgb(var(--dark-grey-color));
+  -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
 .reviews-swiper {
@@ -3675,6 +3678,7 @@ p.note:hover:not(p.note.date) {
     width: 100%;
     border-radius: var(--border-radius-2) var(--border-radius-2) 0 0;
     padding: var(--grid-gap-2) var(--grid-gap-2) var(--grid-gap-3);
+    -webkit-box-shadow: var(--box-shadow-1);
     box-shadow: var(--box-shadow-1);
   }
   .privacy-container.show {

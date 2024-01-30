@@ -85,6 +85,31 @@
       >
         <div class="gallery-item reveal">
           <img
+            src="/img/cover-swedishlapland.jpg"
+            class="north-cascades-img"
+            alt="<?php echo $lang[''] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
+              <?php echo $lang[''] ?>Timetravels
+
+              <br />
+              <span>2024</span>
+            </h3>
+            <p>
+              <i class="fa-solid fa-link"></i>&nbsp;
+              <a>timetravels.com</a>
+            </p>
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/_Td9MCZhy4E?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img
             src="/img/cover-sleddog.jpg"
             class="north-cascades-img"
             alt="<?php echo $lang[''] ?>."
@@ -174,30 +199,6 @@
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/RYr5MRm1yB8?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-bygning5.jpg"
-            alt="<?php echo $lang['asset_50'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
-
-              Bygning 5
-              <br />
-              <span>2022</span>
-            </h3>
-            <p>
-              <i class="fa-solid fa-link"></i>&nbsp;
-              <a>bygning5.dk</a>
-            </p>
-            <a
-              class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/7zRs5jSRxGs?modestbranding=1"
             ></a>
           </div>
         </div>

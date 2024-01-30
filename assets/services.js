@@ -7,10 +7,10 @@ function vatPrice() {
 
     // Check if the price is multiplied by 1.2, revert if true, else multiply
     if (price.dataset.multiplied === "true") {
-      price.textContent = (currentPrice / 1.2).toFixed(0);
+      price.textContent = (currentPrice / 1.25).toFixed(0);
       price.dataset.multiplied = "false";
     } else {
-      price.textContent = (currentPrice * 1.2).toFixed(0);
+      price.textContent = (currentPrice * 1.25).toFixed(0);
       price.dataset.multiplied = "true";
     }
   });
@@ -25,7 +25,7 @@ function updatePlanOptions() {
     disableOnSelectOption.disabled = true;
   } else {
     // If any other option is selected in the first select, enable the second select
-        disableOnSelectOption.value = ""; // Set a default value
+    disableOnSelectOption.value = ""; // Set a default value
     disableOnSelectOption.disabled = false;
   }
 }
