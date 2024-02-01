@@ -40,10 +40,7 @@
     </div>
   </div><br><p class="copyright">
     Copyright ©
-    <?php
-$currentYear = date("Y");
-echo $currentYear;
-?>        Slavic Media I/S All Rights Reserved.
+  <span id="current-year"></span>     Slavic Media I/S All Rights Reserved.
   </p>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"

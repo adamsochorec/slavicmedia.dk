@@ -3439,7 +3439,7 @@ p.note.date {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-p.note:hover:not(p.note.date) {
+p.note span:hover:not(p.note.date) {
   text-decoration: underline;
 }
 .note.flag {

@@ -272,8 +272,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Timetravels</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -290,8 +290,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Timetravels</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -308,8 +308,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Sleddog.se&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Sleddog.se</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -326,8 +326,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Timetravels</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -344,8 +344,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Timetravels</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -362,8 +362,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Timetravels&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Timetravels</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -380,8 +380,8 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <span>Sleddog.se&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                <span>Sleddog.se</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -397,8 +397,8 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span><?php echo $lang['asset_218'] ?></span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -414,8 +414,8 @@
                 href="https://adamsochorec.com/blog/aland"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?>&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span><?php echo $lang['asset_218'] ?></span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -431,8 +431,8 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -448,8 +448,8 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -465,8 +465,8 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -482,8 +482,8 @@
                 href="https://touristisrael.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -499,8 +499,8 @@
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Divadlo na Vinohradech</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -516,8 +516,8 @@
                 href="https://www.divadlonavinohradech.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech&nbsp;&nbsp;</span>
-                <span><i class="fa-solid fa-link"></i></span
+                ><span>Divadlo na Vinohradech</span> &nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -549,8 +549,8 @@
                 href="https://www.slovo21.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Slovo 21&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Slovo 21</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -582,8 +582,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk&nbsp;&nbsp;</span
-                ><span
+                ><span>Divadlo Disk</span>&nbsp;&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -601,8 +600,8 @@
                 href="https://www.sort-hvid.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Sort/Hvid&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Sort/Hvid</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -627,8 +626,8 @@
                 href="https://www.husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -644,8 +643,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -663,8 +661,7 @@
                 href="https://www.divadlodisk.cz/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk&nbsp;&nbsp;</span
-                ><span
+                ><span>Divadlo Disk</span>&nbsp;&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -681,8 +678,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span
+                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i
                 ></span>
               </a>
@@ -700,8 +696,8 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -717,8 +713,8 @@
                 href="https://www.roskilde-festival.dk/da/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Rosklide Festival&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Rosklide Festival</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
@@ -734,8 +730,8 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament&nbsp;&nbsp;</span
-                ><span><i class="fa-solid fa-link"></i></span
+                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
+                  ><i class="fa-solid fa-link"></i></span
               ></a>
             </p>
             <img
