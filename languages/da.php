@@ -126,7 +126,7 @@ $lang = [
      "asset_129" => "Websted: ",
      "asset_130" => "Animation: Siden blev ikke fundet",
      "asset_131" => "Designet til at tilpasse sig dine skiftende behov, hvilket sikrer, at du altid har de rigtige værktøjer til din rådighed. Vi tror på at give værdi for din investering. Vores priser er konkurrencedygtige og tilbyder en række planer, der passer til forskellige budgetter." ,
-     "asset_132" => "",
+     "asset_132" => "af",
      "asset_133" => " Essential",
      "asset_134" => " Core",
      "asset_135" => " Elite",
@@ -495,6 +495,672 @@ på",
 "asset_397" => "",
 "asset_398" => "",
 "asset_399" => "",
-"asset_400" => "",
-];
+"asset_400" => '<article class="wrapper-wide">
+<div class="pathname-container"></div>
+<h1 class="reveal">Privatlivspolitik</h1>
+<div class="pathname-container reveal">
+  <p class="reveal">
+    <span class="pathname"><a href="/"></a> &#8250; </span>
+    <span class="pathname-current">Privatlivspolitik</span>
+  </p>
+  <br />
+</div>
+<span class="date reveal"
+  ><p class="reveal">
+    |
+    <i>Sidst ændret: december 2023</i>
+    </p></span
+ >
+ <hr class="reveal" role="separator" />
+ <sektion>
+    <h2 class="highlited">Introduktion</h2>
+    <p class="reveal">
+     Slavic Media I/S, ("Virksomhed" eller "vi", "os" eller
+      "vores") respekterer dit privatliv og er forpligtet til at beskytte
+      privatlivets fred for besøgende på vores websted, kunder, forretningspartnere og
+      slutbrugere gennem vores overholdelse af denne politik.<br /><br />Dette
+      politik beskriver de typer oplysninger, vi kan indsamle fra dig eller
+      som du kan give, når du besøger hjemmesiden
+      <a class="highlited" href="/">slavicmedia.dk</a> (vores "hjemmeside") eller
+      ellers få adgang til vores produktsider, mobil- eller webapplikationer, eller
+      andre digitale produkter, der linker til eller henviser til denne fortrolighedspolitik
+      (samlet med hjemmesiden, "tjenesterne") og vores praksis
+      for at indsamle, bruge, vedligeholde, beskytte og afsløre det
+      information.<br /><br />Vi forbeholder os retten til at ændre denne fortrolighed
+      Politik til enhver tid. Vi vil give dig besked om eventuelle ændringer i dette
+      Privatlivspolitik ved at offentliggøre en ny privatlivspolitik på denne side. Du er
+      ansvarlig for at sikre, at vi har en up-to-date for periodisk
+      besøger vores hjemmeside og denne privatlivspolitik for at tjekke for evt
+      ændringer. Ændringer til denne privatlivspolitik er effektive, når de er det
+      lagt ud på denne side. Du anerkender, at din fortsatte brug af vores
+      Tjenester, efter at vi har offentliggjort vores ændringer til denne privatlivspolitik betyder
+      at indsamling, brug og deling af dine oplysninger er underlagt
+      til den opdaterede privatlivspolitik.
+    </p>
+    <hr />
+    <ol>
+      <li class="reveal">
+        <h2 class="highlited">Gælder for</h2>
+        <ul>
+          <li class="reveal">
+            På denne hjemmeside (uanset typen af enheden eller andet
+            betyder, at du bruger til at få adgang) eller gennem vores tjenester.
+          </li>
+          <li class="reveal">
+            I e-mail, sms og andre elektroniske beskeder mellem dig og
+            vores tjenester.
+          </li>
+          <li class="reveal">
+            Når du interagerer med vores applikationer på tredjepart
+            websteder og tjenester, hvis disse applikationer indeholder links til
+            denne politik.
+          </li>
+          <li class="reveal">
+            Mens vi tilbyder vores produkter og tjenester til dig.
+          </li>
+          <li class="reveal">Alle andre kilder.</li>
+        </ul>
+      </li>
+      <hr class="semi" role="separator" />
+      <li class="reveal">
+        <h2 class="highlited">
+          Det gælder ikke for oplysninger indsamlet af:
+        </h2>
+      </li>
+      <ul>
+        <li class="reveal">
+          Os offline eller på andre måder, inklusive på enhver anden måde
+          websted, der drives af virksomheden eller en tredjepart
+        </li>
+        <li class="reveal">
+          Enhver tredjepart, herunder gennem enhver applikation eller indhold
+          (inklusive annoncering), der kan linke til eller være tilgængelig fra
+          eller på hjemmesiden.
+        </li>
+      </ul>
+      <hr class="semi" role="separator" />
+
+      <li class="reveal">
+      <h2 class="highlited">
+        Oplysninger, vi indsamler om dig, og hvordan vi indsamler dem
+      </h2>
+      Vi indsamler flere typer oplysninger fra og om brugere af
+      vores tjenester, herunder oplysninger:
+    </li>
+    <ul>
+      <li class="reveal">
+        hvorved du kan blive personligt identificeret, herunder navn,
+        e-mailadresse, telefonnummer, brancheoplysninger, hjemmeside
+        eller domæner tilknyttet dig, geografiske oplysninger eller andre
+        andre oplysninger, som Tjenesterne indsamler, der er defineret som
+        personlige eller personligt identificerbare oplysninger under en
+        gældende lovgivning eller enhver anden identifikator, som du måtte være
+        kontaktes online eller offline (personlige oplysninger);
+      </li>
+      <li class="reveal">
+        det handler om dig, men identificerer dig ikke individuelt, f.eks
+        som firmanavn og rolle;
+      </li>
+      <li class="reveal">
+        som du leverer af vores forretningspartnere inklusive vores
+        kunder, leverandører og leverandører til administration af vores
+        forretningsforbindelse; i forbindelse med brug af vores produkter og
+        tjenester, såsom data relateret til ydeevne og konfiguration
+        af vores produkter og tjenester, vores kunders og slutbrugeres
+        forbrug af og interaktion mellem sådanne produkter og tjenester;
+      </li>
+      <li class="reveal">
+        som er indsendt eller uploadet af vores kunder og deres
+        slutbrugere (vi behandler dette kundeindhold på vegne af
+        kunde. Vores privatlivspraksis vil være styret af kontrakten
+        som vi har på plads med vores kunder og denne privatlivspolitik
+        vil ikke gælde for nogen personlige oplysninger indeholdt i sådanne
+        kundeindhold);
+      </li><li class="reveal">
+        om din internetforbindelse, det udstyr du bruger til at få adgang til
+        vores hjemmeside og brugsoplysninger.
+      </li>
+    </ul>
+    <br />
+    <h3 class="highlited">Vi indsamler disse oplysninger:</h3>
+    <ul>
+      <li class="reveal">
+        Direkte fra dig, når du leverer den til os.
+      </li>
+      <li class="reveal">
+        Automatisk, mens du navigerer gennem webstedet. Information
+        indsamlet automatisk kan omfatte brugsoplysninger, IP-adresser,
+        og information indsamlet gennem cookies, web beacons og
+        andre sporingsteknologier.
+      </li>
+      <li class="reveal">
+        Fra tredjeparter, for eksempel vores kunder eller virksomhed
+        partnere.
+      </li>
+    </ul>
+    <hr class="semi" role="separator" />
+    <li class="reveal">
+      <h2 class="highlited">Oplysninger, du giver os</h2>
+    </li>
+    <p class="reveal">
+      De oplysninger, vi indsamler på eller gennem vores websted, kan omfatte:
+    </p>
+    <ul>
+    <li class="reveal">
+      Oplysninger, som du giver ved at udfylde formularer på vores
+      Tjenester. Dette inkluderer oplysninger givet på tidspunktet for
+      registrering for at bruge vores tjenester, abonnere på vores tjeneste,
+      udstationering af materiale eller anmodning om yderligere tjenester. Vi kan også
+      bede dig om oplysninger, når du deltager i en konkurrence eller kampagne
+      sponsoreret af os, og når du rapporterer et problem med vores
+      Tjenester.
+    </li>
+    <li class="reveal">
+      Hvis du bruger dine sociale mediekonti til at logge ind på Tjenesterne,
+      vi modtager muligvis dine e-mail- og kontooplysninger på sociale medier.
+    </li>
+    <li class="reveal">
+      Optegnelser og kopier af din korrespondance (inklusive e-mail
+      adresser), hvis du kontakter os.
+    </li>
+    <li class="reveal">
+      Dine svar på undersøgelser, som vi kan bede dig om at udfylde til
+      forskningsformål.
+    </li>
+    <li class="reveal">
+      Detaljer om transaktioner, du udfører gennem vores tjenester og
+      af opfyldelsen af dine ordrer. Det kan du blive bedt om
+      give økonomiske oplysninger, før du afgiver en ordre igennem
+      vores hjemmeside.
+    </li>
+  </ul>
+  <br />
+  <p class="reveal">
+    Du kan også give oplysninger, der skal offentliggøres eller vises
+    (i det følgende "opslået") på webstedets offentlige områder, eller
+    overføres til andre brugere af hjemmesiden eller tredjeparter
+    (samlet "Brugerbidrag"). Dine brugerbidrag er
+    lagt på og overført til andre på eget ansvar. Selvom vi
+    begrænse adgangen til bestemte sider/du kan angive visse privatlivsindstillinger
+    for sådanne oplysninger ved at logge ind på din kontoprofil, venligst
+    vær opmærksom på, at ingen sikkerhedsforanstaltninger er perfekte eller uigennemtrængelige.
+    Derudover kan vi ikke kontrollere andre brugeres handlinger
+    Tjenester, som du kan vælge at dele din bruger med
+    Bidrag. Derfor kan og garanterer vi ikke, at din
+    Brugerbidrag vil ikke blive set af uautoriserede personer.
+  </p>
+  <br />
+  <p class="reveal">
+    |
+    <i
+      >Oplysninger, vi indsamler gennem automatisk dataindsamling
+      teknologier
+    </i>
+  </p>
+  <br />
+  <p class="reveal">
+    Når du navigerer gennem og interagerer med vores tjenester, kan vi bruge
+    automatiske dataindsamlingsteknologier til at indsamle visse
+    oplysninger om dit udstyr, browserhandlinger og mønstre,
+    inklusive:
+  </p>
+  <ul>
+    <li class="reveal">
+      Detaljer om dine besøg på vores hjemmeside, herunder trafikdata,
+      lokationsdata, logfiler og andre kommunikationsdata og
+      ressourcer, som du tilgår og bruger på hjemmesiden.
+    </li>
+    <li class="reveal">
+      Oplysninger om din computer og internetforbindelse,
+      inklusive din IP-adresse, operativsystem og browsertype.
+    </li>
+  </ul>
+  <br />
+
+  <p class="reveal">
+    De oplysninger, vi indsamler automatisk, kan omfatte personlige
+    Information. Det hjælper os med at forbedre vores tjenester og levere en
+    bedre og mere personlig service, herunder ved at gøre det muligt for os at:
+  </p>
+  <ul>
+    <li class="reveal">
+      Estimer vores publikumsstørrelse og brugsmønstre.
+    </li>
+    <li class="reveal">
+      Gem oplysninger om dine præferencer, så vi kan
+      tilpasse vores hjemmeside efter dine individuelle interesser.
+    </li>
+    <li class="reveal">Fremskynd dine søgninger.</li>
+    <li class="reveal">
+      Genkender dig, når du vender tilbage til vores hjemmeside.
+    </li>
+    <li class="reveal">
+      Markedsfør eller skræddersy information eller indhold baseret på din
+      præferencer.
+    </li>
+  </ul>
+  <br />
+  <p class="reveal">
+  De teknologier, vi bruger til denne automatiske dataindsamling, kan evt
+  omfatte:
+</p>
+<ul>
+  <li class="reveal">
+    <i>Cookies (eller browsercookies)</i>. En cookie er en lille fil
+    placeret på din computers harddisk. Det kan du godt afvise
+    acceptere browsercookies ved at aktivere den relevante indstilling
+    din browser. Men hvis du vælger denne indstilling kan du være det
+    ude af stand til at få adgang til visse dele af vores hjemmeside. Medmindre du har
+    justeret din browserindstilling, så den afviser cookies,
+    vores system vil udstede cookies, når du dirigerer din browser til
+    vores hjemmeside.
+  </li>
+  <li class="reveal">
+    Web Beacons. Sider på vores hjemmeside og vores e-mails kan evt
+    indeholde små elektroniske filer kendt som web beacons (også
+    omtalt som klare gifs, pixel tags og single-pixel gifs)
+    der tillader virksomheden for eksempel at tælle brugere, der har
+    besøgt disse sider eller åbnet en e-mail og for andre relaterede
+    webstedsstatistikker (f.eks. registrering af populariteten af
+    bestemt webstedsindhold og verifikationssystem og server
+    integritet).
+  </li>
+</ul>
+<br />
+
+<p class="reveal">
+  Vi indsamler ikke personlige oplysninger automatisk, men vi kan evt
+  knytte disse oplysninger til personlige oplysninger om dig, som vi
+  indsamle fra andre kilder, eller du giver os.
+</p>
+<hr class="semi" role="separator" />
+<li class="reveal">
+  <h2 class="highlited">Sådan bruger vi dine oplysninger</h2>
+</li>
+<p class="reveal">
+  Vi bruger oplysninger, som vi indsamler om dig, eller som du giver
+  til os, herunder alle personlige oplysninger:
+</p>
+
+<ul>
+  <li class="reveal">
+    At præsentere vores hjemmeside og dens indhold for dig.
+  </li>
+  <li class="reveal">
+    For at give dig tjenesterne og enhver information, produkter,
+    eller tjenester, som du anmoder om fra os.
+  </li>
+  <li class="reveal">
+    For at opfylde ethvert andet formål, som du leverer det til.
+  </li>
+  <li class="reveal">
+    For at give dig meddelelser om din konto/dit abonnement,
+    herunder meddelelser om udløb og fornyelse.
+  </li>
+  <li class="reveal">
+    At udføre vores forpligtelser og håndhæve vores rettigheder, der følger af
+    eventuelle kontrakter indgået mellem dig og os, herunder for
+    fakturering og opkrævning.
+  </li>
+  <li class="reveal">
+    For at underrette dig om ændringer på vores hjemmeside eller produkter eller
+    tjenester, vi tilbyder eller leverer.
+  </li>
+  <li class="reveal">
+    For at give dig mulighed for at deltage i interaktive funktioner på vores
+    Tjenester.
+  </li>
+  <li class="reveal">
+    For at kommunikere med dig og/eller vores kunder vedrørende undersøgelser,
+    markedsundersøgelser mv.
+  </li>
+  <li class="reveal">
+    At analysere, udvikle, forbedre og forbedre virksomhedens forretning
+    inklusive men ikke begrænset til virksomhedens produkter, tjenester,
+    kundeservice, drift, forskning og udvikling.
+  </li>
+  <li class="reveal">
+    For at overholde virksomhedens politikker og gældende love og
+    forskrifter.
+  </li>
+  <li class="reveal">
+    For bedre at forstå vores kunder og slutbrugere og måden de på
+    bruge og interagere med hjemmeside, produkter og tjenester.
+  </li>
+  <li class="reveal">
+    På enhver anden måde kan vi beskrive, hvornår du leverer
+    Information.
+  </li>
+  <li class="reveal">Til ethvert andet formål med dit samtykke.</li>
+</ul>
+<br />
+<p class="reveal">
+  Vi kan også bruge dine oplysninger til at kontakte dig om vores egne og
+  tredjeparts varer og tjenester, der kan være af interesse for dig.
+  Hvis du ikke ønsker, at vi skal bruge dine oplysninger på denne måde, bedes du venligst
+  sæt kryds i det relevante felt på formularen, som vi indsamler på
+  dine data/tilpas dine brugerpræferencer i din kontoprofil.
+  For mere information, se Valg om, hvordan vi bruger og afslører
+  Din information.
+</p>
+<hr class="semi" role="separator" />
+<li class="reveal">
+<h2 class="highlited">Offentliggørelse af dine oplysninger</h2>
+</li>
+<p class="reveal">
+Vi kan afsløre aggregerede oplysninger om vores brugere, og
+oplysninger, der ikke identificerer nogen enkeltperson, uden
+begrænsning.
+</p>
+<br />
+<p class="reveal">
+Vi kan videregive personlige oplysninger, som vi indsamler eller dig
+give som beskrevet i denne privatlivspolitik:
+</p>
+<ul>
+<li class="reveal">
+  Til vores koncernselskaber, datterselskaber og tilknyttede selskaber.
+</li>
+<li class="reveal">
+  Til entreprenører, tjenesteudbydere og andre tredjeparter, vi
+  bruge til at støtte vores forretning, og som er bundet af kontrakt
+  forpligtelser til at holde personlige oplysninger fortrolige og bruge dem
+  kun til de formål, som vi videregiver det til dem. Disse
+  enheder leverer IT- og infrastrukturstøttetjenester og
+  betalingsbehandlingstjenester. Vores betalingsbehandleres privatliv
+  politikker kan findes på https://stripe.com/en-gb-my/privacy.
+</li>
+<li class="reveal">
+  Til en køber eller anden efterfølger i tilfælde af fusion,
+  frasalg, omstrukturering, reorganisering, opløsning eller
+  andet salg eller overdragelse af nogle eller alle Design Barns aktiver,
+  uanset om det er en going concern eller som en del af konkurs,
+  likvidation, eller lignende procedure, hvor personlige
+  information fra Design Barn om vores brugere er blandt de
+  aktiver overført.
+</li>
+<li class="reveal">
+  Vi kræver kontraktmæssigt, at disse tredjeparter holder sig personlige
+  oplysninger fortrolige og kun bruge dem til formålene for
+  som vi afslører det til dem. For mere information, se Valg
+  Om hvordan vi bruger og videregiver dine oplysninger.
+</li>
+<li class="reveal">
+  For at opfylde det formål, som du giver det til. For eksempel hvis
+  du giver os en e-mailadresse for at bruge "Inviter en holdkammerat"
+  funktion i vores tjenester, vil vi bruge denne e-mailadresse til
+  invitere den enkelte til at tilmelde sig tjenesterne. For enhver anden
+  formål oplyst af os, når du giver oplysningerne.
+</li>
+<li class="reveal">
+  Til ethvert andet formål, der oplyses af os, når du leverer
+  Information.
+</li>
+<li class="reveal">Med dit samtykke.</li>
+</ul>
+<br />
+<p class="reveal">
+Vi kan også videregive dine personlige oplysninger:
+</p>
+<ul>
+<li class="reveal">
+  For at overholde enhver retskendelse, lov eller juridisk proces, herunder
+  at reagere på enhver anmodning fra myndigheder eller myndigheder.
+</li>
+<li class="reveal">
+  For at håndhæve eller anvende vores brugsvilkår og andre aftaler,
+  herunder til fakturering og opkrævningsformål.
+</li>
+<li class="reveal">
+  Hvis vi mener, at videregivelse er nødvendig eller passende for at beskytte
+  Design Barns, vores kunders rettigheder, ejendom eller sikkerhed,
+  eller andre. Dette omfatter udveksling af information med andre
+  virksomheder og organisationer med henblik på beskyttelse mod svig
+  og reduktion af kreditrisiko.
+</li>
+</ul>
+<hr class="semi" role="separator" />
+
+<li class="reveal">
+<h2 class="highlited">
+  Valg om, hvordan vi bruger og videregiver dine oplysninger
+</h2>
+</li>
+<p class="reveal">
+Vi kontrollerer ikke indsamlingen og brugen af dine oplysninger
+indsamlet af tredjeparter beskrevet ovenfor i Offentliggørelse af din
+Information. Når det er muligt, er disse organisationer under
+kontraktlige forpligtelser til kun at bruge disse data til at levere
+tjenester til os og for at vedligeholde disse oplysninger strengt
+fortrolig. Disse tredjeparter kan dog aggregere
+oplysninger, de indsamler med oplysninger fra deres anden
+kunder til deres egne formål.
+</p>
+<br />
+<p class="reveal">
+  Vi bestræber os på at give dig valgmuligheder vedrørende det personlige
+  oplysninger, du giver os. Vi har skabt mekanismer til
+  give dig følgende kontrol over dine oplysninger:
+</p>
+<ul>
+  <li class="reveal">
+    Sporingsteknologier og annoncering. Du kan indstille din browser
+    at afvise alle eller nogle browsercookies, eller for at advare dig, hvornår
+    der sendes cookies. For at lære, hvordan du kan administrere din Flash
+    cookie-indstillinger, skal du besøge siden med Flash-afspillerindstillinger på Adobes
+    internet side. Hvis du deaktiverer eller nægter cookies, skal du være opmærksom på, at nogle
+    dele af denne side kan så være utilgængelige eller ikke fungere
+    ordentligt.
+  </li>
+  <li class="reveal">
+    Kampagnetilbud fra virksomheden. Hvis du ikke ønsker at have
+    dine personlige oplysninger brugt af virksomheden til at promovere
+    produkter eller tjenester, kan du fravælge at justere din bruger
+    præferencer i din kontoprofil ved at markere eller fjerne markeringen
+    de relevante bokse eller ved at sende os en mail med angivelse af din
+    anmode om
+    <a
+      class="fremhævet"
+      href="mailto:privacy@slavicmedia.dk"
+      aria-label="Email: privacy@slavicmedia.dk"
+      role="link"
+    >
+      privacy@slavicmedia.dk </a
+    >. Dette fravalg gælder ikke for oplysninger givet til
+    Virksomhed som følge af et produktkøb, garanti
+    registrering, produktserviceoplevelse eller andre transaktioner.
+  </li>
+</ul>
+<br />
+<p class="reveal">
+  Vi kontrollerer ikke tredjeparters indsamling eller brug af din
+  information til at tjene interessebaseret annoncering. Dog disse
+  tredjeparter kan give dig måder at vælge ikke at få din
+  oplysninger indsamlet eller brugt på denne måde. Du kan lære mere
+  om interessebaserede annoncer og dine fravalgsrettigheder og
+  muligheder fra medlemmer af Network Advertising Initiative ("NAI")
+  på sin hjemmeside (www.networkadvertising.org) og fra medlemmer af
+  Digital Advertising Alliance på sin hjemmeside
+  (www.aboutads.info).
+</p>
+<hr class="semi" role="separator" />
+
+<li class="reveal">
+  <h2 class="highlited">
+    Adgang til og rettelse af dine oplysninger
+  </h2>
+</li>
+<ul>
+  <li class="reveal">
+    Du kan gennemgå og ændre dine personlige oplysninger ved at logge
+    ind i Tjenesterne og besøger din kontoprofilside.
+  </li>
+  <li class="reveal">
+    Du kan også sende os en mail på
+    <a
+      class="fremhævet"
+      href="mailto:privacy@slavicmedia.dk"
+      aria-label="Email: privacy@slavicmedia.dk"
+      role="link"
+    >
+      privacy@slavicmedia.dk
+    </a>
+    at anmode om adgang til, rette eller slette eventuelle personlige oplysninger
+    som du har givet os. Vi kan ikke slette alle dine
+    personlige oplysninger undtagen ved også at slette din brugerkonto.
+    Bemærk venligst, at hvis du sletter visse oplysninger, vil Tjenesterne
+    er muligvis ikke fuldt funktionsdygtige. Vi imødekommer muligvis ikke en anmodning om
+    ændre oplysninger, hvis vi mener, at ændringen vil krænke evt
+    lov eller lovkrav eller forårsage, at oplysningerne er
+    ukorrekt.
+  </li>
+  <li class="reveal">
+    Du kan også slette dine oplysninger ved at slette din konto
+    via dine kontoindstillinger.
+  </li>
+  <li class="reveal">
+    Hvis du sletter dine brugerbidrag fra hjemmesiden, kopieres
+    af dine brugerbidrag kan forblive synlige i cachelagret og
+    arkiverede sider eller kan være blevet kopieret eller gemt af andre
+    Hjemmesidebrugere. Korrekt adgang og brug af oplysninger, der er givet på
+    hjemmesiden, inklusive brugerbidrag, er styret af vores
+    vilkår og betingelser.
+  </li>
+</ul>
+<hr class="semi" role="separator" />
+
+<li class="reveal">
+  <h2 class="highlited">Datasikkerhed</h2>
+</li>
+<ul>
+  <li class="reveal">
+    Vi har implementeret foranstaltninger designet til at sikre din personlige
+    oplysninger fra utilsigtet tab og fra uautoriseret adgang,
+    brug, ændring og offentliggørelse. Alle oplysninger du giver til
+    os er gemt på vores sikre servere bag firewalls. Enhver betaling
+    transaktioner vil blive krypteret ved hjælp af SSL-teknologi.
+  </li>
+  <li class="reveal">
+       
+  <li class="reveal">
+  Juridiske forpligtelser: Behandling af personoplysninger er nødvendig for
+  overholdelse af en juridisk forpligtelse, som virksomheden er underlagt
+  emne.
+</li>
+<li class="reveal">
+  Vitale interesser: Behandling af personoplysninger er nødvendig for at kunne
+  for at beskytte dine vitale interesser eller en anden fysisk person.
+</li>
+<li class="reveal">
+  Offentlige interesser: Behandling af personoplysninger er relateret til en opgave
+  der udføres i offentlighedens interesse eller i udøvelsen af
+  Selskabets officielle myndighed.
+</li>
+<li class="reveal">
+  Legitime interesser: Behandling af personoplysninger er nødvendig for
+  formålene med de legitime interesser, som virksomheden forfølger.
+</li>
+<li class="reveal">
+  Under alle omstændigheder hjælper Selskabet gerne med at afklare
+  specifikt retsgrundlag, der gælder for behandlingen, og i
+  især om leveringen af personoplysninger er lovpligtig
+  eller kontraktkrav, eller et krav, der er nødvendigt for at komme ind
+  ind i en kontrakt.
+</li>
+</ul>
+<hr class="semi" role="separator" />
+
+<li class="reveal">
+<h2 class="highlited">Dine rettigheder i henhold til GDPR</h2>
+</li>
+<p class="reveal">
+Lovene i visse jurisdiktioner kan give de registrerede
+forskellige rettigheder i forbindelse med behandling af personoplysninger,
+inklusive:
+</p>
+<ol>
+<li class="reveal">
+  Retten til at trække et tidligere givet samtykke tilbage;
+</li>
+<li class="reveal">
+  Retten til at få adgang til visse oplysninger om dig, som vi
+  behandle;
+</li>
+<li class="reveal">
+  Retten til at få os til at rette eller opdatere personoplysninger;
+</li>
+<li class="reveal">
+  Retten til at få visse personlige data slettet;
+</li>
+<li class="reveal">
+  Retten til at få os midlertidigt at blokere vores behandling af visse
+  Personlig data;
+</li>
+<li class="reveal">
+  Retten til at få persondata eksporteret til fælles
+  maskinlæsbart format
+</li>
+<li class="reveal">
+  Retten til at gøre indsigelse mod vores behandling af personoplysninger i sager
+  af direkte markedsføring, eller når vi stoler på legitime interesser som
+  vores lovlige grundlag for at behandle dine oplysninger;
+</li>
+<li class="reveal">
+  Retten til at indgive en klage med de relevante data
+  beskyttelsesmyndighed.
+</li>
+</ol>
+<br />
+<p class="reveal">
+Hvor vi anses for dataansvarlige i henhold til visse love
+jurisdiktioner, vil vi tage skridt til at sikre, at du er i stand
+at udøve dine rettigheder vedrørende personoplysninger om dig i
+i overensstemmelse med gældende lovgivning. For at gøre det kan du kontakte os på
+<a
+  class="fremhævet"
+  href="mailto:privacy@slavicmedia.dk"
+  aria-label="Email: privacy@slavicmedia.dk"
+  role="link"
+>
+  privacy@slavicmedia.dk </a
+>. Bemærk venligst, at disse rettigheder kan være begrænset i visse tilfælde
+omstændigheder som fastsat i gældende lovgivning. Vi vil straks
+gennemgå alle sådanne anmodninger i overensstemmelse med gældende love.
+Afhængigt af hvor du bor, kan du også have ret til at indgive en
+klage til en tilsynsmyndighed eller en anden tilsynsmyndighed
+hvis du mener, at vi har krænket nogen af rettighederne vedr
+Personlige oplysninger om dig. Vi opfordrer dig til først at nå
+ud til os kl
+<a
+class="fremhævet"
+href="mailto:privacy@slavicmedia.dk"
+aria-label="Email: privacy@slavicmedia.dk"
+role="link"
+>
+privacy@slavicmedia.dk </a
+>, så vi har mulighed for at løse dine bekymringer direkte
+før du gør det.
+</p>
+<hr class="semi" role="separator" />
+
+<li class="reveal">
+<h2 class="highlited">Kontaktoplysninger</h2>
+</li>
+<p class="reveal">
+For at stille spørgsmål eller kommentarer til denne privatlivspolitik og vores
+fortrolighedspraksis, kontakt os på:
+      <a
+        class="highlited"
+        href="mailto:privacy@slavicmedia.dk"
+        aria-label="Email: privacy@slavicmedia.dk"
+        role="link"
+      >
+        privacy@slavicmedia.dk
+      </a>
+    </p>
+  </ol>
+</section>
+
+<hr class="reveal" role="separator" />
+</article>'];
 ?>

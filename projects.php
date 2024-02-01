@@ -1,15 +1,13 @@
 <?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.min.css"
-    />
+
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css" />
     <meta name="description" content="<?php echo $lang['asset_10'] ?>" />
     <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" />
     <title>Projects | Slavic Media</title>
@@ -93,18 +91,15 @@
             <h3>
               <i class="fa-regular fa-circle-play"></i
               ><br class="video-gallery-break" />
-              <?php echo $lang[''] ?>Timetravels
+              <?php echo $lang[''] ?>Timetravels Ltd
 
               <br />
               <span>2024</span>
             </h3>
-            <p>
-              <i class="fa-solid fa-link"></i>&nbsp;
-              <a>timetravels.com</a>
-            </p>
+            <p><i class="fa-solid fa-link"></i>&nbsp; timetravels.com</p>
             <a
               class="vimeo-popup"
-              href="https://www.youtube-nocookie.com/embed/_Td9MCZhy4E?modestbranding=1"
+              href="https://www.youtube-nocookie.com/embed/Nro_svpKDWE?modestbranding=1"
             ></a>
           </div>
         </div>
@@ -123,10 +118,7 @@
               <br />
               <span>2023</span>
             </h3>
-            <p>
-              <i class="fa-solid fa-link"></i>&nbsp;
-              <a>sleddog.se</a>
-            </p>
+            <p><i class="fa-solid fa-link"></i>&nbsp; sleddog.se</p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
@@ -135,7 +127,7 @@
         </div>
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
-            src="img/cover-husetfundament.jpg"
+            src="/img/cover-husetfundament.jpg"
             alt="<?php echo $lang['asset_40'] ?>."
           />
           <div class="gallery-item-caption">
@@ -147,8 +139,7 @@
               <span>2023</span>
             </h3>
             <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-link"></i>&nbsp;
-              <a href>husetfundament.dk</a>
+              <i class="fa-solid fa-link"></i>&nbsp; husetfundament.dk
             </p>
 
             <a
@@ -172,10 +163,7 @@
               <br />
               <span>2023 </span>
             </h3>
-            <p>
-              <i class="fa-solid fa-link"></i>&nbsp;
-              <a href>nicolaikultur.dk</a>
-            </p>
+            <p><i class="fa-solid fa-link"></i>&nbsp; nicolaikultur.dk</p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
@@ -262,486 +250,502 @@
         </div>
       </article>
       <hr class="semi" role="separator" />
-      <article id="visuals">
-        <div class="grid-container photo-grid">
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+      <article class="popup-gallery" id="visuals">
+        <div class="row">
+          <div class="column">
+            <div class="reveal">
               <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2023-12-01-00263.jpg"
+                title="<?php echo $lang['asset_280'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
-                <span>Timetravels</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-12-01-00263.jpg"
-              alt="<?php echo $lang['asset_280'] ?>."
-              title="<?php echo $lang['asset_280'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2023-12-01-00263.jpg"
+                  alt="<?php echo $lang['asset_280'] ?>."
+                  title="<?php echo $lang['asset_280'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2023-11-30-00006.jpg"
+                title="<?php echo $lang['asset_281'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
-                <span>Timetravels</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-11-30-00006.jpg"
-              alt="<?php echo $lang['asset_281'] ?>."
-              title="<?php echo $lang['asset_281'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2023-11-30-00006.jpg"
+                  alt="<?php echo $lang['asset_281'] ?>."
+                  title="<?php echo $lang['asset_281'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.sleddog.se"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2022-12-02-000065.jpg"
+                title="<?php echo $lang['asset_282'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.sleddog.se"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Kiruna Sleddog Tours</a
+            >'
               >
-                <span>Sleddog.se</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-02-000065.jpg"
-              alt="<?php echo $lang['asset_282'] ?>."
-              title="<?php echo $lang['asset_282'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2022-12-02-000065.jpg"
+                  alt="<?php echo $lang['asset_282'] ?>."
+                  title="<?php echo $lang['asset_282'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2023-12-01-00250.jpg"
+                title="<?php echo $lang['asset_283'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
-                <span>Timetravels</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-12-01-00250.jpg"
-              alt="<?php echo $lang['asset_283'] ?>."
-              title="<?php echo $lang['asset_283'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2023-12-01-00250.jpg"
+                  alt="<?php echo $lang['asset_283'] ?>."
+                  title="<?php echo $lang['asset_283'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2023-11-30-00036.jpg"
+                title="<?php echo $lang['asset_284'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
-                <span>Timetravels</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-11-30-00036.jpg"
-              alt="<?php echo $lang['asset_284'] ?>."
-              title="<?php echo $lang['asset_284'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2023-11-30-00036.jpg"
+                  alt="<?php echo $lang['asset_284'] ?>."
+                  title="<?php echo $lang['asset_284'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.timetravels.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2022-12-03-000465.jpg"
+                title="<?php echo $lang['asset_285'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
-                <span>Timetravels</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-12-03-000465.jpg"
-              alt="<?php echo $lang['asset_285'] ?>."
-              title="<?php echo $lang['asset_285'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                <img
+                  src="/img/2022-12-03-000465.jpg"
+                  alt="<?php echo $lang['asset_285'] ?>."
+                  title="<?php echo $lang['asset_285'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.sleddog.se"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                src="/img/hq/2023-12-02-00459.jpg"
+                title="<?php echo $lang['asset_286'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.sleddog.se"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Kiruna Sleddog Tours</a
+            >'
               >
-                <span>Sleddog.se</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-12-02-00459.jpg"
-              alt="<?php echo $lang['asset_286'] ?>."
-              title="<?php echo $lang['asset_286'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
+                <img
+                  src="/img/2023-12-02-00459.jpg"
+                  alt="<?php echo $lang['asset_286'] ?>."
+                  title="<?php echo $lang['asset_286'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://adamsochorec.com/blog/aland"
+                src="/img/hq/2023-05-27-00025.jpg"
+                alt="<?php echo $lang['asset_61'] ?>."
+                title="<?php echo $lang['asset_61'] ?>."
+                year="2023"
+                client='<a
+              href="https://husetfundament.dk/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Huset Fundament</a
+            >'
+              >
+                <img
+                  src="/img/2023-05-27-00025.jpg"
+                  alt="<?php echo $lang['asset_61'] ?>."
+                  title="<?php echo $lang['asset_61'] ?>."
+                  year="2023"
+                  client='<a
+                href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-10-15-00970.jpg"
-              alt="<?php echo $lang['asset_49'] ?>."
-              title="<?php echo $lang['asset_49'] ?>."
-            />
+                >Huset Fundament</a
+              >'
+              /></a>
+            </div>
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2022</p>
-            <p class="note">
+          <div class="column column-padding-1">
+            <div class="reveal">
               <a
-                href="https://adamsochorec.com/blog/aland"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span><?php echo $lang['asset_218'] ?></span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-10-16-00979.jpg"
-              alt="<?php echo $lang['asset_87'] ?>."
-              title="<?php echo $lang['asset_87'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_176'] ?>."
-              title="<?php echo $lang['asset_176'] ?>."
-            />
-          </div>
-          <div class="h-stretch hide-photo-min reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01113.jpg"
-              alt="<?php echo $lang['asset_176'] ?>."
-              title="<?php echo $lang['asset_176'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01096.jpg"
-              alt="<?php echo $lang['asset_177'] ?>."
-              title="<?php echo $lang['asset_177'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
-              <a
-                href="https://touristisrael.com"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Tourist Israel</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-08-29-01059.jpg"
-              alt="<?php echo $lang['asset_178'] ?>."
-              title="<?php echo $lang['asset_178'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2021-04-25-00693.jpg"
-              title="<?php echo $lang['asset_55'] ?>."
-              alt="<?php echo $lang['asset_55'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.divadlonavinohradech.com/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo na Vinohradech</span> &nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2021-04-14-00608.jpg"
-              title="<?php echo $lang['asset_56'] ?>."
-              alt="<?php echo $lang['asset_56'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-09-05-01666.jpg"
-              title="<?php echo $lang['asset_148'] ?>."
-              alt="<?php echo $lang['asset_148'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <img
-              src="/img/hvalp.jpg"
-              alt="<?php echo $lang['asset_150'] ?>."
-              title="<?php echo $lang['asset_150'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.slovo21.cz/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Slovo 21</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2021-06-21-01194.jpg"
-              alt="<?php echo $lang['asset_4'] ?>."
-              title="<?php echo $lang['asset_4'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-11-13-02059.jpg"
-              title="<?php echo $lang['asset_52'] ?>."
-              alt="<?php echo $lang['asset_52'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-08-24-01615.jpg"
-              title="<?php echo $lang['asset_147'] ?>."
-              alt="<?php echo $lang['asset_147'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
-              <a
-                href="https://www.divadlodisk.cz/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
+                src="/img/2022-10-15-00970.jpg"
+                title="<?php echo $lang['asset_49'] ?>."
+                year="2022"
+                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?></a>"
+              >
+                <img
+                  src="/img/2022-10-15-00970.jpg"
+                  alt="<?php echo $lang['asset_49'] ?>."
+                  title="<?php echo $lang['asset_49'] ?>."
+                />
               </a>
-            </p>
-            <img
-              src="/img/2021-06-24-01233.jpg"
-              alt="<?php echo $lang['asset_54'] ?>."
-              title="<?php echo $lang['asset_54'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.sort-hvid.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Sort/Hvid</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-11-13-00267.jpg"
-              title="<?php echo $lang['asset_2'] ?>."
-              alt="<?php echo $lang['asset_2'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <img
-              src="/img/2021-05-28-01020.jpg"
-              title="<?php echo $lang['asset_51'] ?>."
-              alt="<?php echo $lang['asset_51'] ?>."
-            />
-          </div>
+                src="/img/2022-10-16-00979.jpg"
+                title="<?php echo $lang['asset_49'] ?>."
+                year="2022"
+                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?></a>"
+              >
+                <img
+                  src="/img/2022-10-16-00979.jpg"
+                  alt="<?php echo $lang['asset_49'] ?>."
+                  title="<?php echo $lang['asset_49'] ?>."
+                />
+              </a>
+            </div>
 
-          <div class="h-stretch hide-photo-min reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+            <div class="reveal">
               <a
-                href="https://www.husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-09-23-00049.jpg"
-              alt="<?php echo $lang['asset_71'] ?>."
-              title="<?php echo $lang['asset_71'] ?>."
-            />
+                src="/img/hq/2023-08-29-01113.jpg"
+                year="2023"
+                client='<a
+            href="https://touristisrael.com"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            >Tourist Israel</a
+          >'
+              >
+                <img
+                  src="/img/hq/2023-08-29-01113.jpg"
+                  alt="<?php echo $lang['asset_176'] ?>."
+                  title="<?php echo $lang['asset_176'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2023-09-23-00049.jpg"
+                title="<?php echo $lang['asset_71'] ?>."
+                year="2023"
+                client='<a
+              href="https://husetfundament.dk/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Huset Fundament</a
+            >'
+              >
+                <img
+                  src="/img/2023-09-23-00049.jpg"
+                  alt="<?php echo $lang['asset_71'] ?>."
+                  title="<?php echo $lang['asset_71'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2023-09-09-10524.jpg"
+                title="<?php echo $lang['asset_66'] ?>."
+                year="2023"
+                client='<a
+              href="https://husetfundament.dk/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Huset Fundament</a
+            >'
+              >
+                <img
+                  src="/img/2023-09-09-10524.jpg"
+                  alt="<?php echo $lang['asset_66'] ?>."
+                  title="<?php echo $lang['asset_66'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2021-06-24-01208.jpg"
+                year="2021"
+                client='<a
+              href="https://www.divadlodisk.cz/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Divadlo Disk</a
+            >'
+              >
+                <img
+                  src="/img/2021-06-24-01208.jpg"
+                  alt="<?php echo $lang['asset_65'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2021-06-24-01233-2.jpg"
+                title="<?php echo $lang['asset_54'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.divadlodisk.cz/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Divadlo Disk</a
+            >'
+              >
+                <img
+                  src="/img/2021-06-24-01233-2.jpg"
+                  alt="<?php echo $lang['asset_54'] ?>."
+                  title="<?php echo $lang['asset_54'] ?>."
+              /></a>
+            </div>
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+          <div class="column column-padding-2">
+            <div class="reveal">
               <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
-              </a>
-            </p>
-            <img
-              src="/img/2023-09-09-10524.jpg"
-              alt="<?php echo $lang['asset_66'] ?>."
-              title="<?php echo $lang['asset_66'] ?>."
-            />
+                src="/img/hq/2023-08-29-01096.jpg"
+                title="<?php echo $lang['asset_177'] ?>."
+                year="2023"
+                client='<a
+              href="https://touristisrael.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Tourist Israel</a
+            >'
+              >
+                <img
+                  src="/img/2023-08-29-01096.jpg"
+                  alt="<?php echo $lang['asset_177'] ?>."
+                  title="<?php echo $lang['asset_177'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2023-08-29-01059.jpg"
+                title="<?php echo $lang['asset_178'] ?>."
+                year="2023"
+                client='<a
+              href="https://touristisrael.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Tourist Israel</a
+            >'
+              >
+                <img
+                  src="/img/2023-08-29-01059.jpg"
+                  alt="<?php echo $lang['asset_178'] ?>."
+                  title="<?php echo $lang['asset_178'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2021-04-25-00693.jpg"
+                title="<?php echo $lang['asset_55'] ?>."
+                year="2021"
+                client='<a
+              href="ttps://www.divadlonavinohradech.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Divadlo na Vinohradech</a
+            >'
+              >
+                <img
+                  src="/img/2021-04-25-00693.jpg"
+                  title="<?php echo $lang['asset_55'] ?>."
+                  alt="<?php echo $lang['asset_55'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2021-04-14-00608.jpg"
+                title="<?php echo $lang['asset_56'] ?>."
+                year="2021"
+                client='<a
+              href="https://www.divadlonavinohradech.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Divadlo na Vinohradech</a
+            >'
+              >
+                <img
+                  src="/img/2021-04-14-00608.jpg"
+                  title="<?php echo $lang['asset_56'] ?>."
+                  alt="<?php echo $lang['asset_56'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2021-09-05-01666.jpg"
+                title="<?php echo $lang['asset_148'] ?>."
+                year="2021"
+                client=""
+              >
+                <img
+                  src="/img/2021-09-05-01666.jpg"
+                  title="<?php echo $lang['asset_148'] ?>."
+                  alt="<?php echo $lang['asset_148'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/hvalp.jpg"
+                alt="<?php echo $lang['asset_150'] ?>."
+                title="<?php echo $lang['asset_150'] ?>."
+                year="2023"
+                client="Hvalp"
+              >
+                <img
+                  src="/img/hvalp.jpg"
+                  alt="<?php echo $lang['asset_150'] ?>."
+                  title="<?php echo $lang['asset_150'] ?>."
+                  year="2023"
+                  client="Hvalp"
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2023-09-09-10507.jpg"
+                title="<?php echo $lang['asset_67'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.husetfundament.dk"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Huset Fundament</a
+            >'
+              >
+                <img
+                  src="/img/2023-09-09-10507.jpg"
+                  alt="<?php echo $lang['asset_67'] ?>."
+                  title="<?php echo $lang['asset_67'] ?>."
+              /></a>
+            </div>
           </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2021</p>
-            <p class="note">
+          <div class="column">
+            <div class="reveal">
               <a
-                href="https://www.divadlodisk.cz/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Divadlo Disk</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
-              </a>
-            </p>
-            <img
-              src="/img/2021-06-24-01208.jpg"
-              alt="<?php echo $lang['asset_65'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                src="/img/hq/2021-06-21-01194.jpg"
+                title="<?php echo $lang['asset_4'] ?>."
+                year="2021"
+                client='<a
+              href="https://www.slovo21.cz/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Slovo 21</a
+            >'
+              >
+                <img
+                  src="/img/2021-06-21-01194.jpg"
+                  alt="<?php echo $lang['asset_4'] ?>."
+                  title="<?php echo $lang['asset_4'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
-                ></span>
-              </a>
-            </p>
-            <img
-              src="/img/2023-09-09-10507.jpg"
-              alt="<?php echo $lang['asset_67'] ?>."
-              title="<?php echo $lang['asset_67'] ?>."
-            />
-          </div>
-          <div class="h-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                src="/img/hq/2021-11-13-02059.jpg"
+                title="<?php echo $lang['asset_52'] ?>."
+                year="2021"
+                client=""
+              >
+                <img
+                  src="/img/2021-11-13-02059.jpg"
+                  title="<?php echo $lang['asset_52'] ?>."
+                  alt="<?php echo $lang['asset_52'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-05-27-00025.jpg"
-              alt="<?php echo $lang['asset_61'] ?>."
-              title="<?php echo $lang['asset_61'] ?>."
-            />
-          </div>
-          <div class="h-stretch hide-photo-min reveal">
-            <p class="note date">2022</p>
-            <p class="note">
+                src="/img/hq/2021-08-24-01615.jpg"
+                title="<?php echo $lang['asset_147'] ?>."
+                year="2021"
+                client=""
+              >
+                <img
+                  src="/img/2021-08-24-01615.jpg"
+                  title="<?php echo $lang['asset_147'] ?>."
+                  alt="<?php echo $lang['asset_147'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://www.roskilde-festival.dk/da/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Rosklide Festival</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2022-06-28-00708.jpg"
-              alt="<?php echo $lang['asset_70'] ?>."
-              title="<?php echo $lang['asset_70'] ?>."
-            />
-          </div>
-          <div class="v-stretch reveal">
-            <p class="note date">2023</p>
-            <p class="note">
+                src="/img/hq/2023-11-13-00267.jpg"
+                title="<?php echo $lang['asset_2'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.sort-hvid.dk/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Sort/Hvid</a
+            >'
+              >
+                <img
+                  src="/img/2023-11-13-00267.jpg"
+                  title="<?php echo $lang['asset_2'] ?>."
+                  alt="<?php echo $lang['asset_2'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
               <a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                ><span>Huset Fundament</span>&nbsp;&nbsp;<span
-                  ><i class="fa-solid fa-link"></i></span
-              ></a>
-            </p>
-            <img
-              src="/img/2023-09-23-00049.jpg"
-              alt="<?php echo $lang['asset_71'] ?>."
-              title="<?php echo $lang['asset_71'] ?>."
-            />
+                src="/img/hq/2021-05-28-01020.jpg"
+                title="<?php echo $lang['asset_51'] ?>."
+                year="2021"
+                client='<a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              ></a
+            >'
+              >
+                <img
+                  src="/img/2021-05-28-01020.jpg"
+                  title="<?php echo $lang['asset_51'] ?>."
+                  alt="<?php echo $lang['asset_51'] ?>."
+              /></a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/hq/2022-06-28-00708.jpg"
+                title="<?php echo $lang['asset_70'] ?>."
+                year="2023"
+                client='<a
+              href="https://www.roskilde-festival.dk/da/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Rosklide Festival</a
+            >'
+              >
+                <img src="/img/2022-06-28-00708.jpg" alt="<?php echo $lang['asset_70'] ?>."
+                title="<?php echo $lang['asset_70'] ?>."</a
+              >
+            </div>
           </div>
         </div>
       </article>
+
       <!-- PHOTO END -->
     </main>
     <!-- FOOTER START -->
