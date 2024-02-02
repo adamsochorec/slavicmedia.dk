@@ -2,7 +2,7 @@
 <hr class="semi" role="separator" />
 <footer>
   <div class="footer-container">
-  <a href="/" > <img src="/img/logo2.png" alt="Logo Slavic Media" title="Logo Slavic Media" /></a>
+  <a href="/" > <img src="/img/Secondary-1.png" alt="Logo Slavic Media" title="Logo Slavic Media" /></a>
     <?php
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
       include $IPATH . 'social-icons.php';
