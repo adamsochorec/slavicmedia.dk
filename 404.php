@@ -37,7 +37,7 @@
           ></dotlottie-player>
         </div>
         <h1 id="error-heading">
-          The page you’re looking<br />for can't be found.
+          <?php echo $lang['asset_21'] ?>
         </h1>
         <a class="cta" href="http://slavicmedia.dk" role="link"
           ><?php echo $lang['asset_180'] ?></a

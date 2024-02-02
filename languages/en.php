@@ -19,7 +19,7 @@ $lang = [
     "asset_16" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "asset_19" => "Slavic Media is a creative multimedia company that focuses on the production of various brand films, showreels, stills and headshots",
     "asset_20" => "We tell stories with our beautiful videos, well-written scripts, and clean designs to help brands reach their maximum potential. We will do everything possible to turn your vision into reality.",
-    "asset_21" => "",
+    "asset_21" => " The page you’re looking<br />for can't be found.",
     "asset_22" => "Projects",
     "asset_23" => "Portrait of ",
     "asset_24" => "Partner<br class='hide-cta-max'> & <br class='hide-cta-max'>Videographer",
