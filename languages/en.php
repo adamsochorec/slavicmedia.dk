@@ -310,7 +310,7 @@ $lang = [
 relevant browsing experience",
 "asset_229" => "Accept",
 "asset_230" => "Decline",
-"asset_231" => "",
+"asset_231" => "Privacy&nbsp;Policy",
 "asset_232" => "cookies",
 "asset_233" => "Explore Our Projects",
 "asset_234" => "All in",
