@@ -85,13 +85,13 @@
           <img
             src="/img/cover-swedishlapland.jpg"
             class="north-cascades-img"
-            alt="<?php echo $lang[''] ?>."
+            alt="<?php echo $lang['asset_118'] ?>."
           />
           <div class="gallery-item-caption">
             <h3>
               <i class="fa-regular fa-circle-play"></i
               ><br class="video-gallery-break" />
-              <?php echo $lang[''] ?>Timetravels Ltd
+              <?php echo $lang['asset_118'] ?>
 
               <br />
               <span>2024</span>
@@ -103,7 +103,7 @@
             ></a>
           </div>
         </div>
-        <div class="gallery-item reveal">
+        <!--   <div class="gallery-item reveal">
           <img
             src="/img/cover-sleddog.jpg"
             class="north-cascades-img"
@@ -124,7 +124,7 @@
               href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
             ></a>
           </div>
-        </div>
+        </div> -->
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
             src="/img/cover-husetfundament.jpg"
@@ -206,6 +206,29 @@
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
+            ></a>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img
+            src="/img/cover-parkour.jpg"
+            class="north-cascades-img"
+            alt="<?php echo $lang[''] ?>."
+          />
+          <div class="gallery-item-caption">
+            <h3>
+              <i class="fa-regular fa-circle-play"></i
+              ><br class="video-gallery-break" />
+              <?php echo $lang[''] ?>Parkour Škola
+
+              <br />
+              <span>2022</span>
+            </h3>
+            <p><i class="fa-solid fa-link"></i>&nbsp; parkouskola.sk</p>
+            <a
+              class="vimeo-popup"
+              href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
             ></a>
           </div>
         </div>

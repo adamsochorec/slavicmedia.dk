@@ -474,7 +474,6 @@ p a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--black-color), 0.3);
   border-radius: var(--border-radius-5);
   outline: 1px solid white;
 }

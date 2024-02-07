@@ -39,8 +39,7 @@
           } ?>
     </div>
   </div><br><p class="copyright">
-    Copyright ©
-  <span id="current-year"></span>Slavic Media I/S All Rights Reserved.
+    Copyright ©&nbsp;<span id="current-year"></span>&nbsp;Slavic Media I/S All Rights Reserved.
   </p>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"
