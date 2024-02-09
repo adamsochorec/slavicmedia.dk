@@ -12,13 +12,12 @@
   </div>
   <div class="info" id="cookieBannerDescription">
     <p>
-      <?php echo $lang['asset_228'] ?>. <br /><a
+      <?php echo $lang['asset_228'] ?>.<a
         class="highlited"
         href="/privacy-policy"
       >
-        <?php echo $lang['asset_104'] ?>
-        &#8250;</a
-      >
+        <?php echo $lang['asset_104'] ?></a
+      >.
     </p>
   </div>
   <div class="buttons">
