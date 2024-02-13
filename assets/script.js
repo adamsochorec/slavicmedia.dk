@@ -75,6 +75,17 @@ reveal();
     lastScrollTop = st;
   }
 })();
+// DROPDOWN
+document.addEventListener("DOMContentLoaded", function () {
+  var dropDown = document.getElementById("dropDown");
+
+  dropDown.addEventListener("click", function () {
+    var dropDownElements = document.querySelectorAll(".drop-down");
+    dropDownElements.forEach(function (element) {
+      element.classList.toggle("drop-down--active");
+    });
+  });
+});
 
 // YEAR FUNCTION
 const currentYear = new Date().getFullYear();

@@ -28,17 +28,20 @@
       <br />
     
     </div>
-    <div class="language-container">
+    <!-- <div class="language-container">
       <br /><span
         ><i class="fa-solid fa-globe"></i>
-          <?php if($_SESSION['lang']=="da"){
-            echo '<a href="?lang=en">Dansk</a>';
-          }
-          else if($_SESSION['lang']=="en"){
-            echo '<a href="?lang=da">English</a>';
-          } ?>
-    </div>
-  </div><br><p class="copyright">
+        <?php if($_SESSION['lang']=="da"){
+              echo '<a title="English" class="language-switch" href="'.generateLangSwitchURL('en').'">Dansk</a>';
+            }
+            else if($_SESSION['lang']=="en"){
+              echo '<a title="Dansk" class="language-switch" href="'.generateLangSwitchURL('da').'">English</a>';
+            } ?>
+
+
+    </div> -->
+   
+  <br><p class="copyright">
     Copyright ©&nbsp;<span id="current-year"></span>&nbsp;Slavic Media I/S All Rights Reserved.
   </p>
   <script
@@ -53,7 +56,6 @@
   ></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@1.6.2/dist/lottie-interactivity.min.js"></script>
  -->
-
   <script
     src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
     role="script"

@@ -415,7 +415,41 @@ at",
 "asset_318" => "From",
 "asset_319" => "Up to",
 "asset_320" => "The minimum of guaranteed revisions under each plan is equal to the volume of content for each patch",
-"asset_321" => "",
+"asset_321" => "<svg
+aria-label='English'
+xmlns='http://www.w3.org/2000/svg'
+viewBox='0 0 24 24'
+focusable='false'
+aria-hidden='true'
+>
+<mask x='1' y='1' maskUnits='userSpaceOnUse' style='mask-type: alpha'>
+  <circle cx='12' cy='12' r='11' fill='#D9D9D9'></circle>
+</mask>
+<g mask='url(#language_english_svg__a)'>
+  <path fill='#01257D' d='M1 1h22v22H1V1Z'></path>
+  <path
+    fill='#fff'
+    d='m1.842 7.33 2.294-3.277L22.158 16.67l-2.295 3.277z'
+  ></path>
+  <path
+    fill='#fff'
+    d='m19.864 4.052 2.294 3.276L4.136 19.947 1.842 16.67z'
+  ></path>
+  <path fill='#CF1429' d='m2.703 6.1.573-.82L21.298 17.9l-.574.818z'></path>
+  <path
+    fill='#CF1429'
+    d='m20.724 5.281.574.82L3.276 18.718l-.573-.82z'
+  ></path>
+  <path fill='#fff' d='M9 1h6v22H9z'></path>
+  <path fill='#fff' d='M1 15V9h22v6H1Z'></path>
+  <path
+    fill='#CF1429'
+    fill-rule='evenodd'
+    d='M14 1h-4v9H1v4h9v9h4v-9h9v-4h-9V1Z'
+    clip-rule='evenodd'
+  ></path>
+</g>
+</svg>English",
 "asset_322" => "",
 "asset_323" => "",
 "asset_324" => "",
@@ -494,7 +528,7 @@ at",
 "asset_397" => "",
 "asset_398" => "",
 "asset_399" => "",
-"asset_400" => ' <article class="wrapper-wide">
+"asset_400" => '<article class="wrapper-wide">
 <div class="pathname-container"></div>
 <h1 class="reveal">Privacy&nbsp;Policy</h1>
 <div class="pathname-container reveal">

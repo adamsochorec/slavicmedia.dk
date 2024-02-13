@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$supportedLanguages = ['en', 'da'];
+$supportedLanguages = ['en', 'da', 'cz'];
 
 // Default language is English if not set
 if (!isset($_SESSION['lang'])) {

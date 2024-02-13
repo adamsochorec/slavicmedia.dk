@@ -111,7 +111,7 @@ $lang = [
      "asset_114" => "Fotoprojekter",
      "asset_115" => "Rejseprojekter",
      "asset_116" => "Planer og priser",
-     "asset_117" => "",
+     "asset_117" => "Andre",
      "asset_118" => "Timetravels",
      "asset_119" => "Marcel og Adam står på trelandsvarden i Kilpisjärvi",
      "asset_120" => "Marcel og Adam før vandretur til Kebnekaise",
@@ -416,7 +416,17 @@ på",
 "asset_318" => "Fra",
 "asset_319" => "Op til",
 "asset_320" => "Minimumet af garanterede revisioner under hver plan er lig med mængden af indhold for hver patch",
-"asset_321" => "",
+"asset_321" => "<svg aria-label='Danish' id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 190.32 190.56'>
+<g id='Layer_1-2' data-name='Layer 1'>
+  <g>
+    <path class='cls-2' d='m190.32,78.72v33.12c-.36-.02-.72-.07-1.07-.07-24.63,0-49.27,0-73.9,0-.42,0-.84.05-1.28.08-.03.45-.06.77-.06,1.08,0,25.87,0,51.75,0,77.62h-35.28v-78.79c-.67,0-1.18,0-1.69,0-25.12,0-50.24,0-75.35,0-.56,0-1.12.05-1.67.07,0-11.04,0-22.08,0-33.12.16,0,.32.03.48.03,25.71,0,51.42,0,77.13,0,.34,0,.69-.06,1.11-.09V0h35.28v78.74c.6,0,1.04,0,1.47,0,19.39,0,38.79,0,58.18,0,5.56,0,11.12-.01,16.67-.02Z'/>
+    <path class='cls-1' d='m78.72,0v78.65c-.42.04-.77.09-1.11.09-25.71,0-51.42,0-77.13,0-.16,0-.32-.02-.48-.03V0h78.72Z'/>
+    <path class='cls-1' d='m0,111.84c.56-.02,1.12-.07,1.67-.07,25.12,0,50.24,0,75.35,0,.51,0,1.02,0,1.69,0v78.79H0C0,164.32,0,138.08,0,111.84Z'/>
+    <path class='cls-1' d='m190.32,78.72c-5.56,0-11.12.02-16.67.02-19.39,0-38.79,0-58.18,0-.43,0-.87,0-1.47,0V0h76.32v78.72Z'/>
+    <path class='cls-1' d='m114,190.56c0-25.87,0-51.75,0-77.62,0-.31.04-.63.06-1.08.44-.03.86-.08,1.28-.08,24.63,0,49.27,0,73.9,0,.36,0,.72.04,1.07.07v78.72h-76.32Z'/>
+  </g>
+</g>
+</svg>Dansk",
 "asset_322" => "",
 "asset_323" => "",
 "asset_324" => "",

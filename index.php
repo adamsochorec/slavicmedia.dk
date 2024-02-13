@@ -149,16 +149,15 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'swiper-reviews.php';
     ?>
-    <div
-          class="flex-center reveal"
+        <div class="flex-center reveal">
+          <a
+            class="cta"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            href="https://g.page/r/CRTkzopg3plWEB0/review"
           >
-        <a
-        class="cta"          target="_blank"
-          rel="noopener noreferrer nofollow"
-          href="https://g.page/r/CRTkzopg3plWEB0/review"
-        >
             <?php echo $lang['asset_31'] ?>
-        </a>
+          </a>
         </div>
       </article>
       <!-- REVIEWS END -->
@@ -190,10 +189,19 @@
           <article class="wrapper-standard">
             <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
             <button id="playPauseButton" class="play">
-              <i id="playControl" title="Play" class="fa-regular fa-circle-play fa-xl"></i>
-              <i id="pauseControl" title="Pause" class="fa-regular fa-circle-pause fa-xl"></i>
+              <i
+                id="playControl"
+                title="Play"
+                class="fa-regular fa-circle-play fa-xl"
+              ></i>
+              <i
+                id="pauseControl"
+                title="Pause"
+                class="fa-regular fa-circle-pause fa-xl"
+              ></i>
             </button>
-            <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p><br>
+            <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
+            <br />
             <p class="reveal">
               <?php echo $lang['asset_20'] ?>
             </p>
@@ -215,7 +223,7 @@
             <div id="marcel">
               <div class="reveal">
                 <svg
-                title="<?php echo $lang['asset_311'] ?>"
+                  title="<?php echo $lang['asset_311'] ?>"
                   class="note flag"
                   version="1.1"
                   id="Layer_1"
@@ -323,19 +331,19 @@
                 <h4 class="reveal">Marcel H.</h4>
                 <h6 class="reveal">
                   <?php echo $lang['asset_24'] ?>
-                </h5>
+                </h6>
 
                 <div class="social-icons reveal">
-                  <a  href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
+                  <a href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
                     <i title="Phone" class="fa-solid fa-phone"></i>
                   </a>
-                  <a 
+                  <a
                     href="mailto:marcel@slavicmedia.dk"
                     aria-label="Email: marcel@slavicmedia.dk"
                   >
                     <i title="Email" class="fa-solid fa-envelope"></i>
                   </a>
-                  <a 
+                  <a
                     href="https://www.linkedin.com/in/marcelhajik"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -427,40 +435,29 @@
                   style="enable-background: new 0 0 1062 1062"
                   xml:space="preserve"
                   title="<?php echo $lang['asset_310'] ?>"
-
                 >
-                  <style type="text/css">
-                    .st0 {
-                      fill: #fefefe;
-                    }
-                    .st1 {
-                      fill: #d70c12;
-                    }
-                    .st2 {
-                      fill: #09437f;
-                    }
-                  </style>
                   <g>
                     <path
-                      class="st0"
+                      style="fill: #fefefe"
                       d="M0.2,5.1C-0.7,0.9,1,0,5.2,0c350.7,0.1,701.4,0.1,1052.1,0c3.7,0,4.6,0.8,4.6,4.6
-                 c-0.1,176.1-0.1,352.1-0.1,528.2c-2-0.1-4-0.4-5.9-0.4c-91.4,0-182.8,0-274.2,0c-77.6,0-155.2,0-232.8,0c-1.4-1.4-2.8-2.9-4.2-4.3
-                 C364.7,354.8,184.6,181.6,4.4,8.5C3.1,7.2,2.2,5.6,0.2,5.1z"
+                         c-0.1,176.1-0.1,352.1-0.1,528.2c-2-0.1-4-0.4-5.9-0.4c-91.4,0-182.8,0-274.2,0c-77.6,0-155.2,0-232.8,0c-1.4-1.4-2.8-2.9-4.2-4.3
+                         C364.7,354.8,184.6,181.6,4.4,8.5C3.1,7.2,2.2,5.6,0.2,5.1z"
                     />
                     <path
-                      class="st1"
+                      style="fill: #d70c12"
                       d="M549,532.3c77.6,0,155.2,0,232.8,0c91.4,0,182.8,0,274.2,0c2,0,4,0.3,5.9,0.4c0,174.7,0,349.3,0.1,524
-                 c0,4.2-1.1,4.8-5,4.8c-350.8-0.1-701.5-0.1-1052.3-0.2c-1.3,0-4.6,2.5-4.5-1.9c1.6-0.4,2.4-1.7,3.5-2.7
-                 c107.5-103.3,215-206.6,322.4-309.9c34.1-32.8,68.2-65.6,102.3-98.4C468.6,609.7,508.8,571,549,532.3z"
+                         c0,4.2-1.1,4.8-5,4.8c-350.8-0.1-701.5-0.1-1052.3-0.2c-1.3,0-4.6,2.5-4.5-1.9c1.6-0.4,2.4-1.7,3.5-2.7
+                         c107.5-103.3,215-206.6,322.4-309.9c34.1-32.8,68.2-65.6,102.3-98.4C468.6,609.7,508.8,571,549,532.3z"
                     />
                     <path
-                      class="st2"
+                      style="fill: #09437f"
                       d="M549,532.3c-40.2,38.7-80.4,77.4-120.6,116.1c-34.1,32.8-68.2,65.6-102.3,98.4
-                 C218.7,850.1,111.2,953.4,3.7,1056.7c-1.1,1-1.9,2.4-3.5,2.7c0-351.4,0-702.9,0-1054.3c1.9,0.5,2.9,2.1,4.2,3.4
-                 C184.6,181.6,364.7,354.8,544.8,528C546.2,529.4,547.6,530.9,549,532.3z"
+                         C218.7,850.1,111.2,953.4,3.7,1056.7c-1.1,1-1.9,2.4-3.5,2.7c0-351.4,0-702.9,0-1054.3c1.9,0.5,2.9,2.1,4.2,3.4
+                         C184.6,181.6,364.7,354.8,544.8,528C546.2,529.4,547.6,530.9,549,532.3z"
                     />
                   </g>
                 </svg>
+
                 <img
                   src="/img/thumbnail/2022-04-24-07426.jpg"
                   alt="<?php echo $lang['asset_23'] ?> Adam"
@@ -478,16 +475,16 @@
                 </h6>
 
                 <div class="social-icons reveal">
-                  <a  href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
+                  <a href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
                     ><i title="Phone" class="fa-solid fa-phone"></i
                   ></a>
-                  <a 
+                  <a
                     href="mailto:adam@slavicmedia.dk"
                     aria-label="Email: adam@slavicmedia.dk"
                   >
                     <i title="Email" class="fa-solid fa-envelope"></i>
                   </a>
-                  <a 
+                  <a
                     href="https://www.linkedin.com/in/adamsochorec"
                     target="_blank"
                     rel="noopener noreferrer nofollow"

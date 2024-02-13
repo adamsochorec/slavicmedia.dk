@@ -11,8 +11,7 @@
     </span>
   </div>
   <div class="info" id="cookieBannerDescription">
-    <p>
-      <?php echo $lang['asset_228'] ?>.<a
+    <p><?php echo $lang['asset_228'] ?>. <a
         class="highlited"
         href="/privacy-policy"
       >
