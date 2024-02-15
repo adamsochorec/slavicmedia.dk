@@ -28,19 +28,7 @@
       <br />
     
     </div>
-    <!-- <div class="language-container">
-      <br /><span
-        ><i class="fa-solid fa-globe"></i>
-        <?php if($_SESSION['lang']=="da"){
-              echo '<a title="English" class="language-switch" href="'.generateLangSwitchURL('en').'">Dansk</a>';
-            }
-            else if($_SESSION['lang']=="en"){
-              echo '<a title="Dansk" class="language-switch" href="'.generateLangSwitchURL('da').'">English</a>';
-            } ?>
-
-
-    </div> -->
-   
+  </div><
   <br><p class="copyright">
     Copyright ©&nbsp;<span id="current-year"></span>&nbsp;Slavic Media I/S All Rights Reserved.
   </p>

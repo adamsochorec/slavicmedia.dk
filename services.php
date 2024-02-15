@@ -209,7 +209,7 @@
         <section class="flex-center">
           <a class="reveal" href="/projects" id="plans">
             <div class="cta">
-              <?php echo $lang['asset_233'] ?>
+              <?php echo $lang['asset_233'] ?><i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>

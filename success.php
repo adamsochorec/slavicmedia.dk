@@ -32,7 +32,7 @@
           <?php echo $lang['asset_179'] ?>
         </h1>
         <a class="cta" href="/" role="link">
-          <?php echo $lang['asset_180'] ?>
+          <?php echo $lang['asset_180'] ?><i class="fa-solid fa-arrow-right"></i>
         </a>
       </article>
       <div class="pathname-container" role="separator" aria-hidden="true"></div>

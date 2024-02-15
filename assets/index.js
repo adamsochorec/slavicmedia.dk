@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("#homepage header");
+    const dropdown = document.querySelector("#homepage .dropdown-content");
     blurValue = getComputedStyle(document.documentElement)
       .getPropertyValue("--blur-2")
       .trim();
@@ -13,6 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
       header.style.MozBackdropFilter = blurValue; // Unsupported
       header.style.MsBackdropFilter = blurValue; // Unsupported
       header.style.OBackdropFilter = blurValue; // Unsupported
+      dropdown.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+      dropdown.style.backdropFilter = blurValue;
+      dropdown.style.webkitBackdropFilter = blurValue;
+      dropdown.style.MozBackdropFilter = blurValue; // Unsupported
+      dropdown.style.MsBackdropFilter = blurValue; // Unsupported
+      dropdown.style.OBackdropFilter = blurValue; // Unsupported
     } else {
       header.style.backgroundColor = "rgba(0, 0, 0, 0)";
       header.style.backdropFilter = "blur(0px)";
@@ -20,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
       header.style.MozBackdropFilter = "blur(0px)"; // Unsupported
       header.style.MsBackdropFilter = "blur(0px)"; // Unsupported
       header.style.OBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.backgroundColor = "rgba(0, 0, 0, 0)";
+      dropdown.style.backdropFilter = "blur(0px)";
+      dropdown.style.webkitBackdropFilter = "blur(0px)";
+      dropdown.style.MozBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.MsBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.OBackdropFilter = "blur(0px)"; // Unsupported
     }
   });
 });
@@ -28,7 +41,7 @@ const video = document.getElementById("heroVideo"),
   pauseControl = document.getElementById("pauseControl"),
   playControl = document.getElementById("playControl"),
   playPauseButton = document.getElementById("playPauseButton");
-  
+
 function updateControls() {
   if (video.paused) {
     playPauseButton.classList.remove("pause");
@@ -42,12 +55,12 @@ function updateControls() {
     pauseControl.style.display = "unset";
     playControl.style.display = "none";
   }
-} 
-    
-video.addEventListener('pause', updateControls);
-video.addEventListener('play', updateControls);
+}
 
-playPauseButton.addEventListener("click", function() {
+video.addEventListener("pause", updateControls);
+video.addEventListener("play", updateControls);
+
+playPauseButton.addEventListener("click", function () {
   if (video.paused) {
     video.play();
   } else {

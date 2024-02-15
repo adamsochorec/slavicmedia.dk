@@ -55,7 +55,7 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?> &#10230;
+                <?php echo $lang['asset_116'] ?><i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -88,15 +88,13 @@
             alt="<?php echo $lang['asset_118'] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play icon-bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
-              <?php echo $lang['asset_118'] ?>
-
+            Timetravels
               <br />
               <span>2024</span>
             </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; timetravels.com</p>
+            <p>timetravels.com<i class="fa-solid fa-arrow-right"></i></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/Nro_svpKDWE?modestbranding=1"
@@ -111,14 +109,13 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
-              <?php echo $lang['asset_46'] ?>
+            <i class="fa-regular fa-circle-play icon-bubble"></i>
+            <?php echo $lang['asset_46'] ?>
 
               <br />
               <span>2023</span>
             </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; sleddog.se</p>
+            <p><sleddog.se<i class="fa-solid fa-arrow-right"></i></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
@@ -131,15 +128,14 @@
             alt="<?php echo $lang['asset_40'] ?>."
           />
           <div class="gallery-item-caption">
+          <i class="fa-regular fa-circle-play icon-bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               Huset Fundament
               <br />
               <span>2023</span>
             </h3>
             <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-link"></i>&nbsp; husetfundament.dk
+              husetfundament.dk<i class="fa-solid fa-arrow-right"></i>
             </p>
 
             <a
@@ -156,14 +152,13 @@
             alt="<?php echo $lang['asset_38'] ?>."
           />
           <div class="gallery-item-caption">
+          <i class="fa-regular fa-circle-play icon-bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               Repaire Festival
               <br />
               <span>2023 </span>
             </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; nicolaikultur.dk</p>
+            <p>nicolaikultur.dk<i class="fa-solid fa-arrow-right"></i></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
@@ -177,9 +172,8 @@
             alt="<?php echo $lang['asset_218'] ?>."
           />
           <div class="gallery-item-caption">
+          <i class="fa-regular fa-circle-play icon-bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               <?php echo $lang['asset_218'] ?>
               <br />
               <span>2023</span>
@@ -196,10 +190,8 @@
             alt="<?php echo $lang['asset_39'] ?>."
           />
           <div class="gallery-item-caption">
+          <i class="fa-regular fa-circle-play icon-bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
-
               Samsø <br />
               <span>2023</span>
             </h3>
@@ -218,14 +210,15 @@
           />
           <div class="gallery-item-caption">
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
+            <i class="fa-regular fa-circle-play icon-bubble"></i>
+
+         
               <?php echo $lang[''] ?>Parkour Škola
 
               <br />
               <span>2022</span>
             </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; parkouskola.sk</p>
+            <p>parkouskola.sk<i class="fa-solid fa-arrow-right"></i></p>
             <a
               class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
@@ -252,7 +245,7 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -266,7 +259,7 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>

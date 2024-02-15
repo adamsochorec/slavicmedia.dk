@@ -83,14 +83,12 @@
               alt="<?php echo $lang['asset_288'] ?>."
             />
             <div class="gallery-item-caption">
-              <h3>
-                <i class="fa-solid fa-video"></i
-                ><br class="video-gallery-break" />
+            <i class="fa-solid fa-video icon-bubble"></i
+                >
+                <h3>
                 <?php echo $lang['asset_13'] ?>
               </h3>
-              <p>
-                <?php echo $lang['asset_185'] ?>
-              </p>
+             
             </div>
           </a>
           <a
@@ -104,21 +102,20 @@
               title="<?php echo $lang['asset_287'] ?>."
             />
             <div class="gallery-item-caption">
+            <i class="fa-solid fa-camera  icon-bubble"></i
+                >
+
               <h3>
-                <i class="fa-solid fa-camera"></i
-                ><br class="video-gallery-break" />
                 <?php echo $lang['asset_11'] ?>
               </h3>
-              <p>
-                <?php echo $lang['asset_173'] ?>
-              </p>
             </div>
           </a>
         </article>
         <section class="flex-center">
           <a class="reveal" href="/services">
             <div class="cta">
-              <?php echo $lang['asset_101'] ?>
+              <?php echo $lang['asset_101'] ?><i class="fa-solid fa-arrow-right"></i>
+
             </div>
           </a>
         </section>
@@ -156,7 +153,7 @@
             rel="noopener noreferrer nofollow"
             href="https://g.page/r/CRTkzopg3plWEB0/review"
           >
-            <?php echo $lang['asset_31'] ?>
+            <?php echo $lang['asset_31'] ?><i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </article>
@@ -585,11 +582,11 @@
               class="grid-item reveal"
               target="_blank"
               href="https://clients.slavicmedia.dk"
-              ><div class="cta"><?php echo $lang['asset_191'] ?></div>
+              ><div class="cta"><?php echo $lang['asset_191'] ?><i class="fa-solid fa-arrow-right"></i></div>
             </a>
 
             <a class="grid-item reveal" href="/press">
-              <div class="cta"><?php echo $lang['asset_75'] ?></div>
+              <div class="cta"><?php echo $lang['asset_75'] ?><i class="fa-solid fa-arrow-right"></i></div>
             </a>
           </div>
           <!-- CTA END -->
