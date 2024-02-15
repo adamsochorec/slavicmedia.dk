@@ -55,7 +55,8 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?> &#10230;
+                <?php echo $lang['asset_116'] ?>
+                &#10230;
               </a>
             </div>
           </div>
@@ -88,9 +89,8 @@
             alt="<?php echo $lang['asset_118'] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               <?php echo $lang['asset_118'] ?>
 
               <br />
@@ -109,10 +109,10 @@
             class="north-cascades-img"
             alt="<?php echo $lang[''] ?>."
           />
-          <div class="gallery-item-caption">
+          <div class="gallery-item-caption"><i class="fa-regular fa-circle-play bubble"></i
+              >
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
+
               <?php echo $lang['asset_46'] ?>
 
               <br />
@@ -131,9 +131,8 @@
             alt="<?php echo $lang['asset_40'] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               Huset Fundament
               <br />
               <span>2023</span>
@@ -156,9 +155,8 @@
             alt="<?php echo $lang['asset_38'] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               Repaire Festival
               <br />
               <span>2023 </span>
@@ -177,9 +175,8 @@
             alt="<?php echo $lang['asset_218'] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               <?php echo $lang['asset_218'] ?>
               <br />
               <span>2023</span>
@@ -196,10 +193,9 @@
             alt="<?php echo $lang['asset_39'] ?>."
           />
           <div class="gallery-item-caption">
-            <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
+            <i class="fa-regular fa-circle-play bubble"></i>
 
+            <h3>
               Samsø <br />
               <span>2023</span>
             </h3>
@@ -217,9 +213,9 @@
             alt="<?php echo $lang[''] ?>."
           />
           <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
+
             <h3>
-              <i class="fa-regular fa-circle-play"></i
-              ><br class="video-gallery-break" />
               <?php echo $lang[''] ?>Parkour Škola
 
               <br />
@@ -252,7 +248,9 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i
+                  class="fa-solid fa-arrow-right"
+                ></i>
               </a>
             </div>
           </div>

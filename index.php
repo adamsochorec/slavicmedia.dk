@@ -83,9 +83,8 @@
               alt="<?php echo $lang['asset_288'] ?>."
             />
             <div class="gallery-item-caption">
+            <i class="fa-solid fa-video bubble"></i>
               <h3>
-                <i class="fa-solid fa-video"></i
-                ><br class="video-gallery-break" />
                 <?php echo $lang['asset_13'] ?>
               </h3>
               <p>
@@ -104,9 +103,8 @@
               title="<?php echo $lang['asset_287'] ?>."
             />
             <div class="gallery-item-caption">
+            <i class="fa-solid fa-camera bubble"></i>
               <h3>
-                <i class="fa-solid fa-camera"></i
-                ><br class="video-gallery-break" />
                 <?php echo $lang['asset_11'] ?>
               </h3>
               <p>

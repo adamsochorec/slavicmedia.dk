@@ -128,7 +128,7 @@
           aria-labelledby="project"
         ></textarea>
         <button
-          class="submit-btn flex-center"
+          class="submit-btn"
           aria-label="<?php echo $lang['asset_164'] ?>"
           role="button"
           aria-labelledby="submitBtn"

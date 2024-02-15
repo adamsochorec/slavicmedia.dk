@@ -1,12 +1,11 @@
 <?php
 session_start();
 if (isset($_GET['lang'])) {
-    $supportedLanguages = ['en', 'da', 'cz'];
+    $supportedLanguages = ['en', 'da'];
 
      if (isset($_SESSION['lang'])) {
           if ($_SESSION['lang'] == "en") {
                $_SESSION['lang'] = "da";
-               $_SESSION['lang'] = "cz";
           } else {
                $_SESSION['lang'] = "en";
           }
