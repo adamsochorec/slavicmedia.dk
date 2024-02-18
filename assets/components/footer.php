@@ -39,7 +39,7 @@
           } ?>
     </div>
   </div><br><p class="copyright">
-    Copyright ©&nbsp;<span id="current-year"></span>&nbsp;Slavic Media I/S
+    ©&nbsp;<span id="current-year"></span>&nbsp;Slavic Media I/S. Registered Company in Denmark
   </p>
   <script
     src="https://kit.fontawesome.com/0d09e23a84.js"

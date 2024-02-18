@@ -1,4 +1,4 @@
-<section class="swiper reviews-swiper reveal">
+<section class="swiper swiper-reviews reveal">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->

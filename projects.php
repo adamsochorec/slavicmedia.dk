@@ -56,7 +56,7 @@
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
                 <?php echo $lang['asset_116'] ?>
-                &#10230;
+                
               </a>
             </div>
           </div>

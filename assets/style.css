@@ -54,11 +54,7 @@
   --dimension-4: 400px;
 }
 @font-face {
-  font-family: "SF Pro Regular";
-  src: url(/assets/SFProDisplay-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "SF Pro Light";
+  font-family: "SF Pro Display";
   src: url(/assets/SFProDisplay-Light.ttf) format("truetype");
 }
 @font-face {
@@ -227,7 +223,7 @@ hr:not(hr.semi) {
 }
 /* BROWSER SETTINGS START */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: var(--grid-gap-1);
 }
 ::-webkit-scrollbar-track {
   background: rgba(var(--primary-color), 0);
@@ -856,7 +852,7 @@ header a:hover {
 .menu-left a {
   display: inline-block;
   position: relative;
-  padding: 16px 10px;
+  padding: 17px var(--grid-gap-1);
 }
 .menu-left a:hover {
   background-color: rgba(var(--primary-color), 0.4);
@@ -1122,7 +1118,7 @@ button.submit-btn::after {
   ); /* Adjust the width and height based on your icon size */
   height: var(--grid-gap-2);
   vertical-align: bottom;
-  margin-left: var(--grid-gap-1);
+  margin-left: 5px;
   display: inline-block;
 }
 .privacy-container .cta::after {
@@ -1136,8 +1132,14 @@ button.submit-btn::after {
 button.submit-btn {
   min-width: 150px;
   font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .cta:hover,
@@ -2169,11 +2171,11 @@ button.swiper-pagination-bullet {
   display: none;
 }
 .swiper-scrollbar {
-  border-radius: var(--swiper-scrollbar-border-radius, 10px);
+  border-radius: var(--border-radius-2);
   position: relative;
   -ms-touch-action: none;
   touch-action: none;
-  background: var(--swiper-scrollbar-bg-color, rgba(0, 0, 0, 0.1));
+  background: rgba(var(--white-color), 1);
 }
 .swiper-scrollbar-disabled > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-disabled {
@@ -2203,8 +2205,8 @@ button.swiper-pagination-bullet {
   height: 100%;
   width: 100%;
   position: relative;
-  background: var(--swiper-scrollbar-drag-bg-color, rgba(0, 0, 0, 0.5));
-  border-radius: var(--swiper-scrollbar-border-radius, 10px);
+  background: rgba(var(--dark-grey-color), 1);
+  border-radius: var(--border-radius-2);
   left: 0;
   top: 0;
 }
@@ -2595,6 +2597,7 @@ button.swiper-pagination-bullet {
 }
 .bubble {
   background-color: rgba(var(--primary-color), 0.3);
+  -webkit-backdrop-filter: var(--blur-2);
   backdrop-filter: var(--blur-2);
   color: rgb(var(--white-color));
   padding: var(--grid-gap-1);
@@ -3076,7 +3079,7 @@ svg.bubble {
 #services .features-grid .gallery-item {
   background-color: rgba(var(--black-color), 0.3);
   height: 110px;
-  border-left: 2px solid rgba(var(--primary-color), 0.5);
+  border-left: 2px solid rgba(var(--primary-color), 0.3);
   cursor: default;
 }
 #services table {
@@ -3239,12 +3242,16 @@ svg.bubble {
 #playPauseButton {
   background: rgba(0, 0, 0, 0);
   color: rgba(var(--white-color), 0.7);
-  padding: 10px;
+  padding: var(--grid-gap-2);
   border: none;
   cursor: pointer;
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+i.fa-xl,
+.profile i {
+  font-size: var(--grid-gap-2);
 }
 #playControl {
   display: none;
@@ -3255,14 +3262,7 @@ svg.bubble {
 .team-container .intro-section,
 .press-container .intro-section,
 .intro-section .filter {
-  border-radius: var(--border-radius-2);
-  max-width: 880px;
-}
-.team-container .intro-section,
-.press-container .intro-section,
-.intro-section .filter {
-  border-radius: var(--border-radius-2);
-  width: calc(100vw - 2 * var(--homepage-padding));
+  width: 100vw;
 }
 .intro-section .filter {
   background-color: rgba(var(--black-color), 0.7);
@@ -3285,40 +3285,36 @@ svg.bubble {
 #team .profile p {
   margin-bottom: var(--grid-gap-1) !important;
 }
-#adam img,
-#marcel img {
-  border-radius: var(--border-radius-1);
+#team .grid-container-team {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+}
+.swiper-ourteam img {
+  border-radius: var(--border-radius-2);
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
-#marcel .profile,
-#adam .profile,
+.swiper-ourteam .profile,
 .intro-section h3 {
   text-align: center;
 }
 /* OUR TEAM SKILL BAR START */
-#marcel .languages,
-#adam .languages {
+.swiper-ourteam .languages {
   height: 20px;
   padding-left: 5px;
   vertical-align: text-top;
 }
-#adam .skill-bar.faded,
-#adam .skill-bar,
-#marcel .skill-bar.faded,
-#marcel .skill-bar,
+.swiper-ourteam .skill-bar.faded,
+.swiper-ourteam .skill-bar,
 .Progress {
   height: 5px;
 }
-
-#adam .skill-bar.faded .skill-bar,
-#marcel .skill-bar.faded .skill-bar,
+.swiper-ourteam .skill-bar.faded .skill-bar,
 .Progress {
   border-top-left-radius: var(--border-radius-4);
   border-bottom-left-radius: var(--border-radius-4);
 }
-#adam .skill-bar,
-#marcel .skill-bar {
+.swiper-ourteam .skill-bar {
   margin-top: 10px;
   padding: 0;
   position: relative;
@@ -3343,8 +3339,7 @@ svg.bubble {
     opacity: 100%;
   }
 }
-#marcel .skill-bar.faded,
-#adam .skill-bar.faded {
+.swiper-ourteam .skill-bar.faded {
   background-color: rgb(var(--grey-color));
   width: 100%;
   -webkit-animation: none;
@@ -3552,7 +3547,7 @@ p.note span:hover:not(p.note.date) {
   right: var(--grid-gap-1);
 }
 /* REVIEWS START */
-.reviews-swiper .swiper-slide {
+.swiper-reviews .swiper-slide {
   padding: var(--grid-gap-2);
   height: auto !important;
   width: var(--dimension-3);
@@ -3561,20 +3556,20 @@ p.note span:hover:not(p.note.date) {
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
-.reviews-swiper {
+.swiper-reviews {
   border-radius: var(--border-radius-2);
 }
-.reviews-swiper p {
+.swiper-reviews p {
   padding: 0;
   font-size: var(--fontsize-note);
 }
-.reviews-swiper .quotes {
+.swiper-reviews .quotes {
   font-size: 32px;
   color: white;
   padding: 0;
   margin: 0;
 }
-.reviews-swiper img {
+.swiper-reviews img {
   height: 55px;
   width: 55px;
   -o-object-fit: cover;
@@ -3583,15 +3578,15 @@ p.note span:hover:not(p.note.date) {
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
 }
-.reviews-swiper .grid-container {
+.swiper-reviews .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: var(--grid-gap-1);
 }
-.reviews-swiper .rewiews-message {
+.swiper-reviews .rewiews-message {
   margin: var(--grid-gap-1) 0;
 }
-.reviews-swiper .stars {
+.swiper-reviews .stars {
   display: inline-block;
   font-size: var(--fontsize-note);
   color: gold;
@@ -3703,7 +3698,8 @@ p.note span:hover:not(p.note.date) {
   #team .skills-section .grid-item:nth-child(1) {
     margin-right: var(--grid-gap-3);
   }
-  #team .skills-section .grid-item:nth-child(2) {
+  #team .skills-section .grid-item:nth-child(2),
+  #team .skills-section .grid-item:nth-child(3) {
     margin-left: var(--grid-gap-3);
   }
   .gallery .reveal {

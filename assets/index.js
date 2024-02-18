@@ -28,7 +28,7 @@ const video = document.getElementById("heroVideo"),
   pauseControl = document.getElementById("pauseControl"),
   playControl = document.getElementById("playControl"),
   playPauseButton = document.getElementById("playPauseButton");
-  
+
 function updateControls() {
   if (video.paused) {
     playPauseButton.classList.remove("pause");
@@ -42,12 +42,12 @@ function updateControls() {
     pauseControl.style.display = "unset";
     playControl.style.display = "none";
   }
-} 
-    
-video.addEventListener('pause', updateControls);
-video.addEventListener('play', updateControls);
+}
 
-playPauseButton.addEventListener("click", function() {
+video.addEventListener("pause", updateControls);
+video.addEventListener("play", updateControls);
+
+playPauseButton.addEventListener("click", function () {
   if (video.paused) {
     video.play();
   } else {
@@ -136,7 +136,7 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
-const reviewsSwiper = new Swiper(".reviews-swiper", {
+const reviewsSwiper = new Swiper(".swiper-reviews", {
   loop: true,
   speed: 600,
   spaceBetween: 15,
@@ -166,3 +166,46 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   loop: true,
 });
 // RATING SWIPER END
+
+// OUR TEAM SWIPER START
+const ourteamSwiper = new Swiper(".swiper-ourteam", {
+  preloadImages: false,
+  lazyLoading: true,
+  observer: true,
+  observeParents: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 2.3,
+      spaceBetween: 15,
+    },
+    375: {
+      slidesPerView: 2.3,
+      spaceBetween: 15,
+    },
+    620: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    947: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+  // Optional parameters
+  direction: "horizontal",
+});
+// OUR TEAM END
