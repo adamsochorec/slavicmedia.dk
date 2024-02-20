@@ -427,10 +427,10 @@ på",
   </g>
 </g>
 </svg>Dansk",
-"asset_322" => "",
-"asset_323" => "",
-"asset_324" => "",
-"asset_325" => "",
+"asset_322" => "Salg",
+"asset_323" => "Ydeevne",
+"asset_324" => "Markedsføring",
+"asset_325" => "Virksomhedsrådgivning",
 "asset_326" => "",
 "asset_327" => "",
 "asset_328" => "",
@@ -1171,6 +1171,5 @@ fortrolighedspraksis, kontakt os på:
   </ol>
 </section>
 
-<hr class="reveal" role="separator" />
 </article>'];
 ?>

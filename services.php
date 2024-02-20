@@ -33,8 +33,7 @@
         <hr class="reveal" role="separator" />
         <!-- FEATURES START -->
         <article
-          id="visual"
-          class="video-gallery features-grid"
+          class="gallery" id="gallery-features"
           aria-label="Features Grid"
         >
           <div class="gallery-item reveal">
@@ -89,7 +88,7 @@
         <section class="flex-center">
           <a class="reveal" href="/projects" id="plans">
             <div class="cta">
-              <?php echo $lang['asset_233'] ?>
+              <?php echo $lang['asset_233'] ?><i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>
@@ -153,7 +152,7 @@
               aria-checked="false"
               tabindex="0"
             >
-              <p>
+             
                 <a
                   class="higlited"
                   title="<?php echo $lang['asset_309'] ?>"
@@ -162,9 +161,9 @@
                   href="https://taxation-customs.ec.europa.eu/what-vat_en"
                 >
                   <i class="fa-solid fa-circle-info"></i>
-                  <?php echo $lang['asset_307'] ?>
+                 <p><?php echo $lang['asset_307'] ?></p> 
                 </a>
-              </p>
+              
             </label>
 
             <label
@@ -965,12 +964,12 @@
 
         <hr id="proposal" class="reveal" />
       </article>
-      <!-- CTA  START  -->
+      <!-- CONTACT FORM  START  -->
       <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'contact-form.php';
     ?>
-      <!-- CTA  END  -->
+      <!-- CONTACT FORM  END  -->
     </main>
     <!-- FOOTER START -->
     <?php

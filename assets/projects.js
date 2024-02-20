@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $(".video-gallery").magnificPopup({
-    delegate: ".vimeo-popup", // Adjusted to target your specific link class
+  $(".gallery").magnificPopup({
+    delegate: "a", // Adjusted to target your specific link class
     type: "iframe", // Type is iframe for videos
     gallery: {
       enabled: true,
@@ -10,6 +10,10 @@ $(document).ready(function () {
         '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
       tPrev: "Previous",
       tNext: "Next",
+    },
+    zoom: {
+      enabled: true,
+      duration: 300, // don't foget to change the duration also in CSS
     },
     titleSrc: function (item) {
       // Fetching custom attributes for videos
@@ -39,6 +43,10 @@ $(document).ready(function () {
       navigateByImgClick: true,
       preload: [0, 1], // Preload 0 - before current, and 1 after the current image
     },
+    zoom: {
+      enabled: true,
+      duration: 300, // don't foget to change the duration also in CSS
+    },
     image: {
       tError:
         '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>',
@@ -56,6 +64,7 @@ $(document).ready(function () {
         return item.el.attr("src");
       },
     },
+
     callbacks: {
       elementParse: function (item) {
         // Function to handle each image source

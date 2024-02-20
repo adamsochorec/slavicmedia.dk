@@ -11,12 +11,12 @@
     </span>
   </div>
   <div class="info" id="cookieBannerDescription">
-    <p><?php echo $lang['asset_228'] ?>. <a
-        class="highlited"
-        href="/privacy-policy"
-      >
-        <?php echo $lang['asset_104'] ?></a
-      >.
+    <p>
+      <?php echo $lang['asset_228'] ?>.
+      <a class="highlited" href="/privacy-policy">
+        <?php echo $lang['asset_104'] ?>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
     </p>
   </div>
   <div class="buttons">

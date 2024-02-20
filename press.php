@@ -41,7 +41,7 @@
         </div>
         <hr class="reveal" role="separator" />
         <!-- PRESS MATERIALS GRID START -->
-        <div class="grid-container gallery reveal">
+        <div class="reveal" id="gallery-press">
           <!-- BRAND GUIDE START -->
           <div
             class="gallery-item"
@@ -57,9 +57,12 @@
               <div class="grid-item" id="brand-guide">
                 <div class="blur">
                   <span aria-label="<?php echo $lang['asset_84'] ?>">
-                    <?php echo $lang['asset_84'] ?>
-                    &#8250;</span
-                  >
+                    <p>
+                      <?php echo $lang['asset_84'] ?><i
+                        class="fa-solid fa-arrow-right"
+                      ></i>
+                    </p>
+                  </span>
                 </div>
               </div>
             </a>
@@ -83,9 +86,12 @@
               <div class="grid-item" id="credit-guide">
                 <div class="blur">
                   <span aria-label="<?php echo $lang['asset_84'] ?>">
-                    <?php echo $lang['asset_84'] ?>
-                    &#8250;</span
-                  >
+                    <p>
+                      <?php echo $lang['asset_84'] ?><i
+                        class="fa-solid fa-arrow-right"
+                      ></i>
+                    </p>
+                  </span>
                 </div>
               </div>
             </a>
@@ -109,9 +115,12 @@
               <div class="grid-item" id="press-kit">
                 <div class="blur">
                   <span aria-label="<?php echo $lang['asset_83'] ?>">
-                    <?php echo $lang['asset_83'] ?>
-                    &#8250;</span
-                  >
+                    <p>
+                      <?php echo $lang['asset_83'] ?><i
+                        class="fa-solid fa-arrow-right"
+                      ></i>
+                    </p>
+                  </span>
                 </div>
               </div>
             </a>

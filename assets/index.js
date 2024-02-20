@@ -2,12 +2,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("#homepage header");
-    blurValue = getComputedStyle(document.documentElement)
-      .getPropertyValue("--blur-2")
-      .trim();
+    blurValue = getComputedStyle(document.documentElement).getPropertyValue(
+      "--blur-1"
+    );
+    const darkGreyValue = getComputedStyle(
+      document.documentElement
+    ).getPropertyValue("--dark-grey-color-full");
 
-    if (window.pageYOffset > 680) {
-      header.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+    if (window.pageYOffset > 530) {
+      header.style.backgroundColor = darkGreyValue;
       header.style.backdropFilter = blurValue;
       header.style.webkitBackdropFilter = blurValue;
       header.style.MozBackdropFilter = blurValue; // Unsupported
@@ -136,10 +139,16 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
+const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-2"
+);
+const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-3"
+);
 const reviewsSwiper = new Swiper(".swiper-reviews", {
   loop: true,
   speed: 600,
-  spaceBetween: 15,
+  spaceBetween: gridGap2,
   autoplay: {
     delay: 3000,
   },
@@ -190,19 +199,16 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   breakpoints: {
     0: {
       slidesPerView: 2.3,
-      spaceBetween: 15,
+      spaceBetween: gridGap2,
     },
+
     375: {
       slidesPerView: 2.3,
-      spaceBetween: 15,
+      spaceBetween: gridGap2,
     },
     620: {
       slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    947: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: gridGap3,
     },
   },
   // Optional parameters

@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['lang'] ?>">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
@@ -19,38 +23,28 @@
     <!-- HEADER END -->
 
     <main>
-      <!-- VISUALS START -->
-      <article id="visuals" role="region" aria-label="Visuals">
-        <!-- INTRO VIDEO START -->
-        <section class="showcase">
-          <div class="video-container">
-            <video
-              src="/img/showreel.mp4"
-              loop="true"
-              autoplay="autoplay"
-              muted
-              class="video-offload video-control"
-              preload="auto"
-              aria-label="Intro Video"
-              playsinline
-              role="video"
-              aria-describedby="Hero video"
-              poster="/img/showreel.png"
-            ></video>
-          </div>
-          <a href="/#<?php echo $lang['asset_101'] ?>" class="explore reveal">
-            <?php
-              $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-              include $IPATH . 'scroll.php';
-            ?>
-          </a>
-        </section>
-        <!-- INTRO VIDEO END -->
+      <!-- INTRO VIDEO START -->
+      <article class="showcase">
+        <div class="video-container">
+          <video
+            src="/img/showreel.mp4"
+            loop="true"
+            autoplay="autoplay"
+            muted
+            class="video-offload video-control"
+            preload="auto"
+            aria-label="Intro Video"
+            playsinline
+            role="video"
+            aria-describedby="Hero video"
+            poster="/img/showreel.png"
+          ></video>
+        </div>
       </article>
-      <!-- VISUALS END -->
+      <!-- INTRO VIDEO END -->
       <!-- COMPANY CAPTIONS START -->
       <article class="wrapper-wide" id="company-intro">
-        <br id="<?php echo $lang['asset_101'] ?>" />
+        <br />
 
         <!-- SERVICES START -->
         <div
@@ -73,7 +67,7 @@
         <!-- FEATURES START -->
         <article
           id="visual"
-          class="video-gallery features-grid"
+          class="gallery" id="gallery-features"
           aria-label="<?php echo $lang['asset_105'] ?>"
         >
           <a href="/projects" class="gallery-item reveal">
@@ -116,7 +110,7 @@
         <section class="flex-center">
           <a class="reveal" href="/services">
             <div class="cta">
-              <?php echo $lang['asset_101'] ?>
+              <?php echo $lang['asset_101'] ?><i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>
@@ -154,60 +148,59 @@
             rel="noopener noreferrer nofollow"
             href="https://g.page/r/CRTkzopg3plWEB0/review"
           >
-            <?php echo $lang['asset_31'] ?>
+            <?php echo $lang['asset_31'] ?><i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </article>
       <!-- REVIEWS END -->
-      <hr class="semi" id="team" />
+      <hr class="semi" id="ourteam" />
       <!-- COMPANY CAPTIONS END -->
 
       <!-- OUR TEAM START -->
       <!-- OUR TEAM INTRO SECTION START -->
       <article
-        class="team-container reveal"
+        class="team-container intro-section reveal"
+        id="ourteam"
         role="region"
         aria-label="<?php echo $lang['asset_18'] ?>"
       >
-        <div class="intro-section flex-center">
-          <video
-            id="heroVideo"
-            src="/img/showreel-ourteam.mp4"
-            loop="true"
-            autoplay="autoplay"
-            muted
-            preload="auto"
-            playsinline
-            class="video-offload filter"
-            aria-label="<?php echo $lang['asset_18'] ?> Video"
-            role="video"
-            aria-describedby="<?php echo $lang['asset_18'] ?> cover video"
-            poster="/img/showreel-ourteam.png"
-          ></video>
-          <article class="wrapper-standard">
-            <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
-            <button id="playPauseButton" class="play">
-              <i
-                id="playControl"
-                title="Play"
-                class="fa-regular fa-circle-play fa-xl"
-              ></i>
-              <i
-                id="pauseControl"
-                title="Pause"
-                class="fa-regular fa-circle-pause fa-xl"
-              ></i>
-            </button>
-            <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
-            <br />
-            <p class="reveal">
-              <?php echo $lang['asset_20'] ?>
-            </p>
-          </article>
-        </div>
+        <video
+          id="heroVideo"
+          src="/img/showreel-ourteam.mp4"
+          loop="true"
+          autoplay="autoplay"
+          muted
+          preload="auto"
+          playsinline
+          class="video-offload filter"
+          aria-label="<?php echo $lang['asset_18'] ?> Video"
+          role="video"
+          aria-describedby="<?php echo $lang['asset_18'] ?> cover video"
+          poster="/img/showreel-ourteam.png"
+        ></video>
+        <article class="wrapper-standard">
+          <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
+          <button id="playPauseButton" class="play">
+            <i
+              id="playControl"
+              title="Play"
+              class="fa-regular fa-circle-play fa-xl"
+            ></i>
+            <i
+              id="pauseControl"
+              title="Pause"
+              class="fa-regular fa-circle-pause fa-xl"
+            ></i>
+          </button>
+          <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
+          <br />
+          <p class="reveal">
+            <?php echo $lang['asset_20'] ?>
+          </p>
+        </article>
       </article>
       <!-- OUR TEAM INTRO SECTION END -->
-      <article id="team" class="wrapper-wide">
+      <article class="wrapper-wide">
         <hr class="semi" role="separator" />
         <!-- TEAM SECTION START -->
 
@@ -222,40 +215,24 @@
         </section>
       </article>
       <!-- COLLABORATORS AND CLIENTS END -->
-      <!-- CTA SECTION START -->
-      <section
-        class="press-container reveal"
+      <article
+        class="intro-section flex-center reveal"
+        id="forpress"
         role="region"
         aria-label="Press Section"
       >
-        <div class="intro-section flex-center">
-          <div class="filter"></div>
-          <article class="wrapper-standard" id="clients">
-            <h3 class="reveal">
-              <?php echo $lang['asset_36'] ?>
-            </h3>
-            <?php
+        <div class="filter"></div>
+        <article class="wrapper-wide" id="clients">
+          <h3 class="reveal">
+            <?php echo $lang['asset_36'] ?>
+          </h3>
+          <?php
             $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
             include $IPATH . 'clients.php';
             ?>
-          </article>
-          <!-- CTA START -->
-          <div class="grid-container fifty-fifty">
-            <a
-              class="grid-item reveal"
-              target="_blank"
-              href="https://clients.slavicmedia.dk"
-              ><div class="cta"><?php echo $lang['asset_191'] ?></div>
-            </a>
-
-            <a class="grid-item reveal" href="/press">
-              <div class="cta"><?php echo $lang['asset_75'] ?></div>
-            </a>
-          </div>
-          <!-- CTA END -->
-        </div>
-      </section>
-      <!-- CTA SECTION END -->
+        </article>
+      
+      </article>
       <!-- COLLABORATORS AND CLIENTS END -->
       <!-- OUR TEAM END -->
     </main>
@@ -264,6 +241,10 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'footer.php';
     ?>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      role="script"
+    ></script>
     <script type="text/javascript" src="/assets/index.js" defer></script>
     <script
       type="text/javascript"

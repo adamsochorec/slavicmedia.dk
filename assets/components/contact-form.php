@@ -133,7 +133,7 @@
           role="button"
           aria-labelledby="submitBtn"
         >
-          <?php echo $lang['asset_164'] ?>
+          <?php echo $lang['asset_164'] ?><i class="fa-solid fa-arrow-right"></i>
         </button>
         <input
           type="hidden"

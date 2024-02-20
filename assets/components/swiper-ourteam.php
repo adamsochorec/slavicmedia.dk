@@ -105,8 +105,8 @@
         </svg>
         <img
           src="/img/thumbnail/2022-04-24-07404.jpg"
-          alt="<?php echo $lang['asset_23'] ?>Marcel"
-          title="<?php echo $lang['asset_23'] ?>Marcel"
+          alt="<?php echo $lang['asset_23'] ?>Marcel H."
+          title="<?php echo $lang['asset_23'] ?>Marcel H."
           class="reveal"
           aria-label="Marcel's Portrait"
         />
@@ -162,7 +162,7 @@
           </ul>
         </div>
         <div class="skill-bar faded">
-          <span data-view-component="true" class="Progress">
+          <span data-view-component="true" class="progress">
             <span
               class="responsibility-1"
               style="width: 50%"
@@ -236,11 +236,11 @@
 
         <img
           src="/img/thumbnail/2022-04-24-07426.jpg"
-          alt="<?php echo $lang['asset_23'] ?> Adam"
-          title="<?php echo $lang['asset_23'] ?> Adam"
+          alt="<?php echo $lang['asset_23'] ?>Adam S."
+          title="<?php echo $lang['asset_23'] ?>Adam S."
           class="reveal"
           role="img"
-          aria-label="<?php echo $lang['asset_23'] ?> Adam"
+          aria-label="<?php echo $lang['asset_23'] ?>Adam S."
         />
       </div>
 
@@ -294,7 +294,7 @@
           </ul>
         </div>
         <div class="skill-bar faded">
-          <span data-view-component="true" class="Progress">
+          <span data-view-component="true" class="progress">
             <span
               class="responsibility-1"
               style="width: 10%"
@@ -368,12 +368,12 @@
         </svg>
 
         <img
-          src="/img/thumbnail/IMG_5230.jpg"
-          alt="<?php echo $lang['asset_23'] ?> Ján"
-          title="<?php echo $lang['asset_23'] ?> Ján"
+          src="/img/thumbnail/IMG_7306.jpg"
+          alt="<?php echo $lang['asset_23'] ?>Ján D."
+          title="<?php echo $lang['asset_23'] ?>Ján D."
           class="reveal"
           role="img"
-          aria-label="<?php echo $lang['asset_23'] ?> Ján"
+          aria-label="<?php echo $lang['asset_23'] ?>Ján D."
         />
       </div>
 
@@ -411,47 +411,47 @@
         <div class="grid-container fifty-fifty">
           <ul class="languages-legend">
             <li class="responsibility-1">
-              <?php echo $lang['asset_160'] ?>
+              <?php echo $lang['asset_322'] ?>
             </li>
             <li class="responsibility-3">
-              <?php echo $lang['asset_166'] ?>
+              <?php echo $lang['asset_323'] ?>
             </li>
           </ul>
           <ul class="languages-legend">
             <li class="responsibility-2">
-              <?php echo $lang['asset_161'] ?>
+            <?php echo $lang['asset_324'] ?>
             </li>
             <li class="responsibility-4">
-              <?php echo $lang['asset_167'] ?>
+              <?php echo $lang['asset_325'] ?>
             </li>
           </ul>
         </div>
         <div class="skill-bar faded">
-          <span data-view-component="true" class="Progress">
+          <span data-view-component="true" class="progress">
             <span
               class="responsibility-1"
-              style="width: 10%"
+              style="width: 25%"
               itemprop="keywords"
               aria-label="<?php echo $lang['asset_160'] ?>"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-2"
-              style="width: 40%"
+              style="width: 25%"
               itemprop="keywords"
               aria-label="<?php echo $lang['asset_161'] ?>"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-3"
-              style="width: 30%"
+              style="width: 25%"
               itemprop="keywords"
               aria-label="<?php echo $lang['asset_166'] ?>"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-4"
-              style="width: 30%"
+              style="width: 25%"
               itemprop="keywords"
               aria-label="<?php echo $lang['asset_167'] ?>"
               data-view-component="true"

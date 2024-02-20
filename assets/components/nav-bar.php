@@ -31,7 +31,7 @@
             <a href="/projects"><?php echo $lang['asset_102'] ?></a>
           </li>
           <li role="menuitem">
-            <a href="/#team"
+            <a href="/#ourteam"
               ><?php echo $lang['asset_18'] ?></a
             >
           </li>

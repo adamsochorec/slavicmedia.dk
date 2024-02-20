@@ -400,6 +400,4 @@
   </div>    
    -->
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination" role="group" aria-label="Pagination"></div>
 </section>

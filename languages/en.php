@@ -450,10 +450,10 @@ aria-hidden='true'
   ></path>
 </g>
 </svg>English",
-"asset_322" => "",
-"asset_323" => "",
-"asset_324" => "",
-"asset_325" => "",
+"asset_322" => "Sales",
+"asset_323" => "Performance",
+"asset_324" => "Marketing",
+"asset_325" => "Business Consulting",
 "asset_326" => "",
 "asset_327" => "",
 "asset_328" => "",
@@ -540,8 +540,7 @@ aria-hidden='true'
 </div>
 <span class="date reveal"
   ><p class="reveal">
-    |
-    <i>Last Modified: December 2023</i>
+    Last Modified: December 2023
   </p></span
 >
 <hr class="reveal" role="separator" />
@@ -726,10 +725,10 @@ aria-hidden='true'
     <br />
     <p class="reveal">
       |
-      <i
-        >Information We Collect Through Automatic Data Collection
-        Technologies
-      </i>
+      
+        <span class="highlited">Information We Collect Through Automatic Data Collection
+        Technologies</span>
+      
     </p>
     <br />
     <p class="reveal">
@@ -780,7 +779,7 @@ aria-hidden='true'
     </p>
     <ul>
       <li class="reveal">
-        <i>Cookies (or browser cookies)</i>. A cookie is a small file
+        <span class="highlited">Cookies (or browser cookies)</span>. A cookie is a small file
         placed on the hard drive of your computer. You may refuse to
         accept browser cookies by activating the appropriate setting on
         your browser. However, if you select this setting you may be
@@ -1260,7 +1259,6 @@ aria-hidden='true'
   </ol>
 </section>
 
-<hr class="reveal" role="separator" />
 </article>',
 ];
 ?>

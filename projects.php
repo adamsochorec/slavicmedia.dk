@@ -55,8 +55,9 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
-                
+                <?php echo $lang['asset_116'] ?><i
+                  class="fa-solid fa-arrow-right"
+                ></i>
               </a>
             </div>
           </div>
@@ -70,7 +71,9 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i
+                  class="fa-solid fa-arrow-right"
+                ></i>
               </a>
             </div>
           </div>
@@ -78,27 +81,25 @@
         <hr class="semi" role="separator" />
       </article>
       <article
-        id="visuals"
-        class="wrapper-wide video-gallery"
+        class="wrapper-wide gallery"
+        id="gallery-video"
         aria-label="Video Gallery"
       >
         <div class="gallery-item reveal">
           <img
             src="/img/cover-swedishlapland.jpg"
-            class="north-cascades-img"
             alt="<?php echo $lang['asset_118'] ?>."
           />
           <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h3>
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <h4>
               <?php echo $lang['asset_118'] ?>
-
-              <br />
-              <span>2024</span>
-            </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; timetravels.com</p>
+            </h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
             <a
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/Nro_svpKDWE?modestbranding=1"
             ></a>
           </div>
@@ -106,21 +107,18 @@
         <!--   <div class="gallery-item reveal">
           <img
             src="/img/cover-sleddog.jpg"
-            class="north-cascades-img"
             alt="<?php echo $lang[''] ?>."
           />
           <div class="gallery-item-caption"><i class="fa-regular fa-circle-play bubble"></i
               >
-            <h3>
+            <h4>
 
               <?php echo $lang['asset_46'] ?>
-
-              <br />
-              <span>2023</span>
-            </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; sleddog.se</p>
+        
+            </h4>
+            <p>2023&nbsp;|&nbsp;<span>sleddog.se</span><i class="fa-solid fa-arrow-right"></i></p>
             <a
-              class="vimeo-popup"
+              
               href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
             ></a>
           </div>
@@ -132,18 +130,13 @@
           />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
-            <h3>
-              Huset Fundament
-              <br />
-              <span>2023</span>
-            </h3>
-            <p aria-label="<?php echo $lang['asset_129'] ?>husetfundament.dk">
-              <i class="fa-solid fa-link"></i>&nbsp; husetfundament.dk
+            <h4>Huset Fundament</h4>
+            <p>
+              2023&nbsp;|&nbsp;<span>husetfundament.dk</span
+              ><i class="fa-solid fa-arrow-right"></i>
             </p>
-
             <a
               aria-label="<?php echo $lang['asset_127'] ?>"
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/XBqSmnszKrI?modestbranding=1"
             ></a>
           </div>
@@ -156,14 +149,12 @@
           />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
-            <h3>
-              Repaire Festival
-              <br />
-              <span>2023 </span>
-            </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; nicolaikultur.dk</p>
+            <h4>Repaire Festival</h4>
+            <p>
+              2023&nbsp;|&nbsp;<span>nicolaikultur.dk</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
             <a
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
             ></a>
           </div>
@@ -176,13 +167,12 @@
           />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
-            <h3>
+            <h4>
               <?php echo $lang['asset_218'] ?>
-              <br />
-              <span>2023</span>
-            </h3>
+            </h4>
+            <p>2023</p>
+
             <a
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/RYr5MRm1yB8?modestbranding=1"
             ></a>
           </div>
@@ -195,35 +185,25 @@
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
 
-            <h3>
-              Samsø <br />
-              <span>2023</span>
-            </h3>
+            <h4>Samsø</h4>
+            <p>2023</p>
+
             <a
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
             ></a>
           </div>
         </div>
 
         <div class="gallery-item reveal">
-          <img
-            src="/img/cover-parkour.jpg"
-            class="north-cascades-img"
-            alt="<?php echo $lang[''] ?>."
-          />
+          <img src="/img/cover-parkour.jpg" alt="<?php echo $lang[''] ?>." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
-
-            <h3>
-              <?php echo $lang[''] ?>Parkour Škola
-
-              <br />
-              <span>2022</span>
-            </h3>
-            <p><i class="fa-solid fa-link"></i>&nbsp; parkouskola.sk</p>
+            <h3><?php echo $lang[''] ?>Parkour Škola</h3>
+            <p>
+              2023&nbsp;|&nbsp;<span>parkourskola.sk</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
             <a
-              class="vimeo-popup"
               href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
             ></a>
           </div>
@@ -264,26 +244,28 @@
                 href="/services"
                 aria-label="<?php echo $lang['asset_117'] ?>"
               >
-                <?php echo $lang['asset_116'] ?>
+                <?php echo $lang['asset_116'] ?><i
+                  class="fa-solid fa-arrow-right"
+                ></i>
               </a>
             </div>
           </div>
         </div>
       </article>
       <hr class="semi" role="separator" />
-      <article class="popup-gallery" id="visuals">
+      <article class="popup-gallery">
         <div class="row">
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/hq/2023-12-01-00263.jpg"
+                src="/img/2023-12-01-00263.jpg"
                 title="<?php echo $lang['asset_280'] ?>."
                 year="2023"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -294,14 +276,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-11-30-00006.jpg"
+                src="/img/2023-11-30-00006.jpg"
                 title="<?php echo $lang['asset_281'] ?>."
                 year="2023"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -312,14 +294,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2022-12-02-000065.jpg"
+                src="/img/2022-12-02-000065.jpg"
                 title="<?php echo $lang['asset_282'] ?>."
                 year="2023"
                 client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours</a
+              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -330,14 +312,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-12-01-00250.jpg"
+                src="/img/2023-12-01-00250.jpg"
                 title="<?php echo $lang['asset_283'] ?>."
                 year="2023"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -348,14 +330,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-11-30-00036.jpg"
+                src="/img/2023-11-30-00036.jpg"
                 title="<?php echo $lang['asset_284'] ?>."
                 year="2023"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -366,14 +348,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2022-12-03-000465.jpg"
+                src="/img/2022-12-03-000465.jpg"
                 title="<?php echo $lang['asset_285'] ?>."
                 year="2023"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -384,14 +366,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-12-02-00459.jpg"
+                src="/img/2023-12-02-00459.jpg"
                 title="<?php echo $lang['asset_286'] ?>."
                 year="2023"
                 client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours</a
+              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -402,7 +384,7 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-05-27-00025.jpg"
+                src="/img/2023-05-27-00025.jpg"
                 alt="<?php echo $lang['asset_61'] ?>."
                 title="<?php echo $lang['asset_61'] ?>."
                 year="2023"
@@ -410,7 +392,7 @@
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
+              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -422,7 +404,7 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                >Huset Fundament</a
+                >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
               >'
               /></a>
             </div>
@@ -433,7 +415,7 @@
                 src="/img/2022-10-15-00970.jpg"
                 title="<?php echo $lang['asset_49'] ?>."
                 year="2022"
-                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?></a>"
+                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?><i class='fa-solid fa-arrow-right'></i></a>"
               >
                 <img
                   src="/img/2022-10-15-00970.jpg"
@@ -447,7 +429,7 @@
                 src="/img/2022-10-16-00979.jpg"
                 title="<?php echo $lang['asset_49'] ?>."
                 year="2022"
-                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?></a>"
+                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?><i class='fa-solid fa-arrow-right'></i></a>"
               >
                 <img
                   src="/img/2022-10-16-00979.jpg"
@@ -459,31 +441,31 @@
 
             <div class="reveal">
               <a
-                src="/img/hq/2023-08-29-01113.jpg"
+                src="/img/2023-08-29-01113.jpg"
                 year="2023"
                 client='<a
             href="https://touristisrael.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            >Tourist Israel</a
+            >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
           >'
               >
                 <img
-                  src="/img/hq/2023-08-29-01113.jpg"
+                  src="/img/2023-08-29-01113.jpg"
                   alt="<?php echo $lang['asset_176'] ?>."
                   title="<?php echo $lang['asset_176'] ?>."
               /></a>
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-09-23-00049.jpg"
+                src="/img/2023-09-23-00049.jpg"
                 title="<?php echo $lang['asset_71'] ?>."
                 year="2023"
                 client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
+              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -494,14 +476,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-09-09-10524.jpg"
+                src="/img/2023-09-09-10524.jpg"
                 title="<?php echo $lang['asset_66'] ?>."
                 year="2023"
                 client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
+              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -512,13 +494,13 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-06-24-01208.jpg"
+                src="/img/2021-06-24-01208.jpg"
                 year="2021"
                 client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk</a
+              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -528,14 +510,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-06-24-01233-2.jpg"
+                src="/img/2021-06-24-01233-2.jpg"
                 title="<?php echo $lang['asset_54'] ?>."
                 year="2023"
                 client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk</a
+              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -548,14 +530,14 @@
           <div class="column column-padding-2">
             <div class="reveal">
               <a
-                src="/img/hq/2023-08-29-01096.jpg"
+                src="/img/2023-08-29-01096.jpg"
                 title="<?php echo $lang['asset_177'] ?>."
                 year="2023"
                 client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel</a
+              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -566,14 +548,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-08-29-01059.jpg"
+                src="/img/2023-08-29-01059.jpg"
                 title="<?php echo $lang['asset_178'] ?>."
                 year="2023"
                 client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel</a
+              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -584,14 +566,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-04-25-00693.jpg"
+                src="/img/2021-04-25-00693.jpg"
                 title="<?php echo $lang['asset_55'] ?>."
                 year="2021"
                 client='<a
               href="ttps://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech</a
+              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -602,14 +584,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-04-14-00608.jpg"
+                src="/img/2021-04-14-00608.jpg"
                 title="<?php echo $lang['asset_56'] ?>."
                 year="2021"
                 client='<a
               href="https://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech</a
+              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -620,7 +602,7 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-09-05-01666.jpg"
+                src="/img/2021-09-05-01666.jpg"
                 title="<?php echo $lang['asset_148'] ?>."
                 year="2021"
                 client=""
@@ -633,7 +615,7 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/hvalp.jpg"
+                src="/img/hvalp.jpg"
                 alt="<?php echo $lang['asset_150'] ?>."
                 title="<?php echo $lang['asset_150'] ?>."
                 year="2023"
@@ -649,14 +631,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-09-09-10507.jpg"
+                src="/img/2023-09-09-10507.jpg"
                 title="<?php echo $lang['asset_67'] ?>."
                 year="2023"
                 client='<a
               href="https://www.husetfundament.dk"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
+              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -669,14 +651,14 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/hq/2021-06-21-01194.jpg"
+                src="/img/2021-06-21-01194.jpg"
                 title="<?php echo $lang['asset_4'] ?>."
                 year="2021"
                 client='<a
               href="https://www.slovo21.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Slovo 21</a
+              >Slovo 21<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -687,7 +669,7 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-11-13-02059.jpg"
+                src="/img/2021-11-13-02059.jpg"
                 title="<?php echo $lang['asset_52'] ?>."
                 year="2021"
                 client=""
@@ -700,7 +682,7 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-08-24-01615.jpg"
+                src="/img/2021-08-24-01615.jpg"
                 title="<?php echo $lang['asset_147'] ?>."
                 year="2021"
                 client=""
@@ -713,14 +695,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2023-11-13-00267.jpg"
+                src="/img/2023-11-13-00267.jpg"
                 title="<?php echo $lang['asset_2'] ?>."
                 year="2023"
                 client='<a
               href="https://www.sort-hvid.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Sort/Hvid</a
+              >Sort/Hvid<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -731,14 +713,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2021-05-28-01020.jpg"
+                src="/img/2021-05-28-01020.jpg"
                 title="<?php echo $lang['asset_51'] ?>."
                 year="2021"
                 client='<a
               href=""
               target="_blank"
               rel="noopener noreferrer nofollow"
-              ></a
+              ><i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img
@@ -749,14 +731,14 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/hq/2022-06-28-00708.jpg"
+                src="/img/2022-06-28-00708.jpg"
                 title="<?php echo $lang['asset_70'] ?>."
                 year="2023"
                 client='<a
               href="https://www.roskilde-festival.dk/da/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Rosklide Festival</a
+              >Rosklide Festival<i class="fa-solid fa-arrow-right"></i></a
             >'
               >
                 <img src="/img/2022-06-28-00708.jpg" alt="<?php echo $lang['asset_70'] ?>."
