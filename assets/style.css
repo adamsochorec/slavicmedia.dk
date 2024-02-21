@@ -280,6 +280,7 @@ main li {
 a,
 a:hover {
   cursor: pointer !important;
+  text-decoration: none;
 }
 h1 a,
 h2 a,
@@ -306,6 +307,7 @@ p a:hover,
 a p:hover,
 footer a.footer-nav:hover {
   opacity: 80%;
+  text-decoration: underline;
 }
 /* LINK END */
 
@@ -1249,6 +1251,8 @@ footer .language-container {
   -webkit-transition: var(--transition-1) !important;
   -o-transition: var(--transition-1) !important;
   transition: var(--transition-1) !important;
+  text-decoration: underline;
+  color: rgb(var(--primary-color));
 }
 #gallery-press .grid-item span p,
 #gallery-press .grid-item span p i {
@@ -1799,12 +1803,11 @@ i:hover {
 #playPauseButton {
   background: rgba(0, 0, 0, 0);
   color: rgba(var(--white-color), 0.7);
-  padding: var(--grid-gap-2);
   border: none;
   cursor: pointer;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: var(--grid-gap-2);
+  right: var(--grid-gap-2);
 }
 #playControl {
   display: none;
@@ -1820,6 +1823,14 @@ i:hover {
 }
 .bubble.fa-solid:hover {
   color: rgb(var(--white-color), 1);
+}
+i.fa-circle-info:hover {
+  color: rgb(var(--white-color)) !important;
+}
+.switcher label a:hover {
+  text-decoration: underline;
+  color: white;
+  opacity: 80%;
 }
 /* ICONS END */
 
