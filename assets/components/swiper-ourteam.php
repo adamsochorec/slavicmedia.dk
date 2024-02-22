@@ -7,7 +7,7 @@
 
       <div class="reveal">
         <svg
-          title="<?php echo $lang['asset_311'] ?>"
+          title="Slovakia"
           class="note flag"
           version="1.1"
           id="Layer_1"
@@ -105,8 +105,8 @@
         </svg>
         <img
           src="/img/thumbnail/2022-04-24-07404.jpg"
-          alt="<?php echo $lang['asset_23'] ?>Marcel H."
-          title="<?php echo $lang['asset_23'] ?>Marcel H."
+          alt="Portrait of Marcel H."
+          title="Portrait of Marcel H."
           class="reveal"
           aria-label="Marcel's Portrait"
         />
@@ -114,7 +114,8 @@
       <section class="profile">
         <h4 class="reveal">Marcel H.</h4>
         <h6 class="reveal">
-          <?php echo $lang['asset_24'] ?>
+          Partner<br class="hide-cta-max" />
+          & <br class="hide-cta-max" />Videographer
         </h6>
 
         <div class="social-icons reveal">
@@ -122,7 +123,7 @@
             <i title="Phone" class="fa-solid fa-phone"></i>
           </a>
           <a
-            href="mailto:marcel@slavicmedia.dk"
+            href="/cdn-cgi/l/email-protection#600d011203050c20130c011609030d050409014e040b"
             aria-label="Email: marcel@slavicmedia.dk"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
@@ -142,23 +143,15 @@
       <br />
       <!-- MARCEL  RESPONSIBILITES START-->
       <div class="reveal">
-        <h6><?php echo $lang['asset_159'] ?>:</h6>
+        <h6>Specialisation:</h6>
         <div class="grid-container fifty-fifty">
           <ul class="languages-legend">
-            <li class="responsibility-1">
-              <?php echo $lang['asset_160'] ?>
-            </li>
-            <li class="responsibility-3">
-              <?php echo $lang['asset_162'] ?>
-            </li>
+            <li class="responsibility-1">Video production</li>
+            <li class="responsibility-3">Animations</li>
           </ul>
           <ul class="languages-legend">
-            <li class="responsibility-2">
-              <?php echo $lang['asset_161'] ?>
-            </li>
-            <li class="responsibility-4">
-              <?php echo $lang['asset_163'] ?>
-            </li>
+            <li class="responsibility-2">Photo production</li>
+            <li class="responsibility-4">Scriptwriting</li>
           </ul>
         </div>
         <div class="skill-bar faded">
@@ -167,28 +160,28 @@
               class="responsibility-1"
               style="width: 50%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_160'] ?> 50"
+              aria-label="Video production 50"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-2"
               style="width: 30%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_161'] ?> 30"
+              aria-label="Photo production 30"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-3"
               style="width: 10%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_162'] ?> 10"
+              aria-label="Animations 10"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-4"
               style="width: 10%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_163'] ?> 10"
+              aria-label="Scriptwriting 10"
               data-view-component="true"
             ></span>
           </span>
@@ -210,7 +203,7 @@
           viewBox="0 0 1062 1062"
           style="enable-background: new 0 0 1062 1062"
           xml:space="preserve"
-          title="<?php echo $lang['asset_310'] ?>"
+          title="Czechia"
         >
           <g>
             <path
@@ -236,18 +229,19 @@
 
         <img
           src="/img/thumbnail/2022-04-24-07426.jpg"
-          alt="<?php echo $lang['asset_23'] ?>Adam S."
-          title="<?php echo $lang['asset_23'] ?>Adam S."
+          alt="Portrait of Adam S."
+          title="Portrait of Adam S."
           class="reveal"
           role="img"
-          aria-label="<?php echo $lang['asset_23'] ?>Adam S."
+          aria-label="Portrait of Adam S."
         />
       </div>
 
       <div class="profile">
         <h4 class="reveal" role="heading" aria-level="4">Adam S.</h4>
         <h6 class="reveal">
-          <?php echo $lang['asset_30'] ?>
+          Partner<br class="hide-cta-max" />
+          & <br class="hide-cta-max" />Photographer
         </h6>
 
         <div class="social-icons reveal">
@@ -255,7 +249,7 @@
             ><i title="Phone" class="fa-solid fa-phone"></i
           ></a>
           <a
-            href="mailto:adam@slavicmedia.dk"
+            href="/cdn-cgi/l/email-protection#82e3e6e3efc2f1eee3f4ebe1efe7e6ebe3ace6e9"
             aria-label="Email: adam@slavicmedia.dk"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
@@ -274,23 +268,15 @@
       <br />
       <!-- ADAM RESPONSIBILITIES START -->
       <div class="reveal">
-        <h6><?php echo $lang['asset_159'] ?>:</h6>
+        <h6>Specialisation:</h6>
         <div class="grid-container fifty-fifty">
           <ul class="languages-legend">
-            <li class="responsibility-1">
-              <?php echo $lang['asset_160'] ?>
-            </li>
-            <li class="responsibility-3">
-              <?php echo $lang['asset_166'] ?>
-            </li>
+            <li class="responsibility-1">Video production</li>
+            <li class="responsibility-3">Web dev</li>
           </ul>
           <ul class="languages-legend">
-            <li class="responsibility-2">
-              <?php echo $lang['asset_161'] ?>
-            </li>
-            <li class="responsibility-4">
-              <?php echo $lang['asset_167'] ?>
-            </li>
+            <li class="responsibility-2">Photo production</li>
+            <li class="responsibility-4">UAV&nbsp;piloting</li>
           </ul>
         </div>
         <div class="skill-bar faded">
@@ -299,28 +285,28 @@
               class="responsibility-1"
               style="width: 10%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_160'] ?>"
+              aria-label="Video production"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-2"
               style="width: 40%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_161'] ?>"
+              aria-label="Photo production"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-3"
               style="width: 30%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_166'] ?>"
+              aria-label="Web dev"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-4"
               style="width: 30%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_167'] ?>"
+              aria-label="UAV&nbsp;piloting"
               data-view-component="true"
             ></span>
           </span>
@@ -343,7 +329,7 @@
           viewBox="0 0 1062 1062"
           style="enable-background: new 0 0 1062 1062"
           xml:space="preserve"
-          title="<?php echo $lang['asset_310'] ?>"
+          title="Czechia"
         >
           <g>
             <path
@@ -369,18 +355,19 @@
 
         <img
           src="/img/thumbnail/IMG_7306.jpg"
-          alt="<?php echo $lang['asset_23'] ?>Ján D."
-          title="<?php echo $lang['asset_23'] ?>Ján D."
+          alt="Portrait of Ján D."
+          title="Portrait of Ján D."
           class="reveal"
           role="img"
-          aria-label="<?php echo $lang['asset_23'] ?>Ján D."
+          aria-label="Portrait of Ján D."
         />
       </div>
 
       <div class="profile">
         <h4 class="reveal" role="heading" aria-level="4">Ján D.</h4>
         <h6 class="reveal">
-          <?php echo $lang['asset_88'] ?>
+          Performance<br class="hide-cta-max" />
+          & <br class="hide-cta-max" />Strategy
         </h6>
 
         <div class="social-icons reveal">
@@ -388,7 +375,7 @@
             ><i title="Phone" class="fa-solid fa-phone"></i
           ></a>
           <a
-            href="mailto:jan@slavicmedia.dk"
+            href="/cdn-cgi/l/email-protection#365c575876455a57405f555b53525f5718525d"
             aria-label="Email: jan@slavicmedia.dk"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
@@ -407,23 +394,15 @@
       <br />
       <!-- JÁN RESPONSIBILITIES START -->
       <div class="reveal">
-        <h6><?php echo $lang['asset_159'] ?>:</h6>
+        <h6>Specialisation:</h6>
         <div class="grid-container fifty-fifty">
           <ul class="languages-legend">
-            <li class="responsibility-1">
-              <?php echo $lang['asset_322'] ?>
-            </li>
-            <li class="responsibility-3">
-              <?php echo $lang['asset_323'] ?>
-            </li>
+            <li class="responsibility-1">Sales</li>
+            <li class="responsibility-3">Performance</li>
           </ul>
           <ul class="languages-legend">
-            <li class="responsibility-2">
-            <?php echo $lang['asset_324'] ?>
-            </li>
-            <li class="responsibility-4">
-              <?php echo $lang['asset_325'] ?>
-            </li>
+            <li class="responsibility-2">Marketing</li>
+            <li class="responsibility-4">Business Consulting</li>
           </ul>
         </div>
         <div class="skill-bar faded">
@@ -432,28 +411,28 @@
               class="responsibility-1"
               style="width: 25%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_160'] ?>"
+              aria-label="Video production"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-2"
               style="width: 25%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_161'] ?>"
+              aria-label="Photo production"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-3"
               style="width: 25%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_166'] ?>"
+              aria-label="Web dev"
               data-view-component="true"
             ></span>
             <span
               class="responsibility-4"
               style="width: 25%"
               itemprop="keywords"
-              aria-label="<?php echo $lang['asset_167'] ?>"
+              aria-label="UAV&nbsp;piloting"
               data-view-component="true"
             ></span>
           </span>

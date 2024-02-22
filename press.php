@@ -1,14 +1,15 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['lang'] ?>">
+<html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'head.php';
-    ?>
-    <meta name="description" content="<?php echo $lang['asset_221'] ?>" />
-    <!--     <meta name="keywords" content="<?php echo $lang['asset_220'] ?>" /> -->
-    <title><?php echo $lang['asset_75'] ?> | Slavic Media</title>
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+  include $IPATH . 'head.php';
+  ?>
+    <title>For Press | Slavic Media</title>
   </head>
   <body id="press">
     <!-- HEADER START -->
@@ -16,6 +17,10 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
+    <?php
+$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+include $IPATH . 'privacy.php';
+?>
     <!-- HEADER END -->
     <main>
       <article class="wrapper-wide">
@@ -25,7 +30,7 @@
           aria-labelledby="pagePathHeading"
         ></div>
         <h1 id="pagePathHeading" class="reveal" role="heading" aria-level="1">
-          <?php echo $lang['asset_75'] ?>
+          For Press
         </h1>
         <div
           class="pathname-container reveal"
@@ -34,9 +39,7 @@
         >
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
-            <span class="pathname" aria-label="<?php echo $lang['asset_17'] ?>"
-              ><?php echo $lang['asset_75'] ?></span
-            >
+            <span class="pathname" aria-label="press">For Press</span>
           </p>
         </div>
         <hr class="reveal" role="separator" />
@@ -56,18 +59,17 @@
             >
               <div class="grid-item" id="brand-guide">
                 <div class="blur">
-                  <span aria-label="<?php echo $lang['asset_84'] ?>">
-                    <p>
-                      <?php echo $lang['asset_84'] ?><i
-                        class="fa-solid fa-arrow-right"
-                      ></i>
-                    </p>
+                  <span aria-label="Preview">
+                    <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
                   </span>
                 </div>
               </div>
             </a>
-            <p aria-label="<?php echo $lang['asset_78'] ?>">
-              <?php echo $lang['asset_78'] ?>
+            <p
+              aria-label="Sets the visual and stylistic standards for the brand, ensuring consistency in logos, colours, fonts, and design."
+            >
+              Sets the visual and stylistic standards for the brand, ensuring
+              consistency in logos, colours, fonts, and design.
             </p>
           </div>
           <!-- BRAND GUIDE END -->
@@ -85,18 +87,17 @@
             >
               <div class="grid-item" id="credit-guide">
                 <div class="blur">
-                  <span aria-label="<?php echo $lang['asset_84'] ?>">
-                    <p>
-                      <?php echo $lang['asset_84'] ?><i
-                        class="fa-solid fa-arrow-right"
-                      ></i>
-                    </p>
+                  <span aria-label="Preview">
+                    <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
                   </span>
                 </div>
               </div>
             </a>
-            <p aria-label="<?php echo $lang['asset_80'] ?>">
-              <?php echo $lang['asset_80'] ?>
+            <p
+              aria-label="Outlines how to tag and credit work across digital as well as printed media."
+            >
+              Outlines how to tag and credit work across digital as well as
+              printed media.
             </p>
           </div>
           <!-- CREDIT GUIDE END -->
@@ -114,18 +115,17 @@
             >
               <div class="grid-item" id="press-kit">
                 <div class="blur">
-                  <span aria-label="<?php echo $lang['asset_83'] ?>">
-                    <p>
-                      <?php echo $lang['asset_83'] ?><i
-                        class="fa-solid fa-arrow-right"
-                      ></i>
-                    </p>
+                  <span aria-label="Download">
+                    <p>Download<i class="fa-solid fa-arrow-right"></i></p>
                   </span>
                 </div>
               </div>
             </a>
-            <p aria-label="<?php echo $lang['asset_82'] ?>">
-              <?php echo $lang['asset_82'] ?>
+            <p
+              aria-label="Package of vectorised logos, fonts and other essential branding materials."
+            >
+              Package of vectorised logos, fonts and other essential branding
+              materials.
             </p>
           </div>
           <!-- PRESS KIT END -->
@@ -135,9 +135,9 @@
     </main>
     <!-- FOOTER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+  include $IPATH . 'footer.php';
+  ?>
     <script
       type="text/javascript"
       src="/assets/cookies.js"

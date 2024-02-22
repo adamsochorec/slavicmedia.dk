@@ -1,4 +1,3 @@
-<!-- FOOTER START -->
 <hr class="semi bodyxfooter" role="separator" />
 <footer>
   <div class="footer-container">
@@ -9,16 +8,14 @@
         title="Logo Slavic Media"
     /></a>
     <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-      include $IPATH . 'social-icons.php';
+    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+    include $IPATH . 'social-icons.php';
     ?>
   </div>
   <hr role="separator" />
   <div class="footer-container">
     <div class="grid-item">
-      <a class="footer-nav" href="/privacy-policy">
-        <?php echo $lang['asset_231'] ?>
-      </a>
+      <a class="footer-nav" href="/privacy-policy"> Privacy&nbsp;Policy </a>
       <span>&nbsp;|&nbsp;</span>
       <a
         class="footer-nav"
@@ -51,4 +48,3 @@
   defer
   role="script"
 ></script>
-<!-- FOOTER END -->

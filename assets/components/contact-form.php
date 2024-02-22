@@ -1,9 +1,10 @@
 <article class="wrapper-standard">
   <section class="contact-form-section">
     <h3 class="reveal" role="heading" aria-level="3">
-      <?php echo $lang['asset_168'] ?>
+      Request a <span class="highlited tuscher">Proposal</span>
     </h3>
-<br>    <form
+    <br />
+    <form
       id="contactForm"
       onclick="loading()"
       action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"
@@ -31,10 +32,7 @@
           />
           <br />
           <p>
-            <label for="name"
-              ><?php echo $lang['asset_170'] ?>
-              *</label
-            >
+            <label for="name">Name *</label>
           </p>
           <input
             type="text"
@@ -49,73 +47,50 @@
           <br />
         </div>
         <div class="grid-item reveal">
-  <p>
-    <label for="category"><?php echo $lang['asset_181'] ?> *</label>
-  </p>
-  <select
-    required
-    id="category"
-    name="category"
-    aria-required="true"
-    aria-labelledby="category"
-    onchange="updatePlanOptions()"
-  >
-    <option value="" selected disabled hidden>
-      <span class="default-option">
-        <?php echo $lang['asset_183'] ?></span
-      >
-    </option>
-    <option value="<?php echo $lang['asset_11'] ?>">
-      <?php echo $lang['asset_11'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_13'] ?>">
-      <?php echo $lang['asset_13'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_234'] ?>">
-      <?php echo $lang['asset_234'] ?>
-    </option>
-    <option id="disableIfSelected" value="Service">
-      <?php echo $lang['asset_308'] ?>
-    </option>
-  </select>
-  <br />
-  <p>
-    <label for="plan"><?php echo $lang['asset_182'] ?> *</label>
-  </p>
-  <select
-    required
-    id="disableOnSelect"
-    name="plan"
-    aria-required="true"
-    aria-labelledby="plan"
-  >
-    <option value="" selected disabled hidden>
-      <span class="default-option"
-        ><?php echo $lang['asset_183'] ?></span
-      >
-    </option>
-    <option value="<?php echo $lang['asset_133'] ?>">
-      <?php echo $lang['asset_133'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_134'] ?>">
-      <?php echo $lang['asset_134'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_135'] ?>">
-      <?php echo $lang['asset_135'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_190'] ?>" >
-      <?php echo $lang['asset_190'] ?>
-    </option>
-  </select>
-  <br />
-</div>
+          <p>
+            <label for="category">Category *</label>
+          </p>
+          <select
+            required
+            id="category"
+            name="category"
+            aria-required="true"
+            aria-labelledby="category"
+            onchange="updatePlanOptions()"
+          >
+            <option value="" selected disabled hidden>
+              <span class="default-option"> - Select -</span>
+            </option>
+            <option value="Photo">Photo</option>
+            <option value="Video">Video</option>
+            <option value="All in">All in</option>
+            <option id="disableIfSelected" value="Service">Service</option>
+          </select>
+          <br />
+          <p>
+            <label for="plan">Plan *</label>
+          </p>
+          <select
+            required
+            id="disableOnSelect"
+            name="plan"
+            aria-required="true"
+            aria-labelledby="plan"
+          >
+            <option value="" selected disabled hidden>
+              <span class="default-option">- Select -</span>
+            </option>
+            <option value=" Essential">Essential</option>
+            <option value=" Core">Core</option>
+            <option value=" Elite">Elite</option>
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+          <br />
+        </div>
       </div>
       <div class="reveal">
         <p>
-          <label for="project"
-            ><?php echo $lang['asset_169'] ?>
-            *</label
-          >
+          <label for="project">Project description *</label>
         </p>
         <textarea
           minlength="10"
@@ -129,11 +104,11 @@
         ></textarea>
         <button
           class="submit-btn"
-          aria-label="<?php echo $lang['asset_164'] ?>"
+          aria-label="Submit"
           role="button"
           aria-labelledby="submitBtn"
         >
-          <?php echo $lang['asset_164'] ?><i class="fa-solid fa-arrow-right"></i>
+          Submit<i class="fa-solid fa-arrow-right"></i>
         </button>
         <input
           type="hidden"

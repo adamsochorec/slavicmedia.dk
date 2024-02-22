@@ -1,4 +1,3 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,10 +11,12 @@
   </head>
 
   <body id="error" class="noindex">
+    <!-- HEADER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+      include $IPATH . 'nav-bar.php';
+      ?>
+    <!-- HEADER END -->
     <main>
       <article
         class="wrapper-narrow flex-center reveal"
@@ -23,11 +24,7 @@
         aria-labelledby="error-heading"
       >
         <div class="pathname-container" aria-hidden="true"></div>
-        <div
-          class="lottie"
-          role="img"
-          aria-label="<?php echo $lang['asset_130'] ?>"
-        >
+        <div class="lottie" role="img" aria-label="Animation: Page Not Found">
           <dotlottie-player
             src="/assets/lottie/error.lottie"
             background="transparent"
@@ -37,14 +34,15 @@
           ></dotlottie-player>
         </div>
         <h1 id="error-heading">
-          <?php echo $lang['asset_21'] ?>
+          The page you’re looking<br />for can't be found.
         </h1>
         <a class="cta" href="http://slavicmedia.dk" role="link"
-          ><?php echo $lang['asset_180'] ?><i class="fa-solid fa-arrow-right"></i></a
-        >
+          >Return to the homepage<i class="fa-solid fa-arrow-right"></i
+        ></a>
       </article>
       <div class="pathname-container" aria-hidden="true"></div>
     </main>
+    <!-- FOOTER START -->
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
       type="text/javascript"
@@ -53,8 +51,9 @@
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'footer.php';
+   ?>
+    <!-- FOOTER END -->
   </body>
 </html>

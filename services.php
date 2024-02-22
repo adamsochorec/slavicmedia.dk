@@ -1,14 +1,11 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['lang'] ?>">
+<html lang="en">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_10'] ?>" />
-    <!-- <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" /> -->
-    <title>Multimedia <?php echo $lang['asset_105'] ?> | Slavic Media</title>
+    <title>Multimedia Services | Slavic Media</title>
   </head>
   <body id="services">
     <!-- HEADER START -->
@@ -16,79 +13,69 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
-
+    <?php
+$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+include $IPATH . 'privacy.php';
+?>
     <!-- HEADER END -->
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>
-        <h1 class="reveal"><?php echo $lang['asset_105'] ?></h1>
+        <h1 class="reveal">Services</h1>
         <div class="pathname-container reveal">
           <p>
             <span class="pathname"><a href="/"></a> &#8250; </span>
-            <span class="pathname-current"
-              ><?php echo $lang['asset_105'] ?></span
-            >
+            <span class="pathname-current">Services</span>
           </p>
         </div>
         <hr class="reveal" role="separator" />
         <!-- FEATURES START -->
         <article
-          class="gallery" id="gallery-features"
+          class="gallery"
+          id="gallery-features"
           aria-label="Features Grid"
         >
           <div class="gallery-item reveal">
             <div class="gallery-item-caption">
-            <i class="fa-solid fa-crosshairs bubble"></i>
-              <h3>
-                <?php echo $lang['asset_266'] ?>
-              </h3>
+              <i class="fa-solid fa-crosshairs bubble"></i>
+              <h3>Drone Footage</h3>
             </div>
           </div>
           <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-pen-ruler bubble"></i>
-              <h3>
-                <?php echo $lang['asset_200'] ?>
-              </h3>
+              <h3>Graphic Design</h3>
             </div>
           </div>
           <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-bolt bubble"></i>
-              <h3>
-                <?php echo $lang['asset_252'] ?>
-              </h3>
+              <h3>Motion Graphics</h3>
             </div>
           </div>
           <div class="gallery-item reveal" aria-label="">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-handshake-simple bubble"></i>
-              <h3>
-                <?php echo $lang['asset_235'] ?>
-              </h3>
+              <h3>Project Pre-Production</h3>
             </div>
           </div>
           <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-brands fa-dropbox bubble"></i>
-              <h3>
-                <?php echo $lang['asset_260'] ?>
-              </h3>
+              <h3>Online Gallery & Storage</h3>
             </div>
           </div>
           <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-masks-theater bubble"></i>
-              <h3>
-                <?php echo $lang['asset_196'] ?>
-              </h3>
+              <h3>Make-Up Artist</h3>
             </div>
           </div>
         </article>
         <section class="flex-center">
           <a class="reveal" href="/projects" id="plans">
             <div class="cta">
-              <?php echo $lang['asset_233'] ?><i class="fa-solid fa-arrow-right"></i>
+              Explore Our Projects<i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>
@@ -96,10 +83,15 @@
         <hr class="reveal" role="separator" />
 
         <!-- PACKAGES START -->
-        <h2 class="reveal"><?php echo $lang['asset_145'] ?></h2>
+        <h2 class="reveal">
+          Plans & <span class="highlited tuscher">Pricing</span>
+        </h2>
 
         <p class="reveal">
-          <?php echo $lang['asset_131'] ?>
+          Designed to adapt to your evolving needs, ensuring you always have the
+          right tools at your disposal. We believe in providing value for your
+          investment. Our pricing is competitive, offering a range of plans to
+          suit various budgets.
         </p>
         <hr class="semi" role="separator" />
         <div class="tabset">
@@ -108,42 +100,19 @@
             type="radio"
             name="tabset"
             id="tab2"
-            aria-controls="<?php echo $lang['asset_13'] ?>"
+            aria-controls="Video"
             checked
           />
-          <label class="first reveal" for="tab2"
-            ><span><?php echo $lang['asset_13'] ?></span></label
-          >
+          <label class="first reveal" for="tab2"><span>Video</span></label>
           <!-- Tab 2 -->
-          <input
-            type="radio"
-            name="tabset"
-            id="tab1"
-            aria-controls="<?php echo $lang['asset_33'] ?>"
-          />
-          <label class="reveal" for="tab1"
-            ><span><?php echo $lang['asset_33'] ?></span></label
-          >
+          <input type="radio" name="tabset" id="tab1" aria-controls="Photo" />
+          <label class="reveal" for="tab1"><span>Photo</span></label>
           <!-- Tab 3 -->
-          <input
-            type="radio"
-            name="tabset"
-            id="tab3"
-            aria-controls="<?php echo $lang['asset_234'] ?>"
-          />
-          <label class="reveal" for="tab3"
-            ><span><?php echo $lang['asset_234'] ?></span></label
-          >
+          <input type="radio" name="tabset" id="tab3" aria-controls="All in" />
+          <label class="reveal" for="tab3"><span>All in</span></label>
           <!-- Tab 4 -->
-          <input
-            type="radio"
-            name="tabset"
-            id="tab4"
-            aria-controls="<?php echo $lang['asset_308'] ?>"
-          />
-          <label class="last reveal" for="tab4"
-            ><span><?php echo $lang['asset_308'] ?></span></label
-          >
+          <input type="radio" name="tabset" id="tab4" aria-controls="Service" />
+          <label class="last reveal" for="tab4"><span>Service</span></label>
           <section class="switcher reveal">
             <label
               class="toggleSwitch"
@@ -152,18 +121,16 @@
               aria-checked="false"
               tabindex="0"
             >
-             
-                <a
-                  class="higlited"
-                  title="<?php echo $lang['asset_309'] ?>"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  href="https://taxation-customs.ec.europa.eu/what-vat_en"
-                >
-                  <i class="fa-solid fa-circle-info"></i>
-                 <p><?php echo $lang['asset_307'] ?></p> 
-                </a>
-              
+              <a
+                class="higlited"
+                title="General tax that applies, in principle, to all commercial activities involving the production and distribution of goods and the provision of services."
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                href="https://taxation-customs.ec.europa.eu/what-vat_en"
+              >
+                <i class="fa-solid fa-circle-info"></i>
+                <p>VAT</p>
+              </a>
             </label>
 
             <label
@@ -179,48 +146,39 @@
           <div class="tab-panels">
             <!-- VIDEO PACKAGES START -->
             <div class="tab-panel reveal">
-              <table id="<?php echo $lang['asset_13'] ?>">
+              <table id="Video">
                 <tr>
                   <th class="left-align"></th>
-                  <th><?php echo $lang['asset_133'] ?></th>
-                  <th><?php echo $lang['asset_134'] ?></th>
-                  <th><?php echo $lang['asset_135'] ?></th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_237'] ?></p>
+                    <p>Price</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_242'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">470</span>
+                      €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_243'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">740</span>
+                      €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_244'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">1100</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_267'] ?>
-                      &#8804; 3min
-                    </p>
+                    <p>Horizontal Video &#8804; 3min</p>
                   </td>
                   <td>
                     <p>1&#215;</p>
@@ -234,30 +192,21 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_267'] ?>
-                      &#8805; 3min
-                    </p>
+                    <p>Horizontal Video &#8805; 3min</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang[''] ?>Vertical Reel</p>
+                    <p>Vertical Reel</p>
                   </td>
                   <td>
                     <p>1&#215;</p>
@@ -271,7 +220,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_235'] ?></p>
+                    <p>Project Pre-Production</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -285,7 +234,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_246'] ?></p>
+                    <p>Revisions</p>
                   </td>
                   <td>
                     <p>1</p>
@@ -294,32 +243,26 @@
                     <p>2</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_247'] ?></p>
+                    <p>Unlimited</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_248'] ?></p>
+                    <p>Shooting duration</p>
                   </td>
                   <td>
-                    <p>3<?php echo $lang['asset_249'] ?></p>
+                    <p>3h</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_257'] ?>
-                      (4-5<?php echo $lang['asset_249'] ?>)
-                    </p>
+                    <p>Half day (4-5h)</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_258'] ?>
-                      (7-9<?php echo $lang['asset_249'] ?>)
-                    </p>
+                    <p>Full day (7-9h)</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_196'] ?></p>
+                    <p>Make-Up Artist</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -333,7 +276,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_266'] ?></p>
+                    <p>Drone Footage</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -347,7 +290,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_252'] ?></p>
+                    <p>Motion Graphics</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -361,7 +304,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_312'] ?></p>
+                    <p>Licensed music & SFX</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -375,22 +318,16 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_253'] ?></p>
+                    <p>Recommended for</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_254'] ?>
-                    </p>
+                    <p>Hero/cover videos, showreels</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_255'] ?>
-                    </p>
+                    <p>Event after movies, Extensive company video</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_256'] ?>
-                    </p>
+                    <p>Campaigns, Large events</p>
                   </td>
                 </tr>
               </table>
@@ -398,45 +335,39 @@
             <!-- VIDEO PACKAGES END -->
             <!-- PHOTO PACKAGES START -->
             <div class="tab-panel reveal">
-              <table id="<?php echo $lang['asset_33'] ?>">
+              <table id="Photo">
                 <tr>
                   <th class="left-align"></th>
-                  <th><?php echo $lang['asset_133'] ?></th>
-                  <th><?php echo $lang['asset_134'] ?></th>
-                  <th><?php echo $lang['asset_135'] ?></th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_237'] ?></p>
+                    <p>Price</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_239'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">200</span>
+                      €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_240'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">530</span>
+                      €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_241'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">800</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_235'] ?></p>
+                    <p>Project Pre-Production</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -450,7 +381,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_246'] ?></p>
+                    <p>Revisions</p>
                   </td>
                   <td>
                     <p>1</p>
@@ -459,32 +390,26 @@
                     <p>2</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_247'] ?></p>
+                    <p>Unlimited</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_248'] ?></p>
+                    <p>Shooting duration</p>
                   </td>
                   <td>
-                    <p>1.5<?php echo $lang['asset_249'] ?></p>
+                    <p>1.5h</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_257'] ?>
-                      (4-5<?php echo $lang['asset_249'] ?>)
-                    </p>
+                    <p>Half day (4-5h)</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_258'] ?>
-                      (7-9<?php echo $lang['asset_249'] ?>)
-                    </p>
+                    <p>Full day (7-9h)</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_261'] ?></p>
+                    <p>Photos amount</p>
                   </td>
                   <td>
                     <p>5</p>
@@ -498,7 +423,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_260'] ?></p>
+                    <p>Online Gallery & Storage</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -512,7 +437,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_196'] ?></p>
+                    <p>Make-Up Artist</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -526,7 +451,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_266'] ?></p>
+                    <p>Drone Footage</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -540,9 +465,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_200'] ?>&nbsp;<?php echo $lang['asset_262'] ?>
-                    </p>
+                    <p>Graphic Design&nbsp;(posters, covers)</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -556,22 +479,16 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_253'] ?></p>
+                    <p>Recommended for</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_263'] ?>
-                    </p>
+                    <p>Headshots, Product photos</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_264'] ?>
-                    </p>
+                    <p>Events, Promo materials (prints, SoMe)</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_265'] ?>
-                    </p>
+                    <p>Large events, Extensive studio sessions.</p>
                   </td>
                 </tr>
               </table>
@@ -583,150 +500,98 @@
               <table id="allin">
                 <tr>
                   <th class="left-align"></th>
-                  <th><?php echo $lang['asset_133'] ?></th>
-                  <th><?php echo $lang['asset_134'] ?></th>
-                  <th><?php echo $lang['asset_135'] ?></th>
+                  <th>Essential</th>
+                  <th>Core</th>
+                  <th>Elite</th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_237'] ?></p>
+                    <p>Price</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_318'] ?>
-                      <span class="price"
-                        ><?php echo $lang['asset_315'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
-                    </p>
+                    <p>From <span class="price">1140</span> €</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_318'] ?>
-                      <span class="price">
-                        <?php echo $lang['asset_316'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
-                    </p>
+                    <p>From <span class="price"> 1750</span> €</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_318'] ?>
-                      <span class="price">
-                        <?php echo $lang['asset_317'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
-                    </p>
+                    <p>From <span class="price"> 2370</span> €</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_267'] ?>
-                      &#8804; 3min
-                    </p>
+                    <p>Horizontal Video &#8804; 3min</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                 </tr>
 
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang[''] ?>Vertical Reel</p>
+                    <p>Vertical Reel</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_245'] ?>
-                    </p>
+                    <p>Request a Proposal</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_267'] ?></p>
+                    <p>Horizontal Video</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_245'] ?></p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_245'] ?></p>
+                    <p>Request a Proposal</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_245'] ?></p>
+                    <p>Request a Proposal</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_313'] ?>
-                    </p>
+                    <p>On site shoots</p>
                   </td>
                   <td>
                     <p>1&#215;</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_319'] ?>
-                      2&#215;
-                    </p>
+                    <p>Up to 2&#215;</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_319'] ?>
-                      3&#215;
-                    </p>
+                    <p>Up to 3&#215;</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_314'] ?>
-                    </p>
+                    <p>Stills (on site & studio)</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_319'] ?>
-                      15
-                    </p>
+                    <p>Up to 15</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_319'] ?>
-                      30
-                    </p>
+                    <p>Up to 30</p>
                   </td>
                   <td>
-                    <p>
-                      <?php echo $lang['asset_319'] ?>
-                      45
-                    </p>
+                    <p>Up to 45</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_260'] ?></p>
+                    <p>Online Gallery & Storage</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -740,7 +605,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_246'] ?>*</p>
+                    <p>Revisions*</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-infinity"></i></p>
@@ -754,7 +619,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_235'] ?></p>
+                    <p>Project Pre-Production</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -768,7 +633,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_196'] ?></p>
+                    <p>Make-Up Artist</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -782,7 +647,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_252'] ?></p>
+                    <p>Motion Graphics</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -796,7 +661,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_312'] ?></p>
+                    <p>Licensed music & SFX</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-check"></i></p>
@@ -811,148 +676,120 @@
               </table>
               <br />
               <p class="undernote">
-                *
-                <?php echo $lang['asset_320'] ?>.
+                * The minimum of guaranteed revisions under each plan is equal
+                to the volume of content for each patch.
               </p>
             </div>
             <!-- ALL IN PACKAGES END -->
             <!-- POSTPRODUCTION PACKAGES START -->
             <div class="tab-panel reveal">
-              <table id="<?php echo $lang['asset_13'] ?>">
+              <table id="Video">
                 <tr>
-                  <th class="left-align">
-                    <?php echo $lang['asset_299'] ?>
-                  </th>
-                  <th>
-                    <?php echo $lang['asset_237'] ?>
-                    /
-                    <?php echo $lang['asset_249'] ?>
-                  </th>
+                  <th class="left-align">Service</th>
+                  <th>Price / h</th>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_304'] ?>
-                    </p>
+                    <p>Proposal Meeting</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_303'] ?></p>
+                    <p>Free</p>
                   </td>
                 </tr>
 
                 <tr>
                   <td class="left-align">
-                    <p>
-                      <?php echo $lang['asset_235'] ?>
-                      /
-                      <?php echo $lang['asset_246'] ?>
-                    </p>
+                    <p>Project Pre-Production / Revisions</p>
                   </td>
                   <td>
-                    <p><?php echo $lang['asset_303'] ?></p>
+                    <p>Free</p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_291'] ?></p>
+                    <p>Video Cut</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_300'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">40</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_292'] ?></p>
+                    <p>Video Color Grading</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_301'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">67</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_293'] ?></p>
+                    <p>Video VFX</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_301'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">67</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_294'] ?></p>
+                    <p>Photo Denoice / Enhnance</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_302'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">26</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_295'] ?></p>
+                    <p>Photo Retouching</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_301'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">67</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_296'] ?></p>
+                    <p>Sound Denoise / Enhnance</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_302'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">26</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_297'] ?></p>
+                    <p>Animations/motion graphics</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_301'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">67</span>
+                      €
                     </p>
                   </td>
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p><?php echo $lang['asset_298'] ?></p>
+                    <p>Graphic Design</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"
-                        ><?php echo $lang['asset_301'] ?></span
-                      >
-                      <?php echo $lang['asset_306'] ?>
+                      <span class="price">67</span>
+                      €
                     </p>
                   </td>
                 </tr>
@@ -972,10 +809,11 @@
       <!-- CONTACT FORM  END  -->
     </main>
     <!-- FOOTER START -->
+    <!-- FOOTER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
+$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+include $IPATH . 'footer.php';
+?>
     <script type="text/javascript" src="/assets/services.js" defer></script>
     <script
       type="text/javascript"

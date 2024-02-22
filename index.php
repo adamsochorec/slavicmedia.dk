@@ -1,6 +1,5 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['lang'] ?>">
+<html lang="en">
   <head>
     <link
       rel="stylesheet"
@@ -10,9 +9,7 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <meta name="description" content="<?php echo $lang['asset_10'] ?>" />
-    <!-- <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" /> -->
-    <title><?php echo $lang['asset_222'] ?> | Slavic Media</title>
+    <title>Your Online Presence | Slavic Media</title>
   </head>
   <body id="homepage">
     <!-- HEADER START -->
@@ -20,8 +17,11 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
+    <?php
+$IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+include $IPATH . 'privacy.php';
+?>
     <!-- HEADER END -->
-
     <main>
       <!-- INTRO VIDEO START -->
       <article class="showcase">
@@ -54,12 +54,17 @@
         >
           <div class="grid-item">
             <h1>
-              <?php echo $lang['asset_9'] ?>
+              Strategy, <span class="highlited tuscher">experience</span>,
+              precision and hard work at your
+              <span class="highlited tuscher">service</span>
             </h1>
           </div>
           <div class="grid-item">
             <p>
-              <?php echo $lang['asset_10'] ?>
+              We are not any traditional production company. Slavic Media are
+              creative storytellers who believe in good set designs, deep eye
+              contact, and the right light that can raise your message above the
+              noise.
             </p>
           </div>
         </div>
@@ -67,22 +72,23 @@
         <!-- FEATURES START -->
         <article
           id="visual"
-          class="gallery" id="gallery-features"
-          aria-label="<?php echo $lang['asset_105'] ?>"
+          class="gallery"
+          id="gallery-features"
+          aria-label="Services"
         >
           <a href="/projects" class="gallery-item reveal">
             <img
               src="/img/thumbnail/DSCF9640.jpg"
-              title="<?php echo $lang['asset_288'] ?>."
-              alt="<?php echo $lang['asset_288'] ?>."
+              title="Video services cover."
+              alt="Video services cover."
             />
             <div class="gallery-item-caption">
               <i class="fa-solid fa-video bubble"></i>
-              <h3>
-                <?php echo $lang['asset_13'] ?>
-              </h3>
+              <h3>Video</h3>
               <p>
-                <?php echo $lang['asset_185'] ?>
+                Let us distil the essence of your project into a compelling
+                showreel. Our team specializes in creating narratives that leave
+                a lasting impact on your audience.
               </p>
             </div>
           </a>
@@ -93,16 +99,16 @@
           >
             <img
               src="/img/thumbnail/2023-11-30-00006.jpg"
-              alt="<?php echo $lang['asset_287'] ?>."
-              title="<?php echo $lang['asset_287'] ?>."
+              alt="Photo services cover."
+              title="Photo services cover."
             />
             <div class="gallery-item-caption">
               <i class="fa-solid fa-camera bubble"></i>
-              <h3>
-                <?php echo $lang['asset_11'] ?>
-              </h3>
+              <h3>Photo</h3>
               <p>
-                <?php echo $lang['asset_173'] ?>
+                Whether you are looking for professional headshots or authentic
+                stills, in a fancy studio or rough exterior, we are here to
+                bring them alive.
               </p>
             </div>
           </a>
@@ -110,7 +116,7 @@
         <section class="flex-center">
           <a class="reveal" href="/services">
             <div class="cta">
-              <?php echo $lang['asset_101'] ?><i class="fa-solid fa-arrow-right"></i>
+              Explore Our Services<i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>
@@ -123,12 +129,17 @@
         >
           <div class="grid-item">
             <h2 class="reveal">
-              <?php echo $lang['asset_6'] ?>
+              <span class="highlited tuscher">Actions</span> speak louder
+              <span class="highlited tuscher">than</span> any
+              <span class="highlited tuscher"> words</span>
             </h2>
           </div>
           <div class="grid-item reveal">
             <p>
-              <?php echo $lang['asset_7'] ?>
+              Do you need to fly a drone over the open sea, capture the northern
+              lights in cold weather, bike across the whole country, walk
+              through the desert, or get up close in a way that nobody else has?
+              We are here for you.
             </p>
           </div>
         </div>
@@ -138,9 +149,9 @@
       <article class="wrapper-wide" id="reviews">
         <hr class="semi" />
         <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'swiper-reviews.php';
-    ?>
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-reviews.php';
+        ?>
         <div class="flex-center reveal">
           <a
             class="cta"
@@ -148,7 +159,7 @@
             rel="noopener noreferrer nofollow"
             href="https://g.page/r/CRTkzopg3plWEB0/review"
           >
-            <?php echo $lang['asset_31'] ?><i class="fa-solid fa-arrow-right"></i>
+            Share your experience<i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </article>
@@ -162,7 +173,7 @@
         class="team-container intro-section reveal"
         id="ourteam"
         role="region"
-        aria-label="<?php echo $lang['asset_18'] ?>"
+        aria-label="Our Team"
       >
         <video
           id="heroVideo"
@@ -173,13 +184,13 @@
           preload="auto"
           playsinline
           class="video-offload filter"
-          aria-label="<?php echo $lang['asset_18'] ?> Video"
+          aria-label="Our Team Video"
           role="video"
-          aria-describedby="<?php echo $lang['asset_18'] ?> cover video"
+          aria-describedby="Our Team cover video"
           poster="/img/showreel-ourteam.png"
         ></video>
         <article class="wrapper-standard">
-          <h2 class="reveal"><?php echo $lang['asset_18'] ?></h2>
+          <h2 class="reveal">Our Team</h2>
           <button id="playPauseButton" class="play">
             <i
               id="playControl"
@@ -192,10 +203,15 @@
               class="fa-regular fa-circle-pause fa-xl"
             ></i>
           </button>
-          <p class="profile-info reveal"><?php echo $lang['asset_19'] ?>.</p>
+          <p class="profile-info reveal">
+            Slavic Media is a creative multimedia company that focuses on the
+            production of various brand films, showreels, stills and headshots.
+          </p>
           <br />
           <p class="reveal">
-            <?php echo $lang['asset_20'] ?>
+            We tell stories with our beautiful videos, well-written scripts, and
+            clean designs to help brands reach their maximum potential. We will
+            do everything possible to turn your vision into reality.
           </p>
         </article>
       </article>
@@ -205,9 +221,9 @@
         <!-- TEAM SECTION START -->
 
         <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'swiper-ourteam.php';
-    ?>
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-ourteam.php';
+        ?>
         <!-- TEAM SECTION END -->
         <!-- COLLABORATORS AND CLIENTS START -->
         <section>
@@ -223,15 +239,12 @@
       >
         <div class="filter"></div>
         <article class="wrapper-wide" id="clients">
-          <h3 class="reveal">
-            <?php echo $lang['asset_36'] ?>
-          </h3>
+          <h3 class="reveal">Trusted by Customers</h3>
           <?php
-            $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-            include $IPATH . 'clients.php';
-            ?>
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'clients.php';
+        ?>
         </article>
-      
       </article>
       <!-- COLLABORATORS AND CLIENTS END -->
       <!-- OUR TEAM END -->

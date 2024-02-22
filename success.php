@@ -1,20 +1,26 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['lang'] ?>">
+<html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'head.php';
-    ?>
-    <title><?php echo $lang['asset_179'] ?> | Slavic Media</title>
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+  include $IPATH . 'head.php';
+  ?>
+    <title>Form submitted successfully! | Slavic Media</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="success" class="noindex">
+    <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
-    <meta name="robots" content="noindex" />
-    <meta name="googlebot" content="noindex" />
+    <!-- HEADER END -->
+
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
@@ -28,15 +34,14 @@
           ></lottie-player>
         </div>
         <br />
-        <h1>
-          <?php echo $lang['asset_179'] ?>
-        </h1>
+        <h1>Form submitted successfully!</h1>
         <a class="cta" href="/" role="link">
-          <?php echo $lang['asset_180'] ?><i class="fa-solid fa-arrow-right"></i>
+          Return to the homepage<i class="fa-solid fa-arrow-right"></i>
         </a>
       </article>
       <div class="pathname-container" role="separator" aria-hidden="true"></div>
     </main>
+    <!-- FOOTER START -->
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <script
       type="text/javascript"
@@ -44,8 +49,9 @@
     ></script>
     <!-- LOTTIE PLAYER SCRIPTS START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'footer.php';
+   ?>
+    <!-- FOOTER END -->
   </body>
 </html>
