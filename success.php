@@ -20,7 +20,6 @@
     include $IPATH . 'nav-bar.php';
     ?>
     <!-- HEADER END -->
-
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>

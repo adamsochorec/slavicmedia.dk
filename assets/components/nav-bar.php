@@ -49,7 +49,7 @@
 </header>
 
 <!-- LOADER START -->
-<aside class="loader-container" role="complementary">
+<div class="loader-container" role="complementary">
   <div class="loader" aria-label="Loading"></div>
-</aside>
+</div>
 <!-- LOADER END -->

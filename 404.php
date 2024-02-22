@@ -9,7 +9,6 @@
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
   </head>
-
   <body id="error" class="noindex">
     <!-- HEADER START -->
     <?php

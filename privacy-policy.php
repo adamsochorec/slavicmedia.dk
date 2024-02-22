@@ -13,11 +13,13 @@
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
       include $IPATH . 'nav-bar.php';
       ?>
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'privacy.php';
-  ?>
     <!-- HEADER END -->
+    <!-- COOKIES START -->
+    <?php
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'privacy.php';
+   ?>
+    <!-- COOKIES END -->
     <main>
       <article class="wrapper-wide">
         <div class="pathname-container"></div>

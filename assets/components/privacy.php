@@ -1,4 +1,4 @@
-<div
+<aside
   class="privacy-container"
   role="dialog"
   aria-labelledby="cookieBannerTitle"
@@ -20,4 +20,4 @@
     <button class="button cta" id="acceptBtn" aria-label=""></button>
     <button id="declineBtn" class="button cta" aria-label=""></button>
   </div>
-</div>
+</aside>
