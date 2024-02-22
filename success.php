@@ -7,14 +7,16 @@
     include $IPATH . 'head.php';
     ?>
     <title><?php echo $lang['asset_179'] ?> | Slavic Media</title>
-  </head>
-  <body id="success" class="noindex">
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
+  </head>
+  <body id="success" class="noindex">
+    <!-- HEADER START -->
+    <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+      include $IPATH . 'nav-bar.php';
+      ?>
+    <!-- HEADER END -->
     <main>
       <article class="wrapper-narrow flex-center">
         <div class="pathname-container"></div>
@@ -32,7 +34,9 @@
           <?php echo $lang['asset_179'] ?>
         </h1>
         <a class="cta" href="/" role="link">
-          <?php echo $lang['asset_180'] ?><i class="fa-solid fa-arrow-right"></i>
+          <?php echo $lang['asset_180'] ?><i
+            class="fa-solid fa-arrow-right"
+          ></i>
         </a>
       </article>
       <div class="pathname-container" role="separator" aria-hidden="true"></div>

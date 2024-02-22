@@ -12,10 +12,12 @@
   </head>
 
   <body id="error" class="noindex">
+    <!-- HEADER START -->
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'nav-bar.php';
     ?>
+    <!-- HEADER END -->
     <main>
       <article
         class="wrapper-narrow flex-center reveal"
@@ -40,8 +42,10 @@
           <?php echo $lang['asset_21'] ?>
         </h1>
         <a class="cta" href="http://slavicmedia.dk" role="link"
-          ><?php echo $lang['asset_180'] ?><i class="fa-solid fa-arrow-right"></i></a
-        >
+          ><?php echo $lang['asset_180'] ?><i
+            class="fa-solid fa-arrow-right"
+          ></i
+        ></a>
       </article>
       <div class="pathname-container" aria-hidden="true"></div>
     </main>
