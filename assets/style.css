@@ -177,6 +177,9 @@ hr:not(hr.semi) {
   margin: var(--grid-gap-3) 0;
   opacity: 0 !important;
 }
+#homepage hr.bodyxfooter{
+  display: none;
+}
 /* HR / SEPARATORS END */
 
 /* BROWSER SETTINGS START */
@@ -1908,6 +1911,10 @@ i.fa-circle-info:hover {
   border-radius: var(--border-radius-1);
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+
 }
 .profile {
   text-align: center;

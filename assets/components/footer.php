@@ -1,5 +1,5 @@
 <!-- FOOTER START -->
-<hr class="semi" role="separator" />
+<hr class="semi bodyxfooter" role="separator" />
 <footer>
   <div class="footer-container">
     <a href="/">

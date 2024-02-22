@@ -171,7 +171,7 @@ $lang = [
     "asset_164" => "Submit",
     "asset_165" => "",
     "asset_166" => "Web dev",
-    "asset_167" => "UAV piloting",
+    "asset_167" => "UAV&nbsp;piloting",
     "asset_168" => "Request a <span class='highlited tuscher'>Proposal</span>",
     "asset_169" => "Project description",
     "asset_170" => "Name",

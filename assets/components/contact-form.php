@@ -147,5 +147,4 @@
       </div>
     </form>
   </section>
-  <hr class="reveal" role="separator" aria-hidden="true" />
 </article>

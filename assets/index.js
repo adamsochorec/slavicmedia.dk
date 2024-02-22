@@ -182,6 +182,7 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   lazyLoading: true,
   observer: true,
   observeParents: true,
+  spaceBetween: gridGap3,
   pagination: {
     el: ".swiper-pagination",
   },
@@ -199,16 +200,13 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   breakpoints: {
     0: {
       slidesPerView: 2.3,
-      spaceBetween: gridGap2,
     },
 
     375: {
       slidesPerView: 2.3,
-      spaceBetween: gridGap2,
     },
     620: {
       slidesPerView: 3,
-      spaceBetween: gridGap3,
     },
   },
   // Optional parameters
