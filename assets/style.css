@@ -177,7 +177,7 @@ hr:not(hr.semi) {
   margin: var(--grid-gap-3) 0;
   opacity: 0 !important;
 }
-#homepage hr.bodyxfooter{
+#homepage hr.bodyxfooter {
   display: none;
 }
 /* HR / SEPARATORS END */
@@ -337,10 +337,10 @@ footer a.footer-nav:hover {
 .switch {
   position: relative;
   display: inline-block;
-  width: calc(var(--grid-gap-2) * 2);
-  height: var(--grid-gap-2);
-  -webkit-box-shadow: var(--box-shadow-1);
-  box-shadow: var(--box-shadow-1);
+  width: 48px;
+  height: 28px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   border-radius: var(--border-radius-2);
 }
 .switcher label {
@@ -349,18 +349,15 @@ footer a.footer-nav:hover {
   margin: 0 var(--grid-gap-1);
   color: rgba(var(--white-color));
 }
-.switcher .fa-solid:hover {
-  color: rgb(var(--white-color), 1);
-}
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 .switcher {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 .slider {
   position: absolute;
@@ -370,7 +367,7 @@ footer a.footer-nav:hover {
   right: 0;
   bottom: 0;
   border-radius: var(--border-radius-2);
-  outline: 1px solid white;
+  background-color: var(--dark-grey-color-full);
 }
 .slider,
 .slider:before {
@@ -381,24 +378,23 @@ footer a.footer-nav:hover {
 .slider:before {
   position: absolute;
   content: "";
-  height: var(--grid-gap-1);
+  height: 24px;
   width: auto;
   aspect-ratio: 1/1;
-  left: 2.5px;
-  bottom: 2.5px;
+  left: 2px;
+  bottom: 2px;
   background-color: white;
-  -webkit-box-shadow: var(--box-shadow-1);
-  box-shadow: var(--box-shadow-1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   border-radius: var(--border-radius-2);
 }
 input:checked + .slider {
   background-color: rgb(var(--secondary-color));
-  outline: 1px solid rgb(var(--secondary-color));
 }
 input:checked + .slider:before {
-  -webkit-transform: translateX(var(--grid-gap-2));
-  -ms-transform: translateX(var(--grid-gap-2));
-  transform: translateX(var(--grid-gap-2));
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
 }
 .switcher {
   display: -webkit-box;
@@ -1913,8 +1909,7 @@ i.fa-circle-info:hover {
   box-shadow: var(--box-shadow-1);
   aspect-ratio: 1/1;
   -o-object-fit: cover;
-     object-fit: cover;
-
+  object-fit: cover;
 }
 .profile {
   text-align: center;
