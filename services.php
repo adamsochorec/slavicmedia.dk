@@ -178,6 +178,8 @@
               aria-checked="false"
               tabindex="0"
             >
+              <div class="assesibility-on">|</div>
+              <div class="assesibility-off">o</div>
               <input type="checkbox" onclick="vatPrice()" />
               <span class="slider"></span>
             </label>
