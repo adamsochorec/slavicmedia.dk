@@ -367,7 +367,7 @@ footer a.footer-nav:hover {
   right: 0;
   bottom: 0;
   border-radius: var(--border-radius-2);
-  background-color: var(--dark-grey-color-full);
+  background-color: rgb(var(--secondary-color));
 }
 .slider,
 .slider:before {
@@ -381,7 +381,7 @@ footer a.footer-nav:hover {
   height: 24px;
   width: auto;
   aspect-ratio: 1/1;
-  left: 2px;
+  right: 2px;
   bottom: 2px;
   background-color: white;
   z-index: 2;
@@ -390,12 +390,12 @@ footer a.footer-nav:hover {
   border-radius: var(--border-radius-2);
 }
 input:checked + .slider {
-  background-color: rgb(var(--secondary-color));
+  background-color: var(--dark-grey-color-full);
 }
 input:checked + .slider:before {
-  -webkit-transform: translateX(20px);
-  -ms-transform: translateX(20px);
-  transform: translateX(20px);
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
 }
 .switcher {
   display: -webkit-box;
@@ -1014,9 +1014,17 @@ footer .language-container {
 
 /* PROJECTS START */
 
-.popup-gallery {
+.popup-gallery,
+#projects .gallery {
   padding: 0 var(--homepage-padding) 0 var(--homepage-padding);
 }
+#projects .gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+#projects .gallery .gallery-item {
+  border-radius: 0 !important;
+}
+
 /* INTRO VIDEO START */
 .showcase {
   height: var(--dimension-1);
@@ -1069,14 +1077,13 @@ footer .language-container {
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: var(--grid-gap-2);
+  grid-gap: var(--grid-gap-1);
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .gallery .gallery-item {
   position: relative;
-  max-width: calc(100vw - var(--homepage-padding) * 2);
   height: var(--dimension-2);
   border-radius: var(--border-radius-1);
   background: #000;
@@ -1134,7 +1141,8 @@ footer .language-container {
   -webkit-transform: translate3d(10%, 0, 0);
   transform: translate3d(10%, 0, 0);
 }
-.gallery .gallery-item:hover img {
+.gallery .gallery-item:hover img,
+#homepage .gallery .gallery-item img {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -1158,6 +1166,7 @@ footer .language-container {
   vertical-align: baseline;
   height: var(--grid-gap-2);
 }
+
 /* VIDEO GALLERY END */
 
 /* GALLERY FEATURES START */
@@ -1317,10 +1326,10 @@ small a {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  -webkit-box-flex: 25%;
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 100%; /* IE10 */
+  -webkit-box-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
 }
 .column.column-padding-1 {
   padding-left: var(--grid-gap-1);
@@ -1839,7 +1848,7 @@ i:hover {
 .bubble.fa-solid:hover {
   color: rgb(var(--white-color), 1);
 }
-i.fa-circle-info:hover {
+.switcher .fa-solid:hover {
   color: rgb(var(--white-color)) !important;
 }
 .switcher label a:hover {
@@ -2148,6 +2157,9 @@ ul.languages-legend li::marker {
   .tabset > label {
     font-size: var(--fontsize-note);
   }
+  .tabset > label {
+    padding: var(--grid-gap-1);
+  }
 }
 @media only screen and (min-width: 415px) {
   .hide-cta-max {
@@ -2232,6 +2244,12 @@ ul.languages-legend li::marker {
   header nav ul li a {
     display: block;
     padding: 6.8px 0;
+  }
+  .column {
+    -ms-flex: 50%;
+    -webkit-box-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -2364,6 +2382,12 @@ ul.languages-legend li::marker {
   .privacy-container.show {
     right: var(--homepage-padding);
   }
+  .column {
+    -ms-flex: 25%;
+    -webkit-box-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
 }
 @media only screen and (max-width: 850px) {
   header ul {
@@ -2410,11 +2434,8 @@ ul.languages-legend li::marker {
   .privacy-container.show {
     bottom: 0;
   }
-  .column {
-    -ms-flex: 50%;
-    -webkit-box-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+  #projects .gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 947px) {
@@ -2468,3 +2489,7 @@ ul.languages-legend li::marker {
   }
 }
 /* MEDIA QERRIES END */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+}

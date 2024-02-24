@@ -42,24 +42,21 @@
         <hr class="reveal" role="separator" />
         <div class="grid-container fifty-fifty caption-container">
           <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Video</span>
-              Projects
-            </h2>
+            <h2><span class="highlited">Content</span> Creation</h2>
             <div class="hide-cta-min reveal">
-              <a class="cta" href="/services" aria-label="">
+              <a class="cta" href="/services#plans" aria-label="">
                 Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              Let us distil the essence of your project into a compelling
-              showreel. Our team specializes in creating narratives that leave a
+              Let us distil the essence of your project into a compelling brand
+              film. Our team specializes in creating narratives that leave a
               lasting impact on your audience.
             </p>
             <div class="hide-cta-max reveal">
-              <a class="cta" href="/services" aria-label="">
+              <a class="cta" href="/services#plans" aria-label="">
                 Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
@@ -67,11 +64,7 @@
         </div>
         <hr class="semi" role="separator" />
       </article>
-      <article
-        class="wrapper-wide gallery"
-        id="gallery-video"
-        aria-label="Video Gallery"
-      >
+      <article class="gallery" id="gallery-video" aria-label="Video Gallery">
         <div class="gallery-item reveal">
           <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
@@ -189,36 +182,6 @@
       <!-- VIDEO GALLERY END -->
       <!-- VIDEO END -->
       <!-- PHOTO START -->
-      <article class="wrapper-wide" id="photo">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Photo</span>
-              Projects
-            </h2>
-
-            <div class="hide-cta-min reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              Whether you are looking for professional headshots or authentic
-              stills, in a fancy studio or rough exterior, we are here to bring
-              them alive.
-            </p>
-            <div class="hide-cta-max reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </article>
-      <hr class="semi" role="separator" />
       <article class="popup-gallery">
         <div class="row">
           <div class="column">

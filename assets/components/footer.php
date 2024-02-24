@@ -19,22 +19,11 @@
         class="footer-nav"
         target="_blank"
         rel="noopener noreferrer nofollow"
-        href="https://www.iubenda.com/privacy-policy/34107571/cookie-policy"
-        class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
+        href="https://www.iubenda.com/privacy-policy/34107571/legal"
         title="Cookie Policy"
       >
-        Cookie&nbsp;Policy
+        Cookies & Privacy
       </a>
-      <span>&nbsp;|&nbsp;</span>
-      <a
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://www.iubenda.com/privacy-policy/34107571"
-        class="footer-nav"
-        title="Privacy Policy "
-        >Privacy Policy</a
-      >
-
       <span>&nbsp;|&nbsp;</span>
 
       <a

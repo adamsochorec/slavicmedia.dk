@@ -72,25 +72,20 @@
         </div>
         <hr class="semi" role="separator" />
         <!-- FEATURES START -->
-        <article
-          id="visual"
-          class="gallery"
-          id="gallery-features"
-          aria-label="Services"
-        >
+        <article class="gallery" aria-label="Services">
           <a href="/projects" class="gallery-item reveal">
             <img
-              src="/img/thumbnail/DSCF9640.jpg"
-              title="Video services cover."
-              alt="Video services cover."
+              src="/img/thumbnail/hvalp.jpg"
+              title="Content Creation cover."
+              alt="Content Creation cover."
             />
             <div class="gallery-item-caption">
               <i class="fa-solid fa-video bubble"></i>
-              <h3>Video</h3>
+              <h3>Content Creation</h3>
               <p>
-                Let us distil the essence of your project into a compelling
-                showreel. Our team specializes in creating narratives that leave
-                a lasting impact on your audience.
+                Capture the essence of your brand with unique and professional
+                photography, utilizing cutting-edge equipment, state-of-the-art
+                cameras, drones, and tools for visually striking content.
               </p>
             </div>
           </a>
@@ -101,16 +96,16 @@
           >
             <img
               src="/img/thumbnail/2023-11-30-00006.jpg"
-              alt="Photo services cover."
-              title="Photo services cover."
+              alt="Strategy services cover."
+              title="Strategy services cover."
             />
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-camera bubble"></i>
-              <h3>Photo</h3>
+              <i class="fa-solid fa-chart-column bubble"></i>
+              <h3>Strategy</h3>
               <p>
-                Whether you are looking for professional headshots or authentic
-                stills, in a fancy studio or rough exterior, we are here to
-                bring them alive.
+                Gain a competitive edge, for optimal results from your ads with
+                complex digital strategy aligning creative content with
+                strategic goals.
               </p>
             </div>
           </a>
@@ -206,14 +201,14 @@
             ></i>
           </button>
           <p class="profile-info reveal">
-            Slavic Media is a creative multimedia company that focuses on the
-            production of various brand films, showreels, stills and headshots.
+            Slavic Media I/S, a production company, specializing in captivating
+            brand films, SoMe content, stills, and headshots.
           </p>
           <br />
           <p class="reveal">
-            We tell stories with our beautiful videos, well-written scripts, and
-            clean designs to help brands reach their maximum potential. We will
-            do everything possible to turn your vision into reality.
+            From translating your vision into reality to offering strategic
+            insights, we're your partners in elevating your brand through a
+            seamless blend of captivating content and strategic excellence.
           </p>
         </article>
       </article>

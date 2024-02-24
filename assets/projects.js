@@ -11,10 +11,6 @@ $(document).ready(function () {
       tPrev: "Previous",
       tNext: "Next",
     },
-    zoom: {
-      enabled: true,
-      duration: 300, // don't foget to change the duration also in CSS
-    },
     titleSrc: function (item) {
       // Fetching custom attributes for videos
       const year = item.el.attr("year");

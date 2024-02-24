@@ -30,7 +30,7 @@
         class="highlited iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
         title="Cookie Policy"
       >
-        Learn more <i class="fa-solid fa-arrow-right"></i>
+        Learn&nbsp;more
       </a>
     </p>
   </div>

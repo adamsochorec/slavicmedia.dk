@@ -61,8 +61,8 @@
             <option value="" selected disabled hidden>
               <span class="default-option"> - Select -</span>
             </option>
-            <option value="Photo">Photo</option>
-            <option value="Video">Video</option>
+            <option value="Photo">Content Creation</option>
+            <option value="Video">Strategy</option>
             <option value="All in">All in</option>
             <option id="disableIfSelected" value="Service">Service</option>
           </select>
