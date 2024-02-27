@@ -6,42 +6,31 @@
   aria-describedby="cookieBannerDescription"
 >
   <div class="title-box">
-    <i class="fa-solid fa-cookie-bite"></i>
+  <a
+        href="https://clients.slavicmedia.dk/policy/cookies/"
+        title="Cookie Policy"
+      >
+    <i class="fa-solid fa-cookie-bite"></i></a>
     <span id="cookieBannerTitle">
       <span class="highlited">Cookies</span> Consent
     </span>
   </div>
   <div class="info" id="cookieBannerDescription">
     <p>
-      This website uses analytical cookies to help you to have a superior and
-      more relevant browsing experience.
-<<<<<<< HEAD
-      <a
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://www.iubenda.com/privacy-policy/34107571/cookie-policy"
-        class="highlited iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
-        title="Cookie Policy"
-      >
-<<<<<<< HEAD
-        Learn&nbsp;more
-=======
-      <a class="highlited" href="/privacy-policy">
-        Learn more <i class="fa-solid fa-arrow-right"></i>
->>>>>>> parent of b299075 (Privacy policy)
-=======
-        Learn more <i class="fa-solid fa-arrow-right"></i>
->>>>>>> parent of 06373c0 (Transition into Content Creation & Strategy)
-      </a>
+    This site uses cookies to offer you a better experience and analyze site traffic. If you continue to use this side, you consent to our use of cookies.
     </p>
   </div>
   <div class="buttons">
     <button class="button cta" id="acceptBtn" aria-label="Accept">
-      Accept
+      I understand
     </button>
-    <button id="declineBtn" class="button cta" aria-label="Decline">
-      Decline
-    </button>
+    <a
+        href="https://clients.slavicmedia.dk/policy/cookies/"
+        title="Cookie Policy"
+        class="cta"
+      >
+      Learn more<i class="fa-solid fa-arrow-right"></i
+        ></a>
   </div>
 </div>
 <!-- COOKIES END -->

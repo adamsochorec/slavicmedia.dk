@@ -32,45 +32,41 @@
         </div>
         <hr class="reveal" role="separator" />
         <!-- FEATURES START -->
-        <article
-          class="gallery"
-          id="gallery-features"
-          aria-label="Features Grid"
-        >
-          <div class="gallery-item reveal">
+        <article class="gallery" id="gallery-features" aria-label="Features Grid">
+          <div class="gallery-item reveal active">
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-crosshairs bubble"></i>
-              <h3>Drone Footage</h3>
+              <i class="fa-solid fa-film bubble" aria-hidden="true"></i>
+              <h3>Cinematic Storytelling</h3>
             </div>
           </div>
-          <div class="gallery-item reveal">
+          <div class="gallery-item reveal active">
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-pen-ruler bubble"></i>
-              <h3>Graphic Design</h3>
+              <i class="fa-solid fa-image-portrait bubble" aria-hidden="true"></i>
+              <h3>Ceative Photography Sessions</h3>
             </div>
           </div>
-          <div class="gallery-item reveal">
+          <div class="gallery-item reveal active">
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-bolt bubble"></i>
-              <h3>Motion Graphics</h3>
+              <i class="fa-solid fa-microchip bubble" aria-hidden="true"></i>
+              <h3>Industry Standard Tools</h3>
             </div>
           </div>
-          <div class="gallery-item reveal" aria-label="">
+          <div class="gallery-item reveal active" aria-label="">
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-handshake-simple bubble"></i>
-              <h3>Project Pre-Production</h3>
+              <i class="fa-solid fa-handshake-simple bubble" aria-hidden="true"></i>
+              <h3>Strategic Business Consulting</h3>
             </div>
           </div>
-          <div class="gallery-item reveal">
+          <div class="gallery-item reveal active">
             <div class="gallery-item-caption">
-              <i class="fa-brands fa-dropbox bubble"></i>
-              <h3>Online Gallery & Storage</h3>
+              <i class="fa-brands fa-meta bubble" aria-hidden="true"></i>
+              <h3>Targeted Performance Ads</h3>
             </div>
           </div>
-          <div class="gallery-item reveal">
+          <div class="gallery-item reveal active">
             <div class="gallery-item-caption">
-              <i class="fa-solid fa-masks-theater bubble"></i>
-              <h3>Make-Up Artist</h3>
+              <i class="fa-solid fa-diagram-project bubble" aria-hidden="true"></i>
+              <h3>Holistic Digital Strategy</h3>
             </div>
           </div>
         </article>
@@ -130,7 +126,7 @@
                 rel="noopener noreferrer nofollow"
                 href="https://taxation-customs.ec.europa.eu/what-vat_en"
               >
-                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-percent"></i>
                 <p>VAT</p>
               </a>
             </label>
@@ -147,8 +143,8 @@
             </label>
           </section>
           <div class="tab-panels">
-            <!-- VIDEO PACKAGES START -->
-            <div class="tab-panel reveal">
+           <!-- VIDEO PACKAGES START -->
+           <div class="tab-panel reveal">
               <table id="Video">
                 <tr>
                   <th class="left-align"></th>
@@ -162,19 +158,19 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">470</span>
+                      <span class="price">588</span>
                       €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price">740</span>
+                      <span class="price">925</span>
                       €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price">1100</span>
+                      <span class="price">1375</span>
                       €
                     </p>
                   </td>
@@ -265,7 +261,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Make-Up Artist</p>
+                    <p>Meta-Up Artist</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -351,19 +347,19 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">200</span>
+                      <span class="price">250</span>
                       €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price">530</span>
+                      <span class="price">663</span>
                       €
                     </p>
                   </td>
                   <td>
                     <p>
-                      <span class="price">800</span>
+                      <span class="price">1000</span>
                       €
                     </p>
                   </td>
@@ -512,13 +508,13 @@
                     <p>Price</p>
                   </td>
                   <td>
-                    <p>From <span class="price">1140</span> €</p>
+                    <p>From <span class="price">1425</span> €</p>
                   </td>
                   <td>
-                    <p>From <span class="price"> 1750</span> €</p>
+                    <p>From <span class="price"> 2188</span> €</p>
                   </td>
                   <td>
-                    <p>From <span class="price"> 2370</span> €</p>
+                    <p>From <span class="price"> 2963</span> €</p>
                   </td>
                 </tr>
                 <tr>
@@ -714,7 +710,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">40</span>
+                      <span class="price">50</span>
                       €
                     </p>
                   </td>
@@ -725,7 +721,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">67</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>
@@ -736,7 +732,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">67</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>
@@ -747,7 +743,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">26</span>
+                      <span class="price">33</span>
                       €
                     </p>
                   </td>
@@ -758,7 +754,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">67</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>
@@ -769,7 +765,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">26</span>
+                      <span class="price">33</span>
                       €
                     </p>
                   </td>
@@ -780,7 +776,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">67</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>
@@ -791,7 +787,7 @@
                   </td>
                   <td>
                     <p>
-                      <span class="price">67</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>

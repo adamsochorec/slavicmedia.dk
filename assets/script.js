@@ -79,3 +79,16 @@ reveal();
 // YEAR FUNCTION
 const currentYear = new Date().getFullYear();
 document.getElementById("current-year").textContent = currentYear;
+
+// TAG MANAGER
+const script = document.createElement("script");
+script.async = true;
+script.src = "https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8";
+script.onload = function () {
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-KGTECW9SN8");
+};

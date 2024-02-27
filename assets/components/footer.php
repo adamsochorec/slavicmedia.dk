@@ -15,33 +15,22 @@
   <hr role="separator" />
   <div class="footer-container">
     <div class="grid-item">
-<<<<<<< HEAD
       <a
         class="footer-nav"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://www.iubenda.com/privacy-policy/34107571/cookie-policy"
-        class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe"
+        href="https://clients.slavicmedia.dk/policy/cookies/"
         title="Cookie Policy"
       >
         Cookie&nbsp;Policy
       </a>
       <span>&nbsp;|&nbsp;</span>
       <a
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        href="https://www.iubenda.com/privacy-policy/34107571"
+        href="https://clients.slavicmedia.dk/policy/terms/"
         class="footer-nav"
         title="Privacy Policy "
-        >Privacy Policy</a
+        >Terms of Service</a
       >
 
       <span>&nbsp;|&nbsp;</span>
-
-=======
-      <a class="footer-nav" href="/privacy-policy"> Privacy&nbsp;Policy </a>
-      <span>&nbsp;|&nbsp;</span>
->>>>>>> parent of b299075 (Privacy policy)
       <a
         class="footer-nav"
         target="_blank"
