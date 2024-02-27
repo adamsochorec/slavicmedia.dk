@@ -19,7 +19,8 @@
       <a
         class="footer-nav"
         target="_blank"
-        href="https://clients.slavicmedia.dk/policy/cookies/"
+        rel="noopener noreferrer nofollow"
+        href="https://www.iubenda.com/privacy-policy/34107571/legal"
         title="Cookie Policy"
       >
         Cookies & Privacy

@@ -1345,7 +1345,10 @@ small a {
   width: 100%;
 }
 /* MAGNIFICIENT POP UP START */
-
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  overflow: scroll;
+}
 .mfp-bg {
   top: 0;
   left: 0;
