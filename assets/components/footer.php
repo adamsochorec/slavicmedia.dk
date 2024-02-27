@@ -15,6 +15,7 @@
   <hr role="separator" />
   <div class="footer-container">
     <div class="grid-item">
+<<<<<<< HEAD
       <a
         class="footer-nav"
         target="_blank"
@@ -25,6 +26,10 @@
       </a>
       <span>&nbsp;|&nbsp;</span>
 
+=======
+      <a class="footer-nav" href="/privacy-policy"> Privacy&nbsp;Policy </a>
+      <span>&nbsp;|&nbsp;</span>
+>>>>>>> parent of b299075 (Privacy policy)
       <a
         class="footer-nav"
         target="_blank"

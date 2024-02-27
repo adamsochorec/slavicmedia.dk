@@ -385,7 +385,7 @@ footer a.footer-nav:hover {
   bottom: 2px;
   background-color: white;
   z-index: 2;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   border-radius: var(--border-radius-2);
 }
@@ -410,7 +410,7 @@ input:checked + .slider:before {
 .switcher .assesibility-off {
   position: absolute;
   z-index: 1;
-  cursor: pointer;
+  color: gray;
 }
 .switcher .assesibility-on {
   left: 9px;
@@ -2256,6 +2256,16 @@ ul.languages-legend li::marker {
   .intro-section {
     background-attachment: scroll;
   }
+  footer {
+    font-size: var(--fontsize-note);
+  }
+  footer .footer-container:last-of-type {
+    display: block;
+    text-align: center;
+  }
+  footer .footer-container .footerBreak {
+    display: block;
+  }
 }
 @media only screen and (min-width: 620px) {
   #gallery-features.gallery {
@@ -2291,16 +2301,6 @@ ul.languages-legend li::marker {
   .intro-section,
   .intro-section .filter {
     height: 300px !important;
-  }
-  footer .footer-container .footerBreak {
-    display: block;
-  }
-  footer {
-    font-size: var(--fontsize-note);
-  }
-  footer .footer-container:last-of-type {
-    display: block;
-    text-align: center;
   }
 }
 
