@@ -30,36 +30,55 @@
           class="pathname-container"
           role="region"
           aria-labelledby="pagePathHeading"
+          aria-hidden="false"
         ></div>
-        <h1 id="pagePathHeading" class="reveal" role="heading" aria-level="1">
+        <h1
+          id="pagePathHeading"
+          class="reveal"
+          role="heading"
+          aria-level="1"
+          aria-label="Page Title: For Press"
+        >
           For Press
         </h1>
         <div
           class="pathname-container reveal"
           role="navigation"
           aria-labelledby="breadcrumbsHeading"
+          aria-hidden="false"
         >
           <p>
-            <span class="pathname"><a href="/"></a> &#8250; </span>
+            <span class="pathname"
+              ><a href="/" aria-label="Home"></a> &#8250;
+            </span>
             <span class="pathname" aria-label="press">For Press</span>
           </p>
         </div>
-        <hr class="reveal" role="separator" />
+        <hr class="reveal" role="separator" aria-label="Separator" />
         <!-- PRESS MATERIALS GRID START -->
-        <div class="reveal" id="gallery-press">
+        <div
+          class="reveal"
+          id="gallery-press"
+          role="grid"
+          aria-label="Press Materials Grid"
+        >
           <!-- BRAND GUIDE START -->
           <div
             class="gallery-item"
             role="region"
             aria-labelledby="brandGuideHeading"
+            aria-hidden="false"
           >
-            <h2 id="brandGuideHeading">Brand Guide</h2>
+            <h2 id="brandGuideHeading" aria-label="Brand Guide Title">
+              Brand Guide
+            </h2>
             <a
               class="gallery-item"
               href="/assets/brand-guide.pdf"
               target="_blank"
+              aria-label="Link to Brand Guide"
             >
-              <div class="grid-item" id="brand-guide">
+              <div class="grid-item" id="brand-guide" role="gridcell">
                 <div class="blur">
                   <span aria-label="Preview">
                     <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
@@ -80,14 +99,18 @@
             class="gallery-item"
             role="region"
             aria-labelledby="creditGuideHeading"
+            aria-hidden="false"
           >
-            <h2 id="creditGuideHeading">Credit Guide</h2>
+            <h2 id="creditGuideHeading" aria-label="Credit Guide Title">
+              Credit Guide
+            </h2>
             <a
               class="gallery-item"
               href="/assets/credit-guide.pdf"
               target="_blank"
+              aria-label="Link to Credit Guide"
             >
-              <div class="grid-item" id="credit-guide">
+              <div class="grid-item" id="credit-guide" role="gridcell">
                 <div class="blur">
                   <span aria-label="Preview">
                     <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
@@ -108,14 +131,16 @@
             class="gallery-item"
             role="region"
             aria-labelledby="pressKitHeading"
+            aria-hidden="false"
           >
-            <h2 id="pressKitHeading">Press Kit</h2>
+            <h2 id="pressKitHeading" aria-label="Press Kit Title">Press Kit</h2>
             <a
               class="gallery-item"
               href="/assets/press-kit.zip"
               target="_blank"
+              aria-label="Link to Press Kit"
             >
-              <div class="grid-item" id="press-kit">
+              <div class="grid-item" id="press-kit" role="gridcell">
                 <div class="blur">
                   <span aria-label="Download">
                     <p>Download<i class="fa-solid fa-arrow-right"></i></p>
@@ -137,14 +162,15 @@
     </main>
     <!-- FOOTER START -->
     <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'footer.php';
-  ?>
+          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+          include $IPATH . 'footer.php';
+          ?>
     <script
       type="text/javascript"
       src="/assets/cookies.js"
       defer
       role="script"
+      aria-label="Cookies Script"
     ></script>
     <!-- FOOTER END -->
   </body>

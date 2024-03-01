@@ -100,7 +100,7 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/thumbnail/2023-11-30-00006.jpg"
+              src="/img/thumbnail/cover-photo.jpg"
               alt="Photo services cover."
               title="Photo services cover."
             />
@@ -148,18 +148,24 @@
       </article>
       <!-- SERVICES END -->
       <!-- REVIEWS START -->
-      <article class="wrapper-wide" id="reviews">
+      <article
+        class="wrapper-wide"
+        id="reviews"
+        role="region"
+        aria-label="Reviews"
+      >
         <hr class="semi" />
         <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'swiper-reviews.php';
-        ?>
+                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+                      include $IPATH . 'swiper-reviews.php';
+                      ?>
         <div class="flex-center reveal">
           <a
             class="cta"
             target="_blank"
             rel="noopener noreferrer nofollow"
             href="https://g.page/r/CRTkzopg3plWEB0/review"
+            aria-label="Share your experience"
           >
             Share your experience<i class="fa-solid fa-arrow-right"></i>
           </a>
@@ -193,16 +199,18 @@
         ></video>
         <article class="wrapper-standard">
           <h2 class="reveal">Our Team</h2>
-          <button id="playPauseButton" class="play">
+          <button id="playPauseButton" class="play" aria-controls="heroVideo">
             <i
               id="playControl"
               title="Play"
               class="fa-regular fa-circle-play fa-xl"
+              aria-hidden="true"
             ></i>
             <i
               id="pauseControl"
               title="Pause"
               class="fa-regular fa-circle-pause fa-xl"
+              aria-hidden="true"
             ></i>
           </button>
           <p class="profile-info reveal">
@@ -223,12 +231,12 @@
         <!-- TEAM SECTION START -->
 
         <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'swiper-ourteam.php';
-        ?>
+                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+                      include $IPATH . 'swiper-ourteam.php';
+                      ?>
         <!-- TEAM SECTION END -->
         <!-- COLLABORATORS AND CLIENTS START -->
-        <section>
+        <section role="region" aria-label="Collaborators and Clients">
           <hr class="semi" role="separator" />
         </section>
       </article>
@@ -240,12 +248,17 @@
         aria-label="Press Section"
       >
         <div class="filter"></div>
-        <article class="wrapper-wide" id="clients">
+        <article
+          class="wrapper-wide"
+          id="clients"
+          role="region"
+          aria-label="Clients"
+        >
           <h3 class="reveal">Trusted by Customers</h3>
           <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'clients.php';
-        ?>
+                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+                      include $IPATH . 'clients.php';
+                      ?>
         </article>
       </article>
       <!-- COLLABORATORS AND CLIENTS END -->
@@ -253,9 +266,9 @@
     </main>
     <!-- FOOTER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
+                  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+                  include $IPATH . 'footer.php';
+                  ?>
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       role="script"

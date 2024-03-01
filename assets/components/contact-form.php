@@ -1,7 +1,12 @@
-<article class="wrapper-standard">
-  <section class="contact-form-section">
+<article class="wrapper-standard" role="article" aria-label="Contact Form">
+  <section
+    class="contact-form-section"
+    role="region"
+    aria-label="Contact Form Section"
+  >
     <h3 class="reveal" role="heading" aria-level="3">
-      Request a <span class="highlited tuscher">Proposal</span>
+      Request a
+      <span class="highlited tuscher" role="presentation">Proposal</span>
     </h3>
     <br />
     <form
@@ -11,14 +16,16 @@
       method="POST"
       role="form"
       aria-labelledby="contactFormHeading"
+      aria-describedby="This form is used to request a proposal."
     >
       <!-- Form elements -->
       <div
         class="grid-container contact-form"
         role="group"
         aria-labelledby="contactFormGroupLabel"
+        aria-describedby="This group contains the contact form fields."
       >
-        <div class="grid-item reveal">
+        <div class="grid-item reveal" role="group" aria-label="Email and Name">
           <p><label for="email">Email *</label></p>
           <input
             type="email"
@@ -29,6 +36,7 @@
             autocomplete="email"
             aria-required="true"
             aria-labelledby="email"
+            aria-describedby="Your email address."
           />
           <br />
           <p>
@@ -43,10 +51,15 @@
             autocomplete="Name"
             aria-required="true"
             aria-labelledby="name"
+            aria-describedby="Your name."
           />
           <br />
         </div>
-        <div class="grid-item reveal">
+        <div
+          class="grid-item reveal"
+          role="group"
+          aria-label="Category and Plan"
+        >
           <p>
             <label for="category">Category *</label>
           </p>
@@ -56,6 +69,7 @@
             name="category"
             aria-required="true"
             aria-labelledby="category"
+            aria-describedby="The category of your project."
             onchange="updatePlanOptions()"
           >
             <option value="" selected disabled hidden>
@@ -76,6 +90,7 @@
             name="plan"
             aria-required="true"
             aria-labelledby="plan"
+            aria-describedby="The plan you are interested in."
           >
             <option value="" selected disabled hidden>
               <span class="default-option">- Select -</span>
@@ -88,7 +103,11 @@
           <br />
         </div>
       </div>
-      <div class="reveal">
+      <div
+        class="reveal"
+        role="group"
+        aria-label="Project Description and Submit Button"
+      >
         <p>
           <label for="project">Project description *</label>
         </p>
@@ -101,6 +120,7 @@
           placeholder=""
           aria-required="true"
           aria-labelledby="project"
+          aria-describedby="Describe your project here."
         ></textarea>
         <button
           class="submit-btn"
@@ -114,11 +134,17 @@
           type="hidden"
           name="_next"
           value="https://slavicmedia.dk/success"
+          aria-hidden="true"
         />
-        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_captcha" value="false" aria-hidden="true" />
         <!-- Captcha disable -->
-        <input type="text" name="_honey" style="display: none" />
-        <input type="hidden" name="_template" value="box" />
+        <input
+          type="text"
+          name="_honey"
+          style="display: none"
+          aria-hidden="true"
+        />
+        <input type="hidden" name="_template" value="box" aria-hidden="true" />
       </div>
     </form>
   </section>

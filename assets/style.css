@@ -658,6 +658,8 @@ ul.menu-left.collapse {
   background-color: transparent;
   float: right;
   height: 38px;
+  border: none;
+  outline: none;
   width: 38px;
   cursor: pointer;
 }
@@ -797,6 +799,7 @@ button.submit-btn {
   background-color: transparent;
   border: none;
   text-decoration: underline !important;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 button.submit-btn {
@@ -1327,10 +1330,10 @@ small a {
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; /* IE10 */
-  -webkit-box-flex: 25%;
-  flex: 25%;
-  max-width: 25%;
+  -ms-flex: 100%; /* IE10 */
+  -webkit-box-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
 }
 .column.column-padding-1 {
   padding-left: var(--grid-gap-1);
@@ -2245,6 +2248,12 @@ ul.languages-legend li::marker {
     display: block;
     padding: 6.8px 0;
   }
+  .column {
+    -ms-flex: 50%;
+    -webkit-box-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 @media only screen and (max-width: 560px) {
   .noindex .pathname-container {
@@ -2376,6 +2385,12 @@ ul.languages-legend li::marker {
   .privacy-container.show {
     right: var(--homepage-padding);
   }
+  .column {
+    -ms-flex: 25%;
+    -webkit-box-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+  }
 }
 @media only screen and (max-width: 850px) {
   header ul {
@@ -2421,12 +2436,6 @@ ul.languages-legend li::marker {
   }
   .privacy-container.show {
     bottom: 0;
-  }
-  .column {
-    -ms-flex: 50%;
-    -webkit-box-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
   }
 }
 @media only screen and (max-width: 947px) {

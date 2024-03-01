@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <nav id="navigation" role="navigation" aria-label="Main Navigation">
-      <a href="/">
+      <a href="/" aria-label="Home">
         <img
           class="logo"
           alt="Logo Slavic Media"
@@ -15,7 +15,7 @@
           src="/img/Secondary-1.png"
         />
       </a>
-      <a
+      <button
         aria-label="Open mobile menu"
         class="hamburger"
         role="button"
@@ -24,24 +24,24 @@
         <span></span>
         <span></span>
         <span></span>
-      </a>
+      </button>
       <ul class="menu-left" role="menu">
-        <li role="menuitem">
-          <a href="/services">Services</a>
+        <li role="none">
+          <a href="/services" role="menuitem">Services</a>
         </li>
-        <li role="menuitem">
-          <a href="/projects">Projects</a>
+        <li role="none">
+          <a href="/projects" role="menuitem">Projects</a>
         </li>
-        <li role="menuitem">
-          <a href="/#ourteam">Our Team</a>
+        <li role="none">
+          <a href="/#ourteam" role="menuitem">Our Team</a>
         </li>
-        <li role="menuitem">
-          <a href="https://clients.slavicmedia.dk"
+        <li role="none">
+          <a href="https://clients.slavicmedia.dk" role="menuitem"
             >For clients</a
           >
         </li>
-        <li role="menuitem">
-          <a href="/press">For Press</a>
+        <li role="none">
+          <a href="/press" role="menuitem">For Press</a>
         </li>
       </ul>
     </nav>
@@ -49,7 +49,7 @@
 </header>
 
 <!-- LOADER START -->
-<div class="loader-container" role="complementary">
+<div class="loader-container" role="status" aria-live="polite">
   <div class="loader" aria-label="Loading"></div>
 </div>
 <!-- LOADER END -->

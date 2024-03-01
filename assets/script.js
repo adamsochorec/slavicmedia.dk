@@ -1,13 +1,15 @@
 // LOADER ANIMATION START
 (function introLoader() {
+  // Hides the loader when the window is fully loaded
   window.addEventListener("load", () => {
-    // When the window is fully loaded, hide the loader
     const loader = document.querySelector(".loader-container");
     loader.style.display = "none";
   });
 })();
 // LOADER ANIMATION END
+
 // CONTENT REVEAL START
+// Function to reveal elements as the user scrolls
 function reveal() {
   const reveals = document.querySelectorAll(".reveal"),
     windowHeight = window.innerHeight;
@@ -15,6 +17,7 @@ function reveal() {
   reveals.forEach((reveal) => {
     const revealtop = reveal.getBoundingClientRect().top,
       revealpoint = 0;
+    // Adds "active" class to elements in view
     if (revealtop < windowHeight - revealpoint) {
       reveal.classList.add("active");
     }
@@ -24,18 +27,20 @@ window.addEventListener("scroll", reveal);
 reveal();
 // CONTENT REVEAL END
 
+// HEADER TOGGLE AND COLLAPSE NAV START
 (function header() {
   let lastScrollTop = 0;
 
-  // TOGGLE HAMBURGER & COLLAPSE NAV START
   const hamburger = document.querySelector(".hamburger");
   const menuLeft = document.querySelector(".menu-left");
+
+  // Toggles hamburger icon and collapses navigation on click
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("open");
     menuLeft.classList.toggle("collapse");
   });
 
-  // REMOVE X & COLLAPSE NAV ON ON CLICK
+  // Removes "open" class from hamburger and collapses navigation on link click
   const menuLeftLinks = document.querySelectorAll(".menu-left a");
   menuLeftLinks.forEach((link) => {
     link.addEventListener("click", () => {
@@ -54,6 +59,8 @@ reveal();
       ticking = true;
     }
   });
+
+  // Handles header visibility on scroll
   function hasScrolled() {
     const st = window.pageYOffset || document.documentElement.scrollTop,
       header = document.querySelector("header"),
@@ -77,10 +84,12 @@ reveal();
 })();
 
 // YEAR FUNCTION
+// Sets the current year in the HTML element with id "current-year"
 const currentYear = new Date().getFullYear();
 document.getElementById("current-year").textContent = currentYear;
 
 // TAG MANAGER
+// Dynamically loads Google Tag Manager script
 const script = document.createElement("script");
 script.async = true;
 script.src = "https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8";

@@ -9,17 +9,17 @@
     <meta name="robots" content="noindex" />
     <meta name="googlebot" content="noindex" />
   </head>
-  <body id="error" class="noindex">
+  <body id="error" class="noindex" role="document" aria-label="Error page">
     <!-- HEADER START -->
     <?php
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
       include $IPATH . 'nav-bar.php';
       ?>
     <!-- HEADER END -->
-    <main>
+    <main role="main" aria-label="Main content">
       <article
         class="wrapper-narrow flex-center reveal"
-        role="main"
+        role="article"
         aria-labelledby="error-heading"
       >
         <div class="pathname-container" aria-hidden="true"></div>
@@ -30,12 +30,22 @@
             speed="0.7"
             loop
             autoplay
+            aria-label="Animation player"
+            aria-controls="error-heading"
           ></dotlottie-player>
         </div>
-        <h1 id="error-heading">
+        <h1 id="error-heading" aria-describedby="error-description">
           The page you’re looking<br />for can't be found.
         </h1>
-        <a class="cta" href="http://slavicmedia.dk" role="link"
+        <p id="error-description" aria-hidden="false">
+          The page you were trying to reach does not exist. Please return to the
+          homepage.
+        </p>
+        <a
+          class="cta"
+          href="http://slavicmedia.dk"
+          role="link"
+          aria-label="Return to the homepage"
           >Return to the homepage<i class="fa-solid fa-arrow-right"></i
         ></a>
       </article>

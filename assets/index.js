@@ -1,14 +1,13 @@
 // CHANGE HEADER RGBA AT SCROLL START
 document.addEventListener("DOMContentLoaded", function () {
+  // Adds a scroll event listener to change the header styles based on scroll position
   window.addEventListener("scroll", function () {
     const header = document.querySelector("#homepage header");
-    blurValue = getComputedStyle(document.documentElement).getPropertyValue(
-      "--blur-1"
-    );
-    const darkGreyValue = getComputedStyle(
-      document.documentElement
-    ).getPropertyValue("--dark-grey-color-full");
+    // Retrieves blur and color values from CSS variables
+    blurValue = getComputedStyle(document.documentElement).getPropertyValue("--blur-1");
+    const darkGreyValue = getComputedStyle(document.documentElement).getPropertyValue("--dark-grey-color-full");
 
+    // Adjusts header styles when scroll position is beyond a certain threshold
     if (window.pageYOffset > 530) {
       header.style.backgroundColor = darkGreyValue;
       header.style.backdropFilter = blurValue;
@@ -26,12 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
 // VIDEO CONTROLS START
 const video = document.getElementById("heroVideo"),
   pauseControl = document.getElementById("pauseControl"),
   playControl = document.getElementById("playControl"),
   playPauseButton = document.getElementById("playPauseButton");
 
+// Function to update video controls based on playback status
 function updateControls() {
   if (video.paused) {
     playPauseButton.classList.remove("pause");
@@ -47,10 +48,13 @@ function updateControls() {
   }
 }
 
+// Adds event listeners for video play and pause events
 video.addEventListener("pause", updateControls);
 video.addEventListener("play", updateControls);
 
+// Adds a click event listener to the play/pause button
 playPauseButton.addEventListener("click", function () {
+  // Toggles between play and pause based on current video state
   if (video.paused) {
     video.play();
   } else {
@@ -105,17 +109,18 @@ function videoOffload() {
 
 // Call the videoOffload function to initialize
 videoOffload();
-
 // VIDEO OFFLOAD END
 
 // START RATING START
 // Get all elements with the "stars" class
 const starContainers = document.querySelectorAll(".stars");
+
 // Iterate through each element and display stars based on the data-rating attribute
 starContainers.forEach(function (starContainer) {
   const rating = parseInt(starContainer.getAttribute("data-rating"), 10);
   showStars(starContainer, rating);
 });
+
 // Function to display stars based on the rating value
 function showStars(container, rating) {
   container.innerHTML = ""; // Clear any existing content
@@ -139,12 +144,10 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
-const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-2"
-);
-const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-3"
-);
+const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue("--grid-gap-2");
+const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue("--grid-gap-3");
+
+// Initialize Swiper for the reviews section
 const reviewsSwiper = new Swiper(".swiper-reviews", {
   loop: true,
   speed: 600,
@@ -177,6 +180,7 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
 // RATING SWIPER END
 
 // OUR TEAM SWIPER START
+// Initialize Swiper for the "Our Team" section
 const ourteamSwiper = new Swiper(".swiper-ourteam", {
   preloadImages: false,
   lazyLoading: true,
@@ -186,13 +190,11 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   pagination: {
     el: ".swiper-pagination",
   },
-
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
   // And if we need scrollbar
   scrollbar: {
     el: ".swiper-scrollbar",
@@ -201,7 +203,6 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
     0: {
       slidesPerView: 2.3,
     },
-
     375: {
       slidesPerView: 2.3,
     },

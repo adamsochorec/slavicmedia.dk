@@ -1,7 +1,7 @@
 <hr class="semi bodyxfooter" role="separator" />
-<footer>
+<footer role="contentinfo">
   <div class="footer-container">
-    <a href="/">
+    <a href="/" aria-label="Home">
       <img
         src="/img/Secondary-1.png"
         alt="Logo Slavic Media"
@@ -14,7 +14,7 @@
   </div>
   <hr role="separator" />
   <div class="footer-container">
-    <div class="grid-item">
+    <div class="grid-item" role="navigation" aria-label="Footer Navigation">
       <a
         class="footer-nav"
         href="https://clients.slavicmedia.dk/policy/cookies/"
@@ -36,7 +36,7 @@
         target="_blank"
         rel="noopener noreferrer nofollow"
         href="https://datacvr.virk.dk/enhed/virksomhed/44081512?fritekst=slavic%20media&sideIndex=0&size=10"
-        aria-label=""
+        aria-label="CVR Number"
         role="link"
       >
         CVR:&nbsp;44081512
@@ -54,11 +54,11 @@
 <script
   src="https://kit.fontawesome.com/0d09e23a84.js"
   crossorigin="anonymous"
-  role="script"
+  role="presentation"
 ></script>
 <script
   type="text/javascript"
   src="/assets/script.js"
   defer
-  role="script"
+  role="presentation"
 ></script>

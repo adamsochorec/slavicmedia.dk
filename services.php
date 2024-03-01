@@ -716,12 +716,12 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="left-align">
+                  <td class="left-ali</html>gn">
                     <p>Video Color Grading</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price">84</span>
+                      <span class="price"</main>>84</span>
                       €
                     </p>
                   </td>
