@@ -86,24 +86,20 @@
             ></a>
           </div>
         </div>
-        <!--   <div class="gallery-item reveal">
-          <img
-            src="/img/cover-sleddog.jpg"
-            alt="."
-          />
-          <div class="gallery-item-caption"><i class="fa-regular fa-circle-play bubble"></i
-              >
-            <h4>
-
-              Kiruna Sleddog Tours        
-            </h4>
-            <p>2023&nbsp;|&nbsp;<span>sleddog.se</span><i class="fa-solid fa-arrow-right"></i></p>
+        <div class="gallery-item reveal">
+          <img src="/img/cover-sleddog.jpg" alt="." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"></i>
+            <h4>Kiruna Sleddog Tours</h4>
+            <p>
+              2023&nbsp;|&nbsp;<span>sleddog.se</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
             <a
-              
               href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
             ></a>
           </div>
-        </div> -->
+        </div>
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
             src="/img/cover-husetfundament.jpg"
@@ -170,7 +166,7 @@
           </div>
         </div>
 
-        <div class="gallery-item reveal">
+        <!--    <div class="gallery-item reveal">
           <img src="/img/cover-parkour.jpg" alt="." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
@@ -183,7 +179,7 @@
               href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
             ></a>
           </div>
-        </div>
+        </div> -->
       </article>
 
       <!-- VIDEO GALLERY END -->

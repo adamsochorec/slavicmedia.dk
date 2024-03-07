@@ -37,10 +37,6 @@
         <h1 id="error-heading" aria-describedby="error-description">
           The page you’re looking<br />for can't be found.
         </h1>
-        <p id="error-description" aria-hidden="false">
-          The page you were trying to reach does not exist. Please return to the
-          homepage.
-        </p>
         <a
           class="cta"
           href="http://slavicmedia.dk"
