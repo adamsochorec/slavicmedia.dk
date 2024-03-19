@@ -39,7 +39,7 @@
         </h1>
         <a
           class="cta"
-          href="http://slavicmedia.dk"
+          href="https://slavic.media"
           role="link"
           aria-label="Return to the homepage"
           >Return to the homepage<i class="fa-solid fa-arrow-right"></i

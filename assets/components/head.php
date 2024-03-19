@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" href="/img/Favicon-1.pngl" type="image/png" />
 <link rel="stylesheet" href="/assets/style.css" />
-<link rel="alternate" hreflang="en-DK" href="https://slavicmedia.dk" />
+<link rel="alternate" hreflang="en-DK" href="https://slavic.media" />
 
 <!-- for Microsoft apps -->
 <meta name="msapplication-TileImage" content="/img/thumbnail.png" />

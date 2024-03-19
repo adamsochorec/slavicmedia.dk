@@ -133,7 +133,7 @@
         <input
           type="hidden"
           name="_next"
-          value="https://slavicmedia.dk/success"
+          value="https://slavic.media/success"
           aria-hidden="true"
         />
         <input type="hidden" name="_captcha" value="false" aria-hidden="true" />

@@ -17,14 +17,14 @@
     <div class="grid-item" role="navigation" aria-label="Footer Navigation">
       <a
         class="footer-nav"
-        href="https://clients.slavicmedia.dk/policy/cookies/"
+        href="https://clients.slavic.media/policy/cookies/"
         title="Cookie Policy"
       >
         Cookie&nbsp;Policy
       </a>
       <span>&nbsp;|&nbsp;</span>
       <a
-        href="https://clients.slavicmedia.dk/policy/terms/"
+        href="https://clients.slavic.media/policy/terms/"
         class="footer-nav"
         title="Privacy Policy "
         >Terms of Service</a

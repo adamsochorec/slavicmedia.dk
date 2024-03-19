@@ -11,8 +11,8 @@
           class="note flag"
           version="1.1"
           id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns="https://www.w3.org/2000/svg"
+          xmlns:xlink="https://www.w3.org/1999/xlink"
           x="0px"
           y="0px"
           viewBox="0 0 1093 1092"
@@ -104,7 +104,7 @@
           </g>
         </svg>
         <img
-          src="/img/thumbnail/2022-04-24-07404.jpg"
+          src="/img/thumbnail/marcel.jpg"
           alt="Portrait of Marcel H."
           title="Portrait of Marcel H."
           class="reveal"
@@ -124,7 +124,7 @@
           </a>
           <a
             href="/cdn-cgi/l/email-protection#600d011203050c20130c011609030d050409014e040b"
-            aria-label="Email: marcel@slavicmedia.dk"
+            aria-label="Email: marcel@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
           </a>
@@ -196,8 +196,8 @@
           class="note flag"
           version="1.1"
           id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns="https://www.w3.org/2000/svg"
+          xmlns:xlink="https://www.w3.org/1999/xlink"
           x="0px"
           y="0px"
           viewBox="0 0 1062 1062"
@@ -228,7 +228,7 @@
         </svg>
 
         <img
-          src="/img/thumbnail/2022-04-24-07426.jpg"
+          src="/img/thumbnail/adam.jpg"
           alt="Portrait of Adam S."
           title="Portrait of Adam S."
           class="reveal"
@@ -250,7 +250,7 @@
           ></a>
           <a
             href="/cdn-cgi/l/email-protection#82e3e6e3efc2f1eee3f4ebe1efe7e6ebe3ace6e9"
-            aria-label="Email: adam@slavicmedia.dk"
+            aria-label="Email: adam@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
           </a>
@@ -322,8 +322,8 @@
           class="note flag"
           version="1.1"
           id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns="https://www.w3.org/2000/svg"
+          xmlns:xlink="https://www.w3.org/1999/xlink"
           x="0px"
           y="0px"
           viewBox="0 0 1062 1062"
@@ -374,7 +374,7 @@
           ></a>
           <a
             href="/cdn-cgi/l/email-protection#365c575876455a57405f555b53525f5718525d"
-            aria-label="Email: jan@slavicmedia.dk"
+            aria-label="Email: jan@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
           </a>

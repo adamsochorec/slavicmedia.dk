@@ -7,7 +7,7 @@
 >
   <div class="title-box">
     <a
-      href="https://clients.slavicmedia.dk/policy/cookies/"
+      href="https://clients.slavic.media/policy/cookies/"
       title="Cookie Policy"
       aria-label="Link to Cookie Policy"
     >
@@ -29,7 +29,7 @@
       I understand
     </button>
     <a
-      href="https://clients.slavicmedia.dk/policy/cookies/"
+      href="https://clients.slavic.media/policy/cookies/"
       title="Cookie Policy"
       class="cta"
       aria-label="Learn more about cookies"

@@ -1,8 +1,8 @@
 <div class="social-icons" role="navigation" aria-label="Social media links">
   <a
     title="Email"
-    href="mailto:contact@slavicmedia.dk"
-    aria-label="Email: contact@slavicmedia.dk"
+    href="mailto:contact@slavic.media"
+    aria-label="Email: contact@slavic.media"
     role="link"
   >
     <i class="fa-solid fa-envelope"></i>
@@ -17,7 +17,7 @@
     <i title="LinedIn" class="fa-brands fa-linkedin"></i>
   </a>
   <a
-    href="https://www.instagram.com/slavicmedia.dk/"
+    href="https://www.instagram.com/slavic.media/"
     target="_blank"
     rel="noopener noreferrer nofollow"
     aria-label="Slavic Media Instagram"

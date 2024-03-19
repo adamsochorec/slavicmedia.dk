@@ -80,7 +80,7 @@
         >
           <a href="/projects" class="gallery-item reveal">
             <img
-              src="/img/thumbnail/DSCF9640.jpg"
+              src="/img/thumbnail/cover-video.jpg"
               title="Video services cover."
               alt="Video services cover."
             />
