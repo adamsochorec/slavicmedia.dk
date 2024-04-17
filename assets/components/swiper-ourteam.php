@@ -123,7 +123,7 @@
             <i title="Phone" class="fa-solid fa-phone"></i>
           </a>
           <a
-            href="/cdn-cgi/l/email-protection#600d011203050c20130c011609030d050409014e040b"
+            href="mailto:marcel@slavic.media"
             aria-label="Email: marcel@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
@@ -249,7 +249,7 @@
             ><i title="Phone" class="fa-solid fa-phone"></i
           ></a>
           <a
-            href="/cdn-cgi/l/email-protection#82e3e6e3efc2f1eee3f4ebe1efe7e6ebe3ace6e9"
+            href="mailto:adam@slavic.media"
             aria-label="Email: adam@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>
@@ -373,7 +373,7 @@
             ><i title="Phone" class="fa-solid fa-phone"></i
           ></a>
           <a
-            href="/cdn-cgi/l/email-protection#365c575876455a57405f555b53525f5718525d"
+            href="mailto:jan@slavic.media"
             aria-label="Email: jan@slavic.media"
           >
             <i title="Email" class="fa-solid fa-envelope"></i>

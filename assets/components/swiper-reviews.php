@@ -300,33 +300,6 @@
       </div>
       <p class="rewiews-message">Amazing service! 🤩</p>
     </div>
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a/ACg8ocIdOb0qOc-EqWHiGjpLo35QFWPn_huGJIVlGmlY6Kwx=w120-h120-p-rp-mo-br100"
-            alt="Raasmus S., Client"
-            title="Raasmus S., Client"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              href="https://www.google.com/maps/contrib/116366454104707477681?hl=en-US"
-              >Raasmus S.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">
-        Professional and kind guys. Delivered shining shots 🤘🏼
-      </p>
-      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
-    </div>
     <!--
     <div class="swiper-slide">
       <div class="grid-container">

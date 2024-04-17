@@ -32,38 +32,38 @@
         </div>
         <hr class="reveal" role="separator" />
         <!-- FEATURES START -->
-        <article class="gallery" id="gallery-features" aria-label="Features Grid">
-          <div class="gallery-item reveal active">
+        <article class="gallery reveal" id="gallery-features" aria-label="Features Grid">
+          <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-film bubble" aria-hidden="true"></i>
               <h3>Cinematic Storytelling</h3>
             </div>
           </div>
-          <div class="gallery-item reveal active">
+          <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-image-portrait bubble" aria-hidden="true"></i>
               <h3>Ceative Photography Sessions</h3>
             </div>
           </div>
-          <div class="gallery-item reveal active">
+          <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-microchip bubble" aria-hidden="true"></i>
               <h3>Industry Standard Tools</h3>
             </div>
           </div>
-          <div class="gallery-item reveal active" aria-label="">
+          <div class="gallery-item reveal" aria-label="">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-handshake-simple bubble" aria-hidden="true"></i>
               <h3>Strategic Business Consulting</h3>
             </div>
           </div>
-          <div class="gallery-item reveal active">
+          <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-brands fa-meta bubble" aria-hidden="true"></i>
               <h3>Targeted Performance Ads</h3>
             </div>
           </div>
-          <div class="gallery-item reveal active">
+          <div class="gallery-item reveal">
             <div class="gallery-item-caption">
               <i class="fa-solid fa-diagram-project bubble" aria-hidden="true"></i>
               <h3>Holistic Digital Strategy</h3>
@@ -261,7 +261,7 @@
                 </tr>
                 <tr>
                   <td class="left-align">
-                    <p>Meta-Up Artist</p>
+                    <p>Make-Up Artist</p>
                   </td>
                   <td>
                     <p><i class="fa-solid fa-xmark"></i></p>
@@ -716,12 +716,12 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="left-ali</html>gn">
+                  <td class="left-align">
                     <p>Video Color Grading</p>
                   </td>
                   <td>
                     <p>
-                      <span class="price"</main>>84</span>
+                      <span class="price">84</span>
                       €
                     </p>
                   </td>

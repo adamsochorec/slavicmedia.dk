@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" aria-label="Main HTML" role="document">
   <head role="presentation" aria-hidden="true">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-      aria-label="Stylesheet Link"
-      role="link"
-    />
     <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
   include $IPATH . 'head.php';

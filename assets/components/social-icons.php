@@ -17,7 +17,7 @@
     <i title="LinedIn" class="fa-brands fa-linkedin"></i>
   </a>
   <a
-    href="https://www.instagram.com/slavic.media/"
+    href="https://www.instagram.com/slavicmedia/"
     target="_blank"
     rel="noopener noreferrer nofollow"
     aria-label="Slavic Media Instagram"
