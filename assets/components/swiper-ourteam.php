@@ -114,8 +114,8 @@
       <section class="profile">
         <h4 class="reveal">Marcel H.</h4>
         <h6 class="reveal">
-          Partner<br class="hide-cta-max" />
-          & <br class="hide-cta-max" />Videographer
+          Director <br class="hide-cta-max" />of Photography
+         
         </h6>
 
         <div class="social-icons reveal">
@@ -136,57 +136,7 @@
             <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
           </a>
         </div>
-      </section>
-      <!-- MARCEL SKILLS START -->
-      <!-- MARCEL SKILLS START -->
-
-      <br />
-      <!-- MARCEL  RESPONSIBILITES START-->
-      <div class="reveal">
-        <h6>Specialisation:</h6>
-        <div class="grid-container fifty-fifty">
-          <ul class="languages-legend">
-            <li class="responsibility-1">Video production</li>
-            <li class="responsibility-3">Animations</li>
-          </ul>
-          <ul class="languages-legend">
-            <li class="responsibility-2">Photo production</li>
-            <li class="responsibility-4">Scriptwriting</li>
-          </ul>
-        </div>
-        <div class="skill-bar faded">
-          <span data-view-component="true" class="progress">
-            <span
-              class="responsibility-1"
-              style="width: 50%"
-              itemprop="keywords"
-              aria-label="Video production 50"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-2"
-              style="width: 30%"
-              itemprop="keywords"
-              aria-label="Photo production 30"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-3"
-              style="width: 10%"
-              itemprop="keywords"
-              aria-label="Animations 10"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-4"
-              style="width: 10%"
-              itemprop="keywords"
-              aria-label="Scriptwriting 10"
-              data-view-component="true"
-            ></span>
-          </span>
-        </div>
-      </div>
+      </section>   
     </div>
     <!-- MARCEL SECTION END -->
     <!-- ADAM SECTION START -->
@@ -240,10 +190,9 @@
       <div class="profile">
         <h4 class="reveal" role="heading" aria-level="4">Adam S.</h4>
         <h6 class="reveal">
-          Partner<br class="hide-cta-max" />
-          & <br class="hide-cta-max" />Photographer
+          Sales<br class="hide-cta-max" />
+          & <br class="hide-cta-max" />Communication
         </h6>
-
         <div class="social-icons reveal">
           <a href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
             ><i title="Phone" class="fa-solid fa-phone"></i
@@ -264,61 +213,13 @@
         </div>
       </div>
       <!-- ADAM SKILLS END -->
-
-      <br />
-      <!-- ADAM RESPONSIBILITIES START -->
-      <div class="reveal">
-        <h6>Specialisation:</h6>
-        <div class="grid-container fifty-fifty">
-          <ul class="languages-legend">
-            <li class="responsibility-1">Video production</li>
-            <li class="responsibility-3">Web dev</li>
-          </ul>
-          <ul class="languages-legend">
-            <li class="responsibility-2">Photo production</li>
-            <li class="responsibility-4">UAV&nbsp;piloting</li>
-          </ul>
-        </div>
-        <div class="skill-bar faded">
-          <span data-view-component="true" class="progress">
-            <span
-              class="responsibility-1"
-              style="width: 10%"
-              itemprop="keywords"
-              aria-label="Video production"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-2"
-              style="width: 40%"
-              itemprop="keywords"
-              aria-label="Photo production"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-3"
-              style="width: 30%"
-              itemprop="keywords"
-              aria-label="Web dev"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-4"
-              style="width: 30%"
-              itemprop="keywords"
-              aria-label="UAV&nbsp;piloting"
-              data-view-component="true"
-            ></span>
-          </span>
-        </div>
-        <!-- ADAM RESPONSIBILITIES START -->
-      </div>
+  
     </div>
     <!-- ADAM SECTION END -->
     <!-- JAN SECTION START -->
     <div class="swiper-slide" id="jan" role="region" aria-label="Ján D.">
       <div class="reveal">
-        <svg
+      <svg
           class="note flag"
           version="1.1"
           id="Layer_1"
@@ -332,25 +233,26 @@
           title="Czechia"
         >
           <g>
-            <path style="fill: #fefefe"
-            <!-- BEGIN: Updated Code -->
-            c-0.1,176.1-0.1,352.1-0.1,528.2c-2-0.1-4-0.4-5.9-0.4c-91.4,0-182.8,0-274.2,0c-77.6,0-155.2,0-232.8,0c-1.4-1.4-2.8-2.9-4.2-4.3
-            C364.7,354.8,184.6,181.6,4.4,8.5C3.1,7.2,2.2,5.6,0.2,5.1z" />
+            <path
+              style="fill: #fefefe"
+              d="M0.2,5.1C-0.7,0.9,1,0,5.2,0c350.7,0.1,701.4,0.1,1052.1,0c3.7,0,4.6,0.8,4.6,4.6
+                  c-0.1,176.1-0.1,352.1-0.1,528.2c-2-0.1-4-0.4-5.9-0.4c-91.4,0-182.8,0-274.2,0c-77.6,0-155.2,0-232.8,0c-1.4-1.4-2.8-2.9-4.2-4.3
+                  C364.7,354.8,184.6,181.6,4.4,8.5C3.1,7.2,2.2,5.6,0.2,5.1z"
+            />
             <path
               style="fill: #d70c12"
               d="M549,532.3c77.6,0,155.2,0,232.8,0c91.4,0,182.8,0,274.2,0c2,0,4,0.3,5.9,0.4c0,174.7,0,349.3,0.1,524
-                    c0,4.2-1.1,4.8-5,4.8c-350.8-0.1-701.5-0.1-1052.3-0.2c-1.3,0-4.6,2.5-4.5-1.9c1.6-0.4,2.4-1.7,3.5-2.7
-                    c107.5-103.3,215-206.6,322.4-309.9c34.1-32.8,68.2-65.6,102.3-98.4C468.6,609.7,508.8,571,549,532.3z"
+                  c0,4.2-1.1,4.8-5,4.8c-350.8-0.1-701.5-0.1-1052.3-0.2c-1.3,0-4.6,2.5-4.5-1.9c1.6-0.4,2.4-1.7,3.5-2.7
+                  c107.5-103.3,215-206.6,322.4-309.9c34.1-32.8,68.2-65.6,102.3-98.4C468.6,609.7,508.8,571,549,532.3z"
             />
             <path
               style="fill: #09437f"
               d="M549,532.3c-40.2,38.7-80.4,77.4-120.6,116.1c-34.1,32.8-68.2,65.6-102.3,98.4
-                    C218.7,850.1,111.2,953.4,3.7,1056.7c-1.1,1-1.9,2.4-3.5,2.7c0-351.4,0-702.9,0-1054.3c1.9,0.5,2.9,2.1,4.2,3.4
-                    C184.6,181.6,364.7,354.8,544.8,528C546.2,529.4,547.6,530.9,549,532.3z"
+                  C218.7,850.1,111.2,953.4,3.7,1056.7c-1.1,1-1.9,2.4-3.5,2.7c0-351.4,0-702.9,0-1054.3c1.9,0.5,2.9,2.1,4.2,3.4
+                  C184.6,181.6,364.7,354.8,544.8,528C546.2,529.4,547.6,530.9,549,532.3z"
             />
           </g>
         </svg>
-
         <img
           src="/img/thumbnail/IMG_7306.jpg"
           alt="Portrait of Ján D."
@@ -360,7 +262,6 @@
           aria-label="Portrait of Ján D."
         />
       </div>
-
       <div class="profile">
         <h4 class="reveal" role="heading" aria-level="4">Ján D.</h4>
         <h6 class="reveal">
@@ -388,55 +289,6 @@
         </div>
       </div>
       <!-- JÁN SKILLS END -->
-
-      <br />
-      <!-- JÁN RESPONSIBILITIES START -->
-      <div class="reveal">
-        <h6>Specialisation:</h6>
-        <div class="grid-container fifty-fifty">
-          <ul class="languages-legend">
-            <li class="responsibility-1">Sales</li>
-            <li class="responsibility-3">Performance</li>
-          </ul>
-          <ul class="languages-legend">
-            <li class="responsibility-2">Marketing</li>
-            <li class="responsibility-4">Business Consulting</li>
-          </ul>
-        </div>
-        <div class="skill-bar faded">
-          <span data-view-component="true" class="progress">
-            <span
-              class="responsibility-1"
-              style="width: 25%"
-              itemprop="keywords"
-              aria-label="Video production"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-2"
-              style="width: 25%"
-              itemprop="keywords"
-              aria-label="Photo production"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-3"
-              style="width: 25%"
-              itemprop="keywords"
-              aria-label="Web dev"
-              data-view-component="true"
-            ></span>
-            <span
-              class="responsibility-4"
-              style="width: 25%"
-              itemprop="keywords"
-              aria-label="UAV&nbsp;piloting"
-              data-view-component="true"
-            ></span>
-          </span>
-        </div>
-      </div>
-      <!-- JÁN RESPONSIBILITIES START -->
     </div>
     <!-- JAN SECTION END -->
   </div>

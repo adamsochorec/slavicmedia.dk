@@ -7,6 +7,33 @@
         <div class="grid-item">
           <img
             class="customer-img"
+            alt="FranklinCovey, Leadership company"
+            title="FranklinCovey, Leadership company"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjWKliCjpb5tKTxfmg-jhSqjGanrg583NhOCJO2SXl-PuVxnCKI=w120-h120-p-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://www.google.com/maps/contrib/102868388374755508982?hl=en-US"
+              >FranklinCovey</a
+            ><br />Leadership company<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+      Za FranklinCovey Česká republika mohu potvrdit, že vždy můžeme spolehnout na rychlé dodání, flexibilita, pozornost k detailům, kreativní nápady a doporučení k tomu, jak dosáhnout nejlepšího výsledku. Slavic Media drží krok s dobou a co je nejlepší - práce je baví a na výsledcích je to znát. Adame a Marceli, děkujeme!
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
+    </div>
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
             alt="Armando P., Musician"
             title="Armando P., Musician"
             src="https://lh3.googleusercontent.com/a-/ALV-UjVp41MBuTxuz4HQIt172lk5B4Tsj2hUAFLIRZKBl0gZd_Ax=w120-h120-p-rp-mo-br100"
@@ -246,7 +273,6 @@
       </div>
       <p class="rewiews-message">Great photos! 🙏🔥</p>
     </div>
-
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -300,77 +326,5 @@
       </div>
       <p class="rewiews-message">Amazing service! 🤩</p>
     </div>
-    <!--
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a/ACg8ocJF4KQ72Q3azCvxkTUBZ8Hz4clwt4wylC1SdDoIbWAL=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              href="https://www.google.com/maps/contrib/105371539797385376285?hl=en-US"
-              >Július S.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">The guys are fine.</p>
-    </div>
-    -->
-    <!-- 
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a-/ALV-UjVarKq86FK81LybMnBwmsXcWNK0wwPJCjtTDKLnKPkHew=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              href="https://www.google.com/maps/contrib/118423903113266752229?hl=en-US"
-              >SYL</a
-            ><br />Band<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message"></p>
-    </div>
-    -->
-    <!-- <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a-/ALV-UjUVYan5oFcGdYRVY7kFVyhpETQ9iOLJUPM2Q-Ug_edtRw=w120-h120-p-rp-mo-br100"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              href="https://www.google.com/maps/contrib/107580988011083737028?hl=en-US"
-              >Christián T.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-    </div>
-    <p class="rewiews-message"></p>
-  </div>    
-   -->
   </div>
 </section>
