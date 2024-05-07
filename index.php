@@ -80,7 +80,7 @@
         >
           <a href="/projects" class="gallery-item reveal">
             <img
-              src="/img/thumbnail/cover-video.jpg"
+              src="/img/cover-video.jpg"
               title="Video services cover."
               alt="Video services cover."
             />
@@ -100,7 +100,7 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/thumbnail/cover-photo.jpg"
+              src="/img/cover-photo.jpg"
               alt="Photo services cover."
               title="Photo services cover."
             />
@@ -269,6 +269,7 @@
                   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
                   include $IPATH . 'footer.php';
                   ?>
+
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       role="script"

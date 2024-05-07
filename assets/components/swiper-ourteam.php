@@ -104,7 +104,7 @@
           </g>
         </svg>
         <img
-          src="/img/thumbnail/marcel.jpg"
+          src="/img/marcel.jpg"
           alt="Portrait of Marcel H."
           title="Portrait of Marcel H."
           class="reveal"
@@ -114,8 +114,8 @@
       <section class="profile">
         <h4 class="reveal">Marcel H.</h4>
         <h6 class="reveal">
-          Director <br class="hide-cta-max" />of Photography
-         
+          Director <br class="hide-cta-max" />of<br class="hide-cta-max" />
+          Photography
         </h6>
 
         <div class="social-icons reveal">
@@ -136,7 +136,7 @@
             <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
           </a>
         </div>
-      </section>   
+      </section>
     </div>
     <!-- MARCEL SECTION END -->
     <!-- ADAM SECTION START -->
@@ -178,7 +178,7 @@
         </svg>
 
         <img
-          src="/img/thumbnail/adam.jpg"
+          src="/img/adam.jpg"
           alt="Portrait of Adam S."
           title="Portrait of Adam S."
           class="reveal"
@@ -213,13 +213,12 @@
         </div>
       </div>
       <!-- ADAM SKILLS END -->
-  
     </div>
     <!-- ADAM SECTION END -->
     <!-- JAN SECTION START -->
     <div class="swiper-slide" id="jan" role="region" aria-label="Ján D.">
       <div class="reveal">
-      <svg
+        <svg
           class="note flag"
           version="1.1"
           id="Layer_1"
@@ -254,7 +253,7 @@
           </g>
         </svg>
         <img
-          src="/img/thumbnail/IMG_7306.jpg"
+          src="/img/jan.jpg"
           alt="Portrait of Ján D."
           title="Portrait of Ján D."
           class="reveal"

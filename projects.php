@@ -82,21 +82,7 @@
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
             <a
-              href="https://www.youtube-nocookie.com/embed/Nro_svpKDWE?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img src="/img/cover-sleddog.jpg" alt="." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h4>Kiruna Sleddog Tours</h4>
-            <p>
-              2023&nbsp;|&nbsp;<span>sleddog.se</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
+              href="https://vimeo.com/942145699"
             ></a>
           </div>
         </div>
@@ -114,72 +100,10 @@
             </p>
             <a
               aria-label="Open video popup for Huset Fundament"
-              href="https://www.youtube-nocookie.com/embed/XBqSmnszKrI?modestbranding=1"
+              href="https://vimeo.com/942148434"
             ></a>
           </div>
         </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-repaire.jpg"
-            alt="Event video of a festival focused on reusing old things.."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h4>Repaire Festival</h4>
-            <p>
-              2023&nbsp;|&nbsp;<span>nicolaikultur.dk</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img src="/img/cover-aland.jpg" alt="Expedition Åland." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h4>Expedition Åland</h4>
-            <p>2023</p>
-
-            <a
-              href="https://www.youtube-nocookie.com/embed/RYr5MRm1yB8?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-samso.jpg"
-            alt="Short artistic film featuring drone-captured footage.."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-
-            <h4>Samsø</h4>
-            <p>2023</p>
-
-            <a
-              href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <!--    <div class="gallery-item reveal">
-          <img src="/img/cover-parkour.jpg" alt="." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h3>Parkour Škola</h3>
-            <p>
-              2023&nbsp;|&nbsp;<span>parkourskola.sk</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
-            ></a>
-          </div>
-        </div> -->
       </article>
 
       <!-- VIDEO GALLERY END -->

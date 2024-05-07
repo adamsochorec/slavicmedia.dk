@@ -1207,13 +1207,13 @@ footer .language-container {
   width: 100%;
 }
 #gallery-press #brand-guide {
-  background-image: url(/img/thumbnail/cover-brandguide.png);
+  background-image: url(/img/cover-brandguide.png);
 }
 #gallery-press #credit-guide {
-  background-image: url(/img/thumbnail/cover-creditguide.png);
+  background-image: url(/img/cover-creditguide.png);
 }
 #gallery-press #press-kit {
-  background-image: url(/img/thumbnail/cover-presskit.png);
+  background-image: url(/img/cover-presskit.png);
 }
 #gallery-press i:hover {
   color: rgb(var(--white-color));
@@ -1827,7 +1827,8 @@ i:hover {
 .bubble.fa-solid:hover,
 i.fa-arrow-right:hover,
 .tab-panel i,
-.tab-panel i:hover {
+.tab-panel i:hover,
+#press a i:hover {
   color: rgb(var(--white-color)) !important;
 }
 
