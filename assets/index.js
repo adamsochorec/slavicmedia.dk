@@ -4,8 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("#homepage header");
     // Retrieves blur and color values from CSS variables
-    blurValue = getComputedStyle(document.documentElement).getPropertyValue("--blur-1");
-    const darkGreyValue = getComputedStyle(document.documentElement).getPropertyValue("--dark-grey-color-full");
+    blurValue = getComputedStyle(document.documentElement).getPropertyValue(
+      "--blur-1"
+    );
+    const darkGreyValue = getComputedStyle(
+      document.documentElement
+    ).getPropertyValue("--dark-grey-color-full");
 
     // Adjusts header styles when scroll position is beyond a certain threshold
     if (window.pageYOffset > 530) {
@@ -144,8 +148,12 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
-const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue("--grid-gap-2");
-const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue("--grid-gap-3");
+const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-2"
+);
+const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-3"
+);
 
 // Initialize Swiper for the reviews section
 const reviewsSwiper = new Swiper(".swiper-reviews", {
@@ -204,10 +212,10 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
       slidesPerView: 2.3,
     },
     375: {
-      slidesPerView: 2.3,
+      slidesPerView: 3.3,
     },
     620: {
-      slidesPerView: 3,
+      slidesPerView: 3.5,
     },
   },
   // Optional parameters
