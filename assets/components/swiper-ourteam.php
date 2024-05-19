@@ -290,7 +290,7 @@
       <!-- JÁN SKILLS END -->
     </div>
     <!-- JAN SECTION END -->
-    <!-- DOMINIK SECTION START -->
+    <!-- DOMINIK SECTION START 
     <div
       class="swiper-slide"
       id="dominik"
@@ -432,7 +432,7 @@
       </div>
     </div>
     <!-- DOMINIK SECTION END -->
-    <!-- FERDINAND SECTION START -->
+    <!-- FERDINAND SECTION START 
     <div
       class="swiper-slide"
       id="ferdinand"
