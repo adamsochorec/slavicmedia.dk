@@ -24,6 +24,12 @@
    include $IPATH . 'privacy.php';
    ?>
     <!-- COOKIES END -->
+    <!-- FLAGS START -->
+    <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+      include $IPATH . 'flags.php';
+      ?>
+    <!-- FLAGS END -->
     <main>
       <!-- INTRO VIDEO START -->
       <article class="showcase">

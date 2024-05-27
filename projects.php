@@ -20,6 +20,12 @@
    include $IPATH . 'privacy.php';
    ?>
     <!-- COOKIES END -->
+    <!-- FLAGS START -->
+    <?php
+     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+     include $IPATH . 'flags.php';
+     ?>
+    <!-- FLAGS END -->
     <main>
       <article class="wrapper-wide">
         <div
@@ -72,20 +78,64 @@
         id="gallery-video"
         aria-label="Video Gallery"
       >
-        <div class="gallery-item reveal">
-          <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
+        <!-- <div class="gallery-item reveal">
+          <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
-            <h4>Timetravels</h4>
+            <svg class="flag note" title="Flag of Norway">
+              <use href="#flag-norway"></use>
+            </svg>
+
+            <h4>Norwegian Fjords</h4>
             <p>
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a
-              href="https://vimeo.com/942145699"
-            ></a>
+            <a href="https://vimeo.com/950575511/82682f68f2?share=copy"></a>
+          </div>
+        </div> -->
+        <!--  <div class="gallery-item reveal">
+          <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+
+            <svg
+              class="flag note"
+              title="Flag of Finland"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+            <use href="#flag-finland"></use>
+            </svg>
+            <h4>Finnish Lapland</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/950479131?share=copy"></a>
+          </div>
+        </div> -->
+        <div class="gallery-item reveal">
+          <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <svg
+              class="flag note"
+              title="Flag of Sweden"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="#flag-sweden"></use>
+            </svg>
+            <h4>Swedish Lapland</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/942145699?share=copy"></a>
           </div>
         </div>
+
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
             src="/img/cover-husetfundament.jpg"
@@ -93,6 +143,15 @@
           />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
+
+            <svg
+              class="flag note"
+              title="Flag of Denmark"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="#flag-denmark"></use>
+            </svg>
             <h4>Huset Fundament</h4>
             <p>
               2023&nbsp;|&nbsp;<span>husetfundament.dk</span
@@ -147,126 +206,176 @@
                 src="/img/2023-12-01-00263.jpg"
                 title="Group of people staring at Northern Lights."
                 year="2023"
+                location="Björkliden, Sweden"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-12-01-00263.jpg"
                   alt="Group of people staring at Northern Lights."
-                  title="Group of people staring at Northern Lights."
-              /></a>
+                  title="Group of people staring at Northern Lights." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-11-30-00006.jpg"
                 title="Two guys with Norwegian fjord in the background."
                 year="2023"
+                location="Narvik, Norway"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-11-30-00006.jpg"
                   alt="Two guys with Norwegian fjord in the background."
-                  title="Two guys with Norwegian fjord in the background."
-              /></a>
+                  title="Two guys with Norwegian fjord in the background." /><svg
+                  class="flag note"
+                  title="Flag of Norwaz"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-norway"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-12-02-000065.jpg"
                 title="Girl cuddling with husky."
                 year="2023"
+                location="Kiruna, Sweden"
                 client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
+              >Kiruna Sleddog Tours|</a
             >'
               >
                 <img
                   src="/img/2022-12-02-000065.jpg"
                   alt="Girl cuddling with husky."
-                  title="Girl cuddling with husky."
-              /></a>
+                  title="Girl cuddling with husky." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-12-01-00250.jpg"
-                title="Tourists petting reindeer."
+                title="Timetravels Herder Experience in Swedish Lapland."
                 year="2023"
+                location="Björkliden, Sweden"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-12-01-00250.jpg"
-                  alt="Tourists petting reindeer."
-                  title="Tourists petting reindeer."
-              /></a>
+                  alt="Timetravels Herder Experience in Swedish Lapland."
+                  title="Timetravels Herder Experience in Swedish Lapland." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-11-30-00036.jpg"
-                title="Narvik fjord."
-                year="2023"
+                src="/img/2024-03-10-00620.jpg"
+                title="Kaunispää in Finnish Saariselkä, Northern Lapland."
+                year="2024"
+                location="Saariselkä, Finland"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
-                  src="/img/2023-11-30-00036.jpg"
-                  alt="Narvik fjord."
-                  title="Narvik fjord."
-              /></a>
+                  src="/img/2024-03-10-00620.jpg"
+                  alt="Kaunispää in Finnish Saariselkä, Northern Lapland."
+                  title="Kaunispää in Finnish Saariselkä, Northern Lapland." />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-12-03-000465.jpg"
                 title="Two guys in a survival shelter in tundra."
                 year="2023"
+                location="Björkliden, Sweden"
                 client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2022-12-03-000465.jpg"
                   alt="Two guys in a survival shelter in tundra."
-                  title="Two guys in a survival shelter in tundra."
-              /></a>
+                  title="Two guys in a survival shelter in tundra." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-12-02-00459.jpg"
                 title="Pair of boys petting husky."
                 year="2023"
+                location="Kiruna, Sweden"
                 client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
+              >Kiruna Sleddog Tours</a
             >'
               >
                 <img
                   src="/img/2023-12-02-00459.jpg"
                   alt="Pair of boys petting husky."
-                  title="Pair of boys petting husky."
-              /></a>
+                  title="Pair of boys petting husky." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
@@ -274,11 +383,12 @@
                 alt="Portrait of a smiling woman on a techno rave."
                 title="Portrait of a smiling woman on a techno rave."
                 year="2023"
+                location="Kolding, Denmark"
                 client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
@@ -290,38 +400,88 @@
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
-              >'
-              /></a>
+                >Huset Fundament</a
+              >' />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column column-padding-1">
             <div class="reveal">
               <a
+                src="/img/2024-03-10-00496.jpg"
+                title="Ice skating on frozen Inarijärvi in Finnish Lapland."
+                year="2024"
+                location="Inarijärvi, Finland"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
+              >
+                <img
+                  src="/img/2024-03-10-00496.jpg"
+                  alt="Ice skating on frozen Inarijärvi in Finnish Lapland."
+                  title="Ice skating on frozen Inarijärvi in Finnish Lapland." />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use></svg
+              ></a>
+            </div>
+            <div class="reveal">
+              <a
                 src="/img/2022-10-15-00970.jpg"
                 title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
                 year="2022"
+                location="Geta, Åland"
                 client="<a href='https://adamsochorec.com/blog/aland'>Expedition Åland<i class='fa-solid fa-arrow-right'></i></a>"
               >
                 <img
                   src="/img/2022-10-15-00970.jpg"
                   alt="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
                   title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
-                />
+                /><svg class="flag note" title="Flag of Åland">
+                  <use href="#flag-aland"></use>
+                </svg>
               </a>
             </div>
             <div class="reveal">
               <a
-                src="/img/2022-10-16-00979.jpg"
-                title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
-                year="2022"
-                client="<a href='https://adamsochorec.com/blog/aland'>Expedition Åland<i class='fa-solid fa-arrow-right'></i></a>"
+                src="/img/2024-03-10-00238.jpg"
+                title="Timetravels Reindeer Herder experience in Lapland."
+                year="2024"
+                location="Inari, Finland"
+                client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
                 <img
-                  src="/img/2022-10-16-00979.jpg"
-                  alt="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
-                  title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
+                  src="/img/2024-03-10-00238.jpg"
+                  alt="Timetravels Reindeer Herder experience in Lapland."
+                  title="Timetravels Reindeer Herder experience in Lapland."
                 />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use>
+                </svg>
               </a>
             </div>
 
@@ -329,88 +489,115 @@
               <a
                 src="/img/2023-08-29-01113.jpg"
                 year="2023"
+                location="Dead Sea, Israel"
                 client='<a
             href="https://touristisrael.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+            >Tourist Israel</a
           >'
               >
                 <img
                   src="/img/2023-08-29-01113.jpg"
                   alt="Portrait of guide in Judean Derest nearby the Dead Sea."
-                  title="Portrait of guide in Judean Derest nearby the Dead Sea."
-              /></a>
+                  title="Portrait of guide in Judean Derest nearby the Dead Sea." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-23-00049.jpg"
+                location="Kolding, Denmark"
                 title="Silhouette of a DJ playing in a rave in Kolding."
                 year="2023"
                 client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-23-00049.jpg"
                   alt="Silhouette of a DJ playing in a rave in Kolding."
-                  title="Silhouette of a DJ playing in a rave in Kolding."
-              /></a>
+                  title="Silhouette of a DJ playing in a rave in Kolding." />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-09-10524.jpg"
                 title="Anime Animeaux frontman holding a microphone on a stage."
+                location="Kolding, Denmark"
                 year="2023"
                 client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-09-10524.jpg"
                   alt="Anime Animeaux frontman holding a microphone on a stage."
-                  title="Anime Animeaux frontman holding a microphone on a stage."
-              /></a>
+                  title="Anime Animeaux frontman holding a microphone on a stage." />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-06-24-01208.jpg"
                 year="2021"
+                location="Prague, Czechia"
                 client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo Disk</a
             >'
               >
                 <img
                   src="/img/2021-06-24-01208.jpg"
-                  alt="Woman holding a microphone in front of a crowd at Roskilde Festival."
-              /></a>
+                  alt="Performance 'Hrdina Západu' at Divadlo Disk" />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-06-24-01233-2.jpg"
-                title="Studio portrait of a woman with a hat at Divadlo Disk."
+                title="Sára Rychlíková at Divadlo Disk in Prague."
                 year="2023"
+                location="Prague, Czechia"
                 client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo Disk</a
             >'
               >
                 <img
                   src="/img/2021-06-24-01233-2.jpg"
-                  alt="Studio portrait of a woman with a hat at Divadlo Disk."
-                  title="Studio portrait of a woman with a hat at Divadlo Disk."
-              /></a>
+                  alt="Sára Rychlíková at Divadlo Disk in Prague."
+                  title="Sára Rychlíková at Divadlo Disk in Prague." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column column-padding-2">
@@ -419,119 +606,148 @@
                 src="/img/2023-08-29-01096.jpg"
                 title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
                 year="2023"
+                location="Nahal Bokek, Israel"
                 client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+              >Tourist Israel</a
             >'
               >
                 <img
                   src="/img/2023-08-29-01096.jpg"
                   alt="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
-                  title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
-              /></a>
+                  title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01059.jpg"
                 title="Woman hiking on Masada in Israel."
                 year="2023"
+                location="Masada, Israel"
                 client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+              >Tourist Israel</a
             >'
               >
                 <img
                   src="/img/2023-08-29-01059.jpg"
                   alt="Woman hiking on Masada in Israel."
-                  title="Woman hiking on Masada in Israel."
-              /></a>
+                  title="Woman hiking on Masada in Israel." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-04-25-00693.jpg"
                 title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
                 year="2021"
+                location="Prague, Czechia"
                 client='<a
               href="ttps://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo na Vinohradech</a
             >'
               >
                 <img
                   src="/img/2021-04-25-00693.jpg"
                   title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-                  alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-              /></a>
+                  alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-04-14-00608.jpg"
                 title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
                 year="2021"
+                location="Prague, Czechia"
                 client='<a
               href="https://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo na Vinohradech</a
             >'
               >
                 <img
                   src="/img/2021-04-14-00608.jpg"
                   title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-              /></a>
+                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-09-05-01666.jpg"
                 title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
                 year="2021"
-                client=""
+                location="Kolding, Denmark"
+                client="art project"
               >
                 <img
                   src="/img/2021-09-05-01666.jpg"
                   title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
-                  alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
-              /></a>
+                  alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/hvalp.jpg"
                 alt="Band HVALP album cover."
                 title="Band HVALP album cover."
+                location="Kolding, Denmark"
                 year="2023"
                 client="Hvalp"
               >
                 <img
                   src="/img/hvalp.jpg"
                   alt="Band HVALP album cover."
-                  title="Band HVALP album cover."
-                  year="2023"
-                  client="Hvalp"
-              /></a>
+                  title="Band HVALP album cover." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-09-10507.jpg"
                 title="Shirtless Anime Animeaux guitarist starring into a camera."
                 year="2023"
+                location="Kolding, Denmark"
                 client='<a
               href="https://www.husetfundament.dk"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-09-10507.jpg"
                   alt="Shirtless Anime Animeaux guitarist starring into a camera."
-                  title="Shirtless Anime Animeaux guitarist starring into a camera."
-              /></a>
+                  title="Shirtless Anime Animeaux guitarist starring into a camera." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column">
@@ -540,97 +756,121 @@
                 src="/img/2021-06-21-01194.jpg"
                 title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
                 year="2021"
+                location="Prague, Czechia"
                 client='<a
               href="https://www.slovo21.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Slovo 21<i class="fa-solid fa-arrow-right"></i></a
+              >Slovo 21</a
             >'
               >
                 <img
                   src="/img/2021-06-21-01194.jpg"
                   alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-                  title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-              /></a>
+                  title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop." /><svg
+                  class="flag note"
+                  title="Flag of Czechia"
+                >
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-11-13-02059.jpg"
                 title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
                 year="2021"
-                client=""
+                location="Kolding, Denmark"
+                client="art project"
               >
                 <img
                   src="/img/2021-11-13-02059.jpg"
                   title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-                  alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-              /></a>
+                  alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-08-24-01615.jpg"
                 title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
                 year="2021"
-                client=""
+                client="art project"
+                location="Kolding, Denmark"
               >
                 <img
                   src="/img/2021-08-24-01615.jpg"
                   title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
-                  alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
-              /></a>
+                  alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-11-13-00267.jpg"
                 title="Elf lady holding knife on Kim Kim's throat."
                 year="2023"
+                location="Copenhagen, Denmark"
                 client='<a
               href="https://www.sort-hvid.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Sort/Hvid<i class="fa-solid fa-arrow-right"></i></a
+              >Sort/Hvid</a
             >'
               >
                 <img
                   src="/img/2023-11-13-00267.jpg"
                   title="Elf lady holding knife on Kim Kim's throat."
-                  alt="Elf lady holding knife on Kim Kim's throat."
-              /></a>
+                  alt="Elf lady holding knife on Kim Kim's throat." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-05-28-01020.jpg"
-                title="Portrait of a woman leaning over a violin."
+                title="Portrait of Zuzana Částková."
                 year="2021"
-                client='<a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              ><i class="fa-solid fa-arrow-right"></i></a
-            >'
+                location="Prague, Czechia"
+                client="art project"
               >
                 <img
                   src="/img/2021-05-28-01020.jpg"
-                  title="Portrait of a woman leaning over a violin."
-                  alt="Portrait of a woman leaning over a violin."
-              /></a>
+                  title="Portrait of Zuzana Částková."
+                  alt="Portrait of Zuzana Částková." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-06-28-00708.jpg"
-                title="Kim Kim performing on a Roskilde festival."
+                title="Roskilde Festival."
                 year="2023"
+                location="Roskilde, Denmark"
                 client='<a
               href="https://www.roskilde-festival.dk/da/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Rosklide Festival<i class="fa-solid fa-arrow-right"></i></a
+              >Rosklide Festival</a
             >'
               >
-                <img src="/img/2022-06-28-00708.jpg" alt="Kim Kim performing on
-                a Roskilde festival." title="Kim Kim performing on a Roskilde
-                festival."</a
-              >
+                <img
+                  src="/img/2022-06-28-00708.jpg"
+                  alt="Roskilde Festival."
+                  title="Roskilde Festival." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
         </div>

@@ -25,7 +25,11 @@
         </div>
       </div>
       <p class="rewiews-message">
-      Za FranklinCovey Česká republika mohu potvrdit, že vždy můžeme spolehnout na rychlé dodání, flexibilita, pozornost k detailům, kreativní nápady a doporučení k tomu, jak dosáhnout nejlepšího výsledku. Slavic Media drží krok s dobou a co je nejlepší - práce je baví a na výsledcích je to znát. Adame a Marceli, děkujeme!
+        Za FranklinCovey Česká republika mohu potvrdit, že vždy můžeme
+        spolehnout na rychlé dodání, flexibilita, pozornost k detailům,
+        kreativní nápady a doporučení k tomu, jak dosáhnout nejlepšího výsledku.
+        Slavic Media drží krok s dobou a co je nejlepší - práce je baví a na
+        výsledcích je to znát. Adame a Marceli, děkujeme!
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
@@ -114,34 +118,6 @@
         concepts and masterfully capture moments through their media art.
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
-    </div>
-    <div class="swiper-slide">
-      <div class="grid-container">
-        <div class="grid-item">
-          <img
-            class="customer-img"
-            src="https://lh3.googleusercontent.com/a/ACg8ocIyhVFPYh9oWyCJMLX8xWNcVbY1ZkPg5bwWSfGWbURA=w120-h120-p-rp-mo-br100"
-            alt="Dominik T., Client"
-            title="Dominik T., Client"
-          />
-        </div>
-        <div class="grid-item">
-          <p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              href="https://www.google.com/maps/contrib/102583932635799024170?hl=en-US"
-              >Dominik T.</a
-            ><br />Client<br />
-          </p>
-          <div class="stars" data-rating="5"></div>
-        </div>
-      </div>
-      <p class="rewiews-message">
-        Adam and Marcel are really passionate about their work, they definitely
-        can guarantee you high quality photos and videos. Definitely will come
-        back to these guys. :))
-      </p>
     </div>
     <div class="swiper-slide">
       <div class="grid-container">

@@ -8,7 +8,8 @@ $(document).ready(function () {
       enabled: true,
       navigateByImgClick: false,
       preload: [0, 1], // Preloads adjacent items
-      arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+      arrowMarkup:
+        '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
       tPrev: "Previous",
       tNext: "Next",
     },
@@ -21,7 +22,8 @@ $(document).ready(function () {
       const year = item.el.attr("year");
       const client = item.el.attr("client");
       // Constructs the title string with HTML content for 'client'
-      let title = "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
+      let title =
+        "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
       return title;
     },
     src: function (item) {
@@ -49,13 +51,22 @@ $(document).ready(function () {
       duration: 300, // Duration of the zoom animation
     },
     image: {
-      tError: '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>', // Error message HTML
+      tError:
+        '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>', // Error message HTML
       titleSrc: function (item) {
         // Retrieves custom attributes for images
         const year = item.el.attr("year");
         const client = item.el.attr("client");
+        const location = item.el.attr("location");
         // Constructs the title string without the 'title' attribute
-        let title = "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
+        let title =
+          "<p><small>" +
+          year +
+          "&nbsp;|&nbsp;" +
+          client +
+          "&nbsp;|&nbsp;" +
+          location +
+          "</small></p>";
         return title;
       },
       src: function (item) {
