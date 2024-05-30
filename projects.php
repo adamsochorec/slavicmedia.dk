@@ -52,11 +52,6 @@
               <span class="highlited">Video</span>
               Projects
             </h2>
-            <div class="hide-cta-min reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -64,11 +59,6 @@
               showreel. Our team specializes in creating narratives that leave a
               lasting impact on your audience.
             </p>
-            <div class="hide-cta-max reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
           </div>
         </div>
         <hr class="semi" role="separator" />
@@ -94,18 +84,17 @@
             <a href="https://vimeo.com/950575511/82682f68f2?share=copy"></a>
           </div>
         </div> -->
-        <!--  <div class="gallery-item reveal">
+        <div class="gallery-item reveal">
           <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
-
             <svg
               class="flag note"
               title="Flag of Finland"
               viewBox="0 0 16 16"
               xmlns="http://www.w3.org/2000/svg"
             >
-            <use href="#flag-finland"></use>
+              <use href="#flag-finland"></use>
             </svg>
             <h4>Finnish Lapland</h4>
             <p>
@@ -114,7 +103,7 @@
             </p>
             <a href="https://vimeo.com/950479131?share=copy"></a>
           </div>
-        </div> -->
+        </div>
         <div class="gallery-item reveal">
           <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
@@ -164,6 +153,13 @@
           </div>
         </div>
       </article>
+      <section class="flex-center">
+        <a class="reveal active" href="/services">
+          <div class="cta">
+            Request a Proposal<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+      </section>
 
       <!-- VIDEO GALLERY END -->
       <!-- VIDEO END -->
@@ -177,11 +173,6 @@
               Projects
             </h2>
 
-            <div class="hide-cta-min reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -189,12 +180,6 @@
               stills, in a fancy studio or rough exterior, we are here to bring
               them alive.
             </p>
-            <div class="hide-cta-max reveal">
-              <a class="cta" href="/services" aria-label="">
-                Plans & Pricing<i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
         </div>
       </article>
       <hr class="semi" role="separator" />
@@ -873,8 +858,15 @@
               ></a>
             </div>
           </div>
-        </div>
-      </article>
+        </div>  
+       </article>
+       <section class="flex-center">
+        <a class="reveal active" href="/services">
+          <div class="cta">
+            Request a Proposal<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+      </section>
 
       <!-- PHOTO END -->
     </main>

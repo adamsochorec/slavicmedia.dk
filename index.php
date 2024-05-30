@@ -124,7 +124,7 @@
         <section class="flex-center">
           <a class="reveal" href="/services">
             <div class="cta">
-              Explore Our Services<i class="fa-solid fa-arrow-right"></i>
+              Request a Proposal<i class="fa-solid fa-arrow-right"></i>
             </div>
           </a>
         </section>

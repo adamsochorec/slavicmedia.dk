@@ -1828,7 +1828,8 @@ i:hover {
 i.fa-arrow-right:hover,
 .tab-panel i,
 .tab-panel i:hover,
-#press a i:hover {
+#press a i:hover,
+#playPauseButton i:hover {
   color: rgb(var(--white-color)) !important;
 }
 
@@ -2265,16 +2266,6 @@ ul.languages-legend li::marker {
   .intro-section {
     background-attachment: scroll;
   }
-  footer {
-    font-size: var(--fontsize-note);
-  }
-  footer .footer-container:last-of-type {
-    display: block;
-    text-align: center;
-  }
-  footer .footer-container .footerBreak {
-    display: block;
-  }
 }
 @media only screen and (min-width: 620px) {
   #gallery-features.gallery {
@@ -2310,6 +2301,16 @@ ul.languages-legend li::marker {
   .intro-section,
   .intro-section .filter {
     height: 300px !important;
+  }
+  footer {
+    font-size: var(--fontsize-note);
+  }
+  footer .footer-container:last-of-type {
+    display: block;
+    text-align: center;
+  }
+  footer .footer-container .footerBreak {
+    display: block;
   }
 }
 

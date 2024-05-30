@@ -6,13 +6,23 @@
       <!-- MARCEL SECTION START -->
 
       <div class="reveal">
-        <svg class="flag note" title="Flag of Slovakia">
+        <svg
+          title="Flag of Slovakia"
+          class="note flag"
+          id="Layer_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1093 1092"
+          style="enable-background: new 0 0 1093 1092"
+          xml:space="preserve"
+        >
           <use href="#flag-slovakia"></use>
         </svg>
+
         <img
           src="/img/marcel.jpg"
           alt="Portrait of Marcel H."
-          title="Portrait of Marcel H."
+          title="Marcel H."
           class="reveal"
           aria-label="Marcel's Portrait"
         />
@@ -25,9 +35,6 @@
         </h6>
 
         <div class="social-icons reveal">
-          <a href="tel:+4552812304" aria-label="Phone: +45 52 81 23 04">
-            <i title="Phone" class="fa-solid fa-phone"></i>
-          </a>
           <a
             href="mailto:marcel@slavic.media"
             aria-label="Email: marcel@slavic.media"
@@ -55,7 +62,7 @@
         <img
           src="/img/adam.jpg"
           alt="Portrait of Adam S."
-          title="Portrait of Adam S."
+          title="Adam S."
           class="reveal"
           role="img"
           aria-label="Portrait of Adam S."
@@ -69,9 +76,6 @@
           & <br class="hide-cta-max" />Communication
         </h6>
         <div class="social-icons reveal">
-          <a href="tel:+4550104776" aria-label="Phone: +45 50 10 47 76"
-            ><i title="Phone" class="fa-solid fa-phone"></i
-          ></a>
           <a
             href="mailto:adam@slavic.media"
             aria-label="Email: adam@slavic.media"
@@ -84,6 +88,13 @@
             rel="noopener noreferrer nofollow"
           >
             <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.github.com/adamsochorec"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <i title="GitHub" class="fa-brands fa-github"></i>
           </a>
         </div>
       </div>
@@ -99,7 +110,7 @@
         <img
           src="/img/jan.jpg"
           alt="Portrait of Ján D."
-          title="Portrait of Ján D."
+          title="Ján D."
           class="reveal"
           role="img"
           aria-label="Portrait of Ján D."
@@ -113,9 +124,6 @@
         </h6>
 
         <div class="social-icons reveal">
-          <a href="tel:+420702044152" aria-label="Phone: +420 702 044 152"
-            ><i title="Phone" class="fa-solid fa-phone"></i
-          ></a>
           <a
             href="mailto:jan@slavic.media"
             aria-label="Email: jan@slavic.media"
@@ -134,7 +142,7 @@
       <!-- JÁN SKILLS END -->
     </div>
     <!-- JAN SECTION END -->
-    <!-- DOMINIK SECTION START 
+    <!-- DOMINIK SECTION START -->
     <div
       class="swiper-slide"
       id="dominik"
@@ -142,13 +150,22 @@
       aria-label="Dominik T."
     >
       <div class="reveal">
-    <svg class="flag note" title="Flag of Slovakia">
+        <svg
+          title="Flag of Slovakia"
+          class="note flag"
+          id="Layer_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 1093 1092"
+          style="enable-background: new 0 0 1093 1092"
+          xml:space="preserve"
+        >
           <use href="#flag-slovakia"></use>
         </svg>
         <img
           src="/img/dominik.jpg"
           alt="Portrait of Dominik T."
-          title="Portrait of Dominik T."
+          title="Dominik T."
           class="reveal"
           role="img"
           aria-label="Portrait of Dominik T."
@@ -162,9 +179,6 @@
         </h6>
 
         <div class="social-icons reveal">
-          <a href="tel:+4591116606" aria-label="Phone: +45 91 11 66 06"
-            ><i title="Phone" class="fa-solid fa-phone"></i
-          ></a>
           <a
             href="mailto:dominik@slavic.media"
             aria-label="Email: dominik@slavic.media"
@@ -196,7 +210,7 @@
         <img
           src="/img/ferdinand.jpg"
           alt="Portrait of Ferdinand P."
-          title="Portrait of Ferdiannd P."
+          title="Ferdiannd P."
           class="reveal"
           role="img"
           aria-label="Portrait of Ferdiannd P."
@@ -210,15 +224,6 @@
         </h6>
 
         <div class="social-icons reveal">
-          <a href="tel:+420736158706" aria-label="Phone: +420 736 158 706"
-            ><i title="Phone" class="fa-solid fa-phone"></i
-          ></a>
-          <a
-            href="mailto:ferdinand@slavic.media"
-            aria-label="Email: ferdinand@slavic.media"
-          >
-            <i title="Email" class="fa-solid fa-envelope"></i>
-          </a>
         </div>
       </div>
     </div>

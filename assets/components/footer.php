@@ -1,12 +1,24 @@
 <hr class="semi bodyxfooter" role="separator" />
 <footer role="contentinfo">
   <div class="footer-container">
-    <a href="/" aria-label="Home">
-      <img
-        src="/img/Secondary-1.png"
-        alt="Logo Slavic Media"
-        title="Logo Slavic Media"
-    /></a>
+    <div class="social-icons" role="navigation" aria-label="Social media links">
+      <a
+        title="Email"
+        href="tel:+4550104776"
+        aria-label="Tel: +4550104776"
+        role="link"
+      >
+        <i class="fa-solid fa-phone"></i>
+      </a>
+      <a
+        title="Email"
+        href="mailto:contact@slavic.media"
+        aria-label="Email: contact@slavic.media"
+        role="link"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'social-icons.php';
