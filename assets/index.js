@@ -126,7 +126,6 @@ const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
 const clientsSwiper = new Swiper(".swiper-clients", {
   loop: true,
   speed: 600,
-  // spaceBetween: grid10Gap2,
   autoplay: { delay: 1000 },
   preloadImages: false,
   lazyLoading: true,

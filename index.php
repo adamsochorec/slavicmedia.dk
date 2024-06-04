@@ -9,21 +9,6 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <!-- Leaflet script start -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-      crossorigin=""
-    ></script>
-    <!-- Leaflet script end -->
-
     <title>Your Online Presence | Slavic Media</title>
   </head>
   <body id="homepage">
@@ -260,19 +245,9 @@
         <?php
                       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
                       include $IPATH . 'swiper-ourteam.php';
-                      ?>
-        <!-- TEAM SECTION END -->
-        <!-- COLLABORATORS AND CLIENTS START -->
+                      ?>      
         <hr class="semi" role="separator" />
-        <!-- COLLABORATORS AND CLIENTS END -->
-        <div id="map" role="region" aria-label="Map Section">
-          <div class="map-margin reveal">
-            <div></div>
-          </div>
-        </div>
       </article>
-      <!-- COLLABORATORS AND CLIENTS END -->
-      <!-- OUR TEAM END -->
     </main>
     <!-- FOOTER START -->
     <?php
@@ -285,8 +260,6 @@
       role="script"
     ></script>
     <script type="text/javascript" src="/assets/index.js" defer></script>
-    <script type="text/javascript" src="/assets/map.js" defer></script>
-
     <script
       type="text/javascript"
       src="/assets/cookies.js"
