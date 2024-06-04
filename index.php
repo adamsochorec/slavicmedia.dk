@@ -9,6 +9,21 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
+    <!-- Leaflet script start -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    <!-- Leaflet script end -->
+
     <title>Your Online Presence | Slavic Media</title>
   </head>
   <body id="homepage">
@@ -77,6 +92,12 @@
           </div>
         </div>
         <hr class="semi" role="separator" />
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-clients.php';
+        ?>
+        <hr class="semi" role="separator" />
+
         <!-- FEATURES START -->
         <article
           id="visual"
@@ -242,30 +263,13 @@
                       ?>
         <!-- TEAM SECTION END -->
         <!-- COLLABORATORS AND CLIENTS START -->
-        <section role="region" aria-label="Collaborators and Clients">
-          <hr class="semi" role="separator" />
-        </section>
-      </article>
-      <!-- COLLABORATORS AND CLIENTS END -->
-      <article
-        class="intro-section flex-center reveal"
-        id="forpress"
-        role="region"
-        aria-label="Press Section"
-      >
-        <div class="filter"></div>
-        <article
-          class="wrapper-wide"
-          id="clients"
-          role="region"
-          aria-label="Clients"
-        >
-          <h3 class="reveal">Trusted by Customers</h3>
-          <?php
-                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-                      include $IPATH . 'clients.php';
-                      ?>
-        </article>
+        <hr class="semi" role="separator" />
+        <!-- COLLABORATORS AND CLIENTS END -->
+        <div id="map" role="region" aria-label="Map Section">
+          <div class="map-margin reveal">
+            <div></div>
+          </div>
+        </div>
       </article>
       <!-- COLLABORATORS AND CLIENTS END -->
       <!-- OUR TEAM END -->
@@ -281,6 +285,8 @@
       role="script"
     ></script>
     <script type="text/javascript" src="/assets/index.js" defer></script>
+    <script type="text/javascript" src="/assets/map.js" defer></script>
+
     <script
       type="text/javascript"
       src="/assets/cookies.js"

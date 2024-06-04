@@ -114,6 +114,43 @@ function videoOffload() {
 // Call the videoOffload function to initialize
 videoOffload();
 // VIDEO OFFLOAD END
+const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-2"
+);
+const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-3"
+);
+
+// CLIENTS SWIPER START
+// Initialize Swiper for the reviews section
+const clientsSwiper = new Swiper(".swiper-clients", {
+  loop: true,
+  speed: 600,
+  // spaceBetween: grid10Gap2,
+  autoplay: { delay: 1000 },
+  preloadImages: false,
+  lazyLoading: true,
+  observer: true,
+  observeParents: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 3,
+    },
+    375: {
+      slidesPerView: 4,
+    },
+    620: {
+      slidesPerView: 6,
+    },
+    947: {
+      slidesPerView: 6,
+    },
+  },
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+});
+// CLIENTS SWIPER END
 
 // START RATING START
 // Get all elements with the "stars" class
@@ -148,12 +185,6 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
-const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-2"
-);
-const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-3"
-);
 
 // Initialize Swiper for the reviews section
 const reviewsSwiper = new Swiper(".swiper-reviews", {
@@ -206,6 +237,9 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   // And if we need scrollbar
   scrollbar: {
     el: ".swiper-scrollbar",
+  },
+  pagination: {
+    el: ".swiper-pagination",
   },
   breakpoints: {
     0: {

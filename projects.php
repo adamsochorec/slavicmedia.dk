@@ -68,7 +68,7 @@
         id="gallery-video"
         aria-label="Video Gallery"
       >
-        <!-- <div class="gallery-item reveal">
+        <div class="gallery-item reveal">
           <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
@@ -81,9 +81,9 @@
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a href="https://vimeo.com/950575511/82682f68f2?share=copy"></a>
+            <a href="https://vimeo.com/950575511?share=copy"></a>
           </div>
-        </div> -->
+        </div> 
         <div class="gallery-item reveal">
           <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">

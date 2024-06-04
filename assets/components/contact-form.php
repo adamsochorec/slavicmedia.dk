@@ -25,7 +25,7 @@
         aria-labelledby="contactFormGroupLabel"
         aria-describedby="This group contains the contact form fields."
       >
-        <div class="grid-item reveal" role="group" aria-label="Email and Name">
+        <div class="grid-item reveal" aria-label="Email">
           <p><label for="email">Email *</label></p>
           <input
             type="email"
@@ -39,68 +39,27 @@
             aria-describedby="Your email address."
           />
           <br />
-          <p>
-            <label for="name">Name *</label>
-          </p>
-          <input
-            type="text"
-            id="name"
-            required
-            name="name"
-            placeholder=""
-            autocomplete="Name"
-            aria-required="true"
-            aria-labelledby="name"
-            aria-describedby="Your name."
-          />
-          <br />
+         
         </div>
         <div
           class="grid-item reveal"
-          role="group"
-          aria-label="Category and Plan"
+          aria-label="Name"
         >
-          <p>
-            <label for="category">Category *</label>
-          </p>
-          <select
-            required
-            id="category"
-            name="category"
-            aria-required="true"
-            aria-labelledby="category"
-            aria-describedby="The category of your project."
-            onchange="updatePlanOptions()"
-          >
-            <option value="" selected disabled hidden>
-              <span class="default-option"> - Select -</span>
-            </option>
-            <option value="Photo">Photo</option>
-            <option value="Video">Video</option>
-            <option value="All in">All in</option>
-            <option id="disableIfSelected" value="Service">Service</option>
-          </select>
-          <br />
-          <p>
-            <label for="plan">Plan *</label>
-          </p>
-          <select
-            required
-            id="disableOnSelect"
-            name="plan"
-            aria-required="true"
-            aria-labelledby="plan"
-            aria-describedby="The plan you are interested in."
-          >
-            <option value="" selected disabled hidden>
-              <span class="default-option">- Select -</span>
-            </option>
-            <option value=" Essential">Essential</option>
-            <option value=" Core">Core</option>
-            <option value=" Elite">Elite</option>
-            <option value="Not sure yet">Not sure yet</option>
-          </select>
-          <br />
+        <p>
+          <label for="name">Name *</label>
+        </p>
+        <input
+          type="text"
+          id="name"
+          required
+          name="name"
+          placeholder=""
+          autocomplete="Name"
+          aria-required="true"
+          aria-labelledby="name"
+          aria-describedby="Your name."
+        />
+        <br />
         </div>
       </div>
       <div

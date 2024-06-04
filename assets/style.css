@@ -1900,9 +1900,18 @@ i.fa-arrow-right:hover,
 }
 .intro-section .filter {
   position: absolute;
+  z-index: -1;
 }
 /* INTRO SECTION END */
-
+/* SWIPER CLIENTS */
+.swiper-clients .swiper-slide {
+  text-align: center;
+}
+.swiper-clients img,
+.swiper-clients svg {
+  height: 70px;
+  aspect-ratio: 1/1;
+}
 /* OUR TEAM START */
 #ourteam.intro-section video {
   -o-object-fit: cover;
@@ -1911,9 +1920,7 @@ i.fa-arrow-right:hover,
   -webkit-filter: brightness(0.3);
   filter: brightness(0.3);
 }
-#forpress.intro-section {
-  background-image: url(/img/2023-05-19-09057.jpg);
-}
+
 #forpress.intro-section .filter {
   -webkit-backdrop-filter: var(--blur-1);
   backdrop-filter: var(--blur-1);
@@ -2125,6 +2132,16 @@ ul.languages-legend li::marker {
   color: gold;
 }
 /* REVIEWS END */
+/* MAP START */
+#map img {
+  border-radius: unset;
+}
+#map {
+  height: var(--dimension-1);
+  width: 100%;
+}
+
+/* MAP END */
 
 /* MEDIA QERRIES START */
 @media only screen and (min-width: 310px) {
