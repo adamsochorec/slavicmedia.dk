@@ -875,6 +875,27 @@
    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
    include $IPATH . 'footer.php';
    ?>
+   <script>
+    var player;
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('youtube-video', {
+        events: {
+          'onReady': onPlayerReady
+        }
+      });
+    }
+  
+    function onPlayerReady(event) {
+      // You can auto-play the video or do other actions here
+    }
+  
+    function seekToTime(seconds) {
+      if (player) {
+        player.seekTo(seconds, true);
+      }
+    }
+  </script>
+  <script src="https://www.youtube.com/iframe_api"></script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"

@@ -2,12 +2,12 @@
 <meta name="author" content="Slavic Media" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" href="/img/Favicon-1.pngl" type="image/png" />
+<link rel="icon" href="/img/Favicon-1.png" type="image/png" />
 <link rel="stylesheet" href="/assets/style.css" />
 <link rel="alternate" hreflang="en-DK" href="https://slavic.media" />
 
 <!-- for Microsoft apps -->
-<meta name="msapplication-TileImage" content="/img/thumbnail.png" />
+<meta name="msapplication-TileImage" content="/img/Favicon-1.png" />
 <!-- Image to display -->
 <meta property="og: image" itemprop="image" content="/img/thumbnail.png" />
 <!-- Any size up to 300. Anything above 300px will not work in WhatsApp -->

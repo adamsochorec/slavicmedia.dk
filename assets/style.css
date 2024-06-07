@@ -1604,6 +1604,10 @@ button::-moz-focus-inner {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.mfp-iframe,
+.mfp-img {
+  border-radius: var(--border-radius-1) !important;
+}
 .mfp-iframe-holder .mfp-content {
   line-height: 0;
   width: 100%;
@@ -1636,6 +1640,7 @@ img.mfp-img {
   box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto;
+  border-radius: var(--border-radius-1) !important;
 }
 .mfp-figure {
   line-height: 0;

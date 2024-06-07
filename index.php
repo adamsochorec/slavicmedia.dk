@@ -76,12 +76,12 @@
             </p>
           </div>
         </div>
-        <hr class="semi" role="separator" />
+        <hr class="" role="separator" />
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
         include $IPATH . 'swiper-clients.php';
         ?>
-        <hr class="semi" role="separator" />
+        <hr class="" role="separator" />
 
         <!-- FEATURES START -->
         <article
@@ -245,7 +245,7 @@
         <?php
                       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
                       include $IPATH . 'swiper-ourteam.php';
-                      ?>      
+                      ?>
         <hr class="semi" role="separator" />
       </article>
     </main>

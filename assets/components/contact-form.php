@@ -12,7 +12,7 @@
     <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/4bdf898098537a1d8b599b2a77bd6b21"
+      action="https://formspree.io/f/mwkgdyez"
       method="POST"
       role="form"
       aria-labelledby="contactFormHeading"
@@ -39,27 +39,23 @@
             aria-describedby="Your email address."
           />
           <br />
-         
         </div>
-        <div
-          class="grid-item reveal"
-          aria-label="Name"
-        >
-        <p>
-          <label for="name">Name *</label>
-        </p>
-        <input
-          type="text"
-          id="name"
-          required
-          name="name"
-          placeholder=""
-          autocomplete="Name"
-          aria-required="true"
-          aria-labelledby="name"
-          aria-describedby="Your name."
-        />
-        <br />
+        <div class="grid-item reveal" aria-label="Name">
+          <p>
+            <label for="name">Name *</label>
+          </p>
+          <input
+            type="text"
+            id="name"
+            required
+            name="name"
+            placeholder=""
+            autocomplete="Name"
+            aria-required="true"
+            aria-labelledby="name"
+            aria-describedby="Your name."
+          />
+          <br />
         </div>
       </div>
       <div
@@ -95,15 +91,6 @@
           value="https://slavic.media/success"
           aria-hidden="true"
         />
-        <input type="hidden" name="_captcha" value="false" aria-hidden="true" />
-        <!-- Captcha disable -->
-        <input
-          type="text"
-          name="_honey"
-          style="display: none"
-          aria-hidden="true"
-        />
-        <input type="hidden" name="_template" value="box" aria-hidden="true" />
       </div>
     </form>
   </section>
