@@ -18,12 +18,7 @@
     include $IPATH . 'nav-bar.php';
     ?>
     <!-- HEADER END -->
-    <!-- COOKIES START -->
-    <?php
-   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-   include $IPATH . 'privacy.php';
-   ?>
-    <!-- COOKIES END -->
+
     <!-- FLAGS START -->
     <?php
       $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';

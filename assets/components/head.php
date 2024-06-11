@@ -3,9 +3,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="icon" href="/img/Favicon-1.png" type="image/png" />
+<link rel="stylesheet" href="/assets/base.css" />
 <link rel="stylesheet" href="/assets/style.css" />
 <link rel="alternate" hreflang="en-DK" href="https://slavic.media" />
-
+<script
+  id="CookieConsent"
+  src="https://policy.app.cookieinformation.com/uc.js"
+  data-culture="EN"
+  data-gcm-version="2.0"
+  type="text/javascript"
+></script>
 <!-- for Microsoft apps -->
 <meta name="msapplication-TileImage" content="/img/Favicon-1.png" />
 <!-- Image to display -->
@@ -17,4 +24,5 @@
   name="description"
   content="We are not any traditional production company. Slavic Media are creative storytellers who believe in good set designs, deep eye contact, and the right light that can raise your message above the noise."
 />
+
 <!-- <meta name="keywords" content="multimedia production, Denmark, digital marketing, Kolding, creative storytelling, Syddanmark, Trekantenområdet, photography services, video services, scriptwriting, Kolding, set design, drone footage, unique brand concepts, personalized brand ideas, commercial production, professional photographer, professional videographer, multimedia agency, professional studio, multimedia services, expert post-production, visual excellence, graphic design, animations, 3D models, travel, still photography, event photography, portrait photography, showreel, interview" /> -->

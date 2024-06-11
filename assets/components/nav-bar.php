@@ -36,7 +36,7 @@
           <a href="/#ourteam" role="menuitem">Our Team</a>
         </li>
         <li role="none">
-          <a href="https://clients.slavic.media" role="menuitem"
+          <a target="_blank" href="https://clients.slavic.media" role="menuitem"
             >For clients</a
           >
         </li>
