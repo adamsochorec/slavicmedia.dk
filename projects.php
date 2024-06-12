@@ -14,7 +14,7 @@
   include $IPATH . 'nav-bar.php';
   ?>
     <!-- HEADER END -->
-  
+
     <!-- FLAGS START -->
     <?php
      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
@@ -41,7 +41,7 @@
       <!-- VIDEO START -->
       <article class="wrapper-wide" id="video">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
+        <div class="grid-container caption-container">
           <div class="grid-item reveal">
             <h2>
               <span class="highlited">Video</span>
@@ -78,7 +78,7 @@
             </p>
             <a href="https://vimeo.com/950575511?share=copy"></a>
           </div>
-        </div> 
+        </div>
         <div class="gallery-item reveal">
           <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
@@ -151,7 +151,10 @@
       <section class="flex-center">
         <a class="reveal active" href="/services">
           <div class="cta">
-            Request a Proposal<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            Request a Proposal<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
           </div>
         </a>
       </section>
@@ -161,13 +164,12 @@
       <!-- PHOTO START -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
+        <div class="grid-container caption-container">
           <div class="grid-item reveal">
             <h2>
               <span class="highlited">Photo</span>
               Projects
             </h2>
-
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -175,6 +177,7 @@
               stills, in a fancy studio or rough exterior, we are here to bring
               them alive.
             </p>
+          </div>
         </div>
       </article>
       <hr class="semi" role="separator" />
@@ -853,12 +856,26 @@
               ></a>
             </div>
           </div>
-        </div>  
-       </article>
-       <section class="flex-center">
+        </div>
+      </article>
+      <section class="double-cta">
         <a class="reveal active" href="/services">
           <div class="cta">
-            Request a Proposal<i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            Request a Proposal<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </a>
+        <a
+          class="reveal active"
+          href="https://store.slavic.media/collection/lightroom-presets"
+        >
+          <div class="cta-secondary cta">
+            Our Lightroom Presets<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
           </div>
         </a>
       </section>
@@ -870,27 +887,6 @@
    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
    include $IPATH . 'footer.php';
    ?>
-   <script>
-    var player;
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('youtube-video', {
-        events: {
-          'onReady': onPlayerReady
-        }
-      });
-    }
-  
-    function onPlayerReady(event) {
-      // You can auto-play the video or do other actions here
-    }
-  
-    function seekToTime(seconds) {
-      if (player) {
-        player.seekTo(seconds, true);
-      }
-    }
-  </script>
-  <script src="https://www.youtube.com/iframe_api"></script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"

@@ -51,7 +51,7 @@
 
         <!-- SERVICES START -->
         <div
-          class="grid-container fifty-fifty caption-container reveal"
+          class="grid-container caption-container reveal"
           role="region"
           aria-label="Services"
         >
@@ -132,10 +132,7 @@
         <!-- FEATURES END -->
         <hr class="reveal" role="separator" />
 
-        <div
-          class="grid-container fifty-fifty caption-container"
-          id="reviews-caption"
-        >
+        <div class="grid-container caption-container" id="reviews-caption">
           <div class="grid-item">
             <h2 class="reveal">
               <span class="highlited tuscher">Actions</span> speak louder

@@ -33,6 +33,9 @@
           <a href="/projects" role="menuitem">Projects</a>
         </li>
         <li role="none">
+          <a href="https://store.slavic.media" role="menuitem">Store</a>
+        </li>
+        <li role="none">
           <a href="/#ourteam" role="menuitem">Our Team</a>
         </li>
         <li role="none">
