@@ -42,7 +42,11 @@
             aria-describedby="Hero video"
             poster="/img/showreel.png"
           ></video>
-        </div>
+      
+        </div>    <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'sale.php';
+        ?>
       </article>
       <!-- INTRO VIDEO END -->
       <!-- COMPANY CAPTIONS START -->

@@ -255,3 +255,49 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   direction: "horizontal",
 });
 // OUR TEAM END
+
+// COUNTER START
+// Set the date we're counting down to
+const initialCountDownDate = new Date("Jun 13, 2024 23:59:59").getTime();
+
+// Function to calculate the next countdown date after expiration
+const getNextCountDownDate = (pastDate) =>
+  new Date(pastDate + 2 * 24 * 60 * 60 * 1000).getTime();
+
+// Using let to allow updates to the countdown date
+let countDownDate = initialCountDownDate;
+
+// Function to format time and wrap each digit in a span
+const formatTime = (time) => {
+  return time.toString().padStart(2, "0").split("");
+};
+
+// Update the count down every 1 second
+const countdownInterval = setInterval(() => {
+  // Get today's date and time
+  const now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  let distance = countDownDate - now;
+
+  // Time calculations for total hours, minutes and seconds left
+  const totalHours = formatTime(Math.floor(distance / (1000 * 60 * 60)));
+  const totalMinutes = formatTime(
+    Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+  );
+  const totalSeconds = formatTime(Math.floor((distance % (1000 * 60)) / 1000));
+
+  // Display the result in the element with id="counter"
+  document.getElementById("hours-tens").innerHTML = totalHours[0];
+  document.getElementById("hours-ones").innerHTML = totalHours[1];
+  document.getElementById("minutes-tens").innerHTML = totalMinutes[0];
+  document.getElementById("minutes-ones").innerHTML = totalMinutes[1];
+  document.getElementById("seconds-tens").innerHTML = totalSeconds[0];
+  document.getElementById("seconds-ones").innerHTML = totalSeconds[1];
+
+  // If the count down is finished, restart it every 2 days
+  if (distance < 0) {
+    countDownDate = getNextCountDownDate(countDownDate); // Reset for next cycle
+  }
+}, 1000);
+// COUNTER END
