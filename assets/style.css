@@ -190,7 +190,8 @@ h1 {
   font-size: clamp(2em, 5vw, 3em);
 }
 
-h2 {
+h2,
+.banner #counter span {
   font-size: clamp(1.5em, 4vw, 2.5em);
 }
 h3,
@@ -209,7 +210,8 @@ h5 {
 }
 h6,
 #services table th,
-#gallery-features.gallery h3 {
+#gallery-features.gallery h3,
+.banner legend {
   font-size: clamp(0.8em, 1.5vw, 1em);
 }
 p {
@@ -309,44 +311,48 @@ footer a.footer-nav:hover {
   display: -ms-flexbox;
   display: flex;
   z-index: 5;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
-.banner #counter {
-  margin-top: var(--grid-gap-1);
-}
 .banner #counter p {
-  display: grid;
+  display: block;
 }
-.banner #counter p.counter-values {
-  grid-template-columns: repeat(8, 1fr);
+.banner legend {
+  letter-spacing: 4px;
+  padding: 0 var(--grid-gap-1);
+  text-transform: uppercase;
 }
-.banner #counter p.counter-label {
-  grid-template-columns: repeat(3, 1fr);
+.banner #counter span,
+.banner legend {
+  color: rgb(var(--white-color));
+}
+.banner #counter span {
+  display: inline-block;
+  width: 1.8rem; /* Adjust as needed */
   text-align: center;
 }
-
-.banner #counter span {
-  background-color: rgba(var(--white-color), 0.6);
-  -webkit-backdrop-filter: var(--blur-1);
-  backdrop-filter: var(--blur-1);
-  margin: 4px;
-  font-weight: bold;
-
-  padding: var(--grid-gap-1);
+.banner .banner-title {
+  color: white;
+  text-shadow: 3px 3px 0 rgb(var(--secondary-color)),
+    -1px -1px 0 rgb(var(--secondary-color)),
+    1px -1px 0 rgb(var(--secondary-color)),
+    -1px 1px 0 rgb(var(--secondary-color)),
+    1px 1px 0 rgb(var(--secondary-color));
+  font-size: 32px;
+  letter-spacing: 4px;
 }
-.banner #counter span.dot {
-  background-color: rgba(var(--white-color), 0);
-  backdrop-filter: none;
+.banner fieldset {
+  border: 0.5px solid rgb(var(--white-color));
+  margin-top: var(--grid-gap-1);
 }
-.banner #counter .counter-label {
-  font-size: 1em;
-}
-.banner #counter .counter-label * {
-  background-color: transparent;
-  backdrop-filter: none;
-}
-.banner #counter .counter-label span {
-  padding: 0;
+.filter {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  position: absolute;
+  height: 80%;
+  z-index: 4;
+  width: 100%;
 }
 /* BANNER END */
 /* SWITCHER START */
@@ -2373,7 +2379,8 @@ ul.languages-legend li::marker {
   .video-container {
     height: 100%;
   }
-  .showcase {
+  .showcase,
+  .filter {
     height: 100vh;
   }
 }

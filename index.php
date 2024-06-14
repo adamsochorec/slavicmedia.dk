@@ -27,6 +27,7 @@
     <!-- FLAGS END -->
     <main>
       <!-- INTRO VIDEO START -->
+      <div class="filter"></div>
       <article class="showcase">
         <div class="video-container">
           <video
@@ -42,8 +43,8 @@
             aria-describedby="Hero video"
             poster="/img/showreel.png"
           ></video>
-      
-        </div>    <?php
+        </div>
+        <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
         include $IPATH . 'sale.php';
         ?>
