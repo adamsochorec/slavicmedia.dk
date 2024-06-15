@@ -257,12 +257,6 @@
       role="script"
     ></script>
     <script type="text/javascript" src="/assets/index.js" defer></script>
-    <script
-      type="text/javascript"
-      src="/assets/cookies.js"
-      defer
-      role="script"
-    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

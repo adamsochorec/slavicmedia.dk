@@ -69,13 +69,7 @@
               target="_blank"
               aria-label="Link to Brand Guide"
             >
-              <div class="grid-item" id="brand-guide" role="gridcell">
-                <div class="blur">
-                  <span aria-label="Preview">
-                    <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
-                  </span>
-                </div>
-              </div>
+              <div class="grid-item" id="brand-guide" role="gridcell"></div>
             </a>
             <p
               aria-label="Sets the visual and stylistic standards for the brand, ensuring consistency in logos, colours, fonts, and design."
@@ -101,13 +95,7 @@
               target="_blank"
               aria-label="Link to Credit Guide"
             >
-              <div class="grid-item" id="credit-guide" role="gridcell">
-                <div class="blur">
-                  <span aria-label="Preview">
-                    <p>Preview<i class="fa-solid fa-arrow-right"></i></p>
-                  </span>
-                </div>
-              </div>
+              <div class="grid-item" id="credit-guide" role="gridcell"></div>
             </a>
             <p
               aria-label="Outlines how to tag and credit work across digital as well as printed media."
@@ -131,13 +119,7 @@
               target="_blank"
               aria-label="Link to Press Kit"
             >
-              <div class="grid-item" id="press-kit" role="gridcell">
-                <div class="blur">
-                  <span aria-label="Download">
-                    <p>Download<i class="fa-solid fa-arrow-right"></i></p>
-                  </span>
-                </div>
-              </div>
+              <div class="grid-item" id="press-kit" role="gridcell"></div>
             </a>
             <p
               aria-label="Package of vectorised logos, fonts and other essential branding materials."
@@ -156,13 +138,6 @@
           $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
           include $IPATH . 'footer.php';
           ?>
-    <script
-      type="text/javascript"
-      src="/assets/cookies.js"
-      defer
-      role="script"
-      aria-label="Cookies Script"
-    ></script>
     <!-- FOOTER END -->
   </body>
 </html>

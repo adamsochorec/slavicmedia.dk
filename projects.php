@@ -188,9 +188,9 @@
               <a
                 src="/img/2023-12-01-00263.jpg"
                 title="Group of people staring at Northern Lights."
-                year="2023"
-                location="Björkliden, Sweden"
-                client='<a
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -213,9 +213,9 @@
               <a
                 src="/img/2023-11-30-00006.jpg"
                 title="Two guys with Norwegian fjord in the background."
-                year="2023"
-                location="Narvik, Norway"
-                client='<a
+                data-year="2023"
+                data-location="Narvik, Norway"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -238,9 +238,9 @@
               <a
                 src="/img/2022-12-02-000065.jpg"
                 title="Girl cuddling with husky."
-                year="2023"
-                location="Kiruna, Sweden"
-                client='<a
+                data-year="2023"
+                data-location="Kiruna, Sweden"
+                data-client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -263,9 +263,9 @@
               <a
                 src="/img/2023-12-01-00250.jpg"
                 title="Timetravels Herder Experience in Swedish Lapland."
-                year="2023"
-                location="Björkliden, Sweden"
-                client='<a
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -288,9 +288,9 @@
               <a
                 src="/img/2024-03-10-00620.jpg"
                 title="Kaunispää in Finnish Saariselkä, Northern Lapland."
-                year="2024"
-                location="Saariselkä, Finland"
-                client='<a
+                data-year="2024"
+                data-location="Saariselkä, Finland"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -314,9 +314,9 @@
               <a
                 src="/img/2022-12-03-000465.jpg"
                 title="Two guys in a survival shelter in tundra."
-                year="2023"
-                location="Björkliden, Sweden"
-                client='<a
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -339,9 +339,9 @@
               <a
                 src="/img/2023-12-02-00459.jpg"
                 title="Pair of boys petting husky."
-                year="2023"
-                location="Kiruna, Sweden"
-                client='<a
+                data-year="2023"
+                data-location="Kiruna, Sweden"
+                data-client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -365,9 +365,9 @@
                 src="/img/2023-05-27-00025.jpg"
                 alt="Portrait of a smiling woman on a techno rave."
                 title="Portrait of a smiling woman on a techno rave."
-                year="2023"
-                location="Kolding, Denmark"
-                client='<a
+                data-year="2023"
+                data-location="Kolding, Denmark"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -378,8 +378,8 @@
                   src="/img/2023-05-27-00025.jpg"
                   alt="Portrait of a smiling woman on a techno rave."
                   title="Portrait of a smiling woman on a techno rave."
-                  year="2023"
-                  client='<a
+                  data-year="2023"
+                  data-client='<a
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -400,9 +400,9 @@
               <a
                 src="/img/2024-03-10-00496.jpg"
                 title="Ice skating on frozen Inarijärvi in Finnish Lapland."
-                year="2024"
-                location="Inarijärvi, Finland"
-                client='<a
+                data-year="2024"
+                data-location="Inarijärvi, Finland"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -426,9 +426,9 @@
               <a
                 src="/img/2022-10-15-00970.jpg"
                 title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
-                year="2022"
-                location="Geta, Åland"
-                client="<a href='https://adamsochorec.com/blog/aland'>Expedition Åland<i class='fa-solid fa-arrow-right'></i></a>"
+                data-year="2022"
+                data-location="Geta, Åland"
+                data-client="<a href='https://adamsochorec.com/blog/aland'>Expedition Åland<i class='fa-solid fa-arrow-right'></i></a>"
               >
                 <img
                   src="/img/2022-10-15-00970.jpg"
@@ -443,9 +443,9 @@
               <a
                 src="/img/2024-03-10-00238.jpg"
                 title="Timetravels Reindeer Herder experience in Lapland."
-                year="2024"
-                location="Inari, Finland"
-                client='<a
+                data-year="2024"
+                data-location="Inari, Finland"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -471,9 +471,9 @@
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01113.jpg"
-                year="2023"
-                location="Dead Sea, Israel"
-                client='<a
+                data-year="2023"
+                data-location="Dead Sea, Israel"
+                data-client='<a
             href="https://touristisrael.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -493,10 +493,10 @@
             <div class="reveal">
               <a
                 src="/img/2023-09-23-00049.jpg"
-                location="Kolding, Denmark"
+                data-location="Kolding, Denmark"
                 title="Silhouette of a DJ playing in a rave in Kolding."
-                year="2023"
-                client='<a
+                data-year="2023"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -520,9 +520,9 @@
               <a
                 src="/img/2023-09-09-10524.jpg"
                 title="Anime Animeaux frontman holding a microphone on a stage."
-                location="Kolding, Denmark"
-                year="2023"
-                client='<a
+                data-location="Kolding, Denmark"
+                data-year="2023"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -545,9 +545,9 @@
             <div class="reveal">
               <a
                 src="/img/2021-06-24-01208.jpg"
-                year="2021"
-                location="Prague, Czechia"
-                client='<a
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -565,9 +565,9 @@
               <a
                 src="/img/2021-06-24-01233-2.jpg"
                 title="Sára Rychlíková at Divadlo Disk in Prague."
-                year="2023"
-                location="Prague, Czechia"
-                client='<a
+                data-year="2023"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -588,9 +588,9 @@
               <a
                 src="/img/2023-08-29-01096.jpg"
                 title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
-                year="2023"
-                location="Nahal Bokek, Israel"
-                client='<a
+                data-year="2023"
+                data-location="Nahal Bokek, Israel"
+                data-client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -611,9 +611,9 @@
               <a
                 src="/img/2023-08-29-01059.jpg"
                 title="Woman hiking on Masada in Israel."
-                year="2023"
-                location="Masada, Israel"
-                client='<a
+                data-year="2023"
+                data-location="Masada, Israel"
+                data-client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -634,9 +634,9 @@
               <a
                 src="/img/2021-04-25-00693.jpg"
                 title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-                year="2021"
-                location="Prague, Czechia"
-                client='<a
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="ttps://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -655,9 +655,9 @@
               <a
                 src="/img/2021-04-14-00608.jpg"
                 title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-                year="2021"
-                location="Prague, Czechia"
-                client='<a
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -676,9 +676,9 @@
               <a
                 src="/img/2021-09-05-01666.jpg"
                 title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
-                year="2021"
-                location="Kolding, Denmark"
-                client="art project"
+                data-year="2021"
+                data-location="Kolding, Denmark"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-09-05-01666.jpg"
@@ -695,9 +695,9 @@
                 src="/img/hvalp.jpg"
                 alt="Band HVALP album cover."
                 title="Band HVALP album cover."
-                location="Kolding, Denmark"
-                year="2023"
-                client="Hvalp"
+                data-location="Kolding, Denmark"
+                data-year="2023"
+                data-client="Hvalp"
               >
                 <img
                   src="/img/hvalp.jpg"
@@ -713,9 +713,9 @@
               <a
                 src="/img/2023-09-09-10507.jpg"
                 title="Shirtless Anime Animeaux guitarist starring into a camera."
-                year="2023"
-                location="Kolding, Denmark"
-                client='<a
+                data-year="2023"
+                data-location="Kolding, Denmark"
+                data-client='<a
               href="https://www.husetfundament.dk"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -738,9 +738,9 @@
               <a
                 src="/img/2021-06-21-01194.jpg"
                 title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-                year="2021"
-                location="Prague, Czechia"
-                client='<a
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.slovo21.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -761,9 +761,9 @@
               <a
                 src="/img/2021-11-13-02059.jpg"
                 title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-                year="2021"
-                location="Kolding, Denmark"
-                client="art project"
+                data-year="2021"
+                data-location="Kolding, Denmark"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-11-13-02059.jpg"
@@ -779,9 +779,9 @@
               <a
                 src="/img/2021-08-24-01615.jpg"
                 title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
-                year="2021"
-                client="art project"
-                location="Kolding, Denmark"
+                data-year="2021"
+                data-client="art project"
+                data-location="Kolding, Denmark"
               >
                 <img
                   src="/img/2021-08-24-01615.jpg"
@@ -797,9 +797,9 @@
               <a
                 src="/img/2023-11-13-00267.jpg"
                 title="Elf lady holding knife on Kim Kim's throat."
-                year="2023"
-                location="Copenhagen, Denmark"
-                client='<a
+                data-year="2023"
+                data-location="Copenhagen, Denmark"
+                data-client='<a
               href="https://www.sort-hvid.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -820,9 +820,9 @@
               <a
                 src="/img/2021-05-28-01020.jpg"
                 title="Portrait of Zuzana Částková."
-                year="2021"
-                location="Prague, Czechia"
-                client="art project"
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-05-28-01020.jpg"
@@ -836,9 +836,9 @@
               <a
                 src="/img/2022-06-28-00708.jpg"
                 title="Roskilde Festival."
-                year="2023"
-                location="Roskilde, Denmark"
-                client='<a
+                data-year="2023"
+                data-location="Roskilde, Denmark"
+                data-client='<a
               href="https://www.roskilde-festival.dk/da/"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -896,12 +896,7 @@
       src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
     ></script>
     <script type="text/javascript" src="/assets/projects.js"></script>
-    <script
-      type="text/javascript"
-      src="/assets/cookies.js"
-      defer
-      role="script"
-    ></script>
+
     <!-- FOOTER END -->
   </body>
 </html>
