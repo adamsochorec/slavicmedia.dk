@@ -2,20 +2,24 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     const header = document.querySelector("#homepage header");
-    blurValue = getComputedStyle(document.documentElement).getPropertyValue(
-      "--blur-1"
-    );
-    const darkGreyValue = getComputedStyle(
-      document.documentElement
-    ).getPropertyValue("--dark-grey-color-full");
+    const dropdown = document.querySelector("#homepage .dropdown-content");
+    blurValue = getComputedStyle(document.documentElement)
+      .getPropertyValue("--blur-2")
+      .trim();
 
-    if (window.pageYOffset > 530) {
-      header.style.backgroundColor = darkGreyValue;
+    if (window.pageYOffset > 680) {
+      header.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
       header.style.backdropFilter = blurValue;
       header.style.webkitBackdropFilter = blurValue;
       header.style.MozBackdropFilter = blurValue; // Unsupported
       header.style.MsBackdropFilter = blurValue; // Unsupported
       header.style.OBackdropFilter = blurValue; // Unsupported
+      dropdown.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+      dropdown.style.backdropFilter = blurValue;
+      dropdown.style.webkitBackdropFilter = blurValue;
+      dropdown.style.MozBackdropFilter = blurValue; // Unsupported
+      dropdown.style.MsBackdropFilter = blurValue; // Unsupported
+      dropdown.style.OBackdropFilter = blurValue; // Unsupported
     } else {
       header.style.backgroundColor = "rgba(0, 0, 0, 0)";
       header.style.backdropFilter = "blur(0px)";
@@ -23,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
       header.style.MozBackdropFilter = "blur(0px)"; // Unsupported
       header.style.MsBackdropFilter = "blur(0px)"; // Unsupported
       header.style.OBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.backgroundColor = "rgba(0, 0, 0, 0)";
+      dropdown.style.backdropFilter = "blur(0px)";
+      dropdown.style.webkitBackdropFilter = "blur(0px)";
+      dropdown.style.MozBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.MsBackdropFilter = "blur(0px)"; // Unsupported
+      dropdown.style.OBackdropFilter = "blur(0px)"; // Unsupported
     }
   });
 });
@@ -139,16 +149,10 @@ function showStars(container, rating) {
 // START RATING END
 
 // RATING SWIPER START
-const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-2"
-);
-const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
-  "--grid-gap-3"
-);
-const reviewsSwiper = new Swiper(".swiper-reviews", {
+const reviewsSwiper = new Swiper(".reviews-swiper", {
   loop: true,
   speed: 600,
-  spaceBetween: gridGap2,
+  spaceBetween: 15,
   autoplay: {
     delay: 3000,
   },
@@ -175,41 +179,3 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
   loop: true,
 });
 // RATING SWIPER END
-
-// OUR TEAM SWIPER START
-const ourteamSwiper = new Swiper(".swiper-ourteam", {
-  preloadImages: false,
-  lazyLoading: true,
-  observer: true,
-  observeParents: true,
-  spaceBetween: gridGap3,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 2.3,
-    },
-
-    375: {
-      slidesPerView: 2.3,
-    },
-    620: {
-      slidesPerView: 3,
-    },
-  },
-  // Optional parameters
-  direction: "horizontal",
-});
-// OUR TEAM END
