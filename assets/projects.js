@@ -1,11 +1,13 @@
+// Executes when the document is ready
 $(document).ready(function () {
+  // Initializes Magnific Popup for iframe-based galleries
   $(".gallery").magnificPopup({
-    delegate: "a", // Adjusted to target your specific link class
-    type: "iframe", // Type is iframe for videos
+    delegate: "a", // Targets specific link class for delegation
+    type: "iframe", // Sets the type to iframe for displaying videos
     gallery: {
       enabled: true,
       navigateByImgClick: false,
-      preload: [0, 1],
+      preload: [0, 1], // Preloads adjacent items
       arrowMarkup:
         '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
       tPrev: "Previous",
@@ -13,58 +15,65 @@ $(document).ready(function () {
     },
     zoom: {
       enabled: true,
-      duration: 300, // don't foget to change the duration also in CSS
+      duration: 300, // Duration of the zoom animation
     },
     titleSrc: function (item) {
-      // Fetching custom attributes for videos
+      // Retrieves custom attributes for videos
       const year = item.el.attr("year");
-      // Directly using the 'client' attribute's HTML content
       const client = item.el.attr("client");
-      // Constructing the title string with HTML content for 'client'
+      // Constructs the title string with HTML content for 'client'
       let title =
         "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
       return title;
     },
     src: function (item) {
-      // Directly return the href attribute value for iframe src
+      // Directly returns the href attribute value for iframe src
       return item.el.attr("href");
     },
   });
 });
 
+// Executes when the document is ready
 $(document).ready(function () {
+  // Initializes Magnific Popup for image-based galleries
   $(".popup-gallery").magnificPopup({
-    delegate: "a", // Targeting the <img> elements directly
+    delegate: "a", // Targets <a> elements directly
     type: "image",
-    tLoading: '<div class="loading-container"><div class="loader"></div></div>',
+    tLoading: '<div class="loading-container"><div class="loader"></div></div>', // Loading spinner HTML
     mainClass: "mfp-img-mobile",
     gallery: {
       enabled: true,
       navigateByImgClick: true,
-      preload: [0, 1], // Preload 0 - before current, and 1 after the current image
+      preload: [0, 1], // Preloads adjacent images
     },
     zoom: {
       enabled: true,
-      duration: 300, // don't foget to change the duration also in CSS
+      duration: 300, // Duration of the zoom animation
     },
     image: {
       tError:
-        '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>',
+        '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>', // Error message HTML
       titleSrc: function (item) {
-        // Fetching custom attributes
+        // Retrieves custom attributes for images
         const year = item.el.attr("year");
         const client = item.el.attr("client");
-        // Constructing the title string without the 'title' attribute
+        const location = item.el.attr("location");
+        // Constructs the title string without the 'title' attribute
         let title =
-          "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
+          "<p><small>" +
+          year +
+          "&nbsp;|&nbsp;" +
+          client +
+          "&nbsp;|&nbsp;" +
+          location +
+          "</small></p>";
         return title;
       },
-      // Getting the URL of the image for the popup
       src: function (item) {
+        // Gets the URL of the image for the popup
         return item.el.attr("src");
       },
     },
-
     callbacks: {
       elementParse: function (item) {
         // Function to handle each image source

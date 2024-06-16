@@ -1,18 +1,22 @@
 ErrorDocument 404 /404
 
 RewriteEngine on
+RewriteBase /
 
 # Redirect to 404 if query strings are used
 RewriteCond %{THE_REQUEST} \?[^\ ]+
 RewriteRule .? /404? [L,R=301]
 
-# Handle language URLs without query strings
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-z]{2})/(.*)$ /$2?lang=$1 [L,QSA]
+# Remove language value from old URLs and redirect
+RewriteRule ^([a-z]{2})/(.*)$ /$2 [R=301,L]
 
 # Check for file in directory with .php extension
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
+# Redirect slavicmedia.dk to slavic.media
+RewriteEngine on RewriteRule (.*) https://slavic.media/ [R=301,L]
+
+
 DirectoryIndex index.php
+

@@ -7,10 +7,10 @@ function vatPrice() {
 
     // Check if the price is multiplied by 1.2, revert if true, else multiply
     if (price.dataset.multiplied === "true") {
-      price.textContent = (currentPrice / 1.25).toFixed(0);
+      price.textContent = (currentPrice * 1.25).toFixed(0);
       price.dataset.multiplied = "false";
     } else {
-      price.textContent = (currentPrice * 1.25).toFixed(0);
+      price.textContent = (currentPrice / 1.25).toFixed(0);
       price.dataset.multiplied = "true";
     }
   });

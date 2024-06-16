@@ -1,1 +1,1 @@
-https://www.google.com/ping?sitemap=https://slavicmedia.dk/assets/sitemap.xml
+https://www.google.com/ping?sitemap=https://slavic.media/assets/sitemap.xml

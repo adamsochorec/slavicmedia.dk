@@ -1,0 +1,40 @@
+:root {
+  --primary-color: 199, 30, 30;
+  --secondary-color: 17, 69, 126;
+  --grey-color: 40, 40, 40;
+  --dark-grey-color: 26, 26, 26;
+  --dark-grey-color-full: rgba(0, 0, 0, 0.3);
+  --white-color: 255, 255, 255;
+  --fontsize-note: 0.7em;
+  --logo-font: Raleway Semibold;
+  --content-font: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  --paragraph-weight: 350;
+  --article-weight: 340;
+  --heading-weight: 600;
+  --border-radius-1: 10px;
+  --border-radius-2: 50px;
+  --transition-1: all.1s ease-in-out;
+  --transition-2: background 0.3s,
+    -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+  --nav-bar-top-position: 50px;
+  --box-shadow-1: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  --homepage-padding: 50px;
+  --blur-1: blur(35px);
+  --cta-margin: 20px 0 0 0;
+  --grid-gap-1: 10px;
+  --grid-gap-2: 15px;
+  --grid-gap-3: 30px;
+  --dimension-1: 80vh;
+  --dimension-2: 200px;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(https://slavic.media/assets/SF-Pro-Display-Light.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: Raleway Semibold;
+  src: url(https://slavic.media/assets/Raleway-SemiBold.ttf) format("truetype");
+}

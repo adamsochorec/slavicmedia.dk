@@ -1,23 +1,31 @@
-<article class="wrapper-standard">
-  <section class="contact-form-section">
+<article class="wrapper-standard" role="article" aria-label="Contact Form">
+  <section
+    class="contact-form-section"
+    role="region"
+    aria-label="Contact Form Section"
+  >
     <h3 class="reveal" role="heading" aria-level="3">
-      <?php echo $lang['asset_168'] ?>
+      Request a
+      <span class="highlited tuscher" role="presentation">Proposal</span>
     </h3>
-<br>    <form
+    <br />
+    <form
       id="contactForm"
       onclick="loading()"
-      action="https://formsubmit.co/7380641e237fbaeaac7f9d91fae42afb"
+      action="https://formspree.io/f/mwkgdyez"
       method="POST"
       role="form"
       aria-labelledby="contactFormHeading"
+      aria-describedby="This form is used to request a proposal."
     >
       <!-- Form elements -->
       <div
         class="grid-container contact-form"
         role="group"
         aria-labelledby="contactFormGroupLabel"
+        aria-describedby="This group contains the contact form fields."
       >
-        <div class="grid-item reveal">
+        <div class="grid-item reveal" aria-label="Email">
           <p><label for="email">Email *</label></p>
           <input
             type="email"
@@ -28,13 +36,13 @@
             autocomplete="email"
             aria-required="true"
             aria-labelledby="email"
+            aria-describedby="Your email address."
           />
           <br />
+        </div>
+        <div class="grid-item reveal" aria-label="Name">
           <p>
-            <label for="name"
-              ><?php echo $lang['asset_170'] ?>
-              *</label
-            >
+            <label for="name">Name *</label>
           </p>
           <input
             type="text"
@@ -45,77 +53,18 @@
             autocomplete="Name"
             aria-required="true"
             aria-labelledby="name"
+            aria-describedby="Your name."
           />
           <br />
         </div>
-        <div class="grid-item reveal">
-  <p>
-    <label for="category"><?php echo $lang['asset_181'] ?> *</label>
-  </p>
-  <select
-    required
-    id="category"
-    name="category"
-    aria-required="true"
-    aria-labelledby="category"
-    onchange="updatePlanOptions()"
-  >
-    <option value="" selected disabled hidden>
-      <span class="default-option">
-        <?php echo $lang['asset_183'] ?></span
-      >
-    </option>
-    <option value="<?php echo $lang['asset_11'] ?>">
-      <?php echo $lang['asset_11'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_13'] ?>">
-      <?php echo $lang['asset_13'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_234'] ?>">
-      <?php echo $lang['asset_234'] ?>
-    </option>
-    <option id="disableIfSelected" value="Service">
-      <?php echo $lang['asset_308'] ?>
-    </option>
-  </select>
-  <br />
-  <p>
-    <label for="plan"><?php echo $lang['asset_182'] ?> *</label>
-  </p>
-  <select
-    required
-    id="disableOnSelect"
-    name="plan"
-    aria-required="true"
-    aria-labelledby="plan"
-  >
-    <option value="" selected disabled hidden>
-      <span class="default-option"
-        ><?php echo $lang['asset_183'] ?></span
-      >
-    </option>
-    <option value="<?php echo $lang['asset_133'] ?>">
-      <?php echo $lang['asset_133'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_134'] ?>">
-      <?php echo $lang['asset_134'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_135'] ?>">
-      <?php echo $lang['asset_135'] ?>
-    </option>
-    <option value="<?php echo $lang['asset_190'] ?>" >
-      <?php echo $lang['asset_190'] ?>
-    </option>
-  </select>
-  <br />
-</div>
       </div>
-      <div class="reveal">
+      <div
+        class="reveal"
+        role="group"
+        aria-label="Project Description and Submit Button"
+      >
         <p>
-          <label for="project"
-            ><?php echo $lang['asset_169'] ?>
-            *</label
-          >
+          <label for="project">Project description *</label>
         </p>
         <textarea
           minlength="10"
@@ -126,24 +75,22 @@
           placeholder=""
           aria-required="true"
           aria-labelledby="project"
+          aria-describedby="Describe your project here."
         ></textarea>
         <button
           class="submit-btn"
-          aria-label="<?php echo $lang['asset_164'] ?>"
+          aria-label="Submit"
           role="button"
           aria-labelledby="submitBtn"
         >
-          <?php echo $lang['asset_164'] ?><i class="fa-solid fa-arrow-right"></i>
+          Submit<i class="fa-solid fa-arrow-right"></i>
         </button>
         <input
           type="hidden"
           name="_next"
-          value="https://slavicmedia.dk/success"
+          value="https://slavic.media/success"
+          aria-hidden="true"
         />
-        <input type="hidden" name="_captcha" value="false" />
-        <!-- Captcha disable -->
-        <input type="text" name="_honey" style="display: none" />
-        <input type="hidden" name="_template" value="box" />
       </div>
     </form>
   </section>

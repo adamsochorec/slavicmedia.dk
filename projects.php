@@ -1,30 +1,26 @@
-<?php include 'languages/config.php'; ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['lang'] ?>">
+<html lang="en">
   <head>
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-
-    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css" />
-    <meta name="description" content="<?php echo $lang['asset_10'] ?>" />
-    <meta name="keywords" content="<?php echo $lang['asset_219'] ?>" />
     <title>Projects | Slavic Media</title>
   </head>
   <body id="projects">
     <!-- HEADER START -->
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
+  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+  include $IPATH . 'nav-bar.php';
+  ?>
     <!-- HEADER END -->
-    <!-- COOKIES START -->
+
+    <!-- FLAGS START -->
     <?php
-   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-   include $IPATH . 'privacy.php';
-   ?>
-    <!-- COOKIES END -->
+     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+     include $IPATH . 'flags.php';
+     ?>
+    <!-- FLAGS END -->
     <main>
       <article class="wrapper-wide">
         <div
@@ -32,56 +28,32 @@
           role="navigation"
           aria-label="Breadcrumb navigation"
         ></div>
-        <h1 class="reveal" aria-label="<?php echo $lang['asset_102'] ?>">
-          <?php echo $lang['asset_102'] ?>
-        </h1>
+        <h1 class="reveal" aria-label="Projects">Projects</h1>
         <div class="pathname-container reveal">
           <p>
             <span class="pathname"
               ><a href="/" aria-label="Home"></a> &#8250;
             </span>
-            <span class="pathname" aria-label="<?php echo $lang['asset_22'] ?>"
-              ><?php echo $lang['asset_22'] ?></span
-            >
+            <span class="pathname" aria-label="Projects">Projects</span>
           </p>
         </div>
       </article>
       <!-- VIDEO START -->
       <article class="wrapper-wide" id="video">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
+        <div class="grid-container caption-container">
           <div class="grid-item reveal">
             <h2>
-              <span class="highlited"><?php echo $lang['asset_13'] ?></span>
-              <?php echo $lang['asset_22'] ?>
+              <span class="highlited">Video</span>
+              Projects
             </h2>
-            <div class="hide-cta-min reveal">
-              <a
-                class="cta"
-                href="/services"
-                aria-label="<?php echo $lang['asset_117'] ?>"
-              >
-                <?php echo $lang['asset_116'] ?><i
-                  class="fa-solid fa-arrow-right"
-                ></i>
-              </a>
-            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              <?php echo $lang['asset_185'] ?>
+              Let us distil the essence of your project into a compelling
+              showreel. Our team specializes in creating narratives that leave a
+              lasting impact on your audience.
             </p>
-            <div class="hide-cta-max reveal">
-              <a
-                class="cta"
-                href="/services"
-                aria-label="<?php echo $lang['asset_117'] ?>"
-              >
-                <?php echo $lang['asset_116'] ?><i
-                  class="fa-solid fa-arrow-right"
-                ></i>
-              </a>
-            </div>
           </div>
         </div>
         <hr class="semi" role="separator" />
@@ -92,169 +64,119 @@
         aria-label="Video Gallery"
       >
         <div class="gallery-item reveal">
-          <img
-            src="/img/cover-swedishlapland.jpg"
-            alt="<?php echo $lang['asset_118'] ?>."
-          />
+          <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
-            <h4>
-              <?php echo $lang['asset_118'] ?>
-            </h4>
+            <svg class="flag note" title="Flag of Norway">
+              <use href="#flag-norway"></use>
+            </svg>
+
+            <h4>Norwegian Fjords</h4>
             <p>
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/Nro_svpKDWE?modestbranding=1"
-            ></a>
+            <a href="https://vimeo.com/950575511?share=copy"></a>
           </div>
         </div>
-        <!--   <div class="gallery-item reveal">
-          <img
-            src="/img/cover-sleddog.jpg"
-            alt="<?php echo $lang[''] ?>."
-          />
-          <div class="gallery-item-caption"><i class="fa-regular fa-circle-play bubble"></i
-              >
-            <h4>
-
-              <?php echo $lang['asset_46'] ?>
-        
-            </h4>
-            <p>2023&nbsp;|&nbsp;<span>sleddog.se</span><i class="fa-solid fa-arrow-right"></i></p>
-            <a
-              
-              href="https://www.youtube-nocookie.com/embed/Q_pr-zmPdpY?modestbranding=1"
-            ></a>
+        <div class="gallery-item reveal">
+          <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <svg
+              class="flag note"
+              title="Flag of Finland"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="#flag-finland"></use>
+            </svg>
+            <h4>Finnish Lapland</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/950479131?share=copy"></a>
           </div>
-        </div> -->
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <svg
+              class="flag note"
+              title="Flag of Sweden"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="#flag-sweden"></use>
+            </svg>
+            <h4>Swedish Lapland</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/942145699?share=copy"></a>
+          </div>
+        </div>
+
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
             src="/img/cover-husetfundament.jpg"
-            alt="<?php echo $lang['asset_40'] ?>."
+            alt="Showreel of a cultural volunteer organisation.."
           />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"></i>
+
+            <svg
+              class="flag note"
+              title="Flag of Denmark"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use href="#flag-denmark"></use>
+            </svg>
             <h4>Huset Fundament</h4>
             <p>
               2023&nbsp;|&nbsp;<span>husetfundament.dk</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
             <a
-              aria-label="<?php echo $lang['asset_127'] ?>"
-              href="https://www.youtube-nocookie.com/embed/XBqSmnszKrI?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-repaire.jpg"
-            alt="<?php echo $lang['asset_38'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h4>Repaire Festival</h4>
-            <p>
-              2023&nbsp;|&nbsp;<span>nicolaikultur.dk</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/b22MLz0pgj0?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-aland.jpg"
-            alt="<?php echo $lang['asset_218'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h4>
-              <?php echo $lang['asset_218'] ?>
-            </h4>
-            <p>2023</p>
-
-            <a
-              href="https://www.youtube-nocookie.com/embed/RYr5MRm1yB8?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img
-            src="/img/cover-samso.jpg"
-            alt="<?php echo $lang['asset_39'] ?>."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-
-            <h4>Samsø</h4>
-            <p>2023</p>
-
-            <a
-              href="https://www.youtube-nocookie.com/embed/VARZU0RyWIo?modestbranding=1"
-            ></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal">
-          <img src="/img/cover-parkour.jpg" alt="<?php echo $lang[''] ?>." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-            <h3><?php echo $lang[''] ?>Parkour Škola</h3>
-            <p>
-              2023&nbsp;|&nbsp;<span>parkourskola.sk</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              href="https://www.youtube-nocookie.com/embed/10MkaUOoqDo?modestbranding=1"
+              aria-label="Open video popup for Huset Fundament"
+              href="https://vimeo.com/942148434"
             ></a>
           </div>
         </div>
       </article>
+      <section class="flex-center">
+        <a class="reveal active" href="/services">
+          <div class="cta">
+            Request a Proposal<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </a>
+      </section>
 
       <!-- VIDEO GALLERY END -->
       <!-- VIDEO END -->
       <!-- PHOTO START -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
-        <div class="grid-container fifty-fifty caption-container">
+        <div class="grid-container caption-container">
           <div class="grid-item reveal">
             <h2>
-              <span class="highlited"><?php echo $lang['asset_11'] ?></span>
-              <?php echo $lang['asset_22'] ?>
+              <span class="highlited">Photo</span>
+              Projects
             </h2>
-
-            <div class="hide-cta-min reveal">
-              <a
-                class="cta"
-                href="/services"
-                aria-label="<?php echo $lang['asset_117'] ?>"
-              >
-                <?php echo $lang['asset_116'] ?><i
-                  class="fa-solid fa-arrow-right"
-                ></i>
-              </a>
-            </div>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              <?php echo $lang['asset_173'] ?>
+              Whether you are looking for professional headshots or authentic
+              stills, in a fancy studio or rough exterior, we are here to bring
+              them alive.
             </p>
-            <div class="hide-cta-max reveal">
-              <a
-                class="cta"
-                href="/services"
-                aria-label="<?php echo $lang['asset_117'] ?>"
-              >
-                <?php echo $lang['asset_116'] ?><i
-                  class="fa-solid fa-arrow-right"
-                ></i>
-              </a>
-            </div>
           </div>
         </div>
       </article>
@@ -265,511 +187,706 @@
             <div class="reveal">
               <a
                 src="/img/2023-12-01-00263.jpg"
-                title="<?php echo $lang['asset_280'] ?>."
-                year="2023"
-                client='<a
+                title="Group of people staring at Northern Lights."
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-12-01-00263.jpg"
-                  alt="<?php echo $lang['asset_280'] ?>."
-                  title="<?php echo $lang['asset_280'] ?>."
-              /></a>
+                  alt="Group of people staring at Northern Lights."
+                  title="Group of people staring at Northern Lights." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-11-30-00006.jpg"
-                title="<?php echo $lang['asset_281'] ?>."
-                year="2023"
-                client='<a
+                title="Two guys with Norwegian fjord in the background."
+                data-year="2023"
+                data-location="Narvik, Norway"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-11-30-00006.jpg"
-                  alt="<?php echo $lang['asset_281'] ?>."
-                  title="<?php echo $lang['asset_281'] ?>."
-              /></a>
+                  alt="Two guys with Norwegian fjord in the background."
+                  title="Two guys with Norwegian fjord in the background." /><svg
+                  class="flag note"
+                  title="Flag of Norwaz"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-norway"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-12-02-000065.jpg"
-                title="<?php echo $lang['asset_282'] ?>."
-                year="2023"
-                client='<a
+                title="Girl cuddling with husky."
+                data-year="2023"
+                data-location="Kiruna, Sweden"
+                data-client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
+              >Kiruna Sleddog Tours|</a
             >'
               >
                 <img
                   src="/img/2022-12-02-000065.jpg"
-                  alt="<?php echo $lang['asset_282'] ?>."
-                  title="<?php echo $lang['asset_282'] ?>."
-              /></a>
+                  alt="Girl cuddling with husky."
+                  title="Girl cuddling with husky." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-12-01-00250.jpg"
-                title="<?php echo $lang['asset_283'] ?>."
-                year="2023"
-                client='<a
+                title="Timetravels Herder Experience in Swedish Lapland."
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2023-12-01-00250.jpg"
-                  alt="<?php echo $lang['asset_283'] ?>."
-                  title="<?php echo $lang['asset_283'] ?>."
-              /></a>
+                  alt="Timetravels Herder Experience in Swedish Lapland."
+                  title="Timetravels Herder Experience in Swedish Lapland." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-11-30-00036.jpg"
-                title="<?php echo $lang['asset_284'] ?>."
-                year="2023"
-                client='<a
+                src="/img/2024-03-10-00620.jpg"
+                title="Kaunispää in Finnish Saariselkä, Northern Lapland."
+                data-year="2024"
+                data-location="Saariselkä, Finland"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
-                  src="/img/2023-11-30-00036.jpg"
-                  alt="<?php echo $lang['asset_284'] ?>."
-                  title="<?php echo $lang['asset_284'] ?>."
-              /></a>
+                  src="/img/2024-03-10-00620.jpg"
+                  alt="Kaunispää in Finnish Saariselkä, Northern Lapland."
+                  title="Kaunispää in Finnish Saariselkä, Northern Lapland." />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-12-03-000465.jpg"
-                title="<?php echo $lang['asset_285'] ?>."
-                year="2023"
-                client='<a
+                title="Two guys in a survival shelter in tundra."
+                data-year="2023"
+                data-location="Björkliden, Sweden"
+                data-client='<a
               href="https://www.timetravels.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd<i class="fa-solid fa-arrow-right"></i></a
+              >Timetravels Ltd</a
             >'
               >
                 <img
                   src="/img/2022-12-03-000465.jpg"
-                  alt="<?php echo $lang['asset_285'] ?>."
-                  title="<?php echo $lang['asset_285'] ?>."
-              /></a>
+                  alt="Two guys in a survival shelter in tundra."
+                  title="Two guys in a survival shelter in tundra." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-12-02-00459.jpg"
-                title="<?php echo $lang['asset_286'] ?>."
-                year="2023"
-                client='<a
+                title="Pair of boys petting husky."
+                data-year="2023"
+                data-location="Kiruna, Sweden"
+                data-client='<a
               href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours<i class="fa-solid fa-arrow-right"></i></a
+              >Kiruna Sleddog Tours</a
             >'
               >
                 <img
                   src="/img/2023-12-02-00459.jpg"
-                  alt="<?php echo $lang['asset_286'] ?>."
-                  title="<?php echo $lang['asset_286'] ?>."
-              /></a>
+                  alt="Pair of boys petting husky."
+                  title="Pair of boys petting husky." /><svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-05-27-00025.jpg"
-                alt="<?php echo $lang['asset_61'] ?>."
-                title="<?php echo $lang['asset_61'] ?>."
-                year="2023"
-                client='<a
+                alt="Portrait of a smiling woman on a techno rave."
+                title="Portrait of a smiling woman on a techno rave."
+                data-year="2023"
+                data-location="Kolding, Denmark"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-05-27-00025.jpg"
-                  alt="<?php echo $lang['asset_61'] ?>."
-                  title="<?php echo $lang['asset_61'] ?>."
-                  year="2023"
-                  client='<a
+                  alt="Portrait of a smiling woman on a techno rave."
+                  title="Portrait of a smiling woman on a techno rave."
+                  data-year="2023"
+                  data-client='<a
                 href="https://husetfundament.dk/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
-              >'
-              /></a>
+                >Huset Fundament</a
+              >' />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column column-padding-1">
             <div class="reveal">
               <a
+                src="/img/2024-03-10-00496.jpg"
+                title="Ice skating on frozen Inarijärvi in Finnish Lapland."
+                data-year="2024"
+                data-location="Inarijärvi, Finland"
+                data-client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
+              >
+                <img
+                  src="/img/2024-03-10-00496.jpg"
+                  alt="Ice skating on frozen Inarijärvi in Finnish Lapland."
+                  title="Ice skating on frozen Inarijärvi in Finnish Lapland." />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use></svg
+              ></a>
+            </div>
+            <div class="reveal">
+              <a
                 src="/img/2022-10-15-00970.jpg"
-                title="<?php echo $lang['asset_49'] ?>."
-                year="2022"
-                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?><i class='fa-solid fa-arrow-right'></i></a>"
+                title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
+                data-year="2022"
+                data-location="Geta, Åland"
+                data-client="<a href='https://adamsochorec.com/blog/aland'>Expedition Åland<i class='fa-solid fa-arrow-right'></i></a>"
               >
                 <img
                   src="/img/2022-10-15-00970.jpg"
-                  alt="<?php echo $lang['asset_49'] ?>."
-                  title="<?php echo $lang['asset_49'] ?>."
-                />
+                  alt="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
+                  title="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
+                /><svg class="flag note" title="Flag of Åland">
+                  <use href="#flag-aland"></use>
+                </svg>
               </a>
             </div>
             <div class="reveal">
               <a
-                src="/img/2022-10-16-00979.jpg"
-                title="<?php echo $lang['asset_49'] ?>."
-                year="2022"
-                client="<a href='https://adamsochorec.com/blog/aland'><?php echo $lang['asset_218'] ?><i class='fa-solid fa-arrow-right'></i></a>"
+                src="/img/2024-03-10-00238.jpg"
+                title="Timetravels Reindeer Herder experience in Lapland."
+                data-year="2024"
+                data-location="Inari, Finland"
+                data-client='<a
+              href="https://www.timetravels.com"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Timetravels Ltd</a
+            >'
               >
                 <img
-                  src="/img/2022-10-16-00979.jpg"
-                  alt="<?php echo $lang['asset_49'] ?>."
-                  title="<?php echo $lang['asset_49'] ?>."
+                  src="/img/2024-03-10-00238.jpg"
+                  alt="Timetravels Reindeer Herder experience in Lapland."
+                  title="Timetravels Reindeer Herder experience in Lapland."
                 />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use>
+                </svg>
               </a>
             </div>
 
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01113.jpg"
-                year="2023"
-                client='<a
+                data-year="2023"
+                data-location="Dead Sea, Israel"
+                data-client='<a
             href="https://touristisrael.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+            >Tourist Israel</a
           >'
               >
                 <img
                   src="/img/2023-08-29-01113.jpg"
-                  alt="<?php echo $lang['asset_176'] ?>."
-                  title="<?php echo $lang['asset_176'] ?>."
-              /></a>
+                  alt="Portrait of guide in Judean Derest nearby the Dead Sea."
+                  title="Portrait of guide in Judean Derest nearby the Dead Sea." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-23-00049.jpg"
-                title="<?php echo $lang['asset_71'] ?>."
-                year="2023"
-                client='<a
+                data-location="Kolding, Denmark"
+                title="Silhouette of a DJ playing in a rave in Kolding."
+                data-year="2023"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-23-00049.jpg"
-                  alt="<?php echo $lang['asset_71'] ?>."
-                  title="<?php echo $lang['asset_71'] ?>."
-              /></a>
+                  alt="Silhouette of a DJ playing in a rave in Kolding."
+                  title="Silhouette of a DJ playing in a rave in Kolding." />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-09-10524.jpg"
-                title="<?php echo $lang['asset_66'] ?>."
-                year="2023"
-                client='<a
+                title="Anime Animeaux frontman holding a microphone on a stage."
+                data-location="Kolding, Denmark"
+                data-year="2023"
+                data-client='<a
               href="https://husetfundament.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-09-10524.jpg"
-                  alt="<?php echo $lang['asset_66'] ?>."
-                  title="<?php echo $lang['asset_66'] ?>."
-              /></a>
+                  alt="Anime Animeaux frontman holding a microphone on a stage."
+                  title="Anime Animeaux frontman holding a microphone on a stage." />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-06-24-01208.jpg"
-                year="2021"
-                client='<a
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo Disk</a
             >'
               >
                 <img
                   src="/img/2021-06-24-01208.jpg"
-                  alt="<?php echo $lang['asset_65'] ?>."
-              /></a>
+                  alt="Performance 'Hrdina Západu' at Divadlo Disk" />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-06-24-01233-2.jpg"
-                title="<?php echo $lang['asset_54'] ?>."
-                year="2023"
-                client='<a
+                title="Sára Rychlíková at Divadlo Disk in Prague."
+                data-year="2023"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo Disk</a
             >'
               >
                 <img
                   src="/img/2021-06-24-01233-2.jpg"
-                  alt="<?php echo $lang['asset_54'] ?>."
-                  title="<?php echo $lang['asset_54'] ?>."
-              /></a>
+                  alt="Sára Rychlíková at Divadlo Disk in Prague."
+                  title="Sára Rychlíková at Divadlo Disk in Prague." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column column-padding-2">
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01096.jpg"
-                title="<?php echo $lang['asset_177'] ?>."
-                year="2023"
-                client='<a
+                title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
+                data-year="2023"
+                data-location="Nahal Bokek, Israel"
+                data-client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+              >Tourist Israel</a
             >'
               >
                 <img
                   src="/img/2023-08-29-01096.jpg"
-                  alt="<?php echo $lang['asset_177'] ?>."
-                  title="<?php echo $lang['asset_177'] ?>."
-              /></a>
+                  alt="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
+                  title="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01059.jpg"
-                title="<?php echo $lang['asset_178'] ?>."
-                year="2023"
-                client='<a
+                title="Woman hiking on Masada in Israel."
+                data-year="2023"
+                data-location="Masada, Israel"
+                data-client='<a
               href="https://touristisrael.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Tourist Israel<i class="fa-solid fa-arrow-right"></i></a
+              >Tourist Israel</a
             >'
               >
                 <img
                   src="/img/2023-08-29-01059.jpg"
-                  alt="<?php echo $lang['asset_178'] ?>."
-                  title="<?php echo $lang['asset_178'] ?>."
-              /></a>
+                  alt="Woman hiking on Masada in Israel."
+                  title="Woman hiking on Masada in Israel." /><svg
+                  class="flag note"
+                  title="Flag of Israel"
+                >
+                  <use href="#flag-israel"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-04-25-00693.jpg"
-                title="<?php echo $lang['asset_55'] ?>."
-                year="2021"
-                client='<a
+                title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="ttps://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo na Vinohradech</a
             >'
               >
                 <img
                   src="/img/2021-04-25-00693.jpg"
-                  title="<?php echo $lang['asset_55'] ?>."
-                  alt="<?php echo $lang['asset_55'] ?>."
-              /></a>
+                  title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
+                  alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-04-14-00608.jpg"
-                title="<?php echo $lang['asset_56'] ?>."
-                year="2021"
-                client='<a
+                title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.divadlonavinohradech.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo na Vinohradech<i class="fa-solid fa-arrow-right"></i></a
+              >Divadlo na Vinohradech</a
             >'
               >
                 <img
                   src="/img/2021-04-14-00608.jpg"
-                  title="<?php echo $lang['asset_56'] ?>."
-                  alt="<?php echo $lang['asset_56'] ?>."
-              /></a>
+                  title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-09-05-01666.jpg"
-                title="<?php echo $lang['asset_148'] ?>."
-                year="2021"
-                client=""
+                title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
+                data-year="2021"
+                data-location="Kolding, Denmark"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-09-05-01666.jpg"
-                  title="<?php echo $lang['asset_148'] ?>."
-                  alt="<?php echo $lang['asset_148'] ?>."
-              /></a>
+                  title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
+                  alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/hvalp.jpg"
-                alt="<?php echo $lang['asset_150'] ?>."
-                title="<?php echo $lang['asset_150'] ?>."
-                year="2023"
-                client="Hvalp"
+                alt="Band HVALP album cover."
+                title="Band HVALP album cover."
+                data-location="Kolding, Denmark"
+                data-year="2023"
+                data-client="Hvalp"
               >
                 <img
                   src="/img/hvalp.jpg"
-                  alt="<?php echo $lang['asset_150'] ?>."
-                  title="<?php echo $lang['asset_150'] ?>."
-                  year="2023"
-                  client="Hvalp"
-              /></a>
+                  alt="Band HVALP album cover."
+                  title="Band HVALP album cover." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-09-09-10507.jpg"
-                title="<?php echo $lang['asset_67'] ?>."
-                year="2023"
-                client='<a
+                title="Shirtless Anime Animeaux guitarist starring into a camera."
+                data-year="2023"
+                data-location="Kolding, Denmark"
+                data-client='<a
               href="https://www.husetfundament.dk"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament<i class="fa-solid fa-arrow-right"></i></a
+              >Huset Fundament</a
             >'
               >
                 <img
                   src="/img/2023-09-09-10507.jpg"
-                  alt="<?php echo $lang['asset_67'] ?>."
-                  title="<?php echo $lang['asset_67'] ?>."
-              /></a>
+                  alt="Shirtless Anime Animeaux guitarist starring into a camera."
+                  title="Shirtless Anime Animeaux guitarist starring into a camera." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
           <div class="column">
             <div class="reveal">
               <a
                 src="/img/2021-06-21-01194.jpg"
-                title="<?php echo $lang['asset_4'] ?>."
-                year="2021"
-                client='<a
+                title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client='<a
               href="https://www.slovo21.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Slovo 21<i class="fa-solid fa-arrow-right"></i></a
+              >Slovo 21</a
             >'
               >
                 <img
                   src="/img/2021-06-21-01194.jpg"
-                  alt="<?php echo $lang['asset_4'] ?>."
-                  title="<?php echo $lang['asset_4'] ?>."
-              /></a>
+                  alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
+                  title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop." /><svg
+                  class="flag note"
+                  title="Flag of Czechia"
+                >
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-11-13-02059.jpg"
-                title="<?php echo $lang['asset_52'] ?>."
-                year="2021"
-                client=""
+                title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+                data-year="2021"
+                data-location="Kolding, Denmark"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-11-13-02059.jpg"
-                  title="<?php echo $lang['asset_52'] ?>."
-                  alt="<?php echo $lang['asset_52'] ?>."
-              /></a>
+                  title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+                  alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-08-24-01615.jpg"
-                title="<?php echo $lang['asset_147'] ?>."
-                year="2021"
-                client=""
+                title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
+                data-year="2021"
+                data-client="art project"
+                data-location="Kolding, Denmark"
               >
                 <img
                   src="/img/2021-08-24-01615.jpg"
-                  title="<?php echo $lang['asset_147'] ?>."
-                  alt="<?php echo $lang['asset_147'] ?>."
-              /></a>
+                  title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
+                  alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2023-11-13-00267.jpg"
-                title="<?php echo $lang['asset_2'] ?>."
-                year="2023"
-                client='<a
+                title="Elf lady holding knife on Kim Kim's throat."
+                data-year="2023"
+                data-location="Copenhagen, Denmark"
+                data-client='<a
               href="https://www.sort-hvid.dk/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Sort/Hvid<i class="fa-solid fa-arrow-right"></i></a
+              >Sort/Hvid</a
             >'
               >
                 <img
                   src="/img/2023-11-13-00267.jpg"
-                  title="<?php echo $lang['asset_2'] ?>."
-                  alt="<?php echo $lang['asset_2'] ?>."
-              /></a>
+                  title="Elf lady holding knife on Kim Kim's throat."
+                  alt="Elf lady holding knife on Kim Kim's throat." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2021-05-28-01020.jpg"
-                title="<?php echo $lang['asset_51'] ?>."
-                year="2021"
-                client='<a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              ><i class="fa-solid fa-arrow-right"></i></a
-            >'
+                title="Portrait of Zuzana Částková."
+                data-year="2021"
+                data-location="Prague, Czechia"
+                data-client="art project"
               >
                 <img
                   src="/img/2021-05-28-01020.jpg"
-                  title="<?php echo $lang['asset_51'] ?>."
-                  alt="<?php echo $lang['asset_51'] ?>."
-              /></a>
+                  title="Portrait of Zuzana Částková."
+                  alt="Portrait of Zuzana Částková." />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
+              ></a>
             </div>
             <div class="reveal">
               <a
                 src="/img/2022-06-28-00708.jpg"
-                title="<?php echo $lang['asset_70'] ?>."
-                year="2023"
-                client='<a
+                title="Roskilde Festival."
+                data-year="2023"
+                data-location="Roskilde, Denmark"
+                data-client='<a
               href="https://www.roskilde-festival.dk/da/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Rosklide Festival<i class="fa-solid fa-arrow-right"></i></a
+              >Rosklide Festival</a
             >'
               >
-                <img src="/img/2022-06-28-00708.jpg" alt="<?php echo $lang['asset_70'] ?>."
-                title="<?php echo $lang['asset_70'] ?>."</a
-              >
+                <img
+                  src="/img/2022-06-28-00708.jpg"
+                  alt="Roskilde Festival."
+                  title="Roskilde Festival." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
             </div>
           </div>
         </div>
       </article>
+      <section class="double-cta">
+        <a class="reveal active" href="/services">
+          <div class="cta">
+            Request a Proposal<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </a>
+        <a
+          class="reveal active"
+          href="https://store.slavic.media/collection/lightroom-presets"
+        >
+          <div class="cta-secondary cta">
+            Our Lightroom Presets<i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </a>
+      </section>
 
       <!-- PHOTO END -->
     </main>
     <!-- FOOTER START -->
-
     <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'footer.php';
-    ?>
-
-    <script
-      type="text/javascript"
-      src="/assets/cookies.js"
-      defer
-      role="script"
-    ></script>
+   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+   include $IPATH . 'footer.php';
+   ?>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
