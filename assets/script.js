@@ -87,17 +87,3 @@ reveal();
 // Sets the current year in the HTML element with id "current-year"
 const currentYear = new Date().getFullYear();
 document.getElementById("current-year").textContent = currentYear;
-
-// TAG MANAGER
-// Dynamically loads Google Tag Manager script
-const script = document.createElement("script");
-script.async = true;
-script.src = "https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8";
-script.onload = function () {
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "G-KGTECW9SN8");
-};

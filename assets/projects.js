@@ -17,15 +17,6 @@ $(document).ready(function () {
       enabled: true,
       duration: 300, // Duration of the zoom animation
     },
-    titleSrc: function (item) {
-      // Retrieves custom attributes for videos
-      const year = item.el.attr("year");
-      const client = item.el.attr("client");
-      // Constructs the title string with HTML content for 'client'
-      let title =
-        "<p><small>" + year + "&nbsp;|&nbsp;" + client + "</small></p>";
-      return title;
-    },
     src: function (item) {
       // Directly returns the href attribute value for iframe src
       return item.el.attr("href");
@@ -53,11 +44,12 @@ $(document).ready(function () {
     image: {
       tError:
         '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>', // Error message HTML
-      titleSrc: function (item) {
+
+      titleSrc: false /* function (item) {
         // Retrieves custom attributes for images
-        const year = item.el.attr("year");
-        const client = item.el.attr("client");
-        const location = item.el.attr("location");
+        const year = item.el.data("year");
+        const client = item.el.data("client");
+        const location = item.el.data("location");
         // Constructs the title string without the 'title' attribute
         let title =
           "<p><small>" +
@@ -68,7 +60,7 @@ $(document).ready(function () {
           location +
           "</small></p>";
         return title;
-      },
+      }, */,
       src: function (item) {
         // Gets the URL of the image for the popup
         return item.el.attr("src");

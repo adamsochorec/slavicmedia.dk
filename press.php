@@ -54,80 +54,62 @@
           aria-label="Press Materials Grid"
         >
           <!-- BRAND GUIDE START -->
-          <div
+          <a
             class="gallery-item"
-            role="region"
-            aria-labelledby="brandGuideHeading"
-            aria-hidden="false"
+            href="/assets/brand-guide.pdf"
+            target="_blank"
+            aria-label="Link to Brand Guide"
           >
             <h2 id="brandGuideHeading" aria-label="Brand Guide Title">
               Brand Guide
             </h2>
-            <a
-              class="gallery-item"
-              href="/assets/brand-guide.pdf"
-              target="_blank"
-              aria-label="Link to Brand Guide"
-            >
-              <div class="grid-item" id="brand-guide" role="gridcell"></div>
-            </a>
+
+            <div class="grid-item" id="brand-guide" role="gridcell"></div>
             <p
               aria-label="Sets the visual and stylistic standards for the brand, ensuring consistency in logos, colours, fonts, and design."
             >
               Sets the visual and stylistic standards for the brand, ensuring
               consistency in logos, colours, fonts, and design.
             </p>
-          </div>
+          </a>
           <!-- BRAND GUIDE END -->
           <!-- CREDIT GUIDE START -->
-          <div
+          <a
             class="gallery-item"
-            role="region"
-            aria-labelledby="creditGuideHeading"
-            aria-hidden="false"
+            href="/assets/credit-guide.pdf"
+            target="_blank"
+            aria-label="Link to Credit Guide"
           >
             <h2 id="creditGuideHeading" aria-label="Credit Guide Title">
               Credit Guide
             </h2>
-            <a
-              class="gallery-item"
-              href="/assets/credit-guide.pdf"
-              target="_blank"
-              aria-label="Link to Credit Guide"
-            >
-              <div class="grid-item" id="credit-guide" role="gridcell"></div>
-            </a>
+
+            <div class="grid-item" id="credit-guide" role="gridcell"></div>
             <p
               aria-label="Outlines how to tag and credit work across digital as well as printed media."
             >
               Outlines how to tag and credit work across digital as well as
               printed media.
             </p>
-          </div>
+          </a>
           <!-- CREDIT GUIDE END -->
           <!-- PRESS KIT START -->
-          <div
+          <a
             class="gallery-item"
-            role="region"
-            aria-labelledby="pressKitHeading"
-            aria-hidden="false"
+            href="/assets/press-kit.zip"
+            target="_blank"
+            aria-label="Link to Press Kit"
           >
             <h2 id="pressKitHeading" aria-label="Press Kit Title">Press Kit</h2>
-            <a
-              class="gallery-item"
-              href="/assets/press-kit.zip"
-              target="_blank"
-              aria-label="Link to Press Kit"
-            >
-              <div class="grid-item" id="press-kit" role="gridcell"></div>
-            </a>
+
+            <div class="grid-item" id="press-kit" role="gridcell"></div>
             <p
               aria-label="Package of vectorised logos, fonts and other essential branding materials."
             >
               Package of vectorised logos, fonts and other essential branding
               materials.
             </p>
-          </div>
+          </a>
           <!-- PRESS KIT END -->
         </div>
         <!-- PRESS MATERIALS GRID END -->

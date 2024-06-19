@@ -63,10 +63,6 @@
   </div>
 </footer>
 <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8"
-></script>
-<script
   src="https://kit.fontawesome.com/0d09e23a84.js"
   crossorigin="anonymous"
   role="presentation"

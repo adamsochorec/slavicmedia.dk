@@ -186,21 +186,21 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2023-12-01-00263.jpg"
-                title="Group of people staring at Northern Lights."
+                src="/img/2022-12-02-000065.jpg"
+                title="Girl cuddling with husky."
                 data-year="2023"
-                data-location="Björkliden, Sweden"
+                data-location="Kiruna, Sweden"
                 data-client='<a
-              href="https://www.timetravels.com"
+              href="https://www.sleddog.se"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Timetravels Ltd</a
+              >Kiruna Sleddog Tours|</a
             >'
               >
                 <img
-                  src="/img/2023-12-01-00263.jpg"
-                  alt="Group of people staring at Northern Lights."
-                  title="Group of people staring at Northern Lights." /><svg
+                  src="/img/2022-12-02-000065.jpg"
+                  alt="Girl cuddling with husky."
+                  title="Girl cuddling with husky." /><svg
                   class="flag note"
                   title="Flag of Sweden"
                   viewBox="0 0 16 16"
@@ -232,31 +232,6 @@
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <use href="#flag-norway"></use></svg
-              ></a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2022-12-02-000065.jpg"
-                title="Girl cuddling with husky."
-                data-year="2023"
-                data-location="Kiruna, Sweden"
-                data-client='<a
-              href="https://www.sleddog.se"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Kiruna Sleddog Tours|</a
-            >'
-              >
-                <img
-                  src="/img/2022-12-02-000065.jpg"
-                  alt="Girl cuddling with husky."
-                  title="Girl cuddling with husky." /><svg
-                  class="flag note"
-                  title="Flag of Sweden"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <use href="#flag-sweden"></use></svg
               ></a>
             </div>
             <div class="reveal">
@@ -362,36 +337,21 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-05-27-00025.jpg"
-                alt="Portrait of a smiling woman on a techno rave."
-                title="Portrait of a smiling woman on a techno rave."
-                data-year="2023"
-                data-location="Kolding, Denmark"
+                src="/img/2021-06-24-01208.jpg"
+                data-year="2021"
+                data-location="Prague, Czechia"
                 data-client='<a
-              href="https://husetfundament.dk/"
+              href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
+              >Divadlo Disk</a
             >'
               >
                 <img
-                  src="/img/2023-05-27-00025.jpg"
-                  alt="Portrait of a smiling woman on a techno rave."
-                  title="Portrait of a smiling woman on a techno rave."
-                  data-year="2023"
-                  data-client='<a
-                href="https://husetfundament.dk/"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >Huset Fundament</a
-              >' />
-                <svg
-                  class="flag note"
-                  title="Flag of Denmark"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <use href="#flag-denmark"></use></svg
+                  src="/img/2021-06-24-01208.jpg"
+                  alt="Performance 'Hrdina Západu' at Divadlo Disk" />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use></svg
               ></a>
             </div>
           </div>
@@ -544,42 +504,25 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2021-06-24-01208.jpg"
-                data-year="2021"
-                data-location="Prague, Czechia"
-                data-client='<a
-              href="https://www.divadlodisk.cz/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Divadlo Disk</a
-            >'
-              >
-                <img
-                  src="/img/2021-06-24-01208.jpg"
-                  alt="Performance 'Hrdina Západu' at Divadlo Disk" />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use></svg
-              ></a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-06-24-01233-2.jpg"
-                title="Sára Rychlíková at Divadlo Disk in Prague."
+                src="/img/2023-09-09-10507.jpg"
+                title="Shirtless Anime Animeaux guitarist starring into a camera."
                 data-year="2023"
-                data-location="Prague, Czechia"
+                data-location="Kolding, Denmark"
                 data-client='<a
-              href="https://www.divadlodisk.cz/"
+              href="https://www.husetfundament.dk"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Divadlo Disk</a
+              >Huset Fundament</a
             >'
               >
                 <img
-                  src="/img/2021-06-24-01233-2.jpg"
-                  alt="Sára Rychlíková at Divadlo Disk in Prague."
-                  title="Sára Rychlíková at Divadlo Disk in Prague." />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use></svg
+                  src="/img/2023-09-09-10507.jpg"
+                  alt="Shirtless Anime Animeaux guitarist starring into a camera."
+                  title="Shirtless Anime Animeaux guitarist starring into a camera." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
               ></a>
             </div>
           </div>
@@ -692,6 +635,29 @@
             </div>
             <div class="reveal">
               <a
+                src="/img/2022-06-28-00708.jpg"
+                title="Roskilde Festival."
+                data-year="2023"
+                data-location="Roskilde, Denmark"
+                data-client='<a
+              href="https://www.roskilde-festival.dk/da/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Rosklide Festival</a
+            >'
+              >
+                <img
+                  src="/img/2022-06-28-00708.jpg"
+                  alt="Roskilde Festival."
+                  title="Roskilde Festival." /><svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                >
+                  <use href="#flag-denmark"></use></svg
+              ></a>
+            </div>
+            <div class="reveal">
+              <a
                 src="/img/hvalp.jpg"
                 alt="Band HVALP album cover."
                 title="Band HVALP album cover."
@@ -709,51 +675,26 @@
                   <use href="#flag-denmark"></use></svg
               ></a>
             </div>
-            <div class="reveal">
-              <a
-                src="/img/2023-09-09-10507.jpg"
-                title="Shirtless Anime Animeaux guitarist starring into a camera."
-                data-year="2023"
-                data-location="Kolding, Denmark"
-                data-client='<a
-              href="https://www.husetfundament.dk"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Huset Fundament</a
-            >'
-              >
-                <img
-                  src="/img/2023-09-09-10507.jpg"
-                  alt="Shirtless Anime Animeaux guitarist starring into a camera."
-                  title="Shirtless Anime Animeaux guitarist starring into a camera." /><svg
-                  class="flag note"
-                  title="Flag of Denmark"
-                >
-                  <use href="#flag-denmark"></use></svg
-              ></a>
-            </div>
           </div>
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2021-06-21-01194.jpg"
-                title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-                data-year="2021"
+                src="/img/2021-06-24-01233-2.jpg"
+                title="Sára Rychlíková at Divadlo Disk in Prague."
+                data-year="2023"
                 data-location="Prague, Czechia"
                 data-client='<a
-              href="https://www.slovo21.cz/"
+              href="https://www.divadlodisk.cz/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              >Slovo 21</a
+              >Divadlo Disk</a
             >'
               >
                 <img
-                  src="/img/2021-06-21-01194.jpg"
-                  alt="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop."
-                  title="Portrait of a woman in a blue dress sitting behind a table at Slovo 21 workshop." /><svg
-                  class="flag note"
-                  title="Flag of Czechia"
-                >
+                  src="/img/2021-06-24-01233-2.jpg"
+                  alt="Sára Rychlíková at Divadlo Disk in Prague."
+                  title="Sára Rychlíková at Divadlo Disk in Prague." />
+                <svg class="flag note" title="Flag of Czechia">
                   <use href="#flag-czechia"></use></svg
               ></a>
             </div>
@@ -832,29 +773,6 @@
                   <use href="#flag-czechia"></use></svg
               ></a>
             </div>
-            <div class="reveal">
-              <a
-                src="/img/2022-06-28-00708.jpg"
-                title="Roskilde Festival."
-                data-year="2023"
-                data-location="Roskilde, Denmark"
-                data-client='<a
-              href="https://www.roskilde-festival.dk/da/"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Rosklide Festival</a
-            >'
-              >
-                <img
-                  src="/img/2022-06-28-00708.jpg"
-                  alt="Roskilde Festival."
-                  title="Roskilde Festival." /><svg
-                  class="flag note"
-                  title="Flag of Denmark"
-                >
-                  <use href="#flag-denmark"></use></svg
-              ></a>
-            </div>
           </div>
         </div>
       </article>
@@ -883,6 +801,7 @@
       <!-- PHOTO END -->
     </main>
     <!-- FOOTER START -->
+
     <?php
    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
    include $IPATH . 'footer.php';

@@ -24,5 +24,18 @@
   name="description"
   content="We are not any traditional production company. Slavic Media are creative storytellers who believe in good set designs, deep eye contact, and the right light that can raise your message above the noise."
 />
+<!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-KGTECW9SN8"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
+  gtag("config", "G-KGTECW9SN8");
+</script>
 <!-- <meta name="keywords" content="multimedia production, Denmark, digital marketing, Kolding, creative storytelling, Syddanmark, Trekantenområdet, photography services, video services, scriptwriting, Kolding, set design, drone footage, unique brand concepts, personalized brand ideas, commercial production, professional photographer, professional videographer, multimedia agency, professional studio, multimedia services, expert post-production, visual excellence, graphic design, animations, 3D models, travel, still photography, event photography, portrait photography, showreel, interview" /> -->
