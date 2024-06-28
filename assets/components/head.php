@@ -22,7 +22,7 @@
 <meta property="og: image:height" content="300" />
 <meta
   name="description"
-  content="We are not any traditional production company. Slavic Media are creative storytellers who believe in good set designs, deep eye contact, and the right light that can raise your message above the noise."
+  content="Slavic Media is a creative multimedia company that focuses on the production of various brand films, showreels, stills and headshots."
 />
 <!-- Google tag (gtag.js) -->
 <script

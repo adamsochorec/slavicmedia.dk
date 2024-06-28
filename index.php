@@ -27,7 +27,6 @@
     <!-- FLAGS END -->
     <main>
       <!-- INTRO VIDEO START -->
-      <div class="filter"></div>
       <article class="showcase">
         <div class="video-container">
           <video
@@ -247,6 +246,7 @@
       </article>
     </main>
     <!-- FOOTER START -->
+
     <?php
                   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
                   include $IPATH . 'footer.php';
@@ -256,7 +256,8 @@
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       role="script"
     ></script>
-    <script type="text/javascript" src="/assets/index.js" defer></script>
+    <script type="text/javascript" src="/assets/index.js"></script>
+
     <!-- FOOTER END -->
   </body>
 </html>

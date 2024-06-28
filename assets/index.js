@@ -272,8 +272,8 @@ const formatTime = (time) => {
   return time.toString().padStart(2, "0").split("");
 };
 
-// Update the count down every 1 second
-const countdownInterval = setInterval(() => {
+// Function to update countdown
+const updateCountdown = () => {
   // Get today's date and time
   const now = new Date().getTime();
 
@@ -298,6 +298,13 @@ const countdownInterval = setInterval(() => {
   // If the count down is finished, restart it every 2 days
   if (distance < 0) {
     countDownDate = getNextCountDownDate(countDownDate); // Reset for next cycle
+    updateCountdown(); // Update immediately after resetting to avoid delay
   }
-}, 1000);
+};
+
+// Update the count down every 1 second
+const countdownInterval = setInterval(updateCountdown, 1000);
+
+// Initialize countdown display immediately
+updateCountdown();
 // COUNTER END
