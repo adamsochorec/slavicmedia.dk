@@ -15,10 +15,7 @@
     </fieldset>
     <a class="reveal" href="/services">
       <section class="flex-center">
-        <a
-          class="reveal"
-          href="https://store.slavic.media/collection/lightroom-presets"
-        >
+        <a class="reveal" href="https://store.slavic.media/">
           <div class="cta">
             Learn more<i class="fa-solid fa-arrow-right"></i>
           </div>

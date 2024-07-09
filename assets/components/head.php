@@ -13,10 +13,15 @@
   data-gcm-version="2.0"
   type="text/javascript"
 ></script>
+
 <!-- for Microsoft apps -->
-<meta name="msapplication-TileImage" content="/img/Favicon-1.png" />
+<meta name="msapplication-TileImage" content="/img/welcome-graphics.png" />
 <!-- Image to display -->
-<meta property="og: image" itemprop="image" content="/img/thumbnail.png" />
+<meta
+  property="og: image"
+  itemprop="image"
+  content="/img/welcome-graphics.png"
+/>
 <!-- Any size up to 300. Anything above 300px will not work in WhatsApp -->
 <meta property="og: image:width" content="300" />
 <meta property="og: image:height" content="300" />

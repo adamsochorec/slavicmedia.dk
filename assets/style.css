@@ -2243,16 +2243,6 @@ ul.languages-legend li::marker {
   .intro-section {
     height: 300px !important;
   }
-  footer {
-    font-size: var(--fontsize-note);
-  }
-  footer .footer-container:last-of-type {
-    display: block;
-    text-align: center;
-  }
-  footer .footer-container .footerBreak {
-    display: block;
-  }
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape),
@@ -2354,12 +2344,21 @@ ul.languages-legend li::marker {
   #services .grid-container {
     margin-bottom: 50px;
   }
-
   .video-container {
     height: 100%;
   }
   .showcase {
     height: 100vh;
+  }
+  footer {
+    font-size: var(--fontsize-note);
+  }
+  footer .footer-container:last-of-type {
+    display: block;
+    text-align: center;
+  }
+  footer .footer-container .footerBreak {
+    display: block;
   }
 }
 @media only screen and (max-width: 947px) {

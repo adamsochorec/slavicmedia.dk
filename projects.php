@@ -76,7 +76,7 @@
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a href="https://vimeo.com/950575511/82682f68f2?share=copy"></a>
+            <a href="https://vimeo.com/950575511"></a>
           </div>
         </div>
         <div class="gallery-item reveal">
@@ -96,7 +96,7 @@
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a href="https://vimeo.com/950479131?share=copy"></a>
+            <a href="https://vimeo.com/950479131"></a>
           </div>
         </div>
         <div class="gallery-item reveal">
@@ -116,13 +116,13 @@
               2024&nbsp;|&nbsp;<span>timetravels.com</span
               ><i class="fa-solid fa-arrow-right"></i>
             </p>
-            <a href="https://vimeo.com/942145699?share=copy"></a>
+            <a href="https://vimeo.com/942145699"></a>
           </div>
         </div>
 
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
-            src="/img/cover-husetfundament.jpg"
+            src="img/cover-husetfundament.jpg"
             alt="Showreel of a cultural volunteer organisation.."
           />
           <div class="gallery-item-caption">

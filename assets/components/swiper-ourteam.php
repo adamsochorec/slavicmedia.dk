@@ -196,7 +196,7 @@
       </div>
     </div>
     <!-- DOMINIK SECTION END -->
-    <!-- FERDINAND SECTION START 
+    <!-- FERDINAND SECTION START -->
     <div
       class="swiper-slide"
       id="ferdinand"
@@ -204,7 +204,7 @@
       aria-label="Ferdinand P."
     >
       <div class="reveal">
-       <svg class="flag note" title="Flag of Czechia">
+        <svg class="flag note" title="Flag of Czechia">
           <use href="#flag-czechia"></use>
         </svg>
         <img
@@ -219,11 +219,17 @@
       <div class="profile">
         <h4 class="reveal" role="heading" aria-level="4">Ferdinand P.</h4>
         <h6 class="reveal">
-          Sound
+          Sound<br class="hide-cta-max" />
           <br class="hide-cta-max" />Engineer
         </h6>
 
         <div class="social-icons reveal">
+          <a
+            href="mailto:ferda.petrs@gmail.com"
+            aria-label="Email: ferda.petrs@gmail.com"
+          >
+            <i title="Email" class="fa-solid fa-envelope"></i>
+          </a>
         </div>
       </div>
     </div>
