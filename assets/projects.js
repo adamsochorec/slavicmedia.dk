@@ -45,22 +45,7 @@ $(document).ready(function () {
       tError:
         '<div class="error-container"><i class="fa-solid fa-xl fa-triangle-exclamation"></i><br><br>Error</div>', // Error message HTML
 
-      titleSrc: false /* function (item) {
-        // Retrieves custom attributes for images
-        const year = item.el.data("year");
-        const client = item.el.data("client");
-        const location = item.el.data("location");
-        // Constructs the title string without the 'title' attribute
-        let title =
-          "<p><small>" +
-          year +
-          "&nbsp;|&nbsp;" +
-          client +
-          "&nbsp;|&nbsp;" +
-          location +
-          "</small></p>";
-        return title;
-      }, */,
+      title: true,
       src: function (item) {
         // Gets the URL of the image for the popup
         return item.el.attr("src");

@@ -15,16 +15,12 @@
 ></script>
 
 <!-- for Microsoft apps -->
-<meta name="msapplication-TileImage" content="/img/welcome-graphics.png" />
+<meta name="msapplication-TileImage" content="/img/Favicon-1.png" />
 <!-- Image to display -->
-<meta
-  property="og: image"
-  itemprop="image"
-  content="/img/welcome-graphics.png"
-/>
+<meta property="og: image" itemprop="image" content="/img/Favicon-1.png" />
 <!-- Any size up to 300. Anything above 300px will not work in WhatsApp -->
-<meta property="og: image:width" content="300" />
-<meta property="og: image:height" content="300" />
+<meta property="og: image:width" content="100" />
+<meta property="og: image:height" content="100" />
 <meta
   name="description"
   content="Slavic Media is a creative multimedia company that focuses on the production of various brand films, showreels, stills and headshots."
@@ -44,3 +40,10 @@
   gtag("config", "G-KGTECW9SN8");
 </script>
 <!-- <meta name="keywords" content="multimedia production, Denmark, digital marketing, Kolding, creative storytelling, Syddanmark, Trekantenområdet, photography services, video services, scriptwriting, Kolding, set design, drone footage, unique brand concepts, personalized brand ideas, commercial production, professional photographer, professional videographer, multimedia agency, professional studio, multimedia services, expert post-production, visual excellence, graphic design, animations, 3D models, travel, still photography, event photography, portrait photography, showreel, interview" /> -->
+
+<!-- CHATWAY -->
+<script
+  id="chatway"
+  async="true"
+  src="https://cdn.chatway.app/widget.js?id=eIN2tIZBFO8j"
+></script>

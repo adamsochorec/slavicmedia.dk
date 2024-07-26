@@ -29,21 +29,21 @@
     <div class="grid-item" role="navigation" aria-label="Footer Navigation">
       <a
         class="footer-nav"
-        href="https://clients.slavic.media/policy/cookies/"
+        href="https://slavic.media/legal/cookie-policy"
         title="Cookie Policy"
       >
         Cookie&nbsp;Policy
       </a>
       <span>&nbsp;|&nbsp;</span>
       <a
-        href="https://slavicmedia.pixieset.com/store/checkout/terms/?u=slavicmedia&c=tkbrno#terms"
+        href="https://slavic.media/legal/terms-of-sale"
         class="footer-nav"
         title="Privacy Policy "
         >Terms of Sale</a
       >
       <span>&nbsp;|&nbsp;</span>
       <a
-        href="https://slavicmedia.pixieset.com/store/checkout/terms/?u=slavicmedia&c=tkbrno#digital_license"
+        href="https://slavic.media/legal/digital-image-license"
         class="footer-nav"
         title="Privacy Policy "
         >Digital Image License</a

@@ -89,59 +89,11 @@
           >
             <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
           </a>
-          <a
-            href="https://www.github.com/adamsochorec"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <i title="GitHub" class="fa-brands fa-github"></i>
-          </a>
         </div>
       </div>
       <!-- ADAM SKILLS END -->
     </div>
     <!-- ADAM SECTION END -->
-    <!-- JAN SECTION START -->
-    <div class="swiper-slide" id="jan" role="region" aria-label="Ján D.">
-      <div class="reveal">
-        <svg class="flag note" title="Flag of Czechia">
-          <use href="#flag-czechia"></use>
-        </svg>
-        <img
-          src="/img/jan.jpg"
-          alt="Portrait of Ján D."
-          title="Ján D."
-          class="reveal"
-          role="img"
-          aria-label="Portrait of Ján D."
-        />
-      </div>
-      <div class="profile">
-        <h4 class="reveal" role="heading" aria-level="4">Ján D.</h4>
-        <h6 class="reveal">
-          Performance<br class="hide-cta-max" />
-          & <br class="hide-cta-max" />Strategy
-        </h6>
-
-        <div class="social-icons reveal">
-          <a
-            href="mailto:jan@slavic.media"
-            aria-label="Email: jan@slavic.media"
-          >
-            <i title="Email" class="fa-solid fa-envelope"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jandeak"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            <i title="LinkedIn" class="fa-brands fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-      <!-- JÁN SKILLS END -->
-    </div>
-    <!-- JAN SECTION END -->
     <!-- DOMINIK SECTION START -->
     <div
       class="swiper-slide"
