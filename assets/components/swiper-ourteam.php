@@ -127,9 +127,9 @@
         <h4 class="reveal" role="heading" aria-level="4">Dominik T.</h4>
         <h6 class="reveal">
           Graphic<br class="hide-cta-max" />
-          <br class="hide-cta-max" />Designer
+          Designer
         </h6>
-
+<br class="hide-cta-max" />
         <div class="social-icons reveal">
           <a
             href="mailto:dominik@slavic.media"
@@ -172,9 +172,9 @@
         <h4 class="reveal" role="heading" aria-level="4">Ferdinand P.</h4>
         <h6 class="reveal">
           Sound<br class="hide-cta-max" />
-          <br class="hide-cta-max" />Engineer
+       Engineer   
         </h6>
-
+<br class="hide-cta-max" />
         <div class="social-icons reveal">
           <a
             href="mailto:ferda.petrs@gmail.com"

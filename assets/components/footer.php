@@ -32,8 +32,7 @@
         href="https://slavic.media/legal/cookie-policy"
         title="Cookie Policy"
       >
-        Cookie&nbsp;Policy
-      </a>
+        Cookie&nbsp;Policy</a>
       <span>&nbsp;|&nbsp;</span>
       <a
         href="https://slavic.media/legal/terms-of-sale"
@@ -49,7 +48,7 @@
         >Digital Image License</a
       >
 
-      <span>&nbsp;|&nbsp;</span>
+      <span class="separator-hide">&nbsp;|&nbsp;</span>
       <a
         class="footer-nav"
         target="_blank"

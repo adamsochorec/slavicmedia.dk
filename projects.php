@@ -64,6 +64,38 @@
         aria-label="Video Gallery"
       >
         <div class="gallery-item reveal">
+          <img src="/img/cover-fynutzu.jpg" alt="Fynutzu Music" />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <svg class="flag note" title="Flag of Denmark">
+              <use href="#flag-denmark"></use>
+            </svg>
+
+            <h4>Tech the Night</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>fynutzumusic.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/994873542"></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/cover-huskyfarm.jpg" alt="Timetravels." />
+          <div class="gallery-item-caption">
+            <i class="fa-regular fa-circle-play bubble"> </i>
+            <svg class="flag note" title="Flag of Finland">
+              <use href="#flag-finland"></use>
+            </svg>
+
+            <h4>Husky Farm Veskoniemi</h4>
+            <p>
+              2024&nbsp;|&nbsp;<span>timetravels.com</span
+              ><i class="fa-solid fa-arrow-right"></i>
+            </p>
+            <a href="https://vimeo.com/956644060"></a>
+          </div>
+        </div>
+        <div class="gallery-item reveal">
           <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>

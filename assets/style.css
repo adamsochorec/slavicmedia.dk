@@ -2067,6 +2067,12 @@ ul.languages-legend li::marker {
 }
 /* REVIEWS END */
 
+/* PAYHIP START */
+.section-wrapper[data-section-key="footer"] .section-background {
+  border-top: none !important;
+}
+/* PAYHIP END */
+
 /* MEDIA QERRIES START */
 @media only screen and (min-width: 310px) {
   .grid-container {
@@ -2146,6 +2152,9 @@ ul.languages-legend li::marker {
   }
   .tab-panels table p {
     font-size: 10px;
+  }
+  .separator-hide {
+    display: none;
   }
 }
 @media only screen and (min-width: 500px) {
