@@ -32,7 +32,8 @@
         href="https://slavic.media/legal/cookie-policy"
         title="Cookie Policy"
       >
-        Cookie&nbsp;Policy</a>
+        Cookie&nbsp;Policy</a
+      >
       <span>&nbsp;|&nbsp;</span>
       <a
         href="https://slavic.media/legal/terms-of-sale"
@@ -69,9 +70,8 @@
   </div>
 </footer>
 <script
-  src="https://kit.fontawesome.com/0d09e23a84.js"
+  src="https://kit.fontawesome.com/1560c79066.js"
   crossorigin="anonymous"
-  role="presentation"
 ></script>
 <script
   type="text/javascript"

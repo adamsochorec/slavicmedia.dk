@@ -55,7 +55,7 @@
         <p class="reveal">
           This license grants the purchaser a non-exclusive, non-transferable
           right to use any digital products purchased through
-          <a href="https://store.slavic.media">store.slavic.media</a> and
+          <a href="https://store.slavic.media/en">store.slavic.media/en</a> and
           <a href="https://clients.slavic.media">clients.slavic.media</a>. The
           license covers all forms of digital content available for purchase,
           including but not limited to images, software tools, and educational

@@ -64,10 +64,9 @@
           </div>
           <div class="grid-item">
             <p>
-              We are not any traditional production company. Slavic Media are
-              creative storytellers who believe in good set designs, deep eye
-              contact, and the right light that can raise your message above the
-              noise.
+              We are creative storytellers who believe in good set designs, deep
+              eye contact, and the right light that can raise your message above
+              the noise.
             </p>
           </div>
         </div>
@@ -218,14 +217,9 @@
             ></i>
           </button>
           <p class="profile-info reveal">
-            Slavic Media is a creative multimedia company that focuses on the
-            production of various brand films, showreels, stills and headshots.
-          </p>
-          <br />
-          <p class="reveal">
-            We tell stories with our beautiful videos, well-written scripts, and
-            clean designs to help brands reach their maximum potential. We will
-            do everything possible to turn your vision into reality.
+            Creative & Production studio based in Denmark and Czechia.<br /><br />
+            We tell stories with deep eye contact, magnificent shots and clean
+            designs to help your project stand out from the noise.
           </p>
         </article>
       </article>

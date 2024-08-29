@@ -670,7 +670,7 @@
             ></i>
           </div>
         </a>
-        <a class="reveal active" href="https://store.slavic.media/">
+        <a class="reveal active" href="https://store.slavic.media/en/">
           <div class="cta-secondary cta">
             Our Lightroom Presets<i
               class="fa-solid fa-arrow-right"

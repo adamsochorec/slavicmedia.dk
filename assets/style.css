@@ -351,7 +351,7 @@ footer a.footer-nav:hover {
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   position: absolute;
-  height: 80%;
+  height: 100%;
   z-index: 4;
   width: 100%;
 }
