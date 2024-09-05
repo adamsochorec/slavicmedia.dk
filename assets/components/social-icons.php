@@ -26,7 +26,7 @@
     <i title="YouTube" class="fa-brands fa-youtube"></i>
   </a>
   <a
-    href="https://www.instagram.com/slavicmedia/"
+    href="https://www.instagram.com/slavic.media/"
     target="_blank"
     rel="noopener noreferrer nofollow"
     aria-label="Slavic Media Instagram"

@@ -23,8 +23,9 @@
 <meta property="og: image:height" content="100" />
 <meta
   name="description"
-  content="Slavic Media is a creative multimedia company that focuses on the production of various brand films, showreels, stills and headshots."
+  content="Creative & Production studio based in Denmark and Czechia. We tell stories with deep eye contact, magnificent shots and clean designs to help your project stand out from the noise."
 />
+
 <!-- Google tag (gtag.js) -->
 <script
   async

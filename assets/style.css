@@ -627,7 +627,8 @@ header {
 header img.logo {
   float: left;
   padding: 8px 0;
-  width: var(--dimension-2);
+  width: 110px;
+  height: 100%;
   height: 100%;
   border-radius: none;
   -webkit-animation: none;
@@ -2340,9 +2341,7 @@ ul.languages-legend li::marker {
   .hamburger {
     padding: 16px 0px 0px 16px;
   }
-  header img.logo {
-    display: none;
-  }
+
   .menu-left a {
     padding: var(--grid-gap-2) var(--grid-gap-2) var(--grid-gap-2) 0;
   }

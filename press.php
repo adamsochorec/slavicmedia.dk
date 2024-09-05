@@ -77,7 +77,7 @@
           <!-- CREDIT GUIDE START -->
           <a
             class="gallery-item"
-            href="https://docs.google.com/presentation/d/1dcl-d4kmUxNhaLZlYQL6Q_xY52ujiOweV4XdzLNV5DE/edit?usp=sharing"
+            href="/assets/credit-guide.pdf"
             rel="noopener noreferrer nofollow"
             target="_blank"
             aria-label="Link to Credit Guide"

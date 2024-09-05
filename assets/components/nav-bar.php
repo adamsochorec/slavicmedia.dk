@@ -8,12 +8,6 @@
           title="Logo Slavic Media"
           src="/img/Primary-1.png"
         />
-        <img
-          class="logo mobile"
-          alt="Logo Slavic Media"
-          title="Logo Slavic Media"
-          src="/img/Secondary-1.png"
-        />
       </a>
       <button
         aria-label="Open mobile menu"
