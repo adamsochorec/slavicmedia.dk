@@ -196,7 +196,7 @@ h2,
   font-size: clamp(1.5em, 4vw, 2.5em);
 }
 h3,
-.grid-container h1 {
+#homepage .grid-container h1 {
   font-size: clamp(1.25em, 3vw, 2em);
 }
 h4,
@@ -300,6 +300,9 @@ footer a.footer-nav:hover {
 }
 .pathname-container:not(.pathname-container:nth-child(3)) {
   margin-top: 118.4px;
+}
+#videoProjects .pathname-container:nth-child(2) {
+  margin-top: 0 !important;
 }
 .pathname-container {
   text-transform: lowercase;
@@ -627,7 +630,7 @@ header {
 header img.logo {
   float: left;
   padding: 8px 0;
-  width: 110px;
+  width: 91px;
   height: 100%;
   height: 100%;
   border-radius: none;
@@ -638,9 +641,6 @@ header nav .logo:after {
   content: "";
   display: table;
   clear: both;
-}
-header img.logo.mobile {
-  display: none;
 }
 header nav ul {
   list-style: none;
@@ -799,13 +799,10 @@ button.submit-btn {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  outline: 2px solid rgb(var(--dark-grey-color));
   border-radius: var(--border-radius-1);
   padding: var(--grid-gap-1) var(--grid-gap-2);
   width: 100%;
-  -webkit-box-shadow: var(--box-shadow-1);
   font-size: 1em;
-  box-shadow: var(--box-shadow-1);
 }
 .contact-form-section ::-webkit-input-placeholder {
   color: rgba(var(--white-color), 0.7);
@@ -876,7 +873,7 @@ option .default-option {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  background: rgb(var(--dark-grey-color));
+  background: rgb(var(--grey-color));
   border: none;
 }
 .contact-form-section input,
@@ -1024,7 +1021,25 @@ footer .language-container {
 
 /* INTRO VIDEO END */
 
-/* VIDEO GALLERY START*/
+/* VIDEO GALLERY START */
+.swiper-reels video {
+  height: auto;
+  width: var(--dimension-2);
+  border-radius: var(--border-radius-1);
+  background-color: rgb(var(--dark-grey-color));
+  -webkit-box-shadow: var(--box-shadow-1);
+  box-shadow: var(--box-shadow-1);
+}
+.swiper-reels {
+  height: 400px;
+}
+.swiper .swiper-pagination-bullet {
+  background: rgb(var(--white-color));
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: rgb(var(--primary-color));
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1287,7 +1302,7 @@ small a {
   left: 0;
   width: 100%;
   height: 103%;
-  z-index: 1042;
+  z-index: 2147483001;
   overflow: scroll;
   position: fixed;
   background: var(--dark-grey-color-full);
@@ -1299,7 +1314,7 @@ small a {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 2147483002;
   overflow: scroll;
   position: fixed;
   outline: 0 !important;
@@ -1338,10 +1353,11 @@ small a {
   margin: 0 auto;
   text-align: left;
   z-index: 1045;
+  overflow: hidden !important;
 }
 .mfp-ajax-holder .mfp-content,
 .mfp-inline-holder .mfp-content {
-  width: 100%;
+  max-width: 100%;
   cursor: auto;
 }
 .mfp-ajax-cur {
@@ -1433,7 +1449,6 @@ button::-moz-focus-inner {
   border: 0;
 }
 .mfp-close {
-  width: 44px;
   height: 44px;
   line-height: 44px;
   position: absolute;
@@ -1453,9 +1468,6 @@ button::-moz-focus-inner {
 }
 .mfp-close:active {
   top: 1px;
-}
-.mfp-close-btn-in .mfp-close {
-  color: #333;
 }
 .mfp-iframe-holder .mfp-close,
 .mfp-image-holder .mfp-close {
@@ -1752,11 +1764,14 @@ i {
   color: rgb(var(--white-color));
   font-size: var(--grid-gap-2);
 }
-i:hover {
+i:hover,
+.mfp-close:hover {
   color: rgb(var(--primary-color));
 }
 i,
-i:hover {
+i:hover,
+.mfp-close,
+.mfp-close:hover {
   -o-transition: var(--transition-1);
   -webkit-transition: var(--transition-1);
   transition: var(--transition-1);
@@ -2257,8 +2272,14 @@ ul.languages-legend li::marker {
   .intro-section {
     height: 300px !important;
   }
+  .swiper-reels video {
+    height: var(--dimension-2);
+    width: auto;
+  }
+  .swiper-reels {
+    height: 240px;
+  }
 }
-
 @media screen and (max-width: 800px) and (orientation: landscape),
   screen and (max-height: 300px) {
   .mfp-img-mobile .mfp-image-holder {
@@ -2339,7 +2360,7 @@ ul.languages-legend li::marker {
     padding: 0;
   }
   .hamburger {
-    padding: 16px 0px 0px 16px;
+    padding: 11px 0px 0px 16px;
   }
 
   .menu-left a {
@@ -2347,11 +2368,6 @@ ul.languages-legend li::marker {
   }
   .menu-left a:hover {
     background-color: transparent;
-  }
-  header img.logo.mobile {
-    width: 110px;
-    height: 100%;
-    display: block;
   }
   #services .grid-container {
     margin-bottom: 50px;

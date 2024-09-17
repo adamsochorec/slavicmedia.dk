@@ -38,161 +38,7 @@
           </p>
         </div>
       </article>
-      <!-- VIDEO START -->
-      <article class="wrapper-wide" id="video">
-        <hr class="reveal" role="separator" />
-        <div class="grid-container caption-container">
-          <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Video</span>
-              Projects
-            </h2>
-          </div>
-          <div class="grid-item">
-            <p class="reveal">
-              Let us distil the essence of your project into a compelling
-              showreel. Our team specializes in creating narratives that leave a
-              lasting impact on your audience.
-            </p>
-          </div>
-        </div>
-        <hr class="semi" role="separator" />
-      </article>
-      <article
-        class="wrapper-wide gallery"
-        id="gallery-video"
-        aria-label="Video Gallery"
-      >
-        <div class="gallery-item reveal">
-          <img src="/img/cover-fynutzu.jpg" alt="Fynutzu Music" />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"> </i>
-            <svg class="flag note" title="Flag of Denmark">
-              <use href="#flag-denmark"></use>
-            </svg>
 
-            <h4>Tech the Night</h4>
-            <p>
-              2024&nbsp;|&nbsp;<span>fynutzumusic.com</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a href="https://vimeo.com/994873542"></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img src="/img/cover-huskyfarm.jpg" alt="Timetravels." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"> </i>
-            <svg class="flag note" title="Flag of Finland">
-              <use href="#flag-finland"></use>
-            </svg>
-
-            <h4>Husky Farm Veskoniemi</h4>
-            <p>
-              2024&nbsp;|&nbsp;<span>timetravels.com</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a href="https://vimeo.com/956644060"></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"> </i>
-            <svg class="flag note" title="Flag of Norway">
-              <use href="#flag-norway"></use>
-            </svg>
-
-            <h4>Norwegian Fjords</h4>
-            <p>
-              2024&nbsp;|&nbsp;<span>timetravels.com</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a href="https://vimeo.com/950575511"></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"> </i>
-            <svg
-              class="flag note"
-              title="Flag of Finland"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <use href="#flag-finland"></use>
-            </svg>
-            <h4>Finnish Lapland</h4>
-            <p>
-              2024&nbsp;|&nbsp;<span>timetravels.com</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a href="https://vimeo.com/950479131"></a>
-          </div>
-        </div>
-        <div class="gallery-item reveal">
-          <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"> </i>
-            <svg
-              class="flag note"
-              title="Flag of Sweden"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <use href="#flag-sweden"></use>
-            </svg>
-            <h4>Swedish Lapland</h4>
-            <p>
-              2024&nbsp;|&nbsp;<span>timetravels.com</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a href="https://vimeo.com/942145699"></a>
-          </div>
-        </div>
-
-        <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
-          <img
-            src="img/cover-husetfundament.jpg"
-            alt="Showreel of a cultural volunteer organisation.."
-          />
-          <div class="gallery-item-caption">
-            <i class="fa-regular fa-circle-play bubble"></i>
-
-            <svg
-              class="flag note"
-              title="Flag of Denmark"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <use href="#flag-denmark"></use>
-            </svg>
-            <h4>Huset Fundament</h4>
-            <p>
-              2023&nbsp;|&nbsp;<span>husetfundament.dk</span
-              ><i class="fa-solid fa-arrow-right"></i>
-            </p>
-            <a
-              aria-label="Open video popup for Huset Fundament"
-              href="https://vimeo.com/942148434"
-            ></a>
-          </div>
-        </div>
-      </article>
-      <section class="flex-center">
-        <a class="reveal active" href="/services">
-          <div class="cta">
-            Request a Proposal<i
-              class="fa-solid fa-arrow-right"
-              aria-hidden="true"
-            ></i>
-          </div>
-        </a>
-      </section>
-
-      <!-- VIDEO GALLERY END -->
-      <!-- VIDEO END -->
       <!-- PHOTO START -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
@@ -661,8 +507,12 @@
           </div>
         </div>
       </article>
+      <?php
+      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+      include $IPATH . 'contact-form.php';
+      ?>
       <section class="double-cta">
-        <a class="reveal active" href="/services">
+        <a class="reveal active" href="#test-form">
           <div class="cta">
             Request a Proposal<i
               class="fa-solid fa-arrow-right"
@@ -696,7 +546,7 @@
       type="text/javascript"
       src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
     ></script>
-    <script type="text/javascript" src="/assets/projects.js"></script>
+    <script type="text/javascript" src="/assets/photo.js"></script>
 
     <!-- FOOTER END -->
   </body>

@@ -22,10 +22,7 @@ $(document).ready(function () {
       return item.el.attr("href");
     },
   });
-});
 
-// Executes when the document is ready
-$(document).ready(function () {
   // Initializes Magnific Popup for image-based galleries
   $(".popup-gallery").magnificPopup({
     delegate: "a", // Targets <a> elements directly
@@ -58,4 +55,63 @@ $(document).ready(function () {
       },
     },
   });
+});
+// GRID GAP
+const gridGap2 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-2"
+);
+const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
+  "--grid-gap-3"
+);
+
+// Initialize Swiper for the reviews section
+const reelsSwiper = new Swiper(".swiper-reels", {
+  loop: true,
+  speed: 600,
+  spaceBetween: gridGap2,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  autoplay: {
+    delay: 3000,
+  },
+  preloadImages: false,
+  lazyLoading: true,
+  observer: true,
+  observeParents: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    250: {
+      slidesPerView: 1.5,
+    },
+    300: {
+      slidesPerView: 2.25,
+    },
+    350: {
+      slidesPerView: 2.75,
+    },
+    400: {
+      slidesPerView: 3,
+    },
+    450: {
+      slidesPerView: 3.5,
+    },
+    550: {
+      slidesPerView: 4,
+    },
+    667: {
+      slidesPerView: 3,
+    },
+    750: {
+      slidesPerView: 3.5,
+    },
+    850: {
+      slidesPerView: 4,
+    },
+  },
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
 });

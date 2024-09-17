@@ -21,10 +21,10 @@
       </button>
       <ul class="menu-left" role="menu">
         <li role="none">
-          <a href="/services" role="menuitem">Services</a>
+          <a href="/video" role="menuitem">Video</a>
         </li>
         <li role="none">
-          <a href="/projects" role="menuitem">Projects</a>
+          <a href="/photo" role="menuitem">Photo</a>
         </li>
         <li role="none">
           <a href="https://store.slavic.media/en" role="menuitem">Store</a>

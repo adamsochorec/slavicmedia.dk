@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
     <?php
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Your Online Presence | Slavic Media</title>
   </head>
   <body id="homepage">
@@ -84,7 +84,7 @@
           id="gallery-features"
           aria-label="Services"
         >
-          <a href="/projects" class="gallery-item reveal">
+          <a href="/video" class="gallery-item reveal">
             <img
               src="/img/cover-video.jpg"
               title="Video services cover."
@@ -101,7 +101,7 @@
             </div>
           </a>
           <a
-            href="/projects#photo"
+            href="/photo"
             class="gallery-item reveal"
             aria-label="Huset Fundament 2023"
           >
@@ -121,8 +121,12 @@
             </div>
           </a>
         </article>
+        <?php
+        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'contact-form.php';
+        ?>
         <section class="flex-center">
-          <a class="reveal" href="/services">
+          <a class="popup-with-form reveal" href="#test-form">
             <div class="cta">
               Request a Proposal<i class="fa-solid fa-arrow-right"></i>
             </div>
@@ -246,8 +250,16 @@
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       role="script"
     ></script>
-    <script type="text/javascript" src="/assets/index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
+    ></script>
 
+    <script type="text/javascript" src="/assets/index.js"></script>
     <!-- FOOTER END -->
   </body>
 </html>

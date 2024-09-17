@@ -83,6 +83,28 @@ reveal();
   }
 })();
 
+// CONTACT FORM
+$(document).ready(function () {
+  $(".popup-with-form").magnificPopup({
+    type: "inline",
+    preloader: false,
+    focus: "#name",
+
+    // When elemened is focused, some mobile browsers in some cases zoom in
+    // It looks not nice, so we disable it:
+    callbacks: {
+      beforeOpen: function () {
+        if ($(window).width() < 700) {
+          this.st.focus = false;
+        } else {
+          this.st.focus = "#name";
+        }
+      },
+    },
+  });
+});
+// CONTACT FORM END
+
 // YEAR FUNCTION
 // Sets the current year in the HTML element with id "current-year"
 const currentYear = new Date().getFullYear();
