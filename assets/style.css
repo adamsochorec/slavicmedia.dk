@@ -301,7 +301,7 @@ footer a.footer-nav:hover {
 .pathname-container:not(.pathname-container:nth-child(3)) {
   margin-top: 118.4px;
 }
-#videoProjects .pathname-container:nth-child(2) {
+#video .pathname-container:nth-child(2) {
   margin-top: 0 !important;
 }
 .pathname-container {
@@ -873,7 +873,7 @@ option .default-option {
 .contact-form-section input,
 .contact-form-section select,
 .contact-form-section textarea {
-  background: rgb(var(--grey-color));
+  background: rgb(var(--dark-grey-color));
   border: none;
 }
 .contact-form-section input,
@@ -1039,7 +1039,9 @@ footer .language-container {
 .swiper .swiper-pagination-bullet-active {
   background-color: rgb(var(--primary-color));
 }
-
+.swiper-pagination-bullet {
+  opacity: unset !important;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1166,6 +1168,12 @@ footer .language-container {
   grid-gap: var(--grid-gap-3);
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
+}
+#gallery-press .gallery-item p {
+  font-size: var(--fontsize-p);
+  padding: unset;
+  opacity: 1;
+  transform: unset;
 }
 #gallery-press #brand-guide {
   background-image: url(/img/cover-brandguide.png);
@@ -1558,7 +1566,7 @@ button::-moz-focus-inner {
 .mfp-iframe-holder .mfp-content {
   line-height: 0;
   width: 100%;
-  max-width: 900px;
+  max-width: 80%;
 }
 .mfp-iframe-holder .mfp-close {
   top: -40px;

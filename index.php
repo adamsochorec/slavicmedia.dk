@@ -94,9 +94,9 @@
               <i class="fa-solid fa-video bubble"></i>
               <h3>Video</h3>
               <p>
-                Let us distil the essence of your project into a compelling
-                showreel. Our team specializes in creating narratives that leave
-                a lasting impact on your audience.
+                From inspiring stories to cinematic visuals, each video project
+                is crafted to captivate, impress, and showcase your vision with
+                creative precision.
               </p>
             </div>
           </a>
@@ -126,7 +126,7 @@
         include $IPATH . 'contact-form.php';
         ?>
         <section class="flex-center">
-          <a class="popup-with-form reveal" href="#test-form">
+          <a class="popup-with-form reveal" href="#request-a-proposal">
             <div class="cta">
               Request a Proposal<i class="fa-solid fa-arrow-right"></i>
             </div>

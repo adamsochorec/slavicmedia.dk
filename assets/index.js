@@ -124,7 +124,7 @@ const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
 const clientsSwiper = new Swiper(".swiper-clients", {
   loop: true,
   speed: 600,
-  autoplay: { delay: 1000 },
+  autoplay: { delay: 1000, pauseOnMouseEnter: true },
   preloadImages: false,
   lazyLoading: true,
   observer: true,
@@ -190,6 +190,7 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
   spaceBetween: gridGap2,
   autoplay: {
     delay: 3000,
+    pauseOnMouseEnter: true,
   },
   preloadImages: false,
   lazyLoading: true,

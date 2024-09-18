@@ -30,7 +30,7 @@
           aria-level="1"
           aria-label="Page Title: Terms of Sale"
         >
-          Terms of Sale
+        <span class="highlited tuscher">Terms</span> of Sale
         </h1>
         <div
           class="pathname-container reveal"

@@ -32,6 +32,7 @@ $(document).ready(function () {
     gallery: {
       enabled: true,
       navigateByImgClick: true,
+      fixedContentPos: "false",
       preload: [0, 1], // Preloads adjacent images
     },
     zoom: {
@@ -54,6 +55,8 @@ $(document).ready(function () {
         item.src = item.el.attr("src");
       },
     },
+    fixedContentPos: "false",
+    overflowY: "scroll",
   });
 });
 // GRID GAP
@@ -74,6 +77,7 @@ const reelsSwiper = new Swiper(".swiper-reels", {
   },
   autoplay: {
     delay: 3000,
+    pauseOnMouseEnter: true,
   },
   preloadImages: false,
   lazyLoading: true,

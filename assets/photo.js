@@ -8,6 +8,9 @@ $(document).ready(function () {
     mainClass: "mfp-img-mobile",
     gallery: {
       enabled: true,
+      fixedContentPos: "false",
+      overflowY: "scroll",
+
       navigateByImgClick: true,
       preload: [0, 1], // Preloads adjacent images
     },
@@ -31,5 +34,7 @@ $(document).ready(function () {
         item.src = item.el.attr("src");
       },
     },
+    fixedContentPos: "false",
+    overflowY: "scroll",
   });
 });

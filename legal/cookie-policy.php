@@ -30,7 +30,7 @@
           aria-level="1"
           aria-label="Page Title: Cookie Policy"
         >
-          Cookie Policy
+          Cookie <span class="highlited tuscher">Policy</span>
         </h1>
         <div
           class="pathname-container reveal"

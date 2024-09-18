@@ -11,7 +11,7 @@
     />
     <title>Video | Slavic Media</title>
   </head>
-  <body id="videoProjects">
+  <body id="video">
     <!-- HEADER START -->
     <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
@@ -51,11 +51,11 @@
           </div>
           <div class="grid-item">
             <p class="reveal">
-              Let us distil the essence of your project into a compelling
-              showreel. Our team specializes in creating narratives that leave a
-              lasting impact on your audience.
+              From inspiring stories to cinematic visuals, each video project is
+              crafted to captivate, impress, and showcase your vision with
+              creative precision.
             </p>
-            <a class="popup-with-form reveal" href="#test-form">
+            <a class="popup-with-form reveal" href="#request-a-proposal">
               <div class="cta">
                 Request a Proposal<i class="fa-solid fa-arrow-right"></i>
               </div>

@@ -5,9 +5,9 @@
     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
     include $IPATH . 'head.php';
     ?>
-    <title>Projects | Slavic Media</title>
+    <title>Photo | Slavic Media</title>
   </head>
-  <body id="projects">
+  <body id="photo">
     <!-- HEADER START -->
     <?php
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
@@ -512,7 +512,7 @@
       include $IPATH . 'contact-form.php';
       ?>
       <section class="double-cta">
-        <a class="reveal active" href="#test-form">
+        <a class="popup-with-form reveal" href="#request-a-proposal">
           <div class="cta">
             Request a Proposal<i
               class="fa-solid fa-arrow-right"
@@ -520,7 +520,7 @@
             ></i>
           </div>
         </a>
-        <a class="reveal active" href="https://store.slavic.media/en/">
+        <a class="reveal active" href="https://store.slavic.media/">
           <div class="cta-secondary cta">
             Our Lightroom Presets<i
               class="fa-solid fa-arrow-right"
@@ -546,6 +546,7 @@
       type="text/javascript"
       src="https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.min.js"
     ></script>
+
     <script type="text/javascript" src="/assets/photo.js"></script>
 
     <!-- FOOTER END -->

@@ -27,7 +27,7 @@
           <a href="/photo" role="menuitem">Photo</a>
         </li>
         <li role="none">
-          <a href="https://store.slavic.media/en" role="menuitem">Store</a>
+          <a href="https://store.slavic.media" role="menuitem">Store</a>
         </li>
         <li role="none">
           <a href="/#ourteam" role="menuitem">Our Team</a>
