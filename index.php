@@ -114,9 +114,9 @@
               <i class="fa-solid fa-camera bubble"></i>
               <h3>Photo</h3>
               <p>
-                Whether you are looking for professional headshots or authentic
-                stills, in a fancy studio or rough exterior, we are here to
-                bring them alive.
+                Whether it’s a dynamic performance, a powerful portrait, or the
+                vast outdoors, our photography captures authentic moments, rich
+                in colour and emotion, that tell your story.
               </p>
             </div>
           </a>

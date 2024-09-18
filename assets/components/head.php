@@ -14,18 +14,34 @@
   type="text/javascript"
 ></script>
 
-<!-- for Microsoft apps -->
-<meta name="msapplication-TileImage" content="/img/Favicon-1.png" />
-<!-- Image to display -->
-<meta property="og: image" itemprop="image" content="/img/Favicon-1.png" />
+<!-- META -->
+<meta name="msapplication-TileImage" content="/img/welcome-graphic.png" />
+<meta
+  property="og: image"
+  itemprop="image"
+  content="/img/welcome-graphic.png"
+/>
 <!-- Any size up to 300. Anything above 300px will not work in WhatsApp -->
-<meta property="og: image:width" content="100" />
+<meta property="og:image:width" content="100" />
+<meta property="image:width" content="100" />
 <meta property="og: image:height" content="100" />
+<meta property="image:height" content="100" />
+<meta property="url" content="https://slavic.media/" /><meta
+  property="og:url"
+  content="https://slavic.media/"
+/>
+<meta property="type" content="website" />
+<meta property="og:type" content="website" />
+<meta property="title" content="Slavic Media - Your Online Presence" />
+<meta property="og:title" content="Slavic Media - Your Online Presence" />
 <meta
   name="description"
   content="Creative & Production studio based in Denmark and Czechia. We tell stories with deep eye contact, magnificent shots and clean designs to help your project stand out from the noise."
 />
-
+<meta
+  property="og:description"
+  content="Creative & Production studio based in Denmark and Czechia. We tell stories with deep eye contact, magnificent shots and clean designs to help your project stand out from the noise."
+/>
 <!-- Google tag (gtag.js) -->
 <script
   async

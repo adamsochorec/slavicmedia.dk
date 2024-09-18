@@ -28,32 +28,54 @@
           role="navigation"
           aria-label="Breadcrumb navigation"
         ></div>
-        <h1 class="reveal" aria-label="Projects">Projects</h1>
-        <div class="pathname-container reveal">
-          <p>
-            <span class="pathname"
-              ><a href="/" aria-label="Home"></a> &#8250;
-            </span>
-            <span class="pathname" aria-label="Projects">Projects</span>
-          </p>
+        <!-- PAGE INTRO -->
+
+        <div class="grid-container caption-container">
+          <div class="grid-item reveal">
+            <h1 class="reveal" aria-label="Photo Services">
+              <span class="highlited">Photo</span> Services
+            </h1>
+            <!-- BREADCRUMB MENU -->
+            <div class="pathname-container reveal">
+              <p>
+                <span class="pathname"
+                  ><a href="/" aria-label="Home"></a> &#8250;
+                </span>
+                <span class="pathname" aria-label="Projects">photo</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <p class="reveal">
+              Whether it’s a dynamic performance, a powerful portrait, or the
+              vast outdoors, our photography captures authentic moments, rich in
+              detail and emotion, that tell your story.
+            </p>
+            <a class="popup-with-form reveal" href="#request-a-proposal">
+              <div class="cta">
+                Request a Proposal<i
+                  class="fa-solid fa-arrow-right"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </a>
+          </div>
         </div>
       </article>
 
-      <!-- PHOTO START -->
+      <!-- PHOTO GALLERY 1 -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Photo</span>
-              Projects
-            </h2>
+            <h2><span class="highlited">Colorful</span> Portrait</h2>
           </div>
           <div class="grid-item">
             <p class="reveal">
-              Whether you are looking for professional headshots or authentic
-              stills, in a fancy studio or rough exterior, we are here to bring
-              them alive.
+              Through bold colors and deep eye contact, each portrait captures
+              the true essence of who you are—moments that feel real and connect
+              on a personal level.
             </p>
           </div>
         </div>
@@ -64,12 +86,214 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2022-12-02-000065.jpg"
+                src="/img/2021-11-13-02059.jpg"
+                title="2021 | Kolding, Denmark | art project"
+              >
+                <img
+                  src="/img/2021-11-13-02059.jpg"
+                  title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+                  alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a src="/img/hvalp.jpg" title="2023 | Kolding, Denmark | Hvalp">
+                <img
+                  src="/img/hvalp.jpg"
+                  alt="Band HVALP album cover."
+                  title="2023 | Kolding, Denmark | Hvalp"
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="column column-padding-1">
+            <div class="reveal">
+              <a
+                src="/img/2021-08-24-01615.jpg"
+                title="2021 | Kolding, Denmark | art project"
+              >
+                <img
+                  src="/img/2021-08-24-01615.jpg"
+                  title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
+                  alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2021-09-05-01666.jpg"
+                title="2021 | Kolding, Denmark | art project"
+              >
+                <img
+                  src="/img/2021-09-05-01666.jpg"
+                  title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
+                  alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2021-04-25-00693.jpg"
+                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
+              >
+                <img
+                  src="/img/2021-04-25-00693.jpg"
+                  title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
+                  alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="column column-padding-2">
+            <div class="reveal">
+              <a
+                src="/img/2021-05-28-01020.jpg"
+                title="2021 | Prague, Czechia | art project"
+              >
+                <img
+                  src="/img/2021-05-28-01020.jpg"
+                  title="Portrait of Zuzana Částková."
+                  alt="Portrait of Zuzana Částková."
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-11-13-00267.jpg"
+                title="2023 | Copenhagen, Denmark | Sort/Hvid"
+              >
+                <img
+                  src="/img/2023-11-13-00267.jpg"
+                  title="Elf lady holding knife on Kim Kim's throat."
+                  alt="Elf lady holding knife on Kim Kim's throat."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="reveal">
+              <a
+                src="/img/2021-06-24-01233-2.jpg"
+                title="2023 | Prague, Czechia | Divadlo Disk"
+              >
+                <img
+                  src="/img/2021-06-24-01233-2.jpg"
+                  alt="Sára Rychlíková at Divadlo Disk in Prague."
+                  title="2023 | Prague, Czechia | Divadlo Disk"
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2021-04-14-00608.jpg"
+                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
+              >
+                <img
+                  src="/img/2021-04-14-00608.jpg"
+                  title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- PHOTO GALLERY 2 -->
+      <article class="wrapper-wide" id="photo">
+        <hr class="reveal" role="separator" />
+        <div class="grid-container caption-container">
+          <div class="grid-item reveal">
+            <h2><span class="highlited">Immersive</span> Outdoor</h2>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              From the tundra to the desert, we specialize in capturing the raw
+              beauty of nature. With a focus on Nordic tundra, taiga, and winter
+              sports, our outdoor photography brings the wild, untamed
+              landscapes to life.
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr class="semi" role="separator" />
+      <article class="popup-gallery">
+        <div class="row">
+          <div class="column">
+            <div class="reveal">
+              <a
+                src="/img/2022-12-03-000465.jpg"
+                title="2023 | Björkliden, Sweden | Timetravels Ltd"
+              >
+                <img
+                  src="/img/2022-12-03-000465.jpg"
+                  alt="Two guys in a survival shelter in tundra."
+                  title="2023 | Björkliden, Sweden | Timetravels Ltd"
+                />
+                <svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2024-03-10-00620.jpg"
+                title="2024 | Saariselkä, Finland | Timetravels Ltd"
+              >
+                <img
+                  src="/img/2024-03-10-00620.jpg"
+                  alt="Kaunispää in Finnish Saariselkä, Northern Lapland."
+                  title="2024 | Saariselkä, Finland | Timetravels Ltd"
+                />
+                <svg
+                  class="flag note"
+                  title="Flag of Finland"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-finland"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-12-02-00459.jpg"
                 title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
               >
                 <img
-                  src="/img/2022-12-02-000065.jpg"
-                  alt="Girl cuddling with husky."
+                  src="/img/2023-12-02-00459.jpg"
+                  alt="Pair of boys petting husky."
                   title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
                 />
                 <svg
@@ -82,6 +306,8 @@
                 </svg>
               </a>
             </div>
+          </div>
+          <div class="column column-padding-1">
             <div class="reveal">
               <a
                 src="/img/2023-11-30-00006.jpg"
@@ -124,13 +350,13 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2024-03-10-00620.jpg"
-                title="2024 | Saariselkä, Finland | Timetravels Ltd"
+                src="/img/2024-03-10-00496.jpg"
+                title="2024 | Inarijärvi, Finland | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-03-10-00620.jpg"
-                  alt="Kaunispää in Finnish Saariselkä, Northern Lapland."
-                  title="2024 | Saariselkä, Finland | Timetravels Ltd"
+                  src="/img/2024-03-10-00496.jpg"
+                  alt="Ice skating on frozen Inarijärvi in Finnish Lapland."
+                  title="2024 | Inarijärvi, Finland | Timetravels Ltd"
                 />
                 <svg
                   class="flag note"
@@ -142,71 +368,17 @@
                 </svg>
               </a>
             </div>
-            <div class="reveal">
-              <a
-                src="/img/2022-12-03-000465.jpg"
-                title="2023 | Björkliden, Sweden | Timetravels Ltd"
-              >
-                <img
-                  src="/img/2022-12-03-000465.jpg"
-                  alt="Two guys in a survival shelter in tundra."
-                  title="2023 | Björkliden, Sweden | Timetravels Ltd"
-                />
-                <svg
-                  class="flag note"
-                  title="Flag of Sweden"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <use href="#flag-sweden"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2023-12-02-00459.jpg"
-                title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
-              >
-                <img
-                  src="/img/2023-12-02-00459.jpg"
-                  alt="Pair of boys petting husky."
-                  title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
-                />
-                <svg
-                  class="flag note"
-                  title="Flag of Sweden"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <use href="#flag-sweden"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-06-24-01208.jpg"
-                title="2021 | Prague, Czechia | Divadlo Disk"
-              >
-                <img
-                  src="/img/2021-06-24-01208.jpg"
-                  alt="Performance 'Hrdina Západu' at Divadlo Disk"
-                />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
-                </svg>
-              </a>
-            </div>
           </div>
-          <div class="column column-padding-1">
+          <div class="column column-padding-2">
             <div class="reveal">
               <a
-                src="/img/2024-03-10-00496.jpg"
-                title="2024 | Inarijärvi, Finland | Timetravels Ltd"
+                src="/img/2024-03-10-00238.jpg"
+                title="2024 | Inari, Finland | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-03-10-00496.jpg"
-                  alt="Ice skating on frozen Inarijärvi in Finnish Lapland."
-                  title="2024 | Inarijärvi, Finland | Timetravels Ltd"
+                  src="/img/2024-03-10-00238.jpg"
+                  alt="Timetravels Reindeer Herder experience in Lapland."
+                  title="2024 | Inari, Finland | Timetravels Ltd"
                 />
                 <svg
                   class="flag note"
@@ -233,26 +405,8 @@
                 </svg>
               </a>
             </div>
-            <div class="reveal">
-              <a
-                src="/img/2024-03-10-00238.jpg"
-                title="2024 | Inari, Finland | Timetravels Ltd"
-              >
-                <img
-                  src="/img/2024-03-10-00238.jpg"
-                  alt="Timetravels Reindeer Herder experience in Lapland."
-                  title="2024 | Inari, Finland | Timetravels Ltd"
-                />
-                <svg
-                  class="flag note"
-                  title="Flag of Finland"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <use href="#flag-finland"></use>
-                </svg>
-              </a>
-            </div>
+          </div>
+          <div class="column">
             <div class="reveal">
               <a
                 src="/img/2023-08-29-01113.jpg"
@@ -268,6 +422,91 @@
                 </svg>
               </a>
             </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-08-29-01096.jpg"
+                title="2023 | Nahal Bokek, Israel | Tourist Israel"
+              >
+                <img
+                  src="/img/2023-08-29-01096.jpg"
+                  alt="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
+                  title="2023 | Nahal Bokek, Israel | Tourist Israel"
+                />
+                <svg class="flag note" title="Flag of Israel">
+                  <use href="#flag-israel"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-08-29-01059.jpg"
+                title="2023 | Masada, Israel | Tourist Israel"
+              >
+                <img
+                  src="/img/2023-08-29-01059.jpg"
+                  alt="Woman hiking on Masada in Israel."
+                  title="2023 | Masada, Israel | Tourist Israel"
+                />
+                <svg class="flag note" title="Flag of Israel">
+                  <use href="#flag-israel"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- PHOTO GALLERY 3 -->
+      <article class="wrapper-wide" id="photo">
+        <hr class="reveal" role="separator" />
+        <div class="grid-container caption-container">
+          <div class="grid-item reveal">
+            <h2><span class="highlited">Timeless</span> Still</h2>
+          </div>
+          <div class="grid-item">
+            <p class="reveal">
+              Magnificent moments from concerts, theatre, and live
+              performances—capturing raw emotions and deep eye contact that
+              bring every gesture and glance to life.
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr class="semi" role="separator" />
+      <article class="popup-gallery">
+        <div class="row">
+          <div class="column">
+            <div class="reveal">
+              <a
+                src="/img/2023-09-09-10507.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-09-09-10507.jpg"
+                  alt="Shirtless Anime Animeaux guitarist starring into a camera."
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="reveal">
+              <a
+                src="/img/2021-06-24-01208.jpg"
+                title="2021 | Prague, Czechia | Divadlo Disk"
+              >
+                <img
+                  src="/img/2021-06-24-01208.jpg"
+                  alt="Performance 'Hrdina Západu' at Divadlo Disk"
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="column column-padding-1">
             <div class="reveal">
               <a
                 src="/img/2023-09-23-00049.jpg"
@@ -308,98 +547,8 @@
                 </svg>
               </a>
             </div>
-            <div class="reveal">
-              <a
-                src="/img/2023-09-09-10507.jpg"
-                title="2023 | Kolding, Denmark | Huset Fundament"
-              >
-                <img
-                  src="/img/2023-09-09-10507.jpg"
-                  alt="Shirtless Anime Animeaux guitarist starring into a camera."
-                  title="2023 | Kolding, Denmark | Huset Fundament"
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
           </div>
           <div class="column column-padding-2">
-            <div class="reveal">
-              <a
-                src="/img/2023-08-29-01096.jpg"
-                title="2023 | Nahal Bokek, Israel | Tourist Israel"
-              >
-                <img
-                  src="/img/2023-08-29-01096.jpg"
-                  alt="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
-                  title="2023 | Nahal Bokek, Israel | Tourist Israel"
-                />
-                <svg class="flag note" title="Flag of Israel">
-                  <use href="#flag-israel"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2023-08-29-01059.jpg"
-                title="2023 | Masada, Israel | Tourist Israel"
-              >
-                <img
-                  src="/img/2023-08-29-01059.jpg"
-                  alt="Woman hiking on Masada in Israel."
-                  title="2023 | Masada, Israel | Tourist Israel"
-                />
-                <svg class="flag note" title="Flag of Israel">
-                  <use href="#flag-israel"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-04-25-00693.jpg"
-                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
-              >
-                <img
-                  src="/img/2021-04-25-00693.jpg"
-                  title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-                  alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
-                />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-04-14-00608.jpg"
-                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
-              >
-                <img
-                  src="/img/2021-04-14-00608.jpg"
-                  title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-                />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-09-05-01666.jpg"
-                title="2021 | Kolding, Denmark | art project"
-              >
-                <img
-                  src="/img/2021-09-05-01666.jpg"
-                  title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
-                  alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
             <div class="reveal">
               <a
                 src="/img/2022-06-28-00708.jpg"
@@ -415,96 +564,8 @@
                 </svg>
               </a>
             </div>
-            <div class="reveal">
-              <a src="/img/hvalp.jpg" title="2023 | Kolding, Denmark | Hvalp">
-                <img
-                  src="/img/hvalp.jpg"
-                  alt="Band HVALP album cover."
-                  title="2023 | Kolding, Denmark | Hvalp"
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
           </div>
-          <div class="column">
-            <div class="reveal">
-              <a
-                src="/img/2021-06-24-01233-2.jpg"
-                title="2023 | Prague, Czechia | Divadlo Disk"
-              >
-                <img
-                  src="/img/2021-06-24-01233-2.jpg"
-                  alt="Sára Rychlíková at Divadlo Disk in Prague."
-                  title="2023 | Prague, Czechia | Divadlo Disk"
-                />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-11-13-02059.jpg"
-                title="2021 | Kolding, Denmark | art project"
-              >
-                <img
-                  src="/img/2021-11-13-02059.jpg"
-                  title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-                  alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-08-24-01615.jpg"
-                title="2021 | Kolding, Denmark | art project"
-              >
-                <img
-                  src="/img/2021-08-24-01615.jpg"
-                  title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
-                  alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2023-11-13-00267.jpg"
-                title="2023 | Copenhagen, Denmark | Sort/Hvid"
-              >
-                <img
-                  src="/img/2023-11-13-00267.jpg"
-                  title="Elf lady holding knife on Kim Kim's throat."
-                  alt="Elf lady holding knife on Kim Kim's throat."
-                />
-                <svg class="flag note" title="Flag of Denmark">
-                  <use href="#flag-denmark"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="reveal">
-              <a
-                src="/img/2021-05-28-01020.jpg"
-                title="2021 | Prague, Czechia | art project"
-              >
-                <img
-                  src="/img/2021-05-28-01020.jpg"
-                  title="Portrait of Zuzana Částková."
-                  alt="Portrait of Zuzana Částková."
-                />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
+          <div class="column"></div>
         </div>
       </article>
       <?php

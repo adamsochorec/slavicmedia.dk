@@ -27,7 +27,6 @@
     <!-- FLAGS END -->
     <main>
       <article class="wrapper-wide">
-        <!-- BREADCRUMB MENU -->
         <div
           class="pathname-container"
           role="navigation"
@@ -40,6 +39,7 @@
               <span class="highlited">Video</span>
               Services
             </h1>
+            <!-- BREADCRUMB MENU -->
             <div class="pathname-container reveal">
               <p>
                 <span class="pathname"
@@ -94,7 +94,7 @@
           <div class="grid-item reveal">
             <h2>
               <span class="highlited">Inspiring</span>
-              Showreels
+              Showreel
             </h2>
           </div>
           <div class="grid-item">
@@ -196,7 +196,7 @@
           <div class="grid-item reveal">
             <h2>
               <span class="highlited">Cinematic</span>
-              Narratives
+              Narrative
             </h2>
           </div>
           <div class="grid-item">

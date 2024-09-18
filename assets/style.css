@@ -301,7 +301,8 @@ footer a.footer-nav:hover {
 .pathname-container:not(.pathname-container:nth-child(3)) {
   margin-top: 118.4px;
 }
-#video .pathname-container:nth-child(2) {
+#video .pathname-container:nth-child(2),
+#photo .pathname-container:nth-child(2) {
   margin-top: 0 !important;
 }
 .pathname-container {
@@ -452,18 +453,18 @@ input:checked + .slider:before {
 /* SKELETON ANIMATION START */
 @-webkit-keyframes skeleton-loading {
   0% {
-    background-color: rgba(var(--light-grey-color), 0.8);
+    background-color: rgba(var(--light-grey-color), 1);
   }
   100% {
-    background-color: rgba(var(--light-grey-color), 0.1);
+    background-color: rgba(var(--light-grey-color), 0.2);
   }
 }
 @keyframes skeleton-loading {
   0% {
-    background-color: rgba(var(--light-grey-color), 0.8);
+    background-color: rgba(var(--light-grey-color), 1);
   }
   100% {
-    background-color: rgba(var(--light-grey-color), 0.1);
+    background-color: rgba(var(--light-grey-color), 0.2);
   }
 }
 
@@ -498,11 +499,12 @@ img,
 svg {
   vertical-align: middle;
 }
-
-iframe,
-img {
+iframe {
   -webkit-animation: skeleton-loading 1s linear infinite alternate;
   animation: skeleton-loading 1s linear infinite alternate;
+}
+iframe,
+img {
   border-radius: 0;
   border: none;
   height: 100%;
@@ -1029,6 +1031,8 @@ footer .language-container {
   background-color: rgb(var(--dark-grey-color));
   -webkit-box-shadow: var(--box-shadow-1);
   box-shadow: var(--box-shadow-1);
+  -webkit-animation: skeleton-loading 1s linear infinite alternate;
+  animation: skeleton-loading 1s linear infinite alternate;
 }
 .swiper-reels {
   height: 400px;
@@ -1173,6 +1177,8 @@ footer .language-container {
   font-size: var(--fontsize-p);
   padding: unset;
   opacity: 1;
+  -webkit-transform: unset;
+  -ms-transform: unset;
   transform: unset;
 }
 #gallery-press #brand-guide {
