@@ -61,14 +61,14 @@
               </div>
             </a>
           </div>
+          <div id="content"></div>
         </div>
         <hr role="separator" />
         <!-- SWIPER GALLERY -->
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
             <h2 class="reveal" aria-label="Engaging Content">
-              <span class="highlited">Engaging</span>
-              Content
+              Engaging <span class="highlited">Content</span>
             </h2>
           </div>
           <div class="grid-item">
@@ -86,16 +86,14 @@
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
         include $IPATH . 'swiper-reels.php';
         ?>
+        <div id="showreel"></div>
       </article>
       <!-- GALLERY 1 -->
       <article class="wrapper-wide" id="video">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Inspiring</span>
-              Showreel
-            </h2>
+            <h2>Brand <span class="highlited">Showreel</span></h2>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -188,16 +186,14 @@
             <a href="https://vimeo.com/942145699"></a>
           </div>
         </div>
+        <div id="narrative"></div>
       </article>
       <!-- GALLERY 2 -->
       <article class="wrapper-wide" id="video">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2>
-              <span class="highlited">Cinematic</span>
-              Narrative
-            </h2>
+            <h2>Cinematic <span class="highlited">Narrative</span></h2>
           </div>
           <div class="grid-item">
             <p class="reveal">

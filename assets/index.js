@@ -124,7 +124,11 @@ const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
 const clientsSwiper = new Swiper(".swiper-clients", {
   loop: true,
   speed: 600,
-  autoplay: { delay: 1000, pauseOnMouseEnter: true },
+  autoplay: { delay: 1000, pauseOnMouseEnter: true }, pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
   preloadImages: false,
   lazyLoading: true,
   observer: true,
@@ -192,6 +196,11 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
     delay: 3000,
     pauseOnMouseEnter: true,
   },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
   preloadImages: false,
   lazyLoading: true,
   observer: true,
@@ -224,18 +233,6 @@ const ourteamSwiper = new Swiper(".swiper-ourteam", {
   observer: true,
   observeParents: true,
   spaceBetween: gridGap3,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
   pagination: {
     el: ".swiper-pagination",
   },

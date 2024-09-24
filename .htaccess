@@ -18,6 +18,9 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 RewriteCond %{HTTP_HOST} ^slavicmedia\.dk$ [NC]
 RewriteRule ^(.*)$ https://slavic.media/$1 [R=301,L]
 
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
 DirectoryIndex index.php
 
-Header set Access-Control-Allow-Origin "*"  

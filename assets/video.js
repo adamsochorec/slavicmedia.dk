@@ -74,6 +74,8 @@ const reelsSwiper = new Swiper(".swiper-reels", {
   spaceBetween: gridGap2,
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
   },
   autoplay: {
     delay: 3000,

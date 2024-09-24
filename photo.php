@@ -62,14 +62,14 @@
             </a>
           </div>
         </div>
+        <div id="portrait"></div>
       </article>
-
       <!-- PHOTO GALLERY 1 -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2><span class="highlited">Colorful</span> Portrait</h2>
+            <h2>Colorful <span class="highlited">Portrait</span></h2>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -190,6 +190,21 @@
                 </svg>
               </a>
             </div>
+            <div class="reveal">
+              <a
+                src="/img/2021-04-14-00608.jpg"
+                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
+              >
+                <img
+                  src="/img/2021-04-14-00608.jpg"
+                  title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                />
+                <svg class="flag note" title="Flag of Czechia">
+                  <use href="#flag-czechia"></use>
+                </svg>
+              </a>
+            </div>
           </div>
           <div class="column">
             <div class="reveal">
@@ -209,28 +224,29 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2021-04-14-00608.jpg"
-                title="2021 | Prague, Czechia | Divadlo na Vinohradech"
+                src="/img/2023-04-03-08707.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2021-04-14-00608.jpg"
-                  title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
-                  alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
+                  src="/img/2023-04-03-08707.jpg"
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  alt="Girl staring into camera holding old TV.."
                 />
-                <svg class="flag note" title="Flag of Czechia">
-                  <use href="#flag-czechia"></use>
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
                 </svg>
               </a>
             </div>
           </div>
         </div>
+        <div id="outdoor"></div>
       </article>
       <!-- PHOTO GALLERY 2 -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2><span class="highlited">Immersive</span> Outdoor</h2>
+            <h2>Immersive <span class="highlited">Outdoor</span></h2>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -368,6 +384,26 @@
                 </svg>
               </a>
             </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-12-01-00064.jpg"
+                title="2023 | Björkliden, Sweden | Timetravels Ltd"
+              >
+                <img
+                  src="/img/2023-12-01-00064.jpg"
+                  alt="Ice fishing on frozen lake in Swedish Lapland."
+                  title="2023 | Björkliden, Sweden | Timetravels Ltd"
+                />
+                <svg
+                  class="flag note"
+                  title="Flag of Sweden"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-sweden"></use>
+                </svg>
+              </a>
+            </div>
           </div>
           <div class="column column-padding-2">
             <div class="reveal">
@@ -402,6 +438,21 @@
                 />
                 <svg class="flag note" title="Flag of Åland">
                   <use href="#flag-aland"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2024-05-11-00184.jpg"
+                title="2024 | Jostedal, Norway | Timetravels Ltd"
+              >
+                <img
+                  src="/img/2024-05-11-00184.jpg"
+                  alt="Group of hikers descending down through the valley in mountains."
+                  title="2024 | Jostedal, Norway | Timetravels Ltd"
+                />
+                <svg class="flag note" title="Flag of Norway">
+                  <use href="#flag-norway"></use>
                 </svg>
               </a>
             </div>
@@ -454,13 +505,14 @@
             </div>
           </div>
         </div>
+        <div id="still"></div>
       </article>
       <!-- PHOTO GALLERY 3 -->
       <article class="wrapper-wide" id="photo">
         <hr class="reveal" role="separator" />
         <div class="grid-container caption-container">
           <div class="grid-item reveal">
-            <h2><span class="highlited">Timeless</span> Still</h2>
+            <h2>Timeless <span class="highlited">Still</span></h2>
           </div>
           <div class="grid-item">
             <p class="reveal">
@@ -509,13 +561,13 @@
           <div class="column column-padding-1">
             <div class="reveal">
               <a
-                src="/img/2023-09-23-00049.jpg"
-                title="2023 | Kolding, Denmark | Huset Fundament"
+                src="/img/2023-09-01-00086.jpg"
+                title="2023 | Kolding, Denmark | Kolding Kulturnat"
               >
                 <img
-                  src="/img/2023-09-23-00049.jpg"
-                  alt="Silhouette of a DJ playing in a rave in Kolding."
-                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  src="/img/2023-09-01-00086.jpg"
+                  alt="Couple listening to stage performance."
+                  title="2023 | Kolding, Denmark | Kolding Kulturnat"
                 />
                 <svg
                   class="flag note"
@@ -547,8 +599,43 @@
                 </svg>
               </a>
             </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-09-29-00163.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-09-29-00163.jpg"
+                  alt="Stage performance crowd."
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                />
+                <svg
+                  class="flag note"
+                  title="Flag of Denmark"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
           </div>
           <div class="column column-padding-2">
+            <div class="reveal">
+              <a
+                src="/img/2023-06-22-00033.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-06-22-00033.jpg"
+                  alt="Two ladies mixing liquids in glass cups."
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
             <div class="reveal">
               <a
                 src="/img/2022-06-28-00708.jpg"
@@ -564,8 +651,69 @@
                 </svg>
               </a>
             </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-05-12-08965.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-05-12-08965.jpg"
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  alt="Artist lited by light looking like a Jesus."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="column"></div>
+          <div class="column">
+            <div class="reveal">
+              <a
+                src="/img/2023-05-27-00025.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-05-27-00025.jpg"
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  alt="Lady enjoying live performance in Pitstop."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-09-22-00026.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-09-22-00026.jpg"
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  alt="Singing performer in Pitstop."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="reveal">
+              <a
+                src="/img/2023-05-12-08969.jpg"
+                title="2023 | Kolding, Denmark | Huset Fundament"
+              >
+                <img
+                  src="/img/2023-05-12-08969.jpg"
+                  title="2023 | Kolding, Denmark | Huset Fundament"
+                  alt="Band playing behind foggy glass."
+                />
+                <svg class="flag note" title="Flag of Denmark">
+                  <use href="#flag-denmark"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </article>
       <?php

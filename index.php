@@ -58,7 +58,7 @@
           <div class="grid-item">
             <h1>
               Strategy, <span class="highlited tuscher">experience</span>,
-              precision and hard work at your
+              precision and hard work<br />at your
               <span class="highlited tuscher">service</span>
             </h1>
           </div>
@@ -70,12 +70,12 @@
             </p>
           </div>
         </div>
-        <hr class="" role="separator" />
+        <hr role="separator" />
         <?php
         $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
         include $IPATH . 'swiper-clients.php';
         ?>
-        <hr class="" role="separator" />
+        <hr style="margin-top: 30px" role="separator" />
 
         <!-- FEATURES START -->
         <article

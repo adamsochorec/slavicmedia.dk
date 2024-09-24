@@ -1003,4 +1003,6 @@
       </svg>
     </a>
   </div>
+   <div class="swiper-pagination"></div>
+
 </section>
