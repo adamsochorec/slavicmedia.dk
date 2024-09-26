@@ -15,12 +15,8 @@
 ></script>
 
 <!-- META -->
-<meta name="msapplication-TileImage" content="/img/welcome-graphic.png" />
-<meta
-  property="og: image"
-  itemprop="image"
-  content="/img/welcome-graphic.png"
-/>
+<meta name="msapplication-TileImage" content="/img/thumbnail.png" />
+<meta property="og: image" itemprop="image" content="/img/thumbnail.png" />
 <!-- Any size up to 300. Anything above 300px will not work in WhatsApp -->
 <meta property="og:image:width" content="100" />
 <meta property="image:width" content="100" />
