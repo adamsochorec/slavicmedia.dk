@@ -302,6 +302,6 @@
       </div>
       <p class="rewiews-message">Amazing service! 🤩</p>
     </div>
-  </div> 
+  </div>
   <div class="swiper-pagination"></div>
 </section>

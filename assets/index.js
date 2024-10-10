@@ -120,11 +120,11 @@ const gridGap3 = getComputedStyle(document.documentElement).getPropertyValue(
 );
 
 // CLIENTS SWIPER START
-// Initialize Swiper for the reviews section
 const clientsSwiper = new Swiper(".swiper-clients", {
   loop: true,
   speed: 600,
-  autoplay: { delay: 1000, pauseOnMouseEnter: true }, pagination: {
+  autoplay: { delay: 1000, pauseOnMouseEnter: true },
+  pagination: {
     el: ".swiper-pagination",
     clickable: true,
     dynamicBullets: true,
@@ -149,7 +149,6 @@ const clientsSwiper = new Swiper(".swiper-clients", {
   },
   // Optional parameters
   direction: "horizontal",
-  loop: true,
 });
 // CLIENTS SWIPER END
 
@@ -223,6 +222,14 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
   direction: "horizontal",
   loop: true,
 });
+// Function to truncate text to a specified length and add ellipsis
+function truncateText(text, maxLength) {
+  if (text.length > maxLength) {
+    return text.substring(0, maxLength) + "...";
+  }
+  return text;
+}
+
 // RATING SWIPER END
 
 // OUR TEAM SWIPER START

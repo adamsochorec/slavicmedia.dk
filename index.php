@@ -192,7 +192,7 @@
       >
         <video
           id="heroVideo"
-          src="/img/showreel-ourteam.mp4"
+          src="/img/bts.mp4"
           loop="true"
           autoplay="autoplay"
           muted
@@ -202,7 +202,7 @@
           aria-label="Our Team Video"
           role="video"
           aria-describedby="Our Team cover video"
-          poster="/img/showreel-ourteam.png"
+          poster="/img/bts.png"
         ></video>
         <article class="wrapper-standard">
           <h2 class="reveal">Our Team</h2>
