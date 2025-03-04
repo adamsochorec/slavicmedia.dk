@@ -24,4 +24,4 @@ A static website built as a **landing page** for Slavic Media, featuring:
   - **Scoped CSS & CSS variables**  
   - **Manual routing** handled via `.htaccess`.  
 - **External libraries** such as [LottieFiles](https://lottiefiles.com/), [jQuery](https://jquery.com/), and [Swiper.js](https://swiperjs.com/) were inserted directly into the DOM.  
-- Core code was based on a previous portfolio project [adamsochorec.com](https://github.com/adamsochorec/adamsochorec.com).  
+- Core code was based on a previous portfolio project [adamsochorec](https://github.com/adamsochorec/adamsochorec).  
