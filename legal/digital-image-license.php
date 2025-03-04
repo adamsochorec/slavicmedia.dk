@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'head.php';
-  ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'head.php'; ?>
     <title>Digital Image License | Slavic Media</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="legal">
     <!-- HEADER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'nav-bar.php'; ?>
     <!-- HEADER END -->
 
     <main>
@@ -93,10 +91,8 @@
       </article>
     </main>
     <!-- FOOTER START -->
-    <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-          include $IPATH . 'footer.php';
-          ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'footer.php'; ?>
     <!-- FOOTER END -->
   </body>
 </html>

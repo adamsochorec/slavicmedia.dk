@@ -225,11 +225,56 @@ const reviewsSwiper = new Swiper(".swiper-reviews", {
 // Function to truncate text to a specified length and add ellipsis
 function truncateText(text, maxLength) {
   if (text.length > maxLength) {
-    return text.substring(0, maxLength) + "...";
+    return {
+      truncated: text.substring(0, maxLength) + "...",
+      full: text,
+    };
   }
-  return text;
+  return {
+    truncated: text,
+    full: text,
+  };
 }
 
+// Apply truncation to review messages in Swiper reviews
+document.addEventListener("DOMContentLoaded", function () {
+  const reviewMessages = document.querySelectorAll(".rewiews-message");
+
+  reviewMessages.forEach((message) => {
+    const { truncated, full } = truncateText(message.textContent, 350);
+
+    if (full.length > 350) {
+      message.textContent = truncated;
+
+      // Create "Read Full Review" link
+      const readMoreLink = document.createElement("a");
+      readMoreLink.href = "#";
+      readMoreLink.textContent = "Read Full Review";
+      readMoreLink.classList.add("read-more-link");
+
+      // Append a line break and the link to the message
+      const lineBreak = document.createElement("br");
+      message.appendChild(lineBreak);
+      message.appendChild(readMoreLink);
+
+      // Add event listener to toggle full review
+      readMoreLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        if (message.textContent.includes("Read Full Review")) {
+          message.textContent = full;
+          readMoreLink.textContent = "Show Less";
+        } else {
+          message.textContent = truncated;
+          message.appendChild(lineBreak);
+          message.appendChild(readMoreLink);
+          readMoreLink.textContent = "Read Full Review";
+        }
+      });
+    } else {
+      message.textContent = full; // No truncation needed
+    }
+  });
+});
 // RATING SWIPER END
 
 // OUR TEAM SWIPER START

@@ -4,7 +4,7 @@
   --grey-color: 40, 40, 40;
   --dark-grey-color: 26, 26, 26;
   --dark-grey-color-full: #0000004d;
-  --light-grey-color:152, 152, 152;
+  --light-grey-color: 152, 152, 152;
   --white-color: 255, 255, 255;
   --fontsize-note: 0.7em;
   --logo-font: Raleway Semibold;
@@ -31,11 +31,12 @@
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: url(https://slavic.media/assets/SF-Pro-Display-Light.ttf)
+  src: url(https://assets.slavic.media/fonts/SF-Pro-Display-Light.ttf)
     format("truetype");
 }
 
 @font-face {
   font-family: Raleway Semibold;
-  src: url(https://slavic.media/assets/Raleway-SemiBold.ttf) format("truetype");
+  src: url(https://assets.slavic.media/fonts/Raleway-SemiBold.ttf)
+    format("truetype");
 }

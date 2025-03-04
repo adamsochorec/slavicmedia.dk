@@ -20,7 +20,7 @@
         </svg>
 
         <img
-          src="/img/marcel.jpg"
+          src="https://cdn.slavic.media/images/marcel/width=1500"
           alt="Portrait of Marcel H."
           title="Marcel H."
           class="reveal"
@@ -60,7 +60,7 @@
         </svg>
 
         <img
-          src="/img/adam.jpg"
+          src="https://cdn.slavic.media/images/adam/width=1500"
           alt="Portrait of Adam S."
           title="Adam S."
           class="reveal"
@@ -115,7 +115,7 @@
           <use href="#flag-slovakia"></use>
         </svg>
         <img
-          src="/img/dominik.jpg"
+          src="https://cdn.slavic.media/images/dominik/width=1500"
           alt="Portrait of Dominik T."
           title="Dominik T."
           class="reveal"
@@ -129,7 +129,7 @@
           Graphic<br class="hide-cta-max" />
           Designer
         </h6>
-<br class="hide-cta-max" />
+        <br class="hide-cta-max" />
         <div class="social-icons reveal">
           <a
             href="mailto:dominik@slavic.media"
@@ -160,7 +160,7 @@
           <use href="#flag-czechia"></use>
         </svg>
         <img
-          src="/img/ferdinand.jpg"
+          src="https://cdn.slavic.media/images/ferdinand/width=1500"
           alt="Portrait of Ferdinand P."
           title="Ferdiannd P."
           class="reveal"
@@ -172,9 +172,9 @@
         <h4 class="reveal" role="heading" aria-level="4">Ferdinand P.</h4>
         <h6 class="reveal">
           Sound<br class="hide-cta-max" />
-       Engineer   
+          Engineer
         </h6>
-<br class="hide-cta-max" />
+        <br class="hide-cta-max" />
         <div class="social-icons reveal">
           <a
             href="mailto:ferda.petrs@gmail.com"

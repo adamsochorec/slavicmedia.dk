@@ -19,10 +19,8 @@
         <i class="fa-solid fa-envelope"></i>
       </a>
     </div>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'social-icons.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'social-icons.php'; ?>
   </div>
   <hr role="separator" />
   <div class="footer-container">

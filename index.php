@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'head.php'; ?>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <title>Your Online Presence | Slavic Media</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="homepage">
     <!-- HEADER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'nav-bar.php'; ?>
     <!-- HEADER END -->
 
     <!-- FLAGS START -->
-    <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-      include $IPATH . 'flags.php';
-      ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'flags.php'; ?>
     <!-- FLAGS END -->
     <main>
       <!-- INTRO VIDEO START -->
@@ -40,7 +36,7 @@
             playsinline
             role="video"
             aria-describedby="Hero video"
-            poster="/img/showreel.png"
+            poster="https://cdn.slavic.media/images/thumbnail/width=800"
           ></video>
         </div>
       </article>
@@ -71,10 +67,8 @@
           </div>
         </div>
         <hr role="separator" />
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'swiper-clients.php';
-        ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-clients.php'; ?>
         <hr style="margin-top: 30px" role="separator" />
 
         <!-- FEATURES START -->
@@ -86,7 +80,7 @@
         >
           <a href="/video" class="gallery-item reveal">
             <img
-              src="/img/cover-video.jpg"
+              src="https://cdn.slavic.media/images/video/fit=contain,height=400"
               title="Video services cover."
               alt="Video services cover."
             />
@@ -106,7 +100,7 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="/img/cover-photo.jpg"
+              src="https://cdn.slavic.media/images/photo/fit=contain,height=400"
               alt="Photo services cover."
               title="Photo services cover."
             />
@@ -121,10 +115,8 @@
             </div>
           </a>
         </article>
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'contact-form.php';
-        ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'contact-form.php'; ?>
         <section class="flex-center">
           <a class="popup-with-form reveal" href="#request-a-proposal">
             <div class="cta">
@@ -162,10 +154,8 @@
         aria-label="Reviews"
       >
         <hr class="semi" />
-        <?php
-                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-                      include $IPATH . 'swiper-reviews.php';
-                      ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-reviews.php'; ?>
         <div class="flex-center reveal">
           <a
             class="cta"
@@ -202,7 +192,7 @@
           aria-label="Our Team Video"
           role="video"
           aria-describedby="Our Team cover video"
-          poster="/img/bts.png"
+          poster="https://cdn.slavic.media/images/behind-the-scenes/width=800"
         ></video>
         <article class="wrapper-standard">
           <h2 class="reveal">Our Team</h2>
@@ -232,19 +222,15 @@
         <hr class="semi" role="separator" />
         <!-- TEAM SECTION START -->
 
-        <?php
-                      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-                      include $IPATH . 'swiper-ourteam.php';
-                      ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-ourteam.php'; ?>
         <hr class="semi" role="separator" />
       </article>
     </main>
     <!-- FOOTER START -->
 
-    <?php
-                  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-                  include $IPATH . 'footer.php';
-                  ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'footer.php'; ?>
 
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"

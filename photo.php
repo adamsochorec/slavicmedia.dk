@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'head.php'; ?>
     <title>Photo | Slavic Media</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="photo">
     <!-- HEADER START -->
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'nav-bar.php';
-  ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'nav-bar.php'; ?>
     <!-- HEADER END -->
 
     <!-- FLAGS START -->
-    <?php
-     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-     include $IPATH . 'flags.php';
-     ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'flags.php'; ?>
     <!-- FLAGS END -->
     <main>
       <article class="wrapper-wide">
@@ -86,11 +82,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2021-11-13-02059.jpg"
+                src="https://cdn.slavic.media/images/2021-11-13-02059/fit=contain,width=1280"
                 title="2021 | Kolding, Denmark | art project"
               >
                 <img
-                  src="/img/2021-11-13-02059.jpg"
+                  src="https://cdn.slavic.media/images/2021-11-13-02059/fit=contain,width=1280"
                   title="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
                   alt="Close-up portrait of a man wearing a baseball cap leaning against a wall in Kolding."
                 />
@@ -100,9 +96,12 @@
               </a>
             </div>
             <div class="reveal">
-              <a src="/img/hvalp.jpg" title="2023 | Kolding, Denmark | Hvalp">
+              <a
+                src="https://cdn.slavic.media/images/hvalp/fit=contain,width=1280"
+                title="2023 | Kolding, Denmark | Hvalp"
+              >
                 <img
-                  src="/img/hvalp.jpg"
+                  src="https://cdn.slavic.media/images/hvalp/fit=contain,width=1280"
                   alt="Band HVALP album cover."
                   title="2023 | Kolding, Denmark | Hvalp"
                 />
@@ -115,11 +114,11 @@
           <div class="column column-padding-1">
             <div class="reveal">
               <a
-                src="/img/2021-08-24-01615.jpg"
+                src="https://cdn.slavic.media/images/2021-08-24-01615/fit=contain,width=1280"
                 title="2021 | Kolding, Denmark | art project"
               >
                 <img
-                  src="/img/2021-08-24-01615.jpg"
+                  src="https://cdn.slavic.media/images/2021-08-24-01615/fit=contain,width=1280"
                   title="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
                   alt="Close-up of a girl's face with colourful makeup around her eyes, making her look like a butterfly."
                 />
@@ -130,11 +129,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2021-09-05-01666.jpg"
+                src="https://cdn.slavic.media/images/2021-09-05-01666/fit=contain,width=1280"
                 title="2021 | Kolding, Denmark | art project"
               >
                 <img
-                  src="/img/2021-09-05-01666.jpg"
+                  src="https://cdn.slavic.media/images/2021-09-05-01666/fit=contain,width=1280"
                   title="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
                   alt="Close-up of a girl's face leaning on a mirror, creating a reflection, with a pink backdrop, photographed in Kolding."
                 />
@@ -145,11 +144,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2021-04-25-00693.jpg"
+                src="https://cdn.slavic.media/images/2021-04-25-00693/fit=contain,width=1280"
                 title="2021 | Prague, Czechia | Divadlo na Vinohradech"
               >
                 <img
-                  src="/img/2021-04-25-00693.jpg"
+                  src="https://cdn.slavic.media/images/2021-04-25-00693/fit=contain,width=1280"
                   title="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
                   alt="Close-up portrait of Tereza Císařová laying on a table with fries, photographed at Divadlo Na Vinohradech."
                 />
@@ -162,11 +161,11 @@
           <div class="column column-padding-2">
             <div class="reveal">
               <a
-                src="/img/2021-05-28-01020.jpg"
+                src="https://cdn.slavic.media/images/2021-05-28-01020/fit=contain,width=1280"
                 title="2021 | Prague, Czechia | art project"
               >
                 <img
-                  src="/img/2021-05-28-01020.jpg"
+                  src="https://cdn.slavic.media/images/2021-05-28-01020/fit=contain,width=1280"
                   title="Portrait of Zuzana Částková."
                   alt="Portrait of Zuzana Částková."
                 />
@@ -177,11 +176,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-11-13-00267.jpg"
+                src="https://cdn.slavic.media/images/2023-11-13-00267/fit=contain,width=1280"
                 title="2023 | Copenhagen, Denmark | Sort/Hvid"
               >
                 <img
-                  src="/img/2023-11-13-00267.jpg"
+                  src="https://cdn.slavic.media/images/2023-11-13-00267/fit=contain,width=1280"
                   title="Elf lady holding knife on Kim Kim's throat."
                   alt="Elf lady holding knife on Kim Kim's throat."
                 />
@@ -192,11 +191,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2021-04-14-00608.jpg"
+                src="https://cdn.slavic.media/images/2021-04-14-00608/fit=contain,width=1280"
                 title="2021 | Prague, Czechia | Divadlo na Vinohradech"
               >
                 <img
-                  src="/img/2021-04-14-00608.jpg"
+                  src="https://cdn.slavic.media/images/2021-04-14-00608/fit=contain,width=1280"
                   title="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
                   alt="David Steigerwald unclothed, seated in a cage at Divadlo Na Vinohradech, Prague."
                 />
@@ -209,11 +208,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2021-06-24-01233-2.jpg"
+                src="https://cdn.slavic.media/images/2021-06-24-01233-2/fit=contain,width=1280"
                 title="2023 | Prague, Czechia | Divadlo Disk"
               >
                 <img
-                  src="/img/2021-06-24-01233-2.jpg"
+                  src="https://cdn.slavic.media/images/2021-06-24-01233-2/fit=contain,width=1280"
                   alt="Sára Rychlíková at Divadlo Disk in Prague."
                   title="2023 | Prague, Czechia | Divadlo Disk"
                 />
@@ -224,11 +223,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-04-03-08707.jpg"
+                src="https://cdn.slavic.media/images/2023-04-03-08707/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-04-03-08707.jpg"
+                  src="https://cdn.slavic.media/images/2023-04-03-08707/fit=contain,width=1280"
                   title="2023 | Kolding, Denmark | Huset Fundament"
                   alt="Girl staring into camera holding old TV.."
                 />
@@ -264,11 +263,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2022-12-03-000465.jpg"
+                src="https://cdn.slavic.media/images/2023-12-03-00608/fit=contain,width=1280"
                 title="2023 | Björkliden, Sweden | Timetravels Ltd"
               >
                 <img
-                  src="/img/2022-12-03-000465.jpg"
+                  src="https://cdn.slavic.media/images/2023-12-03-00608/fit=contain,width=1280"
                   alt="Two guys in a survival shelter in tundra."
                   title="2023 | Björkliden, Sweden | Timetravels Ltd"
                 />
@@ -284,11 +283,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2024-03-10-00620.jpg"
+                src="https://cdn.slavic.media/images/2024-03-10-00620/fit=contain,width=1280"
                 title="2024 | Saariselkä, Finland | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-03-10-00620.jpg"
+                  src="https://cdn.slavic.media/images/2024-03-10-00620/fit=contain,width=1280"
                   alt="Kaunispää in Finnish Saariselkä, Northern Lapland."
                   title="2024 | Saariselkä, Finland | Timetravels Ltd"
                 />
@@ -304,11 +303,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-12-02-00459.jpg"
+                src="https://cdn.slavic.media/images/2023-12-02-00459/fit=contain,width=1280"
                 title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
               >
                 <img
-                  src="/img/2023-12-02-00459.jpg"
+                  src="https://cdn.slavic.media/images/2023-12-02-00459/fit=contain,width=1280"
                   alt="Pair of boys petting husky."
                   title="2023 | Kiruna, Sweden | Kiruna Sleddog Tours"
                 />
@@ -326,11 +325,11 @@
           <div class="column column-padding-1">
             <div class="reveal">
               <a
-                src="/img/2023-11-30-00006.jpg"
+                src="https://cdn.slavic.media/images/2023-11-30-00006/fit=contain,width=1280"
                 title="2023 | Narvik, Norway | Timetravels Ltd"
               >
                 <img
-                  src="/img/2023-11-30-00006.jpg"
+                  src="https://cdn.slavic.media/images/2023-11-30-00006/fit=contain,width=1280"
                   alt="Two guys with Norwegian fjord in the background."
                   title="2023 | Narvik, Norway | Timetravels Ltd"
                 />
@@ -346,11 +345,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-12-01-00250.jpg"
+                src="https://cdn.slavic.media/images/2023-12-01-00250/fit=contain,width=1280"
                 title="2023 | Björkliden, Sweden | Timetravels Ltd"
               >
                 <img
-                  src="/img/2023-12-01-00250.jpg"
+                  src="https://cdn.slavic.media/images/2023-12-01-00250/fit=contain,width=1280"
                   alt="Timetravels Herder Experience in Swedish Lapland."
                   title="2023 | Björkliden, Sweden | Timetravels Ltd"
                 />
@@ -366,11 +365,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2024-03-10-00496.jpg"
+                src="https://cdn.slavic.media/images/2024-03-10-00496/fit=contain,width=1280"
                 title="2024 | Inarijärvi, Finland | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-03-10-00496.jpg"
+                  src="https://cdn.slavic.media/images/2024-03-10-00496/fit=contain,width=1280"
                   alt="Ice skating on frozen Inarijärvi in Finnish Lapland."
                   title="2024 | Inarijärvi, Finland | Timetravels Ltd"
                 />
@@ -386,11 +385,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-12-01-00064.jpg"
+                src="https://cdn.slavic.media/images/2023-12-01-00064/fit=contain,width=1280"
                 title="2023 | Björkliden, Sweden | Timetravels Ltd"
               >
                 <img
-                  src="/img/2023-12-01-00064.jpg"
+                  src="https://cdn.slavic.media/images/2023-12-01-00064/fit=contain,width=1280"
                   alt="Ice fishing on frozen lake in Swedish Lapland."
                   title="2023 | Björkliden, Sweden | Timetravels Ltd"
                 />
@@ -408,11 +407,11 @@
           <div class="column column-padding-2">
             <div class="reveal">
               <a
-                src="/img/2024-03-10-00238.jpg"
+                src="https://cdn.slavic.media/images/2024-03-10-00238/fit=contain,width=1280"
                 title="2024 | Inari, Finland | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-03-10-00238.jpg"
+                  src="https://cdn.slavic.media/images/2024-03-10-00238/fit=contain,width=1280"
                   alt="Timetravels Reindeer Herder experience in Lapland."
                   title="2024 | Inari, Finland | Timetravels Ltd"
                 />
@@ -428,11 +427,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2022-10-15-00970.jpg"
+                src="https://cdn.slavic.media/images/2022-10-15-00970/fit=contain,width=1280"
                 title="2022 | Geta, Åland | Expedition Åland"
               >
                 <img
-                  src="/img/2022-10-15-00970.jpg"
+                  src="https://cdn.slavic.media/images/2022-10-15-00970/fit=contain,width=1280"
                   alt="Photo of a hiker standing on the rock in the forest with a hiking pole out of a tree branch."
                   title="2022 | Geta, Åland | Expedition Åland"
                 />
@@ -443,11 +442,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2024-05-11-00184.jpg"
+                src="https://cdn.slavic.media/images/2024-05-11-00184/fit=contain,width=1280"
                 title="2024 | Jostedal, Norway | Timetravels Ltd"
               >
                 <img
-                  src="/img/2024-05-11-00184.jpg"
+                  src="https://cdn.slavic.media/images/2024-05-11-00184/fit=contain,width=1280"
                   alt="Group of hikers descending down through the valley in mountains."
                   title="2024 | Jostedal, Norway | Timetravels Ltd"
                 />
@@ -460,11 +459,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2023-08-29-01113.jpg"
+                src="https://cdn.slavic.media/images/2023-08-29-01113/fit=contain,width=1280"
                 title="2023 | Dead Sea, Israel | Tourist Israel"
               >
                 <img
-                  src="/img/2023-08-29-01113.jpg"
+                  src="https://cdn.slavic.media/images/2023-08-29-01113/fit=contain,width=1280"
                   alt="Portrait of guide in Judean Derest nearby the Dead Sea."
                   title="2023 | Dead Sea, Israel | Tourist Israel"
                 />
@@ -475,11 +474,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-08-29-01096.jpg"
+                src="https://cdn.slavic.media/images/2023-08-29-01096/fit=contain,width=1280"
                 title="2023 | Nahal Bokek, Israel | Tourist Israel"
               >
                 <img
-                  src="/img/2023-08-29-01096.jpg"
+                  src="https://cdn.slavic.media/images/2023-08-29-01096/fit=contain,width=1280"
                   alt="Girl standing barefoot in the middle of oasis spring in the Judean Desert in Israel."
                   title="2023 | Nahal Bokek, Israel | Tourist Israel"
                 />
@@ -490,11 +489,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-08-29-01059.jpg"
+                src="https://cdn.slavic.media/images/2023-08-29-01059/fit=contain,width=1280"
                 title="2023 | Masada, Israel | Tourist Israel"
               >
                 <img
-                  src="/img/2023-08-29-01059.jpg"
+                  src="https://cdn.slavic.media/images/2023-08-29-01059/fit=contain,width=1280"
                   alt="Woman hiking on Masada in Israel."
                   title="2023 | Masada, Israel | Tourist Israel"
                 />
@@ -529,11 +528,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2023-09-09-10507.jpg"
+                src="https://cdn.slavic.media/images/2023-09-09-10507/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-09-09-10507.jpg"
+                  src="https://cdn.slavic.media/images/2023-09-09-10507/fit=contain,width=1280"
                   alt="Shirtless Anime Animeaux guitarist starring into a camera."
                   title="2023 | Kolding, Denmark | Huset Fundament"
                 />
@@ -545,11 +544,11 @@
 
             <div class="reveal">
               <a
-                src="/img/2021-06-24-01208.jpg"
+                src="https://cdn.slavic.media/images/2021-06-24-01208/fit=contain,width=1280"
                 title="2021 | Prague, Czechia | Divadlo Disk"
               >
                 <img
-                  src="/img/2021-06-24-01208.jpg"
+                  src="https://cdn.slavic.media/images/2021-06-24-01208/fit=contain,width=1280"
                   alt="Performance 'Hrdina Západu' at Divadlo Disk"
                 />
                 <svg class="flag note" title="Flag of Czechia">
@@ -561,11 +560,11 @@
           <div class="column column-padding-1">
             <div class="reveal">
               <a
-                src="/img/2023-09-01-00086.jpg"
+                src="https://cdn.slavic.media/images/2023-09-01-00086/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Kolding Kulturnat"
               >
                 <img
-                  src="/img/2023-09-01-00086.jpg"
+                  src="https://cdn.slavic.media/images/2023-09-01-00086/fit=contain,width=1280"
                   alt="Couple listening to stage performance."
                   title="2023 | Kolding, Denmark | Kolding Kulturnat"
                 />
@@ -581,11 +580,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-09-09-10524.jpg"
+                src="https://cdn.slavic.media/images/2023-09-09-10524/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-09-09-10524.jpg"
+                  src="https://cdn.slavic.media/images/2023-09-09-10524/fit=contain,width=1280"
                   alt="Anime Animeaux frontman holding a microphone on a stage."
                   title="2023 | Kolding, Denmark | Huset Fundament"
                 />
@@ -601,11 +600,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-09-29-00163.jpg"
+                src="https://cdn.slavic.media/images/2023-09-29-00163/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-09-29-00163.jpg"
+                  src="https://cdn.slavic.media/images/2023-09-29-00163/fit=contain,width=1280"
                   alt="Stage performance crowd."
                   title="2023 | Kolding, Denmark | Huset Fundament"
                 />
@@ -623,11 +622,11 @@
           <div class="column column-padding-2">
             <div class="reveal">
               <a
-                src="/img/2023-06-22-00033.jpg"
+                src="https://cdn.slavic.media/images/2023-06-22-00033/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-06-22-00033.jpg"
+                  src="https://cdn.slavic.media/images/2023-06-22-00033/fit=contain,width=1280"
                   alt="Two ladies mixing liquids in glass cups."
                   title="2023 | Kolding, Denmark | Huset Fundament"
                 />
@@ -638,11 +637,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2022-06-28-00708.jpg"
+                src="https://cdn.slavic.media/images/2022-06-28-00708/fit=contain,width=1280"
                 title="2023 | Roskilde, Denmark | Rosklide Festival"
               >
                 <img
-                  src="/img/2022-06-28-00708.jpg"
+                  src="https://cdn.slavic.media/images/2022-06-28-00708/fit=contain,width=1280"
                   alt="Roskilde Festival."
                   title="2023 | Roskilde, Denmark | Rosklide Festival"
                 />
@@ -653,11 +652,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-05-12-08965.jpg"
+                src="https://cdn.slavic.media/images/2023-05-12-08965/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-05-12-08965.jpg"
+                  src="https://cdn.slavic.media/images/2023-05-12-08965/fit=contain,width=1280"
                   title="2023 | Kolding, Denmark | Huset Fundament"
                   alt="Artist lited by light looking like a Jesus."
                 />
@@ -670,11 +669,11 @@
           <div class="column">
             <div class="reveal">
               <a
-                src="/img/2023-05-27-00025.jpg"
+                src="https://cdn.slavic.media/images/2023-05-27-00025/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-05-27-00025.jpg"
+                  src="https://cdn.slavic.media/images/2023-05-27-00025/fit=contain,width=1280"
                   title="2023 | Kolding, Denmark | Huset Fundament"
                   alt="Lady enjoying live performance in Pitstop."
                 />
@@ -685,11 +684,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-09-22-00026.jpg"
+                src="https://cdn.slavic.media/images/2023-09-22-00026/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-09-22-00026.jpg"
+                  src="https://cdn.slavic.media/images/2023-09-22-00026/fit=contain,width=1280"
                   title="2023 | Kolding, Denmark | Huset Fundament"
                   alt="Singing performer in Pitstop."
                 />
@@ -700,11 +699,11 @@
             </div>
             <div class="reveal">
               <a
-                src="/img/2023-05-12-08969.jpg"
+                src="https://cdn.slavic.media/images/2023-05-12-08969/fit=contain,width=1280"
                 title="2023 | Kolding, Denmark | Huset Fundament"
               >
                 <img
-                  src="/img/2023-05-12-08969.jpg"
+                  src="https://cdn.slavic.media/images/2023-05-12-08969/fit=contain,width=1280"
                   title="2023 | Kolding, Denmark | Huset Fundament"
                   alt="Band playing behind foggy glass."
                 />
@@ -716,10 +715,8 @@
           </div>
         </div>
       </article>
-      <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-      include $IPATH . 'contact-form.php';
-      ?>
+      <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+      $IPATH . 'contact-form.php'; ?>
       <section class="double-cta">
         <a class="popup-with-form reveal" href="#request-a-proposal">
           <div class="cta">
@@ -743,10 +740,8 @@
     </main>
     <!-- FOOTER START -->
 
-    <?php
-   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-   include $IPATH . 'footer.php';
-   ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'footer.php'; ?>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"

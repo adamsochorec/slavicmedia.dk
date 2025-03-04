@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'head.php';
-  ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'head.php'; ?>
     <title>For Press | Slavic Media</title>
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="press">
     <!-- HEADER START -->
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'nav-bar.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'nav-bar.php'; ?>
     <!-- HEADER END -->
 
     <main>
@@ -56,7 +54,7 @@
           <!-- BRAND GUIDE START -->
           <a
             class="gallery-item"
-            href="/assets/brand-guide.pdf"
+            href="https://assets.slavic.media/brand-guide.pdf"
             rel="noopener noreferrer nofollow"
             target="_blank"
             aria-label="Link to Brand Guide"
@@ -77,7 +75,7 @@
           <!-- CREDIT GUIDE START -->
           <a
             class="gallery-item"
-            href="/assets/credit-guide.pdf"
+            href="https://assets.slavic.media/credit-guide.pdf"
             rel="noopener noreferrer nofollow"
             target="_blank"
             aria-label="Link to Credit Guide"
@@ -98,7 +96,7 @@
           <!-- PRESS KIT START -->
           <a
             class="gallery-item"
-            href="/assets/press-kit.zip"
+            href="https://assets.slavic.media/press-kit.zip"
             target="_blank"
             aria-label="Link to Press Kit"
           >
@@ -118,10 +116,8 @@
       </article>
     </main>
     <!-- FOOTER START -->
-    <?php
-          $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-          include $IPATH . 'footer.php';
-          ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'footer.php'; ?>
     <!-- FOOTER END -->
   </body>
 </html>

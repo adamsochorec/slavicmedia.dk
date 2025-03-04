@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php
-    $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-    include $IPATH . 'head.php';
-    ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'head.php'; ?>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -13,17 +11,13 @@
   </head>
   <body id="video">
     <!-- HEADER START -->
-    <?php
-  $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-  include $IPATH . 'nav-bar.php';
-  ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'nav-bar.php'; ?>
     <!-- HEADER END -->
 
     <!-- FLAGS START -->
-    <?php
-     $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-     include $IPATH . 'flags.php';
-     ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'flags.php'; ?>
     <!-- FLAGS END -->
     <main>
       <article class="wrapper-wide">
@@ -82,10 +76,8 @@
       <hr class="semi" role="separator" />
 
       <article class="wrapper-wide" id="reels">
-        <?php
-        $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-        include $IPATH . 'swiper-reels.php';
-        ?>
+        <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
+        include $IPATH . 'swiper-reels.php'; ?>
         <div id="showreel"></div>
       </article>
       <!-- GALLERY 1 -->
@@ -112,7 +104,10 @@
         aria-label="Video Gallery"
       >
         <div class="gallery-item reveal">
-          <img src="/img/cover-fynutzu.jpg" alt="Fynutzu Music" />
+          <img
+            src="https://cdn.slavic.media/images/tech-the-night/fit=contain,width=1280"
+            alt="Fynutzu Music"
+          />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
             <svg class="flag note" title="Flag of Denmark">
@@ -129,7 +124,10 @@
         </div>
         <!-- GALLERY ITEM 1.2 -->
         <div class="gallery-item reveal">
-          <img src="/img/cover-norwegianfjords.jpg" alt="Timetravels." />
+          <img
+            src="https://cdn.slavic.media/images/norwegian-fjords/fit=contain,width=1280"
+            alt="Timetravels."
+          />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
             <svg class="flag note" title="Flag of Norway">
@@ -146,7 +144,10 @@
         </div>
         <!-- GALLERY ITEM 1.3 -->
         <div class="gallery-item reveal">
-          <img src="/img/cover-finnishlapland.jpg" alt="Timetravels." />
+          <img
+            src="https://cdn.slavic.media/images/finnish-lapland/fit=contain,width=1280"
+            alt="Timetravels."
+          />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
             <svg
@@ -167,7 +168,10 @@
         </div>
         <!-- GALLERY ITEM 1.4 -->
         <div class="gallery-item reveal">
-          <img src="/img/cover-swedishlapland.jpg" alt="Timetravels." />
+          <img
+            src="https://cdn.slavic.media/images/swedish-lapland/fit=contain,width=1280"
+            alt="Timetravels."
+          />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
             <svg
@@ -212,7 +216,10 @@
         aria-label="Video Gallery"
       >
         <div class="gallery-item reveal">
-          <img src="/img/cover-huskyfarm.jpg" alt="Timetravels." />
+          <img
+            src="https://cdn.slavic.media/images/husky-farm-veskoniemi/fit=contain,width=1280"
+            alt="Timetravels."
+          />
           <div class="gallery-item-caption">
             <i class="fa-regular fa-circle-play bubble"> </i>
             <svg class="flag note" title="Flag of Finland">
@@ -229,7 +236,7 @@
         <!-- GALLERY ITEM 2.2 -->
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
-            src="img/cover-husetfundament.jpg"
+            src="https://cdn.slavic.media/images/crowdfunding-campaign/fit=contain,width=1280"
             alt="Showreel of a cultural volunteer organisation.."
           />
           <div class="gallery-item-caption">
@@ -255,10 +262,8 @@
           </div>
         </div>
       </article>
-      <?php
-      $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-      include $IPATH . 'contact-form.php';
-      ?>
+      <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+      $IPATH . 'contact-form.php'; ?>
       <section class="flex-center">
         <a class="popup-with-form reveal" href="#test-form">
           <div class="cta">
@@ -269,10 +274,8 @@
     </main>
     <!-- FOOTER START -->
 
-    <?php
-   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
-   include $IPATH . 'footer.php';
-   ?>
+    <?php $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/'; include
+    $IPATH . 'footer.php'; ?>
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       role="script"

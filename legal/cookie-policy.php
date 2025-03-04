@@ -5,7 +5,8 @@
   $IPATH = $_SERVER['DOCUMENT_ROOT'] . '/assets/components/';
   include $IPATH . 'head.php';
   ?>
-    <title>Cookie Policy | Slavic Media</title>
+    <title>Cookie Policy | Slavic Media</title>  <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
   </head>
   <body id="legal">
     <!-- HEADER START -->

@@ -1,7 +1,77 @@
 <section class="swiper swiper-reviews reveal">
-  <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
-    <!-- Slides -->
+    <!-- Slide -->
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            alt="FranklinCovey, Leadership company"
+            title="FranklinCovey, Leadership company"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjU0bBUSLZrfY0whwOy3uybp1XNy8_EVRWagirofxyijv5jTDmAs=s72-c-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://www.google.com/maps/contrib/100164207852691879240/reviews?hl=en-GB"
+              >Silvija V.</a
+            ><br />Marketing Specialist<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        Timetravels company that specializes on tours to Scandinavia and Lapland
+        had the pleasure of working with an incredible team of young
+        videographers. They were not only highly professional but also extremely
+        thoughtful in their approach, paying close attention to every detail to
+        ensure they captured the essence of this breathtaking region. What stood
+        out the most was their dedication to understanding our vision. They took
+        the time to get to know our itinerary and goals, ensuring that each
+        moment they filmed was meaningful and aligned with our overall message.
+        We highly recommend these videographers to anyone.
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
+    </div>
+    <!-- Slide -->
+    <div class="swiper-slide">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="customer-img"
+            alt="FranklinCovey, Leadership company"
+            title="FranklinCovey, Leadership company"
+            src="https://lh3.googleusercontent.com/a-/ALV-UjXLAMWur_dVziFzMUVHcio8h0BMkgbW8sUpw4KDFEcrpkztXIu8=s72-c-rp-mo-br100"
+          />
+        </div>
+        <div class="grid-item">
+          <p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href="https://www.google.com/maps/contrib/110970382095165132586/reviews?hl=en-GB"
+              >Žiga B.</a
+            ><br />Artist<br />
+          </p>
+          <div class="stars" data-rating="5"></div>
+        </div>
+      </div>
+      <p class="rewiews-message">
+        I’m beyond satisfied with the work Slavic Media did for my exhibition!
+        They captured the event beautifully, with photos that truly reflect the
+        atmosphere and evoked emotions. Their post-production work was equally
+        impressive, enhancing every detail and bringing the images to life. The
+        team was professional, easy to work with, and made the whole process
+        smooth. I couldn’t be happier with the results—thank you, Slavic Media!
+      </p>
+      <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
+    </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -33,6 +103,9 @@
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -61,6 +134,9 @@
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -90,6 +166,9 @@
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -119,6 +198,9 @@
       </p>
       <!-- <span class="quotes"><i class="fa-solid fa-quote-right"></i></span>-->
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -143,6 +225,9 @@
       </div>
       <p class="rewiews-message">Collaboration with pros :)</p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -171,6 +256,9 @@
         would recommend 🙌
       </p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -197,6 +285,9 @@
         They were amazing to work with. Definitely not the last collab.
       </p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -225,6 +316,9 @@
         guy just straight nailed it.
       </p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -249,6 +343,9 @@
       </div>
       <p class="rewiews-message">Great photos! 🙏🔥</p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">
@@ -278,6 +375,9 @@
         anbefalinger herfra.
       </p>
     </div>
+
+    <!-- Slide -->
+
     <div class="swiper-slide">
       <div class="grid-container">
         <div class="grid-item">

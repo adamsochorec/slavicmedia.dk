@@ -1,4 +1,3 @@
-// Executes when the document is ready
 $(document).ready(function () {
   // Initializes Magnific Popup for image-based galleries
   $(".popup-gallery").magnificPopup({
