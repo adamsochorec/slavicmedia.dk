@@ -105,7 +105,7 @@
       >
         <div class="gallery-item reveal">
           <img
-            src="https://cdn.slavic.media/images/tech-the-night/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/tech-the-night/public"
             alt="Fynutzu Music"
           />
           <div class="gallery-item-caption">
@@ -125,7 +125,7 @@
         <!-- GALLERY ITEM 1.2 -->
         <div class="gallery-item reveal">
           <img
-            src="https://cdn.slavic.media/images/norwegian-fjords/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/norwegian-fjords/public"
             alt="Timetravels."
           />
           <div class="gallery-item-caption">
@@ -145,7 +145,7 @@
         <!-- GALLERY ITEM 1.3 -->
         <div class="gallery-item reveal">
           <img
-            src="https://cdn.slavic.media/images/finnish-lapland/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/finnish-lapland/public"
             alt="Timetravels."
           />
           <div class="gallery-item-caption">
@@ -169,7 +169,7 @@
         <!-- GALLERY ITEM 1.4 -->
         <div class="gallery-item reveal">
           <img
-            src="https://cdn.slavic.media/images/swedish-lapland/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/swedish-lapland/public"
             alt="Timetravels."
           />
           <div class="gallery-item-caption">
@@ -217,7 +217,7 @@
       >
         <div class="gallery-item reveal">
           <img
-            src="https://cdn.slavic.media/images/husky-farm-veskoniemi/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/husky-farm-veskoniemi/public"
             alt="Timetravels."
           />
           <div class="gallery-item-caption">
@@ -236,7 +236,7 @@
         <!-- GALLERY ITEM 2.2 -->
         <div class="gallery-item reveal" aria-label="Huset Fundament 2023">
           <img
-            src="https://cdn.slavic.media/images/crowdfunding-campaign/fit=contain,width=1280"
+            src="https://cdn.slavic.media/img/crowdfunding-campaign/public"
             alt="Showreel of a cultural volunteer organisation.."
           />
           <div class="gallery-item-caption">

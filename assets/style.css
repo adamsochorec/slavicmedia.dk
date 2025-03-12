@@ -996,7 +996,7 @@ footer .language-container {
   width: 100%;
   height: 80%;
   overflow: hidden;
-  background-image: url(https://cdn.slavic.media/images/thumbnail/width=1200);
+  background-image: url(https://cdn.slavic.media/img/thumbnail/width=1200);
   background-position: center;
   background-size: cover;
 }
@@ -1195,13 +1195,13 @@ footer .language-container {
   transform: unset;
 }
 #gallery-press #brand-guide {
-  background-image: url(https://cdn.slavic.media/images/brand-guide/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/brand-guide/fit=contain,height=400);
 }
 #gallery-press #credit-guide {
-  background-image: url(https://cdn.slavic.media/images/credit-guide/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/credit-guide/fit=contain,height=400);
 }
 #gallery-press #press-kit {
-  background-image: url(https://cdn.slavic.media/images/press-kit/fit=contain,height=400);
+  background-image: url(https://cdn.slavic.media/img/press-kit/fit=contain,height=400);
 }
 #gallery-press i:hover {
   color: rgb(var(--white-color));

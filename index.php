@@ -36,7 +36,7 @@
             playsinline
             role="video"
             aria-describedby="Hero video"
-            poster="https://cdn.slavic.media/images/thumbnail/width=800"
+            poster="https://cdn.slavic.media/img/thumbnail/width=800"
           ></video>
         </div>
       </article>
@@ -80,7 +80,7 @@
         >
           <a href="/video" class="gallery-item reveal">
             <img
-              src="https://cdn.slavic.media/images/video/fit=contain,height=400"
+              src="https://cdn.slavic.media/img/video/fit=contain,height=400"
               title="Video services cover."
               alt="Video services cover."
             />
@@ -100,7 +100,7 @@
             aria-label="Huset Fundament 2023"
           >
             <img
-              src="https://cdn.slavic.media/images/photo/fit=contain,height=400"
+              src="https://cdn.slavic.media/img/photo/fit=contain,height=400"
               alt="Photo services cover."
               title="Photo services cover."
             />
@@ -192,7 +192,7 @@
           aria-label="Our Team Video"
           role="video"
           aria-describedby="Our Team cover video"
-          poster="https://cdn.slavic.media/images/behind-the-scenes/width=800"
+          poster="https://cdn.slavic.media/img/behind-the-scenes/width=800"
         ></video>
         <article class="wrapper-standard">
           <h2 class="reveal">Our Team</h2>

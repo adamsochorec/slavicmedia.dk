@@ -20,7 +20,7 @@
         </svg>
 
         <img
-          src="https://cdn.slavic.media/images/marcel/width=1500"
+          src="https://cdn.slavic.media/img/marcel/width=1500"
           alt="Portrait of Marcel H."
           title="Marcel H."
           class="reveal"
@@ -60,7 +60,7 @@
         </svg>
 
         <img
-          src="https://cdn.slavic.media/images/adam/width=1500"
+          src="https://cdn.slavic.media/img/adam/width=1500"
           alt="Portrait of Adam S."
           title="Adam S."
           class="reveal"
@@ -115,7 +115,7 @@
           <use href="#flag-slovakia"></use>
         </svg>
         <img
-          src="https://cdn.slavic.media/images/dominik/width=1500"
+          src="https://cdn.slavic.media/img/dominik/width=1500"
           alt="Portrait of Dominik T."
           title="Dominik T."
           class="reveal"
@@ -160,7 +160,7 @@
           <use href="#flag-czechia"></use>
         </svg>
         <img
-          src="https://cdn.slavic.media/images/ferdinand/width=1500"
+          src="https://cdn.slavic.media/img/ferdinand/width=1500"
           alt="Portrait of Ferdinand P."
           title="Ferdiannd P."
           class="reveal"

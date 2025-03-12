@@ -6,7 +6,7 @@
           class="logo"
           alt="Logo Slavic Media"
           title="Logo Slavic Media"
-          src="https://cdn.slavic.media/images/Primary-1/height=80"
+          src="https://cdn.slavic.media/img/Primary-1/height=80"
         />
       </a>
       <button
