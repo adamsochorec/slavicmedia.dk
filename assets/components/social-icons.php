@@ -34,4 +34,13 @@
   >
     <i title="Instagram" class="fa-brands fa-instagram fa-xl"></i>
   </a>
+  <a
+    href="https://www.github.com/adamsochorec/slavicmedia/"
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+    aria-label="Slavic Media GitHub repository"
+    role="link"
+  >
+    <i title="GitHub" class="fa-brands fa-github fa-xl"></i>
+  </a>
 </div>
